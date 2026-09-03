@@ -217,19 +217,18 @@ def build(target: date, days: int, *, out_dir: Path, use_odds: bool, cache_dir: 
         written_dates.append(d.isoformat())
         print(f"  ✓ {d.isoformat()}: {len(day_games)} jogo(s) listado(s)")
 
-    # limpa arquivos de dias vazios (ex.: testes antigos) que não são a data alvo
-    for p in out_dir.glob("20*.json"):
-        try:
-            if json.loads(p.read_text())["count"] == 0 and p.stem not in written_dates:
-                p.unlink()
-        except (json.JSONDecodeError, KeyError):
-            pass
+    # remove arquivos de dias sem jogo (alvos vazios e testes antigos),
+    # mantendo sempre ao menos o primeiro dia alvo p/ o site não quebrar
+    keep = written_dates[0]
+    for p in list(out_dir.glob("20*.json")):
+        if _safe_count(p) == 0 and p.stem != keep:
+            p.unlink()
 
-    # latest = primeira data com jogos, senão a data alvo
+    # latest = primeiro dia alvo com jogo, senão o primeiro dia alvo
+    remaining = sorted(p.stem for p in out_dir.glob("20*.json"))
     latest_date = next(
-        (d for d in written_dates
-         if json.loads((out_dir / f"{d}.json").read_text())["count"] > 0),
-        written_dates[0],
+        (d for d in remaining if d >= keep and _safe_count(out_dir / f"{d}.json") > 0),
+        keep,
     )
     (out_dir / "latest.json").write_text((out_dir / f"{latest_date}.json").read_text())
 

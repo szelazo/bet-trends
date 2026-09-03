@@ -93,19 +93,18 @@ function card(g, bankroll) {
   <details class="card">
     <summary>
       <div class="card-head">
-        <span>${g.league.name} · ${kickoff(g.kickoff_local)}</span>
-        <span class="conf ${confClass(conf)}">${conf}</span>
+        <span class="comp">${g.league.name} · ${kickoff(g.kickoff_local)}</span>
+        <span class="meter" title="confiança ${conf}/100">
+          <span class="track"><span class="fill ${confClass(conf)}" style="width:${Math.max(6, conf)}%"></span></span>
+          <span class="val">${conf}</span>
+        </span>
       </div>
       <div class="match">
-        <span>${g.home_team.name}</span>
-        <span class="pos">${g.home_team.position ? `${g.home_team.position}º` : ""}</span>
-        <span class="x">×</span>
-        <span>${g.away_team.name}</span>
-        <span class="pos">${g.away_team.position ? `${g.away_team.position}º` : ""}</span>
+        <span>${g.home_team.name}</span><span class="pos">${g.home_team.position ? `${g.home_team.position}º` : ""}</span><span class="x">×</span><span>${g.away_team.name}</span><span class="pos">${g.away_team.position ? `${g.away_team.position}º` : ""}</span>
       </div>
       <div class="pick">
         <span class="label">${p.label}</span>
-        <span class="odds"><span class="odd">${oddTxt}</span>${evTxt}</span>
+        <span class="odds"><span class="odd${p.odd ? "" : " none"}">${oddTxt}</span>${evTxt}</span>
       </div>
       <div class="badges">${badges.join("")}</div>
     </summary>
