@@ -1,27 +1,14 @@
 "use strict";
 
 const $ = (s) => document.querySelector(s);
-const PREF_KEY = "bettrends.filters";
 
 const state = {
   index: null,
   day: null,
   date: null,
-  counts: {},          // date -> nº de jogos (pré-carregado do index quando houver)
-  filters: loadPrefs(),
+  counts: {},          // date -> nº de palpites
 };
 
-function loadPrefs() {
-  const def = { league: "", market: "" };
-  try {
-    return { ...def, ...JSON.parse(localStorage.getItem(PREF_KEY) || "{}") };
-  } catch {
-    return def;
-  }
-}
-function savePrefs() {
-  try { localStorage.setItem(PREF_KEY, JSON.stringify(state.filters)); } catch { /* modo privado */ }
-}
 
 async function fetchJSON(path) {
   const res = await fetch(`${path}?t=${Date.now()}`);
@@ -101,11 +88,13 @@ function side(t, cls) {
 function card(g) {
   const p = g.pick;
   const oddTxt = p.odd ? p.odd.toFixed(2) : "sem odd";
+  const filler = !!g.below_bar;
+  const pk = filler ? "Fora dos critérios do dia" : `Palpite${p.low_conviction ? " · pouca convicção" : ""}`;
 
   const top = (g.aligned_trends || []).slice().sort((a, b) => b.strength - a.strength)[0];
   const why = top
     ? `<p class="why"><span class="m">▸</span> ${top.team ? `<b>${top.team}:</b> ` : ""}${top.label}</p>`
-    : "";
+    : (filler ? '<p class="why">Sem mismatch claro — entrou só por não ter opção melhor hoje.</p>' : "");
 
   const probs = g.model.probs;
   const probbar = `
@@ -122,7 +111,7 @@ function card(g) {
     <div class="row"><span>${a.label}</span><b>${pct(a.model_prob)}${a.odd ? ` · ${a.odd.toFixed(2)}` : ""}</b></div>`).join("");
 
   return `
-  <details class="card">
+  <details class="card${filler ? " filler" : ""}">
     <summary>
       <div class="card-top">
         <span class="comp">${g.league.name}${g.is_cup ? " · copa" : ""}</span>
@@ -135,7 +124,7 @@ function card(g) {
       </div>
       <div class="pick">
         <span class="pl">
-          <span class="pk">Palpite${p.low_conviction ? " · pouca convicção" : ""}</span>
+          <span class="pk">${pk}</span>
           <span class="plabel">${p.label}</span>
         </span>
         <span class="odd${p.odd ? "" : " none"}">${oddTxt}</span>
@@ -171,28 +160,24 @@ function card(g) {
 }
 
 // ── filtros / lista ──────────────────────────────────────────────────────────
-function applyFilters(games) {
-  const f = state.filters;
-  return games.filter((g) => {
-    if (f.league && g.league.name !== f.league) return false;
-    if (f.market && g.pick.family !== f.market) return false;
-    return true;
-  });
-}
-
 function render() {
   const list = $("#list");
   if (!state.day) { list.innerHTML = '<p class="loading">Carregando…</p>'; return; }
 
-  const games = applyFilters(state.day.games || []);
-  list.innerHTML = games.map(card).join("");
+  const games = state.day.games || [];
+  const clearCount = state.day.clear_count ?? games.filter((g) => g.clear).length;
+  const note = clearCount === 0 && games.length
+    ? '<p class="daynote">Nenhum jogo bateu os critérios hoje (time claramente melhor × time mal, com forma confirmando). Abaixo, os menos arriscados — pense duas vezes.</p>'
+    : "";
+  list.innerHTML = note + games.map(card).join("");
   $("#empty").hidden = games.length > 0;
   $("#dayHeading").textContent = state.date ? fmtLong(state.date) : "—";
 
   const gen = state.day.generated_at ? new Date(state.day.generated_at) : null;
   $("#meta").textContent = [
-    `${state.day.count} jogos`,
-    gen ? `${gen.toLocaleDateString("pt-BR", { day: "2-digit", month: "2-digit" })} ${gen.toLocaleTimeString("pt-BR", { hour: "2-digit", minute: "2-digit" })}` : "",
+    `${clearCount} clara${clearCount === 1 ? "" : "s"}`,
+    state.day.day_total ? `de ${state.day.day_total} jogos` : null,
+    gen ? gen.toLocaleDateString("pt-BR", { day: "2-digit", month: "2-digit" }) : null,
   ].filter(Boolean).join(" · ");
 }
 
@@ -220,13 +205,6 @@ function renderDateStrip() {
   if (active) active.scrollIntoView({ inline: "center", block: "nearest" });
 }
 
-function populateLeagueFilter() {
-  const sel = $("#leagueFilter");
-  const leagues = [...new Set((state.day.games || []).map((g) => g.league.name))].sort();
-  sel.innerHTML = '<option value="">Todas as ligas</option>' +
-    leagues.map((l) => `<option value="${l}"${l === state.filters.league ? " selected" : ""}>${l}</option>`).join("");
-}
-
 async function loadDate(date) {
   state.date = date;
   location.hash = date;
@@ -235,9 +213,8 @@ async function loadDate(date) {
   } catch {
     state.day = { date, count: 0, games: [] };
   }
-  state.counts[date] = state.day.count;
+  state.counts[date] = state.day.clear_count ?? state.day.count;
   renderDateStrip();
-  populateLeagueFilter();
   render();
 }
 
@@ -246,12 +223,6 @@ function wire() {
     const b = e.target.closest("[data-d]");
     if (b) loadDate(b.dataset.d);
   });
-
-  for (const [id, key] of [["leagueFilter", "league"], ["marketFilter", "market"]]) {
-    const el = $("#" + id);
-    el.value = state.filters[key];
-    el.onchange = () => { state.filters[key] = el.value; savePrefs(); render(); };
-  }
 }
 
 async function boot() {

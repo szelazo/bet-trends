@@ -103,7 +103,7 @@ S365 = {
     "history_days": 18,        # janela passada p/ montar histórico (máx ~20 antes de 504)
     "request_gap_s": 0.25,     # pausa entre requisições
     "cache_ttl_s": 1800,
-    "odds_days_ahead": 1,      # busca odds só p/ jogos até N dias à frente
+    "odds_days_ahead": 2,      # busca odds só p/ jogos até N dias à frente
 }
 
 # ── the-odds-api ──────────────────────────────────────────────────────────────
@@ -155,6 +155,20 @@ SCORING = {
     # se a dupla chance recomendada paga muito pouco, troca pelo resultado seco
     "min_dc_odd": 1.25,
     "straight_switch_prob": 0.55,        # prob. mínima do resultado seco p/ a troca
+}
+
+# ── "Aposta clara" — só entra na lista jogo com edge óbvio ────────────────────
+# Exige: (1) diferença grande na tabela  E  (2) forma dos dois lados no mesmo sentido.
+CLEAR_EDGE = {
+    "min_table_gap": 5,          # diferença mínima de posição
+    "fav_pos_frac": 0.45,        # favorito no topo até 45% da tabela
+    "dog_pos_frac": 0.55,        # zebra da metade de baixo pra frente
+    "fav_form_ppg": 1.5,         # pts/jogo do favorito nos últimos 5 (W=3,D=1,L=0)
+    "dog_form_ppg": 0.9,         # teto de pts/jogo da zebra nos últimos 5
+    "cup_fav_form_ppg": 1.9,     # sem tabela (copas): exige forma ainda mais separada
+    "cup_dog_form_ppg": 0.7,
+    "max_per_day": 5,            # teto de palpites listados por dia
+    "min_per_day": 3,            # se menos que isso passam, completa com os "menos ruins"
 }
 
 HTTP_HEADERS = {

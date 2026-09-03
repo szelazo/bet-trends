@@ -179,19 +179,6 @@ body {
 .date-chip[aria-selected="true"] .cnt { color: color-mix(in srgb, var(--on-accent) 75%, transparent); }
 .date-chip:active { transform: scale(0.95); }
 
-/* ── filters ─────────────────────────────────────────────────────────────── */
-.filters {
-  position: relative;
-  z-index: 1;
-  max-width: 760px;
-  margin: 0.5rem auto 0.2rem;
-  padding: 0 1.1rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.55rem;
-  align-items: center;
-}
-
 .banner {
   position: relative;
   z-index: 1;
@@ -206,45 +193,28 @@ body {
   width: calc(100% - 2.2rem);
 }
 
-.selects { display: flex; gap: 0.5rem; flex: 1; min-width: 0; }
-.sel { position: relative; flex: 1; min-width: 0; }
-.sel::after {
-  content: "";
-  position: absolute;
-  right: 0.7rem;
-  top: 50%;
-  width: 0.55rem;
-  height: 0.55rem;
-  transform: translateY(-65%) rotate(45deg);
-  border-right: 2px solid var(--muted);
-  border-bottom: 2px solid var(--muted);
-  pointer-events: none;
-}
-.sel select {
-  appearance: none;
-  width: 100%;
-  background: var(--surface);
-  border: 1px solid var(--line);
-  color: var(--text);
-  font: 500 0.8rem/1 var(--f-text);
-  padding: 0.5rem 1.8rem 0.5rem 0.75rem;
-  border-radius: 10px;
-  cursor: pointer;
-  text-overflow: ellipsis;
-}
-.sel select:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
-
 /* ── list & cards ────────────────────────────────────────────────────────── */
 .list {
   position: relative;
   z-index: 1;
   max-width: 760px;
-  margin: 0.6rem auto 0;
+  margin: 0.8rem auto 0;
   padding: 0 1.1rem;
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
 }
+.daynote {
+  background: var(--accent-tint);
+  color: var(--text-dim);
+  font-size: 0.8rem;
+  line-height: 1.45;
+  padding: 0.75rem 0.9rem;
+  border-radius: 12px;
+}
+.card.filler { opacity: 0.66; }
+.card.filler .pick { background: var(--surface-2); }
+.card.filler .pk { color: var(--muted); }
 
 .card {
   position: relative;

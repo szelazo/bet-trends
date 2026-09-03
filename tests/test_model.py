@@ -1,5 +1,5 @@
 from app.model import _effective_played, league_avg_goals, predict
-from app.recommend import evaluate
+from app.recommend import clear_edge, evaluate, form_ppg
 from app.util import match_teams, poisson_pmf, score_matrix
 
 
@@ -83,3 +83,45 @@ def test_prev_season_boosts_effective_sample():
 def test_team_name_matching():
     assert match_teams("Atlético-MG", "Flamengo", "Atletico Mineiro", "Flamengo RJ") > 0.6
     assert match_teams("Boca Juniors", "River Plate", "Palmeiras", "Santos") < 0.4
+
+
+def _rec(results):
+    return [
+        {"result": r, "gf": 1 if r != "L" else 0, "ga": 0 if r == "W" else 1,
+         "home": i % 2 == 0, "opponent": "x", "date": f"2026-08-2{i}"}
+        for i, r in enumerate(results)
+    ]
+
+
+def test_form_ppg():
+    assert form_ppg(_rec("WWWWW")) == 3.0
+    assert form_ppg(_rec("LLLLL")) == 0.0
+    assert form_ppg(_rec("WDLWD")) == (3 + 1 + 0 + 3 + 1) / 5
+    assert form_ppg([]) is None
+
+
+def test_clear_edge_true_when_good_vs_bad():
+    home = {"position": 2}   # favorito, topo
+    away = {"position": 17}  # zebra, fundo
+    assert clear_edge("HOME", home, away, _rec("WWWDW"), _rec("LLDLL"),
+                      table_size=20, is_cup=False) is True
+
+
+def test_clear_edge_false_when_form_not_confirming():
+    home = {"position": 2}
+    away = {"position": 17}
+    # favorito bem colocado mas em má fase → não passa
+    assert clear_edge("HOME", home, away, _rec("LLDLW"), _rec("LLDLL"),
+                      table_size=20, is_cup=False) is False
+
+
+def test_clear_edge_false_when_table_close():
+    home = {"position": 8}
+    away = {"position": 11}
+    assert clear_edge("HOME", home, away, _rec("WWWWW"), _rec("LLLLL"),
+                      table_size=20, is_cup=False) is False
+
+
+def test_clear_edge_over_under_never_clear():
+    assert clear_edge("OVER25", {"position": 1}, {"position": 20},
+                      _rec("WWWWW"), _rec("LLLLL"), table_size=20, is_cup=False) is False

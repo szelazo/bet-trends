@@ -16,9 +16,9 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 from . import __version__
-from .config import S365, SCORING, enabled_leagues
+from .config import CLEAR_EDGE, S365, enabled_leagues
 from .model import league_avg_goals, predict
-from .recommend import evaluate
+from .recommend import clear_edge, evaluate
 from .sources.odds_api import OddsApi, find_match
 from .sources.scores365 import Scores365, status_ended, status_scheduled
 from .trends import compute_trends, last5_string, merge_recent
@@ -159,6 +159,10 @@ def build(target: date, days: int, *, out_dir: Path, use_odds: bool, cache_dir: 
         item["has_odds"] = odds is not None
         item["odds_bookmaker"] = (odds or {}).get("bookmaker")
         item["is_cup"] = lg.cup
+        item["clear"] = clear_edge(
+            item["pick"]["selection"], hr, ar, h_recent, a_recent,
+            table_size=len(all_rows), is_cup=lg.cup,
+        )
         return item
 
     enriched: list[dict] = []
@@ -222,25 +226,37 @@ def build(target: date, days: int, *, out_dir: Path, use_odds: bool, cache_dir: 
     # ── escreve um arquivo por data ──────────────────────────────────────────
     out_dir.mkdir(parents=True, exist_ok=True)
     written_dates: list[str] = []
-    floor = SCORING["min_confidence_listed"]
+    ce = CLEAR_EDGE
     for d in target_dates:
-        day_games = [
-            g for g in enriched
-            if _local_date(g["start_time"]) == d and g["confidence"] >= floor
-        ]
-        day_games.sort(key=lambda g: (-g["confidence"], g["kickoff_local"]))
+        day = [g for g in enriched if _local_date(g["start_time"]) == d]
+        by_conf = sorted(day, key=lambda g: -g["confidence"])
+
+        clear = [g for g in by_conf if g["clear"]][: ce["max_per_day"]]
+        picks = list(clear)
+        if len(picks) < ce["min_per_day"]:
+            for g in by_conf:
+                if g in picks:
+                    continue
+                g["below_bar"] = True
+                picks.append(g)
+                if len(picks) >= ce["min_per_day"]:
+                    break
+        picks.sort(key=lambda g: (0 if g.get("clear") else 1, -g["confidence"], g["kickoff_local"]))
+
         payload = {
             "date": d.isoformat(),
             "generated_at": datetime.now(TZ).isoformat(),
             "version": __version__,
-            "count": len(day_games),
-            "games": day_games,
+            "count": len(picks),
+            "clear_count": len(clear),
+            "day_total": len(day),
+            "games": picks,
         }
         (out_dir / f"{d.isoformat()}.json").write_text(
             json.dumps(payload, ensure_ascii=False, indent=1)
         )
         written_dates.append(d.isoformat())
-        print(f"  ✓ {d.isoformat()}: {len(day_games)} jogo(s) listado(s)")
+        print(f"  ✓ {d.isoformat()}: {len(clear)} clara(s) + {len(picks) - len(clear)} de reserva  ({len(day)} jogos no dia)")
 
     # remove arquivos de dias sem jogo (alvos vazios e testes antigos),
     # mantendo sempre ao menos o primeiro dia alvo p/ o site não quebrar

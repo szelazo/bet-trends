@@ -1,8 +1,10 @@
 {
  "date": "2026-09-03",
- "generated_at": "2026-09-03T16:14:13.731412-03:00",
+ "generated_at": "2026-09-03T16:30:26.712119-03:00",
  "version": "0.1.0",
  "count": 3,
+ "clear_count": 1,
+ "day_total": 5,
  "games": [
   {
    "id": 4732010,
@@ -309,7 +311,8 @@
    "kickoff_local": "2026-09-03T18:00:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "3 casas",
-   "is_cup": false
+   "is_cup": false,
+   "clear": true
   },
   {
    "id": 4665946,
@@ -553,7 +556,9 @@
    "kickoff_local": "2026-09-03T21:00:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "3 casas",
-   "is_cup": false
+   "is_cup": false,
+   "clear": false,
+   "below_bar": true
   },
   {
    "id": 4732027,
@@ -824,7 +829,9 @@
    "kickoff_local": "2026-09-03T22:00:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "3 casas",
-   "is_cup": false
+   "is_cup": false,
+   "clear": false,
+   "below_bar": true
   }
  ]
 }

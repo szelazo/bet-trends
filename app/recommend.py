@@ -6,7 +6,7 @@ caso contrário ficam em 'outros mercados'.
 """
 from __future__ import annotations
 
-from .config import SCORING
+from .config import CLEAR_EDGE, SCORING
 from .util import clamp
 
 _ALIGN = {
@@ -101,6 +101,48 @@ def _candidate(sel, probs, sample, trends, odds) -> dict:
         "eligible": prob >= SCORING["prob_floor"][family],
         "odd": _odd_for(sel, odds),
     }
+
+
+def form_ppg(recent: list[dict], n: int = 5) -> float | None:
+    g = recent[:n]
+    if not g:
+        return None
+    pts = sum(3 if m["result"] == "W" else 1 if m["result"] == "D" else 0 for m in g)
+    return pts / len(g)
+
+
+def clear_edge(
+    selection: str, home_row: dict, away_row: dict,
+    h_recent: list[dict], a_recent: list[dict], *, table_size: int, is_cup: bool,
+) -> bool:
+    """True só quando é claramente 'time bem x time mal': tabela + forma dos dois lados."""
+    if selection in ("HOME", "1X"):
+        fav_recent, dog_recent, fav_is_home = h_recent, a_recent, True
+    elif selection in ("AWAY", "X2"):
+        fav_recent, dog_recent, fav_is_home = a_recent, h_recent, False
+    else:
+        return False  # over/under/btts não é "mismatch" nesse sentido
+
+    c = CLEAR_EDGE
+    if len(fav_recent[:5]) < 3 or len(dog_recent[:5]) < 3:
+        return False  # amostra curta demais p/ afirmar "fase" (início de temporada)
+    fav_ppg, dog_ppg = form_ppg(fav_recent), form_ppg(dog_recent)
+    if fav_ppg is None or dog_ppg is None:
+        return False
+
+    hp, ap = home_row.get("position"), away_row.get("position")
+    if is_cup or not hp or not ap:
+        return fav_ppg >= c["cup_fav_form_ppg"] and dog_ppg <= c["cup_dog_form_ppg"]
+
+    fav_pos, dog_pos = (hp, ap) if fav_is_home else (ap, hp)
+    size = table_size or max(hp, ap, 18)
+    gap_ok = (
+        dog_pos - fav_pos >= c["min_table_gap"]
+        and fav_pos <= size * c["fav_pos_frac"]
+        and dog_pos >= size * c["dog_pos_frac"]
+    )
+    form_ok = fav_ppg >= c["fav_form_ppg"] and dog_ppg <= c["dog_form_ppg"]
+    return gap_ok and form_ok
 
 
 def evaluate(game: dict, model: dict, trends: list[dict], odds: dict | None) -> dict:
