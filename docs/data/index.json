@@ -4,7 +4,7 @@
   "2026-09-04",
   "2026-09-05"
  ],
- "generated_at": "2026-09-03T15:16:30.998222-03:00",
+ "generated_at": "2026-09-03T15:25:02.797330-03:00",
  "odds_enabled": false,
  "odds_credits_remaining": null,
  "leagues": [
@@ -13,20 +13,32 @@
    "country": "Brasil"
   },
   {
-   "name": "CONMEBOL Libertadores",
-   "country": "América do Sul"
-  },
-  {
-   "name": "CONMEBOL Sul-Americana",
-   "country": "América do Sul"
-  },
-  {
    "name": "Liga Profesional",
    "country": "Argentina"
   },
   {
+   "name": "Liga MX",
+   "country": "México"
+  },
+  {
    "name": "Liga BetPlay",
    "country": "Colômbia"
+  },
+  {
+   "name": "Liga Pro",
+   "country": "Equador"
+  },
+  {
+   "name": "Primera División",
+   "country": "Uruguai"
+  },
+  {
+   "name": "Copa de Primera",
+   "country": "Paraguai"
+  },
+  {
+   "name": "MLS",
+   "country": "EUA/Canadá"
   },
   {
    "name": "Premier League",
@@ -57,7 +69,15 @@
    "country": "Alemanha"
   },
   {
+   "name": "2. Bundesliga",
+   "country": "Alemanha"
+  },
+  {
    "name": "Ligue 1",
+   "country": "França"
+  },
+  {
+   "name": "Ligue 2",
    "country": "França"
   },
   {
@@ -85,20 +105,40 @@
    "country": "Escócia"
   },
   {
-   "name": "Eliteserien",
-   "country": "Noruega"
+   "name": "Superliga",
+   "country": "Dinamarca"
   },
   {
-   "name": "MLS",
-   "country": "EUA/Canadá"
-  },
-  {
-   "name": "Liga MX",
-   "country": "México"
+   "name": "Super League",
+   "country": "Suíça"
   },
   {
    "name": "Saudi Pro League",
    "country": "Arábia Saudita"
+  },
+  {
+   "name": "Qatar Stars League",
+   "country": "Catar"
+  },
+  {
+   "name": "UAE Pro League",
+   "country": "Emirados Árabes"
+  },
+  {
+   "name": "Premier League",
+   "country": "África do Sul"
+  },
+  {
+   "name": "Premier League",
+   "country": "Egito"
+  },
+  {
+   "name": "CONMEBOL Libertadores",
+   "country": "América do Sul"
+  },
+  {
+   "name": "CONMEBOL Sul-Americana",
+   "country": "América do Sul"
   },
   {
    "name": "UEFA Champions League",
@@ -107,6 +147,14 @@
   {
    "name": "UEFA Europa League",
    "country": "Europa"
+  },
+  {
+   "name": "UEFA Conference League",
+   "country": "Europa"
+  },
+  {
+   "name": "CAF Champions League",
+   "country": "África"
   }
  ]
 }

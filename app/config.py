@@ -23,12 +23,17 @@ class League:
 # ── Ligas cobertas ────────────────────────────────────────────────────────────
 # IDs do 365scores verificados em 09/2026. Ajuste/expanda à vontade.
 LEAGUES: list[League] = [
+    # ── América ──────────────────────────────────────────────────────────────
     League("br_serie_a", "Brasileirão Série A", "Brasil", 113, "soccer_brazil_campeonato"),
     League("br_serie_b", "Brasileirão Série B", "Brasil", 116, "soccer_brazil_serie_b", enabled=False),
-    League("libertadores", "CONMEBOL Libertadores", "América do Sul", 102, "soccer_conmebol_copa_libertadores"),
-    League("sudamericana", "CONMEBOL Sul-Americana", "América do Sul", 389, "soccer_conmebol_copa_sudamericana"),
     League("ar_primera", "Liga Profesional", "Argentina", 72, "soccer_argentina_primera_division"),
+    League("mx_ligamx", "Liga MX", "México", 141, "soccer_mexico_ligamx"),
     League("co_primera", "Liga BetPlay", "Colômbia", 620, None),
+    League("ec_ligapro", "Liga Pro", "Equador", 5062, None),
+    League("uy_primera", "Primera División", "Uruguai", 617, None),
+    League("py_primera", "Copa de Primera", "Paraguai", 621, None),
+    League("mls", "MLS", "EUA/Canadá", 104, "soccer_usa_mls"),
+    # ── Inglaterra / Espanha / Itália / Alemanha / França ────────────────────
     League("epl", "Premier League", "Inglaterra", 7, "soccer_epl"),
     League("championship", "Championship", "Inglaterra", 1, "soccer_efl_champ"),
     League("laliga", "LaLiga", "Espanha", 11, "soccer_spain_la_liga"),
@@ -36,19 +41,31 @@ LEAGUES: list[League] = [
     League("serie_a_ita", "Serie A", "Itália", 17, "soccer_italy_serie_a"),
     League("serie_b_ita", "Serie B", "Itália", 18, "soccer_italy_serie_b"),
     League("bundesliga", "Bundesliga", "Alemanha", 25, "soccer_germany_bundesliga"),
+    League("bundesliga2", "2. Bundesliga", "Alemanha", 26, "soccer_germany_bundesliga2"),
     League("ligue1", "Ligue 1", "França", 35, "soccer_france_ligue_one"),
+    League("ligue2", "Ligue 2", "França", 36, "soccer_france_ligue_two"),
+    # ── Resto da Europa ─────────────────────────────────────────────────────
     League("liga_pt", "Liga Portugal", "Portugal", 73, "soccer_portugal_primeira_liga"),
     League("eredivisie", "Eredivisie", "Holanda", 57, "soccer_netherlands_eredivisie"),
     League("belgium", "Jupiler Pro League", "Bélgica", 98, "soccer_belgium_first_div"),
     League("turkey", "Süper Lig", "Turquia", 78, "soccer_turkey_super_league"),
     League("turkey2", "1. Lig", "Turquia", 81, None),
     League("scotland", "Scottish Premiership", "Escócia", 61, "soccer_spl"),
-    League("eliteserien", "Eliteserien", "Noruega", 131, "soccer_norway_eliteserien"),
-    League("mls", "MLS", "EUA/Canadá", 104, "soccer_usa_mls"),
-    League("liga_mx", "Liga MX", "México", 141, "soccer_mexico_ligamx"),
+    League("denmark", "Superliga", "Dinamarca", 119, "soccer_denmark_superliga"),
+    League("swiss", "Super League", "Suíça", 95, "soccer_switzerland_superleague"),
+    # ── Ásia / África ──────────────────────────────────────────────────────
     League("saudi", "Saudi Pro League", "Arábia Saudita", 649, None),
+    League("qatar", "Qatar Stars League", "Catar", 408, None),
+    League("uae", "UAE Pro League", "Emirados Árabes", 549, None),
+    League("south_africa", "Premier League", "África do Sul", 414, None),
+    League("egypt", "Premier League", "Egito", 552, None),
+    # ── Continentais ───────────────────────────────────────────────────────
+    League("libertadores", "CONMEBOL Libertadores", "América do Sul", 102, "soccer_conmebol_copa_libertadores"),
+    League("sudamericana", "CONMEBOL Sul-Americana", "América do Sul", 389, "soccer_conmebol_copa_sudamericana"),
     League("ucl", "UEFA Champions League", "Europa", 572, "soccer_uefa_champs_league"),
     League("uel", "UEFA Europa League", "Europa", 573, "soccer_uefa_europa_league"),
+    League("uecl", "UEFA Conference League", "Europa", 7685, "soccer_uefa_europa_conference_league"),
+    League("caf_cl", "CAF Champions League", "África", 624, None),
 ]
 
 LEAGUES_BY_S365 = {lg.s365_id: lg for lg in LEAGUES}
@@ -71,12 +88,16 @@ S365 = {
 }
 
 # ── the-odds-api ──────────────────────────────────────────────────────────────
+# Custo do free tier: 1 crédito por região POR mercado. 500/mês.
+# Com ~26 ligas c/ odds, "eu" + "h2h" gasta ~1 crédito/liga/dia ≈ 300-400/mês.
+# Adicionar região ou mercado (totals, btts) multiplica o gasto — cuidado.
 ODDS = {
     "base_url": "https://api.the-odds-api.com/v4",
-    "regions": "eu,uk",
-    "markets": "h2h,totals,btts",
+    "regions": "eu",
+    "markets": "h2h",
     "odds_format": "decimal",
     "cache_ttl_s": 1800,
+    "only_primary_day": True,  # busca odds só p/ jogos do 1º dia (economiza créditos)
     "match_ratio": 0.55,       # similaridade mínima de nome p/ casar jogo
     "match_window_h": 30,      # diferença máx. de horário entre os dois provedores
 }

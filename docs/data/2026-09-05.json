@@ -1,10 +1,444 @@
 {
  "date": "2026-09-05",
- "generated_at": "2026-09-03T15:16:30.993015-03:00",
+ "generated_at": "2026-09-03T15:25:02.788824-03:00",
  "version": "0.1.0",
  "bankroll": null,
- "count": 4,
+ "count": 8,
  "games": [
+  {
+   "id": 4757687,
+   "s365_competition_id": 26,
+   "competition_name": "Bundesliga 2",
+   "start_time": "2026-09-05T11:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 430,
+    "name": "Holstein Kiel"
+   },
+   "away": {
+    "id": 346,
+    "name": "FC Nürnberg"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.21,
+    "lambda_away": 2.09,
+    "expected_goals": 3.3,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.2159,
+     "DRAW": 0.2087,
+     "AWAY": 0.5753,
+     "1X": 0.4247,
+     "X2": 0.7841,
+     "12": 0.7913,
+     "OVER25": 0.6406,
+     "UNDER25": 0.3594,
+     "BTTS_YES": 0.6153,
+     "BTTS_NO": 0.3847
+    }
+   },
+   "pick": {
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: FC Nürnberg ou empate (X2)",
+    "model_prob": 0.7841,
+    "trend_alignment": 1.0,
+    "confidence": 63,
+    "eligible": true,
+    "odd": null,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do FC Nürnberg",
+     "model_prob": 0.5753,
+     "trend_alignment": 1.0,
+     "confidence": 58,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6406,
+     "trend_alignment": 0.0,
+     "confidence": 18,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.6153,
+     "trend_alignment": 0.0,
+     "confidence": 15,
+     "eligible": true,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "FC Nürnberg está 16 posições à frente na tabela",
+     "kind": "table_gap",
+     "strength": 0.9,
+     "favors": "AWAY",
+     "team": "FC Nürnberg"
+    },
+    {
+     "label": "3 vitórias seguidas",
+     "kind": "winning",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "FC Nürnberg"
+    },
+    {
+     "label": "Invicto há 3+ jogos",
+     "kind": "unbeaten",
+     "strength": 0.2,
+     "favors": "AWAY",
+     "team": "FC Nürnberg"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "FC Nürnberg está 16 posições à frente na tabela",
+     "kind": "table_gap",
+     "strength": 0.9,
+     "favors": "AWAY",
+     "team": "FC Nürnberg"
+    },
+    {
+     "label": "3 vitórias seguidas",
+     "kind": "winning",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "FC Nürnberg"
+    },
+    {
+     "label": "Invicto há 3+ jogos",
+     "kind": "unbeaten",
+     "strength": 0.2,
+     "favors": "AWAY",
+     "team": "FC Nürnberg"
+    }
+   ],
+   "confidence": 63,
+   "league": {
+    "key": "bundesliga2",
+    "name": "2. Bundesliga",
+    "country": "Alemanha"
+   },
+   "home_team": {
+    "id": 430,
+    "name": "Holstein Kiel",
+    "position": 17,
+    "played": 3,
+    "points": 2.0,
+    "record": "0V 2E 1D",
+    "last5": "LDD",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "FC Magdeburg",
+      "date": "2026-08-30"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "St. Pauli",
+      "date": "2026-08-14"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "SV Darmstadt 98",
+      "date": "2026-08-08"
+     }
+    ],
+    "streaks": {
+     "unbeaten": 0,
+     "winless": 3,
+     "winning": 0,
+     "losing": 1,
+     "scoring": 0,
+     "no_score": 1,
+     "clean_sheet": 0,
+     "conceding": 3
+    }
+   },
+   "away_team": {
+    "id": 346,
+    "name": "FC Nürnberg",
+    "position": 1,
+    "played": 3,
+    "points": 9.0,
+    "record": "3V 0E 0D",
+    "last5": "WWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "4-1",
+      "home": true,
+      "opponent": "Arminia Bielefeld",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "W",
+      "score": "4-2",
+      "home": false,
+      "opponent": "Greuther Fürth",
+      "date": "2026-08-15"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "Dynamo Dresden",
+      "date": "2026-08-09"
+     }
+    ],
+    "streaks": {
+     "unbeaten": 3,
+     "winless": 0,
+     "winning": 3,
+     "losing": 0,
+     "scoring": 3,
+     "no_score": 0,
+     "clean_sheet": 0,
+     "conceding": 2
+    }
+   },
+   "kickoff_local": "2026-09-05T08:00:00-03:00",
+   "has_odds": false
+  },
+  {
+   "id": 4735561,
+   "s365_competition_id": 36,
+   "competition_name": "Ligue 2",
+   "start_time": "2026-09-05T12:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 499,
+    "name": "Reims"
+   },
+   "away": {
+    "id": 496,
+    "name": "Guingamp"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.35,
+    "lambda_away": 1.05,
+    "expected_goals": 3.41,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.6625,
+     "DRAW": 0.1828,
+     "AWAY": 0.1547,
+     "1X": 0.8453,
+     "X2": 0.3375,
+     "12": 0.8172,
+     "OVER25": 0.6617,
+     "UNDER25": 0.3383,
+     "BTTS_YES": 0.5898,
+     "BTTS_NO": 0.4102
+    }
+   },
+   "pick": {
+    "selection": "1X",
+    "family": "double_chance",
+    "label": "Dupla chance: Reims ou empate (1X)",
+    "model_prob": 0.8453,
+    "trend_alignment": 0.695,
+    "confidence": 62,
+    "eligible": true,
+    "odd": null,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Reims",
+     "model_prob": 0.6625,
+     "trend_alignment": 0.695,
+     "confidence": 56,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6617,
+     "trend_alignment": 0.0,
+     "confidence": 21,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5898,
+     "trend_alignment": 0.0,
+     "confidence": 12,
+     "eligible": true,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Reims está 9 posições à frente na tabela",
+     "kind": "table_gap",
+     "strength": 0.643,
+     "favors": "HOME",
+     "team": "Reims"
+    },
+    {
+     "label": "Invicto há 4+ jogos",
+     "kind": "unbeaten",
+     "strength": 0.4,
+     "favors": "HOME",
+     "team": "Reims"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Reims está 9 posições à frente na tabela",
+     "kind": "table_gap",
+     "strength": 0.643,
+     "favors": "HOME",
+     "team": "Reims"
+    },
+    {
+     "label": "Invicto há 4+ jogos",
+     "kind": "unbeaten",
+     "strength": 0.4,
+     "favors": "HOME",
+     "team": "Reims"
+    }
+   ],
+   "confidence": 62,
+   "league": {
+    "key": "ligue2",
+    "name": "Ligue 2",
+    "country": "França"
+   },
+   "home_team": {
+    "id": 499,
+    "name": "Reims",
+    "position": 2,
+    "played": 4,
+    "points": 8.0,
+    "record": "2V 2E 0D",
+    "last5": "WWDD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "4-1",
+      "home": false,
+      "opponent": "Red Star FC93",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": true,
+      "opponent": "FC Annecy",
+      "date": "2026-08-24"
+     },
+     {
+      "result": "D",
+      "score": "3-3",
+      "home": true,
+      "opponent": "Dunkerque",
+      "date": "2026-08-14"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Clermont Foot",
+      "date": "2026-08-08"
+     }
+    ],
+    "streaks": {
+     "unbeaten": 4,
+     "winless": 0,
+     "winning": 2,
+     "losing": 0,
+     "scoring": 3,
+     "no_score": 0,
+     "clean_sheet": 0,
+     "conceding": 3
+    }
+   },
+   "away_team": {
+    "id": 496,
+    "name": "Guingamp",
+    "position": 11,
+    "played": 4,
+    "points": 4.0,
+    "record": "1V 1E 2D",
+    "last5": "DLWL",
+    "recent": [
+     {
+      "result": "D",
+      "score": "3-3",
+      "home": true,
+      "opponent": "Nantes",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Sochaux",
+      "date": "2026-08-21"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Boulogne",
+      "date": "2026-08-14"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Metz",
+      "date": "2026-08-08"
+     }
+    ],
+    "streaks": {
+     "unbeaten": 1,
+     "winless": 2,
+     "winning": 0,
+     "losing": 0,
+     "scoring": 1,
+     "no_score": 0,
+     "clean_sheet": 0,
+     "conceding": 2
+    }
+   },
+   "kickoff_local": "2026-09-05T09:00:00-03:00",
+   "has_odds": false
+  },
   {
    "id": 4746164,
    "s365_competition_id": 1,
@@ -454,6 +888,209 @@
    "has_odds": false
   },
   {
+   "id": 4757693,
+   "s365_competition_id": 26,
+   "competition_name": "Bundesliga 2",
+   "start_time": "2026-09-05T11:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 364,
+    "name": "FC Kaiserslautern"
+   },
+   "away": {
+    "id": 454,
+    "name": "SV Darmstadt 98"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.16,
+    "lambda_away": 0.8,
+    "expected_goals": 1.96,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.4422,
+     "DRAW": 0.3054,
+     "AWAY": 0.2524,
+     "1X": 0.7476,
+     "X2": 0.5578,
+     "12": 0.6946,
+     "OVER25": 0.3118,
+     "UNDER25": 0.6882,
+     "BTTS_YES": 0.3773,
+     "BTTS_NO": 0.6227
+    }
+   },
+   "pick": {
+    "selection": "1X",
+    "family": "double_chance",
+    "label": "Dupla chance: FC Kaiserslautern ou empate (1X)",
+    "model_prob": 0.7476,
+    "trend_alignment": 0.705,
+    "confidence": 49,
+    "eligible": true,
+    "odd": null,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do FC Kaiserslautern",
+     "model_prob": 0.4422,
+     "trend_alignment": 0.705,
+     "confidence": 35,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.6882,
+     "trend_alignment": 0.0,
+     "confidence": 24,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.6227,
+     "trend_alignment": 0.0,
+     "confidence": 16,
+     "eligible": true,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "FC Kaiserslautern está 12 posições à frente na tabela",
+     "kind": "table_gap",
+     "strength": 0.857,
+     "favors": "HOME",
+     "team": "FC Kaiserslautern"
+    },
+    {
+     "label": "Invicto há 3+ jogos",
+     "kind": "unbeaten",
+     "strength": 0.2,
+     "favors": "HOME",
+     "team": "FC Kaiserslautern"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "FC Kaiserslautern está 12 posições à frente na tabela",
+     "kind": "table_gap",
+     "strength": 0.857,
+     "favors": "HOME",
+     "team": "FC Kaiserslautern"
+    },
+    {
+     "label": "Invicto há 3+ jogos",
+     "kind": "unbeaten",
+     "strength": 0.2,
+     "favors": "HOME",
+     "team": "FC Kaiserslautern"
+    }
+   ],
+   "confidence": 49,
+   "league": {
+    "key": "bundesliga2",
+    "name": "2. Bundesliga",
+    "country": "Alemanha"
+   },
+   "home_team": {
+    "id": 364,
+    "name": "FC Kaiserslautern",
+    "position": 6,
+    "played": 3,
+    "points": 5.0,
+    "record": "1V 2E 0D",
+    "last5": "WDD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "St. Pauli",
+      "date": "2026-08-30"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Karlsruher",
+      "date": "2026-08-15"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Wolfsburg",
+      "date": "2026-08-08"
+     }
+    ],
+    "streaks": {
+     "unbeaten": 3,
+     "winless": 0,
+     "winning": 1,
+     "losing": 0,
+     "scoring": 1,
+     "no_score": 0,
+     "clean_sheet": 0,
+     "conceding": 1
+    }
+   },
+   "away_team": {
+    "id": 454,
+    "name": "SV Darmstadt 98",
+    "position": 18,
+    "played": 3,
+    "points": 1.0,
+    "record": "0V 1E 2D",
+    "last5": "LLD",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Hannover",
+      "date": "2026-08-30"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Dynamo Dresden",
+      "date": "2026-08-16"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "Holstein Kiel",
+      "date": "2026-08-08"
+     }
+    ],
+    "streaks": {
+     "unbeaten": 0,
+     "winless": 3,
+     "winning": 0,
+     "losing": 2,
+     "scoring": 0,
+     "no_score": 2,
+     "clean_sheet": 0,
+     "conceding": 3
+    }
+   },
+   "kickoff_local": "2026-09-05T08:00:00-03:00",
+   "has_odds": false
+  },
+  {
    "id": 4735708,
    "s365_competition_id": 141,
    "competition_name": "Liga MX - Apertura",
@@ -593,7 +1230,7 @@
    ],
    "confidence": 47,
    "league": {
-    "key": "liga_mx",
+    "key": "mx_ligamx",
     "name": "Liga MX",
     "country": "México"
    },
@@ -885,6 +1522,209 @@
     }
    },
    "kickoff_local": "2026-09-05T08:30:00-03:00",
+   "has_odds": false
+  },
+  {
+   "id": 4757690,
+   "s365_competition_id": 26,
+   "competition_name": "Bundesliga 2",
+   "start_time": "2026-09-05T11:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 339,
+    "name": "Wolfsburg"
+   },
+   "away": {
+    "id": 9914,
+    "name": "Energie Cottbus"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.67,
+    "lambda_away": 1.18,
+    "expected_goals": 3.85,
+    "sample_factor": 0.6,
+    "probs": {
+     "HOME": 0.6908,
+     "DRAW": 0.1638,
+     "AWAY": 0.1454,
+     "1X": 0.8546,
+     "X2": 0.3092,
+     "12": 0.8362,
+     "OVER25": 0.738,
+     "UNDER25": 0.262,
+     "BTTS_YES": 0.6434,
+     "BTTS_NO": 0.3566
+    }
+   },
+   "pick": {
+    "selection": "1X",
+    "family": "double_chance",
+    "label": "Dupla chance: Wolfsburg ou empate (1X)",
+    "model_prob": 0.8546,
+    "trend_alignment": 0.562,
+    "confidence": 35,
+    "eligible": true,
+    "odd": null,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Wolfsburg",
+     "model_prob": 0.6908,
+     "trend_alignment": 0.562,
+     "confidence": 33,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.738,
+     "trend_alignment": 0.0,
+     "confidence": 19,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.6434,
+     "trend_alignment": 0.0,
+     "confidence": 11,
+     "eligible": true,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Wolfsburg está 9 posições à frente na tabela",
+     "kind": "table_gap",
+     "strength": 0.643,
+     "favors": "HOME",
+     "team": "Wolfsburg"
+    },
+    {
+     "label": "Invicto há 3+ jogos",
+     "kind": "unbeaten",
+     "strength": 0.2,
+     "favors": "HOME",
+     "team": "Wolfsburg"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Wolfsburg está 9 posições à frente na tabela",
+     "kind": "table_gap",
+     "strength": 0.643,
+     "favors": "HOME",
+     "team": "Wolfsburg"
+    },
+    {
+     "label": "Invicto há 3+ jogos",
+     "kind": "unbeaten",
+     "strength": 0.2,
+     "favors": "HOME",
+     "team": "Wolfsburg"
+    }
+   ],
+   "confidence": 35,
+   "league": {
+    "key": "bundesliga2",
+    "name": "2. Bundesliga",
+    "country": "Alemanha"
+   },
+   "home_team": {
+    "id": 339,
+    "name": "Wolfsburg",
+    "position": 3,
+    "played": 3,
+    "points": 7.0,
+    "record": "2V 1E 0D",
+    "last5": "WWD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "5-2",
+      "home": false,
+      "opponent": "Karlsruher",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Hannover",
+      "date": "2026-08-16"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "FC Kaiserslautern",
+      "date": "2026-08-08"
+     }
+    ],
+    "streaks": {
+     "unbeaten": 3,
+     "winless": 0,
+     "winning": 2,
+     "losing": 0,
+     "scoring": 2,
+     "no_score": 0,
+     "clean_sheet": 0,
+     "conceding": 1
+    }
+   },
+   "away_team": {
+    "id": 9914,
+    "name": "Energie Cottbus",
+    "position": 12,
+    "played": 3,
+    "points": 3.0,
+    "record": "1V 0E 2D",
+    "last5": "LLW",
+    "recent": [
+     {
+      "result": "L",
+      "score": "3-4",
+      "home": true,
+      "opponent": "Greuther Fürth",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": false,
+      "opponent": "Arminia Bielefeld",
+      "date": "2026-08-16"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": true,
+      "opponent": "Hannover",
+      "date": "2026-08-09"
+     }
+    ],
+    "streaks": {
+     "unbeaten": 0,
+     "winless": 2,
+     "winning": 0,
+     "losing": 2,
+     "scoring": 1,
+     "no_score": 0,
+     "clean_sheet": 0,
+     "conceding": 3
+    }
+   },
+   "kickoff_local": "2026-09-05T08:00:00-03:00",
    "has_odds": false
   }
  ]

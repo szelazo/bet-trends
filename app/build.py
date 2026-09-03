@@ -16,6 +16,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 from . import __version__
+from .config import ODDS as ODDS_CFG
 from .config import S365, SCORING, BANKROLL, enabled_leagues
 from .model import league_avg_goals, predict
 from .recommend import evaluate
@@ -143,6 +144,12 @@ def build(target: date, days: int, *, out_dir: Path, use_odds: bool, cache_dir: 
     for g in fixtures:
         by_league.setdefault(g["s365_competition_id"], []).append(g)
 
+    # p/ economizar créditos da odds-api, busca odds só das ligas com jogo no 1º dia
+    odds_league_ids = {
+        g["s365_competition_id"] for g in fixtures
+        if not ODDS_CFG["only_primary_day"] or _local_date(g["start_time"]) == target
+    }
+
     enriched: list[dict] = []
     for s365_id, games in by_league.items():
         lg = league_by_s365[s365_id]
@@ -158,7 +165,7 @@ def build(target: date, days: int, *, out_dir: Path, use_odds: bool, cache_dir: 
         find_row = _row_lookup(rows)
 
         odds_events: list[dict] = []
-        if odds_on and lg.odds_key:
+        if odds_on and lg.odds_key and s365_id in odds_league_ids:
             odds_events = odds_api.events(lg.odds_key)
 
         for g in games:

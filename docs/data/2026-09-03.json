@@ -1,9 +1,9 @@
 {
  "date": "2026-09-03",
- "generated_at": "2026-09-03T15:16:30.990429-03:00",
+ "generated_at": "2026-09-03T15:25:02.784855-03:00",
  "version": "0.1.0",
  "bankroll": null,
- "count": 5,
+ "count": 8,
  "games": [
   {
    "id": 4732010,
@@ -482,6 +482,503 @@
    "has_odds": false
   },
   {
+   "id": 4738719,
+   "s365_competition_id": 95,
+   "competition_name": "Super League",
+   "start_time": "2026-09-03T18:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 1155,
+    "name": "FC Lugano"
+   },
+   "away": {
+    "id": 1154,
+    "name": "Servette FC"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.2,
+    "lambda_away": 0.91,
+    "expected_goals": 3.11,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.6679,
+     "DRAW": 0.1898,
+     "AWAY": 0.1422,
+     "1X": 0.8578,
+     "X2": 0.3321,
+     "12": 0.8102,
+     "OVER25": 0.5998,
+     "UNDER25": 0.4002,
+     "BTTS_YES": 0.5297,
+     "BTTS_NO": 0.4703
+    }
+   },
+   "pick": {
+    "selection": "1X",
+    "family": "double_chance",
+    "label": "Dupla chance: FC Lugano ou empate (1X)",
+    "model_prob": 0.8578,
+    "trend_alignment": 1.0,
+    "confidence": 73,
+    "eligible": true,
+    "odd": null,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do FC Lugano",
+     "model_prob": 0.6679,
+     "trend_alignment": 1.0,
+     "confidence": 67,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5998,
+     "trend_alignment": 0.0,
+     "confidence": 13,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5297,
+     "trend_alignment": 0.0,
+     "confidence": 4,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "4 vitórias seguidas",
+     "kind": "winning",
+     "strength": 0.75,
+     "favors": "HOME",
+     "team": "FC Lugano"
+    },
+    {
+     "label": "FC Lugano está 8 posições à frente na tabela",
+     "kind": "table_gap",
+     "strength": 0.571,
+     "favors": "HOME",
+     "team": "FC Lugano"
+    },
+    {
+     "label": "Invicto há 4+ jogos",
+     "kind": "unbeaten",
+     "strength": 0.4,
+     "favors": "HOME",
+     "team": "FC Lugano"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "4 vitórias seguidas",
+     "kind": "winning",
+     "strength": 0.75,
+     "favors": "HOME",
+     "team": "FC Lugano"
+    },
+    {
+     "label": "FC Lugano está 8 posições à frente na tabela",
+     "kind": "table_gap",
+     "strength": 0.571,
+     "favors": "HOME",
+     "team": "FC Lugano"
+    },
+    {
+     "label": "Invicto há 4+ jogos",
+     "kind": "unbeaten",
+     "strength": 0.4,
+     "favors": "HOME",
+     "team": "FC Lugano"
+    }
+   ],
+   "confidence": 73,
+   "league": {
+    "key": "swiss",
+    "name": "Super League",
+    "country": "Suíça"
+   },
+   "home_team": {
+    "id": 1155,
+    "name": "FC Lugano",
+    "position": 2,
+    "played": 4,
+    "points": 12.0,
+    "record": "4V 0E 0D",
+    "last5": "WWWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "FC Sion",
+      "date": "2026-08-30"
+     },
+     {
+      "result": "W",
+      "score": "5-0",
+      "home": true,
+      "opponent": "FC Zürich",
+      "date": "2026-08-09"
+     },
+     {
+      "result": "W",
+      "score": "4-1",
+      "home": false,
+      "opponent": "Grasshopper Club",
+      "date": "2026-08-02"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "FC Vaduz",
+      "date": "2026-07-26"
+     }
+    ],
+    "streaks": {
+     "unbeaten": 4,
+     "winless": 0,
+     "winning": 4,
+     "losing": 0,
+     "scoring": 4,
+     "no_score": 0,
+     "clean_sheet": 0,
+     "conceding": 1
+    }
+   },
+   "away_team": {
+    "id": 1154,
+    "name": "Servette FC",
+    "position": 10,
+    "played": 4,
+    "points": 4.0,
+    "record": "1V 1E 2D",
+    "last5": "DWLL",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Luzern",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Grasshopper Club",
+      "date": "2026-08-08"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "FC Zürich",
+      "date": "2026-08-01"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "FC Basel 1893",
+      "date": "2026-07-25"
+     }
+    ],
+    "streaks": {
+     "unbeaten": 2,
+     "winless": 1,
+     "winning": 0,
+     "losing": 0,
+     "scoring": 3,
+     "no_score": 0,
+     "clean_sheet": 0,
+     "conceding": 4
+    }
+   },
+   "kickoff_local": "2026-09-03T15:30:00-03:00",
+   "has_odds": false
+  },
+  {
+   "id": 4764169,
+   "s365_competition_id": 621,
+   "competition_name": "Copa de Primera - Clausura",
+   "start_time": "2026-09-03T21:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 53209,
+    "name": "Recoleta FC"
+   },
+   "away": {
+    "id": 1294,
+    "name": "Cerro Porteño"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.46,
+    "lambda_away": 1.47,
+    "expected_goals": 2.93,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.3755,
+     "DRAW": 0.2462,
+     "AWAY": 0.3782,
+     "1X": 0.6218,
+     "X2": 0.6245,
+     "12": 0.7538,
+     "OVER25": 0.5613,
+     "UNDER25": 0.4387,
+     "BTTS_YES": 0.5915,
+     "BTTS_NO": 0.4085
+    }
+   },
+   "pick": {
+    "selection": "BTTS_YES",
+    "family": "btts",
+    "label": "Ambos os times marcam",
+    "model_prob": 0.5915,
+    "trend_alignment": 1.0,
+    "confidence": 47,
+    "eligible": true,
+    "odd": null,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5613,
+     "trend_alignment": 1.0,
+     "confidence": 43,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "X2",
+     "family": "double_chance",
+     "label": "Dupla chance: Cerro Porteño ou empate (X2)",
+     "model_prob": 0.6245,
+     "trend_alignment": 0.333,
+     "confidence": 21,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Cerro Porteño",
+     "model_prob": 0.3782,
+     "trend_alignment": 0.333,
+     "confidence": 15,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Over 2.5 em 5 dos últimos 5",
+     "kind": "over",
+     "strength": 1.0,
+     "favors": "OVER",
+     "team": "Recoleta FC"
+    },
+    {
+     "label": "Ambos marcam em 5 dos últimos 5",
+     "kind": "btts",
+     "strength": 1.0,
+     "favors": "BTTS_YES",
+     "team": "Recoleta FC"
+    },
+    {
+     "label": "3 derrotas seguidas",
+     "kind": "losing",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "Recoleta FC"
+    },
+    {
+     "label": "Marcou nos últimos 5",
+     "kind": "scoring",
+     "strength": 0.4,
+     "favors": "OVER",
+     "team": "Recoleta FC"
+    },
+    {
+     "label": "Sofre gol há 5 jogos",
+     "kind": "conceding",
+     "strength": 0.4,
+     "favors": "OVER",
+     "team": "Recoleta FC"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Over 2.5 em 5 dos últimos 5",
+     "kind": "over",
+     "strength": 1.0,
+     "favors": "OVER",
+     "team": "Recoleta FC"
+    },
+    {
+     "label": "Ambos marcam em 5 dos últimos 5",
+     "kind": "btts",
+     "strength": 1.0,
+     "favors": "BTTS_YES",
+     "team": "Recoleta FC"
+    },
+    {
+     "label": "Marcou nos últimos 5",
+     "kind": "scoring",
+     "strength": 0.4,
+     "favors": "OVER",
+     "team": "Recoleta FC"
+    },
+    {
+     "label": "Sofre gol há 5 jogos",
+     "kind": "conceding",
+     "strength": 0.4,
+     "favors": "OVER",
+     "team": "Recoleta FC"
+    }
+   ],
+   "confidence": 47,
+   "league": {
+    "key": "py_primera",
+    "name": "Copa de Primera",
+    "country": "Paraguai"
+   },
+   "home_team": {
+    "id": 53209,
+    "name": "Recoleta FC",
+    "position": 11,
+    "played": 7,
+    "points": 7.0,
+    "record": "2V 1E 4D",
+    "last5": "LLLWW",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Olimpia",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": false,
+      "opponent": "Sportivo Ameliano",
+      "date": "2026-08-22"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "2 de Mayo",
+      "date": "2026-08-14"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": false,
+      "opponent": "Rubio Ñu",
+      "date": "2026-08-07"
+     },
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": true,
+      "opponent": "Club Nacional",
+      "date": "2026-08-03"
+     }
+    ],
+    "streaks": {
+     "unbeaten": 0,
+     "winless": 3,
+     "winning": 0,
+     "losing": 3,
+     "scoring": 5,
+     "no_score": 0,
+     "clean_sheet": 0,
+     "conceding": 5
+    }
+   },
+   "away_team": {
+    "id": 1294,
+    "name": "Cerro Porteño",
+    "position": 10,
+    "played": 7,
+    "points": 7.0,
+    "record": "2V 1E 4D",
+    "last5": "DLWLW",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Libertad",
+      "date": "2026-08-30"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Olimpia",
+      "date": "2026-08-23"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "CS San Lorenzo",
+      "date": "2026-08-16"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Sportivo Ameliano",
+      "date": "2026-08-08"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "Sportivo Luqueño",
+      "date": "2026-08-01"
+     }
+    ],
+    "streaks": {
+     "unbeaten": 1,
+     "winless": 2,
+     "winning": 0,
+     "losing": 0,
+     "scoring": 3,
+     "no_score": 0,
+     "clean_sheet": 0,
+     "conceding": 2
+    }
+   },
+   "kickoff_local": "2026-09-03T18:30:00-03:00",
+   "has_odds": false
+  },
+  {
    "id": 4735274,
    "s365_competition_id": 35,
    "competition_name": "Ligue 1",
@@ -654,6 +1151,207 @@
     }
    },
    "kickoff_local": "2026-09-03T15:45:00-03:00",
+   "has_odds": false
+  },
+  {
+   "id": 4665946,
+   "s365_competition_id": 5062,
+   "competition_name": "Liga Pro",
+   "start_time": "2026-09-04T00:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 69463,
+    "name": "Libertad"
+   },
+   "away": {
+    "id": 7203,
+    "name": "Emelec"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.48,
+    "lambda_away": 0.71,
+    "expected_goals": 2.2,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.5567,
+     "DRAW": 0.2637,
+     "AWAY": 0.1796,
+     "1X": 0.8204,
+     "X2": 0.4433,
+     "12": 0.7363,
+     "OVER25": 0.377,
+     "UNDER25": 0.623,
+     "BTTS_YES": 0.3949,
+     "BTTS_NO": 0.6051
+    }
+   },
+   "pick": {
+    "selection": "1X",
+    "family": "double_chance",
+    "label": "Dupla chance: Libertad ou empate (1X)",
+    "model_prob": 0.8204,
+    "trend_alignment": 0.0,
+    "confidence": 36,
+    "eligible": true,
+    "odd": null,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Libertad",
+     "model_prob": 0.5567,
+     "trend_alignment": 0.0,
+     "confidence": 21,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.623,
+     "trend_alignment": 0.0,
+     "confidence": 16,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.6051,
+     "trend_alignment": 0.0,
+     "confidence": 14,
+     "eligible": true,
+     "odd": null
+    }
+   ],
+   "trends": [],
+   "aligned_trends": [],
+   "confidence": 36,
+   "league": {
+    "key": "ec_ligapro",
+    "name": "Liga Pro",
+    "country": "Equador"
+   },
+   "home_team": {
+    "id": 69463,
+    "name": "Libertad",
+    "position": 8,
+    "played": 27,
+    "points": 37.0,
+    "record": "10V 7E 10D",
+    "last5": "LWDWW",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "SD Aucas",
+      "date": "2026-08-30"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Macará",
+      "date": "2026-08-25"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "Guayaquil City",
+      "date": "2026-08-15"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Universidad Catolica",
+      "date": "2026-08-10"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "Orense SC",
+      "date": "2026-08-01"
+     }
+    ],
+    "streaks": {
+     "unbeaten": 0,
+     "winless": 1,
+     "winning": 0,
+     "losing": 1,
+     "scoring": 0,
+     "no_score": 1,
+     "clean_sheet": 0,
+     "conceding": 1
+    }
+   },
+   "away_team": {
+    "id": 7203,
+    "name": "Emelec",
+    "position": 11,
+    "played": 27,
+    "points": 35.0,
+    "record": "9V 8E 10D",
+    "last5": "WLWDL",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Leones FC",
+      "date": "2026-08-30"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "LDU",
+      "date": "2026-08-24"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Tecnico Universitario",
+      "date": "2026-08-16"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Guayaquil City",
+      "date": "2026-08-10"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": true,
+      "opponent": "SD Aucas",
+      "date": "2026-08-02"
+     }
+    ],
+    "streaks": {
+     "unbeaten": 1,
+     "winless": 0,
+     "winning": 1,
+     "losing": 0,
+     "scoring": 1,
+     "no_score": 0,
+     "clean_sheet": 0,
+     "conceding": 3
+    }
+   },
+   "kickoff_local": "2026-09-03T21:00:00-03:00",
    "has_odds": false
   },
   {
