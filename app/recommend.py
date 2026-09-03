@@ -1,17 +1,21 @@
-"""Escolhe o mercado recomendado, calcula confiança (0–100) e valor (EV)."""
+"""Escolhe o mercado recomendado e calcula o score de confiança (0–100).
+
+Prioridade: resultado final (1X2) e dupla chance são SEMPRE o palpite principal.
+Over/Under 2.5 e Ambos Marcam só viram principal se a tendência for muito forte;
+caso contrário ficam em 'outros mercados'.
+"""
 from __future__ import annotations
 
 from .config import SCORING
 from .util import clamp
 
-# alvos de tendência que cada seleção considera a favor / contra
 _ALIGN = {
-    "HOME":    ({"HOME"}, {"AWAY"}),
-    "AWAY":    ({"AWAY"}, {"HOME"}),
-    "1X":      ({"HOME"}, {"AWAY"}),
-    "X2":      ({"AWAY"}, {"HOME"}),
-    "OVER25":  ({"OVER", "BTTS_YES"}, {"UNDER", "BTTS_NO"}),
-    "UNDER25": ({"UNDER", "BTTS_NO"}, {"OVER", "BTTS_YES"}),
+    "HOME":     ({"HOME"}, {"AWAY"}),
+    "AWAY":     ({"AWAY"}, {"HOME"}),
+    "1X":       ({"HOME"}, {"AWAY"}),
+    "X2":       ({"AWAY"}, {"HOME"}),
+    "OVER25":   ({"OVER", "BTTS_YES"}, {"UNDER", "BTTS_NO"}),
+    "UNDER25":  ({"UNDER", "BTTS_NO"}, {"OVER", "BTTS_YES"}),
     "BTTS_YES": ({"BTTS_YES", "OVER"}, {"BTTS_NO", "UNDER"}),
     "BTTS_NO":  ({"BTTS_NO", "UNDER"}, {"BTTS_YES", "OVER"}),
 }
@@ -21,9 +25,10 @@ _FAMILY = {
     "OVER25": "over_under", "UNDER25": "over_under",
     "BTTS_YES": "btts", "BTTS_NO": "btts",
 }
+_PRIMARY_FAMILIES = {"1x2", "double_chance"}
 _NEUTRAL = {"1x2": 0.34, "double_chance": 0.55, "over_under": 0.50, "btts": 0.50}
-# dupla chance é mais "segura" (odd baixa) → leve desconto na confiança
-_FAMILY_WEIGHT = {"1x2": 1.0, "double_chance": 0.92, "over_under": 1.0, "btts": 1.0}
+# entre os principais, leve preferência pelo resultado seco sobre a dupla chance
+_FAMILY_WEIGHT = {"1x2": 1.0, "double_chance": 0.94, "over_under": 1.0, "btts": 1.0}
 
 
 def _label(sel: str, home: str, away: str) -> str:
@@ -46,7 +51,7 @@ def _trend_alignment(sel: str, trends: list[dict]) -> float:
     return clamp(pos / 1.5 - 0.6 * neg, 0.0, 1.0)
 
 
-def _odd_for(sel: str, game: dict, odds: dict | None) -> float | None:
+def _odd_for(sel: str, odds: dict | None) -> float | None:
     if not odds:
         return None
     h2h = odds.get("h2h") or {}
@@ -57,13 +62,11 @@ def _odd_for(sel: str, game: dict, odds: dict | None) -> float | None:
     draw_odd = h2h.get("Draw")
 
     def dc(a: float | None, b: float | None) -> float | None:
-        if a and b:
-            return round(1.0 / (1.0 / a + 1.0 / b), 3)
-        return None
+        return round(1.0 / (1.0 / a + 1.0 / b), 2) if (a and b) else None
 
     return {
-        "HOME": home_odd,
-        "AWAY": away_odd,
+        "HOME": round(home_odd, 2) if home_odd else None,
+        "AWAY": round(away_odd, 2) if away_odd else None,
         "1X": dc(home_odd, draw_odd),
         "X2": dc(away_odd, draw_odd),
         "OVER25": tot.get("Over"),
@@ -73,62 +76,59 @@ def _odd_for(sel: str, game: dict, odds: dict | None) -> float | None:
     }.get(sel)
 
 
-def _kelly_stake(prob: float, odd: float) -> float:
-    if odd <= 1:
-        return 0.0
-    f = (prob * odd - 1) / (odd - 1)
-    return round(clamp(SCORING["kelly_fraction"] * f, 0.0, SCORING["kelly_cap"]), 4)
+def _candidate(sel, probs, sample, trends, odds) -> dict:
+    family = _FAMILY[sel]
+    prob = probs[sel]
+    edge = clamp((prob - _NEUTRAL[family]) / (1 - _NEUTRAL[family]), 0.0, 1.0)
+    align = _trend_alignment(sel, trends)
+    raw = SCORING["w_prob"] * edge + SCORING["w_trend"] * align
+    return {
+        "selection": sel,
+        "family": family,
+        "label": None,  # preenchido depois
+        "model_prob": round(prob, 4),
+        "trend_alignment": round(align, 3),
+        "confidence": round(100 * raw * sample * _FAMILY_WEIGHT[family]),
+        "eligible": prob >= SCORING["prob_floor"][family],
+        "odd": _odd_for(sel, odds),
+    }
 
 
 def evaluate(game: dict, model: dict, trends: list[dict], odds: dict | None) -> dict:
-    """Retorna o dict do jogo enriquecido com a recomendação."""
     probs = model["probs"]
     sample = model["sample_factor"]
     home, away = game["home"]["name"], game["away"]["name"]
-    candidates = []
 
-    for sel in ("HOME", "AWAY", "1X", "X2", "OVER25", "UNDER25", "BTTS_YES", "BTTS_NO"):
-        family = _FAMILY[sel]
-        prob = probs[sel]
-        neutral = _NEUTRAL[family]
-        edge = clamp((prob - neutral) / (1 - neutral), 0.0, 1.0)
-        align = _trend_alignment(sel, trends)
-        raw = SCORING["w_prob"] * edge + SCORING["w_trend"] * align
-        confidence = round(100 * raw * sample * _FAMILY_WEIGHT[family])
-        odd = _odd_for(sel, game, odds)
-        eligible = prob >= SCORING["prob_floor"][family]
-
-        entry = {
-            "selection": sel,
-            "family": family,
-            "label": _label(sel, home, away),
-            "model_prob": round(prob, 4),
-            "trend_alignment": round(align, 3),
-            "confidence": confidence,
-            "eligible": eligible,
-            "odd": odd,
-        }
-        if odd:
-            ev = prob * odd - 1
-            entry.update(
-                implied_prob=round(1 / odd, 4),
-                ev=round(ev, 4),
-                value=ev >= SCORING["value_threshold"],
-                stake_fraction=_kelly_stake(prob, odd),
-            )
-        candidates.append(entry)
-
-    eligible = [c for c in candidates if c["eligible"]]
-    pool = eligible or candidates
-    # desempate: confiança, depois valor, depois prob
-    pick = max(pool, key=lambda c: (c["confidence"], c.get("ev", -1), c["model_prob"]))
-    pick = dict(pick)
-    pick["low_conviction"] = not eligible or pick["confidence"] < SCORING["min_confidence_listed"]
-
-    aligned_trends = [
-        t for t in trends
-        if t.get("favors") in _ALIGN[pick["selection"]][0]
+    cands = [
+        _candidate(s, probs, sample, trends, odds)
+        for s in ("HOME", "AWAY", "1X", "X2", "OVER25", "UNDER25", "BTTS_YES", "BTTS_NO")
     ]
+    for c in cands:
+        c["label"] = _label(c["selection"], home, away)
+
+    primary = [c for c in cands if c["family"] in _PRIMARY_FAMILIES]
+    secondary = [c for c in cands if c["family"] not in _PRIMARY_FAMILIES]
+
+    elig_primary = [c for c in primary if c["eligible"]]
+    pool = elig_primary or primary
+    pick = max(pool, key=lambda c: (c["confidence"], c["model_prob"]))
+
+    # secundário só assume se for MUITO mais forte
+    override = SCORING["secondary_override_prob"]
+    margin = SCORING["secondary_override_margin"]
+    strong = [
+        c for c in secondary
+        if c["model_prob"] >= override and c["confidence"] >= pick["confidence"] + margin
+    ]
+    if strong:
+        pick = max(strong, key=lambda c: c["confidence"])
+
+    pick = dict(pick)
+    pick["low_conviction"] = (
+        not pick["eligible"] or pick["confidence"] < SCORING["min_confidence_listed"]
+    )
+
+    aligned = [t for t in trends if t.get("favors") in _ALIGN[pick["selection"]][0]]
 
     game = dict(game)
     game["model"] = {
@@ -140,10 +140,10 @@ def evaluate(game: dict, model: dict, trends: list[dict], odds: dict | None) -> 
     }
     game["pick"] = pick
     game["alt_markets"] = sorted(
-        (c for c in candidates if c["selection"] != pick["selection"]),
+        (c for c in cands if c["selection"] != pick["selection"]),
         key=lambda c: c["confidence"], reverse=True,
-    )[:3]
+    )[:4]
     game["trends"] = trends
-    game["aligned_trends"] = aligned_trends
+    game["aligned_trends"] = aligned
     game["confidence"] = pick["confidence"]
     return game

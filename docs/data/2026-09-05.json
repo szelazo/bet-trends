@@ -1,8 +1,7 @@
 {
  "date": "2026-09-05",
- "generated_at": "2026-09-03T15:25:02.788824-03:00",
+ "generated_at": "2026-09-03T15:37:12.199150-03:00",
  "version": "0.1.0",
- "bankroll": null,
  "count": 8,
  "games": [
   {
@@ -46,7 +45,7 @@
     "label": "Dupla chance: FC Nürnberg ou empate (X2)",
     "model_prob": 0.7841,
     "trend_alignment": 1.0,
-    "confidence": 63,
+    "confidence": 65,
     "eligible": true,
     "odd": null,
     "low_conviction": false
@@ -81,55 +80,71 @@
      "confidence": 15,
      "eligible": true,
      "odd": null
+    },
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Holstein Kiel",
+     "model_prob": 0.2159,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": null
     }
    ],
    "trends": [
     {
-     "label": "FC Nürnberg está 16 posições à frente na tabela",
-     "kind": "table_gap",
-     "strength": 0.9,
-     "favors": "AWAY",
-     "team": "FC Nürnberg"
-    },
-    {
      "label": "3 vitórias seguidas",
      "kind": "winning",
      "strength": 0.5,
      "favors": "AWAY",
-     "team": "FC Nürnberg"
+     "team": "FC Nürnberg",
+     "group": "forma"
     },
     {
      "label": "Invicto há 3+ jogos",
      "kind": "unbeaten",
-     "strength": 0.2,
+     "strength": 0.167,
      "favors": "AWAY",
-     "team": "FC Nürnberg"
+     "team": "FC Nürnberg",
+     "group": "forma"
+    },
+    {
+     "label": "FC Nürnberg 1º × 17º Holstein Kiel (16 posições)",
+     "kind": "table_gap",
+     "strength": 0.85,
+     "favors": "AWAY",
+     "team": "FC Nürnberg",
+     "group": "tabela"
     }
    ],
    "aligned_trends": [
     {
-     "label": "FC Nürnberg está 16 posições à frente na tabela",
-     "kind": "table_gap",
-     "strength": 0.9,
-     "favors": "AWAY",
-     "team": "FC Nürnberg"
-    },
-    {
      "label": "3 vitórias seguidas",
      "kind": "winning",
      "strength": 0.5,
      "favors": "AWAY",
-     "team": "FC Nürnberg"
+     "team": "FC Nürnberg",
+     "group": "forma"
     },
     {
      "label": "Invicto há 3+ jogos",
      "kind": "unbeaten",
-     "strength": 0.2,
+     "strength": 0.167,
      "favors": "AWAY",
-     "team": "FC Nürnberg"
+     "team": "FC Nürnberg",
+     "group": "forma"
+    },
+    {
+     "label": "FC Nürnberg 1º × 17º Holstein Kiel (16 posições)",
+     "kind": "table_gap",
+     "strength": 0.85,
+     "favors": "AWAY",
+     "team": "FC Nürnberg",
+     "group": "tabela"
     }
    ],
-   "confidence": 63,
+   "confidence": 65,
    "league": {
     "key": "bundesliga2",
     "name": "2. Bundesliga",
@@ -142,6 +157,8 @@
     "played": 3,
     "points": 2.0,
     "record": "0V 2E 1D",
+    "goals_for": 4,
+    "goals_against": 6,
     "last5": "LDD",
     "recent": [
      {
@@ -184,6 +201,8 @@
     "played": 3,
     "points": 9.0,
     "record": "3V 0E 0D",
+    "goals_for": 11,
+    "goals_against": 3,
     "last5": "WWW",
     "recent": [
      {
@@ -262,7 +281,7 @@
     "family": "double_chance",
     "label": "Dupla chance: Reims ou empate (1X)",
     "model_prob": 0.8453,
-    "trend_alignment": 0.695,
+    "trend_alignment": 0.651,
     "confidence": 62,
     "eligible": true,
     "odd": null,
@@ -274,8 +293,8 @@
      "family": "1x2",
      "label": "Vitória do Reims",
      "model_prob": 0.6625,
-     "trend_alignment": 0.695,
-     "confidence": 56,
+     "trend_alignment": 0.651,
+     "confidence": 55,
      "eligible": true,
      "odd": null
     },
@@ -296,40 +315,54 @@
      "model_prob": 0.5898,
      "trend_alignment": 0.0,
      "confidence": 12,
-     "eligible": true,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Guingamp",
+     "model_prob": 0.1547,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
      "odd": null
     }
    ],
    "trends": [
     {
-     "label": "Reims está 9 posições à frente na tabela",
+     "label": "Invicto há 4+ jogos",
+     "kind": "unbeaten",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Reims",
+     "group": "forma"
+    },
+    {
+     "label": "Reims 2º × 11º Guingamp (9 posições)",
      "kind": "table_gap",
      "strength": 0.643,
      "favors": "HOME",
-     "team": "Reims"
-    },
-    {
-     "label": "Invicto há 4+ jogos",
-     "kind": "unbeaten",
-     "strength": 0.4,
-     "favors": "HOME",
-     "team": "Reims"
+     "team": "Reims",
+     "group": "tabela"
     }
    ],
    "aligned_trends": [
     {
-     "label": "Reims está 9 posições à frente na tabela",
+     "label": "Invicto há 4+ jogos",
+     "kind": "unbeaten",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Reims",
+     "group": "forma"
+    },
+    {
+     "label": "Reims 2º × 11º Guingamp (9 posições)",
      "kind": "table_gap",
      "strength": 0.643,
      "favors": "HOME",
-     "team": "Reims"
-    },
-    {
-     "label": "Invicto há 4+ jogos",
-     "kind": "unbeaten",
-     "strength": 0.4,
-     "favors": "HOME",
-     "team": "Reims"
+     "team": "Reims",
+     "group": "tabela"
     }
    ],
    "confidence": 62,
@@ -345,6 +378,8 @@
     "played": 4,
     "points": 8.0,
     "record": "2V 2E 0D",
+    "goals_for": 10,
+    "goals_against": 5,
     "last5": "WWDD",
     "recent": [
      {
@@ -394,6 +429,8 @@
     "played": 4,
     "points": 4.0,
     "record": "1V 1E 2D",
+    "goals_for": 5,
+    "goals_against": 6,
     "last5": "DLWL",
     "recent": [
      {
@@ -479,8 +516,8 @@
     "family": "double_chance",
     "label": "Dupla chance: Charlton ou empate (X2)",
     "model_prob": 0.731,
-    "trend_alignment": 0.867,
-    "confidence": 52,
+    "trend_alignment": 0.789,
+    "confidence": 51,
     "eligible": true,
     "odd": null,
     "low_conviction": false
@@ -491,8 +528,8 @@
      "family": "1x2",
      "label": "Vitória do Charlton",
      "model_prob": 0.4576,
-     "trend_alignment": 0.867,
-     "confidence": 42,
+     "trend_alignment": 0.789,
+     "confidence": 39,
      "eligible": false,
      "odd": null
     },
@@ -503,7 +540,7 @@
      "model_prob": 0.5829,
      "trend_alignment": 0.0,
      "confidence": 11,
-     "eligible": true,
+     "eligible": false,
      "odd": null
     },
     {
@@ -515,41 +552,55 @@
      "confidence": 4,
      "eligible": false,
      "odd": null
+    },
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Stoke City",
+     "model_prob": 0.269,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": null
     }
    ],
    "trends": [
     {
-     "label": "Charlton está 19 posições à frente na tabela",
-     "kind": "table_gap",
-     "strength": 0.9,
-     "favors": "AWAY",
-     "team": "Charlton"
-    },
-    {
      "label": "Invicto há 4+ jogos",
      "kind": "unbeaten",
-     "strength": 0.4,
+     "strength": 0.333,
      "favors": "AWAY",
-     "team": "Charlton"
+     "team": "Charlton",
+     "group": "forma"
+    },
+    {
+     "label": "Charlton 3º × 22º Stoke City (19 posições)",
+     "kind": "table_gap",
+     "strength": 0.85,
+     "favors": "AWAY",
+     "team": "Charlton",
+     "group": "tabela"
     }
    ],
    "aligned_trends": [
     {
-     "label": "Charlton está 19 posições à frente na tabela",
-     "kind": "table_gap",
-     "strength": 0.9,
-     "favors": "AWAY",
-     "team": "Charlton"
-    },
-    {
      "label": "Invicto há 4+ jogos",
      "kind": "unbeaten",
-     "strength": 0.4,
+     "strength": 0.333,
      "favors": "AWAY",
-     "team": "Charlton"
+     "team": "Charlton",
+     "group": "forma"
+    },
+    {
+     "label": "Charlton 3º × 22º Stoke City (19 posições)",
+     "kind": "table_gap",
+     "strength": 0.85,
+     "favors": "AWAY",
+     "team": "Charlton",
+     "group": "tabela"
     }
    ],
-   "confidence": 52,
+   "confidence": 51,
    "league": {
     "key": "championship",
     "name": "Championship",
@@ -562,6 +613,8 @@
     "played": 4,
     "points": 3.0,
     "record": "1V 0E 3D",
+    "goals_for": 4,
+    "goals_against": 9,
     "last5": "WLLL",
     "recent": [
      {
@@ -611,6 +664,8 @@
     "played": 4,
     "points": 10.0,
     "record": "3V 1E 0D",
+    "goals_for": 6,
+    "goals_against": 3,
     "last5": "DWWW",
     "recent": [
      {
@@ -697,7 +752,7 @@
     "label": "Dupla chance: Blackburn Rovers ou empate (X2)",
     "model_prob": 0.6861,
     "trend_alignment": 1.0,
-    "confidence": 50,
+    "confidence": 51,
     "eligible": true,
     "odd": null,
     "low_conviction": false
@@ -720,7 +775,7 @@
      "model_prob": 0.5824,
      "trend_alignment": 0.0,
      "confidence": 11,
-     "eligible": true,
+     "eligible": false,
      "odd": null
     },
     {
@@ -732,55 +787,71 @@
      "confidence": 6,
      "eligible": false,
      "odd": null
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5248,
+     "trend_alignment": 0.0,
+     "confidence": 3,
+     "eligible": false,
+     "odd": null
     }
    ],
    "trends": [
     {
-     "label": "Blackburn Rovers está 11 posições à frente na tabela",
-     "kind": "table_gap",
-     "strength": 0.786,
-     "favors": "AWAY",
-     "team": "Blackburn Rovers"
-    },
-    {
      "label": "4 derrotas seguidas",
      "kind": "losing",
      "strength": 0.75,
      "favors": "AWAY",
-     "team": "Preston"
+     "team": "Preston",
+     "group": "forma"
     },
     {
      "label": "Não vence há 4+ jogos",
      "kind": "winless",
-     "strength": 0.2,
+     "strength": 0.167,
      "favors": "AWAY",
-     "team": "Preston"
+     "team": "Preston",
+     "group": "forma"
+    },
+    {
+     "label": "Blackburn Rovers 13º × 24º Preston (11 posições)",
+     "kind": "table_gap",
+     "strength": 0.786,
+     "favors": "AWAY",
+     "team": "Blackburn Rovers",
+     "group": "tabela"
     }
    ],
    "aligned_trends": [
     {
-     "label": "Blackburn Rovers está 11 posições à frente na tabela",
-     "kind": "table_gap",
-     "strength": 0.786,
-     "favors": "AWAY",
-     "team": "Blackburn Rovers"
-    },
-    {
      "label": "4 derrotas seguidas",
      "kind": "losing",
      "strength": 0.75,
      "favors": "AWAY",
-     "team": "Preston"
+     "team": "Preston",
+     "group": "forma"
     },
     {
      "label": "Não vence há 4+ jogos",
      "kind": "winless",
-     "strength": 0.2,
+     "strength": 0.167,
      "favors": "AWAY",
-     "team": "Preston"
+     "team": "Preston",
+     "group": "forma"
+    },
+    {
+     "label": "Blackburn Rovers 13º × 24º Preston (11 posições)",
+     "kind": "table_gap",
+     "strength": 0.786,
+     "favors": "AWAY",
+     "team": "Blackburn Rovers",
+     "group": "tabela"
     }
    ],
-   "confidence": 50,
+   "confidence": 51,
    "league": {
     "key": "championship",
     "name": "Championship",
@@ -793,6 +864,8 @@
     "played": 4,
     "points": 0,
     "record": "0V 0E 4D",
+    "goals_for": 3,
+    "goals_against": 9,
     "last5": "LLLL",
     "recent": [
      {
@@ -842,6 +915,8 @@
     "played": 4,
     "points": 5.0,
     "record": "1V 2E 1D",
+    "goals_for": 5,
+    "goals_against": 5,
     "last5": "DLWD",
     "recent": [
      {
@@ -927,7 +1002,7 @@
     "family": "double_chance",
     "label": "Dupla chance: FC Kaiserslautern ou empate (1X)",
     "model_prob": 0.7476,
-    "trend_alignment": 0.705,
+    "trend_alignment": 0.678,
     "confidence": 49,
     "eligible": true,
     "odd": null,
@@ -939,8 +1014,8 @@
      "family": "1x2",
      "label": "Vitória do FC Kaiserslautern",
      "model_prob": 0.4422,
-     "trend_alignment": 0.705,
-     "confidence": 35,
+     "trend_alignment": 0.678,
+     "confidence": 34,
      "eligible": false,
      "odd": null
     },
@@ -963,38 +1038,52 @@
      "confidence": 16,
      "eligible": true,
      "odd": null
+    },
+    {
+     "selection": "X2",
+     "family": "double_chance",
+     "label": "Dupla chance: SV Darmstadt 98 ou empate (X2)",
+     "model_prob": 0.5578,
+     "trend_alignment": 0.0,
+     "confidence": 1,
+     "eligible": false,
+     "odd": null
     }
    ],
    "trends": [
     {
-     "label": "FC Kaiserslautern está 12 posições à frente na tabela",
-     "kind": "table_gap",
-     "strength": 0.857,
-     "favors": "HOME",
-     "team": "FC Kaiserslautern"
-    },
-    {
      "label": "Invicto há 3+ jogos",
      "kind": "unbeaten",
-     "strength": 0.2,
+     "strength": 0.167,
      "favors": "HOME",
-     "team": "FC Kaiserslautern"
+     "team": "FC Kaiserslautern",
+     "group": "forma"
+    },
+    {
+     "label": "FC Kaiserslautern 6º × 18º SV Darmstadt 98 (12 posições)",
+     "kind": "table_gap",
+     "strength": 0.85,
+     "favors": "HOME",
+     "team": "FC Kaiserslautern",
+     "group": "tabela"
     }
    ],
    "aligned_trends": [
     {
-     "label": "FC Kaiserslautern está 12 posições à frente na tabela",
-     "kind": "table_gap",
-     "strength": 0.857,
-     "favors": "HOME",
-     "team": "FC Kaiserslautern"
-    },
-    {
      "label": "Invicto há 3+ jogos",
      "kind": "unbeaten",
-     "strength": 0.2,
+     "strength": 0.167,
      "favors": "HOME",
-     "team": "FC Kaiserslautern"
+     "team": "FC Kaiserslautern",
+     "group": "forma"
+    },
+    {
+     "label": "FC Kaiserslautern 6º × 18º SV Darmstadt 98 (12 posições)",
+     "kind": "table_gap",
+     "strength": 0.85,
+     "favors": "HOME",
+     "team": "FC Kaiserslautern",
+     "group": "tabela"
     }
    ],
    "confidence": 49,
@@ -1010,6 +1099,8 @@
     "played": 3,
     "points": 5.0,
     "record": "1V 2E 0D",
+    "goals_for": 2,
+    "goals_against": 1,
     "last5": "WDD",
     "recent": [
      {
@@ -1052,6 +1143,8 @@
     "played": 3,
     "points": 1.0,
     "record": "0V 1E 2D",
+    "goals_for": 2,
+    "goals_against": 4,
     "last5": "LLD",
     "recent": [
      {
@@ -1130,8 +1223,8 @@
     "family": "double_chance",
     "label": "Dupla chance: Pachuca ou empate (X2)",
     "model_prob": 0.7362,
-    "trend_alignment": 0.693,
-    "confidence": 47,
+    "trend_alignment": 0.689,
+    "confidence": 48,
     "eligible": true,
     "odd": null,
     "low_conviction": false
@@ -1162,9 +1255,19 @@
      "family": "1x2",
      "label": "Vitória do Pachuca",
      "model_prob": 0.4943,
-     "trend_alignment": 0.693,
+     "trend_alignment": 0.689,
      "confidence": 39,
      "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do FC Juarez",
+     "model_prob": 0.2638,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
      "odd": null
     }
    ],
@@ -1174,42 +1277,64 @@
      "kind": "losing",
      "strength": 1.0,
      "favors": "AWAY",
-     "team": "FC Juarez"
+     "team": "FC Juarez",
+     "group": "forma"
     },
     {
      "label": "Over 2.5 em 4 dos últimos 5",
      "kind": "over",
      "strength": 0.667,
      "favors": "OVER",
-     "team": "FC Juarez"
+     "team": "FC Juarez",
+     "group": "forma"
     },
     {
      "label": "Ambos marcam em 4 dos últimos 5",
      "kind": "btts",
      "strength": 0.667,
      "favors": "BTTS_YES",
-     "team": "Pachuca"
-    },
-    {
-     "label": "Não vence há 5+ jogos",
-     "kind": "winless",
-     "strength": 0.4,
-     "favors": "AWAY",
-     "team": "FC Juarez"
+     "team": "Pachuca",
+     "group": "forma"
     },
     {
      "label": "Sofre gol há 5 jogos",
      "kind": "conceding",
      "strength": 0.4,
      "favors": "OVER",
-     "team": "FC Juarez"
+     "team": "FC Juarez",
+     "group": "forma"
+    },
+    {
+     "label": "Sofre gol há 5 jogos",
+     "kind": "conceding",
+     "strength": 0.4,
+     "favors": "OVER",
+     "team": "Pachuca",
+     "group": "forma"
     },
     {
      "label": "Não vence há 5+ jogos",
      "kind": "winless",
-     "strength": 0.4,
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "FC Juarez",
+     "group": "forma"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "kind": "winless",
+     "strength": 0.333,
      "favors": "HOME",
-     "team": "Pachuca"
+     "team": "Pachuca",
+     "group": "forma"
+    },
+    {
+     "label": "Pior defesa da liga (3.2 sofridos/jogo)",
+     "kind": "def_bottom",
+     "strength": 0.35,
+     "favors": "OVER",
+     "team": "FC Juarez",
+     "group": "temporada"
     }
    ],
    "aligned_trends": [
@@ -1218,17 +1343,19 @@
      "kind": "losing",
      "strength": 1.0,
      "favors": "AWAY",
-     "team": "FC Juarez"
+     "team": "FC Juarez",
+     "group": "forma"
     },
     {
      "label": "Não vence há 5+ jogos",
      "kind": "winless",
-     "strength": 0.4,
+     "strength": 0.333,
      "favors": "AWAY",
-     "team": "FC Juarez"
+     "team": "FC Juarez",
+     "group": "forma"
     }
    ],
-   "confidence": 47,
+   "confidence": 48,
    "league": {
     "key": "mx_ligamx",
     "name": "Liga MX",
@@ -1241,6 +1368,8 @@
     "played": 6,
     "points": 0,
     "record": "0V 0E 6D",
+    "goals_for": 3,
+    "goals_against": 19,
     "last5": "LLLLL",
     "recent": [
      {
@@ -1297,6 +1426,8 @@
     "played": 6,
     "points": 5.0,
     "record": "1V 2E 3D",
+    "goals_for": 8,
+    "goals_against": 8,
     "last5": "DDLLL",
     "recent": [
      {
@@ -1390,7 +1521,7 @@
     "label": "Dupla chance: Newcastle United ou empate (1X)",
     "model_prob": 0.7945,
     "trend_alignment": 0.381,
-    "confidence": 45,
+    "confidence": 46,
     "eligible": true,
     "odd": null,
     "low_conviction": false
@@ -1425,27 +1556,39 @@
      "confidence": 3,
      "eligible": false,
      "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Bournemouth",
+     "model_prob": 0.2055,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": null
     }
    ],
    "trends": [
     {
-     "label": "Newcastle United está 8 posições à frente na tabela",
+     "label": "Newcastle United 6º × 14º Bournemouth (8 posições)",
      "kind": "table_gap",
      "strength": 0.571,
      "favors": "HOME",
-     "team": "Newcastle United"
+     "team": "Newcastle United",
+     "group": "tabela"
     }
    ],
    "aligned_trends": [
     {
-     "label": "Newcastle United está 8 posições à frente na tabela",
+     "label": "Newcastle United 6º × 14º Bournemouth (8 posições)",
      "kind": "table_gap",
      "strength": 0.571,
      "favors": "HOME",
-     "team": "Newcastle United"
+     "team": "Newcastle United",
+     "group": "tabela"
     }
    ],
-   "confidence": 45,
+   "confidence": 46,
    "league": {
     "key": "epl",
     "name": "Premier League",
@@ -1458,6 +1601,8 @@
     "played": 2,
     "points": 4.0,
     "record": "1V 1E 0D",
+    "goals_for": 4,
+    "goals_against": 2,
     "last5": "WD",
     "recent": [
      {
@@ -1493,6 +1638,8 @@
     "played": 2,
     "points": 1.0,
     "record": "0V 1E 1D",
+    "goals_for": 2,
+    "goals_against": 3,
     "last5": "DL",
     "recent": [
      {
@@ -1564,7 +1711,7 @@
     "family": "double_chance",
     "label": "Dupla chance: Wolfsburg ou empate (1X)",
     "model_prob": 0.8546,
-    "trend_alignment": 0.562,
+    "trend_alignment": 0.54,
     "confidence": 35,
     "eligible": true,
     "odd": null,
@@ -1576,8 +1723,8 @@
      "family": "1x2",
      "label": "Vitória do Wolfsburg",
      "model_prob": 0.6908,
-     "trend_alignment": 0.562,
-     "confidence": 33,
+     "trend_alignment": 0.54,
+     "confidence": 32,
      "eligible": true,
      "odd": null
     },
@@ -1600,38 +1747,52 @@
      "confidence": 11,
      "eligible": true,
      "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Energie Cottbus",
+     "model_prob": 0.1454,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": null
     }
    ],
    "trends": [
     {
-     "label": "Wolfsburg está 9 posições à frente na tabela",
+     "label": "Invicto há 3+ jogos",
+     "kind": "unbeaten",
+     "strength": 0.167,
+     "favors": "HOME",
+     "team": "Wolfsburg",
+     "group": "forma"
+    },
+    {
+     "label": "Wolfsburg 3º × 12º Energie Cottbus (9 posições)",
      "kind": "table_gap",
      "strength": 0.643,
      "favors": "HOME",
-     "team": "Wolfsburg"
-    },
-    {
-     "label": "Invicto há 3+ jogos",
-     "kind": "unbeaten",
-     "strength": 0.2,
-     "favors": "HOME",
-     "team": "Wolfsburg"
+     "team": "Wolfsburg",
+     "group": "tabela"
     }
    ],
    "aligned_trends": [
     {
-     "label": "Wolfsburg está 9 posições à frente na tabela",
+     "label": "Invicto há 3+ jogos",
+     "kind": "unbeaten",
+     "strength": 0.167,
+     "favors": "HOME",
+     "team": "Wolfsburg",
+     "group": "forma"
+    },
+    {
+     "label": "Wolfsburg 3º × 12º Energie Cottbus (9 posições)",
      "kind": "table_gap",
      "strength": 0.643,
      "favors": "HOME",
-     "team": "Wolfsburg"
-    },
-    {
-     "label": "Invicto há 3+ jogos",
-     "kind": "unbeaten",
-     "strength": 0.2,
-     "favors": "HOME",
-     "team": "Wolfsburg"
+     "team": "Wolfsburg",
+     "group": "tabela"
     }
    ],
    "confidence": 35,
@@ -1647,6 +1808,8 @@
     "played": 3,
     "points": 7.0,
     "record": "2V 1E 0D",
+    "goals_for": 6,
+    "goals_against": 2,
     "last5": "WWD",
     "recent": [
      {
@@ -1689,6 +1852,8 @@
     "played": 3,
     "points": 3.0,
     "record": "1V 0E 2D",
+    "goals_for": 6,
+    "goals_against": 8,
     "last5": "LLW",
     "recent": [
      {

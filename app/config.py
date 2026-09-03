@@ -117,26 +117,23 @@ MODEL = {
     "lambda_clamp": (0.25, 2.9),   # limites p/ gols esperados de cada lado
 }
 
-# ── Score de confiança e valor ────────────────────────────────────────────────
+# ── Score de confiança ───────────────────────────────────────────────────────
 SCORING = {
     # probabilidade mínima do modelo p/ um mercado ser recomendável
     "prob_floor": {
         "1x2": 0.46,
         "double_chance": 0.62,
-        "over_under": 0.58,
-        "btts": 0.58,
+        "over_under": 0.60,
+        "btts": 0.60,
     },
     "w_prob": 0.65,           # peso da prob. do modelo na confiança
     "w_trend": 0.35,          # peso da concordância das tendências
     "sample_full_games": 5,   # nº de jogos p/ confiança "cheia" (abaixo disso, penaliza)
-    "value_threshold": 0.05,  # EV mínimo p/ marcar "VALOR"
-    "kelly_fraction": 0.25,   # fração de Kelly
-    "kelly_cap": 0.02,        # teto de stake (fração da banca)
     "min_confidence_listed": 33,  # abaixo disso o jogo não entra na lista
+    # Over/Under e BTTS só viram palpite principal se bater estes dois:
+    "secondary_override_prob": 0.88,     # prob. mínima do modelo (tendência muito forte)
+    "secondary_override_margin": 12,     # confiança X pontos acima do melhor 1X2/dupla
 }
-
-# Banca p/ converter stake em dinheiro (None = mostrar só %).
-BANKROLL: float | None = None
 
 HTTP_HEADERS = {
     "User-Agent": (

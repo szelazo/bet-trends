@@ -66,9 +66,11 @@ def test_confidence_and_value_flow():
     }
     out = evaluate(game, pred, [], odds)
     assert out["pick"]["confidence"] >= 40
-    assert "ev" in out["pick"]
-    # p(home) alto e odd 1.5 → EV positivo p/ vitória mandante ou 1X
+    # palpite principal é sempre 1X2 ou dupla chance
+    assert out["pick"]["family"] in ("1x2", "double_chance")
     assert out["pick"]["odd"] is not None
+    # EV não é mais calculado
+    assert "ev" not in out["pick"]
 
 
 def test_prev_season_boosts_effective_sample():

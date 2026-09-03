@@ -17,7 +17,7 @@ from zoneinfo import ZoneInfo
 
 from . import __version__
 from .config import ODDS as ODDS_CFG
-from .config import S365, SCORING, BANKROLL, enabled_leagues
+from .config import S365, SCORING, enabled_leagues
 from .model import league_avg_goals, predict
 from .recommend import evaluate
 from .sources.odds_api import OddsApi, find_match
@@ -26,9 +26,11 @@ from .trends import (
     consolidate,
     last5_string,
     merge_recent,
+    season_trends,
     streaks,
     table_gap_trend,
     team_trends,
+    venue_trends,
 )
 from .util import name_similarity
 
@@ -100,6 +102,8 @@ def _team_summary(team: dict, row: dict | None, recent: list[dict]) -> dict:
         "record": (
             f'{row["won"]}V {row["drawn"]}E {row["lost"]}D' if row else None
         ),
+        "goals_for": row["goals_for"] if row else None,
+        "goals_against": row["goals_against"] if row else None,
         "last5": last5_string(recent),
         "recent": [
             {
@@ -179,10 +183,14 @@ def build(target: date, days: int, *, out_dir: Path, use_odds: bool, cache_dir: 
                 a_recent = merge_recent(history.get(g["away"]["id"], []), ar["recent"])
 
                 model = predict(hr, ar, mu)
-                trends = (
-                    team_trends(h_recent, side="HOME", team_name=g["home"]["name"])
-                    + team_trends(a_recent, side="AWAY", team_name=g["away"]["name"])
-                )
+                trends: list[dict] = []
+                for recent, side, tname, trow in (
+                    (h_recent, "HOME", g["home"]["name"], hr),
+                    (a_recent, "AWAY", g["away"]["name"], ar),
+                ):
+                    trends += team_trends(recent, side=side, team_name=tname)
+                    trends += venue_trends(recent, side=side, team_name=tname)
+                    trends += season_trends(trow, rows, side=side, team_name=tname)
                 gap = table_gap_trend(hr, ar)
                 if gap:
                     trends.append(gap)
@@ -214,7 +222,6 @@ def build(target: date, days: int, *, out_dir: Path, use_odds: bool, cache_dir: 
             "date": d.isoformat(),
             "generated_at": datetime.now(TZ).isoformat(),
             "version": __version__,
-            "bankroll": BANKROLL,
             "count": len(day_games),
             "games": day_games,
         }

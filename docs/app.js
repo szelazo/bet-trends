@@ -11,10 +11,11 @@ const state = {
 };
 
 function loadPrefs() {
+  const def = { minConf: 0, league: "", market: "" };
   try {
-    return { onlyValue: false, minConf: 0, league: "", market: "", ...JSON.parse(localStorage.getItem(PREF_KEY) || "{}") };
+    return { ...def, ...JSON.parse(localStorage.getItem(PREF_KEY) || "{}") };
   } catch {
-    return { onlyValue: false, minConf: 0, league: "", market: "" };
+    return def;
   }
 }
 function savePrefs() {
@@ -35,42 +36,60 @@ const fmtDate = (d) =>
 const kickoff = (iso) => (iso.match(/T(\d\d:\d\d)/) || [, "--:--"])[1];
 
 const pct = (p) => `${Math.round(p * 100)}%`;
-const signedPct = (x) => `${x >= 0 ? "+" : ""}${Math.round(x * 100)}%`;
 
 function confClass(c) {
   return c >= 65 ? "hi" : c >= 50 ? "mid" : "lo";
 }
 
-const SEL_PT = {
-  HOME: "Casa", AWAY: "Fora", "1X": "1X", X2: "X2",
-  OVER25: "Over 2.5", UNDER25: "Under 2.5", BTTS_YES: "Ambos sim", BTTS_NO: "Ambos não",
+const GROUP_LABEL = {
+  forma: "Forma recente",
+  sequencia: "Sequências longas",
+  casa_fora: "Casa / fora",
+  temporada: "Na temporada",
+  tabela: "Tabela",
 };
+const GROUP_ORDER = ["sequencia", "casa_fora", "temporada", "tabela", "forma"];
 
 // ── render ────────────────────────────────────────────────────────────────────
 function pills(recent) {
-  const items = (recent || []).slice(0, 5).map((m) => `<span class="pill ${m.result}" title="${m.home ? "" : "@"}${m.opponent} ${m.score}">${m.result}</span>`);
+  const items = (recent || []).slice(0, 5).map(
+    (m) => `<span class="pill ${m.result}" title="${m.home ? "" : "@"}${m.opponent} ${m.score}">${m.result}</span>`
+  );
   while (items.length < 5) items.push('<span class="pill empty"></span>');
   return `<span class="pills">${items.join("")}</span>`;
 }
 
-function stakeText(frac, bankroll) {
-  if (!frac) return "";
-  if (bankroll) return `${(frac * bankroll).toLocaleString("pt-BR", { style: "currency", currency: "BRL", maximumFractionDigits: 0 })}`;
-  return `${(frac * 100).toFixed(1)}% da banca`;
+function standRow(t) {
+  const gd = t.goals_for != null ? ` · ${t.goals_for}:${t.goals_against}` : "";
+  const rec = t.record ? ` · ${t.record}` : "";
+  const pts = t.points != null ? `${t.points} pts` : "—";
+  return `<div class="strow">
+    <span class="spos">${t.position ? `${t.position}º` : "–"}</span>
+    <span class="sname">${t.name}</span>
+    <span class="sstat">${pts}${rec}${gd}</span>
+  </div>`;
 }
 
-function card(g, bankroll) {
+function trendGroups(trends) {
+  const by = {};
+  for (const t of trends || []) (by[t.group || "forma"] ||= []).push(t);
+  return GROUP_ORDER.filter((g) => by[g] && by[g].length).map((g) => `
+    <div class="tgroup">
+      <h4>${GROUP_LABEL[g]}</h4>
+      <ul class="trendlist">
+        ${by[g].map((t) => `<li><span class="dot">▸</span><span>${t.label}</span>${t.team ? `<span class="team">${t.team}</span>` : ""}</li>`).join("")}
+      </ul>
+    </div>`).join("");
+}
+
+function card(g) {
   const p = g.pick;
   const conf = g.confidence;
-  const oddTxt = p.odd ? p.odd.toFixed(2) : "—";
-  const evTxt = p.odd && p.ev != null
-    ? `<span class="ev ${p.ev >= 0.05 ? "pos" : ""}">EV ${signedPct(p.ev)}</span>` : "";
+  const oddTxt = p.odd ? p.odd.toFixed(2) : "sem odd";
 
   const badges = [];
-  if (p.value) badges.push('<span class="badge value">VALOR</span>');
   if (p.low_conviction) badges.push('<span class="badge lowconv">baixa convicção</span>');
-  if (!g.has_odds) badges.push('<span class="badge noodds">sem odds</span>');
-  for (const t of g.aligned_trends || []) badges.push(`<span class="badge">${t.label}</span>`);
+  for (const t of (g.aligned_trends || []).slice(0, 3)) badges.push(`<span class="badge">${t.label}</span>`);
 
   const probs = g.model.probs;
   const probbar = `
@@ -83,11 +102,7 @@ function card(g, bankroll) {
   const alts = (g.alt_markets || []).map((a) => `
     <div class="row"><span>${a.label}</span><span>${pct(a.model_prob)} · conf ${a.confidence}${a.odd ? ` · ${a.odd.toFixed(2)}` : ""}</span></div>`).join("");
 
-  const trends = (g.trends || []).map((t) => `
-    <li><span class="dot">▸</span><span>${t.label}</span><span class="team">${t.team || ""}</span></li>`).join("")
-    || "<li><span class='team'>sem tendência forte detectada</span></li>";
-
-  const stake = stakeText(p.stake_fraction, bankroll);
+  const tg = trendGroups(g.trends);
 
   return `
   <details class="card">
@@ -104,9 +119,9 @@ function card(g, bankroll) {
       </div>
       <div class="pick">
         <span class="label">${p.label}</span>
-        <span class="odds"><span class="odd${p.odd ? "" : " none"}">${oddTxt}</span>${evTxt}</span>
+        <span class="odd${p.odd ? "" : " none"}">${oddTxt}</span>
       </div>
-      <div class="badges">${badges.join("")}</div>
+      ${badges.length ? `<div class="badges">${badges.join("")}</div>` : ""}
     </summary>
     <div class="detail">
       <div>
@@ -117,25 +132,23 @@ function card(g, bankroll) {
         </div>
       </div>
       <div>
+        <h3>Tabela</h3>
+        <div class="standings">
+          ${standRow(g.home_team)}
+          ${standRow(g.away_team)}
+        </div>
+      </div>
+      <div>
         <h3>Tendências</h3>
-        <ul class="trendlist">${trends}</ul>
+        ${tg || '<p class="muted-note">Sem tendência forte detectada.</p>'}
       </div>
       <div>
         <h3>Probabilidades do modelo</h3>
         ${probbar}
-        <div class="kv" style="margin-top:.4rem"><span>Gols esperados</span><b>${g.model.expected_goals}</b></div>
+        <div class="kv" style="margin-top:.45rem"><span>Gols esperados</span><b>${g.model.expected_goals}</b></div>
         <div class="kv"><span>Over 2.5 / Ambos marcam</span><b>${pct(probs.OVER25)} / ${pct(probs.BTTS_YES)}</b></div>
       </div>
-      ${p.odd ? `<div>
-        <h3>Valor</h3>
-        <div class="kv"><span>Odd recomendada</span><b>${oddTxt}</b></div>
-        <div class="kv"><span>Prob. implícita da odd</span><b>${pct(p.implied_prob)}</b></div>
-        <div class="kv"><span>Prob. do modelo</span><b>${pct(p.model_prob)}</b></div>
-        <div class="kv"><span>EV</span><b>${signedPct(p.ev)}</b></div>
-        ${stake ? `<div class="kv"><span>Stake sugerido (¼ Kelly)</span><b>${stake}</b></div>` : ""}
-      </div>` : ""}
       ${alts ? `<div><h3>Outros mercados</h3><div class="altmarkets">${alts}</div></div>` : ""}
-      <div class="kv"><span>Posição na tabela</span><b>${g.home_team.position || "?"}º (${g.home_team.record || "?"}) vs ${g.away_team.position || "?"}º (${g.away_team.record || "?"})</b></div>
     </div>
   </details>`;
 }
@@ -143,7 +156,6 @@ function card(g, bankroll) {
 function applyFilters(games) {
   const f = state.filters;
   return games.filter((g) => {
-    if (f.onlyValue && !g.pick.value) return false;
     if (f.minConf && g.confidence < +f.minConf) return false;
     if (f.league && g.league.name !== f.league) return false;
     if (f.market && g.pick.family !== f.market) return false;
@@ -159,7 +171,7 @@ function render() {
     return;
   }
   const games = applyFilters(state.day.games || []);
-  list.innerHTML = games.map((g) => card(g, state.day.bankroll)).join("");
+  list.innerHTML = games.map((g) => card(g)).join("");
   empty.hidden = games.length > 0;
 
   const gen = state.day.generated_at ? new Date(state.day.generated_at) : null;
@@ -215,7 +227,6 @@ function wire() {
       el.onchange = () => { state.filters[key] = transform(el.value); savePrefs(); render(); };
     }
   };
-  bind("onlyValue", "onlyValue");
   bind("minConf", "minConf");
   bind("leagueFilter", "league");
   bind("marketFilter", "market");
