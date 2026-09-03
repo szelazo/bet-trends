@@ -134,6 +134,9 @@ SCORING = {
     # Over/Under e BTTS só viram palpite principal se bater estes dois:
     "secondary_override_prob": 0.88,     # prob. mínima do modelo (tendência muito forte)
     "secondary_override_margin": 12,     # confiança X pontos acima do melhor 1X2/dupla
+    # se a dupla chance recomendada paga muito pouco, troca pelo resultado seco
+    "min_dc_odd": 1.25,
+    "straight_switch_prob": 0.55,        # prob. mínima do resultado seco p/ a troca
 }
 
 HTTP_HEADERS = {

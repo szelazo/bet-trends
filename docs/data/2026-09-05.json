@@ -1,0 +1,1824 @@
+{
+ "date": "2026-09-05",
+ "generated_at": "2026-09-03T15:57:49.550379-03:00",
+ "version": "0.1.0",
+ "count": 8,
+ "games": [
+  {
+   "id": 4735561,
+   "s365_competition_id": 36,
+   "competition_name": "Ligue 2",
+   "start_time": "2026-09-05T12:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 499,
+    "name": "Reims"
+   },
+   "away": {
+    "id": 496,
+    "name": "Guingamp"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.35,
+    "lambda_away": 1.05,
+    "expected_goals": 3.41,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.6625,
+     "DRAW": 0.1828,
+     "AWAY": 0.1547,
+     "1X": 0.8453,
+     "X2": 0.3375,
+     "12": 0.8172,
+     "OVER25": 0.6617,
+     "UNDER25": 0.3383,
+     "BTTS_YES": 0.5898,
+     "BTTS_NO": 0.4102
+    }
+   },
+   "pick": {
+    "selection": "1X",
+    "family": "double_chance",
+    "label": "Dupla chance: Reims ou empate (1X)",
+    "model_prob": 0.8453,
+    "trend_alignment": 1.0,
+    "confidence": 73,
+    "eligible": true,
+    "odd": null,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Reims",
+     "model_prob": 0.6625,
+     "trend_alignment": 1.0,
+     "confidence": 67,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6617,
+     "trend_alignment": 0.3,
+     "confidence": 32,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5898,
+     "trend_alignment": 0.3,
+     "confidence": 22,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Guingamp",
+     "model_prob": 0.1547,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Invicto em 4 dos últimos 4",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Reims",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Mais de 2.5 gols em 3 dos últimos 4",
+     "strength": 0.45,
+     "favors": "OVER",
+     "team": "Reims",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Só venceu 1 dos últimos 4",
+     "strength": 0.462,
+     "favors": "HOME",
+     "team": "Guingamp",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "Reims é 2º · Guingamp é 11º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Reims está 9 posições à frente",
+     "strength": 0.643,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Invicto em 4 dos últimos 4",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Reims",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Só venceu 1 dos últimos 4",
+     "strength": 0.462,
+     "favors": "HOME",
+     "team": "Guingamp",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "Reims está 9 posições à frente",
+     "strength": 0.643,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 73,
+   "league": {
+    "key": "ligue2",
+    "name": "Ligue 2",
+    "country": "França"
+   },
+   "home_team": {
+    "id": 499,
+    "name": "Reims",
+    "position": 2,
+    "played": 4,
+    "points": 8.0,
+    "record": "2V 2E 0D",
+    "goals_for": 10,
+    "goals_against": 5,
+    "last5": "WWDD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "4-1",
+      "home": false,
+      "opponent": "Red Star FC93",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": true,
+      "opponent": "FC Annecy",
+      "date": "2026-08-24"
+     },
+     {
+      "result": "D",
+      "score": "3-3",
+      "home": true,
+      "opponent": "Dunkerque",
+      "date": "2026-08-14"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Clermont Foot",
+      "date": "2026-08-08"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 496,
+    "name": "Guingamp",
+    "position": 11,
+    "played": 4,
+    "points": 4.0,
+    "record": "1V 1E 2D",
+    "goals_for": 5,
+    "goals_against": 6,
+    "last5": "DLWL",
+    "recent": [
+     {
+      "result": "D",
+      "score": "3-3",
+      "home": true,
+      "opponent": "Nantes",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Sochaux",
+      "date": "2026-08-21"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Boulogne",
+      "date": "2026-08-14"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Metz",
+      "date": "2026-08-08"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-05T09:00:00-03:00",
+   "has_odds": false,
+   "odds_bookmaker": null
+  },
+  {
+   "id": 4757687,
+   "s365_competition_id": 26,
+   "competition_name": "Bundesliga 2",
+   "start_time": "2026-09-05T11:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 430,
+    "name": "Holstein Kiel"
+   },
+   "away": {
+    "id": 346,
+    "name": "FC Nürnberg"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.21,
+    "lambda_away": 2.09,
+    "expected_goals": 3.3,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.2159,
+     "DRAW": 0.2087,
+     "AWAY": 0.5753,
+     "1X": 0.4247,
+     "X2": 0.7841,
+     "12": 0.7913,
+     "OVER25": 0.6406,
+     "UNDER25": 0.3594,
+     "BTTS_YES": 0.6153,
+     "BTTS_NO": 0.3847
+    }
+   },
+   "pick": {
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: FC Nürnberg ou empate (X2)",
+    "model_prob": 0.7841,
+    "trend_alignment": 0.867,
+    "confidence": 60,
+    "eligible": true,
+    "odd": null,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do FC Nürnberg",
+     "model_prob": 0.5753,
+     "trend_alignment": 0.867,
+     "confidence": 54,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6406,
+     "trend_alignment": 0.0,
+     "confidence": 18,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.6153,
+     "trend_alignment": 0.0,
+     "confidence": 15,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Holstein Kiel",
+     "model_prob": 0.2159,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "FC Nürnberg",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Holstein Kiel é 17º · FC Nürnberg é 1º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "FC Nürnberg está 16 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "FC Nürnberg",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "FC Nürnberg está 16 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 60,
+   "league": {
+    "key": "bundesliga2",
+    "name": "2. Bundesliga",
+    "country": "Alemanha"
+   },
+   "home_team": {
+    "id": 430,
+    "name": "Holstein Kiel",
+    "position": 17,
+    "played": 3,
+    "points": 2.0,
+    "record": "0V 2E 1D",
+    "goals_for": 4,
+    "goals_against": 6,
+    "last5": "LDD",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "FC Magdeburg",
+      "date": "2026-08-30"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "St. Pauli",
+      "date": "2026-08-14"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "SV Darmstadt 98",
+      "date": "2026-08-08"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 346,
+    "name": "FC Nürnberg",
+    "position": 1,
+    "played": 3,
+    "points": 9.0,
+    "record": "3V 0E 0D",
+    "goals_for": 11,
+    "goals_against": 3,
+    "last5": "WWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "4-1",
+      "home": true,
+      "opponent": "Arminia Bielefeld",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "W",
+      "score": "4-2",
+      "home": false,
+      "opponent": "Greuther Fürth",
+      "date": "2026-08-15"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "Dynamo Dresden",
+      "date": "2026-08-09"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-05T08:00:00-03:00",
+   "has_odds": false,
+   "odds_bookmaker": null
+  },
+  {
+   "id": 4746164,
+   "s365_competition_id": 1,
+   "competition_name": "Championship",
+   "start_time": "2026-09-05T11:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 7,
+    "name": "Stoke City"
+   },
+   "away": {
+    "id": 8,
+    "name": "Charlton"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 0.98,
+    "lambda_away": 1.37,
+    "expected_goals": 2.35,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.269,
+     "DRAW": 0.2735,
+     "AWAY": 0.4576,
+     "1X": 0.5424,
+     "X2": 0.731,
+     "12": 0.7265,
+     "OVER25": 0.4171,
+     "UNDER25": 0.5829,
+     "BTTS_YES": 0.466,
+     "BTTS_NO": 0.534
+    }
+   },
+   "pick": {
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: Charlton ou empate (X2)",
+    "model_prob": 0.731,
+    "trend_alignment": 1.0,
+    "confidence": 57,
+    "eligible": true,
+    "odd": null,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Charlton",
+     "model_prob": 0.4576,
+     "trend_alignment": 1.0,
+     "confidence": 47,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.4171,
+     "trend_alignment": 0.575,
+     "confidence": 20,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.466,
+     "trend_alignment": 0.575,
+     "confidence": 20,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.5829,
+     "trend_alignment": 0.0,
+     "confidence": 11,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Venceu 3 dos últimos 4",
+     "strength": 0.625,
+     "favors": "AWAY",
+     "team": "Charlton",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Ambos marcaram em 3 dos últimos 4",
+     "strength": 0.412,
+     "favors": "BTTS_YES",
+     "team": "Charlton",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "btts"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 4",
+     "strength": 0.588,
+     "favors": "AWAY",
+     "team": "Stoke City",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Mais de 2.5 gols em 3 dos últimos 4",
+     "strength": 0.45,
+     "favors": "OVER",
+     "team": "Stoke City",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Stoke City é 22º · Charlton é 3º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Charlton está 19 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Venceu 3 dos últimos 4",
+     "strength": 0.625,
+     "favors": "AWAY",
+     "team": "Charlton",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 4",
+     "strength": 0.588,
+     "favors": "AWAY",
+     "team": "Stoke City",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Charlton está 19 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 57,
+   "league": {
+    "key": "championship",
+    "name": "Championship",
+    "country": "Inglaterra"
+   },
+   "home_team": {
+    "id": 7,
+    "name": "Stoke City",
+    "position": 22,
+    "played": 4,
+    "points": 3.0,
+    "record": "1V 0E 3D",
+    "goals_for": 4,
+    "goals_against": 9,
+    "last5": "WLLL",
+    "recent": [
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Norwich",
+      "date": "2026-09-01"
+     },
+     {
+      "result": "L",
+      "score": "1-4",
+      "home": false,
+      "opponent": "Wolves",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": false,
+      "opponent": "Southampton",
+      "date": "2026-08-22"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Swansea",
+      "date": "2026-08-15"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 8,
+    "name": "Charlton",
+    "position": 3,
+    "played": 4,
+    "points": 10.0,
+    "record": "3V 1E 0D",
+    "goals_for": 6,
+    "goals_against": 3,
+    "last5": "DWWW",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "West Brom",
+      "date": "2026-09-02"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Preston",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "West Ham United",
+      "date": "2026-08-22"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Derby",
+      "date": "2026-08-15"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-05T08:30:00-03:00",
+   "has_odds": false,
+   "odds_bookmaker": null
+  },
+  {
+   "id": 4746167,
+   "s365_competition_id": 1,
+   "competition_name": "Championship",
+   "start_time": "2026-09-05T11:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 23,
+    "name": "Preston"
+   },
+   "away": {
+    "id": 112,
+    "name": "Blackburn Rovers"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.08,
+    "lambda_away": 1.27,
+    "expected_goals": 2.35,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.3139,
+     "DRAW": 0.2783,
+     "AWAY": 0.4078,
+     "1X": 0.5922,
+     "X2": 0.6861,
+     "12": 0.7217,
+     "OVER25": 0.4176,
+     "UNDER25": 0.5824,
+     "BTTS_YES": 0.4752,
+     "BTTS_NO": 0.5248
+    }
+   },
+   "pick": {
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: Blackburn Rovers ou empate (X2)",
+    "model_prob": 0.6861,
+    "trend_alignment": 1.0,
+    "confidence": 51,
+    "eligible": true,
+    "odd": null,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Blackburn Rovers",
+     "model_prob": 0.4078,
+     "trend_alignment": 1.0,
+     "confidence": 42,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.4176,
+     "trend_alignment": 0.6,
+     "confidence": 21,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.4752,
+     "trend_alignment": 0.6,
+     "confidence": 21,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.5824,
+     "trend_alignment": 0.0,
+     "confidence": 11,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 4 dos últimos 4",
+     "strength": 0.7,
+     "favors": "AWAY",
+     "team": "Preston",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Mais de 2.5 gols em 3 dos últimos 4",
+     "strength": 0.45,
+     "favors": "OVER",
+     "team": "Preston",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Invicto em 3 dos últimos 4",
+     "strength": 0.462,
+     "favors": "AWAY",
+     "team": "Blackburn Rovers",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Mais de 2.5 gols em 3 dos últimos 4",
+     "strength": 0.45,
+     "favors": "OVER",
+     "team": "Blackburn Rovers",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Preston é 24º · Blackburn Rovers é 13º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Blackburn Rovers está 11 posições à frente",
+     "strength": 0.786,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 4 dos últimos 4",
+     "strength": 0.7,
+     "favors": "AWAY",
+     "team": "Preston",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto em 3 dos últimos 4",
+     "strength": 0.462,
+     "favors": "AWAY",
+     "team": "Blackburn Rovers",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Blackburn Rovers está 11 posições à frente",
+     "strength": 0.786,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 51,
+   "league": {
+    "key": "championship",
+    "name": "Championship",
+    "country": "Inglaterra"
+   },
+   "home_team": {
+    "id": 23,
+    "name": "Preston",
+    "position": 24,
+    "played": 4,
+    "points": 0,
+    "record": "0V 0E 4D",
+    "goals_for": 3,
+    "goals_against": 9,
+    "last5": "LLLL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": true,
+      "opponent": "Bristol City",
+      "date": "2026-09-01"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Charlton",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": true,
+      "opponent": "Wolves",
+      "date": "2026-08-22"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Bolton",
+      "date": "2026-08-15"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 112,
+    "name": "Blackburn Rovers",
+    "position": 13,
+    "played": 4,
+    "points": 5.0,
+    "record": "1V 2E 1D",
+    "goals_for": 5,
+    "goals_against": 5,
+    "last5": "DLWD",
+    "recent": [
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Lincoln",
+      "date": "2026-09-01"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "QPR",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Middlesbrough",
+      "date": "2026-08-22"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "Wolves",
+      "date": "2026-08-14"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-05T08:30:00-03:00",
+   "has_odds": false,
+   "odds_bookmaker": null
+  },
+  {
+   "id": 4742073,
+   "s365_competition_id": 7,
+   "competition_name": "Premier League",
+   "start_time": "2026-09-05T11:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 116,
+    "name": "Newcastle United"
+   },
+   "away": {
+    "id": 50,
+    "name": "Bournemouth"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.81,
+    "lambda_away": 0.99,
+    "expected_goals": 2.8,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.5647,
+     "DRAW": 0.2298,
+     "AWAY": 0.2055,
+     "1X": 0.7945,
+     "X2": 0.4353,
+     "12": 0.7702,
+     "OVER25": 0.5307,
+     "UNDER25": 0.4693,
+     "BTTS_YES": 0.5264,
+     "BTTS_NO": 0.4736
+    }
+   },
+   "pick": {
+    "selection": "1X",
+    "family": "double_chance",
+    "label": "Dupla chance: Newcastle United ou empate (1X)",
+    "model_prob": 0.7945,
+    "trend_alignment": 0.381,
+    "confidence": 46,
+    "eligible": true,
+    "odd": null,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Newcastle United",
+     "model_prob": 0.5647,
+     "trend_alignment": 0.381,
+     "confidence": 35,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5307,
+     "trend_alignment": 0.0,
+     "confidence": 4,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5264,
+     "trend_alignment": 0.0,
+     "confidence": 3,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Bournemouth",
+     "model_prob": 0.2055,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Newcastle United é 6º · Bournemouth é 14º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Newcastle United está 8 posições à frente",
+     "strength": 0.571,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Newcastle United está 8 posições à frente",
+     "strength": 0.571,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 46,
+   "league": {
+    "key": "epl",
+    "name": "Premier League",
+    "country": "Inglaterra"
+   },
+   "home_team": {
+    "id": 116,
+    "name": "Newcastle United",
+    "position": 6,
+    "played": 2,
+    "points": 4.0,
+    "record": "1V 1E 0D",
+    "goals_for": 4,
+    "goals_against": 2,
+    "last5": "WD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "Tottenham",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "Liverpool",
+      "date": "2026-08-23"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 50,
+    "name": "Bournemouth",
+    "position": 14,
+    "played": 2,
+    "points": 1.0,
+    "record": "0V 1E 1D",
+    "goals_for": 2,
+    "goals_against": 3,
+    "last5": "DL",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Everton",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Manchester City",
+      "date": "2026-08-23"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-05T08:30:00-03:00",
+   "has_odds": false,
+   "odds_bookmaker": null
+  },
+  {
+   "id": 4757693,
+   "s365_competition_id": 26,
+   "competition_name": "Bundesliga 2",
+   "start_time": "2026-09-05T11:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 364,
+    "name": "FC Kaiserslautern"
+   },
+   "away": {
+    "id": 454,
+    "name": "SV Darmstadt 98"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.16,
+    "lambda_away": 0.8,
+    "expected_goals": 1.96,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.4422,
+     "DRAW": 0.3054,
+     "AWAY": 0.2524,
+     "1X": 0.7476,
+     "X2": 0.5578,
+     "12": 0.6946,
+     "OVER25": 0.3118,
+     "UNDER25": 0.6882,
+     "BTTS_YES": 0.3773,
+     "BTTS_NO": 0.6227
+    }
+   },
+   "pick": {
+    "selection": "1X",
+    "family": "double_chance",
+    "label": "Dupla chance: FC Kaiserslautern ou empate (1X)",
+    "model_prob": 0.7476,
+    "trend_alignment": 0.533,
+    "confidence": 44,
+    "eligible": true,
+    "odd": null,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do FC Kaiserslautern",
+     "model_prob": 0.4422,
+     "trend_alignment": 0.533,
+     "confidence": 29,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.6882,
+     "trend_alignment": 0.0,
+     "confidence": 24,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.6227,
+     "trend_alignment": 0.0,
+     "confidence": 16,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "X2",
+     "family": "double_chance",
+     "label": "Dupla chance: SV Darmstadt 98 ou empate (X2)",
+     "model_prob": 0.5578,
+     "trend_alignment": 0.0,
+     "confidence": 1,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "FC Kaiserslautern é 6º · SV Darmstadt 98 é 18º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "FC Kaiserslautern está 12 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "FC Kaiserslautern está 12 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 44,
+   "league": {
+    "key": "bundesliga2",
+    "name": "2. Bundesliga",
+    "country": "Alemanha"
+   },
+   "home_team": {
+    "id": 364,
+    "name": "FC Kaiserslautern",
+    "position": 6,
+    "played": 3,
+    "points": 5.0,
+    "record": "1V 2E 0D",
+    "goals_for": 2,
+    "goals_against": 1,
+    "last5": "WDD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "St. Pauli",
+      "date": "2026-08-30"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Karlsruher",
+      "date": "2026-08-15"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Wolfsburg",
+      "date": "2026-08-08"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 454,
+    "name": "SV Darmstadt 98",
+    "position": 18,
+    "played": 3,
+    "points": 1.0,
+    "record": "0V 1E 2D",
+    "goals_for": 2,
+    "goals_against": 4,
+    "last5": "LLD",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Hannover",
+      "date": "2026-08-30"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Dynamo Dresden",
+      "date": "2026-08-16"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "Holstein Kiel",
+      "date": "2026-08-08"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-05T08:00:00-03:00",
+   "has_odds": false,
+   "odds_bookmaker": null
+  },
+  {
+   "id": 4746171,
+   "s365_competition_id": 1,
+   "competition_name": "Championship",
+   "start_time": "2026-09-05T11:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 67,
+    "name": "Lincoln"
+   },
+   "away": {
+    "id": 21,
+    "name": "Southampton"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.06,
+    "lambda_away": 1.6,
+    "expected_goals": 2.66,
+    "sample_factor": 0.8,
+    "probs": {
+     "HOME": 0.2528,
+     "DRAW": 0.2494,
+     "AWAY": 0.4978,
+     "1X": 0.5022,
+     "X2": 0.7472,
+     "12": 0.7506,
+     "OVER25": 0.4977,
+     "UNDER25": 0.5023,
+     "BTTS_YES": 0.5229,
+     "BTTS_NO": 0.4771
+    }
+   },
+   "pick": {
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: Southampton ou empate (X2)",
+    "model_prob": 0.7472,
+    "trend_alignment": 0.616,
+    "confidence": 38,
+    "eligible": true,
+    "odd": null,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Southampton",
+     "model_prob": 0.4978,
+     "trend_alignment": 0.616,
+     "confidence": 30,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5229,
+     "trend_alignment": 0.333,
+     "confidence": 12,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.4977,
+     "trend_alignment": 0.333,
+     "confidence": 9,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Lincoln",
+     "model_prob": 0.2528,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Ambos marcaram em 4 dos últimos 4",
+     "strength": 0.5,
+     "favors": "BTTS_YES",
+     "team": "Southampton",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "btts"
+    },
+    {
+     "label": "Invicto em 3 dos últimos 4",
+     "strength": 0.462,
+     "favors": "AWAY",
+     "team": "Southampton",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Só venceu 1 dos últimos 4",
+     "strength": 0.462,
+     "favors": "AWAY",
+     "team": "Lincoln",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "Lincoln é 17º · Southampton é 18º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Invicto em 3 dos últimos 4",
+     "strength": 0.462,
+     "favors": "AWAY",
+     "team": "Southampton",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Só venceu 1 dos últimos 4",
+     "strength": 0.462,
+     "favors": "AWAY",
+     "team": "Lincoln",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "winless"
+    }
+   ],
+   "confidence": 38,
+   "league": {
+    "key": "championship",
+    "name": "Championship",
+    "country": "Inglaterra"
+   },
+   "home_team": {
+    "id": 67,
+    "name": "Lincoln",
+    "position": 17,
+    "played": 4,
+    "points": 4.0,
+    "record": "1V 1E 2D",
+    "goals_for": 3,
+    "goals_against": 5,
+    "last5": "DWLL",
+    "recent": [
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Blackburn Rovers",
+      "date": "2026-09-01"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Bolton",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": true,
+      "opponent": "Portsmouth",
+      "date": "2026-08-22"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Middlesbrough",
+      "date": "2026-08-15"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 21,
+    "name": "Southampton",
+    "position": 18,
+    "played": 4,
+    "points": 3.0,
+    "record": "2V 1E 1D",
+    "goals_for": 10,
+    "goals_against": 5,
+    "last5": "DWWL",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Birmingham",
+      "date": "2026-09-01"
+     },
+     {
+      "result": "W",
+      "score": "5-1",
+      "home": true,
+      "opponent": "Millwall",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": true,
+      "opponent": "Stoke City",
+      "date": "2026-08-22"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Watford FC",
+      "date": "2026-08-16"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-05T08:30:00-03:00",
+   "has_odds": false,
+   "odds_bookmaker": null
+  },
+  {
+   "id": 4757690,
+   "s365_competition_id": 26,
+   "competition_name": "Bundesliga 2",
+   "start_time": "2026-09-05T11:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 339,
+    "name": "Wolfsburg"
+   },
+   "away": {
+    "id": 9914,
+    "name": "Energie Cottbus"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.67,
+    "lambda_away": 1.18,
+    "expected_goals": 3.85,
+    "sample_factor": 0.6,
+    "probs": {
+     "HOME": 0.6908,
+     "DRAW": 0.1638,
+     "AWAY": 0.1454,
+     "1X": 0.8546,
+     "X2": 0.3092,
+     "12": 0.8362,
+     "OVER25": 0.738,
+     "UNDER25": 0.262,
+     "BTTS_YES": 0.6434,
+     "BTTS_NO": 0.3566
+    }
+   },
+   "pick": {
+    "selection": "1X",
+    "family": "double_chance",
+    "label": "Dupla chance: Wolfsburg ou empate (1X)",
+    "model_prob": 0.8546,
+    "trend_alignment": 0.429,
+    "confidence": 33,
+    "eligible": true,
+    "odd": null,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Wolfsburg",
+     "model_prob": 0.6908,
+     "trend_alignment": 0.429,
+     "confidence": 30,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.738,
+     "trend_alignment": 0.0,
+     "confidence": 19,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.6434,
+     "trend_alignment": 0.0,
+     "confidence": 11,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Energie Cottbus",
+     "model_prob": 0.1454,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Wolfsburg é 3º · Energie Cottbus é 12º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Wolfsburg está 9 posições à frente",
+     "strength": 0.643,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Wolfsburg está 9 posições à frente",
+     "strength": 0.643,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 33,
+   "league": {
+    "key": "bundesliga2",
+    "name": "2. Bundesliga",
+    "country": "Alemanha"
+   },
+   "home_team": {
+    "id": 339,
+    "name": "Wolfsburg",
+    "position": 3,
+    "played": 3,
+    "points": 7.0,
+    "record": "2V 1E 0D",
+    "goals_for": 6,
+    "goals_against": 2,
+    "last5": "WWD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "5-2",
+      "home": false,
+      "opponent": "Karlsruher",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Hannover",
+      "date": "2026-08-16"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "FC Kaiserslautern",
+      "date": "2026-08-08"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 9914,
+    "name": "Energie Cottbus",
+    "position": 12,
+    "played": 3,
+    "points": 3.0,
+    "record": "1V 0E 2D",
+    "goals_for": 6,
+    "goals_against": 8,
+    "last5": "LLW",
+    "recent": [
+     {
+      "result": "L",
+      "score": "3-4",
+      "home": true,
+      "opponent": "Greuther Fürth",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": false,
+      "opponent": "Arminia Bielefeld",
+      "date": "2026-08-16"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": true,
+      "opponent": "Hannover",
+      "date": "2026-08-09"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-05T08:00:00-03:00",
+   "has_odds": false,
+   "odds_bookmaker": null
+  }
+ ]
+}

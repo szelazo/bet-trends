@@ -63,7 +63,12 @@ def _odd_for(sel: str, odds: dict | None) -> float | None:
     draw_odd = h2h.get("X") or h2h.get("Draw")
 
     def dc(a: float | None, b: float | None) -> float | None:
-        return round(1.0 / (1.0 / a + 1.0 / b), 2) if (a and b) else None
+        """Odd de dupla chance a partir das 3 odds 1X2 (de-vig + margem da casa)."""
+        if not (a and b and home_odd and draw_odd and away_odd):
+            return None
+        total = 1 / home_odd + 1 / draw_odd + 1 / away_odd  # > 1 (overround)
+        prob = (1 / a + 1 / b) / total                       # prob real da dupla
+        return round(max(1.01, 0.96 / prob), 2)              # 0.96 ≈ margem típica de DC
 
     # odds de over/under só valem se a linha for 2.5
     ou_ok = abs((tot.get("line") or 2.5) - 2.5) < 0.01
@@ -126,6 +131,18 @@ def evaluate(game: dict, model: dict, trends: list[dict], odds: dict | None) -> 
     ]
     if strong:
         pick = max(strong, key=lambda c: c["confidence"])
+
+    # dupla chance que paga quase nada → troca pelo resultado seco do mesmo lado
+    if (
+        pick["family"] == "double_chance"
+        and pick["odd"] and pick["odd"] < SCORING["min_dc_odd"]
+    ):
+        want = "HOME" if pick["selection"] == "1X" else "AWAY"
+        straight = next((c for c in cands if c["selection"] == want), None)
+        if straight and straight["model_prob"] >= SCORING["straight_switch_prob"]:
+            straight = dict(straight)
+            straight["confidence"] = pick["confidence"]  # mantém o ranking do jogo
+            pick = straight
 
     pick = dict(pick)
     pick["low_conviction"] = (

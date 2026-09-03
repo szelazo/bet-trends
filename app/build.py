@@ -21,16 +21,7 @@ from .model import league_avg_goals, predict
 from .recommend import evaluate
 from .sources.odds_api import OddsApi, find_match
 from .sources.scores365 import Scores365, status_ended, status_scheduled
-from .trends import (
-    consolidate,
-    last5_string,
-    merge_recent,
-    season_trends,
-    streaks,
-    table_gap_trend,
-    team_trends,
-    venue_trends,
-)
+from .trends import compute_trends, last5_string, merge_recent
 from .util import name_similarity
 
 TZ = ZoneInfo(S365["timezone_name"])
@@ -114,7 +105,6 @@ def _team_summary(team: dict, row: dict | None, recent: list[dict]) -> dict:
             }
             for m in recent[:5]
         ],
-        "streaks": streaks(recent) if recent else {},
     }
 
 
@@ -181,18 +171,10 @@ def build(target: date, days: int, *, out_dir: Path, use_odds: bool, cache_dir: 
                 a_recent = merge_recent(history.get(g["away"]["id"], []), ar["recent"])
 
                 model = predict(hr, ar, mu)
-                trends: list[dict] = []
-                for recent, side, tname, trow in (
-                    (h_recent, "HOME", g["home"]["name"], hr),
-                    (a_recent, "AWAY", g["away"]["name"], ar),
-                ):
-                    trends += team_trends(recent, side=side, team_name=tname)
-                    trends += venue_trends(recent, side=side, team_name=tname)
-                    trends += season_trends(trow, rows, side=side, team_name=tname)
-                gap = table_gap_trend(hr, ar)
-                if gap:
-                    trends.append(gap)
-                trends = consolidate(trends)
+                trends = compute_trends(
+                    h_recent, a_recent, hr, ar, rows,
+                    g["home"]["name"], g["away"]["name"],
+                )
 
                 # odds: 365scores primeiro (sem chave), the-odds-api como reserva
                 odds = None

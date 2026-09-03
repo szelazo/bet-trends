@@ -1,30 +1,43 @@
-"""Detecção de tendências a partir do histórico recente, dos recortes casa/fora
-e da posição/campanha na tabela.
+"""Tendências no estilo 365scores: uma frase por time, com contagem sobre uma janela.
 
-`recent` é a lista de jogos do time, do mais recente p/ o mais antigo:
-    {"result": "W"/"D"/"L", "gf": float, "ga": float, "home": bool, "opponent": str, ...}
+Ex: "Venceu 8 dos últimos 10", "Não vence fora de casa há 5 jogos",
+    "Ambos marcaram em 7 dos últimos 10".
+
+`recent` = jogos do time do mais recente p/ o mais antigo:
+    {"result": "W"/"D"/"L", "gf": float, "ga": float, "home": bool, "opponent": str}
 """
 from __future__ import annotations
 
+import math
+
 from .util import clamp
 
-# alvos que uma tendência pode favorecer
 HOME, AWAY = "HOME", "AWAY"
 OVER, UNDER = "OVER", "UNDER"
 BTTS_YES, BTTS_NO = "BTTS_YES", "BTTS_NO"
 
-# grupos de exibição
-FORMA, SEQUENCIA, CASA_FORA, TEMPORADA, TABELA = (
-    "forma", "sequencia", "casa_fora", "temporada", "tabela"
+GERAL, CASA_FORA, SEQUENCIA, TEMPORADA, CONFRONTO = (
+    "geral", "casa_fora", "sequencia", "temporada", "confronto"
 )
-LONG_STREAK = 6  # a partir daqui a sequência é "longa"
 
 
 def last5_string(recent: list[dict]) -> str:
     return "".join(m["result"] for m in recent[:5])
 
 
-def _lead_streak(games: list[dict], predicate) -> int:
+def _t(label, *, strength, favors, team, side, group, kind) -> dict:
+    return {
+        "label": label,
+        "strength": round(clamp(strength, 0.0, 1.0), 3),
+        "favors": favors,
+        "team": team,
+        "side": side,
+        "group": group,
+        "kind": kind,
+    }
+
+
+def _lead_streak(games, predicate) -> int:
     n = 0
     for m in games:
         if predicate(m):
@@ -34,187 +47,177 @@ def _lead_streak(games: list[dict], predicate) -> int:
     return n
 
 
-def streaks(games: list[dict]) -> dict[str, int]:
-    return {
-        "unbeaten": _lead_streak(games, lambda m: m["result"] != "L"),
-        "winless": _lead_streak(games, lambda m: m["result"] != "W"),
-        "winning": _lead_streak(games, lambda m: m["result"] == "W"),
-        "losing": _lead_streak(games, lambda m: m["result"] == "L"),
-        "scoring": _lead_streak(games, lambda m: m["gf"] >= 1),
-        "no_score": _lead_streak(games, lambda m: m["gf"] == 0),
-        "clean_sheet": _lead_streak(games, lambda m: m["ga"] == 0),
-        "conceding": _lead_streak(games, lambda m: m["ga"] >= 1),
-    }
-
-
-def _trend(label, kind, strength, favors, team, group) -> dict:
-    return {
-        "label": label,
-        "kind": kind,
-        "strength": round(clamp(strength, 0.0, 1.0), 3),
-        "favors": favors,
-        "team": team,
-        "group": group,
-    }
-
-
-def team_trends(recent: list[dict], *, side: str, team_name: str) -> list[dict]:
-    """Forma recente + sequências (curtas em 'forma', longas em 'sequencia')."""
-    if len(recent) < 3:
+def _count_trends(games: list[dict], *, team: str, side: str, scope: str, group: str) -> list[dict]:
+    """Frases 'X em N dos últimos M' quando a proporção é forte."""
+    n = len(games)
+    if n < 4:
         return []
     opp = AWAY if side == HOME else HOME
-    s = streaks(recent)
+    w = sum(1 for m in games if m["result"] == "W")
+    d = sum(1 for m in games if m["result"] == "D")
+    ll = sum(1 for m in games if m["result"] == "L")
+    unbeaten = w + d
+    winless = d + ll
+    cs = sum(1 for m in games if m["ga"] == 0)
+    concd = sum(1 for m in games if m["ga"] >= 1)
+    scored = sum(1 for m in games if m["gf"] >= 1)
+    noscore = sum(1 for m in games if m["gf"] == 0)
+    over = sum(1 for m in games if m["gf"] + m["ga"] >= 3)
+    under = sum(1 for m in games if m["gf"] + m["ga"] <= 2)
+    btts = sum(1 for m in games if m["gf"] >= 1 and m["ga"] >= 1)
+
+    hi = math.ceil(0.7 * n)
+    almost = n - 1
+    out: list[dict] = []
+
+    def add(cond, label, strength, favors, kind):
+        if cond:
+            out.append(_t(label + scope, strength=strength, favors=favors,
+                          team=team, side=side, group=group, kind=kind))
+
+    # resultado — uma frase só, a mais marcante
+    if w >= hi:
+        add(True, f"Venceu {w} dos últimos {n}", 0.25 + 0.5 * w / n, side, "wins")
+    elif ll >= math.ceil(0.6 * n):
+        add(True, f"Perdeu {ll} dos últimos {n}", 0.25 + 0.45 * ll / n, opp, "losses")
+    elif unbeaten >= max(hi, n - 1) and w >= max(1, n // 4):
+        add(True, f"Invicto em {unbeaten} dos últimos {n}", 0.2 + 0.35 * unbeaten / n, side, "unbeaten")
+    elif winless >= max(hi, n - 1):
+        txt = f"Não venceu nenhum dos últimos {n}" if w == 0 else f"Só venceu {w} dos últimos {n}"
+        add(True, txt, 0.2 + 0.35 * winless / n, opp, "winless")
+
+    # gols / defesa
+    add(cs >= math.ceil(0.6 * n), f"Não sofreu gol em {cs} dos últimos {n}", 0.15 + 0.4 * cs / n, UNDER, "clean_sheets")
+    add(concd == n and n >= 5, f"Sofreu gol em todos os últimos {n}", 0.4, OVER, "always_concede")
+    add(noscore >= math.ceil(0.5 * n), f"Não marcou em {noscore} dos últimos {n}", 0.2 + 0.3 * noscore / n, opp, "no_score")
+    add(scored == n and n >= 5, f"Marcou em todos os últimos {n}", 0.3, OVER, "always_score")
+    add(over >= hi, f"Mais de 2.5 gols em {over} dos últimos {n}", 0.15 + 0.4 * over / n, OVER, "over")
+    add(under >= hi, f"Menos de 2.5 gols em {under} dos últimos {n}", 0.15 + 0.4 * under / n, UNDER, "under")
+    add(btts >= hi, f"Ambos marcaram em {btts} dos últimos {n}", 0.15 + 0.35 * btts / n, BTTS_YES, "btts")
+    add(n - btts >= hi, f"Ambos marcaram só {btts}x nos últimos {n}", 0.15 + 0.3 * (n - btts) / n, BTTS_NO, "no_btts")
+    return out
+
+
+def _streak_trends(recent: list[dict], *, team: str, side: str) -> list[dict]:
     n = len(recent)
-    r5 = recent[:5]
+    opp = AWAY if side == HOME else HOME
+    ub = _lead_streak(recent, lambda m: m["result"] != "L")
+    wl = _lead_streak(recent, lambda m: m["result"] != "W")
+    win = _lead_streak(recent, lambda m: m["result"] == "W")
     out: list[dict] = []
-
-    def grp(count: int) -> str:
-        return SEQUENCIA if count >= LONG_STREAK else FORMA
-
-    if s["unbeaten"] >= 3:
-        cap = "+" if s["unbeaten"] >= n else ""
-        out.append(_trend(f"Invicto há {s['unbeaten']}{cap} jogos", "unbeaten",
-                          (s["unbeaten"] - 2) / 6, side, team_name, grp(s["unbeaten"])))
-    if s["winning"] >= 3:
-        out.append(_trend(f"{s['winning']} vitórias seguidas", "winning",
-                          (s["winning"] - 1) / 4, side, team_name, grp(s["winning"])))
-    if s["winless"] >= 4:
-        cap = "+" if s["winless"] >= n else ""
-        out.append(_trend(f"Não vence há {s['winless']}{cap} jogos", "winless",
-                          (s["winless"] - 3) / 6, opp, team_name, grp(s["winless"])))
-    if s["losing"] >= 3:
-        out.append(_trend(f"{s['losing']} derrotas seguidas", "losing",
-                          (s["losing"] - 1) / 4, opp, team_name, grp(s["losing"])))
-
-    over5 = sum(1 for m in r5 if m["gf"] + m["ga"] >= 3)
-    under5 = sum(1 for m in r5 if m["gf"] + m["ga"] <= 2)
-    btts5 = sum(1 for m in r5 if m["gf"] >= 1 and m["ga"] >= 1)
-    if len(r5) == 5 and over5 >= 4:
-        out.append(_trend(f"Over 2.5 em {over5} dos últimos 5", "over", (over5 - 2) / 3, OVER, team_name, FORMA))
-    if len(r5) == 5 and under5 >= 4:
-        out.append(_trend(f"Under 2.5 em {under5} dos últimos 5", "under", (under5 - 2) / 3, UNDER, team_name, FORMA))
-    if len(r5) == 5 and btts5 >= 4:
-        out.append(_trend(f"Ambos marcam em {btts5} dos últimos 5", "btts", (btts5 - 2) / 3, BTTS_YES, team_name, FORMA))
-    if s["scoring"] >= 5:
-        out.append(_trend(f"Marcou nos últimos {s['scoring']}", "scoring", (s["scoring"] - 3) / 5, OVER, team_name, grp(s["scoring"])))
-    if s["no_score"] >= 3:
-        out.append(_trend(f"Não marca há {s['no_score']} jogos", "no_score", (s["no_score"] - 2) / 3, BTTS_NO, team_name, FORMA))
-    if s["clean_sheet"] >= 3:
-        out.append(_trend(f"{s['clean_sheet']} jogos sem sofrer gol", "clean_sheet", (s["clean_sheet"] - 2) / 3, UNDER, team_name, grp(s["clean_sheet"])))
-    if s["conceding"] >= 5:
-        out.append(_trend(f"Sofre gol há {s['conceding']} jogos", "conceding", (s["conceding"] - 3) / 5, OVER, team_name, FORMA))
-
+    if win >= 3:
+        out.append(_t(f"{win} vitórias seguidas", strength=(win - 1) / 4, favors=side,
+                      team=team, side=side, group=SEQUENCIA, kind="win_streak"))
+    elif ub >= 5:
+        cap = "+" if ub >= n else ""
+        out.append(_t(f"Invicto há {ub}{cap} jogos", strength=(ub - 3) / 6, favors=side,
+                      team=team, side=side, group=SEQUENCIA, kind="unbeaten_streak"))
+    if wl >= 5:
+        cap = "+" if wl >= n else ""
+        out.append(_t(f"Não vence há {wl}{cap} jogos", strength=(wl - 3) / 6, favors=opp,
+                      team=team, side=side, group=SEQUENCIA, kind="winless_streak"))
     return out
 
 
-def venue_trends(recent: list[dict], *, side: str, team_name: str) -> list[dict]:
-    """Recorte casa/fora — só o mando relevante p/ este jogo."""
-    is_home = side == HOME
-    venue_games = [m for m in recent if m["home"] == is_home]
-    if len(venue_games) < 3:
-        return []
-    where = "em casa" if is_home else "fora de casa"
-    opp = AWAY if is_home else HOME
-    s = streaks(venue_games)
-    n = len(venue_games)
-    out: list[dict] = []
-
-    if s["unbeaten"] >= 3:
-        cap = "+" if s["unbeaten"] >= n else ""
-        out.append(_trend(f"Invicto há {s['unbeaten']}{cap} jogos {where}", "venue_unbeaten",
-                          (s["unbeaten"] - 2) / 5, side, team_name, CASA_FORA))
-    if s["winning"] >= 3:
-        out.append(_trend(f"{s['winning']} vitórias seguidas {where}", "venue_winning",
-                          (s["winning"] - 1) / 3, side, team_name, CASA_FORA))
-    if s["winless"] >= 3:
-        cap = "+" if s["winless"] >= n else ""
-        out.append(_trend(f"Não vence {where} há {s['winless']}{cap} jogos", "venue_winless",
-                          (s["winless"] - 2) / 5, opp, team_name, CASA_FORA))
-    if s["losing"] >= 3:
-        out.append(_trend(f"{s['losing']} derrotas seguidas {where}", "venue_losing",
-                          (s["losing"] - 1) / 3, opp, team_name, CASA_FORA))
-    return out
-
-
-def season_trends(row: dict, all_rows: list[dict], *, side: str, team_name: str) -> list[dict]:
-    """Campanha e rankings na liga (sinal 'longo' mais confiável)."""
+def _season_trends(row: dict, all_rows: list[dict], *, team: str, side: str) -> list[dict]:
     played = row.get("played") or 0
-    if played < 6 or not all_rows:
+    if played < 8 or not all_rows:
         return []
     opp = AWAY if side == HOME else HOME
     out: list[dict] = []
 
-    # ranking de ataque / defesa por jogo
     def rank(metric, reverse):
         vals = sorted(
-            ((r["team_id"], metric(r)) for r in all_rows if (r.get("played") or 0) >= 3),
-            key=lambda kv: kv[1], reverse=reverse,
+            (r["team_id"] for r in all_rows if (r.get("played") or 0) >= 3),
+            key=lambda tid: metric(next(r for r in all_rows if r["team_id"] == tid)),
+            reverse=reverse,
         )
-        for i, (tid, _) in enumerate(vals, 1):
-            if tid == row["team_id"]:
-                return i, len(vals)
-        return None, len(all_rows)
+        return (vals.index(row["team_id"]) + 1) if row["team_id"] in vals else None, len(vals)
 
     ga_pg = row["goals_against"] / played
     gf_pg = row["goals_for"] / played
-    def_rank, ntot = rank(lambda r: r["goals_against"] / max(r["played"], 1), reverse=False)
-    atk_rank, _ = rank(lambda r: r["goals_for"] / max(r["played"], 1), reverse=True)
+    dr, ntot = rank(lambda r: r["goals_against"] / max(r["played"], 1), False)
+    ar_, _ = rank(lambda r: r["goals_for"] / max(r["played"], 1), True)
 
-    if def_rank and def_rank <= 3:
-        ord_ = {1: "melhor", 2: "2ª melhor", 3: "3ª melhor"}[def_rank]
-        out.append(_trend(f"{ord_} defesa da liga ({ga_pg:.1f} sofridos/jogo)", "def_top",
-                          0.5 if def_rank == 1 else 0.38, side, team_name, TEMPORADA))
-    if atk_rank and atk_rank <= 3:
-        ord_ = {1: "melhor", 2: "2º melhor", 3: "3º melhor"}[atk_rank]
-        out.append(_trend(f"{ord_} ataque da liga ({gf_pg:.1f} marcados/jogo)", "atk_top",
-                          0.45 if atk_rank == 1 else 0.34, side, team_name, TEMPORADA))
-    if def_rank and def_rank >= ntot - 2:
-        out.append(_trend(f"Pior defesa da liga ({ga_pg:.1f} sofridos/jogo)", "def_bottom",
-                          0.35, OVER, team_name, TEMPORADA))
+    if dr and dr <= 3:
+        ordn = {1: "Melhor", 2: "2ª melhor", 3: "3ª melhor"}[dr]
+        out.append(_t(f"{ordn} defesa da liga ({ga_pg:.1f} sofridos/jogo)",
+                      strength=0.5 if dr == 1 else 0.36, favors=side, team=team, side=side,
+                      group=TEMPORADA, kind="def_rank"))
+    if ar_ and ar_ <= 3:
+        ordn = {1: "Melhor", 2: "2º melhor", 3: "3º melhor"}[ar_]
+        out.append(_t(f"{ordn} ataque da liga ({gf_pg:.1f} marcados/jogo)",
+                      strength=0.44 if ar_ == 1 else 0.32, favors=side, team=team, side=side,
+                      group=TEMPORADA, kind="atk_rank"))
+    if dr and dr >= ntot - 2:
+        out.append(_t(f"Pior defesa da liga ({ga_pg:.1f} sofridos/jogo)",
+                      strength=0.34, favors=OVER, team=team, side=side,
+                      group=TEMPORADA, kind="def_bottom"))
 
-    # campanha: poucas derrotas / muitas derrotas
     losses = row.get("lost") or 0
-    wins = row.get("won") or 0
     if played >= 10 and losses <= max(2, played // 8):
-        out.append(_trend(f"Só {losses} derrota(s) em {played} jogos", "few_losses",
-                          clamp(0.5 - losses * 0.08, 0.25, 0.5), side, team_name, TEMPORADA))
-    if played >= 10 and wins <= max(1, played // 10):
-        out.append(_trend(f"Só {wins} vitória(s) em {played} jogos", "few_wins",
-                          0.35, opp, team_name, TEMPORADA))
+        out.append(_t(f"Só {losses} derrota(s) em {played} jogos no campeonato",
+                      strength=clamp(0.5 - losses * 0.08, 0.25, 0.5), favors=side, team=team,
+                      side=side, group=TEMPORADA, kind="few_losses"))
     return out
 
 
-def table_gap_trend(home_row: dict | None, away_row: dict | None) -> dict | None:
+def table_context(home_row: dict | None, away_row: dict | None) -> list[dict]:
     if not home_row or not away_row:
-        return None
+        return []
     hp, ap = home_row.get("position"), away_row.get("position")
     if not hp or not ap:
-        return None
-    gap = ap - hp  # positivo → mandante melhor colocado
-    if abs(gap) < 4:
-        return None
-    better_side = HOME if gap > 0 else AWAY
-    better, worse = (home_row, away_row) if gap > 0 else (away_row, home_row)
-    return _trend(
-        f"{better['team_name']} {min(hp, ap)}º × {max(hp, ap)}º {worse['team_name']} "
-        f"({abs(gap)} posições)",
-        "table_gap", clamp(abs(gap) / 14, 0.15, 0.85), better_side,
-        better["team_name"], TABELA,
-    )
+        return []
+    out = [_t(f"{home_row['team_name']} é {hp}º · {away_row['team_name']} é {ap}º",
+              strength=0.0, favors=None, team=None, side=None, group=CONFRONTO, kind="positions")]
+    gap = abs(hp - ap)
+    if gap >= 4:
+        better = HOME if hp < ap else AWAY
+        name = home_row["team_name"] if hp < ap else away_row["team_name"]
+        out.append(_t(f"{name} está {gap} posições à frente",
+                      strength=clamp(gap / 14, 0.15, 0.8), favors=better,
+                      team=None, side=None, group=CONFRONTO, kind="table_gap"))
+    return out
 
 
-def consolidate(trends: list[dict], cap: int = 9) -> list[dict]:
-    """Remove duplicatas e ordena por grupo e força."""
-    order = {FORMA: 0, SEQUENCIA: 1, CASA_FORA: 2, TEMPORADA: 3, TABELA: 4}
-    seen: set[tuple] = set()
-    out: list[dict] = []
-    for t in sorted(trends, key=lambda x: (order.get(x.get("group"), 9), -x["strength"])):
-        key = (t["label"], t.get("team"))
-        if key in seen:
-            continue
-        seen.add(key)
-        out.append(t)
-    return out[:cap]
+def _dedupe_by_kind(trends: list[dict], *, per_team_scope: int = 2) -> list[dict]:
+    """Mantém no máx. N tendências por (time, grupo), priorizando força."""
+    from collections import defaultdict
+    buckets = defaultdict(list)
+    for t in sorted(trends, key=lambda x: -x["strength"]):
+        buckets[(t["team"], t["group"])].append(t)
+    kept: list[dict] = []
+    for (team, group), items in buckets.items():
+        limit = 99 if group in (TEMPORADA, CONFRONTO) else per_team_scope
+        kept.extend(items[:limit])
+    return kept
+
+
+def compute_trends(
+    h_recent: list[dict], a_recent: list[dict],
+    home_row: dict | None, away_row: dict | None, all_rows: list[dict],
+    home_name: str, away_name: str,
+) -> list[dict]:
+    trends: list[dict] = []
+    for recent, side, name, row in (
+        (h_recent, HOME, home_name, home_row),
+        (a_recent, AWAY, away_name, away_row),
+    ):
+        n = min(len(recent), 10)
+        trends += _count_trends(recent[:n], team=name, side=side, scope="", group=GERAL)
+        venue = [m for m in recent if m["home"] == (side == HOME)][:6]
+        vscope = " em casa" if side == HOME else " fora de casa"
+        trends += _count_trends(venue, team=name, side=side, scope=vscope, group=CASA_FORA)
+        trends += _streak_trends(recent, team=name, side=side)
+        if row:
+            trends += _season_trends(row, all_rows, team=name, side=side)
+    trends = _dedupe_by_kind(trends)
+    trends += table_context(home_row, away_row)
+    return trends
+
+
+def aligned_to(selection_targets: set[str], trends: list[dict]) -> list[dict]:
+    return [t for t in trends if t.get("favors") in selection_targets]
 
 
 def merge_recent(*sources: list[dict], cap: int = 15) -> list[dict]:

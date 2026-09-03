@@ -1,8 +1,8 @@
 {
  "date": "2026-09-03",
- "generated_at": "2026-09-03T15:44:50.359675-03:00",
+ "generated_at": "2026-09-03T15:57:49.548033-03:00",
  "version": "0.1.0",
- "count": 5,
+ "count": 4,
  "games": [
   {
    "id": 4732010,
@@ -40,148 +40,168 @@
     }
    },
    "pick": {
-    "selection": "1X",
-    "family": "double_chance",
-    "label": "Dupla chance: America de Cali ou empate (1X)",
-    "model_prob": 0.9368,
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do America de Cali",
+    "model_prob": 0.8071,
     "trend_alignment": 1.0,
     "confidence": 85,
     "eligible": true,
-    "odd": 1.03,
+    "odd": 1.29,
     "low_conviction": false
    },
    "alt_markets": [
     {
-     "selection": "HOME",
-     "family": "1x2",
-     "label": "Vitória do America de Cali",
-     "model_prob": 0.8071,
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: America de Cali ou empate (1X)",
+     "model_prob": 0.9368,
      "trend_alignment": 1.0,
-     "confidence": 81,
+     "confidence": 85,
      "eligible": true,
-     "odd": 1.31
+     "odd": 1.05
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
      "model_prob": 0.6397,
-     "trend_alignment": 0.233,
-     "confidence": 26,
+     "trend_alignment": 0.0,
+     "confidence": 18,
      "eligible": true,
-     "odd": 1.89
+     "odd": 1.88
     },
     {
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
      "model_prob": 0.5681,
-     "trend_alignment": 0.0,
-     "confidence": 9,
+     "trend_alignment": 0.26,
+     "confidence": 18,
      "eligible": false,
      "odd": null
     },
     {
-     "selection": "BTTS_YES",
-     "family": "btts",
-     "label": "Ambos os times marcam",
-     "model_prob": 0.4319,
-     "trend_alignment": 0.233,
-     "confidence": 8,
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.3603,
+     "trend_alignment": 0.26,
+     "confidence": 9,
      "eligible": false,
-     "odd": null
+     "odd": 1.89
     }
    ],
    "trends": [
     {
-     "label": "Invicto há 5+ jogos",
-     "kind": "unbeaten",
-     "strength": 0.5,
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "HOME",
+     "team": "Alianza FC",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto em 5 dos últimos 5",
+     "strength": 0.55,
      "favors": "HOME",
      "team": "America de Cali",
-     "group": "forma"
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Não sofreu gol em 3 dos últimos 5",
+     "strength": 0.39,
+     "favors": "UNDER",
+     "team": "America de Cali",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "clean_sheets"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "America de Cali",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
     },
     {
      "label": "Não vence há 5+ jogos",
-     "kind": "winless",
      "strength": 0.333,
      "favors": "HOME",
      "team": "Alianza FC",
-     "group": "forma"
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
     },
     {
-     "label": "melhor ataque da liga (2.4 marcados/jogo)",
-     "kind": "atk_top",
-     "strength": 0.45,
+     "label": "America de Cali é 1º · Alianza FC é 18º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "America de Cali está 17 posições à frente",
+     "strength": 0.8,
      "favors": "HOME",
-     "team": "America de Cali",
-     "group": "temporada"
-    },
-    {
-     "label": "2ª melhor defesa da liga (0.6 sofridos/jogo)",
-     "kind": "def_top",
-     "strength": 0.38,
-     "favors": "HOME",
-     "team": "America de Cali",
-     "group": "temporada"
-    },
-    {
-     "label": "Pior defesa da liga (2.0 sofridos/jogo)",
-     "kind": "def_bottom",
-     "strength": 0.35,
-     "favors": "OVER",
-     "team": "Alianza FC",
-     "group": "temporada"
-    },
-    {
-     "label": "America de Cali 1º × 18º Alianza FC (17 posições)",
-     "kind": "table_gap",
-     "strength": 0.85,
-     "favors": "HOME",
-     "team": "America de Cali",
-     "group": "tabela"
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
     }
    ],
    "aligned_trends": [
     {
-     "label": "Invicto há 5+ jogos",
-     "kind": "unbeaten",
-     "strength": 0.5,
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "HOME",
+     "team": "Alianza FC",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto em 5 dos últimos 5",
+     "strength": 0.55,
      "favors": "HOME",
      "team": "America de Cali",
-     "group": "forma"
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "America de Cali",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
     },
     {
      "label": "Não vence há 5+ jogos",
-     "kind": "winless",
      "strength": 0.333,
      "favors": "HOME",
      "team": "Alianza FC",
-     "group": "forma"
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
     },
     {
-     "label": "melhor ataque da liga (2.4 marcados/jogo)",
-     "kind": "atk_top",
-     "strength": 0.45,
+     "label": "America de Cali está 17 posições à frente",
+     "strength": 0.8,
      "favors": "HOME",
-     "team": "America de Cali",
-     "group": "temporada"
-    },
-    {
-     "label": "2ª melhor defesa da liga (0.6 sofridos/jogo)",
-     "kind": "def_top",
-     "strength": 0.38,
-     "favors": "HOME",
-     "team": "America de Cali",
-     "group": "temporada"
-    },
-    {
-     "label": "America de Cali 1º × 18º Alianza FC (17 posições)",
-     "kind": "table_gap",
-     "strength": 0.85,
-     "favors": "HOME",
-     "team": "America de Cali",
-     "group": "tabela"
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
     }
    ],
    "confidence": 85,
@@ -236,17 +256,7 @@
       "opponent": "Once Caldas",
       "date": "2026-08-06"
      }
-    ],
-    "streaks": {
-     "unbeaten": 5,
-     "winless": 1,
-     "winning": 0,
-     "losing": 0,
-     "scoring": 2,
-     "no_score": 0,
-     "clean_sheet": 0,
-     "conceding": 2
-    }
+    ]
    },
    "away_team": {
     "id": 10209,
@@ -294,17 +304,7 @@
       "opponent": "Deportes Tolima",
       "date": "2026-08-01"
      }
-    ],
-    "streaks": {
-     "unbeaten": 0,
-     "winless": 5,
-     "winning": 0,
-     "losing": 2,
-     "scoring": 1,
-     "no_score": 0,
-     "clean_sheet": 0,
-     "conceding": 2
-    }
+    ]
    },
    "kickoff_local": "2026-09-03T18:00:00-03:00",
    "has_odds": true,
@@ -350,10 +350,10 @@
     "family": "double_chance",
     "label": "Dupla chance: Libertad ou empate (1X)",
     "model_prob": 0.8204,
-    "trend_alignment": 0.578,
+    "trend_alignment": 0.573,
     "confidence": 56,
     "eligible": true,
-    "odd": 1.31,
+    "odd": 1.33,
     "low_conviction": false
    },
    "alt_markets": [
@@ -362,8 +362,8 @@
      "family": "1x2",
      "label": "Vitória do Libertad",
      "model_prob": 0.5567,
-     "trend_alignment": 0.578,
-     "confidence": 42,
+     "trend_alignment": 0.573,
+     "confidence": 41,
      "eligible": true,
      "odd": 2.21
     },
@@ -400,38 +400,51 @@
    ],
    "trends": [
     {
-     "label": "3 vitórias seguidas em casa",
-     "kind": "venue_winning",
-     "strength": 0.667,
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
      "favors": "HOME",
      "team": "Libertad",
-     "group": "casa_fora"
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
     },
     {
-     "label": "Invicto há 3+ jogos em casa",
-     "kind": "venue_unbeaten",
-     "strength": 0.2,
+     "label": "Não marcou em 3 dos últimos 5",
+     "strength": 0.38,
      "favors": "HOME",
-     "team": "Libertad",
-     "group": "casa_fora"
+     "team": "Emelec",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "no_score"
+    },
+    {
+     "label": "Libertad é 8º · Emelec é 11º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
     }
    ],
    "aligned_trends": [
     {
-     "label": "3 vitórias seguidas em casa",
-     "kind": "venue_winning",
-     "strength": 0.667,
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
      "favors": "HOME",
      "team": "Libertad",
-     "group": "casa_fora"
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
     },
     {
-     "label": "Invicto há 3+ jogos em casa",
-     "kind": "venue_unbeaten",
-     "strength": 0.2,
+     "label": "Não marcou em 3 dos últimos 5",
+     "strength": 0.38,
      "favors": "HOME",
-     "team": "Libertad",
-     "group": "casa_fora"
+     "team": "Emelec",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "no_score"
     }
    ],
    "confidence": 56,
@@ -486,17 +499,7 @@
       "opponent": "Orense SC",
       "date": "2026-08-01"
      }
-    ],
-    "streaks": {
-     "unbeaten": 0,
-     "winless": 1,
-     "winning": 0,
-     "losing": 1,
-     "scoring": 0,
-     "no_score": 1,
-     "clean_sheet": 0,
-     "conceding": 1
-    }
+    ]
    },
    "away_team": {
     "id": 7203,
@@ -544,211 +547,279 @@
       "opponent": "SD Aucas",
       "date": "2026-08-02"
      }
-    ],
-    "streaks": {
-     "unbeaten": 1,
-     "winless": 0,
-     "winning": 1,
-     "losing": 0,
-     "scoring": 1,
-     "no_score": 0,
-     "clean_sheet": 0,
-     "conceding": 3
-    }
+    ]
    },
    "kickoff_local": "2026-09-03T21:00:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "3 casas"
   },
   {
-   "id": 4735274,
-   "s365_competition_id": 35,
-   "competition_name": "Ligue 1",
-   "start_time": "2026-09-03T18:45:00+00:00",
+   "id": 4732027,
+   "s365_competition_id": 620,
+   "competition_name": "Liga BetPlay - Clausura",
+   "start_time": "2026-09-04T01:00:00+00:00",
    "status_group": 2,
    "round": "Round",
    "home": {
-    "id": 482,
-    "name": "Toulouse"
+    "id": 8638,
+    "name": "Deportivo Pereira"
    },
    "away": {
-    "id": 478,
-    "name": "Lille"
+    "id": 8643,
+    "name": "Independiente Medellin"
    },
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 1.12,
-    "lambda_away": 1.64,
-    "expected_goals": 2.76,
-    "sample_factor": 1.0,
+    "lambda_home": 0.96,
+    "lambda_away": 0.96,
+    "expected_goals": 1.92,
+    "sample_factor": 0.8,
     "probs": {
-     "HOME": 0.2607,
-     "DRAW": 0.2455,
-     "AWAY": 0.4938,
-     "1X": 0.5062,
-     "X2": 0.7393,
-     "12": 0.7545,
-     "OVER25": 0.5202,
-     "UNDER25": 0.4798,
-     "BTTS_YES": 0.5427,
-     "BTTS_NO": 0.4573
+     "HOME": 0.3426,
+     "DRAW": 0.3162,
+     "AWAY": 0.3413,
+     "1X": 0.6587,
+     "X2": 0.6574,
+     "12": 0.6838,
+     "OVER25": 0.3019,
+     "UNDER25": 0.6981,
+     "BTTS_YES": 0.381,
+     "BTTS_NO": 0.619
     }
    },
    "pick": {
     "selection": "X2",
     "family": "double_chance",
-    "label": "Dupla chance: Lille ou empate (X2)",
-    "model_prob": 0.7393,
-    "trend_alignment": 0.567,
-    "confidence": 44,
+    "label": "Dupla chance: Independiente Medellin ou empate (X2)",
+    "model_prob": 0.6574,
+    "trend_alignment": 1.0,
+    "confidence": 38,
     "eligible": true,
-    "odd": 1.27,
+    "odd": 1.2,
     "low_conviction": false
    },
    "alt_markets": [
     {
-     "selection": "AWAY",
-     "family": "1x2",
-     "label": "Vitória do Lille",
-     "model_prob": 0.4938,
-     "trend_alignment": 0.567,
-     "confidence": 35,
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.6981,
+     "trend_alignment": 0.313,
+     "confidence": 29,
      "eligible": true,
-     "odd": 2.02
+     "odd": 1.89
     },
     {
-     "selection": "BTTS_YES",
-     "family": "btts",
-     "label": "Ambos os times marcam",
-     "model_prob": 0.5427,
-     "trend_alignment": 0.0,
-     "confidence": 6,
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Independiente Medellin",
+     "model_prob": 0.3413,
+     "trend_alignment": 1.0,
+     "confidence": 28,
      "eligible": false,
+     "odd": 1.77
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.619,
+     "trend_alignment": 0.313,
+     "confidence": 21,
+     "eligible": true,
      "odd": null
     },
     {
-     "selection": "OVER25",
-     "family": "over_under",
-     "label": "Mais de 2.5 gols",
-     "model_prob": 0.5202,
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Deportivo Pereira ou empate (1X)",
+     "model_prob": 0.6587,
      "trend_alignment": 0.0,
-     "confidence": 3,
-     "eligible": false,
-     "odd": 1.9
-    },
-    {
-     "selection": "HOME",
-     "family": "1x2",
-     "label": "Vitória do Toulouse",
-     "model_prob": 0.2607,
-     "trend_alignment": 0.0,
-     "confidence": 0,
-     "eligible": false,
-     "odd": 3.76
+     "confidence": 12,
+     "eligible": true,
+     "odd": 2.06
     }
    ],
    "trends": [
     {
-     "label": "Lille 3º × 16º Toulouse (13 posições)",
-     "kind": "table_gap",
-     "strength": 0.85,
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
      "favors": "AWAY",
-     "team": "Lille",
-     "group": "tabela"
+     "team": "Independiente Medellin",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Só venceu 1 dos últimos 5",
+     "strength": 0.48,
+     "favors": "AWAY",
+     "team": "Deportivo Pereira",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "Menos de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "UNDER",
+     "team": "Deportivo Pereira",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "under"
+    },
+    {
+     "label": "Deportivo Pereira é 15º · Independiente Medellin é 4º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Independiente Medellin está 11 posições à frente",
+     "strength": 0.786,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
     }
    ],
    "aligned_trends": [
     {
-     "label": "Lille 3º × 16º Toulouse (13 posições)",
-     "kind": "table_gap",
-     "strength": 0.85,
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
      "favors": "AWAY",
-     "team": "Lille",
-     "group": "tabela"
+     "team": "Independiente Medellin",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Só venceu 1 dos últimos 5",
+     "strength": 0.48,
+     "favors": "AWAY",
+     "team": "Deportivo Pereira",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "Independiente Medellin está 11 posições à frente",
+     "strength": 0.786,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
     }
    ],
-   "confidence": 44,
+   "confidence": 38,
    "league": {
-    "key": "ligue1",
-    "name": "Ligue 1",
-    "country": "França"
+    "key": "co_primera",
+    "name": "Liga BetPlay",
+    "country": "Colômbia"
    },
    "home_team": {
-    "id": 482,
-    "name": "Toulouse",
-    "position": 16,
-    "played": 2,
-    "points": 1.0,
-    "record": "0V 1E 1D",
+    "id": 8638,
+    "name": "Deportivo Pereira",
+    "position": 15,
+    "played": 4,
+    "points": 5.0,
+    "record": "1V 2E 1D",
     "goals_for": 2,
-    "goals_against": 4,
-    "last5": "DL",
+    "goals_against": 2,
+    "last5": "WDDLL",
     "recent": [
      {
-      "result": "D",
-      "score": "2-2",
+      "result": "W",
+      "score": "2-1",
       "home": false,
-      "opponent": "Brest",
-      "date": "2026-08-29"
+      "opponent": "Deportivo Pasto",
+      "date": "2026-08-31"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Alianza FC",
+      "date": "2026-08-22"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Fortaleza FC",
+      "date": "2026-08-01"
      },
      {
       "result": "L",
-      "score": "0-2",
-      "home": true,
-      "opponent": "Lyon",
-      "date": "2026-08-22"
+      "score": "0-1",
+      "home": false,
+      "opponent": "Llaneros FC",
+      "date": "2026-07-24"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "America de Cali",
+      "date": "2026-05-03"
      }
-    ],
-    "streaks": {
-     "unbeaten": 1,
-     "winless": 2,
-     "winning": 0,
-     "losing": 0,
-     "scoring": 1,
-     "no_score": 0,
-     "clean_sheet": 0,
-     "conceding": 2
-    }
+    ]
    },
    "away_team": {
-    "id": 478,
-    "name": "Lille",
-    "position": 3,
-    "played": 2,
-    "points": 4.0,
-    "record": "1V 1E 0D",
-    "goals_for": 4,
-    "goals_against": 2,
-    "last5": "DW",
+    "id": 8643,
+    "name": "Independiente Medellin",
+    "position": 4,
+    "played": 5,
+    "points": 12.0,
+    "record": "4V 0E 1D",
+    "goals_for": 9,
+    "goals_against": 6,
+    "last5": "WLWWW",
     "recent": [
      {
-      "result": "D",
-      "score": "2-2",
+      "result": "W",
+      "score": "2-1",
       "home": true,
-      "opponent": "PSG",
-      "date": "2026-08-28"
+      "opponent": "Llaneros FC",
+      "date": "2026-08-30"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Cucuta Deportivo",
+      "date": "2026-08-23"
      },
      {
       "result": "W",
-      "score": "2-0",
+      "score": "3-2",
       "home": false,
-      "opponent": "Angers",
-      "date": "2026-08-23"
+      "opponent": "Deportes Tolima",
+      "date": "2026-08-04"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Deportivo Cali",
+      "date": "2026-08-01"
+     },
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": true,
+      "opponent": "Deportivo Pasto",
+      "date": "2026-07-25"
      }
-    ],
-    "streaks": {
-     "unbeaten": 2,
-     "winless": 1,
-     "winning": 0,
-     "losing": 0,
-     "scoring": 2,
-     "no_score": 0,
-     "clean_sheet": 0,
-     "conceding": 1
-    }
+    ]
    },
-   "kickoff_local": "2026-09-03T15:45:00-03:00",
+   "kickoff_local": "2026-09-03T22:00:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "3 casas"
   },
@@ -792,10 +863,10 @@
     "family": "double_chance",
     "label": "Dupla chance: Universidad Catolica ou empate (1X)",
     "model_prob": 0.7136,
-    "trend_alignment": 0.591,
-    "confidence": 42,
+    "trend_alignment": 0.383,
+    "confidence": 35,
     "eligible": true,
-    "odd": 1.18,
+    "odd": 1.23,
     "low_conviction": false
    },
    "alt_markets": [
@@ -804,127 +875,137 @@
      "family": "1x2",
      "label": "Vitória do Universidad Catolica",
      "model_prob": 0.4388,
-     "trend_alignment": 0.591,
-     "confidence": 30,
+     "trend_alignment": 0.383,
+     "confidence": 23,
      "eligible": false,
-     "odd": 1.81
-    },
-    {
-     "selection": "OVER25",
-     "family": "over_under",
-     "label": "Mais de 2.5 gols",
-     "model_prob": 0.4207,
-     "trend_alignment": 0.756,
-     "confidence": 26,
-     "eligible": false,
-     "odd": 2.05
-    },
-    {
-     "selection": "BTTS_YES",
-     "family": "btts",
-     "label": "Ambos os times marcam",
-     "model_prob": 0.473,
-     "trend_alignment": 0.756,
-     "confidence": 26,
-     "eligible": false,
-     "odd": null
+     "odd": 1.85
     },
     {
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
      "model_prob": 0.5793,
-     "trend_alignment": 0.0,
-     "confidence": 10,
+     "trend_alignment": 0.031,
+     "confidence": 11,
      "eligible": false,
-     "odd": 1.75
+     "odd": 1.72
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.527,
+     "trend_alignment": 0.031,
+     "confidence": 5,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "X2",
+     "family": "double_chance",
+     "label": "Dupla chance: SD Aucas ou empate (X2)",
+     "model_prob": 0.5612,
+     "trend_alignment": 0.0,
+     "confidence": 2,
+     "eligible": false,
+     "odd": 1.93
     }
    ],
    "trends": [
     {
-     "label": "Over 2.5 em 4 dos últimos 5",
-     "kind": "over",
-     "strength": 0.667,
-     "favors": "OVER",
-     "team": "Universidad Catolica",
-     "group": "forma"
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "AWAY",
+     "team": "SD Aucas",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
     },
     {
-     "label": "Ambos marcam em 4 dos últimos 5",
-     "kind": "btts",
-     "strength": 0.667,
-     "favors": "BTTS_YES",
-     "team": "Universidad Catolica",
-     "group": "forma"
-    },
-    {
-     "label": "Under 2.5 em 4 dos últimos 5",
-     "kind": "under",
-     "strength": 0.667,
+     "label": "Não sofreu gol em 4 dos últimos 5",
+     "strength": 0.47,
      "favors": "UNDER",
      "team": "SD Aucas",
-     "group": "forma"
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "clean_sheets"
     },
     {
-     "label": "Marcou nos últimos 5",
-     "kind": "scoring",
-     "strength": 0.4,
-     "favors": "OVER",
-     "team": "Universidad Catolica",
-     "group": "forma"
-    },
-    {
-     "label": "Invicto há 3 jogos",
-     "kind": "unbeaten",
-     "strength": 0.167,
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
      "favors": "HOME",
      "team": "Universidad Catolica",
-     "group": "forma"
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "Universidad Catolica",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "over"
     },
     {
      "label": "3ª melhor defesa da liga (0.9 sofridos/jogo)",
-     "kind": "def_top",
-     "strength": 0.38,
+     "strength": 0.36,
      "favors": "HOME",
      "team": "Universidad Catolica",
-     "group": "temporada"
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
     },
     {
      "label": "2º melhor ataque da liga (1.7 marcados/jogo)",
-     "kind": "atk_top",
-     "strength": 0.34,
+     "strength": 0.32,
      "favors": "HOME",
      "team": "Universidad Catolica",
-     "group": "temporada"
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Universidad Catolica é 4º · SD Aucas é 3º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
     }
    ],
    "aligned_trends": [
     {
-     "label": "Invicto há 3 jogos",
-     "kind": "unbeaten",
-     "strength": 0.167,
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
      "favors": "HOME",
      "team": "Universidad Catolica",
-     "group": "forma"
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
     },
     {
      "label": "3ª melhor defesa da liga (0.9 sofridos/jogo)",
-     "kind": "def_top",
-     "strength": 0.38,
+     "strength": 0.36,
      "favors": "HOME",
      "team": "Universidad Catolica",
-     "group": "temporada"
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
     },
     {
      "label": "2º melhor ataque da liga (1.7 marcados/jogo)",
-     "kind": "atk_top",
-     "strength": 0.34,
+     "strength": 0.32,
      "favors": "HOME",
      "team": "Universidad Catolica",
-     "group": "temporada"
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
     }
    ],
-   "confidence": 42,
+   "confidence": 35,
    "league": {
     "key": "ec_ligapro",
     "name": "Liga Pro",
@@ -976,17 +1057,7 @@
       "opponent": "Tecnico Universitario",
       "date": "2026-08-01"
      }
-    ],
-    "streaks": {
-     "unbeaten": 3,
-     "winless": 1,
-     "winning": 0,
-     "losing": 0,
-     "scoring": 5,
-     "no_score": 0,
-     "clean_sheet": 0,
-     "conceding": 4
-    }
+    ]
    },
    "away_team": {
     "id": 14201,
@@ -1034,261 +1105,9 @@
       "opponent": "Emelec",
       "date": "2026-08-02"
      }
-    ],
-    "streaks": {
-     "unbeaten": 2,
-     "winless": 0,
-     "winning": 2,
-     "losing": 0,
-     "scoring": 2,
-     "no_score": 0,
-     "clean_sheet": 2,
-     "conceding": 0
-    }
+    ]
    },
    "kickoff_local": "2026-09-03T16:00:00-03:00",
-   "has_odds": true,
-   "odds_bookmaker": "3 casas"
-  },
-  {
-   "id": 4665941,
-   "s365_competition_id": 5062,
-   "competition_name": "Liga Pro",
-   "start_time": "2026-09-03T21:30:00+00:00",
-   "status_group": 2,
-   "round": "Round",
-   "home": {
-    "id": 69705,
-    "name": "Leones FC"
-   },
-   "away": {
-    "id": 51520,
-    "name": "Orense SC"
-   },
-   "home_score": -1.0,
-   "away_score": -1.0,
-   "model": {
-    "lambda_home": 1.7,
-    "lambda_away": 1.08,
-    "expected_goals": 2.78,
-    "sample_factor": 1.0,
-    "probs": {
-     "HOME": 0.5188,
-     "DRAW": 0.2404,
-     "AWAY": 0.2408,
-     "1X": 0.7592,
-     "X2": 0.4812,
-     "12": 0.7596,
-     "OVER25": 0.5246,
-     "UNDER25": 0.4754,
-     "BTTS_YES": 0.5388,
-     "BTTS_NO": 0.4612
-    }
-   },
-   "pick": {
-    "selection": "1X",
-    "family": "double_chance",
-    "label": "Dupla chance: Leones FC ou empate (1X)",
-    "model_prob": 0.7592,
-    "trend_alignment": 0.133,
-    "confidence": 33,
-    "eligible": true,
-    "odd": 1.18,
-    "low_conviction": false
-   },
-   "alt_markets": [
-    {
-     "selection": "HOME",
-     "family": "1x2",
-     "label": "Vitória do Leones FC",
-     "model_prob": 0.5188,
-     "trend_alignment": 0.133,
-     "confidence": 22,
-     "eligible": true,
-     "odd": 1.86
-    },
-    {
-     "selection": "BTTS_YES",
-     "family": "btts",
-     "label": "Ambos os times marcam",
-     "model_prob": 0.5388,
-     "trend_alignment": 0.233,
-     "confidence": 13,
-     "eligible": false,
-     "odd": null
-    },
-    {
-     "selection": "OVER25",
-     "family": "over_under",
-     "label": "Mais de 2.5 gols",
-     "model_prob": 0.5246,
-     "trend_alignment": 0.233,
-     "confidence": 11,
-     "eligible": false,
-     "odd": 2.33
-    },
-    {
-     "selection": "AWAY",
-     "family": "1x2",
-     "label": "Vitória do Orense SC",
-     "model_prob": 0.2408,
-     "trend_alignment": 0.0,
-     "confidence": 0,
-     "eligible": false,
-     "odd": 4.0
-    }
-   ],
-   "trends": [
-    {
-     "label": "Não vence fora de casa há 3+ jogos",
-     "kind": "venue_winless",
-     "strength": 0.2,
-     "favors": "HOME",
-     "team": "Orense SC",
-     "group": "casa_fora"
-    },
-    {
-     "label": "Pior defesa da liga (1.5 sofridos/jogo)",
-     "kind": "def_bottom",
-     "strength": 0.35,
-     "favors": "OVER",
-     "team": "Orense SC",
-     "group": "temporada"
-    }
-   ],
-   "aligned_trends": [
-    {
-     "label": "Não vence fora de casa há 3+ jogos",
-     "kind": "venue_winless",
-     "strength": 0.2,
-     "favors": "HOME",
-     "team": "Orense SC",
-     "group": "casa_fora"
-    }
-   ],
-   "confidence": 33,
-   "league": {
-    "key": "ec_ligapro",
-    "name": "Liga Pro",
-    "country": "Equador"
-   },
-   "home_team": {
-    "id": 69705,
-    "name": "Leones FC",
-    "position": 10,
-    "played": 27,
-    "points": 35.0,
-    "record": "9V 8E 10D",
-    "goals_for": 29,
-    "goals_against": 30,
-    "last5": "LLWLD",
-    "recent": [
-     {
-      "result": "L",
-      "score": "1-2",
-      "home": false,
-      "opponent": "Emelec",
-      "date": "2026-08-30"
-     },
-     {
-      "result": "L",
-      "score": "2-3",
-      "home": true,
-      "opponent": "Independiente del Valle",
-      "date": "2026-08-22"
-     },
-     {
-      "result": "W",
-      "score": "2-0",
-      "home": false,
-      "opponent": "Manta",
-      "date": "2026-08-15"
-     },
-     {
-      "result": "L",
-      "score": "0-3",
-      "home": false,
-      "opponent": "SD Aucas",
-      "date": "2026-08-08"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": true,
-      "opponent": "Barcelona SC",
-      "date": "2026-08-02"
-     }
-    ],
-    "streaks": {
-     "unbeaten": 0,
-     "winless": 2,
-     "winning": 0,
-     "losing": 2,
-     "scoring": 3,
-     "no_score": 0,
-     "clean_sheet": 0,
-     "conceding": 2
-    }
-   },
-   "away_team": {
-    "id": 51520,
-    "name": "Orense SC",
-    "position": 13,
-    "played": 27,
-    "points": 30.0,
-    "record": "8V 6E 13D",
-    "goals_for": 31,
-    "goals_against": 41,
-    "last5": "LLWDL",
-    "recent": [
-     {
-      "result": "L",
-      "score": "1-2",
-      "home": true,
-      "opponent": "Macará",
-      "date": "2026-08-30"
-     },
-     {
-      "result": "L",
-      "score": "0-3",
-      "home": false,
-      "opponent": "Barcelona SC",
-      "date": "2026-08-23"
-     },
-     {
-      "result": "W",
-      "score": "2-0",
-      "home": true,
-      "opponent": "Deportivo Cuenca",
-      "date": "2026-08-16"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": false,
-      "opponent": "Delfin",
-      "date": "2026-08-09"
-     },
-     {
-      "result": "L",
-      "score": "0-3",
-      "home": false,
-      "opponent": "Libertad",
-      "date": "2026-08-01"
-     }
-    ],
-    "streaks": {
-     "unbeaten": 0,
-     "winless": 2,
-     "winning": 0,
-     "losing": 2,
-     "scoring": 1,
-     "no_score": 0,
-     "clean_sheet": 0,
-     "conceding": 2
-    }
-   },
-   "kickoff_local": "2026-09-03T18:30:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "3 casas"
   }

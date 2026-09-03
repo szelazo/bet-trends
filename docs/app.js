@@ -41,14 +41,7 @@ function confClass(c) {
   return c >= 65 ? "hi" : c >= 50 ? "mid" : "lo";
 }
 
-const GROUP_LABEL = {
-  forma: "Forma recente",
-  sequencia: "Sequências longas",
-  casa_fora: "Casa / fora",
-  temporada: "Na temporada",
-  tabela: "Tabela",
-};
-const GROUP_ORDER = ["sequencia", "casa_fora", "temporada", "tabela", "forma"];
+const GROUP_RANK = { geral: 0, casa_fora: 1, sequencia: 2, temporada: 3 };
 
 // ── render ────────────────────────────────────────────────────────────────────
 function pills(recent) {
@@ -70,26 +63,54 @@ function standRow(t) {
   </div>`;
 }
 
-function trendGroups(trends) {
-  const by = {};
-  for (const t of trends || []) (by[t.group || "forma"] ||= []).push(t);
-  return GROUP_ORDER.filter((g) => by[g] && by[g].length).map((g) => `
-    <div class="tgroup">
-      <h4>${GROUP_LABEL[g]}</h4>
-      <ul class="trendlist">
-        ${by[g].map((t) => `<li><span class="dot">▸</span><span>${t.label}</span>${t.team ? `<span class="team">${t.team}</span>` : ""}</li>`).join("")}
-      </ul>
-    </div>`).join("");
+function trendItems(list, favSel) {
+  return list
+    .slice()
+    .sort((a, b) => (GROUP_RANK[a.group] - GROUP_RANK[b.group]) || (b.strength - a.strength))
+    .map((t) => {
+      const on = favSel && favSel.has(t.favors);
+      return `<li class="${on ? "aligned" : ""}"><span class="dot">▸</span><span>${t.label}</span></li>`;
+    })
+    .join("");
 }
+
+// tendências agrupadas por time, no estilo 365scores
+function trendColumns(g) {
+  const fav = FAV_TARGETS[g.pick.selection] || new Set();
+  const byTeam = { [g.home_team.name]: [], [g.away_team.name]: [], _: [] };
+  for (const t of g.trends || []) (byTeam[t.team] || byTeam._).push(t);
+
+  const teamBlock = (name) => {
+    const items = byTeam[name] || [];
+    if (!items.length) return `<div class="tcol"><h4>${name}</h4><p class="muted-note">Sem tendência forte.</p></div>`;
+    return `<div class="tcol"><h4>${name}</h4><ul class="trendlist">${trendItems(items, fav)}</ul></div>`;
+  };
+
+  const matchup = byTeam._.length
+    ? `<div class="tcol wide"><h4>Confronto</h4><ul class="trendlist">${trendItems(byTeam._, fav)}</ul></div>`
+    : "";
+
+  return `<div class="tcols">${teamBlock(g.home_team.name)}${teamBlock(g.away_team.name)}</div>${matchup}`;
+}
+
+// alvos de tendência que cada palpite considera a favor (espelha recommend._ALIGN)
+const FAV_TARGETS = {
+  HOME: new Set(["HOME"]), AWAY: new Set(["AWAY"]),
+  "1X": new Set(["HOME"]), X2: new Set(["AWAY"]),
+  OVER25: new Set(["OVER", "BTTS_YES"]), UNDER25: new Set(["UNDER", "BTTS_NO"]),
+  BTTS_YES: new Set(["BTTS_YES", "OVER"]), BTTS_NO: new Set(["BTTS_NO", "UNDER"]),
+};
 
 function card(g) {
   const p = g.pick;
   const conf = g.confidence;
   const oddTxt = p.odd ? p.odd.toFixed(2) : "sem odd";
 
-  const badges = [];
-  if (p.low_conviction) badges.push('<span class="badge lowconv">baixa convicção</span>');
-  for (const t of (g.aligned_trends || []).slice(0, 3)) badges.push(`<span class="badge">${t.label}</span>`);
+  // linha que explica o palpite: tendência mais forte a favor
+  const topTrend = (g.aligned_trends || []).slice().sort((a, b) => b.strength - a.strength)[0];
+  const why = topTrend
+    ? `<div class="why">▸ ${topTrend.team ? `<b>${topTrend.team}:</b> ` : ""}${topTrend.label}</div>`
+    : "";
 
   const probs = g.model.probs;
   const probbar = `
@@ -102,7 +123,7 @@ function card(g) {
   const alts = (g.alt_markets || []).map((a) => `
     <div class="row"><span>${a.label}</span><span>${pct(a.model_prob)} · conf ${a.confidence}${a.odd ? ` · ${a.odd.toFixed(2)}` : ""}</span></div>`).join("");
 
-  const tg = trendGroups(g.trends);
+  const lowconv = p.low_conviction ? '<span class="badge lowconv">baixa convicção</span>' : "";
 
   return `
   <details class="card">
@@ -121,7 +142,8 @@ function card(g) {
         <span class="label">${p.label}</span>
         <span class="odd${p.odd ? "" : " none"}">${oddTxt}</span>
       </div>
-      ${badges.length ? `<div class="badges">${badges.join("")}</div>` : ""}
+      ${why}
+      ${lowconv ? `<div class="badges">${lowconv}</div>` : ""}
     </summary>
     <div class="detail">
       <div>
@@ -140,7 +162,7 @@ function card(g) {
       </div>
       <div>
         <h3>Tendências</h3>
-        ${tg || '<p class="muted-note">Sem tendência forte detectada.</p>'}
+        ${trendColumns(g)}
       </div>
       <div>
         <h3>Probabilidades do modelo</h3>
