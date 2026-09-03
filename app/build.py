@@ -140,9 +140,36 @@ def build(target: date, days: int, *, out_dir: Path, use_odds: bool, cache_dir: 
     # odds do 365scores só existem perto do jogo
     odds_cutoff = target + timedelta(days=S365["odds_days_ahead"])
 
+    def enrich(g, lg, hr, ar, mu, all_rows, odds_events) -> dict:
+        h_recent = merge_recent(history.get(g["home"]["id"], []), hr["recent"])
+        a_recent = merge_recent(history.get(g["away"]["id"], []), ar["recent"])
+        model = predict(hr, ar, mu)
+        trends = compute_trends(h_recent, a_recent, hr, ar, all_rows,
+                                g["home"]["name"], g["away"]["name"])
+        odds = None
+        if use_odds and _local_date(g["start_time"]) <= odds_cutoff:
+            odds = s365.game_odds(g["id"])
+        if not odds and odds_events:
+            odds = find_match(g, odds_events)
+        item = evaluate(g, model, trends, odds)
+        item["league"] = {"key": lg.key, "name": lg.name, "country": lg.country}
+        item["home_team"] = _team_summary(g["home"], hr, h_recent)
+        item["away_team"] = _team_summary(g["away"], ar, a_recent)
+        item["kickoff_local"] = datetime.fromisoformat(g["start_time"]).astimezone(TZ).isoformat()
+        item["has_odds"] = odds is not None
+        item["odds_bookmaker"] = (odds or {}).get("bookmaker")
+        item["is_cup"] = lg.cup
+        return item
+
     enriched: list[dict] = []
+    team_index: dict[int, dict] = {}   # team_id -> {"row", "mu"} (só 1ª divisão c/ tabela)
+    cup_ids = {sid for sid, lg in league_by_s365.items() if lg.cup}
+
+    # 1) ligas com tabela
     for s365_id, games in by_league.items():
         lg = league_by_s365[s365_id]
+        if lg.cup:
+            continue
         try:
             rows = s365.standings(s365_id)
         except Exception as exc:  # noqa: BLE001
@@ -153,6 +180,9 @@ def build(target: date, days: int, *, out_dir: Path, use_odds: bool, cache_dir: 
             continue
         mu = league_avg_goals(rows)
         find_row = _row_lookup(rows)
+        for r in rows:
+            if r["team_id"] is not None:
+                team_index[r["team_id"]] = {"row": r, "mu": mu}
 
         odds_events: list[dict] = []
         if odds_api_on and lg.odds_key and any(
@@ -162,38 +192,32 @@ def build(target: date, days: int, *, out_dir: Path, use_odds: bool, cache_dir: 
 
         for g in games:
             try:
-                hr = find_row(g["home"])
-                ar = find_row(g["away"])
+                hr, ar = find_row(g["home"]), find_row(g["away"])
                 if not hr or not ar:
                     print(f"  ! sem linha na tabela p/ {g['home']['name']} x {g['away']['name']}")
                     continue
-                h_recent = merge_recent(history.get(g["home"]["id"], []), hr["recent"])
-                a_recent = merge_recent(history.get(g["away"]["id"], []), ar["recent"])
-
-                model = predict(hr, ar, mu)
-                trends = compute_trends(
-                    h_recent, a_recent, hr, ar, rows,
-                    g["home"]["name"], g["away"]["name"],
-                )
-
-                # odds: 365scores primeiro (sem chave), the-odds-api como reserva
-                odds = None
-                if use_odds and _local_date(g["start_time"]) <= odds_cutoff:
-                    odds = s365.game_odds(g["id"])
-                if not odds and odds_events:
-                    odds = find_match(g, odds_events)
-
-                item = evaluate(g, model, trends, odds)
-                item["league"] = {"key": lg.key, "name": lg.name, "country": lg.country}
-                item["home_team"] = _team_summary(g["home"], hr, h_recent)
-                item["away_team"] = _team_summary(g["away"], ar, a_recent)
-                item["kickoff_local"] = datetime.fromisoformat(g["start_time"]).astimezone(TZ).isoformat()
-                item["has_odds"] = odds is not None
-                item["odds_bookmaker"] = (odds or {}).get("bookmaker")
-                enriched.append(item)
+                enriched.append(enrich(g, lg, hr, ar, mu, rows, odds_events))
             except Exception as exc:  # noqa: BLE001
                 print(f"  ! erro em {g['home']['name']} x {g['away']['name']}: {exc}")
                 traceback.print_exc()
+
+    # 2) copas — só jogos em que os DOIS times estão numa 1ª divisão coberta
+    for s365_id in cup_ids & by_league.keys():
+        lg = league_by_s365[s365_id]
+        skipped = 0
+        for g in by_league[s365_id]:
+            hi = team_index.get(g["home"]["id"])
+            ai = team_index.get(g["away"]["id"])
+            if not hi or not ai:
+                skipped += 1
+                continue
+            try:
+                mu = (hi["mu"] + ai["mu"]) / 2
+                enriched.append(enrich(g, lg, hi["row"], ai["row"], mu, [], []))
+            except Exception as exc:  # noqa: BLE001
+                print(f"  ! erro (copa) em {g['home']['name']} x {g['away']['name']}: {exc}")
+        if skipped:
+            print(f"  · {lg.name}: {skipped} jogo(s) fora (time de divisão inferior)")
 
     # ── escreve um arquivo por data ──────────────────────────────────────────
     out_dir.mkdir(parents=True, exist_ok=True)

@@ -4,10 +4,10 @@
   "2026-09-04",
   "2026-09-05"
  ],
- "generated_at": "2026-09-03T16:04:23.173300-03:00",
+ "generated_at": "2026-09-03T16:14:13.743688-03:00",
  "odds_enabled": true,
  "odds_source": "365scores",
- "games_with_odds": 24,
+ "games_with_odds": 26,
  "leagues": [
   {
    "name": "Brasileirão Série A",
@@ -114,6 +114,42 @@
    "country": "Suíça"
   },
   {
+   "name": "Super League",
+   "country": "Grécia"
+  },
+  {
+   "name": "Allsvenskan",
+   "country": "Suécia"
+  },
+  {
+   "name": "Ekstraklasa",
+   "country": "Polônia"
+  },
+  {
+   "name": "Bundesliga",
+   "country": "Áustria"
+  },
+  {
+   "name": "Chance Liga",
+   "country": "Chéquia"
+  },
+  {
+   "name": "Liga 1",
+   "country": "Romênia"
+  },
+  {
+   "name": "Premier League",
+   "country": "Ucrânia"
+  },
+  {
+   "name": "Primera División",
+   "country": "Chile"
+  },
+  {
+   "name": "Liga 1",
+   "country": "Peru"
+  },
+  {
    "name": "Saudi Pro League",
    "country": "Arábia Saudita"
   },
@@ -156,6 +192,34 @@
   {
    "name": "CAF Champions League",
    "country": "África"
+  },
+  {
+   "name": "Copa do Brasil",
+   "country": "Brasil"
+  },
+  {
+   "name": "FA Cup",
+   "country": "Inglaterra"
+  },
+  {
+   "name": "Coppa Italia",
+   "country": "Itália"
+  },
+  {
+   "name": "DFB-Pokal",
+   "country": "Alemanha"
+  },
+  {
+   "name": "KNVB Beker",
+   "country": "Holanda"
+  },
+  {
+   "name": "Copa Argentina",
+   "country": "Argentina"
+  },
+  {
+   "name": "Copa Colombia",
+   "country": "Colômbia"
   }
  ]
 }

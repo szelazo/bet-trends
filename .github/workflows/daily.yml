@@ -3,6 +3,7 @@ name: Gerar sugestões diárias
 on:
   schedule:
     - cron: "0 11 * * *"   # 11:00 UTC ≈ 08:00 BRT
+    - cron: "0 20 * * *"   # 20:00 UTC ≈ 17:00 BRT (2ª passada p/ pegar odds mais firmes)
   workflow_dispatch:        # botão "Run workflow" na aba Actions
 
 permissions:
@@ -27,8 +28,18 @@ jobs:
 
       - name: Build
         env:
-          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}   # opcional; funciona sem
         run: python -m app.build --days 3 --cache-dir /tmp/betcache
+
+      - name: Sanidade — a build tem que produzir jogos
+        run: |
+          python - <<'PY'
+          import json, glob, sys
+          total = sum(json.load(open(f)).get("count", 0) for f in glob.glob("docs/data/20*.json"))
+          print(f"total de jogos listados: {total}")
+          if total == 0:
+              sys.exit("FALHA: 0 jogos — a fonte de dados (365scores) pode ter mudado.")
+          PY
 
       - name: Commit se houver mudança
         run: |
@@ -38,6 +49,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "Nada mudou."
           else
-            git commit -m "dados: $(date -u +%Y-%m-%d)"
+            git commit -m "dados: $(date -u +%Y-%m-%dT%H:%MZ)"
             git push
           fi

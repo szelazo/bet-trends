@@ -18,6 +18,7 @@ class League:
     s365_id: int        # competitionId no 365scores
     odds_key: str | None  # sport_key na the-odds-api (None = sem odds)
     enabled: bool = True
+    cup: bool = False   # mata-mata sem tabela → só jogos entre times de 1ª divisão coberta
 
 
 # ── Ligas cobertas ────────────────────────────────────────────────────────────
@@ -53,6 +54,15 @@ LEAGUES: list[League] = [
     League("scotland", "Scottish Premiership", "Escócia", 61, "soccer_spl"),
     League("denmark", "Superliga", "Dinamarca", 119, "soccer_denmark_superliga"),
     League("swiss", "Super League", "Suíça", 95, "soccer_switzerland_superleague"),
+    League("greece", "Super League", "Grécia", 84, "soccer_greece_super_league"),
+    League("sweden", "Allsvenskan", "Suécia", 122, "soccer_sweden_allsvenskan"),
+    League("poland", "Ekstraklasa", "Polônia", 153, "soccer_poland_ekstraklasa"),
+    League("austria", "Bundesliga", "Áustria", 111, "soccer_austria_bundesliga"),
+    League("czech", "Chance Liga", "Chéquia", 117, None),
+    League("romania", "Liga 1", "Romênia", 136, None),
+    League("ukraine", "Premier League", "Ucrânia", 129, None),
+    League("cl_primera", "Primera División", "Chile", 135, "soccer_chile_campeonato"),
+    League("pe_liga1", "Liga 1", "Peru", 583, None),
     # ── Ásia / África ──────────────────────────────────────────────────────
     League("saudi", "Saudi Pro League", "Arábia Saudita", 649, None),
     League("qatar", "Qatar Stars League", "Catar", 408, None),
@@ -66,6 +76,14 @@ LEAGUES: list[League] = [
     League("uel", "UEFA Europa League", "Europa", 573, "soccer_uefa_europa_league"),
     League("uecl", "UEFA Conference League", "Europa", 7685, "soccer_uefa_europa_conference_league"),
     League("caf_cl", "CAF Champions League", "África", 624, None),
+    # ── Copas nacionais (só jogos entre times de 1ª divisão coberta) ────────
+    League("copa_br", "Copa do Brasil", "Brasil", 115, None, cup=True),
+    League("fa_cup", "FA Cup", "Inglaterra", 8, None, cup=True),
+    League("coppa_ita", "Coppa Italia", "Itália", 20, None, cup=True),
+    League("dfb_pokal", "DFB-Pokal", "Alemanha", 28, None, cup=True),
+    League("knvb", "KNVB Beker", "Holanda", 59, None, cup=True),
+    League("copa_ar", "Copa Argentina", "Argentina", 640, None, cup=True),
+    League("copa_co", "Copa Colombia", "Colômbia", 616, None, cup=True),
 ]
 
 LEAGUES_BY_S365 = {lg.s365_id: lg for lg in LEAGUES}

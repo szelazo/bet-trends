@@ -1,6 +1,6 @@
 {
  "date": "2026-09-03",
- "generated_at": "2026-09-03T16:04:23.158663-03:00",
+ "generated_at": "2026-09-03T16:14:13.731412-03:00",
  "version": "0.1.0",
  "count": 3,
  "games": [
@@ -47,7 +47,7 @@
     "trend_alignment": 1.0,
     "confidence": 85,
     "eligible": true,
-    "odd": 1.29,
+    "odd": 1.27,
     "low_conviction": false
    },
    "alt_markets": [
@@ -308,7 +308,8 @@
    },
    "kickoff_local": "2026-09-03T18:00:00-03:00",
    "has_odds": true,
-   "odds_bookmaker": "3 casas"
+   "odds_bookmaker": "3 casas",
+   "is_cup": false
   },
   {
    "id": 4665946,
@@ -365,7 +366,7 @@
      "trend_alignment": 0.573,
      "confidence": 41,
      "eligible": true,
-     "odd": 2.21
+     "odd": 2.2
     },
     {
      "selection": "UNDER25",
@@ -395,7 +396,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 3.42
+     "odd": 3.4
     }
    ],
    "trends": [
@@ -551,7 +552,8 @@
    },
    "kickoff_local": "2026-09-03T21:00:00-03:00",
    "has_odds": true,
-   "odds_bookmaker": "3 casas"
+   "odds_bookmaker": "3 casas",
+   "is_cup": false
   },
   {
    "id": 4732027,
@@ -821,7 +823,8 @@
    },
    "kickoff_local": "2026-09-03T22:00:00-03:00",
    "has_odds": true,
-   "odds_bookmaker": "3 casas"
+   "odds_bookmaker": "3 casas",
+   "is_cup": false
   }
  ]
 }

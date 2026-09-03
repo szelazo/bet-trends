@@ -1,8 +1,8 @@
 {
  "date": "2026-09-05",
- "generated_at": "2026-09-03T16:04:23.162524-03:00",
+ "generated_at": "2026-09-03T16:14:13.734278-03:00",
  "version": "0.1.0",
- "count": 8,
+ "count": 10,
  "games": [
   {
    "id": 4735561,
@@ -258,7 +258,301 @@
    },
    "kickoff_local": "2026-09-05T09:00:00-03:00",
    "has_odds": false,
-   "odds_bookmaker": null
+   "odds_bookmaker": null,
+   "is_cup": false
+  },
+  {
+   "id": 4748719,
+   "s365_competition_id": 129,
+   "competition_name": "Premier League",
+   "start_time": "2026-09-05T10:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 48815,
+    "name": "Kharkiv"
+   },
+   "away": {
+    "id": 6002,
+    "name": "Obolon Kyiv"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.33,
+    "lambda_away": 0.58,
+    "expected_goals": 1.9,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.551,
+     "DRAW": 0.2869,
+     "AWAY": 0.1621,
+     "1X": 0.8379,
+     "X2": 0.449,
+     "12": 0.7131,
+     "OVER25": 0.2974,
+     "UNDER25": 0.7026,
+     "BTTS_YES": 0.3224,
+     "BTTS_NO": 0.6776
+    }
+   },
+   "pick": {
+    "selection": "1X",
+    "family": "double_chance",
+    "label": "Dupla chance: Kharkiv ou empate (1X)",
+    "model_prob": 0.8379,
+    "trend_alignment": 1.0,
+    "confidence": 72,
+    "eligible": true,
+    "odd": null,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Kharkiv",
+     "model_prob": 0.551,
+     "trend_alignment": 1.0,
+     "confidence": 56,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.7026,
+     "trend_alignment": 0.25,
+     "confidence": 35,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.6776,
+     "trend_alignment": 0.25,
+     "confidence": 32,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Obolon Kyiv",
+     "model_prob": 0.1621,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Não venceu nenhum dos últimos 4",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Obolon Kyiv",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "Não marcou em 4 dos últimos 4",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Obolon Kyiv",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "no_score"
+    },
+    {
+     "label": "Não venceu nenhum dos últimos 4 fora de casa",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Obolon Kyiv",
+     "side": "AWAY",
+     "group": "casa_fora",
+     "kind": "winless"
+    },
+    {
+     "label": "Não marcou em 4 dos últimos 4 fora de casa",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Obolon Kyiv",
+     "side": "AWAY",
+     "group": "casa_fora",
+     "kind": "no_score"
+    },
+    {
+     "label": "Ambos marcaram só 1x nos últimos 4",
+     "strength": 0.375,
+     "favors": "BTTS_NO",
+     "team": "Kharkiv",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "no_btts"
+    },
+    {
+     "label": "Kharkiv é 5º · Obolon Kyiv é 14º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Kharkiv está 9 posições à frente",
+     "strength": 0.643,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Não venceu nenhum dos últimos 4",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Obolon Kyiv",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "Não marcou em 4 dos últimos 4",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Obolon Kyiv",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "no_score"
+    },
+    {
+     "label": "Não venceu nenhum dos últimos 4 fora de casa",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Obolon Kyiv",
+     "side": "AWAY",
+     "group": "casa_fora",
+     "kind": "winless"
+    },
+    {
+     "label": "Não marcou em 4 dos últimos 4 fora de casa",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Obolon Kyiv",
+     "side": "AWAY",
+     "group": "casa_fora",
+     "kind": "no_score"
+    },
+    {
+     "label": "Kharkiv está 9 posições à frente",
+     "strength": 0.643,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 72,
+   "league": {
+    "key": "ukraine",
+    "name": "Premier League",
+    "country": "Ucrânia"
+   },
+   "home_team": {
+    "id": 48815,
+    "name": "Kharkiv",
+    "position": 5,
+    "played": 4,
+    "points": 6.0,
+    "record": "2V 0E 2D",
+    "goals_for": 5,
+    "goals_against": 4,
+    "last5": "WLLW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": false,
+      "opponent": "Zorya Luhansk",
+      "date": "2026-08-31"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Shakhtar Donetsk",
+      "date": "2026-08-16"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": false,
+      "opponent": "Polissya",
+      "date": "2026-08-10"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Veres Rivne",
+      "date": "2026-08-01"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 6002,
+    "name": "Obolon Kyiv",
+    "position": 14,
+    "played": 4,
+    "points": 3.0,
+    "record": "0V 3E 1D",
+    "goals_for": 0,
+    "goals_against": 3,
+    "last5": "DDDL",
+    "recent": [
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Kolos Kovalivka",
+      "date": "2026-08-28"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Kudrivka",
+      "date": "2026-08-15"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Bukovyna",
+      "date": "2026-08-08"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": false,
+      "opponent": "Epicentr",
+      "date": "2026-08-02"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-05T07:00:00-03:00",
+   "has_odds": false,
+   "odds_bookmaker": null,
+   "is_cup": false
   },
   {
    "id": 4757687,
@@ -473,7 +767,8 @@
    },
    "kickoff_local": "2026-09-05T08:00:00-03:00",
    "has_odds": false,
-   "odds_bookmaker": null
+   "odds_bookmaker": null,
+   "is_cup": false
   },
   {
    "id": 4746164,
@@ -738,7 +1033,8 @@
    },
    "kickoff_local": "2026-09-05T08:30:00-03:00",
    "has_odds": false,
-   "odds_bookmaker": null
+   "odds_bookmaker": null,
+   "is_cup": false
   },
   {
    "id": 4746167,
@@ -1003,7 +1299,8 @@
    },
    "kickoff_local": "2026-09-05T08:30:00-03:00",
    "has_odds": false,
-   "odds_bookmaker": null
+   "odds_bookmaker": null,
+   "is_cup": false
   },
   {
    "id": 4742073,
@@ -1186,7 +1483,306 @@
    },
    "kickoff_local": "2026-09-05T08:30:00-03:00",
    "has_odds": false,
-   "odds_bookmaker": null
+   "odds_bookmaker": null,
+   "is_cup": false
+  },
+  {
+   "id": 4748450,
+   "s365_competition_id": 136,
+   "competition_name": "Liga 1",
+   "start_time": "2026-09-05T12:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 12365,
+    "name": "FC Botosani"
+   },
+   "away": {
+    "id": 21126,
+    "name": "Sepsi"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 0.81,
+    "lambda_away": 0.67,
+    "expected_goals": 1.49,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.3574,
+     "DRAW": 0.3676,
+     "AWAY": 0.275,
+     "1X": 0.725,
+     "X2": 0.6426,
+     "12": 0.6324,
+     "OVER25": 0.1884,
+     "UNDER25": 0.8116,
+     "BTTS_YES": 0.2734,
+     "BTTS_NO": 0.7266
+    }
+   },
+   "pick": {
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: Sepsi ou empate (X2)",
+    "model_prob": 0.6426,
+    "trend_alignment": 1.0,
+    "confidence": 45,
+    "eligible": true,
+    "odd": null,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.8116,
+     "trend_alignment": 0.627,
+     "confidence": 62,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.7266,
+     "trend_alignment": 0.627,
+     "confidence": 51,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Sepsi",
+     "model_prob": 0.275,
+     "trend_alignment": 1.0,
+     "confidence": 35,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: FC Botosani ou empate (1X)",
+     "model_prob": 0.725,
+     "trend_alignment": 0.0,
+     "confidence": 24,
+     "eligible": true,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Invicto em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "AWAY",
+     "team": "Sepsi",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Menos de 2.5 gols em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "UNDER",
+     "team": "Sepsi",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "under"
+    },
+    {
+     "label": "Só venceu 1 dos últimos 5",
+     "strength": 0.48,
+     "favors": "AWAY",
+     "team": "FC Botosani",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "Não sofreu gol em 3 dos últimos 5",
+     "strength": 0.39,
+     "favors": "UNDER",
+     "team": "FC Botosani",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "clean_sheets"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Sepsi",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "FC Botosani é 13º · Sepsi é 9º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Sepsi está 4 posições à frente",
+     "strength": 0.286,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Invicto em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "AWAY",
+     "team": "Sepsi",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Só venceu 1 dos últimos 5",
+     "strength": 0.48,
+     "favors": "AWAY",
+     "team": "FC Botosani",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Sepsi",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Sepsi está 4 posições à frente",
+     "strength": 0.286,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 45,
+   "league": {
+    "key": "romania",
+    "name": "Liga 1",
+    "country": "Romênia"
+   },
+   "home_team": {
+    "id": 12365,
+    "name": "FC Botosani",
+    "position": 13,
+    "played": 7,
+    "points": 7.0,
+    "record": "1V 4E 2D",
+    "goals_for": 7,
+    "goals_against": 8,
+    "last5": "DWLDL",
+    "recent": [
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Farul Constanta",
+      "date": "2026-08-30"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Csíkszereda Miercurea Ciuc",
+      "date": "2026-08-24"
+     },
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": false,
+      "opponent": "FCSB",
+      "date": "2026-08-17"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Hunedoara",
+      "date": "2026-08-10"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Universitatea Cluj",
+      "date": "2026-08-03"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 21126,
+    "name": "Sepsi",
+    "position": 9,
+    "played": 7,
+    "points": 10.0,
+    "record": "2V 4E 1D",
+    "goals_for": 4,
+    "goals_against": 3,
+    "last5": "WDDDD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "FC Arges Pitesti",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Farul Constanta",
+      "date": "2026-08-23"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Csíkszereda Miercurea Ciuc",
+      "date": "2026-08-15"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "FCSB",
+      "date": "2026-08-10"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Hunedoara",
+      "date": "2026-08-02"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-05T09:00:00-03:00",
+   "has_odds": false,
+   "odds_bookmaker": null,
+   "is_cup": false
   },
   {
    "id": 4757693,
@@ -1383,7 +1979,8 @@
    },
    "kickoff_local": "2026-09-05T08:00:00-03:00",
    "has_odds": false,
-   "odds_bookmaker": null
+   "odds_bookmaker": null,
+   "is_cup": false
   },
   {
    "id": 4746171,
@@ -1621,7 +2218,8 @@
    },
    "kickoff_local": "2026-09-05T08:30:00-03:00",
    "has_odds": false,
-   "odds_bookmaker": null
+   "odds_bookmaker": null,
+   "is_cup": false
   },
   {
    "id": 4757690,
@@ -1818,7 +2416,8 @@
    },
    "kickoff_local": "2026-09-05T08:00:00-03:00",
    "has_odds": false,
-   "odds_bookmaker": null
+   "odds_bookmaker": null,
+   "is_cup": false
   }
  ]
 }

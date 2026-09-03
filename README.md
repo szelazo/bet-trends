@@ -69,6 +69,24 @@ Tudo em `app/config.py`:
 4. Settings → Pages → Source: branch `main`, pasta `/docs`.
 5. Actions → *Gerar sugestões diárias* → *Run workflow* para a primeira carga.
 
+## Compartilhar
+
+O site é uma URL pública do GitHub Pages (`https://<usuário>.github.io/bet-trends`).
+Basta mandar o link — não tem login, cadastro nem nada. No celular, o amigo abre e
+usa "Adicionar à tela de início" (funciona como app, PWA).
+
+## Continuar funcionando sozinho
+
+- O **GitHub Actions roda 2x/dia** (08h e 17h BRT) e faz commit dos dados novos.
+- Cada commit conta como atividade, então o cron **não é desativado** pela regra dos
+  60 dias de inatividade — a menos que a build falhe por 60 dias seguidos.
+- Se a fonte (365scores) mudar e a build parar de gerar jogos, o passo *Sanidade*
+  **falha de propósito** e o GitHub **te manda um e-mail** (notificação padrão de
+  workflow que falha).
+- O site também mostra um **aviso amarelo no topo** se os dados estiverem com mais de
+  ~40h — assim você (e os amigos) percebem na hora.
+- Para forçar uma atualização: aba **Actions → Gerar sugestões diárias → Run workflow**.
+
 ## Aviso
 
 Sugestões geradas por um modelo estatístico simples, **sem garantia de acerto**.

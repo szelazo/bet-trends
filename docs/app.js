@@ -12,7 +12,7 @@ const state = {
 };
 
 function loadPrefs() {
-  const def = { minConf: 0, league: "", market: "" };
+  const def = { league: "", market: "" };
   try {
     return { ...def, ...JSON.parse(localStorage.getItem(PREF_KEY) || "{}") };
   } catch {
@@ -37,7 +37,6 @@ const fmtDow = (d) =>
   new Intl.DateTimeFormat("pt-BR", { weekday: "short" }).format(asDate(d)).replace(".", "");
 const kickoff = (iso) => (iso.match(/T(\d\d:\d\d)/) || [, "--:--"])[1];
 const pct = (p) => `${Math.round(p * 100)}%`;
-const tier = (c) => (c >= 65 ? "hi" : c >= 50 ? "mid" : "lo");
 
 const GROUP_RANK = { geral: 0, casa_fora: 1, sequencia: 2, temporada: 3 };
 const FAV_TARGETS = {
@@ -101,7 +100,6 @@ function side(t, cls) {
 
 function card(g) {
   const p = g.pick;
-  const c = g.confidence;
   const oddTxt = p.odd ? p.odd.toFixed(2) : "sem odd";
 
   const top = (g.aligned_trends || []).slice().sort((a, b) => b.strength - a.strength)[0];
@@ -124,11 +122,11 @@ function card(g) {
     <div class="row"><span>${a.label}</span><b>${pct(a.model_prob)}${a.odd ? ` · ${a.odd.toFixed(2)}` : ""}</b></div>`).join("");
 
   return `
-  <details class="card tier-${tier(c)}">
+  <details class="card">
     <summary>
       <div class="card-top">
-        <span class="comp">${g.league.name} · ${kickoff(g.kickoff_local)}</span>
-        <span class="conf"><span class="cn">${c}</span><span class="cl">confiança</span></span>
+        <span class="comp">${g.league.name}${g.is_cup ? " · copa" : ""}</span>
+        <span class="ko">${kickoff(g.kickoff_local)}</span>
       </div>
       <div class="match">
         ${side(g.home_team, "home")}
@@ -137,7 +135,7 @@ function card(g) {
       </div>
       <div class="pick">
         <span class="pl">
-          <span class="pk">Palpite${p.low_conviction ? " · baixa convicção" : ""}</span>
+          <span class="pk">Palpite${p.low_conviction ? " · pouca convicção" : ""}</span>
           <span class="plabel">${p.label}</span>
         </span>
         <span class="odd${p.odd ? "" : " none"}">${oddTxt}</span>
@@ -176,7 +174,6 @@ function card(g) {
 function applyFilters(games) {
   const f = state.filters;
   return games.filter((g) => {
-    if (f.minConf && g.confidence < +f.minConf) return false;
     if (f.league && g.league.name !== f.league) return false;
     if (f.market && g.pick.family !== f.market) return false;
     return true;
@@ -197,6 +194,18 @@ function render() {
     `${state.day.count} jogos`,
     gen ? `${gen.toLocaleDateString("pt-BR", { day: "2-digit", month: "2-digit" })} ${gen.toLocaleTimeString("pt-BR", { hour: "2-digit", minute: "2-digit" })}` : "",
   ].filter(Boolean).join(" · ");
+}
+
+function checkFreshness() {
+  const b = $("#banner");
+  const iso = state.index && state.index.generated_at;
+  const ageH = iso ? (Date.now() - new Date(iso).getTime()) / 36e5 : 999;
+  if (ageH > 40) {
+    b.textContent = `⚠ Dados de ${new Date(iso).toLocaleDateString("pt-BR")} — a atualização automática pode ter falhado.`;
+    b.hidden = false;
+  } else {
+    b.hidden = true;
+  }
 }
 
 function renderDateStrip() {
@@ -238,18 +247,6 @@ function wire() {
     if (b) loadDate(b.dataset.d);
   });
 
-  const seg = $("#minConf");
-  seg.addEventListener("click", (e) => {
-    const b = e.target.closest("button[data-v]");
-    if (!b) return;
-    seg.querySelectorAll("button").forEach((x) => x.classList.toggle("on", x === b));
-    state.filters.minConf = +b.dataset.v;
-    savePrefs();
-    render();
-  });
-  seg.querySelectorAll("button").forEach((b) =>
-    b.classList.toggle("on", +b.dataset.v === +state.filters.minConf));
-
   for (const [id, key] of [["leagueFilter", "league"], ["marketFilter", "market"]]) {
     const el = $("#" + id);
     el.value = state.filters[key];
@@ -265,6 +262,7 @@ async function boot() {
     return;
   }
   wire();
+  checkFreshness();
 
   const dates = state.index.dates || [];
   const wanted = location.hash.slice(1);
