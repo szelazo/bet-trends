@@ -1,0 +1,891 @@
+{
+ "date": "2026-09-05",
+ "generated_at": "2026-09-03T15:08:02.051766-03:00",
+ "version": "0.1.0",
+ "bankroll": null,
+ "count": 4,
+ "games": [
+  {
+   "id": 4746164,
+   "s365_competition_id": 1,
+   "competition_name": "Championship",
+   "start_time": "2026-09-05T11:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 7,
+    "name": "Stoke City"
+   },
+   "away": {
+    "id": 8,
+    "name": "Charlton"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 0.98,
+    "lambda_away": 1.37,
+    "expected_goals": 2.35,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.269,
+     "DRAW": 0.2735,
+     "AWAY": 0.4576,
+     "1X": 0.5424,
+     "X2": 0.731,
+     "12": 0.7265,
+     "OVER25": 0.4171,
+     "UNDER25": 0.5829,
+     "BTTS_YES": 0.466,
+     "BTTS_NO": 0.534
+    }
+   },
+   "pick": {
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: Charlton ou empate (X2)",
+    "model_prob": 0.731,
+    "trend_alignment": 0.867,
+    "confidence": 52,
+    "eligible": true,
+    "odd": null,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Charlton",
+     "model_prob": 0.4576,
+     "trend_alignment": 0.867,
+     "confidence": 42,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.5829,
+     "trend_alignment": 0.0,
+     "confidence": 11,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.534,
+     "trend_alignment": 0.0,
+     "confidence": 4,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Charlton está 19 posições à frente na tabela",
+     "kind": "table_gap",
+     "strength": 0.9,
+     "favors": "AWAY",
+     "team": "Charlton"
+    },
+    {
+     "label": "Invicto há 4+ jogos",
+     "kind": "unbeaten",
+     "strength": 0.4,
+     "favors": "AWAY",
+     "team": "Charlton"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Charlton está 19 posições à frente na tabela",
+     "kind": "table_gap",
+     "strength": 0.9,
+     "favors": "AWAY",
+     "team": "Charlton"
+    },
+    {
+     "label": "Invicto há 4+ jogos",
+     "kind": "unbeaten",
+     "strength": 0.4,
+     "favors": "AWAY",
+     "team": "Charlton"
+    }
+   ],
+   "confidence": 52,
+   "league": {
+    "key": "championship",
+    "name": "Championship",
+    "country": "Inglaterra"
+   },
+   "home_team": {
+    "id": 7,
+    "name": "Stoke City",
+    "position": 22,
+    "played": 4,
+    "points": 3.0,
+    "record": "1V 0E 3D",
+    "last5": "WLLL",
+    "recent": [
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Norwich",
+      "date": "2026-09-01"
+     },
+     {
+      "result": "L",
+      "score": "1-4",
+      "home": false,
+      "opponent": "Wolves",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": false,
+      "opponent": "Southampton",
+      "date": "2026-08-22"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Swansea",
+      "date": "2026-08-15"
+     }
+    ],
+    "streaks": {
+     "unbeaten": 1,
+     "winless": 0,
+     "winning": 1,
+     "losing": 0,
+     "scoring": 4,
+     "no_score": 0,
+     "clean_sheet": 1,
+     "conceding": 0
+    }
+   },
+   "away_team": {
+    "id": 8,
+    "name": "Charlton",
+    "position": 3,
+    "played": 4,
+    "points": 10.0,
+    "record": "3V 1E 0D",
+    "last5": "DWWW",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "West Brom",
+      "date": "2026-09-02"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Preston",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "West Ham United",
+      "date": "2026-08-22"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Derby",
+      "date": "2026-08-15"
+     }
+    ],
+    "streaks": {
+     "unbeaten": 4,
+     "winless": 1,
+     "winning": 0,
+     "losing": 0,
+     "scoring": 4,
+     "no_score": 0,
+     "clean_sheet": 0,
+     "conceding": 1
+    }
+   },
+   "kickoff_local": "2026-09-05T08:30:00-03:00",
+   "has_odds": false
+  },
+  {
+   "id": 4746167,
+   "s365_competition_id": 1,
+   "competition_name": "Championship",
+   "start_time": "2026-09-05T11:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 23,
+    "name": "Preston"
+   },
+   "away": {
+    "id": 112,
+    "name": "Blackburn Rovers"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.08,
+    "lambda_away": 1.27,
+    "expected_goals": 2.35,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.3139,
+     "DRAW": 0.2783,
+     "AWAY": 0.4078,
+     "1X": 0.5922,
+     "X2": 0.6861,
+     "12": 0.7217,
+     "OVER25": 0.4176,
+     "UNDER25": 0.5824,
+     "BTTS_YES": 0.4752,
+     "BTTS_NO": 0.5248
+    }
+   },
+   "pick": {
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: Blackburn Rovers ou empate (X2)",
+    "model_prob": 0.6861,
+    "trend_alignment": 1.0,
+    "confidence": 50,
+    "eligible": true,
+    "odd": null,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Blackburn Rovers",
+     "model_prob": 0.4078,
+     "trend_alignment": 1.0,
+     "confidence": 42,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.5824,
+     "trend_alignment": 0.0,
+     "confidence": 11,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Preston ou empate (1X)",
+     "model_prob": 0.5922,
+     "trend_alignment": 0.0,
+     "confidence": 6,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Blackburn Rovers está 11 posições à frente na tabela",
+     "kind": "table_gap",
+     "strength": 0.786,
+     "favors": "AWAY",
+     "team": "Blackburn Rovers"
+    },
+    {
+     "label": "4 derrotas seguidas",
+     "kind": "losing",
+     "strength": 0.75,
+     "favors": "AWAY",
+     "team": "Preston"
+    },
+    {
+     "label": "Não vence há 4+ jogos",
+     "kind": "winless",
+     "strength": 0.2,
+     "favors": "AWAY",
+     "team": "Preston"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Blackburn Rovers está 11 posições à frente na tabela",
+     "kind": "table_gap",
+     "strength": 0.786,
+     "favors": "AWAY",
+     "team": "Blackburn Rovers"
+    },
+    {
+     "label": "4 derrotas seguidas",
+     "kind": "losing",
+     "strength": 0.75,
+     "favors": "AWAY",
+     "team": "Preston"
+    },
+    {
+     "label": "Não vence há 4+ jogos",
+     "kind": "winless",
+     "strength": 0.2,
+     "favors": "AWAY",
+     "team": "Preston"
+    }
+   ],
+   "confidence": 50,
+   "league": {
+    "key": "championship",
+    "name": "Championship",
+    "country": "Inglaterra"
+   },
+   "home_team": {
+    "id": 23,
+    "name": "Preston",
+    "position": 24,
+    "played": 4,
+    "points": 0,
+    "record": "0V 0E 4D",
+    "last5": "LLLL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": true,
+      "opponent": "Bristol City",
+      "date": "2026-09-01"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Charlton",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": true,
+      "opponent": "Wolves",
+      "date": "2026-08-22"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Bolton",
+      "date": "2026-08-15"
+     }
+    ],
+    "streaks": {
+     "unbeaten": 0,
+     "winless": 4,
+     "winning": 0,
+     "losing": 4,
+     "scoring": 1,
+     "no_score": 0,
+     "clean_sheet": 0,
+     "conceding": 4
+    }
+   },
+   "away_team": {
+    "id": 112,
+    "name": "Blackburn Rovers",
+    "position": 13,
+    "played": 4,
+    "points": 5.0,
+    "record": "1V 2E 1D",
+    "last5": "DLWD",
+    "recent": [
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Lincoln",
+      "date": "2026-09-01"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "QPR",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Middlesbrough",
+      "date": "2026-08-22"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "Wolves",
+      "date": "2026-08-14"
+     }
+    ],
+    "streaks": {
+     "unbeaten": 1,
+     "winless": 2,
+     "winning": 0,
+     "losing": 0,
+     "scoring": 0,
+     "no_score": 1,
+     "clean_sheet": 1,
+     "conceding": 0
+    }
+   },
+   "kickoff_local": "2026-09-05T08:30:00-03:00",
+   "has_odds": false
+  },
+  {
+   "id": 4735708,
+   "s365_competition_id": 141,
+   "competition_name": "Liga MX - Apertura",
+   "start_time": "2026-09-05T03:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 25149,
+    "name": "FC Juarez"
+   },
+   "away": {
+    "id": 1250,
+    "name": "Pachuca"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.16,
+    "lambda_away": 1.67,
+    "expected_goals": 2.83,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.2638,
+     "DRAW": 0.2419,
+     "AWAY": 0.4943,
+     "1X": 0.5057,
+     "X2": 0.7362,
+     "12": 0.7581,
+     "OVER25": 0.5381,
+     "UNDER25": 0.4619,
+     "BTTS_YES": 0.5572,
+     "BTTS_NO": 0.4428
+    }
+   },
+   "pick": {
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: Pachuca ou empate (X2)",
+    "model_prob": 0.7362,
+    "trend_alignment": 0.693,
+    "confidence": 47,
+    "eligible": true,
+    "odd": null,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5572,
+     "trend_alignment": 1.0,
+     "confidence": 42,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5381,
+     "trend_alignment": 1.0,
+     "confidence": 40,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Pachuca",
+     "model_prob": 0.4943,
+     "trend_alignment": 0.693,
+     "confidence": 39,
+     "eligible": true,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "5 derrotas seguidas",
+     "kind": "losing",
+     "strength": 1.0,
+     "favors": "AWAY",
+     "team": "FC Juarez"
+    },
+    {
+     "label": "Over 2.5 em 4 dos últimos 5",
+     "kind": "over",
+     "strength": 0.667,
+     "favors": "OVER",
+     "team": "FC Juarez"
+    },
+    {
+     "label": "Ambos marcam em 4 dos últimos 5",
+     "kind": "btts",
+     "strength": 0.667,
+     "favors": "BTTS_YES",
+     "team": "Pachuca"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "kind": "winless",
+     "strength": 0.4,
+     "favors": "AWAY",
+     "team": "FC Juarez"
+    },
+    {
+     "label": "Sofre gol há 5 jogos",
+     "kind": "conceding",
+     "strength": 0.4,
+     "favors": "OVER",
+     "team": "FC Juarez"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "kind": "winless",
+     "strength": 0.4,
+     "favors": "HOME",
+     "team": "Pachuca"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "5 derrotas seguidas",
+     "kind": "losing",
+     "strength": 1.0,
+     "favors": "AWAY",
+     "team": "FC Juarez"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "kind": "winless",
+     "strength": 0.4,
+     "favors": "AWAY",
+     "team": "FC Juarez"
+    }
+   ],
+   "confidence": 47,
+   "league": {
+    "key": "liga_mx",
+    "name": "Liga MX",
+    "country": "México"
+   },
+   "home_team": {
+    "id": 25149,
+    "name": "FC Juarez",
+    "position": 18,
+    "played": 6,
+    "points": 0,
+    "record": "0V 0E 6D",
+    "last5": "LLLLL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-4",
+      "home": false,
+      "opponent": "Toluca",
+      "date": "2026-08-31"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Club América",
+      "date": "2026-08-22"
+     },
+     {
+      "result": "L",
+      "score": "1-6",
+      "home": false,
+      "opponent": "Monterrey",
+      "date": "2026-08-16"
+     },
+     {
+      "result": "L",
+      "score": "1-5",
+      "home": true,
+      "opponent": "Pumas UNAM",
+      "date": "2026-08-01"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Chivas",
+      "date": "2026-07-25"
+     }
+    ],
+    "streaks": {
+     "unbeaten": 0,
+     "winless": 5,
+     "winning": 0,
+     "losing": 5,
+     "scoring": 0,
+     "no_score": 1,
+     "clean_sheet": 0,
+     "conceding": 5
+    }
+   },
+   "away_team": {
+    "id": 1250,
+    "name": "Pachuca",
+    "position": 15,
+    "played": 6,
+    "points": 5.0,
+    "record": "1V 2E 3D",
+    "last5": "DDLLL",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Chivas",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Atlético San Luis",
+      "date": "2026-08-23"
+     },
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": true,
+      "opponent": "Puebla",
+      "date": "2026-08-18"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Leon",
+      "date": "2026-08-02"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Queretaro",
+      "date": "2026-07-27"
+     }
+    ],
+    "streaks": {
+     "unbeaten": 2,
+     "winless": 5,
+     "winning": 0,
+     "losing": 0,
+     "scoring": 3,
+     "no_score": 0,
+     "clean_sheet": 0,
+     "conceding": 5
+    }
+   },
+   "kickoff_local": "2026-09-05T00:00:00-03:00",
+   "has_odds": false
+  },
+  {
+   "id": 4742073,
+   "s365_competition_id": 7,
+   "competition_name": "Premier League",
+   "start_time": "2026-09-05T11:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 116,
+    "name": "Newcastle United"
+   },
+   "away": {
+    "id": 50,
+    "name": "Bournemouth"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.81,
+    "lambda_away": 0.99,
+    "expected_goals": 2.8,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.5647,
+     "DRAW": 0.2298,
+     "AWAY": 0.2055,
+     "1X": 0.7945,
+     "X2": 0.4353,
+     "12": 0.7702,
+     "OVER25": 0.5307,
+     "UNDER25": 0.4693,
+     "BTTS_YES": 0.5264,
+     "BTTS_NO": 0.4736
+    }
+   },
+   "pick": {
+    "selection": "1X",
+    "family": "double_chance",
+    "label": "Dupla chance: Newcastle United ou empate (1X)",
+    "model_prob": 0.7945,
+    "trend_alignment": 0.381,
+    "confidence": 45,
+    "eligible": true,
+    "odd": null,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Newcastle United",
+     "model_prob": 0.5647,
+     "trend_alignment": 0.381,
+     "confidence": 35,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5307,
+     "trend_alignment": 0.0,
+     "confidence": 4,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5264,
+     "trend_alignment": 0.0,
+     "confidence": 3,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Newcastle United está 8 posições à frente na tabela",
+     "kind": "table_gap",
+     "strength": 0.571,
+     "favors": "HOME",
+     "team": "Newcastle United"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Newcastle United está 8 posições à frente na tabela",
+     "kind": "table_gap",
+     "strength": 0.571,
+     "favors": "HOME",
+     "team": "Newcastle United"
+    }
+   ],
+   "confidence": 45,
+   "league": {
+    "key": "epl",
+    "name": "Premier League",
+    "country": "Inglaterra"
+   },
+   "home_team": {
+    "id": 116,
+    "name": "Newcastle United",
+    "position": 6,
+    "played": 2,
+    "points": 4.0,
+    "record": "1V 1E 0D",
+    "last5": "WD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "Tottenham",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "Liverpool",
+      "date": "2026-08-23"
+     }
+    ],
+    "streaks": {
+     "unbeaten": 2,
+     "winless": 0,
+     "winning": 1,
+     "losing": 0,
+     "scoring": 2,
+     "no_score": 0,
+     "clean_sheet": 1,
+     "conceding": 0
+    }
+   },
+   "away_team": {
+    "id": 50,
+    "name": "Bournemouth",
+    "position": 14,
+    "played": 2,
+    "points": 1.0,
+    "record": "0V 1E 1D",
+    "last5": "DL",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Everton",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Manchester City",
+      "date": "2026-08-23"
+     }
+    ],
+    "streaks": {
+     "unbeaten": 1,
+     "winless": 2,
+     "winning": 0,
+     "losing": 0,
+     "scoring": 2,
+     "no_score": 0,
+     "clean_sheet": 0,
+     "conceding": 2
+    }
+   },
+   "kickoff_local": "2026-09-05T08:30:00-03:00",
+   "has_odds": false
+  }
+ ]
+}

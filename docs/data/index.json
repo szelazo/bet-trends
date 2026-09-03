@@ -1,0 +1,108 @@
+{
+ "dates": [
+  "2026-09-03",
+  "2026-09-04",
+  "2026-09-05"
+ ],
+ "generated_at": "2026-09-03T15:08:02.057215-03:00",
+ "odds_enabled": false,
+ "odds_credits_remaining": null,
+ "leagues": [
+  {
+   "name": "Brasileirão Série A",
+   "country": "Brasil"
+  },
+  {
+   "name": "Brasileirão Série B",
+   "country": "Brasil"
+  },
+  {
+   "name": "CONMEBOL Libertadores",
+   "country": "América do Sul"
+  },
+  {
+   "name": "CONMEBOL Sul-Americana",
+   "country": "América do Sul"
+  },
+  {
+   "name": "Liga Profesional",
+   "country": "Argentina"
+  },
+  {
+   "name": "Premier League",
+   "country": "Inglaterra"
+  },
+  {
+   "name": "Championship",
+   "country": "Inglaterra"
+  },
+  {
+   "name": "LaLiga",
+   "country": "Espanha"
+  },
+  {
+   "name": "LaLiga 2",
+   "country": "Espanha"
+  },
+  {
+   "name": "Serie A",
+   "country": "Itália"
+  },
+  {
+   "name": "Serie B",
+   "country": "Itália"
+  },
+  {
+   "name": "Bundesliga",
+   "country": "Alemanha"
+  },
+  {
+   "name": "Ligue 1",
+   "country": "França"
+  },
+  {
+   "name": "Liga Portugal",
+   "country": "Portugal"
+  },
+  {
+   "name": "Eredivisie",
+   "country": "Holanda"
+  },
+  {
+   "name": "Jupiler Pro League",
+   "country": "Bélgica"
+  },
+  {
+   "name": "Süper Lig",
+   "country": "Turquia"
+  },
+  {
+   "name": "Scottish Premiership",
+   "country": "Escócia"
+  },
+  {
+   "name": "Eliteserien",
+   "country": "Noruega"
+  },
+  {
+   "name": "MLS",
+   "country": "EUA/Canadá"
+  },
+  {
+   "name": "Liga MX",
+   "country": "México"
+  },
+  {
+   "name": "Saudi Pro League",
+   "country": "Arábia Saudita"
+  },
+  {
+   "name": "UEFA Champions League",
+   "country": "Europa"
+  },
+  {
+   "name": "UEFA Europa League",
+   "country": "Europa"
+  }
+ ]
+}

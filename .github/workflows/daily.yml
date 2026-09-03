@@ -1,0 +1,43 @@
+name: Gerar sugestões diárias
+
+on:
+  schedule:
+    - cron: "0 11 * * *"   # 11:00 UTC ≈ 08:00 BRT
+  workflow_dispatch:        # botão "Run workflow" na aba Actions
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-build
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Build
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: python -m app.build --days 3 --cache-dir /tmp/betcache
+
+      - name: Commit se houver mudança
+        run: |
+          git config user.name  "bet-trends-bot"
+          git config user.email "actions@github.com"
+          git add docs/data
+          if git diff --staged --quiet; then
+            echo "Nada mudou."
+          else
+            git commit -m "dados: $(date -u +%Y-%m-%d)"
+            git push
+          fi

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="theme-color" content="#0d1117" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9A%BD%3C/text%3E%3C/svg%3E" />
+  <title>Bet Trends</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo">⚽</span>
+      <div>
+        <h1>Bet Trends</h1>
+        <p id="subtitle">Escolha do dia · tendências claras</p>
+      </div>
+    </div>
+    <nav class="datenav">
+      <button id="prevDay" aria-label="Dia anterior">‹</button>
+      <select id="dateSelect" aria-label="Escolher data"></select>
+      <button id="nextDay" aria-label="Próximo dia">›</button>
+    </nav>
+  </header>
+
+  <div class="filters" id="filters">
+    <label class="chip">
+      <input type="checkbox" id="onlyValue" /> Só com valor
+    </label>
+    <label class="chip">
+      Confiança min
+      <select id="minConf">
+        <option value="0">todas</option>
+        <option value="50">50+</option>
+        <option value="60">60+</option>
+        <option value="70">70+</option>
+      </select>
+    </label>
+    <select id="leagueFilter" class="chip"><option value="">Todas as ligas</option></select>
+    <select id="marketFilter" class="chip">
+      <option value="">Todos os mercados</option>
+      <option value="1x2">Resultado (1X2)</option>
+      <option value="double_chance">Dupla chance</option>
+      <option value="over_under">Over/Under</option>
+      <option value="btts">Ambos marcam</option>
+    </select>
+  </div>
+
+  <main id="list" class="list"></main>
+
+  <p id="empty" class="empty" hidden>Nenhum jogo bate com os filtros deste dia.</p>
+
+  <footer class="foot">
+    <p id="meta"></p>
+    <p class="disclaimer">
+      Sugestões geradas por um modelo estatístico simples (Poisson + tendências recentes).
+      Sem garantia de acerto. Aposte com responsabilidade e só o que puder perder.
+    </p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
