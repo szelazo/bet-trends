@@ -1,8 +1,8 @@
 {
  "date": "2026-09-03",
- "generated_at": "2026-09-03T15:57:49.548033-03:00",
+ "generated_at": "2026-09-03T16:04:23.158663-03:00",
  "version": "0.1.0",
- "count": 4,
+ "count": 3,
  "games": [
   {
    "id": 4732010,
@@ -59,7 +59,7 @@
      "trend_alignment": 1.0,
      "confidence": 85,
      "eligible": true,
-     "odd": 1.05
+     "odd": 1.04
     },
     {
      "selection": "OVER25",
@@ -69,7 +69,7 @@
      "trend_alignment": 0.0,
      "confidence": 18,
      "eligible": true,
-     "odd": 1.88
+     "odd": 1.85
     },
     {
      "selection": "BTTS_NO",
@@ -89,7 +89,7 @@
      "trend_alignment": 0.26,
      "confidence": 9,
      "eligible": false,
-     "odd": 1.89
+     "odd": 1.95
     }
    ],
    "trends": [
@@ -328,28 +328,28 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 1.48,
-    "lambda_away": 0.71,
+    "lambda_home": 1.49,
+    "lambda_away": 0.72,
     "expected_goals": 2.2,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.5567,
-     "DRAW": 0.2637,
-     "AWAY": 0.1796,
-     "1X": 0.8204,
-     "X2": 0.4433,
-     "12": 0.7363,
-     "OVER25": 0.377,
-     "UNDER25": 0.623,
-     "BTTS_YES": 0.3949,
-     "BTTS_NO": 0.6051
+     "HOME": 0.5572,
+     "DRAW": 0.2632,
+     "AWAY": 0.1795,
+     "1X": 0.8205,
+     "X2": 0.4428,
+     "12": 0.7368,
+     "OVER25": 0.3783,
+     "UNDER25": 0.6217,
+     "BTTS_YES": 0.3958,
+     "BTTS_NO": 0.6042
     }
    },
    "pick": {
     "selection": "1X",
     "family": "double_chance",
     "label": "Dupla chance: Libertad ou empate (1X)",
-    "model_prob": 0.8204,
+    "model_prob": 0.8205,
     "trend_alignment": 0.573,
     "confidence": 56,
     "eligible": true,
@@ -361,7 +361,7 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Libertad",
-     "model_prob": 0.5567,
+     "model_prob": 0.5572,
      "trend_alignment": 0.573,
      "confidence": 41,
      "eligible": true,
@@ -371,7 +371,7 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.623,
+     "model_prob": 0.6217,
      "trend_alignment": 0.0,
      "confidence": 16,
      "eligible": true,
@@ -381,7 +381,7 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.6051,
+     "model_prob": 0.6042,
      "trend_alignment": 0.0,
      "confidence": 14,
      "eligible": true,
@@ -391,7 +391,7 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Emelec",
-     "model_prob": 0.1796,
+     "model_prob": 0.1795,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
@@ -820,294 +820,6 @@
     ]
    },
    "kickoff_local": "2026-09-03T22:00:00-03:00",
-   "has_odds": true,
-   "odds_bookmaker": "3 casas"
-  },
-  {
-   "id": 4665944,
-   "s365_competition_id": 5062,
-   "competition_name": "Liga Pro",
-   "start_time": "2026-09-03T19:00:00+00:00",
-   "status_group": 2,
-   "round": "Round",
-   "home": {
-    "id": 10197,
-    "name": "Universidad Catolica"
-   },
-   "away": {
-    "id": 14201,
-    "name": "SD Aucas"
-   },
-   "home_score": -1.0,
-   "away_score": -1.0,
-   "model": {
-    "lambda_home": 1.34,
-    "lambda_away": 1.02,
-    "expected_goals": 2.36,
-    "sample_factor": 1.0,
-    "probs": {
-     "HOME": 0.4388,
-     "DRAW": 0.2748,
-     "AWAY": 0.2864,
-     "1X": 0.7136,
-     "X2": 0.5612,
-     "12": 0.7252,
-     "OVER25": 0.4207,
-     "UNDER25": 0.5793,
-     "BTTS_YES": 0.473,
-     "BTTS_NO": 0.527
-    }
-   },
-   "pick": {
-    "selection": "1X",
-    "family": "double_chance",
-    "label": "Dupla chance: Universidad Catolica ou empate (1X)",
-    "model_prob": 0.7136,
-    "trend_alignment": 0.383,
-    "confidence": 35,
-    "eligible": true,
-    "odd": 1.23,
-    "low_conviction": false
-   },
-   "alt_markets": [
-    {
-     "selection": "HOME",
-     "family": "1x2",
-     "label": "Vitória do Universidad Catolica",
-     "model_prob": 0.4388,
-     "trend_alignment": 0.383,
-     "confidence": 23,
-     "eligible": false,
-     "odd": 1.85
-    },
-    {
-     "selection": "UNDER25",
-     "family": "over_under",
-     "label": "Menos de 2.5 gols",
-     "model_prob": 0.5793,
-     "trend_alignment": 0.031,
-     "confidence": 11,
-     "eligible": false,
-     "odd": 1.72
-    },
-    {
-     "selection": "BTTS_NO",
-     "family": "btts",
-     "label": "Ambos marcam: não",
-     "model_prob": 0.527,
-     "trend_alignment": 0.031,
-     "confidence": 5,
-     "eligible": false,
-     "odd": null
-    },
-    {
-     "selection": "X2",
-     "family": "double_chance",
-     "label": "Dupla chance: SD Aucas ou empate (X2)",
-     "model_prob": 0.5612,
-     "trend_alignment": 0.0,
-     "confidence": 2,
-     "eligible": false,
-     "odd": 1.93
-    }
-   ],
-   "trends": [
-    {
-     "label": "Venceu 4 dos últimos 5",
-     "strength": 0.65,
-     "favors": "AWAY",
-     "team": "SD Aucas",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "Não sofreu gol em 4 dos últimos 5",
-     "strength": 0.47,
-     "favors": "UNDER",
-     "team": "SD Aucas",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "clean_sheets"
-    },
-    {
-     "label": "Invicto em 4 dos últimos 5",
-     "strength": 0.48,
-     "favors": "HOME",
-     "team": "Universidad Catolica",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "unbeaten"
-    },
-    {
-     "label": "Mais de 2.5 gols em 4 dos últimos 5",
-     "strength": 0.47,
-     "favors": "OVER",
-     "team": "Universidad Catolica",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "over"
-    },
-    {
-     "label": "3ª melhor defesa da liga (0.9 sofridos/jogo)",
-     "strength": 0.36,
-     "favors": "HOME",
-     "team": "Universidad Catolica",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "def_rank"
-    },
-    {
-     "label": "2º melhor ataque da liga (1.7 marcados/jogo)",
-     "strength": 0.32,
-     "favors": "HOME",
-     "team": "Universidad Catolica",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "atk_rank"
-    },
-    {
-     "label": "Universidad Catolica é 4º · SD Aucas é 3º",
-     "strength": 0.0,
-     "favors": null,
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "positions"
-    }
-   ],
-   "aligned_trends": [
-    {
-     "label": "Invicto em 4 dos últimos 5",
-     "strength": 0.48,
-     "favors": "HOME",
-     "team": "Universidad Catolica",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "unbeaten"
-    },
-    {
-     "label": "3ª melhor defesa da liga (0.9 sofridos/jogo)",
-     "strength": 0.36,
-     "favors": "HOME",
-     "team": "Universidad Catolica",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "def_rank"
-    },
-    {
-     "label": "2º melhor ataque da liga (1.7 marcados/jogo)",
-     "strength": 0.32,
-     "favors": "HOME",
-     "team": "Universidad Catolica",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "atk_rank"
-    }
-   ],
-   "confidence": 35,
-   "league": {
-    "key": "ec_ligapro",
-    "name": "Liga Pro",
-    "country": "Equador"
-   },
-   "home_team": {
-    "id": 10197,
-    "name": "Universidad Catolica",
-    "position": 4,
-    "played": 27,
-    "points": 44.0,
-    "record": "12V 8E 7D",
-    "goals_for": 47,
-    "goals_against": 25,
-    "last5": "DWDLW",
-    "recent": [
-     {
-      "result": "D",
-      "score": "2-2",
-      "home": false,
-      "opponent": "Independiente del Valle",
-      "date": "2026-08-29"
-     },
-     {
-      "result": "W",
-      "score": "5-1",
-      "home": true,
-      "opponent": "Manta",
-      "date": "2026-08-22"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": false,
-      "opponent": "Macará",
-      "date": "2026-08-18"
-     },
-     {
-      "result": "L",
-      "score": "1-2",
-      "home": false,
-      "opponent": "Libertad",
-      "date": "2026-08-10"
-     },
-     {
-      "result": "W",
-      "score": "5-0",
-      "home": true,
-      "opponent": "Tecnico Universitario",
-      "date": "2026-08-01"
-     }
-    ]
-   },
-   "away_team": {
-    "id": 14201,
-    "name": "SD Aucas",
-    "position": 3,
-    "played": 27,
-    "points": 47.0,
-    "record": "14V 5E 8D",
-    "goals_for": 31,
-    "goals_against": 26,
-    "last5": "WWLWW",
-    "recent": [
-     {
-      "result": "W",
-      "score": "1-0",
-      "home": true,
-      "opponent": "Libertad",
-      "date": "2026-08-30"
-     },
-     {
-      "result": "W",
-      "score": "1-0",
-      "home": false,
-      "opponent": "Delfin",
-      "date": "2026-08-23"
-     },
-     {
-      "result": "L",
-      "score": "0-1",
-      "home": true,
-      "opponent": "LDU",
-      "date": "2026-08-17"
-     },
-     {
-      "result": "W",
-      "score": "3-0",
-      "home": true,
-      "opponent": "Leones FC",
-      "date": "2026-08-08"
-     },
-     {
-      "result": "W",
-      "score": "2-0",
-      "home": false,
-      "opponent": "Emelec",
-      "date": "2026-08-02"
-     }
-    ]
-   },
-   "kickoff_local": "2026-09-03T16:00:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "3 casas"
   }

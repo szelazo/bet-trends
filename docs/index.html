@@ -4,61 +4,61 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="robots" content="noindex, nofollow" />
-  <meta name="theme-color" content="#0c1512" media="(prefers-color-scheme: dark)" />
-  <meta name="theme-color" content="#f4f2ec" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#0a0e13" media="(prefers-color-scheme: dark)" />
+  <meta name="theme-color" content="#eef1f4" media="(prefers-color-scheme: light)" />
   <link rel="manifest" href="manifest.webmanifest" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9A%BD%3C/text%3E%3C/svg%3E" />
   <title>Bet Trends</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Barlow+Condensed:wght@500;600;700&display=swap" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div class="ambient" aria-hidden="true"></div>
+
   <header class="topbar">
-    <div class="brand">
-      <span class="logo">⚽</span>
-      <div>
-        <h1>Bet Trends</h1>
-        <p id="subtitle">Escolha do dia · tendências claras</p>
+    <div class="bar">
+      <div class="brand">
+        <span class="logo">⚽</span>
+        <span class="wordmark">Bet Trends</span>
       </div>
+      <span id="meta" class="meta"></span>
     </div>
-    <nav class="datenav">
-      <button id="prevDay" aria-label="Dia anterior">‹</button>
-      <select id="dateSelect" aria-label="Escolher data"></select>
-      <button id="nextDay" aria-label="Próximo dia">›</button>
-    </nav>
+    <h1 id="dayHeading" class="day-heading">—</h1>
+    <div id="dateStrip" class="date-strip" role="tablist" aria-label="Escolher data"></div>
   </header>
 
-  <div class="filters" id="filters">
-    <label class="chip">
-      Confiança
-      <select id="minConf">
-        <option value="0">todas</option>
-        <option value="50">50+</option>
-        <option value="60">60+</option>
-        <option value="70">70+</option>
-      </select>
-    </label>
-    <select id="leagueFilter" class="chip"><option value="">Todas as ligas</option></select>
-    <select id="marketFilter" class="chip">
-      <option value="">Todos os mercados</option>
-      <option value="1x2">Resultado (1X2)</option>
-      <option value="double_chance">Dupla chance</option>
-      <option value="over_under">Over/Under</option>
-      <option value="btts">Ambos marcam</option>
-    </select>
+  <div class="filters">
+    <div class="segmented" id="minConf" role="group" aria-label="Confiança mínima">
+      <button data-v="0" class="on">Todas</button>
+      <button data-v="50">50+</button>
+      <button data-v="60">60+</button>
+      <button data-v="70">70+</button>
+    </div>
+    <div class="selects">
+      <label class="sel">
+        <select id="leagueFilter" aria-label="Filtrar por liga"><option value="">Todas as ligas</option></select>
+      </label>
+      <label class="sel">
+        <select id="marketFilter" aria-label="Filtrar por mercado">
+          <option value="">Todos os mercados</option>
+          <option value="1x2">Resultado (1X2)</option>
+          <option value="double_chance">Dupla chance</option>
+          <option value="over_under">Over / Under</option>
+          <option value="btts">Ambos marcam</option>
+        </select>
+      </label>
+    </div>
   </div>
 
   <main id="list" class="list"></main>
-
   <p id="empty" class="empty" hidden>Nenhum jogo bate com os filtros deste dia.</p>
 
   <footer class="foot">
-    <p id="meta"></p>
     <p class="disclaimer">
-      Sugestões geradas por um modelo estatístico simples (Poisson + tendências recentes).
-      Sem garantia de acerto. Aposte com responsabilidade e só o que puder perder.
+      Sugestões de um modelo estatístico (Poisson + tendências recentes) — sem garantia de acerto.
+      Não é recomendação financeira. Aposte com responsabilidade e só o que puder perder.
     </p>
   </footer>
 

@@ -1,6 +1,6 @@
 {
  "date": "2026-09-04",
- "generated_at": "2026-09-03T15:57:49.548710-03:00",
+ "generated_at": "2026-09-03T16:04:23.159806-03:00",
  "version": "0.1.0",
  "count": 21,
  "games": [
@@ -47,7 +47,7 @@
     "trend_alignment": 1.0,
     "confidence": 83,
     "eligible": true,
-    "odd": 1.17,
+    "odd": 1.18,
     "low_conviction": false
    },
    "alt_markets": [
@@ -89,7 +89,7 @@
      "trend_alignment": 0.367,
      "confidence": 13,
      "eligible": false,
-     "odd": 2.15
+     "odd": 2.16
     }
    ],
    "trends": [
@@ -602,7 +602,7 @@
     "trend_alignment": 1.0,
     "confidence": 73,
     "eligible": true,
-    "odd": 1.67,
+    "odd": 1.62,
     "low_conviction": false
    },
    "alt_markets": [
@@ -624,7 +624,7 @@
      "trend_alignment": 0.313,
      "confidence": 11,
      "eligible": false,
-     "odd": 1.76
+     "odd": 1.73
     },
     {
      "selection": "BTTS_NO",
@@ -644,7 +644,7 @@
      "trend_alignment": 0.0,
      "confidence": 5,
      "eligible": false,
-     "odd": 2.06
+     "odd": 2.03
     }
    ],
    "trends": [
@@ -1306,7 +1306,7 @@
     "trend_alignment": 1.0,
     "confidence": 61,
     "eligible": true,
-    "odd": 1.52,
+    "odd": 1.54,
     "low_conviction": false
    },
    "alt_markets": [
@@ -1318,7 +1318,7 @@
      "trend_alignment": 1.0,
      "confidence": 54,
      "eligible": true,
-     "odd": 2.55
+     "odd": 2.54
     },
     {
      "selection": "OVER25",
@@ -1328,7 +1328,7 @@
      "trend_alignment": 0.647,
      "confidence": 33,
      "eligible": false,
-     "odd": 1.77
+     "odd": 1.8
     },
     {
      "selection": "BTTS_YES",
@@ -1348,7 +1348,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 2.53
+     "odd": 2.45
     }
    ],
    "trends": [
@@ -2124,7 +2124,7 @@
      "trend_alignment": 1.0,
      "confidence": 42,
      "eligible": false,
-     "odd": 2.73
+     "odd": 2.78
     },
     {
      "selection": "UNDER25",
@@ -2154,7 +2154,7 @@
      "trend_alignment": 0.0,
      "confidence": 6,
      "eligible": false,
-     "odd": 1.46
+     "odd": 1.45
     }
    ],
    "trends": [
@@ -2384,28 +2384,28 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 0.93,
-    "lambda_away": 1.12,
+    "lambda_home": 0.94,
+    "lambda_away": 1.13,
     "expected_goals": 2.06,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.2999,
-     "DRAW": 0.3014,
-     "AWAY": 0.3987,
-     "1X": 0.6013,
-     "X2": 0.7001,
-     "12": 0.6986,
-     "OVER25": 0.3389,
-     "UNDER25": 0.6611,
-     "BTTS_YES": 0.4096,
-     "BTTS_NO": 0.5904
+     "HOME": 0.3,
+     "DRAW": 0.301,
+     "AWAY": 0.399,
+     "1X": 0.601,
+     "X2": 0.7,
+     "12": 0.699,
+     "OVER25": 0.3401,
+     "UNDER25": 0.6599,
+     "BTTS_YES": 0.4106,
+     "BTTS_NO": 0.5894
     }
    },
    "pick": {
     "selection": "X2",
     "family": "double_chance",
     "label": "Dupla chance: LDU ou empate (X2)",
-    "model_prob": 0.7001,
+    "model_prob": 0.7,
     "trend_alignment": 1.0,
     "confidence": 53,
     "eligible": true,
@@ -2417,7 +2417,7 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do LDU",
-     "model_prob": 0.3987,
+     "model_prob": 0.399,
      "trend_alignment": 1.0,
      "confidence": 41,
      "eligible": false,
@@ -2427,7 +2427,7 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.6611,
+     "model_prob": 0.6599,
      "trend_alignment": 0.087,
      "confidence": 24,
      "eligible": true,
@@ -2437,7 +2437,7 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.5904,
+     "model_prob": 0.5894,
      "trend_alignment": 0.087,
      "confidence": 15,
      "eligible": false,
@@ -2447,7 +2447,7 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Tecnico Universitario ou empate (1X)",
-     "model_prob": 0.6013,
+     "model_prob": 0.601,
      "trend_alignment": 0.0,
      "confidence": 7,
      "eligible": false,
@@ -2955,28 +2955,28 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 1.14,
-    "lambda_away": 1.97,
-    "expected_goals": 3.11,
+    "lambda_home": 1.13,
+    "lambda_away": 1.95,
+    "expected_goals": 3.08,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.217,
-     "DRAW": 0.2175,
-     "AWAY": 0.5655,
-     "1X": 0.4345,
-     "X2": 0.783,
-     "12": 0.7825,
-     "OVER25": 0.6004,
-     "UNDER25": 0.3996,
-     "BTTS_YES": 0.5851,
-     "BTTS_NO": 0.4149
+     "HOME": 0.2171,
+     "DRAW": 0.2189,
+     "AWAY": 0.564,
+     "1X": 0.436,
+     "X2": 0.7829,
+     "12": 0.7811,
+     "OVER25": 0.5939,
+     "UNDER25": 0.4061,
+     "BTTS_YES": 0.5803,
+     "BTTS_NO": 0.4197
     }
    },
    "pick": {
     "selection": "AWAY",
     "family": "1x2",
     "label": "Vitória do Real Madrid",
-    "model_prob": 0.5655,
+    "model_prob": 0.564,
     "trend_alignment": 0.571,
     "confidence": 50,
     "eligible": true,
@@ -2988,7 +2988,7 @@
      "selection": "X2",
      "family": "double_chance",
      "label": "Dupla chance: Real Madrid ou empate (X2)",
-     "model_prob": 0.783,
+     "model_prob": 0.7829,
      "trend_alignment": 0.571,
      "confidence": 50,
      "eligible": true,
@@ -2998,19 +2998,19 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6004,
+     "model_prob": 0.5939,
      "trend_alignment": 0.0,
-     "confidence": 13,
-     "eligible": true,
+     "confidence": 12,
+     "eligible": false,
      "odd": 1.9
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5851,
+     "model_prob": 0.5803,
      "trend_alignment": 0.0,
-     "confidence": 11,
+     "confidence": 10,
      "eligible": false,
      "odd": null
     },
@@ -3018,7 +3018,7 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Real Betis",
-     "model_prob": 0.217,
+     "model_prob": 0.2171,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
@@ -3195,7 +3195,7 @@
     "trend_alignment": 0.949,
     "confidence": 49,
     "eligible": true,
-    "odd": 1.39,
+    "odd": 1.4,
     "low_conviction": false
    },
    "alt_markets": [
@@ -3207,7 +3207,7 @@
      "trend_alignment": 0.949,
      "confidence": 41,
      "eligible": false,
-     "odd": 2.3
+     "odd": 2.35
     },
     {
      "selection": "BTTS_YES",
@@ -3237,7 +3237,7 @@
      "trend_alignment": 0.03,
      "confidence": 3,
      "eligible": false,
-     "odd": 1.68
+     "odd": 1.72
     }
    ],
    "trends": [
@@ -3472,7 +3472,7 @@
      "trend_alignment": 0.381,
      "confidence": 32,
      "eligible": true,
-     "odd": 1.81
+     "odd": 1.79
     },
     {
      "selection": "UNDER25",
@@ -3482,7 +3482,7 @@
      "trend_alignment": 0.0,
      "confidence": 15,
      "eligible": true,
-     "odd": 1.61
+     "odd": 1.62
     },
     {
      "selection": "BTTS_NO",
@@ -3502,7 +3502,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 5.1
+     "odd": 4.98
     }
    ],
    "trends": [
@@ -3643,7 +3643,7 @@
     "trend_alignment": 0.902,
     "confidence": 44,
     "eligible": true,
-    "odd": 1.43,
+    "odd": 1.42,
     "low_conviction": false
    },
    "alt_markets": [
@@ -3655,7 +3655,7 @@
      "trend_alignment": 0.902,
      "confidence": 35,
      "eligible": false,
-     "odd": 2.39
+     "odd": 2.45
     },
     {
      "selection": "UNDER25",
@@ -3665,7 +3665,7 @@
      "trend_alignment": 0.03,
      "confidence": 12,
      "eligible": false,
-     "odd": 1.7
+     "odd": 1.75
     },
     {
      "selection": "1X",
@@ -3675,7 +3675,7 @@
      "trend_alignment": 0.0,
      "confidence": 10,
      "eligible": true,
-     "odd": 1.53
+     "odd": 1.54
     },
     {
      "selection": "BTTS_NO",
@@ -5101,7 +5101,7 @@
     "trend_alignment": 0.115,
     "confidence": 34,
     "eligible": true,
-    "odd": 1.29,
+    "odd": 1.28,
     "low_conviction": false
    },
    "alt_markets": [
@@ -5113,7 +5113,7 @@
      "trend_alignment": 0.115,
      "confidence": 25,
      "eligible": true,
-     "odd": 1.92
+     "odd": 1.91
     },
     {
      "selection": "OVER25",
@@ -5123,7 +5123,7 @@
      "trend_alignment": 0.3,
      "confidence": 22,
      "eligible": false,
-     "odd": 2.2
+     "odd": 2.1
     },
     {
      "selection": "BTTS_YES",
@@ -5143,7 +5143,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 3.7
+     "odd": 3.75
     }
    ],
    "trends": [
