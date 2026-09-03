@@ -4,16 +4,12 @@
   "2026-09-04",
   "2026-09-05"
  ],
- "generated_at": "2026-09-03T15:11:23.080518-03:00",
+ "generated_at": "2026-09-03T15:16:30.998222-03:00",
  "odds_enabled": false,
  "odds_credits_remaining": null,
  "leagues": [
   {
    "name": "Brasileirão Série A",
-   "country": "Brasil"
-  },
-  {
-   "name": "Brasileirão Série B",
    "country": "Brasil"
   },
   {
@@ -27,6 +23,10 @@
   {
    "name": "Liga Profesional",
    "country": "Argentina"
+  },
+  {
+   "name": "Liga BetPlay",
+   "country": "Colômbia"
   },
   {
    "name": "Premier League",
@@ -74,6 +74,10 @@
   },
   {
    "name": "Süper Lig",
+   "country": "Turquia"
+  },
+  {
+   "name": "1. Lig",
    "country": "Turquia"
   },
   {

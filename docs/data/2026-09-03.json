@@ -1,10 +1,255 @@
 {
  "date": "2026-09-03",
- "generated_at": "2026-09-03T15:11:23.070723-03:00",
+ "generated_at": "2026-09-03T15:16:30.990429-03:00",
  "version": "0.1.0",
  "bankroll": null,
- "count": 3,
+ "count": 5,
  "games": [
+  {
+   "id": 4732010,
+   "s365_competition_id": 620,
+   "competition_name": "Liga BetPlay - Clausura",
+   "start_time": "2026-09-03T21:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 8645,
+    "name": "America de Cali"
+   },
+   "away": {
+    "id": 10209,
+    "name": "Alianza FC"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.68,
+    "lambda_away": 0.62,
+    "expected_goals": 3.3,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.8071,
+     "DRAW": 0.1297,
+     "AWAY": 0.0632,
+     "1X": 0.9368,
+     "X2": 0.1929,
+     "12": 0.8703,
+     "OVER25": 0.6397,
+     "UNDER25": 0.3603,
+     "BTTS_YES": 0.4319,
+     "BTTS_NO": 0.5681
+    }
+   },
+   "pick": {
+    "selection": "1X",
+    "family": "double_chance",
+    "label": "Dupla chance: America de Cali ou empate (1X)",
+    "model_prob": 0.9368,
+    "trend_alignment": 1.0,
+    "confidence": 84,
+    "eligible": true,
+    "odd": null,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do America de Cali",
+     "model_prob": 0.8071,
+     "trend_alignment": 1.0,
+     "confidence": 81,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6397,
+     "trend_alignment": 0.0,
+     "confidence": 18,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5681,
+     "trend_alignment": 0.0,
+     "confidence": 9,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "America de Cali está 17 posições à frente na tabela",
+     "kind": "table_gap",
+     "strength": 0.9,
+     "favors": "HOME",
+     "team": "America de Cali"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "kind": "unbeaten",
+     "strength": 0.6,
+     "favors": "HOME",
+     "team": "America de Cali"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "kind": "winless",
+     "strength": 0.4,
+     "favors": "HOME",
+     "team": "Alianza FC"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "America de Cali está 17 posições à frente na tabela",
+     "kind": "table_gap",
+     "strength": 0.9,
+     "favors": "HOME",
+     "team": "America de Cali"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "kind": "unbeaten",
+     "strength": 0.6,
+     "favors": "HOME",
+     "team": "America de Cali"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "kind": "winless",
+     "strength": 0.4,
+     "favors": "HOME",
+     "team": "Alianza FC"
+    }
+   ],
+   "confidence": 84,
+   "league": {
+    "key": "co_primera",
+    "name": "Liga BetPlay",
+    "country": "Colômbia"
+   },
+   "home_team": {
+    "id": 8645,
+    "name": "America de Cali",
+    "position": 1,
+    "played": 7,
+    "points": 17.0,
+    "record": "5V 2E 0D",
+    "last5": "DWDWW",
+    "recent": [
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "Jaguares de Córdoba",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "W",
+      "score": "4-2",
+      "home": true,
+      "opponent": "Junior FC",
+      "date": "2026-08-26"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Independiente Santa Fe",
+      "date": "2026-08-22"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Atletico Nacional",
+      "date": "2026-08-10"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Once Caldas",
+      "date": "2026-08-06"
+     }
+    ],
+    "streaks": {
+     "unbeaten": 5,
+     "winless": 1,
+     "winning": 0,
+     "losing": 0,
+     "scoring": 2,
+     "no_score": 0,
+     "clean_sheet": 0,
+     "conceding": 2
+    }
+   },
+   "away_team": {
+    "id": 10209,
+    "name": "Alianza FC",
+    "position": 18,
+    "played": 6,
+    "points": 2.0,
+    "record": "0V 2E 4D",
+    "last5": "LLDLL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-5",
+      "home": true,
+      "opponent": "Atletico Nacional",
+      "date": "2026-08-30"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Cucuta Deportivo",
+      "date": "2026-08-26"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Deportivo Pereira",
+      "date": "2026-08-22"
+     },
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": true,
+      "opponent": "Atlético Bucaramanga",
+      "date": "2026-08-09"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Deportes Tolima",
+      "date": "2026-08-01"
+     }
+    ],
+    "streaks": {
+     "unbeaten": 0,
+     "winless": 5,
+     "winning": 0,
+     "losing": 2,
+     "scoring": 1,
+     "no_score": 0,
+     "clean_sheet": 0,
+     "conceding": 2
+    }
+   },
+   "kickoff_local": "2026-09-03T18:00:00-03:00",
+   "has_odds": false
+  },
   {
    "id": 4740767,
    "s365_competition_id": 98,
@@ -412,47 +657,47 @@
    "has_odds": false
   },
   {
-   "id": 4669871,
-   "s365_competition_id": 116,
-   "competition_name": "Brasileirão - Série B",
-   "start_time": "2026-09-03T23:00:00+00:00",
+   "id": 4740765,
+   "s365_competition_id": 98,
+   "competition_name": "Jupiler Pro League",
+   "start_time": "2026-09-03T18:30:00+00:00",
    "status_group": 2,
    "round": "Round",
    "home": {
-    "id": 1221,
-    "name": "Náutico"
+    "id": 1173,
+    "name": "Anderlecht"
    },
    "away": {
-    "id": 1773,
-    "name": "Botafogo-SP"
+    "id": 1187,
+    "name": "KV Kortrijk"
    },
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 1.43,
-    "lambda_away": 0.87,
-    "expected_goals": 2.3,
-    "sample_factor": 1.0,
+    "lambda_home": 1.86,
+    "lambda_away": 0.97,
+    "expected_goals": 2.82,
+    "sample_factor": 0.6,
     "probs": {
-     "HOME": 0.5014,
-     "DRAW": 0.2695,
-     "AWAY": 0.2291,
-     "1X": 0.7709,
-     "X2": 0.4986,
-     "12": 0.7305,
-     "OVER25": 0.4045,
-     "UNDER25": 0.5955,
-     "BTTS_YES": 0.4425,
-     "BTTS_NO": 0.5575
+     "HOME": 0.5826,
+     "DRAW": 0.2245,
+     "AWAY": 0.1928,
+     "1X": 0.8072,
+     "X2": 0.4174,
+     "12": 0.7755,
+     "OVER25": 0.5361,
+     "UNDER25": 0.4639,
+     "BTTS_YES": 0.5229,
+     "BTTS_NO": 0.4771
     }
    },
    "pick": {
     "selection": "1X",
     "family": "double_chance",
-    "label": "Dupla chance: Náutico ou empate (1X)",
-    "model_prob": 0.7709,
-    "trend_alignment": 0.4,
-    "confidence": 42,
+    "label": "Dupla chance: Anderlecht ou empate (1X)",
+    "model_prob": 0.8072,
+    "trend_alignment": 0.667,
+    "confidence": 33,
     "eligible": true,
     "odd": null,
     "low_conviction": false
@@ -461,20 +706,10 @@
     {
      "selection": "HOME",
      "family": "1x2",
-     "label": "Vitória do Náutico",
-     "model_prob": 0.5014,
-     "trend_alignment": 0.4,
-     "confidence": 30,
-     "eligible": true,
-     "odd": null
-    },
-    {
-     "selection": "UNDER25",
-     "family": "over_under",
-     "label": "Menos de 2.5 gols",
-     "model_prob": 0.5955,
-     "trend_alignment": 0.0,
-     "confidence": 12,
+     "label": "Vitória do Anderlecht",
+     "model_prob": 0.5826,
+     "trend_alignment": 0.667,
+     "confidence": 28,
      "eligible": true,
      "odd": null
     },
@@ -482,171 +717,377 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.4045,
-     "trend_alignment": 0.311,
-     "confidence": 11,
+     "model_prob": 0.5361,
+     "trend_alignment": 0.0,
+     "confidence": 3,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5229,
+     "trend_alignment": 0.0,
+     "confidence": 2,
      "eligible": false,
      "odd": null
     }
    ],
    "trends": [
     {
-     "label": "Under 2.5 em 4 dos últimos 5",
-     "kind": "under",
-     "strength": 0.667,
-     "favors": "UNDER",
-     "team": "Náutico"
-    },
-    {
-     "label": "Ambos marcam em 4 dos últimos 5",
-     "kind": "btts",
-     "strength": 0.667,
-     "favors": "BTTS_YES",
-     "team": "Náutico"
-    },
-    {
-     "label": "Invicto há 5+ jogos",
-     "kind": "unbeaten",
-     "strength": 0.6,
+     "label": "3 derrotas seguidas",
+     "kind": "losing",
+     "strength": 0.5,
      "favors": "HOME",
-     "team": "Náutico"
+     "team": "KV Kortrijk"
     },
     {
-     "label": "Marcou nos últimos 5",
-     "kind": "scoring",
-     "strength": 0.4,
-     "favors": "OVER",
-     "team": "Náutico"
+     "label": "Anderlecht está 7 posições à frente na tabela",
+     "kind": "table_gap",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Anderlecht"
     }
    ],
    "aligned_trends": [
     {
-     "label": "Invicto há 5+ jogos",
-     "kind": "unbeaten",
-     "strength": 0.6,
+     "label": "3 derrotas seguidas",
+     "kind": "losing",
+     "strength": 0.5,
      "favors": "HOME",
-     "team": "Náutico"
+     "team": "KV Kortrijk"
+    },
+    {
+     "label": "Anderlecht está 7 posições à frente na tabela",
+     "kind": "table_gap",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Anderlecht"
     }
    ],
-   "confidence": 42,
+   "confidence": 33,
    "league": {
-    "key": "br_serie_b",
-    "name": "Brasileirão Série B",
-    "country": "Brasil"
+    "key": "belgium",
+    "name": "Jupiler Pro League",
+    "country": "Bélgica"
    },
    "home_team": {
-    "id": 1221,
-    "name": "Náutico",
-    "position": 12,
-    "played": 25,
-    "points": 34.0,
-    "record": "9V 7E 9D",
-    "last5": "WDWDD",
+    "id": 1173,
+    "name": "Anderlecht",
+    "position": 11,
+    "played": 3,
+    "points": 3.0,
+    "record": "1V 0E 2D",
+    "last5": "LLW",
     "recent": [
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": false,
+      "opponent": "Union St. Gilloise",
+      "date": "2026-08-30"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "SK Beveren",
+      "date": "2026-08-16"
+     },
      {
       "result": "W",
       "score": "2-1",
       "home": true,
-      "opponent": "Athletic Club",
-      "date": "2026-08-28"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": false,
-      "opponent": "São Bernardo",
-      "date": "2026-08-23"
-     },
-     {
-      "result": "W",
-      "score": "1-0",
-      "home": true,
-      "opponent": "Ceara",
-      "date": "2026-08-19"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": false,
-      "opponent": "Ponte Preta",
-      "date": "2026-08-14"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": true,
-      "opponent": "Atlético Goianiense",
+      "opponent": "La Louvière Centre",
       "date": "2026-08-09"
      }
     ],
     "streaks": {
-     "unbeaten": 5,
-     "winless": 0,
-     "winning": 1,
-     "losing": 0,
-     "scoring": 5,
-     "no_score": 0,
+     "unbeaten": 0,
+     "winless": 2,
+     "winning": 0,
+     "losing": 2,
+     "scoring": 0,
+     "no_score": 2,
      "clean_sheet": 0,
-     "conceding": 2
+     "conceding": 3
     }
    },
    "away_team": {
-    "id": 1773,
-    "name": "Botafogo-SP",
-    "position": 15,
-    "played": 25,
-    "points": 31.0,
-    "record": "8V 7E 10D",
-    "last5": "LLDWW",
+    "id": 1187,
+    "name": "KV Kortrijk",
+    "position": 18,
+    "played": 3,
+    "points": 0,
+    "record": "0V 0E 3D",
+    "last5": "LLL",
     "recent": [
      {
       "result": "L",
-      "score": "1-2",
+      "score": "1-3",
       "home": true,
-      "opponent": "Cuiabá",
+      "opponent": "Charleroi",
       "date": "2026-08-29"
      },
      {
       "result": "L",
       "score": "0-3",
-      "home": false,
-      "opponent": "Atlético Goianiense",
-      "date": "2026-08-25"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
       "home": true,
-      "opponent": "Criciúma",
-      "date": "2026-08-20"
+      "opponent": "Royal Antwerp FC",
+      "date": "2026-08-15"
      },
      {
-      "result": "W",
-      "score": "1-0",
+      "result": "L",
+      "score": "0-3",
       "home": false,
-      "opponent": "São Bernardo",
-      "date": "2026-08-14"
-     },
-     {
-      "result": "W",
-      "score": "2-1",
-      "home": true,
-      "opponent": "América Mineiro",
-      "date": "2026-08-08"
+      "opponent": "Club Brugge",
+      "date": "2026-08-07"
      }
     ],
     "streaks": {
      "unbeaten": 0,
      "winless": 3,
      "winning": 0,
-     "losing": 2,
+     "losing": 3,
      "scoring": 1,
      "no_score": 0,
      "clean_sheet": 0,
      "conceding": 3
     }
    },
-   "kickoff_local": "2026-09-03T20:00:00-03:00",
+   "kickoff_local": "2026-09-03T15:30:00-03:00",
+   "has_odds": false
+  },
+  {
+   "id": 4732027,
+   "s365_competition_id": 620,
+   "competition_name": "Liga BetPlay - Clausura",
+   "start_time": "2026-09-04T01:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 8638,
+    "name": "Deportivo Pereira"
+   },
+   "away": {
+    "id": 8643,
+    "name": "Independiente Medellin"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 0.96,
+    "lambda_away": 0.96,
+    "expected_goals": 1.92,
+    "sample_factor": 0.8,
+    "probs": {
+     "HOME": 0.3426,
+     "DRAW": 0.3162,
+     "AWAY": 0.3413,
+     "1X": 0.6587,
+     "X2": 0.6574,
+     "12": 0.6838,
+     "OVER25": 0.3019,
+     "UNDER25": 0.6981,
+     "BTTS_YES": 0.381,
+     "BTTS_NO": 0.619
+    }
+   },
+   "pick": {
+    "selection": "UNDER25",
+    "family": "over_under",
+    "label": "Menos de 2.5 gols",
+    "model_prob": 0.6981,
+    "trend_alignment": 0.445,
+    "confidence": 33,
+    "eligible": true,
+    "odd": null,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.619,
+     "trend_alignment": 0.445,
+     "confidence": 25,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "X2",
+     "family": "double_chance",
+     "label": "Dupla chance: Independiente Medellin ou empate (X2)",
+     "model_prob": 0.6574,
+     "trend_alignment": 0.404,
+     "confidence": 22,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Deportivo Pereira ou empate (1X)",
+     "model_prob": 0.6587,
+     "trend_alignment": 0.0,
+     "confidence": 12,
+     "eligible": true,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Independiente Medellin está 11 posições à frente na tabela",
+     "kind": "table_gap",
+     "strength": 0.786,
+     "favors": "AWAY",
+     "team": "Independiente Medellin"
+    },
+    {
+     "label": "Under 2.5 em 4 dos últimos 5",
+     "kind": "under",
+     "strength": 0.667,
+     "favors": "UNDER",
+     "team": "Deportivo Pereira"
+    },
+    {
+     "label": "Invicto há 3 jogos",
+     "kind": "unbeaten",
+     "strength": 0.2,
+     "favors": "HOME",
+     "team": "Deportivo Pereira"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Under 2.5 em 4 dos últimos 5",
+     "kind": "under",
+     "strength": 0.667,
+     "favors": "UNDER",
+     "team": "Deportivo Pereira"
+    }
+   ],
+   "confidence": 33,
+   "league": {
+    "key": "co_primera",
+    "name": "Liga BetPlay",
+    "country": "Colômbia"
+   },
+   "home_team": {
+    "id": 8638,
+    "name": "Deportivo Pereira",
+    "position": 15,
+    "played": 4,
+    "points": 5.0,
+    "record": "1V 2E 1D",
+    "last5": "WDDLL",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Deportivo Pasto",
+      "date": "2026-08-31"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Alianza FC",
+      "date": "2026-08-22"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Fortaleza FC",
+      "date": "2026-08-01"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Llaneros FC",
+      "date": "2026-07-24"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "America de Cali",
+      "date": "2026-05-03"
+     }
+    ],
+    "streaks": {
+     "unbeaten": 3,
+     "winless": 0,
+     "winning": 1,
+     "losing": 0,
+     "scoring": 1,
+     "no_score": 0,
+     "clean_sheet": 0,
+     "conceding": 1
+    }
+   },
+   "away_team": {
+    "id": 8643,
+    "name": "Independiente Medellin",
+    "position": 4,
+    "played": 5,
+    "points": 12.0,
+    "record": "4V 0E 1D",
+    "last5": "WLWWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Llaneros FC",
+      "date": "2026-08-30"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Cucuta Deportivo",
+      "date": "2026-08-23"
+     },
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": false,
+      "opponent": "Deportes Tolima",
+      "date": "2026-08-04"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Deportivo Cali",
+      "date": "2026-08-01"
+     },
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": true,
+      "opponent": "Deportivo Pasto",
+      "date": "2026-07-25"
+     }
+    ],
+    "streaks": {
+     "unbeaten": 1,
+     "winless": 0,
+     "winning": 1,
+     "losing": 0,
+     "scoring": 1,
+     "no_score": 0,
+     "clean_sheet": 0,
+     "conceding": 3
+    }
+   },
+   "kickoff_local": "2026-09-03T22:00:00-03:00",
    "has_odds": false
   }
  ]

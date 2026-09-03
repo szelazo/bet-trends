@@ -24,10 +24,11 @@ class League:
 # IDs do 365scores verificados em 09/2026. Ajuste/expanda à vontade.
 LEAGUES: list[League] = [
     League("br_serie_a", "Brasileirão Série A", "Brasil", 113, "soccer_brazil_campeonato"),
-    League("br_serie_b", "Brasileirão Série B", "Brasil", 116, "soccer_brazil_serie_b"),
+    League("br_serie_b", "Brasileirão Série B", "Brasil", 116, "soccer_brazil_serie_b", enabled=False),
     League("libertadores", "CONMEBOL Libertadores", "América do Sul", 102, "soccer_conmebol_copa_libertadores"),
     League("sudamericana", "CONMEBOL Sul-Americana", "América do Sul", 389, "soccer_conmebol_copa_sudamericana"),
     League("ar_primera", "Liga Profesional", "Argentina", 72, "soccer_argentina_primera_division"),
+    League("co_primera", "Liga BetPlay", "Colômbia", 620, None),
     League("epl", "Premier League", "Inglaterra", 7, "soccer_epl"),
     League("championship", "Championship", "Inglaterra", 1, "soccer_efl_champ"),
     League("laliga", "LaLiga", "Espanha", 11, "soccer_spain_la_liga"),
@@ -40,6 +41,7 @@ LEAGUES: list[League] = [
     League("eredivisie", "Eredivisie", "Holanda", 57, "soccer_netherlands_eredivisie"),
     League("belgium", "Jupiler Pro League", "Bélgica", 98, "soccer_belgium_first_div"),
     League("turkey", "Süper Lig", "Turquia", 78, "soccer_turkey_super_league"),
+    League("turkey2", "1. Lig", "Turquia", 81, None),
     League("scotland", "Scottish Premiership", "Escócia", 61, "soccer_spl"),
     League("eliteserien", "Eliteserien", "Noruega", 131, "soccer_norway_eliteserien"),
     League("mls", "MLS", "EUA/Canadá", 104, "soccer_usa_mls"),
@@ -109,7 +111,7 @@ SCORING = {
     "value_threshold": 0.05,  # EV mínimo p/ marcar "VALOR"
     "kelly_fraction": 0.25,   # fração de Kelly
     "kelly_cap": 0.02,        # teto de stake (fração da banca)
-    "min_confidence_listed": 40,  # abaixo disso o jogo não entra na lista
+    "min_confidence_listed": 33,  # abaixo disso o jogo não entra na lista
 }
 
 # Banca p/ converter stake em dinheiro (None = mostrar só %).
