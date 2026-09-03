@@ -1,6 +1,6 @@
 {
  "date": "2026-09-03",
- "generated_at": "2026-09-03T16:30:26.712119-03:00",
+ "generated_at": "2026-09-03T17:11:46.216631-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 1,
@@ -49,7 +49,7 @@
     "trend_alignment": 1.0,
     "confidence": 85,
     "eligible": true,
-    "odd": 1.27,
+    "odd": 1.29,
     "low_conviction": false
    },
    "alt_markets": [
@@ -337,23 +337,23 @@
     "expected_goals": 2.2,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.5572,
-     "DRAW": 0.2632,
-     "AWAY": 0.1795,
-     "1X": 0.8205,
-     "X2": 0.4428,
-     "12": 0.7368,
-     "OVER25": 0.3783,
-     "UNDER25": 0.6217,
-     "BTTS_YES": 0.3958,
-     "BTTS_NO": 0.6042
+     "HOME": 0.557,
+     "DRAW": 0.2634,
+     "AWAY": 0.1796,
+     "1X": 0.8204,
+     "X2": 0.443,
+     "12": 0.7366,
+     "OVER25": 0.3777,
+     "UNDER25": 0.6223,
+     "BTTS_YES": 0.3954,
+     "BTTS_NO": 0.6046
     }
    },
    "pick": {
     "selection": "1X",
     "family": "double_chance",
     "label": "Dupla chance: Libertad ou empate (1X)",
-    "model_prob": 0.8205,
+    "model_prob": 0.8204,
     "trend_alignment": 0.573,
     "confidence": 56,
     "eligible": true,
@@ -365,7 +365,7 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Libertad",
-     "model_prob": 0.5572,
+     "model_prob": 0.557,
      "trend_alignment": 0.573,
      "confidence": 41,
      "eligible": true,
@@ -375,17 +375,17 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.6217,
+     "model_prob": 0.6223,
      "trend_alignment": 0.0,
      "confidence": 16,
      "eligible": true,
-     "odd": 1.56
+     "odd": 1.53
     },
     {
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.6042,
+     "model_prob": 0.6046,
      "trend_alignment": 0.0,
      "confidence": 14,
      "eligible": true,
@@ -395,7 +395,7 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Emelec",
-     "model_prob": 0.1795,
+     "model_prob": 0.1796,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
@@ -603,7 +603,7 @@
     "trend_alignment": 1.0,
     "confidence": 38,
     "eligible": true,
-    "odd": 1.2,
+    "odd": 1.16,
     "low_conviction": false
    },
    "alt_markets": [
@@ -625,7 +625,7 @@
      "trend_alignment": 1.0,
      "confidence": 28,
      "eligible": false,
-     "odd": 1.77
+     "odd": 1.63
     },
     {
      "selection": "BTTS_NO",
@@ -645,7 +645,7 @@
      "trend_alignment": 0.0,
      "confidence": 12,
      "eligible": true,
-     "odd": 2.06
+     "odd": 2.27
     }
    ],
    "trends": [
