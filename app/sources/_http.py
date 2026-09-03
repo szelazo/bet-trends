@@ -22,8 +22,10 @@ class HttpClient:
         cache_ttl_s: int = 1800,
         gap_s: float = 0.0,
         headers: dict[str, str] | None = None,
-        timeout: int = 25,
+        timeout: int = 20,
+        retries: int = 2,
     ) -> None:
+        self.retries = retries
         self.cache_dir = Path(cache_dir) if cache_dir else None
         if self.cache_dir:
             self.cache_dir.mkdir(parents=True, exist_ok=True)
@@ -61,13 +63,14 @@ class HttpClient:
         params: dict[str, Any] | None = None,
         *,
         host_key: str = "default",
-        retries: int = 3,
+        retries: int | None = None,
     ) -> Any:
         cache_path = self._cache_path(url, params)
         cached = self._read_cache(cache_path)
         if cached is not None:
             return cached
 
+        retries = retries if retries is not None else self.retries
         last_err: Exception | None = None
         for attempt in range(retries):
             self._throttle(host_key)
@@ -81,12 +84,12 @@ class HttpClient:
                     return data
                 if resp.status_code in (429, 500, 502, 503, 504):
                     last_err = RuntimeError(f"HTTP {resp.status_code} em {url}")
-                    time.sleep(1.5 * (attempt + 1))
+                    time.sleep(0.8 * (attempt + 1))
                     continue
                 resp.raise_for_status()
             except (requests.RequestException, ValueError) as exc:
                 last_err = exc
-                time.sleep(1.5 * (attempt + 1))
+                time.sleep(0.8 * (attempt + 1))
         raise RuntimeError(f"Falha ao buscar {url}: {last_err}")
 
     def _throttle(self, host_key: str) -> None:

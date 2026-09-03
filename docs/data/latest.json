@@ -1,6 +1,6 @@
 {
  "date": "2026-09-03",
- "generated_at": "2026-09-03T15:37:12.194748-03:00",
+ "generated_at": "2026-09-03T15:44:50.359675-03:00",
  "version": "0.1.0",
  "count": 5,
  "games": [
@@ -47,7 +47,7 @@
     "trend_alignment": 1.0,
     "confidence": 85,
     "eligible": true,
-    "odd": null,
+    "odd": 1.03,
     "low_conviction": false
    },
    "alt_markets": [
@@ -59,7 +59,7 @@
      "trend_alignment": 1.0,
      "confidence": 81,
      "eligible": true,
-     "odd": null
+     "odd": 1.31
     },
     {
      "selection": "OVER25",
@@ -69,7 +69,7 @@
      "trend_alignment": 0.233,
      "confidence": 26,
      "eligible": true,
-     "odd": null
+     "odd": 1.89
     },
     {
      "selection": "BTTS_NO",
@@ -307,7 +307,8 @@
     }
    },
    "kickoff_local": "2026-09-03T18:00:00-03:00",
-   "has_odds": false
+   "has_odds": true,
+   "odds_bookmaker": "3 casas"
   },
   {
    "id": 4665946,
@@ -352,7 +353,7 @@
     "trend_alignment": 0.578,
     "confidence": 56,
     "eligible": true,
-    "odd": null,
+    "odd": 1.31,
     "low_conviction": false
    },
    "alt_markets": [
@@ -364,7 +365,7 @@
      "trend_alignment": 0.578,
      "confidence": 42,
      "eligible": true,
-     "odd": null
+     "odd": 2.21
     },
     {
      "selection": "UNDER25",
@@ -374,7 +375,7 @@
      "trend_alignment": 0.0,
      "confidence": 16,
      "eligible": true,
-     "odd": null
+     "odd": 1.56
     },
     {
      "selection": "BTTS_NO",
@@ -394,7 +395,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": null
+     "odd": 3.42
     }
    ],
    "trends": [
@@ -556,7 +557,8 @@
     }
    },
    "kickoff_local": "2026-09-03T21:00:00-03:00",
-   "has_odds": false
+   "has_odds": true,
+   "odds_bookmaker": "3 casas"
   },
   {
    "id": 4735274,
@@ -601,7 +603,7 @@
     "trend_alignment": 0.567,
     "confidence": 44,
     "eligible": true,
-    "odd": null,
+    "odd": 1.27,
     "low_conviction": false
    },
    "alt_markets": [
@@ -613,7 +615,7 @@
      "trend_alignment": 0.567,
      "confidence": 35,
      "eligible": true,
-     "odd": null
+     "odd": 2.02
     },
     {
      "selection": "BTTS_YES",
@@ -633,7 +635,7 @@
      "trend_alignment": 0.0,
      "confidence": 3,
      "eligible": false,
-     "odd": null
+     "odd": 1.9
     },
     {
      "selection": "HOME",
@@ -643,7 +645,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": null
+     "odd": 3.76
     }
    ],
    "trends": [
@@ -747,7 +749,8 @@
     }
    },
    "kickoff_local": "2026-09-03T15:45:00-03:00",
-   "has_odds": false
+   "has_odds": true,
+   "odds_bookmaker": "3 casas"
   },
   {
    "id": 4665944,
@@ -792,7 +795,7 @@
     "trend_alignment": 0.591,
     "confidence": 42,
     "eligible": true,
-    "odd": null,
+    "odd": 1.18,
     "low_conviction": false
    },
    "alt_markets": [
@@ -804,7 +807,7 @@
      "trend_alignment": 0.591,
      "confidence": 30,
      "eligible": false,
-     "odd": null
+     "odd": 1.81
     },
     {
      "selection": "OVER25",
@@ -814,7 +817,7 @@
      "trend_alignment": 0.756,
      "confidence": 26,
      "eligible": false,
-     "odd": null
+     "odd": 2.05
     },
     {
      "selection": "BTTS_YES",
@@ -834,7 +837,7 @@
      "trend_alignment": 0.0,
      "confidence": 10,
      "eligible": false,
-     "odd": null
+     "odd": 1.75
     }
    ],
    "trends": [
@@ -1044,7 +1047,8 @@
     }
    },
    "kickoff_local": "2026-09-03T16:00:00-03:00",
-   "has_odds": false
+   "has_odds": true,
+   "odds_bookmaker": "3 casas"
   },
   {
    "id": 4665941,
@@ -1089,7 +1093,7 @@
     "trend_alignment": 0.133,
     "confidence": 33,
     "eligible": true,
-    "odd": null,
+    "odd": 1.18,
     "low_conviction": false
    },
    "alt_markets": [
@@ -1101,7 +1105,7 @@
      "trend_alignment": 0.133,
      "confidence": 22,
      "eligible": true,
-     "odd": null
+     "odd": 1.86
     },
     {
      "selection": "BTTS_YES",
@@ -1121,7 +1125,7 @@
      "trend_alignment": 0.233,
      "confidence": 11,
      "eligible": false,
-     "odd": null
+     "odd": 2.33
     },
     {
      "selection": "AWAY",
@@ -1131,7 +1135,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": null
+     "odd": 4.0
     }
    ],
    "trends": [
@@ -1285,7 +1289,8 @@
     }
    },
    "kickoff_local": "2026-09-03T18:30:00-03:00",
-   "has_odds": false
+   "has_odds": true,
+   "odds_bookmaker": "3 casas"
   }
  ]
 }

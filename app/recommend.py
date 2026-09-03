@@ -57,20 +57,24 @@ def _odd_for(sel: str, odds: dict | None) -> float | None:
     h2h = odds.get("h2h") or {}
     tot = odds.get("totals") or {}
     btts = odds.get("btts") or {}
-    home_odd = h2h.get(odds.get("home_team"))
-    away_odd = h2h.get(odds.get("away_team"))
-    draw_odd = h2h.get("Draw")
+    # aceita chaves "1"/"X"/"2" (365scores) ou nomes de time (the-odds-api)
+    home_odd = h2h.get("1") or h2h.get(odds.get("home_team"))
+    away_odd = h2h.get("2") or h2h.get(odds.get("away_team"))
+    draw_odd = h2h.get("X") or h2h.get("Draw")
 
     def dc(a: float | None, b: float | None) -> float | None:
         return round(1.0 / (1.0 / a + 1.0 / b), 2) if (a and b) else None
+
+    # odds de over/under só valem se a linha for 2.5
+    ou_ok = abs((tot.get("line") or 2.5) - 2.5) < 0.01
 
     return {
         "HOME": round(home_odd, 2) if home_odd else None,
         "AWAY": round(away_odd, 2) if away_odd else None,
         "1X": dc(home_odd, draw_odd),
         "X2": dc(away_odd, draw_odd),
-        "OVER25": tot.get("Over"),
-        "UNDER25": tot.get("Under"),
+        "OVER25": tot.get("Over") if ou_ok else None,
+        "UNDER25": tot.get("Under") if ou_ok else None,
         "BTTS_YES": btts.get("Yes"),
         "BTTS_NO": btts.get("No"),
     }.get(sel)

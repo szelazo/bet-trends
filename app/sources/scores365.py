@@ -93,6 +93,78 @@ class Scores365:
         )
         return [_norm_game(g) for g in data.get("games", [])]
 
+    # ── odds ─────────────────────────────────────────────────────────────────
+    def game_odds(self, game_id: int) -> dict | None:
+        """Odds do jogo (sem chave). Só existem perto do jogo / ligas grandes.
+
+        Retorna {"h2h": {"1","X","2"}, "totals": {"Over","Under","line"},
+                 "btts": {"Yes","No"}, "bookmaker": str, "source": "365scores"}
+        """
+        params = {**self._common, "gameId": game_id}
+        try:
+            data = self.http.get_json(f"{self._base}/web/game/", params, host_key="s365")
+        except RuntimeError:
+            return None
+        game = data.get("game") or {}
+        lines = list(game.get("bestOdds") or [])
+        pp = (game.get("promotedPredictions") or {}).get("predictions") or []
+        lines += [p["odds"] for p in pp if isinstance(p.get("odds"), dict)]
+        if not lines:
+            return None
+
+        h2h: dict[str, list[float]] = {}
+        totals: dict[str, list[float]] = {}
+        totals_line: float | None = None
+        btts: dict[str, list[float]] = {}
+        books: set[str] = set()
+
+        for ln in lines:
+            lt = ln.get("lineType") or {}
+            name = (lt.get("name") or "").lower()
+            short = (lt.get("shortName") or "").lower()
+            bk = (ln.get("bookmaker") or {}).get("name")
+            for opt in ln.get("options") or []:
+                dec = (opt.get("rate") or {}).get("decimal")
+                if not dec:
+                    continue
+                onm = (opt.get("name") or "").strip()
+                if short == "1x2" or "full time result" in name:
+                    key = {"1": "1", "x": "X", "2": "2", "home": "1", "draw": "X", "away": "2"}.get(onm.lower())
+                    if key:
+                        h2h.setdefault(key, []).append(dec)
+                        if bk:
+                            books.add(bk)
+                elif "total goals" in name or short == "o/u":
+                    if onm.lower() in ("over", "under"):
+                        totals.setdefault(onm.capitalize(), []).append(dec)
+                        if opt.get("line") is not None:
+                            totals_line = float(opt["line"])
+                elif "both teams to score" in name or "btts" in short:
+                    key = {"yes": "Yes", "no": "No"}.get(onm.lower())
+                    if key:
+                        btts.setdefault(key, []).append(dec)
+
+        def med(xs: list[float]) -> float | None:
+            if not xs:
+                return None
+            xs = sorted(xs)
+            n = len(xs)
+            return round(xs[n // 2] if n % 2 else (xs[n // 2 - 1] + xs[n // 2]) / 2, 2)
+
+        h2h_m = {k: med(v) for k, v in h2h.items() if med(v)}
+        if len(h2h_m) < 3:
+            return None
+        out: dict = {"h2h": h2h_m, "source": "365scores"}
+        if books:
+            out["bookmaker"] = f"{len(books)} casas" if len(books) > 1 else next(iter(books))
+        tot_m = {k: med(v) for k, v in totals.items() if med(v)}
+        if tot_m.get("Over") and tot_m.get("Under"):
+            out["totals"] = {**tot_m, "line": totals_line or 2.5}
+        btts_m = {k: med(v) for k, v in btts.items() if med(v)}
+        if btts_m.get("Yes") and btts_m.get("No"):
+            out["btts"] = btts_m
+        return out
+
     # ── tabela ───────────────────────────────────────────────────────────────
     def _standings_raw(self, comp_id: int, season_num: int | None) -> dict:
         params = {**self._common, "competitions": comp_id, "live": "false"}

@@ -16,7 +16,6 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 from . import __version__
-from .config import ODDS as ODDS_CFG
 from .config import S365, SCORING, enabled_leagues
 from .model import league_avg_goals, predict
 from .recommend import evaluate
@@ -127,7 +126,7 @@ def build(target: date, days: int, *, out_dir: Path, use_odds: bool, cache_dir: 
 
     s365 = Scores365(cache_dir=cache_dir)
     odds_api = OddsApi(cache_dir=cache_dir)
-    odds_on = use_odds and odds_api.enabled
+    odds_api_on = use_odds and odds_api.enabled  # fallback opcional
 
     print(f"→ buscando jogos {window_start} … {window_end}")
     all_games = s365.games(window_start, window_end)
@@ -148,11 +147,8 @@ def build(target: date, days: int, *, out_dir: Path, use_odds: bool, cache_dir: 
     for g in fixtures:
         by_league.setdefault(g["s365_competition_id"], []).append(g)
 
-    # p/ economizar créditos da odds-api, busca odds só das ligas com jogo no 1º dia
-    odds_league_ids = {
-        g["s365_competition_id"] for g in fixtures
-        if not ODDS_CFG["only_primary_day"] or _local_date(g["start_time"]) == target
-    }
+    # odds do 365scores só existem perto do jogo
+    odds_cutoff = target + timedelta(days=S365["odds_days_ahead"])
 
     enriched: list[dict] = []
     for s365_id, games in by_league.items():
@@ -169,7 +165,9 @@ def build(target: date, days: int, *, out_dir: Path, use_odds: bool, cache_dir: 
         find_row = _row_lookup(rows)
 
         odds_events: list[dict] = []
-        if odds_on and lg.odds_key and s365_id in odds_league_ids:
+        if odds_api_on and lg.odds_key and any(
+            _local_date(x["start_time"]) <= odds_cutoff for x in games
+        ):
             odds_events = odds_api.events(lg.odds_key)
 
         for g in games:
@@ -196,13 +194,20 @@ def build(target: date, days: int, *, out_dir: Path, use_odds: bool, cache_dir: 
                     trends.append(gap)
                 trends = consolidate(trends)
 
-                odds_match = find_match(g, odds_events) if odds_events else None
-                item = evaluate(g, model, trends, odds_match)
+                # odds: 365scores primeiro (sem chave), the-odds-api como reserva
+                odds = None
+                if use_odds and _local_date(g["start_time"]) <= odds_cutoff:
+                    odds = s365.game_odds(g["id"])
+                if not odds and odds_events:
+                    odds = find_match(g, odds_events)
+
+                item = evaluate(g, model, trends, odds)
                 item["league"] = {"key": lg.key, "name": lg.name, "country": lg.country}
                 item["home_team"] = _team_summary(g["home"], hr, h_recent)
                 item["away_team"] = _team_summary(g["away"], ar, a_recent)
                 item["kickoff_local"] = datetime.fromisoformat(g["start_time"]).astimezone(TZ).isoformat()
-                item["has_odds"] = odds_match is not None
+                item["has_odds"] = odds is not None
+                item["odds_bookmaker"] = (odds or {}).get("bookmaker")
                 enriched.append(item)
             except Exception as exc:  # noqa: BLE001
                 print(f"  ! erro em {g['home']['name']} x {g['away']['name']}: {exc}")
@@ -251,11 +256,16 @@ def build(target: date, days: int, *, out_dir: Path, use_odds: bool, cache_dir: 
         p.stem for p in out_dir.glob("20*.json")
         if _safe_count(p) > 0
     )
+    odds_count = sum(
+        1 for p in out_dir.glob("20*.json")
+        for g in json.loads(p.read_text()).get("games", []) if g.get("has_odds")
+    )
     (out_dir / "index.json").write_text(json.dumps({
         "dates": all_files,
         "generated_at": datetime.now(TZ).isoformat(),
-        "odds_enabled": odds_on,
-        "odds_credits_remaining": odds_api.credits_remaining if odds_on else None,
+        "odds_enabled": use_odds,
+        "odds_source": "365scores",
+        "games_with_odds": odds_count,
         "leagues": [{"name": lg.name, "country": lg.country} for lg in leagues],
     }, ensure_ascii=False, indent=1))
 

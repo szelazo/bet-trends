@@ -83,8 +83,9 @@ S365 = {
     "timezone_name": "America/Sao_Paulo",
     "user_country_id": 21,     # Brasil
     "history_days": 18,        # janela passada p/ montar histórico (máx ~20 antes de 504)
-    "request_gap_s": 0.35,     # pausa entre requisições
+    "request_gap_s": 0.25,     # pausa entre requisições
     "cache_ttl_s": 1800,
+    "odds_days_ahead": 1,      # busca odds só p/ jogos até N dias à frente
 }
 
 # ── the-odds-api ──────────────────────────────────────────────────────────────
