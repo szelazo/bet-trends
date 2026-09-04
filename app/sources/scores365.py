@@ -68,8 +68,15 @@ class Scores365:
         }
 
     # ── jogos ────────────────────────────────────────────────────────────────
-    def games(self, start: date, end: date, *, chunk_days: int = 14) -> list[dict]:
-        """Todos os jogos (qualquer liga) entre `start` e `end`, deduplicados."""
+    def games(self, start: date, end: date, *, chunk_days: int = 0) -> list[dict]:
+        """Todos os jogos (qualquer liga) entre `start` e `end`, deduplicados.
+
+        O endpoint tem um teto de ~850 jogos por resposta e, quando a janela
+        pedida tem mais que isso no total, ele TRUNCA silenciosamente — sem erro,
+        sem aviso — priorizando os dias mais próximos de "agora". Pedir um dia por
+        vez (chunk_days=0 → janela [cur, cur]) evita cair nesse teto mesmo em dias
+        cheios (~850 jogos globais num dia de meio de semana movimentado).
+        """
         seen: dict[int, dict] = {}
         cur = start
         while cur <= end:

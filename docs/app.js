@@ -18,6 +18,10 @@ async function fetchJSON(path) {
 
 // ── formatação ───────────────────────────────────────────────────────────────
 const asDate = (d) => new Date(`${d}T12:00:00`);
+const todayLocal = () => {
+  const d = new Date();
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+};
 const fmtLong = (d) =>
   new Intl.DateTimeFormat("pt-BR", { weekday: "long", day: "numeric", month: "long" }).format(asDate(d));
 const fmtDow = (d) =>
@@ -238,7 +242,11 @@ async function boot() {
   const dates = state.index.dates || [];
   const wanted = location.hash.slice(1);
   const latest = await fetchJSON("data/latest.json").catch(() => null);
-  const start = dates.includes(wanted) ? wanted : (latest ? latest.date : dates[dates.length - 1]);
+  // um #hash de um dia PASSADO (aba/PWA reaberta em outro dia) não conta —
+  // isso é o que fazia o site "empacar" num dia antigo depois de virar a noite.
+  const today = todayLocal();
+  const wantedOk = dates.includes(wanted) && wanted >= today;
+  const start = wantedOk ? wanted : (latest ? latest.date : dates[dates.length - 1]);
   renderDateStrip();
   loadDate(start);
 }

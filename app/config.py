@@ -103,7 +103,6 @@ S365 = {
     "history_days": 18,        # janela passada p/ montar histórico (máx ~20 antes de 504)
     "request_gap_s": 0.25,     # pausa entre requisições
     "cache_ttl_s": 1800,
-    "odds_days_ahead": 2,      # busca odds só p/ jogos até N dias à frente
 }
 
 # ── the-odds-api ──────────────────────────────────────────────────────────────

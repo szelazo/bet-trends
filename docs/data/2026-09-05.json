@@ -1,10 +1,10 @@
 {
  "date": "2026-09-05",
- "generated_at": "2026-09-04T08:18:36.698714-03:00",
+ "generated_at": "2026-09-04T14:03:27.107753-03:00",
  "version": "0.1.0",
- "count": 4,
- "clear_count": 4,
- "day_total": 33,
+ "count": 5,
+ "clear_count": 5,
+ "day_total": 119,
  "games": [
   {
    "id": 4748719,
@@ -29,25 +29,25 @@
     "expected_goals": 1.91,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.5577,
-     "DRAW": 0.2842,
-     "AWAY": 0.1582,
-     "1X": 0.8418,
-     "X2": 0.4423,
-     "12": 0.7158,
-     "OVER25": 0.3002,
-     "UNDER25": 0.6998,
-     "BTTS_YES": 0.3216,
-     "BTTS_NO": 0.6784
+     "HOME": 0.5549,
+     "DRAW": 0.2853,
+     "AWAY": 0.1597,
+     "1X": 0.8403,
+     "X2": 0.4451,
+     "12": 0.7147,
+     "OVER25": 0.2991,
+     "UNDER25": 0.7009,
+     "BTTS_YES": 0.3219,
+     "BTTS_NO": 0.6781
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Kharkiv",
-    "model_prob": 0.5577,
+    "model_prob": 0.5549,
     "trend_alignment": 1.0,
-    "confidence": 73,
+    "confidence": 72,
     "eligible": true,
     "odd": 1.38,
     "low_conviction": false
@@ -57,9 +57,9 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Kharkiv ou empate (1X)",
-     "model_prob": 0.8418,
+     "model_prob": 0.8403,
      "trend_alignment": 1.0,
-     "confidence": 73,
+     "confidence": 72,
      "eligible": true,
      "odd": 1.08
     },
@@ -67,31 +67,31 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.6998,
+     "model_prob": 0.7009,
      "trend_alignment": 0.25,
      "confidence": 35,
      "eligible": true,
-     "odd": 1.65
+     "odd": 1.68
     },
     {
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.6784,
+     "model_prob": 0.6781,
      "trend_alignment": 0.25,
      "confidence": 32,
      "eligible": true,
-     "odd": 1.47
+     "odd": 1.5
     },
     {
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Obolon Kyiv",
-     "model_prob": 0.1582,
+     "model_prob": 0.1597,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 8.5
+     "odd": 8.25
     }
    ],
    "trends": [
@@ -206,7 +206,7 @@
      "kind": "table_gap"
     }
    ],
-   "confidence": 73,
+   "confidence": 72,
    "league": {
     "key": "ukraine",
     "name": "Premier League",
@@ -301,105 +301,168 @@
    "clear": true
   },
   {
-   "id": 4757687,
-   "s365_competition_id": 26,
-   "competition_name": "Bundesliga 2",
-   "start_time": "2026-09-05T11:00:00+00:00",
+   "id": 4764177,
+   "s365_competition_id": 621,
+   "competition_name": "Copa de Primera - Clausura",
+   "start_time": "2026-09-05T21:30:00+00:00",
    "status_group": 2,
    "round": "Round",
    "home": {
-    "id": 430,
-    "name": "Holstein Kiel"
+    "id": 14634,
+    "name": "CS San Lorenzo"
    },
    "away": {
-    "id": 346,
-    "name": "FC Nürnberg"
+    "id": 14642,
+    "name": "2 de Mayo"
    },
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 1.21,
-    "lambda_away": 2.09,
-    "expected_goals": 3.3,
+    "lambda_home": 0.71,
+    "lambda_away": 1.45,
+    "expected_goals": 2.16,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.2159,
-     "DRAW": 0.2087,
-     "AWAY": 0.5753,
-     "1X": 0.4247,
-     "X2": 0.7841,
-     "12": 0.7913,
-     "OVER25": 0.6406,
-     "UNDER25": 0.3594,
-     "BTTS_YES": 0.6153,
-     "BTTS_NO": 0.3847
+     "HOME": 0.1835,
+     "DRAW": 0.2689,
+     "AWAY": 0.5477,
+     "1X": 0.4523,
+     "X2": 0.8165,
+     "12": 0.7311,
+     "OVER25": 0.3656,
+     "UNDER25": 0.6344,
+     "BTTS_YES": 0.3888,
+     "BTTS_NO": 0.6112
     }
    },
    "pick": {
     "selection": "X2",
     "family": "double_chance",
-    "label": "Dupla chance: FC Nürnberg ou empate (X2)",
-    "model_prob": 0.7841,
-    "trend_alignment": 0.867,
-    "confidence": 60,
+    "label": "Dupla chance: 2 de Mayo ou empate (X2)",
+    "model_prob": 0.8165,
+    "trend_alignment": 1.0,
+    "confidence": 69,
     "eligible": true,
-    "odd": 1.55,
+    "odd": 1.3,
     "low_conviction": false
    },
    "alt_markets": [
     {
      "selection": "AWAY",
      "family": "1x2",
-     "label": "Vitória do FC Nürnberg",
-     "model_prob": 0.5753,
-     "trend_alignment": 0.867,
-     "confidence": 54,
+     "label": "Vitória do 2 de Mayo",
+     "model_prob": 0.5477,
+     "trend_alignment": 1.0,
+     "confidence": 55,
      "eligible": true,
-     "odd": 2.62
+     "odd": 2.08
     },
     {
-     "selection": "OVER25",
+     "selection": "UNDER25",
      "family": "over_under",
-     "label": "Mais de 2.5 gols",
-     "model_prob": 0.6406,
-     "trend_alignment": 0.0,
-     "confidence": 18,
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.6344,
+     "trend_alignment": 0.056,
+     "confidence": 19,
      "eligible": true,
-     "odd": 1.56
+     "odd": 1.63
     },
     {
-     "selection": "BTTS_YES",
+     "selection": "BTTS_NO",
      "family": "btts",
-     "label": "Ambos os times marcam",
-     "model_prob": 0.6153,
-     "trend_alignment": 0.0,
-     "confidence": 15,
+     "label": "Ambos marcam: não",
+     "model_prob": 0.6112,
+     "trend_alignment": 0.056,
+     "confidence": 16,
      "eligible": true,
      "odd": null
     },
     {
      "selection": "HOME",
      "family": "1x2",
-     "label": "Vitória do Holstein Kiel",
-     "model_prob": 0.2159,
+     "label": "Vitória do CS San Lorenzo",
+     "model_prob": 0.1835,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 2.4
+     "odd": 3.52
     }
    ],
    "trends": [
     {
-     "label": "3 vitórias seguidas",
-     "strength": 0.5,
+     "label": "Perdeu 5 dos últimos 5",
+     "strength": 0.7,
      "favors": "AWAY",
-     "team": "FC Nürnberg",
-     "side": "AWAY",
-     "group": "sequencia",
-     "kind": "win_streak"
+     "team": "CS San Lorenzo",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
     },
     {
-     "label": "Holstein Kiel é 17º · FC Nürnberg é 1º",
+     "label": "Não marcou em 4 dos últimos 5",
+     "strength": 0.44,
+     "favors": "AWAY",
+     "team": "CS San Lorenzo",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "no_score"
+    },
+    {
+     "label": "Invicto em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "AWAY",
+     "team": "2 de Mayo",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Não sofreu gol em 3 dos últimos 5",
+     "strength": 0.39,
+     "favors": "UNDER",
+     "team": "2 de Mayo",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "clean_sheets"
+    },
+    {
+     "label": "Melhor defesa da liga (0.6 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "2 de Mayo",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Pior defesa da liga (1.9 sofridos/jogo)",
+     "strength": 0.34,
+     "favors": "OVER",
+     "team": "CS San Lorenzo",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_bottom"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "CS San Lorenzo",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "2 de Mayo",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "CS San Lorenzo é 12º · 2 de Mayo é 1º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -408,7 +471,324 @@
      "kind": "positions"
     },
     {
-     "label": "FC Nürnberg está 16 posições à frente",
+     "label": "2 de Mayo está 11 posições à frente",
+     "strength": 0.786,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 5 dos últimos 5",
+     "strength": 0.7,
+     "favors": "AWAY",
+     "team": "CS San Lorenzo",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Não marcou em 4 dos últimos 5",
+     "strength": 0.44,
+     "favors": "AWAY",
+     "team": "CS San Lorenzo",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "no_score"
+    },
+    {
+     "label": "Invicto em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "AWAY",
+     "team": "2 de Mayo",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Melhor defesa da liga (0.6 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "2 de Mayo",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "CS San Lorenzo",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "2 de Mayo",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "2 de Mayo está 11 posições à frente",
+     "strength": 0.786,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 69,
+   "league": {
+    "key": "py_primera",
+    "name": "Copa de Primera",
+    "country": "Paraguai"
+   },
+   "home_team": {
+    "id": 14634,
+    "name": "CS San Lorenzo",
+    "position": 12,
+    "played": 8,
+    "points": 1.0,
+    "record": "0V 1E 7D",
+    "goals_for": 2,
+    "goals_against": 15,
+    "last5": "LLLLL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": false,
+      "opponent": "Rubio Ñu",
+      "date": "2026-09-01"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": true,
+      "opponent": "Club Nacional",
+      "date": "2026-08-28"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Libertad",
+      "date": "2026-08-24"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Cerro Porteño",
+      "date": "2026-08-16"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": true,
+      "opponent": "Sportivo Luqueño",
+      "date": "2026-08-09"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 14642,
+    "name": "2 de Mayo",
+    "position": 1,
+    "played": 8,
+    "points": 18.0,
+    "record": "5V 3E 0D",
+    "goals_for": 10,
+    "goals_against": 5,
+    "last5": "DWDWW",
+    "recent": [
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "Sportivo Luqueño",
+      "date": "2026-09-01"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Sportivo Trinidense",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Club Guarani",
+      "date": "2026-08-25"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Recoleta FC",
+      "date": "2026-08-14"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Olimpia",
+      "date": "2026-08-08"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-05T18:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "3 casas",
+   "is_cup": false,
+   "clear": true
+  },
+  {
+   "id": 4736413,
+   "s365_competition_id": 153,
+   "competition_name": "Ekstraklasa",
+   "start_time": "2026-09-05T18:15:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 2235,
+    "name": "Motor Lublin"
+   },
+   "away": {
+    "id": 2209,
+    "name": "Legia Warszawa"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 0.91,
+    "lambda_away": 1.63,
+    "expected_goals": 2.54,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.2104,
+     "DRAW": 0.2474,
+     "AWAY": 0.5423,
+     "1X": 0.4577,
+     "X2": 0.7896,
+     "12": 0.7526,
+     "OVER25": 0.466,
+     "UNDER25": 0.534,
+     "BTTS_YES": 0.4804,
+     "BTTS_NO": 0.5196
+    }
+   },
+   "pick": {
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: Legia Warszawa ou empate (X2)",
+    "model_prob": 0.7896,
+    "trend_alignment": 1.0,
+    "confidence": 65,
+    "eligible": true,
+    "odd": 1.27,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Legia Warszawa",
+     "model_prob": 0.5423,
+     "trend_alignment": 1.0,
+     "confidence": 55,
+     "eligible": true,
+     "odd": 1.8
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.466,
+     "trend_alignment": 0.287,
+     "confidence": 10,
+     "eligible": false,
+     "odd": 1.73
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.4804,
+     "trend_alignment": 0.287,
+     "confidence": 10,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.534,
+     "trend_alignment": 0.0,
+     "confidence": 4,
+     "eligible": false,
+     "odd": 2.03
+    }
+   ],
+   "trends": [
+    {
+     "label": "Invicto em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "AWAY",
+     "team": "Legia Warszawa",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Ambos marcaram em 4 dos últimos 5",
+     "strength": 0.43,
+     "favors": "BTTS_YES",
+     "team": "Legia Warszawa",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "btts"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Motor Lublin",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Legia Warszawa",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Motor Lublin é 15º · Legia Warszawa é 2º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Legia Warszawa está 13 posições à frente",
      "strength": 0.8,
      "favors": "AWAY",
      "team": null,
@@ -419,16 +799,34 @@
    ],
    "aligned_trends": [
     {
-     "label": "3 vitórias seguidas",
-     "strength": 0.5,
+     "label": "Invicto em 5 dos últimos 5",
+     "strength": 0.55,
      "favors": "AWAY",
-     "team": "FC Nürnberg",
+     "team": "Legia Warszawa",
      "side": "AWAY",
-     "group": "sequencia",
-     "kind": "win_streak"
+     "group": "geral",
+     "kind": "unbeaten"
     },
     {
-     "label": "FC Nürnberg está 16 posições à frente",
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Motor Lublin",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Legia Warszawa",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Legia Warszawa está 13 posições à frente",
      "strength": 0.8,
      "favors": "AWAY",
      "team": null,
@@ -437,81 +835,376 @@
      "kind": "table_gap"
     }
    ],
-   "confidence": 60,
+   "confidence": 65,
    "league": {
-    "key": "bundesliga2",
-    "name": "2. Bundesliga",
-    "country": "Alemanha"
+    "key": "poland",
+    "name": "Ekstraklasa",
+    "country": "Polônia"
    },
    "home_team": {
-    "id": 430,
-    "name": "Holstein Kiel",
-    "position": 17,
-    "played": 3,
-    "points": 2.0,
-    "record": "0V 2E 1D",
-    "goals_for": 4,
-    "goals_against": 6,
-    "last5": "LDD",
+    "id": 2235,
+    "name": "Motor Lublin",
+    "position": 15,
+    "played": 6,
+    "points": 5.0,
+    "record": "1V 2E 3D",
+    "goals_for": 6,
+    "goals_against": 10,
+    "last5": "LDWLL",
     "recent": [
      {
       "result": "L",
       "score": "0-2",
-      "home": false,
-      "opponent": "FC Magdeburg",
-      "date": "2026-08-30"
-     },
-     {
-      "result": "D",
-      "score": "2-2",
       "home": true,
-      "opponent": "St. Pauli",
-      "date": "2026-08-14"
+      "opponent": "Piast Gliwice",
+      "date": "2026-08-29"
      },
      {
       "result": "D",
-      "score": "2-2",
+      "score": "1-1",
       "home": false,
-      "opponent": "SV Darmstadt 98",
+      "opponent": "Korona Kielce",
+      "date": "2026-08-22"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "GKS Katowice",
+      "date": "2026-08-16"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": false,
+      "opponent": "Pogon",
       "date": "2026-08-08"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Jagiellonia",
+      "date": "2026-07-31"
      }
     ]
    },
    "away_team": {
-    "id": 346,
-    "name": "FC Nürnberg",
-    "position": 1,
-    "played": 3,
-    "points": 9.0,
-    "record": "3V 0E 0D",
-    "goals_for": 11,
-    "goals_against": 3,
-    "last5": "WWW",
+    "id": 2209,
+    "name": "Legia Warszawa",
+    "position": 2,
+    "played": 6,
+    "points": 12.0,
+    "record": "3V 3E 0D",
+    "goals_for": 12,
+    "goals_against": 4,
+    "last5": "DDWDW",
     "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Slask Wroclaw",
+      "date": "2026-08-28"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Piast Gliwice",
+      "date": "2026-08-22"
+     },
+     {
+      "result": "W",
+      "score": "5-0",
+      "home": true,
+      "opponent": "Radomiak Radom",
+      "date": "2026-08-14"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Korona Kielce",
+      "date": "2026-08-08"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": true,
+      "opponent": "Zaglebie Lubin",
+      "date": "2026-08-02"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-05T15:15:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "3 casas",
+   "is_cup": false,
+   "clear": true
+  },
+  {
+   "id": 4746165,
+   "s365_competition_id": 1,
+   "competition_name": "Championship",
+   "start_time": "2026-09-05T14:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 20,
+    "name": "Sheffield Utd"
+   },
+   "away": {
+    "id": 16,
+    "name": "Norwich"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.59,
+    "lambda_away": 1.02,
+    "expected_goals": 2.61,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.5056,
+     "DRAW": 0.2507,
+     "AWAY": 0.2437,
+     "1X": 0.7563,
+     "X2": 0.4944,
+     "12": 0.7493,
+     "OVER25": 0.4849,
+     "UNDER25": 0.5151,
+     "BTTS_YES": 0.5098,
+     "BTTS_NO": 0.4902
+    }
+   },
+   "pick": {
+    "selection": "1X",
+    "family": "double_chance",
+    "label": "Dupla chance: Sheffield Utd ou empate (1X)",
+    "model_prob": 0.7563,
+    "trend_alignment": 1.0,
+    "confidence": 61,
+    "eligible": true,
+    "odd": 1.5,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Sheffield Utd",
+     "model_prob": 0.5056,
+     "trend_alignment": 1.0,
+     "confidence": 51,
+     "eligible": true,
+     "odd": 2.54
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5098,
+     "trend_alignment": 0.3,
+     "confidence": 12,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.4849,
+     "trend_alignment": 0.3,
+     "confidence": 10,
+     "eligible": false,
+     "odd": 1.81
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.5151,
+     "trend_alignment": 0.0,
+     "confidence": 2,
+     "eligible": false,
+     "odd": 2.01
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 3 dos últimos 4",
+     "strength": 0.588,
+     "favors": "HOME",
+     "team": "Norwich",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Mais de 2.5 gols em 3 dos últimos 4",
+     "strength": 0.45,
+     "favors": "OVER",
+     "team": "Norwich",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 4",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Sheffield Utd",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Não marcou em 2 dos últimos 4",
+     "strength": 0.35,
+     "favors": "AWAY",
+     "team": "Sheffield Utd",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "no_score"
+    },
+    {
+     "label": "Sheffield Utd é 9º · Norwich é 20º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Sheffield Utd está 11 posições à frente",
+     "strength": 0.786,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 3 dos últimos 4",
+     "strength": 0.588,
+     "favors": "HOME",
+     "team": "Norwich",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 4",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Sheffield Utd",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Sheffield Utd está 11 posições à frente",
+     "strength": 0.786,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 61,
+   "league": {
+    "key": "championship",
+    "name": "Championship",
+    "country": "Inglaterra"
+   },
+   "home_team": {
+    "id": 20,
+    "name": "Sheffield Utd",
+    "position": 9,
+    "played": 4,
+    "points": 6.0,
+    "record": "1V 3E 0D",
+    "goals_for": 5,
+    "goals_against": 4,
+    "last5": "WDDD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": true,
+      "opponent": "Bolton",
+      "date": "2026-09-01"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "Cardiff",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Swansea",
+      "date": "2026-08-22"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Birmingham",
+      "date": "2026-08-15"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 16,
+    "name": "Norwich",
+    "position": 20,
+    "played": 4,
+    "points": 3.0,
+    "record": "1V 0E 3D",
+    "goals_for": 5,
+    "goals_against": 7,
+    "last5": "LWLL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Stoke City",
+      "date": "2026-09-01"
+     },
      {
       "result": "W",
       "score": "4-1",
       "home": true,
-      "opponent": "Arminia Bielefeld",
+      "opponent": "Burnley",
       "date": "2026-08-29"
      },
      {
-      "result": "W",
-      "score": "4-2",
+      "result": "L",
+      "score": "0-3",
       "home": false,
-      "opponent": "Greuther Fürth",
-      "date": "2026-08-15"
+      "opponent": "Millwall",
+      "date": "2026-08-22"
      },
      {
-      "result": "W",
-      "score": "3-0",
+      "result": "L",
+      "score": "1-2",
       "home": true,
-      "opponent": "Dynamo Dresden",
-      "date": "2026-08-09"
+      "opponent": "West Brom",
+      "date": "2026-08-15"
      }
     ]
    },
-   "kickoff_local": "2026-09-05T08:00:00-03:00",
+   "kickoff_local": "2026-09-05T11:00:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
@@ -560,7 +1253,7 @@
     "trend_alignment": 1.0,
     "confidence": 57,
     "eligible": true,
-    "odd": 1.75,
+    "odd": 1.74,
     "low_conviction": false
    },
    "alt_markets": [
@@ -572,7 +1265,7 @@
      "trend_alignment": 1.0,
      "confidence": 47,
      "eligible": false,
-     "odd": 3.5
+     "odd": 3.55
     },
     {
      "selection": "OVER25",
@@ -582,7 +1275,7 @@
      "trend_alignment": 0.575,
      "confidence": 20,
      "eligible": false,
-     "odd": 2.08
+     "odd": 2.1
     },
     {
      "selection": "BTTS_YES",
@@ -602,7 +1295,7 @@
      "trend_alignment": 0.0,
      "confidence": 11,
      "eligible": false,
-     "odd": 1.71
+     "odd": 1.73
     }
    ],
    "trends": [
@@ -779,205 +1472,6 @@
     ]
    },
    "kickoff_local": "2026-09-05T08:30:00-03:00",
-   "has_odds": true,
-   "odds_bookmaker": "3 casas",
-   "is_cup": false,
-   "clear": true
-  },
-  {
-   "id": 4757693,
-   "s365_competition_id": 26,
-   "competition_name": "Bundesliga 2",
-   "start_time": "2026-09-05T11:00:00+00:00",
-   "status_group": 2,
-   "round": "Round",
-   "home": {
-    "id": 364,
-    "name": "FC Kaiserslautern"
-   },
-   "away": {
-    "id": 454,
-    "name": "SV Darmstadt 98"
-   },
-   "home_score": -1.0,
-   "away_score": -1.0,
-   "model": {
-    "lambda_home": 1.16,
-    "lambda_away": 0.8,
-    "expected_goals": 1.96,
-    "sample_factor": 1.0,
-    "probs": {
-     "HOME": 0.4422,
-     "DRAW": 0.3054,
-     "AWAY": 0.2524,
-     "1X": 0.7476,
-     "X2": 0.5578,
-     "12": 0.6946,
-     "OVER25": 0.3118,
-     "UNDER25": 0.6882,
-     "BTTS_YES": 0.3773,
-     "BTTS_NO": 0.6227
-    }
-   },
-   "pick": {
-    "selection": "1X",
-    "family": "double_chance",
-    "label": "Dupla chance: FC Kaiserslautern ou empate (1X)",
-    "model_prob": 0.7476,
-    "trend_alignment": 0.533,
-    "confidence": 44,
-    "eligible": true,
-    "odd": 1.41,
-    "low_conviction": false
-   },
-   "alt_markets": [
-    {
-     "selection": "HOME",
-     "family": "1x2",
-     "label": "Vitória do FC Kaiserslautern",
-     "model_prob": 0.4422,
-     "trend_alignment": 0.533,
-     "confidence": 29,
-     "eligible": false,
-     "odd": 2.21
-    },
-    {
-     "selection": "UNDER25",
-     "family": "over_under",
-     "label": "Menos de 2.5 gols",
-     "model_prob": 0.6882,
-     "trend_alignment": 0.0,
-     "confidence": 24,
-     "eligible": true,
-     "odd": 2.15
-    },
-    {
-     "selection": "BTTS_NO",
-     "family": "btts",
-     "label": "Ambos marcam: não",
-     "model_prob": 0.6227,
-     "trend_alignment": 0.0,
-     "confidence": 16,
-     "eligible": true,
-     "odd": null
-    },
-    {
-     "selection": "X2",
-     "family": "double_chance",
-     "label": "Dupla chance: SV Darmstadt 98 ou empate (X2)",
-     "model_prob": 0.5578,
-     "trend_alignment": 0.0,
-     "confidence": 1,
-     "eligible": false,
-     "odd": 1.65
-    }
-   ],
-   "trends": [
-    {
-     "label": "FC Kaiserslautern é 6º · SV Darmstadt 98 é 18º",
-     "strength": 0.0,
-     "favors": null,
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "positions"
-    },
-    {
-     "label": "FC Kaiserslautern está 12 posições à frente",
-     "strength": 0.8,
-     "favors": "HOME",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "aligned_trends": [
-    {
-     "label": "FC Kaiserslautern está 12 posições à frente",
-     "strength": 0.8,
-     "favors": "HOME",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "confidence": 44,
-   "league": {
-    "key": "bundesliga2",
-    "name": "2. Bundesliga",
-    "country": "Alemanha"
-   },
-   "home_team": {
-    "id": 364,
-    "name": "FC Kaiserslautern",
-    "position": 6,
-    "played": 3,
-    "points": 5.0,
-    "record": "1V 2E 0D",
-    "goals_for": 2,
-    "goals_against": 1,
-    "last5": "WDD",
-    "recent": [
-     {
-      "result": "W",
-      "score": "2-1",
-      "home": false,
-      "opponent": "St. Pauli",
-      "date": "2026-08-30"
-     },
-     {
-      "result": "D",
-      "score": "0-0",
-      "home": true,
-      "opponent": "Karlsruher",
-      "date": "2026-08-15"
-     },
-     {
-      "result": "D",
-      "score": "0-0",
-      "home": false,
-      "opponent": "Wolfsburg",
-      "date": "2026-08-08"
-     }
-    ]
-   },
-   "away_team": {
-    "id": 454,
-    "name": "SV Darmstadt 98",
-    "position": 18,
-    "played": 3,
-    "points": 1.0,
-    "record": "0V 1E 2D",
-    "goals_for": 2,
-    "goals_against": 4,
-    "last5": "LLD",
-    "recent": [
-     {
-      "result": "L",
-      "score": "0-1",
-      "home": true,
-      "opponent": "Hannover",
-      "date": "2026-08-30"
-     },
-     {
-      "result": "L",
-      "score": "0-1",
-      "home": false,
-      "opponent": "Dynamo Dresden",
-      "date": "2026-08-16"
-     },
-     {
-      "result": "D",
-      "score": "2-2",
-      "home": true,
-      "opponent": "Holstein Kiel",
-      "date": "2026-08-08"
-     }
-    ]
-   },
-   "kickoff_local": "2026-09-05T08:00:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,

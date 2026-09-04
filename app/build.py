@@ -137,33 +137,44 @@ def build(target: date, days: int, *, out_dir: Path, use_odds: bool, cache_dir: 
     for g in fixtures:
         by_league.setdefault(g["s365_competition_id"], []).append(g)
 
-    # odds do 365scores só existem perto do jogo
-    odds_cutoff = target + timedelta(days=S365["odds_days_ahead"])
-
-    def enrich(g, lg, hr, ar, mu, all_rows, odds_events) -> dict:
+    def enrich(g, lg, hr, ar, mu, all_rows) -> dict:
+        """Monta o jogo SEM odds — odds só são buscadas depois, e só p/ quem vira palpite."""
         h_recent = merge_recent(history.get(g["home"]["id"], []), hr["recent"])
         a_recent = merge_recent(history.get(g["away"]["id"], []), ar["recent"])
         model = predict(hr, ar, mu)
         trends = compute_trends(h_recent, a_recent, hr, ar, all_rows,
                                 g["home"]["name"], g["away"]["name"])
-        odds = None
-        if use_odds and _local_date(g["start_time"]) <= odds_cutoff:
-            odds = s365.game_odds(g["id"])
-        if not odds and odds_events:
-            odds = find_match(g, odds_events)
-        item = evaluate(g, model, trends, odds)
+        item = evaluate(g, model, trends, None)
         item["league"] = {"key": lg.key, "name": lg.name, "country": lg.country}
         item["home_team"] = _team_summary(g["home"], hr, h_recent)
         item["away_team"] = _team_summary(g["away"], ar, a_recent)
         item["kickoff_local"] = datetime.fromisoformat(g["start_time"]).astimezone(TZ).isoformat()
-        item["has_odds"] = odds is not None
-        item["odds_bookmaker"] = (odds or {}).get("bookmaker")
+        item["has_odds"] = False
+        item["odds_bookmaker"] = None
         item["is_cup"] = lg.cup
         item["clear"] = clear_edge(
             item["pick"]["selection"], hr, ar, h_recent, a_recent,
             table_size=len(all_rows), is_cup=lg.cup,
         )
+        item["_ctx"] = (g, model, trends, lg)
         return item
+
+    _odds_cache: dict[int, list[dict]] = {}  # s365_competition_id -> eventos the-odds-api
+
+    def attach_odds(item: dict) -> None:
+        """Busca odds só agora, p/ um jogo já selecionado como palpite do dia."""
+        g, model, trends, lg = item.pop("_ctx")
+        odds = s365.game_odds(g["id"]) if use_odds else None
+        if not odds and odds_api_on and lg.odds_key:
+            events = _odds_cache.setdefault(lg.s365_id, odds_api.events(lg.odds_key))
+            odds = find_match(g, events) if events else None
+        fresh = evaluate(g, model, trends, odds)
+        item["pick"] = fresh["pick"]
+        item["alt_markets"] = fresh["alt_markets"]
+        item["aligned_trends"] = fresh["aligned_trends"]
+        item["confidence"] = fresh["confidence"]
+        item["has_odds"] = odds is not None
+        item["odds_bookmaker"] = (odds or {}).get("bookmaker")
 
     enriched: list[dict] = []
     team_index: dict[int, dict] = {}   # team_id -> {"row", "mu"} (só 1ª divisão c/ tabela)
@@ -188,19 +199,13 @@ def build(target: date, days: int, *, out_dir: Path, use_odds: bool, cache_dir: 
             if r["team_id"] is not None:
                 team_index[r["team_id"]] = {"row": r, "mu": mu}
 
-        odds_events: list[dict] = []
-        if odds_api_on and lg.odds_key and any(
-            _local_date(x["start_time"]) <= odds_cutoff for x in games
-        ):
-            odds_events = odds_api.events(lg.odds_key)
-
         for g in games:
             try:
                 hr, ar = find_row(g["home"]), find_row(g["away"])
                 if not hr or not ar:
                     print(f"  ! sem linha na tabela p/ {g['home']['name']} x {g['away']['name']}")
                     continue
-                enriched.append(enrich(g, lg, hr, ar, mu, rows, odds_events))
+                enriched.append(enrich(g, lg, hr, ar, mu, rows))
             except Exception as exc:  # noqa: BLE001
                 print(f"  ! erro em {g['home']['name']} x {g['away']['name']}: {exc}")
                 traceback.print_exc()
@@ -217,7 +222,7 @@ def build(target: date, days: int, *, out_dir: Path, use_odds: bool, cache_dir: 
                 continue
             try:
                 mu = (hi["mu"] + ai["mu"]) / 2
-                enriched.append(enrich(g, lg, hi["row"], ai["row"], mu, [], []))
+                enriched.append(enrich(g, lg, hi["row"], ai["row"], mu, []))
             except Exception as exc:  # noqa: BLE001
                 print(f"  ! erro (copa) em {g['home']['name']} x {g['away']['name']}: {exc}")
         if skipped:
@@ -242,6 +247,8 @@ def build(target: date, days: int, *, out_dir: Path, use_odds: bool, cache_dir: 
                 if len(picks) >= ce["min_per_day"]:
                     break
         picks.sort(key=lambda g: (0 if g.get("clear") else 1, -g["confidence"], g["kickoff_local"]))
+        for g in picks:
+            attach_odds(g)
 
         payload = {
             "date": d.isoformat(),

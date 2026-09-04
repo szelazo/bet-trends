@@ -1,0 +1,1522 @@
+{
+ "date": "2026-09-06",
+ "generated_at": "2026-09-04T14:03:28.380714-03:00",
+ "version": "0.1.0",
+ "count": 5,
+ "clear_count": 5,
+ "day_total": 110,
+ "games": [
+  {
+   "id": 4736405,
+   "s365_competition_id": 153,
+   "competition_name": "Ekstraklasa",
+   "start_time": "2026-09-06T15:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 2211,
+    "name": "Lech Poznan"
+   },
+   "away": {
+    "id": 13058,
+    "name": "Rakow Czestochowa"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.61,
+    "lambda_away": 0.9,
+    "expected_goals": 3.51,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.7381,
+     "DRAW": 0.1546,
+     "AWAY": 0.1073,
+     "1X": 0.8927,
+     "X2": 0.2619,
+     "12": 0.8454,
+     "OVER25": 0.6802,
+     "UNDER25": 0.3198,
+     "BTTS_YES": 0.5506,
+     "BTTS_NO": 0.4494
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Lech Poznan",
+    "model_prob": 0.7381,
+    "trend_alignment": 1.0,
+    "confidence": 79,
+    "eligible": true,
+    "odd": 1.6,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Lech Poznan ou empate (1X)",
+     "model_prob": 0.8927,
+     "trend_alignment": 1.0,
+     "confidence": 79,
+     "eligible": true,
+     "odd": 1.23
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6802,
+     "trend_alignment": 0.68,
+     "confidence": 47,
+     "eligible": true,
+     "odd": 2.24
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5506,
+     "trend_alignment": 0.68,
+     "confidence": 30,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Rakow Czestochowa",
+     "model_prob": 0.1073,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 4.19
+    }
+   ],
+   "trends": [
+    {
+     "label": "4 vitórias seguidas",
+     "strength": 0.75,
+     "favors": "HOME",
+     "team": "Lech Poznan",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Não vence há 7+ jogos",
+     "strength": 0.667,
+     "favors": "HOME",
+     "team": "Rakow Czestochowa",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "HOME",
+     "team": "Lech Poznan",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "Lech Poznan",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Perdeu 6 dos últimos 7",
+     "strength": 0.636,
+     "favors": "HOME",
+     "team": "Rakow Czestochowa",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Mais de 2.5 gols em 7 dos últimos 7",
+     "strength": 0.55,
+     "favors": "OVER",
+     "team": "Rakow Czestochowa",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Lech Poznan é 1º · Rakow Czestochowa é 18º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Lech Poznan está 17 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "4 vitórias seguidas",
+     "strength": 0.75,
+     "favors": "HOME",
+     "team": "Lech Poznan",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Não vence há 7+ jogos",
+     "strength": 0.667,
+     "favors": "HOME",
+     "team": "Rakow Czestochowa",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "HOME",
+     "team": "Lech Poznan",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 6 dos últimos 7",
+     "strength": 0.636,
+     "favors": "HOME",
+     "team": "Rakow Czestochowa",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Lech Poznan está 17 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 79,
+   "league": {
+    "key": "poland",
+    "name": "Ekstraklasa",
+    "country": "Polônia"
+   },
+   "home_team": {
+    "id": 2211,
+    "name": "Lech Poznan",
+    "position": 1,
+    "played": 5,
+    "points": 13.0,
+    "record": "4V 1E 0D",
+    "goals_for": 10,
+    "goals_against": 4,
+    "last5": "WWWWD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Jagiellonia",
+      "date": "2026-09-03"
+     },
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": false,
+      "opponent": "Widzew Lodz",
+      "date": "2026-08-30"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "Piast Gliwice",
+      "date": "2026-08-09"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Wieczysta Krakow",
+      "date": "2026-08-01"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Cracovia Krakow",
+      "date": "2026-07-25"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 13058,
+    "name": "Rakow Czestochowa",
+    "position": 18,
+    "played": 5,
+    "points": 0,
+    "record": "0V 0E 5D",
+    "goals_for": 6,
+    "goals_against": 13,
+    "last5": "LLLDL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Gornik Zabrze",
+      "date": "2026-09-03"
+     },
+     {
+      "result": "L",
+      "score": "2-5",
+      "home": true,
+      "opponent": "Jagiellonia",
+      "date": "2026-08-30"
+     },
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": true,
+      "opponent": "HNK Hajduk Split",
+      "date": "2026-08-27"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "HNK Hajduk Split",
+      "date": "2026-08-20"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Cracovia Krakow",
+      "date": "2026-08-16"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-06T12:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "3 casas",
+   "is_cup": false,
+   "clear": true
+  },
+  {
+   "id": 4795105,
+   "s365_competition_id": 414,
+   "competition_name": "Premier League",
+   "start_time": "2026-09-06T15:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 5451,
+    "name": "Kaizer Chiefs"
+   },
+   "away": {
+    "id": 90073,
+    "name": "Siwelele"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.83,
+    "lambda_away": 0.64,
+    "expected_goals": 2.47,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.6586,
+     "DRAW": 0.2171,
+     "AWAY": 0.1244,
+     "1X": 0.8756,
+     "X2": 0.3414,
+     "12": 0.7829,
+     "OVER25": 0.4489,
+     "UNDER25": 0.5511,
+     "BTTS_YES": 0.3982,
+     "BTTS_NO": 0.6018
+    }
+   },
+   "pick": {
+    "selection": "1X",
+    "family": "double_chance",
+    "label": "Dupla chance: Kaizer Chiefs ou empate (1X)",
+    "model_prob": 0.8756,
+    "trend_alignment": 1.0,
+    "confidence": 77,
+    "eligible": true,
+    "odd": null,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Kaizer Chiefs",
+     "model_prob": 0.6586,
+     "trend_alignment": 1.0,
+     "confidence": 66,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.6018,
+     "trend_alignment": 0.053,
+     "confidence": 15,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.5511,
+     "trend_alignment": 0.053,
+     "confidence": 8,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Siwelele",
+     "model_prob": 0.1244,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Invicto em 4 dos últimos 4",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Kaizer Chiefs",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Ambos marcaram em 3 dos últimos 4",
+     "strength": 0.412,
+     "favors": "BTTS_YES",
+     "team": "Kaizer Chiefs",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "btts"
+    },
+    {
+     "label": "Não venceu nenhum dos últimos 4",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Siwelele",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "Menos de 2.5 gols em 3 dos últimos 4",
+     "strength": 0.45,
+     "favors": "UNDER",
+     "team": "Siwelele",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "under"
+    },
+    {
+     "label": "Kaizer Chiefs é 3º · Siwelele é 14º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Kaizer Chiefs está 11 posições à frente",
+     "strength": 0.786,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Invicto em 4 dos últimos 4",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Kaizer Chiefs",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Não venceu nenhum dos últimos 4",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Siwelele",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "Kaizer Chiefs está 11 posições à frente",
+     "strength": 0.786,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 77,
+   "league": {
+    "key": "south_africa",
+    "name": "Premier League",
+    "country": "África do Sul"
+   },
+   "home_team": {
+    "id": 5451,
+    "name": "Kaizer Chiefs",
+    "position": 3,
+    "played": 4,
+    "points": 8.0,
+    "record": "2V 2E 0D",
+    "goals_for": 8,
+    "goals_against": 4,
+    "last5": "DDWW",
+    "recent": [
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "Richards Bay",
+      "date": "2026-08-26"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Mamelodi Sundowns",
+      "date": "2026-08-15"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Sekhukhune United",
+      "date": "2026-08-12"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": false,
+      "opponent": "Kruger United",
+      "date": "2026-08-01"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 90073,
+    "name": "Siwelele",
+    "position": 14,
+    "played": 4,
+    "points": 2.0,
+    "record": "0V 2E 2D",
+    "goals_for": 3,
+    "goals_against": 6,
+    "last5": "DLLD",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Chippa United",
+      "date": "2026-08-25"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "AmaZulu",
+      "date": "2026-08-15"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Milford",
+      "date": "2026-08-12"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "TS Galaxy",
+      "date": "2026-08-02"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-06T12:30:00-03:00",
+   "has_odds": false,
+   "odds_bookmaker": null,
+   "is_cup": false,
+   "clear": true
+  },
+  {
+   "id": 4632689,
+   "s365_competition_id": 113,
+   "competition_name": "Brasileirão Série A",
+   "start_time": "2026-09-06T14:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 1212,
+    "name": "Coritiba"
+   },
+   "away": {
+    "id": 1269,
+    "name": "Mirassol"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.13,
+    "lambda_away": 0.9,
+    "expected_goals": 3.02,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.6564,
+     "DRAW": 0.1962,
+     "AWAY": 0.1474,
+     "1X": 0.8526,
+     "X2": 0.3436,
+     "12": 0.8038,
+     "OVER25": 0.5817,
+     "UNDER25": 0.4183,
+     "BTTS_YES": 0.5211,
+     "BTTS_NO": 0.4789
+    }
+   },
+   "pick": {
+    "selection": "1X",
+    "family": "double_chance",
+    "label": "Dupla chance: Coritiba ou empate (1X)",
+    "model_prob": 0.8526,
+    "trend_alignment": 1.0,
+    "confidence": 74,
+    "eligible": true,
+    "odd": 1.38,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Coritiba",
+     "model_prob": 0.6564,
+     "trend_alignment": 1.0,
+     "confidence": 66,
+     "eligible": true,
+     "odd": 2.36
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5817,
+     "trend_alignment": 0.017,
+     "confidence": 11,
+     "eligible": false,
+     "odd": 2.15
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5211,
+     "trend_alignment": 0.017,
+     "confidence": 3,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.4183,
+     "trend_alignment": 0.042,
+     "confidence": 1,
+     "eligible": false,
+     "odd": 1.67
+    }
+   ],
+   "trends": [
+    {
+     "label": "Não venceu nenhum dos últimos 6",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Mirassol",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "Não venceu nenhum dos últimos 4 fora de casa",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Mirassol",
+     "side": "AWAY",
+     "group": "casa_fora",
+     "kind": "winless"
+    },
+    {
+     "label": "Menos de 2.5 gols em 3 dos últimos 4 fora de casa",
+     "strength": 0.45,
+     "favors": "UNDER",
+     "team": "Mirassol",
+     "side": "AWAY",
+     "group": "casa_fora",
+     "kind": "under"
+    },
+    {
+     "label": "Não vence há 6+ jogos",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Mirassol",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Coritiba",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Ambos marcaram em 4 dos últimos 5",
+     "strength": 0.43,
+     "favors": "BTTS_YES",
+     "team": "Coritiba",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "btts"
+    },
+    {
+     "label": "Coritiba é 7º · Mirassol é 16º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Coritiba está 9 posições à frente",
+     "strength": 0.643,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Não venceu nenhum dos últimos 6",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Mirassol",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "Não venceu nenhum dos últimos 4 fora de casa",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Mirassol",
+     "side": "AWAY",
+     "group": "casa_fora",
+     "kind": "winless"
+    },
+    {
+     "label": "Não vence há 6+ jogos",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Mirassol",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Coritiba",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Coritiba está 9 posições à frente",
+     "strength": 0.643,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 74,
+   "league": {
+    "key": "br_serie_a",
+    "name": "Brasileirão Série A",
+    "country": "Brasil"
+   },
+   "home_team": {
+    "id": 1212,
+    "name": "Coritiba",
+    "position": 7,
+    "played": 25,
+    "points": 37.0,
+    "record": "10V 7E 8D",
+    "goals_for": 33,
+    "goals_against": 33,
+    "last5": "WWDWL",
+    "recent": [
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": false,
+      "opponent": "Remo",
+      "date": "2026-08-31"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Corinthians",
+      "date": "2026-08-23"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "São Paulo",
+      "date": "2026-08-16"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Chapecoense",
+      "date": "2026-08-08"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Cruzeiro",
+      "date": "2026-07-31"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 1269,
+    "name": "Mirassol",
+    "position": 16,
+    "played": 25,
+    "points": 25.0,
+    "record": "6V 7E 12D",
+    "goals_for": 27,
+    "goals_against": 39,
+    "last5": "LDDDL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Flamengo",
+      "date": "2026-09-02"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Palmeiras",
+      "date": "2026-08-30"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Santos",
+      "date": "2026-08-23"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "LDU",
+      "date": "2026-08-20"
+     },
+     {
+      "result": "L",
+      "score": "1-5",
+      "home": true,
+      "opponent": "Flamengo",
+      "date": "2026-08-16"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-06T11:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "3 casas",
+   "is_cup": false,
+   "clear": true
+  },
+  {
+   "id": 4757147,
+   "s365_competition_id": 73,
+   "competition_name": "Liga Portugal",
+   "start_time": "2026-09-06T14:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 935,
+    "name": "Santa Clara"
+   },
+   "away": {
+    "id": 904,
+    "name": "Rio Ave"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.61,
+    "lambda_away": 0.65,
+    "expected_goals": 2.26,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.607,
+     "DRAW": 0.2456,
+     "AWAY": 0.1474,
+     "1X": 0.8526,
+     "X2": 0.393,
+     "12": 0.7544,
+     "OVER25": 0.3925,
+     "UNDER25": 0.6075,
+     "BTTS_YES": 0.3811,
+     "BTTS_NO": 0.6189
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Santa Clara",
+    "model_prob": 0.607,
+    "trend_alignment": 1.0,
+    "confidence": 74,
+    "eligible": true,
+    "odd": 1.77,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Santa Clara ou empate (1X)",
+     "model_prob": 0.8526,
+     "trend_alignment": 1.0,
+     "confidence": 74,
+     "eligible": true,
+     "odd": 1.19
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.6189,
+     "trend_alignment": 0.6,
+     "confidence": 36,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.6075,
+     "trend_alignment": 0.6,
+     "confidence": 35,
+     "eligible": true,
+     "odd": 1.67
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Rio Ave",
+     "model_prob": 0.1474,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 4.77
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 3 dos últimos 4",
+     "strength": 0.588,
+     "favors": "HOME",
+     "team": "Rio Ave",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Menos de 2.5 gols em 3 dos últimos 4",
+     "strength": 0.45,
+     "favors": "UNDER",
+     "team": "Rio Ave",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "under"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 4",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Santa Clara",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Menos de 2.5 gols em 3 dos últimos 4",
+     "strength": 0.45,
+     "favors": "UNDER",
+     "team": "Santa Clara",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "under"
+    },
+    {
+     "label": "Santa Clara é 4º · Rio Ave é 13º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Santa Clara está 9 posições à frente",
+     "strength": 0.643,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 3 dos últimos 4",
+     "strength": 0.588,
+     "favors": "HOME",
+     "team": "Rio Ave",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 4",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Santa Clara",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Santa Clara está 9 posições à frente",
+     "strength": 0.643,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 74,
+   "league": {
+    "key": "liga_pt",
+    "name": "Liga Portugal",
+    "country": "Portugal"
+   },
+   "home_team": {
+    "id": 935,
+    "name": "Santa Clara",
+    "position": 4,
+    "played": 4,
+    "points": 8.0,
+    "record": "2V 2E 0D",
+    "goals_for": 5,
+    "goals_against": 3,
+    "last5": "DWWD",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Alverca",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Famalicão",
+      "date": "2026-08-23"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Viseu",
+      "date": "2026-08-15"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "Nacional Madeira",
+      "date": "2026-08-10"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 904,
+    "name": "Rio Ave",
+    "position": 13,
+    "played": 4,
+    "points": 3.0,
+    "record": "1V 0E 3D",
+    "goals_for": 2,
+    "goals_against": 7,
+    "last5": "LWLL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-4",
+      "home": true,
+      "opponent": "Sporting CP",
+      "date": "2026-08-28"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "Estoril",
+      "date": "2026-08-22"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": true,
+      "opponent": "FC Porto",
+      "date": "2026-08-15"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Gil Vicente FC",
+      "date": "2026-08-09"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-06T11:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "3 casas",
+   "is_cup": false,
+   "clear": true
+  },
+  {
+   "id": 4632687,
+   "s365_competition_id": 113,
+   "competition_name": "Brasileirão Série A",
+   "start_time": "2026-09-06T19:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 7383,
+    "name": "Remo"
+   },
+   "away": {
+    "id": 1215,
+    "name": "Flamengo"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.03,
+    "lambda_away": 2.23,
+    "expected_goals": 3.25,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.1625,
+     "DRAW": 0.1923,
+     "AWAY": 0.6452,
+     "1X": 0.3548,
+     "X2": 0.8375,
+     "12": 0.8077,
+     "OVER25": 0.6312,
+     "UNDER25": 0.3688,
+     "BTTS_YES": 0.5727,
+     "BTTS_NO": 0.4273
+    }
+   },
+   "pick": {
+    "selection": "AWAY",
+    "family": "1x2",
+    "label": "Vitória do Flamengo",
+    "model_prob": 0.6452,
+    "trend_alignment": 1.0,
+    "confidence": 72,
+    "eligible": true,
+    "odd": 1.46,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "X2",
+     "family": "double_chance",
+     "label": "Dupla chance: Flamengo ou empate (X2)",
+     "model_prob": 0.8375,
+     "trend_alignment": 1.0,
+     "confidence": 72,
+     "eligible": true,
+     "odd": 1.11
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6312,
+     "trend_alignment": 0.76,
+     "confidence": 44,
+     "eligible": true,
+     "odd": 1.75
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5727,
+     "trend_alignment": 0.76,
+     "confidence": 36,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Remo",
+     "model_prob": 0.1625,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 7.0
+    }
+   ],
+   "trends": [
+    {
+     "label": "Venceu 5 dos últimos 6",
+     "strength": 0.667,
+     "favors": "AWAY",
+     "team": "Flamengo",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Marcou em todos os últimos 6",
+     "strength": 0.3,
+     "favors": "OVER",
+     "team": "Flamengo",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "always_score"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Remo",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Ambos marcaram em 5 dos últimos 5",
+     "strength": 0.5,
+     "favors": "BTTS_YES",
+     "team": "Remo",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "btts"
+    },
+    {
+     "label": "Melhor ataque da liga (2.0 marcados/jogo)",
+     "strength": 0.44,
+     "favors": "AWAY",
+     "team": "Flamengo",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "2ª melhor defesa da liga (0.8 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "AWAY",
+     "team": "Flamengo",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Pior defesa da liga (1.7 sofridos/jogo)",
+     "strength": 0.34,
+     "favors": "OVER",
+     "team": "Remo",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_bottom"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Remo",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Remo é 19º · Flamengo é 2º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Flamengo está 17 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Venceu 5 dos últimos 6",
+     "strength": 0.667,
+     "favors": "AWAY",
+     "team": "Flamengo",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Remo",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Melhor ataque da liga (2.0 marcados/jogo)",
+     "strength": 0.44,
+     "favors": "AWAY",
+     "team": "Flamengo",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "2ª melhor defesa da liga (0.8 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "AWAY",
+     "team": "Flamengo",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Remo",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Flamengo está 17 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 72,
+   "league": {
+    "key": "br_serie_a",
+    "name": "Brasileirão Série A",
+    "country": "Brasil"
+   },
+   "home_team": {
+    "id": 7383,
+    "name": "Remo",
+    "position": 19,
+    "played": 25,
+    "points": 23.0,
+    "record": "5V 8E 12D",
+    "goals_for": 30,
+    "goals_against": 42,
+    "last5": "LLDDL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": true,
+      "opponent": "Coritiba",
+      "date": "2026-08-31"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Fluminense",
+      "date": "2026-08-22"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Internacional",
+      "date": "2026-08-17"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "Atlético Mineiro",
+      "date": "2026-08-08"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Mirassol",
+      "date": "2026-07-29"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 1215,
+    "name": "Flamengo",
+    "position": 2,
+    "played": 25,
+    "points": 51.0,
+    "record": "15V 6E 4D",
+    "goals_for": 50,
+    "goals_against": 21,
+    "last5": "WWLWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Mirassol",
+      "date": "2026-09-02"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "Botafogo",
+      "date": "2026-08-30"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Cruzeiro",
+      "date": "2026-08-22"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Cruzeiro",
+      "date": "2026-08-20"
+     },
+     {
+      "result": "W",
+      "score": "5-1",
+      "home": false,
+      "opponent": "Mirassol",
+      "date": "2026-08-16"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-06T16:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "3 casas",
+   "is_cup": false,
+   "clear": true
+  }
+ ]
+}
