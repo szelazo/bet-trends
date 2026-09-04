@@ -1,6 +1,6 @@
 {
  "date": "2026-09-05",
- "generated_at": "2026-09-04T14:15:50.763969-03:00",
+ "generated_at": "2026-09-04T14:17:21.784581-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -344,7 +344,7 @@
     "trend_alignment": 1.0,
     "confidence": 69,
     "eligible": true,
-    "odd": 1.3,
+    "odd": 1.29,
     "low_conviction": false
    },
    "alt_markets": [
@@ -356,7 +356,7 @@
      "trend_alignment": 1.0,
      "confidence": 55,
      "eligible": true,
-     "odd": 2.08
+     "odd": 2.0
     },
     {
      "selection": "UNDER25",
@@ -386,7 +386,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 3.52
+     "odd": 3.49
     }
    ],
    "trends": [
