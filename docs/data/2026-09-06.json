@@ -1,6 +1,6 @@
 {
  "date": "2026-09-06",
- "generated_at": "2026-09-04T14:27:22.352415-03:00",
+ "generated_at": "2026-09-04T17:13:38.167132-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -26,30 +26,30 @@
    "model": {
     "lambda_home": 2.61,
     "lambda_away": 0.9,
-    "expected_goals": 3.51,
+    "expected_goals": 3.52,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.7381,
-     "DRAW": 0.1546,
-     "AWAY": 0.1073,
-     "1X": 0.8927,
-     "X2": 0.2619,
-     "12": 0.8454,
-     "OVER25": 0.6802,
-     "UNDER25": 0.3198,
-     "BTTS_YES": 0.5506,
-     "BTTS_NO": 0.4494
+     "HOME": 0.7388,
+     "DRAW": 0.1541,
+     "AWAY": 0.107,
+     "1X": 0.893,
+     "X2": 0.2612,
+     "12": 0.8459,
+     "OVER25": 0.6819,
+     "UNDER25": 0.3181,
+     "BTTS_YES": 0.5516,
+     "BTTS_NO": 0.4484
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Lech Poznan",
-    "model_prob": 0.7381,
+    "model_prob": 0.7388,
     "trend_alignment": 1.0,
     "confidence": 79,
     "eligible": true,
-    "odd": 1.6,
+    "odd": 1.62,
     "low_conviction": false
    },
    "alt_markets": [
@@ -57,29 +57,29 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Lech Poznan ou empate (1X)",
-     "model_prob": 0.8927,
+     "model_prob": 0.893,
      "trend_alignment": 1.0,
      "confidence": 79,
      "eligible": true,
-     "odd": 1.23
+     "odd": 1.22
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6802,
+     "model_prob": 0.6819,
      "trend_alignment": 0.68,
      "confidence": 47,
      "eligible": true,
-     "odd": 2.24
+     "odd": 2.4
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5506,
+     "model_prob": 0.5516,
      "trend_alignment": 0.68,
-     "confidence": 30,
+     "confidence": 31,
      "eligible": false,
      "odd": null
     },
@@ -87,11 +87,11 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Rakow Czestochowa",
-     "model_prob": 0.1073,
+     "model_prob": 0.107,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 4.19
+     "odd": 4.28
     }
    ],
    "trends": [
@@ -342,28 +342,28 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 1.83,
+    "lambda_home": 1.82,
     "lambda_away": 0.64,
-    "expected_goals": 2.47,
+    "expected_goals": 2.46,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.6586,
-     "DRAW": 0.2171,
-     "AWAY": 0.1244,
-     "1X": 0.8756,
-     "X2": 0.3414,
-     "12": 0.7829,
-     "OVER25": 0.4489,
-     "UNDER25": 0.5511,
-     "BTTS_YES": 0.3982,
-     "BTTS_NO": 0.6018
+     "HOME": 0.6576,
+     "DRAW": 0.2177,
+     "AWAY": 0.1246,
+     "1X": 0.8754,
+     "X2": 0.3424,
+     "12": 0.7823,
+     "OVER25": 0.447,
+     "UNDER25": 0.553,
+     "BTTS_YES": 0.3971,
+     "BTTS_NO": 0.6029
     }
    },
    "pick": {
     "selection": "1X",
     "family": "double_chance",
     "label": "Dupla chance: Kaizer Chiefs ou empate (1X)",
-    "model_prob": 0.8756,
+    "model_prob": 0.8754,
     "trend_alignment": 1.0,
     "confidence": 77,
     "eligible": true,
@@ -375,7 +375,7 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Kaizer Chiefs",
-     "model_prob": 0.6586,
+     "model_prob": 0.6576,
      "trend_alignment": 1.0,
      "confidence": 66,
      "eligible": true,
@@ -385,7 +385,7 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.6018,
+     "model_prob": 0.6029,
      "trend_alignment": 0.053,
      "confidence": 15,
      "eligible": true,
@@ -395,9 +395,9 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.5511,
+     "model_prob": 0.553,
      "trend_alignment": 0.053,
-     "confidence": 8,
+     "confidence": 9,
      "eligible": false,
      "odd": null
     },
@@ -405,7 +405,7 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Siwelele",
-     "model_prob": 0.1244,
+     "model_prob": 0.1246,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
@@ -450,7 +450,7 @@
      "kind": "under"
     },
     {
-     "label": "Kaizer Chiefs é 3º · Siwelele é 14º",
+     "label": "Kaizer Chiefs é 4º · Siwelele é 14º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -459,8 +459,8 @@
      "kind": "positions"
     },
     {
-     "label": "Kaizer Chiefs está 11 posições à frente",
-     "strength": 0.786,
+     "label": "Kaizer Chiefs está 10 posições à frente",
+     "strength": 0.714,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -488,8 +488,8 @@
      "kind": "winless"
     },
     {
-     "label": "Kaizer Chiefs está 11 posições à frente",
-     "strength": 0.786,
+     "label": "Kaizer Chiefs está 10 posições à frente",
+     "strength": 0.714,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -506,7 +506,7 @@
    "home_team": {
     "id": 5451,
     "name": "Kaizer Chiefs",
-    "position": 3,
+    "position": 4,
     "played": 4,
     "points": 8.0,
     "record": "2V 2E 0D",
@@ -635,7 +635,7 @@
     "trend_alignment": 1.0,
     "confidence": 74,
     "eligible": true,
-    "odd": 1.38,
+    "odd": 1.39,
     "low_conviction": false
    },
    "alt_markets": [
@@ -647,7 +647,7 @@
      "trend_alignment": 1.0,
      "confidence": 66,
      "eligible": true,
-     "odd": 2.36
+     "odd": 2.38
     },
     {
      "selection": "OVER25",
@@ -657,7 +657,7 @@
      "trend_alignment": 0.017,
      "confidence": 11,
      "eligible": false,
-     "odd": 2.15
+     "odd": 2.2
     },
     {
      "selection": "BTTS_YES",
@@ -677,7 +677,7 @@
      "trend_alignment": 0.042,
      "confidence": 1,
      "eligible": false,
-     "odd": 1.67
+     "odd": 1.69
     }
    ],
    "trends": [
@@ -933,27 +933,27 @@
     "expected_goals": 2.26,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.607,
-     "DRAW": 0.2456,
-     "AWAY": 0.1474,
-     "1X": 0.8526,
-     "X2": 0.393,
-     "12": 0.7544,
-     "OVER25": 0.3925,
-     "UNDER25": 0.6075,
-     "BTTS_YES": 0.3811,
-     "BTTS_NO": 0.6189
+     "HOME": 0.6086,
+     "DRAW": 0.2449,
+     "AWAY": 0.1465,
+     "1X": 0.8535,
+     "X2": 0.3914,
+     "12": 0.7551,
+     "OVER25": 0.3933,
+     "UNDER25": 0.6067,
+     "BTTS_YES": 0.3808,
+     "BTTS_NO": 0.6192
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Santa Clara",
-    "model_prob": 0.607,
+    "model_prob": 0.6086,
     "trend_alignment": 1.0,
     "confidence": 74,
     "eligible": true,
-    "odd": 1.77,
+    "odd": 1.79,
     "low_conviction": false
    },
    "alt_markets": [
@@ -961,17 +961,17 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Santa Clara ou empate (1X)",
-     "model_prob": 0.8526,
+     "model_prob": 0.8535,
      "trend_alignment": 1.0,
      "confidence": 74,
      "eligible": true,
-     "odd": 1.19
+     "odd": 1.2
     },
     {
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.6189,
+     "model_prob": 0.6192,
      "trend_alignment": 0.6,
      "confidence": 36,
      "eligible": true,
@@ -981,21 +981,21 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.6075,
+     "model_prob": 0.6067,
      "trend_alignment": 0.6,
      "confidence": 35,
      "eligible": true,
-     "odd": 1.67
+     "odd": 1.66
     },
     {
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Rio Ave",
-     "model_prob": 0.1474,
+     "model_prob": 0.1465,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 4.77
+     "odd": 4.69
     }
    ],
    "trends": [
@@ -1221,7 +1221,7 @@
     "trend_alignment": 1.0,
     "confidence": 72,
     "eligible": true,
-    "odd": 1.46,
+    "odd": 1.47,
     "low_conviction": false
    },
    "alt_markets": [
@@ -1263,7 +1263,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 7.0
+     "odd": 6.8
     }
    ],
    "trends": [

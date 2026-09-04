@@ -1,9 +1,9 @@
 {
  "date": "2026-09-04",
- "generated_at": "2026-09-04T14:27:19.850771-03:00",
+ "generated_at": "2026-09-04T17:13:33.518537-03:00",
  "version": "0.1.0",
- "count": 7,
- "clear_count": 7,
+ "count": 5,
+ "clear_count": 5,
  "day_total": 44,
  "games": [
   {
@@ -21,8 +21,8 @@
     "id": 76458,
     "name": "Kudrivka"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 5.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 2.67,
     "lambda_away": 0.58,
@@ -281,7 +281,7 @@
    "odds_bookmaker": "3 casas",
    "is_cup": false,
    "clear": true,
-   "result": "pending"
+   "result": "hit"
   },
   {
    "id": 4760846,
@@ -301,32 +301,32 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 2.67,
-    "lambda_away": 0.87,
-    "expected_goals": 3.54,
+    "lambda_home": 2.64,
+    "lambda_away": 0.86,
+    "expected_goals": 3.51,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.7549,
-     "DRAW": 0.1475,
-     "AWAY": 0.0976,
-     "1X": 0.9024,
-     "X2": 0.2451,
-     "12": 0.8525,
-     "OVER25": 0.6854,
-     "UNDER25": 0.3146,
-     "BTTS_YES": 0.54,
-     "BTTS_NO": 0.46
+     "HOME": 0.7524,
+     "DRAW": 0.1491,
+     "AWAY": 0.0985,
+     "1X": 0.9015,
+     "X2": 0.2476,
+     "12": 0.8509,
+     "OVER25": 0.6801,
+     "UNDER25": 0.3199,
+     "BTTS_YES": 0.5371,
+     "BTTS_NO": 0.4629
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Alianza Atletico",
-    "model_prob": 0.7549,
+    "model_prob": 0.7524,
     "trend_alignment": 1.0,
     "confidence": 81,
     "eligible": true,
-    "odd": 1.58,
+    "odd": 1.44,
     "low_conviction": false
    },
    "alt_markets": [
@@ -334,27 +334,27 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Alianza Atletico ou empate (1X)",
-     "model_prob": 0.9024,
+     "model_prob": 0.9015,
      "trend_alignment": 1.0,
      "confidence": 81,
      "eligible": true,
-     "odd": 1.16
+     "odd": 1.12
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6854,
+     "model_prob": 0.6801,
      "trend_alignment": 0.573,
-     "confidence": 44,
+     "confidence": 43,
      "eligible": true,
-     "odd": 1.85
+     "odd": 1.8
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.54,
+     "model_prob": 0.5371,
      "trend_alignment": 0.573,
      "confidence": 25,
      "eligible": false,
@@ -364,11 +364,11 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do UTC",
-     "model_prob": 0.0976,
+     "model_prob": 0.0985,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 5.33
+     "odd": 6.25
     }
    ],
    "trends": [
@@ -598,8 +598,8 @@
     "id": 1832,
     "name": "Lyngby"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 0.0,
+   "away_score": 2.0,
    "model": {
     "lambda_home": 2.09,
     "lambda_away": 0.83,
@@ -890,334 +890,7 @@
    "odds_bookmaker": null,
    "is_cup": false,
    "clear": true,
-   "result": "pending"
-  },
-  {
-   "id": 4826567,
-   "s365_competition_id": 617,
-   "competition_name": "Uruguayan Championship - Clausura",
-   "start_time": "2026-09-04T22:00:00+00:00",
-   "status_group": 2,
-   "round": "Round",
-   "home": {
-    "id": 12675,
-    "name": "Montevideo City Torque"
-   },
-   "away": {
-    "id": 8618,
-    "name": "Cerro Largo"
-   },
-   "home_score": -1.0,
-   "away_score": -1.0,
-   "model": {
-    "lambda_home": 1.99,
-    "lambda_away": 0.86,
-    "expected_goals": 2.85,
-    "sample_factor": 1.0,
-    "probs": {
-     "HOME": 0.6384,
-     "DRAW": 0.208,
-     "AWAY": 0.1537,
-     "1X": 0.8463,
-     "X2": 0.3616,
-     "12": 0.792,
-     "OVER25": 0.5421,
-     "UNDER25": 0.4579,
-     "BTTS_YES": 0.4973,
-     "BTTS_NO": 0.5027
-    }
-   },
-   "pick": {
-    "selection": "HOME",
-    "family": "1x2",
-    "label": "Vitória do Montevideo City Torque",
-    "model_prob": 0.6384,
-    "trend_alignment": 1.0,
-    "confidence": 73,
-    "eligible": true,
-    "odd": 1.57,
-    "low_conviction": false
-   },
-   "alt_markets": [
-    {
-     "selection": "1X",
-     "family": "double_chance",
-     "label": "Dupla chance: Montevideo City Torque ou empate (1X)",
-     "model_prob": 0.8463,
-     "trend_alignment": 1.0,
-     "confidence": 73,
-     "eligible": true,
-     "odd": 1.15
-    },
-    {
-     "selection": "UNDER25",
-     "family": "over_under",
-     "label": "Menos de 2.5 gols",
-     "model_prob": 0.4579,
-     "trend_alignment": 0.313,
-     "confidence": 11,
-     "eligible": false,
-     "odd": 1.78
-    },
-    {
-     "selection": "BTTS_NO",
-     "family": "btts",
-     "label": "Ambos marcam: não",
-     "model_prob": 0.5027,
-     "trend_alignment": 0.313,
-     "confidence": 11,
-     "eligible": false,
-     "odd": null
-    },
-    {
-     "selection": "OVER25",
-     "family": "over_under",
-     "label": "Mais de 2.5 gols",
-     "model_prob": 0.5421,
-     "trend_alignment": 0.0,
-     "confidence": 5,
-     "eligible": false,
-     "odd": 1.98
-    }
-   ],
-   "trends": [
-    {
-     "label": "4 vitórias seguidas",
-     "strength": 0.75,
-     "favors": "HOME",
-     "team": "Montevideo City Torque",
-     "side": "HOME",
-     "group": "sequencia",
-     "kind": "win_streak"
-    },
-    {
-     "label": "Venceu 5 dos últimos 6",
-     "strength": 0.667,
-     "favors": "HOME",
-     "team": "Montevideo City Torque",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "Venceu 3 dos últimos 4 em casa",
-     "strength": 0.625,
-     "favors": "HOME",
-     "team": "Montevideo City Torque",
-     "side": "HOME",
-     "group": "casa_fora",
-     "kind": "wins"
-    },
-    {
-     "label": "Não venceu nenhum dos últimos 5",
-     "strength": 0.55,
-     "favors": "HOME",
-     "team": "Cerro Largo",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "winless"
-    },
-    {
-     "label": "Menos de 2.5 gols em 4 dos últimos 5",
-     "strength": 0.47,
-     "favors": "UNDER",
-     "team": "Cerro Largo",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "under"
-    },
-    {
-     "label": "Não vence há 5+ jogos",
-     "strength": 0.333,
-     "favors": "HOME",
-     "team": "Cerro Largo",
-     "side": "AWAY",
-     "group": "sequencia",
-     "kind": "winless_streak"
-    },
-    {
-     "label": "Montevideo City Torque é 2º · Cerro Largo é 10º",
-     "strength": 0.0,
-     "favors": null,
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "positions"
-    },
-    {
-     "label": "Montevideo City Torque está 8 posições à frente",
-     "strength": 0.571,
-     "favors": "HOME",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "aligned_trends": [
-    {
-     "label": "4 vitórias seguidas",
-     "strength": 0.75,
-     "favors": "HOME",
-     "team": "Montevideo City Torque",
-     "side": "HOME",
-     "group": "sequencia",
-     "kind": "win_streak"
-    },
-    {
-     "label": "Venceu 5 dos últimos 6",
-     "strength": 0.667,
-     "favors": "HOME",
-     "team": "Montevideo City Torque",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "Venceu 3 dos últimos 4 em casa",
-     "strength": 0.625,
-     "favors": "HOME",
-     "team": "Montevideo City Torque",
-     "side": "HOME",
-     "group": "casa_fora",
-     "kind": "wins"
-    },
-    {
-     "label": "Não venceu nenhum dos últimos 5",
-     "strength": 0.55,
-     "favors": "HOME",
-     "team": "Cerro Largo",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "winless"
-    },
-    {
-     "label": "Não vence há 5+ jogos",
-     "strength": 0.333,
-     "favors": "HOME",
-     "team": "Cerro Largo",
-     "side": "AWAY",
-     "group": "sequencia",
-     "kind": "winless_streak"
-    },
-    {
-     "label": "Montevideo City Torque está 8 posições à frente",
-     "strength": 0.571,
-     "favors": "HOME",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "confidence": 73,
-   "league": {
-    "key": "uy_primera",
-    "name": "Primera División",
-    "country": "Uruguai"
-   },
-   "home_team": {
-    "id": 12675,
-    "name": "Montevideo City Torque",
-    "position": 2,
-    "played": 3,
-    "points": 9.0,
-    "record": "3V 0E 0D",
-    "goals_for": 9,
-    "goals_against": 2,
-    "last5": "WWWWL",
-    "recent": [
-     {
-      "result": "W",
-      "score": "3-1",
-      "home": false,
-      "opponent": "Defensor Sporting",
-      "date": "2026-08-29"
-     },
-     {
-      "result": "W",
-      "score": "5-1",
-      "home": true,
-      "opponent": "Montevideo Wanderers",
-      "date": "2026-08-23"
-     },
-     {
-      "result": "W",
-      "score": "2-1",
-      "home": true,
-      "opponent": "Tigre",
-      "date": "2026-08-20"
-     },
-     {
-      "result": "W",
-      "score": "1-0",
-      "home": false,
-      "opponent": "Juventud",
-      "date": "2026-08-15"
-     },
-     {
-      "result": "L",
-      "score": "0-2",
-      "home": true,
-      "opponent": "Montevideo Wanderers",
-      "date": "2026-07-31"
-     }
-    ]
-   },
-   "away_team": {
-    "id": 8618,
-    "name": "Cerro Largo",
-    "position": 10,
-    "played": 4,
-    "points": 4.0,
-    "record": "0V 4E 0D",
-    "goals_for": 4,
-    "goals_against": 4,
-    "last5": "DDDDL",
-    "recent": [
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": true,
-      "opponent": "Liverpool Montevideo",
-      "date": "2026-08-30"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": true,
-      "opponent": "Defensor Sporting",
-      "date": "2026-08-22"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": false,
-      "opponent": "Montevideo Wanderers",
-      "date": "2026-08-15"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": true,
-      "opponent": "Juventud",
-      "date": "2026-08-07"
-     },
-     {
-      "result": "L",
-      "score": "0-3",
-      "home": false,
-      "opponent": "Peñarol",
-      "date": "2026-08-01"
-     }
-    ]
-   },
-   "kickoff_local": "2026-09-04T19:00:00-03:00",
-   "has_odds": true,
-   "odds_bookmaker": "3 casas",
-   "is_cup": false,
-   "result": "pending",
-   "clear": true
+   "result": "miss"
   },
   {
    "id": 4781130,
@@ -1452,8 +1125,8 @@
     "id": 5457,
     "name": "Al Hilal Riyadh"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 0.0,
+   "away_score": 2.0,
    "model": {
     "lambda_home": 1.1,
     "lambda_away": 2.11,
@@ -1720,307 +1393,7 @@
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
-   "result": "pending",
-   "clear": true
-  },
-  {
-   "id": 4665936,
-   "s365_competition_id": 5062,
-   "competition_name": "Liga Pro",
-   "start_time": "2026-09-05T00:30:00+00:00",
-   "status_group": 2,
-   "round": "Round",
-   "home": {
-    "id": 9141,
-    "name": "Tecnico Universitario"
-   },
-   "away": {
-    "id": 1282,
-    "name": "LDU"
-   },
-   "home_score": -1.0,
-   "away_score": -1.0,
-   "model": {
-    "lambda_home": 0.93,
-    "lambda_away": 1.13,
-    "expected_goals": 2.06,
-    "sample_factor": 1.0,
-    "probs": {
-     "HOME": 0.3,
-     "DRAW": 0.3011,
-     "AWAY": 0.3989,
-     "1X": 0.6011,
-     "X2": 0.7,
-     "12": 0.6989,
-     "OVER25": 0.3398,
-     "UNDER25": 0.6602,
-     "BTTS_YES": 0.4104,
-     "BTTS_NO": 0.5896
-    }
-   },
-   "pick": {
-    "selection": "X2",
-    "family": "double_chance",
-    "label": "Dupla chance: LDU ou empate (X2)",
-    "model_prob": 0.7,
-    "trend_alignment": 1.0,
-    "confidence": 53,
-    "eligible": true,
-    "odd": 1.25,
-    "low_conviction": false
-   },
-   "alt_markets": [
-    {
-     "selection": "AWAY",
-     "family": "1x2",
-     "label": "Vitória do LDU",
-     "model_prob": 0.3989,
-     "trend_alignment": 1.0,
-     "confidence": 41,
-     "eligible": false,
-     "odd": 1.9
-    },
-    {
-     "selection": "UNDER25",
-     "family": "over_under",
-     "label": "Menos de 2.5 gols",
-     "model_prob": 0.6602,
-     "trend_alignment": 0.114,
-     "confidence": 25,
-     "eligible": true,
-     "odd": 1.66
-    },
-    {
-     "selection": "BTTS_NO",
-     "family": "btts",
-     "label": "Ambos marcam: não",
-     "model_prob": 0.5896,
-     "trend_alignment": 0.114,
-     "confidence": 16,
-     "eligible": false,
-     "odd": null
-    },
-    {
-     "selection": "1X",
-     "family": "double_chance",
-     "label": "Dupla chance: Tecnico Universitario ou empate (1X)",
-     "model_prob": 0.6011,
-     "trend_alignment": 0.0,
-     "confidence": 7,
-     "eligible": false,
-     "odd": 1.85
-    }
-   ],
-   "trends": [
-    {
-     "label": "Perdeu 4 dos últimos 5",
-     "strength": 0.61,
-     "favors": "AWAY",
-     "team": "Tecnico Universitario",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Mais de 2.5 gols em 4 dos últimos 5",
-     "strength": 0.47,
-     "favors": "OVER",
-     "team": "Tecnico Universitario",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "over"
-    },
-    {
-     "label": "Melhor defesa da liga (0.8 sofridos/jogo)",
-     "strength": 0.5,
-     "favors": "AWAY",
-     "team": "LDU",
-     "side": "AWAY",
-     "group": "temporada",
-     "kind": "def_rank"
-    },
-    {
-     "label": "Menos de 2.5 gols em 5 dos últimos 6",
-     "strength": 0.483,
-     "favors": "UNDER",
-     "team": "LDU",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "under"
-    },
-    {
-     "label": "Não sofreu gol em 4 dos últimos 6",
-     "strength": 0.417,
-     "favors": "UNDER",
-     "team": "LDU",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "clean_sheets"
-    },
-    {
-     "label": "Pior defesa da liga (1.4 sofridos/jogo)",
-     "strength": 0.34,
-     "favors": "OVER",
-     "team": "Tecnico Universitario",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "def_bottom"
-    },
-    {
-     "label": "Tecnico Universitario é 14º · LDU é 6º",
-     "strength": 0.0,
-     "favors": null,
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "positions"
-    },
-    {
-     "label": "LDU está 8 posições à frente",
-     "strength": 0.571,
-     "favors": "AWAY",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "aligned_trends": [
-    {
-     "label": "Perdeu 4 dos últimos 5",
-     "strength": 0.61,
-     "favors": "AWAY",
-     "team": "Tecnico Universitario",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Melhor defesa da liga (0.8 sofridos/jogo)",
-     "strength": 0.5,
-     "favors": "AWAY",
-     "team": "LDU",
-     "side": "AWAY",
-     "group": "temporada",
-     "kind": "def_rank"
-    },
-    {
-     "label": "LDU está 8 posições à frente",
-     "strength": 0.571,
-     "favors": "AWAY",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "confidence": 53,
-   "league": {
-    "key": "ec_ligapro",
-    "name": "Liga Pro",
-    "country": "Equador"
-   },
-   "home_team": {
-    "id": 9141,
-    "name": "Tecnico Universitario",
-    "position": 14,
-    "played": 28,
-    "points": 29.0,
-    "record": "9V 2E 17D",
-    "goals_for": 26,
-    "goals_against": 39,
-    "last5": "LWLLL",
-    "recent": [
-     {
-      "result": "L",
-      "score": "0-1",
-      "home": false,
-      "opponent": "Delfin",
-      "date": "2026-09-01"
-     },
-     {
-      "result": "W",
-      "score": "3-1",
-      "home": true,
-      "opponent": "Deportivo Cuenca",
-      "date": "2026-08-29"
-     },
-     {
-      "result": "L",
-      "score": "2-3",
-      "home": true,
-      "opponent": "Guayaquil City",
-      "date": "2026-08-22"
-     },
-     {
-      "result": "L",
-      "score": "1-2",
-      "home": false,
-      "opponent": "Emelec",
-      "date": "2026-08-16"
-     },
-     {
-      "result": "L",
-      "score": "0-3",
-      "home": true,
-      "opponent": "Mushuc Runa",
-      "date": "2026-08-10"
-     }
-    ]
-   },
-   "away_team": {
-    "id": 1282,
-    "name": "LDU",
-    "position": 6,
-    "played": 28,
-    "points": 42.0,
-    "record": "12V 6E 10D",
-    "goals_for": 27,
-    "goals_against": 22,
-    "last5": "DLWDW",
-    "recent": [
-     {
-      "result": "D",
-      "score": "0-0",
-      "home": true,
-      "opponent": "Mushuc Runa",
-      "date": "2026-09-02"
-     },
-     {
-      "result": "L",
-      "score": "1-2",
-      "home": false,
-      "opponent": "Guayaquil City",
-      "date": "2026-08-29"
-     },
-     {
-      "result": "W",
-      "score": "2-0",
-      "home": true,
-      "opponent": "Emelec",
-      "date": "2026-08-24"
-     },
-     {
-      "result": "D",
-      "score": "0-0",
-      "home": true,
-      "opponent": "Mirassol",
-      "date": "2026-08-20"
-     },
-     {
-      "result": "W",
-      "score": "1-0",
-      "home": false,
-      "opponent": "SD Aucas",
-      "date": "2026-08-17"
-     }
-    ]
-   },
-   "kickoff_local": "2026-09-04T21:30:00-03:00",
-   "has_odds": true,
-   "odds_bookmaker": "3 casas",
-   "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   }
  ]
