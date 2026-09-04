@@ -1,147 +1,138 @@
 {
- "date": "2026-09-03",
- "generated_at": "2026-09-03T17:11:46.216631-03:00",
+ "date": "2026-09-04",
+ "generated_at": "2026-09-04T08:18:36.697078-03:00",
  "version": "0.1.0",
- "count": 3,
- "clear_count": 1,
- "day_total": 5,
+ "count": 5,
+ "clear_count": 5,
+ "day_total": 40,
  "games": [
   {
-   "id": 4732010,
-   "s365_competition_id": 620,
-   "competition_name": "Liga BetPlay - Clausura",
-   "start_time": "2026-09-03T21:00:00+00:00",
+   "id": 4748717,
+   "s365_competition_id": 129,
+   "competition_name": "Premier League",
+   "start_time": "2026-09-04T15:00:00+00:00",
    "status_group": 2,
    "round": "Round",
    "home": {
-    "id": 8645,
-    "name": "America de Cali"
+    "id": 48818,
+    "name": "Polissya"
    },
    "away": {
-    "id": 10209,
-    "name": "Alianza FC"
+    "id": 76458,
+    "name": "Kudrivka"
    },
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 2.68,
-    "lambda_away": 0.62,
-    "expected_goals": 3.3,
+    "lambda_home": 2.67,
+    "lambda_away": 0.58,
+    "expected_goals": 3.25,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.8071,
-     "DRAW": 0.1297,
-     "AWAY": 0.0632,
-     "1X": 0.9368,
-     "X2": 0.1929,
-     "12": 0.8703,
-     "OVER25": 0.6397,
-     "UNDER25": 0.3603,
-     "BTTS_YES": 0.4319,
-     "BTTS_NO": 0.5681
+     "HOME": 0.8149,
+     "DRAW": 0.1269,
+     "AWAY": 0.0581,
+     "1X": 0.9419,
+     "X2": 0.1851,
+     "12": 0.8731,
+     "OVER25": 0.6299,
+     "UNDER25": 0.3701,
+     "BTTS_YES": 0.4104,
+     "BTTS_NO": 0.5896
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
-    "label": "Vitória do America de Cali",
-    "model_prob": 0.8071,
+    "label": "Vitória do Polissya",
+    "model_prob": 0.8149,
     "trend_alignment": 1.0,
-    "confidence": 85,
+    "confidence": 86,
     "eligible": true,
-    "odd": 1.29,
+    "odd": 1.18,
     "low_conviction": false
    },
    "alt_markets": [
     {
      "selection": "1X",
      "family": "double_chance",
-     "label": "Dupla chance: America de Cali ou empate (1X)",
-     "model_prob": 0.9368,
+     "label": "Dupla chance: Polissya ou empate (1X)",
+     "model_prob": 0.9419,
      "trend_alignment": 1.0,
-     "confidence": 85,
+     "confidence": 86,
      "eligible": true,
-     "odd": 1.04
+     "odd": 1.03
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6397,
-     "trend_alignment": 0.0,
-     "confidence": 18,
+     "model_prob": 0.6299,
+     "trend_alignment": 0.3,
+     "confidence": 27,
      "eligible": true,
-     "odd": 1.85
+     "odd": 1.66
     },
     {
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.5681,
-     "trend_alignment": 0.26,
-     "confidence": 18,
+     "model_prob": 0.5896,
+     "trend_alignment": 0.0,
+     "confidence": 12,
      "eligible": false,
      "odd": null
     },
     {
-     "selection": "UNDER25",
-     "family": "over_under",
-     "label": "Menos de 2.5 gols",
-     "model_prob": 0.3603,
-     "trend_alignment": 0.26,
-     "confidence": 9,
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.4104,
+     "trend_alignment": 0.3,
+     "confidence": 10,
      "eligible": false,
-     "odd": 1.95
+     "odd": null
     }
    ],
    "trends": [
     {
-     "label": "Perdeu 4 dos últimos 5",
-     "strength": 0.61,
+     "label": "Venceu 3 dos últimos 4",
+     "strength": 0.625,
      "favors": "HOME",
-     "team": "Alianza FC",
-     "side": "AWAY",
+     "team": "Polissya",
+     "side": "HOME",
      "group": "geral",
-     "kind": "losses"
+     "kind": "wins"
     },
     {
-     "label": "Invicto em 5 dos últimos 5",
+     "label": "Mais de 2.5 gols em 3 dos últimos 4",
+     "strength": 0.45,
+     "favors": "OVER",
+     "team": "Polissya",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Não venceu nenhum dos últimos 4",
      "strength": 0.55,
      "favors": "HOME",
-     "team": "America de Cali",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "unbeaten"
-    },
-    {
-     "label": "Não sofreu gol em 3 dos últimos 5",
-     "strength": 0.39,
-     "favors": "UNDER",
-     "team": "America de Cali",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "clean_sheets"
-    },
-    {
-     "label": "Invicto há 5+ jogos",
-     "strength": 0.333,
-     "favors": "HOME",
-     "team": "America de Cali",
-     "side": "HOME",
-     "group": "sequencia",
-     "kind": "unbeaten_streak"
-    },
-    {
-     "label": "Não vence há 5+ jogos",
-     "strength": 0.333,
-     "favors": "HOME",
-     "team": "Alianza FC",
+     "team": "Kudrivka",
      "side": "AWAY",
-     "group": "sequencia",
-     "kind": "winless_streak"
+     "group": "geral",
+     "kind": "winless"
     },
     {
-     "label": "America de Cali é 1º · Alianza FC é 18º",
+     "label": "Não marcou em 3 dos últimos 4",
+     "strength": 0.425,
+     "favors": "HOME",
+     "team": "Kudrivka",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "no_score"
+    },
+    {
+     "label": "Polissya é 2º · Kudrivka é 15º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -150,7 +141,7 @@
      "kind": "positions"
     },
     {
-     "label": "America de Cali está 17 posições à frente",
+     "label": "Polissya está 13 posições à frente",
      "strength": 0.8,
      "favors": "HOME",
      "team": null,
@@ -161,43 +152,34 @@
    ],
    "aligned_trends": [
     {
-     "label": "Perdeu 4 dos últimos 5",
-     "strength": 0.61,
+     "label": "Venceu 3 dos últimos 4",
+     "strength": 0.625,
      "favors": "HOME",
-     "team": "Alianza FC",
-     "side": "AWAY",
+     "team": "Polissya",
+     "side": "HOME",
      "group": "geral",
-     "kind": "losses"
+     "kind": "wins"
     },
     {
-     "label": "Invicto em 5 dos últimos 5",
+     "label": "Não venceu nenhum dos últimos 4",
      "strength": 0.55,
      "favors": "HOME",
-     "team": "America de Cali",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "unbeaten"
-    },
-    {
-     "label": "Invicto há 5+ jogos",
-     "strength": 0.333,
-     "favors": "HOME",
-     "team": "America de Cali",
-     "side": "HOME",
-     "group": "sequencia",
-     "kind": "unbeaten_streak"
-    },
-    {
-     "label": "Não vence há 5+ jogos",
-     "strength": 0.333,
-     "favors": "HOME",
-     "team": "Alianza FC",
+     "team": "Kudrivka",
      "side": "AWAY",
-     "group": "sequencia",
-     "kind": "winless_streak"
+     "group": "geral",
+     "kind": "winless"
     },
     {
-     "label": "America de Cali está 17 posições à frente",
+     "label": "Não marcou em 3 dos últimos 4",
+     "strength": 0.425,
+     "favors": "HOME",
+     "team": "Kudrivka",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "no_score"
+    },
+    {
+     "label": "Polissya está 13 posições à frente",
      "strength": 0.8,
      "favors": "HOME",
      "team": null,
@@ -206,464 +188,811 @@
      "kind": "table_gap"
     }
    ],
-   "confidence": 85,
+   "confidence": 86,
    "league": {
-    "key": "co_primera",
-    "name": "Liga BetPlay",
-    "country": "Colômbia"
+    "key": "ukraine",
+    "name": "Premier League",
+    "country": "Ucrânia"
    },
    "home_team": {
-    "id": 8645,
-    "name": "America de Cali",
-    "position": 1,
-    "played": 7,
-    "points": 17.0,
-    "record": "5V 2E 0D",
-    "goals_for": 17,
+    "id": 48818,
+    "name": "Polissya",
+    "position": 2,
+    "played": 4,
+    "points": 9.0,
+    "record": "3V 0E 1D",
+    "goals_for": 8,
     "goals_against": 4,
-    "last5": "DWDWW",
+    "last5": "WLWW",
     "recent": [
      {
-      "result": "D",
-      "score": "2-2",
+      "result": "W",
+      "score": "2-0",
       "home": false,
-      "opponent": "Jaguares de Córdoba",
+      "opponent": "Shakhtar Donetsk",
       "date": "2026-08-29"
-     },
-     {
-      "result": "W",
-      "score": "4-2",
-      "home": true,
-      "opponent": "Junior FC",
-      "date": "2026-08-26"
-     },
-     {
-      "result": "D",
-      "score": "0-0",
-      "home": false,
-      "opponent": "Independiente Santa Fe",
-      "date": "2026-08-22"
-     },
-     {
-      "result": "W",
-      "score": "1-0",
-      "home": true,
-      "opponent": "Atletico Nacional",
-      "date": "2026-08-10"
-     },
-     {
-      "result": "W",
-      "score": "1-0",
-      "home": false,
-      "opponent": "Once Caldas",
-      "date": "2026-08-06"
-     }
-    ]
-   },
-   "away_team": {
-    "id": 10209,
-    "name": "Alianza FC",
-    "position": 18,
-    "played": 6,
-    "points": 2.0,
-    "record": "0V 2E 4D",
-    "goals_for": 5,
-    "goals_against": 12,
-    "last5": "LLDLL",
-    "recent": [
-     {
-      "result": "L",
-      "score": "1-5",
-      "home": true,
-      "opponent": "Atletico Nacional",
-      "date": "2026-08-30"
-     },
-     {
-      "result": "L",
-      "score": "0-1",
-      "home": false,
-      "opponent": "Cucuta Deportivo",
-      "date": "2026-08-26"
-     },
-     {
-      "result": "D",
-      "score": "0-0",
-      "home": true,
-      "opponent": "Deportivo Pereira",
-      "date": "2026-08-22"
-     },
-     {
-      "result": "L",
-      "score": "2-3",
-      "home": true,
-      "opponent": "Atlético Bucaramanga",
-      "date": "2026-08-09"
      },
      {
       "result": "L",
       "score": "1-2",
       "home": true,
-      "opponent": "Deportes Tolima",
-      "date": "2026-08-01"
+      "opponent": "Zorya Luhansk",
+      "date": "2026-08-17"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": true,
+      "opponent": "Kharkiv",
+      "date": "2026-08-10"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Chornomorets Odesa",
+      "date": "2026-08-02"
      }
     ]
    },
-   "kickoff_local": "2026-09-03T18:00:00-03:00",
+   "away_team": {
+    "id": 76458,
+    "name": "Kudrivka",
+    "position": 15,
+    "played": 4,
+    "points": 2.0,
+    "record": "0V 2E 2D",
+    "goals_for": 1,
+    "goals_against": 8,
+    "last5": "LDDL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": true,
+      "opponent": "Epicentr",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Obolon Kyiv",
+      "date": "2026-08-15"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Livyi Bereh",
+      "date": "2026-08-08"
+     },
+     {
+      "result": "L",
+      "score": "1-5",
+      "home": false,
+      "opponent": "Shakhtar Donetsk",
+      "date": "2026-08-03"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-04T12:00:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
    "clear": true
   },
   {
-   "id": 4665946,
-   "s365_competition_id": 5062,
-   "competition_name": "Liga Pro",
-   "start_time": "2026-09-04T00:00:00+00:00",
+   "id": 4760846,
+   "s365_competition_id": 583,
+   "competition_name": "Liga 1 - Clausura",
+   "start_time": "2026-09-04T20:15:00+00:00",
    "status_group": 2,
    "round": "Round",
    "home": {
-    "id": 69463,
-    "name": "Libertad"
+    "id": 8418,
+    "name": "Alianza Atletico"
    },
    "away": {
-    "id": 7203,
-    "name": "Emelec"
+    "id": 10367,
+    "name": "UTC"
    },
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 1.49,
-    "lambda_away": 0.72,
-    "expected_goals": 2.2,
+    "lambda_home": 2.67,
+    "lambda_away": 0.87,
+    "expected_goals": 3.54,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.557,
-     "DRAW": 0.2634,
-     "AWAY": 0.1796,
-     "1X": 0.8204,
-     "X2": 0.443,
-     "12": 0.7366,
-     "OVER25": 0.3777,
-     "UNDER25": 0.6223,
-     "BTTS_YES": 0.3954,
-     "BTTS_NO": 0.6046
+     "HOME": 0.7549,
+     "DRAW": 0.1475,
+     "AWAY": 0.0976,
+     "1X": 0.9024,
+     "X2": 0.2451,
+     "12": 0.8525,
+     "OVER25": 0.6854,
+     "UNDER25": 0.3146,
+     "BTTS_YES": 0.54,
+     "BTTS_NO": 0.46
     }
    },
    "pick": {
-    "selection": "1X",
-    "family": "double_chance",
-    "label": "Dupla chance: Libertad ou empate (1X)",
-    "model_prob": 0.8204,
-    "trend_alignment": 0.573,
-    "confidence": 56,
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Alianza Atletico",
+    "model_prob": 0.7549,
+    "trend_alignment": 1.0,
+    "confidence": 81,
     "eligible": true,
-    "odd": 1.33,
+    "odd": 1.56,
     "low_conviction": false
    },
    "alt_markets": [
     {
-     "selection": "HOME",
-     "family": "1x2",
-     "label": "Vitória do Libertad",
-     "model_prob": 0.557,
-     "trend_alignment": 0.573,
-     "confidence": 41,
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Alianza Atletico ou empate (1X)",
+     "model_prob": 0.9024,
+     "trend_alignment": 1.0,
+     "confidence": 81,
      "eligible": true,
-     "odd": 2.2
+     "odd": 1.16
     },
     {
-     "selection": "UNDER25",
+     "selection": "OVER25",
      "family": "over_under",
-     "label": "Menos de 2.5 gols",
-     "model_prob": 0.6223,
-     "trend_alignment": 0.0,
-     "confidence": 16,
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6854,
+     "trend_alignment": 0.573,
+     "confidence": 44,
      "eligible": true,
-     "odd": 1.53
+     "odd": 1.85
     },
     {
-     "selection": "BTTS_NO",
+     "selection": "BTTS_YES",
      "family": "btts",
-     "label": "Ambos marcam: não",
-     "model_prob": 0.6046,
-     "trend_alignment": 0.0,
-     "confidence": 14,
-     "eligible": true,
+     "label": "Ambos os times marcam",
+     "model_prob": 0.54,
+     "trend_alignment": 0.573,
+     "confidence": 25,
+     "eligible": false,
      "odd": null
     },
     {
      "selection": "AWAY",
      "family": "1x2",
-     "label": "Vitória do Emelec",
-     "model_prob": 0.1796,
+     "label": "Vitória do UTC",
+     "model_prob": 0.0976,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 3.4
+     "odd": 5.23
     }
    ],
    "trends": [
     {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "HOME",
+     "team": "UTC",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Ambos marcaram em 4 dos últimos 5",
+     "strength": 0.43,
+     "favors": "BTTS_YES",
+     "team": "UTC",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "btts"
+    },
+    {
      "label": "Invicto em 4 dos últimos 5",
      "strength": 0.48,
      "favors": "HOME",
-     "team": "Libertad",
+     "team": "Alianza Atletico",
      "side": "HOME",
      "group": "geral",
      "kind": "unbeaten"
     },
     {
-     "label": "Não marcou em 3 dos últimos 5",
-     "strength": 0.38,
-     "favors": "HOME",
-     "team": "Emelec",
-     "side": "AWAY",
+     "label": "Ambos marcaram em 4 dos últimos 5",
+     "strength": 0.43,
+     "favors": "BTTS_YES",
+     "team": "Alianza Atletico",
+     "side": "HOME",
      "group": "geral",
-     "kind": "no_score"
+     "kind": "btts"
     },
     {
-     "label": "Libertad é 8º · Emelec é 11º",
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "UTC",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Alianza Atletico é 4º · UTC é 18º",
      "strength": 0.0,
      "favors": null,
      "team": null,
      "side": null,
      "group": "confronto",
      "kind": "positions"
+    },
+    {
+     "label": "Alianza Atletico está 14 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
     }
    ],
    "aligned_trends": [
     {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "HOME",
+     "team": "UTC",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
      "label": "Invicto em 4 dos últimos 5",
      "strength": 0.48,
      "favors": "HOME",
-     "team": "Libertad",
+     "team": "Alianza Atletico",
      "side": "HOME",
      "group": "geral",
      "kind": "unbeaten"
     },
     {
-     "label": "Não marcou em 3 dos últimos 5",
-     "strength": 0.38,
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
      "favors": "HOME",
-     "team": "Emelec",
+     "team": "UTC",
      "side": "AWAY",
-     "group": "geral",
-     "kind": "no_score"
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Alianza Atletico está 14 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
     }
    ],
-   "confidence": 56,
+   "confidence": 81,
    "league": {
-    "key": "ec_ligapro",
-    "name": "Liga Pro",
-    "country": "Equador"
+    "key": "pe_liga1",
+    "name": "Liga 1",
+    "country": "Peru"
    },
    "home_team": {
-    "id": 69463,
-    "name": "Libertad",
-    "position": 8,
-    "played": 27,
-    "points": 37.0,
-    "record": "10V 7E 10D",
-    "goals_for": 29,
-    "goals_against": 30,
-    "last5": "LWDWW",
+    "id": 8418,
+    "name": "Alianza Atletico",
+    "position": 4,
+    "played": 7,
+    "points": 13.0,
+    "record": "4V 1E 2D",
+    "goals_for": 14,
+    "goals_against": 11,
+    "last5": "WWDWL",
     "recent": [
      {
-      "result": "L",
-      "score": "0-1",
+      "result": "W",
+      "score": "4-1",
       "home": false,
-      "opponent": "SD Aucas",
+      "opponent": "Deportivo Moquegua",
       "date": "2026-08-30"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": true,
+      "opponent": "Sporting Cristal",
+      "date": "2026-08-21"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "ADT Tarma",
+      "date": "2026-08-15"
      },
      {
       "result": "W",
       "score": "1-0",
       "home": true,
-      "opponent": "Macará",
-      "date": "2026-08-25"
-     },
-     {
-      "result": "D",
-      "score": "2-2",
-      "home": false,
-      "opponent": "Guayaquil City",
-      "date": "2026-08-15"
-     },
-     {
-      "result": "W",
-      "score": "2-1",
-      "home": true,
-      "opponent": "Universidad Catolica",
-      "date": "2026-08-10"
-     },
-     {
-      "result": "W",
-      "score": "3-0",
-      "home": true,
-      "opponent": "Orense SC",
-      "date": "2026-08-01"
-     }
-    ]
-   },
-   "away_team": {
-    "id": 7203,
-    "name": "Emelec",
-    "position": 11,
-    "played": 27,
-    "points": 35.0,
-    "record": "9V 8E 10D",
-    "goals_for": 23,
-    "goals_against": 32,
-    "last5": "WLWDL",
-    "recent": [
-     {
-      "result": "W",
-      "score": "2-1",
-      "home": true,
-      "opponent": "Leones FC",
-      "date": "2026-08-30"
+      "opponent": "Cienciano",
+      "date": "2026-08-06"
      },
      {
       "result": "L",
-      "score": "0-2",
+      "score": "1-3",
       "home": false,
-      "opponent": "LDU",
-      "date": "2026-08-24"
-     },
-     {
-      "result": "W",
-      "score": "2-1",
-      "home": true,
-      "opponent": "Tecnico Universitario",
-      "date": "2026-08-16"
-     },
-     {
-      "result": "D",
-      "score": "0-0",
-      "home": false,
-      "opponent": "Guayaquil City",
-      "date": "2026-08-10"
-     },
-     {
-      "result": "L",
-      "score": "0-2",
-      "home": true,
-      "opponent": "SD Aucas",
+      "opponent": "Alianza Lima",
       "date": "2026-08-02"
      }
     ]
    },
-   "kickoff_local": "2026-09-03T21:00:00-03:00",
+   "away_team": {
+    "id": 10367,
+    "name": "UTC",
+    "position": 18,
+    "played": 7,
+    "points": -3.0,
+    "record": "0V 2E 5D",
+    "goals_for": 6,
+    "goals_against": 16,
+    "last5": "LLLDL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "2-4",
+      "home": true,
+      "opponent": "Universitario",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": true,
+      "opponent": "Comerciantes Unidos",
+      "date": "2026-08-22"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Alianza Lima",
+      "date": "2026-08-16"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "ADT Tarma",
+      "date": "2026-08-08"
+     },
+     {
+      "result": "L",
+      "score": "1-4",
+      "home": false,
+      "opponent": "Cusco FC",
+      "date": "2026-08-01"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-04T17:15:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
-   "clear": false,
-   "below_bar": true
+   "clear": true
   },
   {
-   "id": 4732027,
-   "s365_competition_id": 620,
-   "competition_name": "Liga BetPlay - Clausura",
-   "start_time": "2026-09-04T01:00:00+00:00",
+   "id": 4731509,
+   "s365_competition_id": 119,
+   "competition_name": "Superliga",
+   "start_time": "2026-09-04T17:00:00+00:00",
    "status_group": 2,
    "round": "Round",
    "home": {
-    "id": 8638,
-    "name": "Deportivo Pereira"
+    "id": 1833,
+    "name": "Viborg"
    },
    "away": {
-    "id": 8643,
-    "name": "Independiente Medellin"
+    "id": 1832,
+    "name": "Lyngby"
    },
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 0.96,
-    "lambda_away": 0.96,
-    "expected_goals": 1.92,
-    "sample_factor": 0.8,
+    "lambda_home": 2.09,
+    "lambda_away": 0.83,
+    "expected_goals": 2.92,
+    "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.3426,
-     "DRAW": 0.3162,
-     "AWAY": 0.3413,
-     "1X": 0.6587,
-     "X2": 0.6574,
-     "12": 0.6838,
-     "OVER25": 0.3019,
-     "UNDER25": 0.6981,
-     "BTTS_YES": 0.381,
-     "BTTS_NO": 0.619
+     "HOME": 0.6662,
+     "DRAW": 0.1966,
+     "AWAY": 0.1373,
+     "1X": 0.8627,
+     "X2": 0.3338,
+     "12": 0.8034,
+     "OVER25": 0.5578,
+     "UNDER25": 0.4422,
+     "BTTS_YES": 0.4927,
+     "BTTS_NO": 0.5073
     }
    },
    "pick": {
-    "selection": "X2",
+    "selection": "1X",
     "family": "double_chance",
-    "label": "Dupla chance: Independiente Medellin ou empate (X2)",
-    "model_prob": 0.6574,
+    "label": "Dupla chance: Viborg ou empate (1X)",
+    "model_prob": 0.8627,
     "trend_alignment": 1.0,
-    "confidence": 38,
+    "confidence": 75,
     "eligible": true,
-    "odd": 1.16,
+    "odd": null,
     "low_conviction": false
    },
    "alt_markets": [
     {
-     "selection": "UNDER25",
-     "family": "over_under",
-     "label": "Menos de 2.5 gols",
-     "model_prob": 0.6981,
-     "trend_alignment": 0.313,
-     "confidence": 29,
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Viborg",
+     "model_prob": 0.6662,
+     "trend_alignment": 1.0,
+     "confidence": 67,
      "eligible": true,
-     "odd": 1.89
+     "odd": null
     },
     {
-     "selection": "AWAY",
-     "family": "1x2",
-     "label": "Vitória do Independiente Medellin",
-     "model_prob": 0.3413,
-     "trend_alignment": 1.0,
-     "confidence": 28,
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5578,
+     "trend_alignment": 0.287,
+     "confidence": 18,
      "eligible": false,
-     "odd": 1.63
+     "odd": null
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.4927,
+     "trend_alignment": 0.287,
+     "confidence": 10,
+     "eligible": false,
+     "odd": null
     },
     {
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.619,
-     "trend_alignment": 0.313,
-     "confidence": 21,
-     "eligible": true,
+     "model_prob": 0.5073,
+     "trend_alignment": 0.0,
+     "confidence": 1,
+     "eligible": false,
      "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Não venceu nenhum dos últimos 5",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Lyngby",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "winless"
     },
+    {
+     "label": "Ambos marcaram em 4 dos últimos 5",
+     "strength": 0.43,
+     "favors": "BTTS_YES",
+     "team": "Lyngby",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "btts"
+    },
+    {
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Viborg",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Viborg",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Lyngby",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Viborg é 3º · Lyngby é 11º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Viborg está 8 posições à frente",
+     "strength": 0.571,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Não venceu nenhum dos últimos 5",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Lyngby",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Viborg",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Viborg",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Lyngby",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Viborg está 8 posições à frente",
+     "strength": 0.571,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 75,
+   "league": {
+    "key": "denmark",
+    "name": "Superliga",
+    "country": "Dinamarca"
+   },
+   "home_team": {
+    "id": 1833,
+    "name": "Viborg",
+    "position": 3,
+    "played": 6,
+    "points": 13.0,
+    "record": "4V 1E 1D",
+    "goals_for": 10,
+    "goals_against": 4,
+    "last5": "WWWDL",
+    "recent": [
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": false,
+      "opponent": "Horsens",
+      "date": "2026-08-28"
+     },
+     {
+      "result": "W",
+      "score": "4-0",
+      "home": true,
+      "opponent": "FC Copenhagen",
+      "date": "2026-08-23"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Aarhus",
+      "date": "2026-08-14"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Sonderjyske",
+      "date": "2026-08-07"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Brøndby IF",
+      "date": "2026-08-02"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 1832,
+    "name": "Lyngby",
+    "position": 11,
+    "played": 6,
+    "points": 3.0,
+    "record": "0V 3E 3D",
+    "goals_for": 7,
+    "goals_against": 11,
+    "last5": "DLDLD",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Odense",
+      "date": "2026-08-30"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Horsens",
+      "date": "2026-08-23"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "FC Midtjylland",
+      "date": "2026-08-16"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Randers FC",
+      "date": "2026-08-09"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "Aarhus",
+      "date": "2026-08-01"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-04T14:00:00-03:00",
+   "has_odds": false,
+   "odds_bookmaker": null,
+   "is_cup": false,
+   "clear": true
+  },
+  {
+   "id": 4826567,
+   "s365_competition_id": 617,
+   "competition_name": "Uruguayan Championship - Clausura",
+   "start_time": "2026-09-04T22:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 12675,
+    "name": "Montevideo City Torque"
+   },
+   "away": {
+    "id": 8618,
+    "name": "Cerro Largo"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.99,
+    "lambda_away": 0.86,
+    "expected_goals": 2.85,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.6384,
+     "DRAW": 0.208,
+     "AWAY": 0.1537,
+     "1X": 0.8463,
+     "X2": 0.3616,
+     "12": 0.792,
+     "OVER25": 0.5421,
+     "UNDER25": 0.4579,
+     "BTTS_YES": 0.4973,
+     "BTTS_NO": 0.5027
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Montevideo City Torque",
+    "model_prob": 0.6384,
+    "trend_alignment": 1.0,
+    "confidence": 73,
+    "eligible": true,
+    "odd": 1.5,
+    "low_conviction": false
+   },
+   "alt_markets": [
     {
      "selection": "1X",
      "family": "double_chance",
-     "label": "Dupla chance: Deportivo Pereira ou empate (1X)",
-     "model_prob": 0.6587,
-     "trend_alignment": 0.0,
-     "confidence": 12,
+     "label": "Dupla chance: Montevideo City Torque ou empate (1X)",
+     "model_prob": 0.8463,
+     "trend_alignment": 1.0,
+     "confidence": 73,
      "eligible": true,
-     "odd": 2.27
+     "odd": 1.12
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.4579,
+     "trend_alignment": 0.313,
+     "confidence": 11,
+     "eligible": false,
+     "odd": 1.78
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5027,
+     "trend_alignment": 0.313,
+     "confidence": 11,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5421,
+     "trend_alignment": 0.0,
+     "confidence": 5,
+     "eligible": false,
+     "odd": 1.98
     }
    ],
    "trends": [
     {
      "label": "Venceu 4 dos últimos 5",
      "strength": 0.65,
-     "favors": "AWAY",
-     "team": "Independiente Medellin",
-     "side": "AWAY",
+     "favors": "HOME",
+     "team": "Montevideo City Torque",
+     "side": "HOME",
      "group": "geral",
      "kind": "wins"
     },
     {
-     "label": "Só venceu 1 dos últimos 5",
-     "strength": 0.48,
-     "favors": "AWAY",
-     "team": "Deportivo Pereira",
-     "side": "HOME",
+     "label": "Não venceu nenhum dos últimos 5",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Cerro Largo",
+     "side": "AWAY",
      "group": "geral",
      "kind": "winless"
     },
@@ -671,13 +1000,31 @@
      "label": "Menos de 2.5 gols em 4 dos últimos 5",
      "strength": 0.47,
      "favors": "UNDER",
-     "team": "Deportivo Pereira",
-     "side": "HOME",
+     "team": "Cerro Largo",
+     "side": "AWAY",
      "group": "geral",
      "kind": "under"
     },
     {
-     "label": "Deportivo Pereira é 15º · Independiente Medellin é 4º",
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Montevideo City Torque",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Cerro Largo",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Montevideo City Torque é 2º · Cerro Largo é 10º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -686,9 +1033,9 @@
      "kind": "positions"
     },
     {
-     "label": "Independiente Medellin está 11 posições à frente",
-     "strength": 0.786,
-     "favors": "AWAY",
+     "label": "Montevideo City Torque está 8 posições à frente",
+     "strength": 0.571,
+     "favors": "HOME",
      "team": null,
      "side": null,
      "group": "confronto",
@@ -699,24 +1046,267 @@
     {
      "label": "Venceu 4 dos últimos 5",
      "strength": 0.65,
-     "favors": "AWAY",
-     "team": "Independiente Medellin",
-     "side": "AWAY",
+     "favors": "HOME",
+     "team": "Montevideo City Torque",
+     "side": "HOME",
      "group": "geral",
      "kind": "wins"
     },
     {
-     "label": "Só venceu 1 dos últimos 5",
-     "strength": 0.48,
-     "favors": "AWAY",
-     "team": "Deportivo Pereira",
-     "side": "HOME",
+     "label": "Não venceu nenhum dos últimos 5",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Cerro Largo",
+     "side": "AWAY",
      "group": "geral",
      "kind": "winless"
     },
     {
-     "label": "Independiente Medellin está 11 posições à frente",
-     "strength": 0.786,
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Montevideo City Torque",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Cerro Largo",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Montevideo City Torque está 8 posições à frente",
+     "strength": 0.571,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 73,
+   "league": {
+    "key": "uy_primera",
+    "name": "Primera División",
+    "country": "Uruguai"
+   },
+   "home_team": {
+    "id": 12675,
+    "name": "Montevideo City Torque",
+    "position": 2,
+    "played": 3,
+    "points": 9.0,
+    "record": "3V 0E 0D",
+    "goals_for": 9,
+    "goals_against": 2,
+    "last5": "WWWLW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": false,
+      "opponent": "Defensor Sporting",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "W",
+      "score": "5-1",
+      "home": true,
+      "opponent": "Montevideo Wanderers",
+      "date": "2026-08-23"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Juventud",
+      "date": "2026-08-15"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": true,
+      "opponent": "Montevideo Wanderers",
+      "date": "2026-07-31"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Danubio FC",
+      "date": "2026-07-24"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 8618,
+    "name": "Cerro Largo",
+    "position": 10,
+    "played": 4,
+    "points": 4.0,
+    "record": "0V 4E 0D",
+    "goals_for": 4,
+    "goals_against": 4,
+    "last5": "DDDDL",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Liverpool Montevideo",
+      "date": "2026-08-30"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Defensor Sporting",
+      "date": "2026-08-22"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Montevideo Wanderers",
+      "date": "2026-08-15"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Juventud",
+      "date": "2026-08-07"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": false,
+      "opponent": "Peñarol",
+      "date": "2026-08-01"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-04T19:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "3 casas",
+   "is_cup": false,
+   "clear": true
+  },
+  {
+   "id": 4781130,
+   "s365_competition_id": 549,
+   "competition_name": "UAE Pro League",
+   "start_time": "2026-09-04T13:45:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 8355,
+    "name": "Kalba"
+   },
+   "away": {
+    "id": 8353,
+    "name": "Al Ain"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.0,
+    "lambda_away": 2.58,
+    "expected_goals": 3.58,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.1242,
+     "DRAW": 0.1619,
+     "AWAY": 0.7139,
+     "1X": 0.2861,
+     "X2": 0.8758,
+     "12": 0.8381,
+     "OVER25": 0.6931,
+     "UNDER25": 0.3069,
+     "BTTS_YES": 0.5835,
+     "BTTS_NO": 0.4165
+    }
+   },
+   "pick": {
+    "selection": "AWAY",
+    "family": "1x2",
+    "label": "Vitória do Al Ain",
+    "model_prob": 0.7139,
+    "trend_alignment": 0.714,
+    "confidence": 68,
+    "eligible": true,
+    "odd": 1.22,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "X2",
+     "family": "double_chance",
+     "label": "Dupla chance: Al Ain ou empate (X2)",
+     "model_prob": 0.8758,
+     "trend_alignment": 0.714,
+     "confidence": 68,
+     "eligible": true,
+     "odd": 1.06
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6931,
+     "trend_alignment": 0.0,
+     "confidence": 25,
+     "eligible": true,
+     "odd": 2.1
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5835,
+     "trend_alignment": 0.0,
+     "confidence": 11,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Kalba",
+     "model_prob": 0.1242,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 9.5
+    }
+   ],
+   "trends": [
+    {
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "Al Ain",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Kalba é 11º · Al Ain é 3º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Al Ain está 8 posições à frente",
+     "strength": 0.571,
      "favors": "AWAY",
      "team": null,
      "side": null,
@@ -724,114 +1314,105 @@
      "kind": "table_gap"
     }
    ],
-   "confidence": 38,
+   "aligned_trends": [
+    {
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "Al Ain",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Al Ain está 8 posições à frente",
+     "strength": 0.571,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 68,
    "league": {
-    "key": "co_primera",
-    "name": "Liga BetPlay",
-    "country": "Colômbia"
+    "key": "uae",
+    "name": "UAE Pro League",
+    "country": "Emirados Árabes"
    },
    "home_team": {
-    "id": 8638,
-    "name": "Deportivo Pereira",
-    "position": 15,
-    "played": 4,
-    "points": 5.0,
-    "record": "1V 2E 1D",
-    "goals_for": 2,
-    "goals_against": 2,
-    "last5": "WDDLL",
+    "id": 8355,
+    "name": "Kalba",
+    "position": 11,
+    "played": 3,
+    "points": 1.0,
+    "record": "0V 1E 2D",
+    "goals_for": 3,
+    "goals_against": 9,
+    "last5": "LLD",
     "recent": [
      {
-      "result": "W",
-      "score": "2-1",
+      "result": "L",
+      "score": "1-4",
       "home": false,
-      "opponent": "Deportivo Pasto",
-      "date": "2026-08-31"
-     },
-     {
-      "result": "D",
-      "score": "0-0",
-      "home": false,
-      "opponent": "Alianza FC",
-      "date": "2026-08-22"
-     },
-     {
-      "result": "D",
-      "score": "0-0",
-      "home": false,
-      "opponent": "Fortaleza FC",
-      "date": "2026-08-01"
+      "opponent": "Dubai United",
+      "date": "2026-08-28"
      },
      {
       "result": "L",
-      "score": "0-1",
-      "home": false,
-      "opponent": "Llaneros FC",
-      "date": "2026-07-24"
+      "score": "0-3",
+      "home": true,
+      "opponent": "Al Wasl",
+      "date": "2026-08-21"
      },
      {
-      "result": "L",
-      "score": "0-1",
+      "result": "D",
+      "score": "2-2",
       "home": false,
-      "opponent": "America de Cali",
-      "date": "2026-05-03"
+      "opponent": "Al Nasr Dubai",
+      "date": "2026-08-14"
      }
     ]
    },
    "away_team": {
-    "id": 8643,
-    "name": "Independiente Medellin",
-    "position": 4,
-    "played": 5,
-    "points": 12.0,
-    "record": "4V 0E 1D",
-    "goals_for": 9,
-    "goals_against": 6,
-    "last5": "WLWWW",
+    "id": 8353,
+    "name": "Al Ain",
+    "position": 3,
+    "played": 3,
+    "points": 9.0,
+    "record": "3V 0E 0D",
+    "goals_for": 8,
+    "goals_against": 3,
+    "last5": "WWW",
     "recent": [
      {
       "result": "W",
       "score": "2-1",
       "home": true,
-      "opponent": "Llaneros FC",
-      "date": "2026-08-30"
-     },
-     {
-      "result": "L",
-      "score": "0-1",
-      "home": true,
-      "opponent": "Cucuta Deportivo",
-      "date": "2026-08-23"
+      "opponent": "Al Nasr Dubai",
+      "date": "2026-08-29"
      },
      {
       "result": "W",
-      "score": "3-2",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Khor Fakkan",
+      "date": "2026-08-22"
+     },
+     {
+      "result": "W",
+      "score": "4-2",
       "home": false,
-      "opponent": "Deportes Tolima",
-      "date": "2026-08-04"
-     },
-     {
-      "result": "W",
-      "score": "1-0",
-      "home": true,
-      "opponent": "Deportivo Cali",
-      "date": "2026-08-01"
-     },
-     {
-      "result": "W",
-      "score": "3-2",
-      "home": true,
-      "opponent": "Deportivo Pasto",
-      "date": "2026-07-25"
+      "opponent": "Baniyas",
+      "date": "2026-08-16"
      }
     ]
    },
-   "kickoff_local": "2026-09-03T22:00:00-03:00",
+   "kickoff_local": "2026-09-04T10:45:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
-   "clear": false,
-   "below_bar": true
+   "clear": true
   }
  ]
 }

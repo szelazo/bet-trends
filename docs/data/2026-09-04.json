@@ -1,10 +1,10 @@
 {
  "date": "2026-09-04",
- "generated_at": "2026-09-03T17:11:46.217560-03:00",
+ "generated_at": "2026-09-04T08:18:36.697078-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
- "day_total": 41,
+ "day_total": 40,
  "games": [
   {
    "id": 4748717,
@@ -25,31 +25,31 @@
    "away_score": -1.0,
    "model": {
     "lambda_home": 2.67,
-    "lambda_away": 0.59,
-    "expected_goals": 3.26,
+    "lambda_away": 0.58,
+    "expected_goals": 3.25,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.8139,
-     "DRAW": 0.1273,
-     "AWAY": 0.0588,
-     "1X": 0.9412,
-     "X2": 0.1861,
-     "12": 0.8727,
-     "OVER25": 0.6318,
-     "UNDER25": 0.3682,
-     "BTTS_YES": 0.4139,
-     "BTTS_NO": 0.5861
+     "HOME": 0.8149,
+     "DRAW": 0.1269,
+     "AWAY": 0.0581,
+     "1X": 0.9419,
+     "X2": 0.1851,
+     "12": 0.8731,
+     "OVER25": 0.6299,
+     "UNDER25": 0.3701,
+     "BTTS_YES": 0.4104,
+     "BTTS_NO": 0.5896
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Polissya",
-    "model_prob": 0.8139,
+    "model_prob": 0.8149,
     "trend_alignment": 1.0,
     "confidence": 86,
     "eligible": true,
-    "odd": 1.2,
+    "odd": 1.18,
     "low_conviction": false
    },
    "alt_markets": [
@@ -57,29 +57,29 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Polissya ou empate (1X)",
-     "model_prob": 0.9412,
+     "model_prob": 0.9419,
      "trend_alignment": 1.0,
      "confidence": 86,
      "eligible": true,
-     "odd": 1.05
+     "odd": 1.03
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6318,
+     "model_prob": 0.6299,
      "trend_alignment": 0.3,
-     "confidence": 28,
+     "confidence": 27,
      "eligible": true,
-     "odd": 1.7
+     "odd": 1.66
     },
     {
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.5861,
+     "model_prob": 0.5896,
      "trend_alignment": 0.0,
-     "confidence": 11,
+     "confidence": 12,
      "eligible": false,
      "odd": null
     },
@@ -87,7 +87,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.4139,
+     "model_prob": 0.4104,
      "trend_alignment": 0.3,
      "confidence": 10,
      "eligible": false,
@@ -325,7 +325,7 @@
     "trend_alignment": 1.0,
     "confidence": 81,
     "eligible": true,
-    "odd": 1.61,
+    "odd": 1.56,
     "low_conviction": false
    },
    "alt_markets": [
@@ -337,7 +337,7 @@
      "trend_alignment": 1.0,
      "confidence": 81,
      "eligible": true,
-     "odd": 1.17
+     "odd": 1.16
     },
     {
      "selection": "OVER25",
@@ -347,7 +347,7 @@
      "trend_alignment": 0.573,
      "confidence": 44,
      "eligible": true,
-     "odd": 1.9
+     "odd": 1.85
     },
     {
      "selection": "BTTS_YES",
@@ -367,7 +367,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 5.22
+     "odd": 5.23
     }
    ],
    "trends": [
@@ -624,7 +624,7 @@
     "trend_alignment": 1.0,
     "confidence": 75,
     "eligible": true,
-    "odd": 1.28,
+    "odd": null,
     "low_conviction": false
    },
    "alt_markets": [
@@ -636,7 +636,7 @@
      "trend_alignment": 1.0,
      "confidence": 67,
      "eligible": true,
-     "odd": 1.82
+     "odd": null
     },
     {
      "selection": "OVER25",
@@ -646,7 +646,7 @@
      "trend_alignment": 0.287,
      "confidence": 18,
      "eligible": false,
-     "odd": 2.4
+     "odd": null
     },
     {
      "selection": "BTTS_YES",
@@ -884,8 +884,8 @@
     ]
    },
    "kickoff_local": "2026-09-04T14:00:00-03:00",
-   "has_odds": true,
-   "odds_bookmaker": "3 casas",
+   "has_odds": false,
+   "odds_bookmaker": null,
    "is_cup": false,
    "clear": true
   },
@@ -932,7 +932,7 @@
     "trend_alignment": 1.0,
     "confidence": 73,
     "eligible": true,
-    "odd": 1.67,
+    "odd": 1.5,
     "low_conviction": false
    },
    "alt_markets": [
@@ -944,7 +944,7 @@
      "trend_alignment": 1.0,
      "confidence": 73,
      "eligible": true,
-     "odd": 1.17
+     "odd": 1.12
     },
     {
      "selection": "UNDER25",
@@ -954,7 +954,7 @@
      "trend_alignment": 0.313,
      "confidence": 11,
      "eligible": false,
-     "odd": 1.76
+     "odd": 1.78
     },
     {
      "selection": "BTTS_NO",
@@ -974,7 +974,7 @@
      "trend_alignment": 0.0,
      "confidence": 5,
      "eligible": false,
-     "odd": 2.06
+     "odd": 1.98
     }
    ],
    "trends": [
@@ -1240,7 +1240,7 @@
     "trend_alignment": 0.714,
     "confidence": 68,
     "eligible": true,
-    "odd": 1.16,
+    "odd": 1.22,
     "low_conviction": false
    },
    "alt_markets": [
@@ -1252,7 +1252,7 @@
      "trend_alignment": 0.714,
      "confidence": 68,
      "eligible": true,
-     "odd": 1.03
+     "odd": 1.06
     },
     {
      "selection": "OVER25",
@@ -1282,7 +1282,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 13.0
+     "odd": 9.5
     }
    ],
    "trends": [

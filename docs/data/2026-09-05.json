@@ -1,10 +1,10 @@
 {
  "date": "2026-09-05",
- "generated_at": "2026-09-03T17:11:46.218917-03:00",
+ "generated_at": "2026-09-04T08:18:36.698714-03:00",
  "version": "0.1.0",
  "count": 4,
  "clear_count": 4,
- "day_total": 14,
+ "day_total": 33,
  "games": [
   {
    "id": 4748719,
@@ -24,32 +24,32 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 1.33,
-    "lambda_away": 0.58,
-    "expected_goals": 1.9,
+    "lambda_home": 1.34,
+    "lambda_away": 0.57,
+    "expected_goals": 1.91,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.551,
-     "DRAW": 0.2869,
-     "AWAY": 0.1621,
-     "1X": 0.8379,
-     "X2": 0.449,
-     "12": 0.7131,
-     "OVER25": 0.2974,
-     "UNDER25": 0.7026,
-     "BTTS_YES": 0.3224,
-     "BTTS_NO": 0.6776
+     "HOME": 0.5577,
+     "DRAW": 0.2842,
+     "AWAY": 0.1582,
+     "1X": 0.8418,
+     "X2": 0.4423,
+     "12": 0.7158,
+     "OVER25": 0.3002,
+     "UNDER25": 0.6998,
+     "BTTS_YES": 0.3216,
+     "BTTS_NO": 0.6784
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Kharkiv",
-    "model_prob": 0.551,
+    "model_prob": 0.5577,
     "trend_alignment": 1.0,
-    "confidence": 72,
+    "confidence": 73,
     "eligible": true,
-    "odd": 1.37,
+    "odd": 1.38,
     "low_conviction": false
    },
    "alt_markets": [
@@ -57,9 +57,9 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Kharkiv ou empate (1X)",
-     "model_prob": 0.8379,
+     "model_prob": 0.8418,
      "trend_alignment": 1.0,
-     "confidence": 72,
+     "confidence": 73,
      "eligible": true,
      "odd": 1.08
     },
@@ -67,27 +67,27 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.7026,
+     "model_prob": 0.6998,
      "trend_alignment": 0.25,
      "confidence": 35,
      "eligible": true,
-     "odd": 1.6
+     "odd": 1.65
     },
     {
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.6776,
+     "model_prob": 0.6784,
      "trend_alignment": 0.25,
      "confidence": 32,
      "eligible": true,
-     "odd": 1.43
+     "odd": 1.47
     },
     {
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Obolon Kyiv",
-     "model_prob": 0.1621,
+     "model_prob": 0.1582,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
@@ -206,7 +206,7 @@
      "kind": "table_gap"
     }
    ],
-   "confidence": 72,
+   "confidence": 73,
    "league": {
     "key": "ukraine",
     "name": "Premier League",
@@ -343,7 +343,7 @@
     "trend_alignment": 0.867,
     "confidence": 60,
     "eligible": true,
-    "odd": 1.58,
+    "odd": 1.55,
     "low_conviction": false
    },
    "alt_markets": [
@@ -355,7 +355,7 @@
      "trend_alignment": 0.867,
      "confidence": 54,
      "eligible": true,
-     "odd": 2.74
+     "odd": 2.62
     },
     {
      "selection": "OVER25",
@@ -365,7 +365,7 @@
      "trend_alignment": 0.0,
      "confidence": 18,
      "eligible": true,
-     "odd": 1.62
+     "odd": 1.56
     },
     {
      "selection": "BTTS_YES",
@@ -385,7 +385,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 2.38
+     "odd": 2.4
     }
    ],
    "trends": [
@@ -827,7 +827,7 @@
     "trend_alignment": 0.533,
     "confidence": 44,
     "eligible": true,
-    "odd": 1.4,
+    "odd": 1.41,
     "low_conviction": false
    },
    "alt_markets": [
@@ -839,7 +839,7 @@
      "trend_alignment": 0.533,
      "confidence": 29,
      "eligible": false,
-     "odd": 2.24
+     "odd": 2.21
     },
     {
      "selection": "UNDER25",
