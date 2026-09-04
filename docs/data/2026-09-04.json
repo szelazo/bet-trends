@@ -2,10 +2,287 @@
  "date": "2026-09-04",
  "generated_at": "2026-09-04T14:27:19.850771-03:00",
  "version": "0.1.0",
- "count": 4,
- "clear_count": 4,
+ "count": 7,
+ "clear_count": 7,
  "day_total": 44,
  "games": [
+  {
+   "id": 4748717,
+   "s365_competition_id": 129,
+   "competition_name": "Premier League",
+   "start_time": "2026-09-04T15:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 48818,
+    "name": "Polissya"
+   },
+   "away": {
+    "id": 76458,
+    "name": "Kudrivka"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.67,
+    "lambda_away": 0.58,
+    "expected_goals": 3.25,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.8149,
+     "DRAW": 0.1269,
+     "AWAY": 0.0581,
+     "1X": 0.9419,
+     "X2": 0.1851,
+     "12": 0.8731,
+     "OVER25": 0.6299,
+     "UNDER25": 0.3701,
+     "BTTS_YES": 0.4104,
+     "BTTS_NO": 0.5896
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Polissya",
+    "model_prob": 0.8149,
+    "trend_alignment": 1.0,
+    "confidence": 86,
+    "eligible": true,
+    "odd": 1.18,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Polissya ou empate (1X)",
+     "model_prob": 0.9419,
+     "trend_alignment": 1.0,
+     "confidence": 86,
+     "eligible": true,
+     "odd": 1.03
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6299,
+     "trend_alignment": 0.3,
+     "confidence": 27,
+     "eligible": true,
+     "odd": 1.66
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5896,
+     "trend_alignment": 0.0,
+     "confidence": 12,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.4104,
+     "trend_alignment": 0.3,
+     "confidence": 10,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Venceu 3 dos últimos 4",
+     "strength": 0.625,
+     "favors": "HOME",
+     "team": "Polissya",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Mais de 2.5 gols em 3 dos últimos 4",
+     "strength": 0.45,
+     "favors": "OVER",
+     "team": "Polissya",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Não venceu nenhum dos últimos 4",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Kudrivka",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "Não marcou em 3 dos últimos 4",
+     "strength": 0.425,
+     "favors": "HOME",
+     "team": "Kudrivka",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "no_score"
+    },
+    {
+     "label": "Polissya é 2º · Kudrivka é 15º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Polissya está 13 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Venceu 3 dos últimos 4",
+     "strength": 0.625,
+     "favors": "HOME",
+     "team": "Polissya",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Não venceu nenhum dos últimos 4",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Kudrivka",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "Não marcou em 3 dos últimos 4",
+     "strength": 0.425,
+     "favors": "HOME",
+     "team": "Kudrivka",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "no_score"
+    },
+    {
+     "label": "Polissya está 13 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 86,
+   "league": {
+    "key": "ukraine",
+    "name": "Premier League",
+    "country": "Ucrânia"
+   },
+   "home_team": {
+    "id": 48818,
+    "name": "Polissya",
+    "position": 2,
+    "played": 4,
+    "points": 9.0,
+    "record": "3V 0E 1D",
+    "goals_for": 8,
+    "goals_against": 4,
+    "last5": "WLWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "Shakhtar Donetsk",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Zorya Luhansk",
+      "date": "2026-08-17"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": true,
+      "opponent": "Kharkiv",
+      "date": "2026-08-10"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Chornomorets Odesa",
+      "date": "2026-08-02"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 76458,
+    "name": "Kudrivka",
+    "position": 15,
+    "played": 4,
+    "points": 2.0,
+    "record": "0V 2E 2D",
+    "goals_for": 1,
+    "goals_against": 8,
+    "last5": "LDDL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": true,
+      "opponent": "Epicentr",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Obolon Kyiv",
+      "date": "2026-08-15"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Livyi Bereh",
+      "date": "2026-08-08"
+     },
+     {
+      "result": "L",
+      "score": "1-5",
+      "home": false,
+      "opponent": "Shakhtar Donetsk",
+      "date": "2026-08-03"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-04T12:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "3 casas",
+   "is_cup": false,
+   "clear": true,
+   "result": "pending"
+  },
   {
    "id": 4760846,
    "s365_competition_id": 583,
@@ -305,6 +582,315 @@
    "is_cup": false,
    "result": "pending",
    "clear": true
+  },
+  {
+   "id": 4731509,
+   "s365_competition_id": 119,
+   "competition_name": "Superliga",
+   "start_time": "2026-09-04T17:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 1833,
+    "name": "Viborg"
+   },
+   "away": {
+    "id": 1832,
+    "name": "Lyngby"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.09,
+    "lambda_away": 0.83,
+    "expected_goals": 2.92,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.6662,
+     "DRAW": 0.1966,
+     "AWAY": 0.1373,
+     "1X": 0.8627,
+     "X2": 0.3338,
+     "12": 0.8034,
+     "OVER25": 0.5578,
+     "UNDER25": 0.4422,
+     "BTTS_YES": 0.4927,
+     "BTTS_NO": 0.5073
+    }
+   },
+   "pick": {
+    "selection": "1X",
+    "family": "double_chance",
+    "label": "Dupla chance: Viborg ou empate (1X)",
+    "model_prob": 0.8627,
+    "trend_alignment": 1.0,
+    "confidence": 75,
+    "eligible": true,
+    "odd": null,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Viborg",
+     "model_prob": 0.6662,
+     "trend_alignment": 1.0,
+     "confidence": 67,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5578,
+     "trend_alignment": 0.287,
+     "confidence": 18,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.4927,
+     "trend_alignment": 0.287,
+     "confidence": 10,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5073,
+     "trend_alignment": 0.0,
+     "confidence": 1,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Não venceu nenhum dos últimos 5",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Lyngby",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "Ambos marcaram em 4 dos últimos 5",
+     "strength": 0.43,
+     "favors": "BTTS_YES",
+     "team": "Lyngby",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "btts"
+    },
+    {
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Viborg",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Viborg",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Lyngby",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Viborg é 3º · Lyngby é 11º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Viborg está 8 posições à frente",
+     "strength": 0.571,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Não venceu nenhum dos últimos 5",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Lyngby",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Viborg",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Viborg",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Lyngby",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Viborg está 8 posições à frente",
+     "strength": 0.571,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 75,
+   "league": {
+    "key": "denmark",
+    "name": "Superliga",
+    "country": "Dinamarca"
+   },
+   "home_team": {
+    "id": 1833,
+    "name": "Viborg",
+    "position": 3,
+    "played": 6,
+    "points": 13.0,
+    "record": "4V 1E 1D",
+    "goals_for": 10,
+    "goals_against": 4,
+    "last5": "WWWDL",
+    "recent": [
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": false,
+      "opponent": "Horsens",
+      "date": "2026-08-28"
+     },
+     {
+      "result": "W",
+      "score": "4-0",
+      "home": true,
+      "opponent": "FC Copenhagen",
+      "date": "2026-08-23"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Aarhus",
+      "date": "2026-08-14"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Sonderjyske",
+      "date": "2026-08-07"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Brøndby IF",
+      "date": "2026-08-02"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 1832,
+    "name": "Lyngby",
+    "position": 11,
+    "played": 6,
+    "points": 3.0,
+    "record": "0V 3E 3D",
+    "goals_for": 7,
+    "goals_against": 11,
+    "last5": "DLDLD",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Odense",
+      "date": "2026-08-30"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Horsens",
+      "date": "2026-08-23"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "FC Midtjylland",
+      "date": "2026-08-16"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Randers FC",
+      "date": "2026-08-09"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "Aarhus",
+      "date": "2026-08-01"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-04T14:00:00-03:00",
+   "has_odds": false,
+   "odds_bookmaker": null,
+   "is_cup": false,
+   "clear": true,
+   "result": "pending"
   },
   {
    "id": 4826567,
@@ -632,6 +1218,224 @@
    "is_cup": false,
    "result": "pending",
    "clear": true
+  },
+  {
+   "id": 4781130,
+   "s365_competition_id": 549,
+   "competition_name": "UAE Pro League",
+   "start_time": "2026-09-04T13:45:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 8355,
+    "name": "Kalba"
+   },
+   "away": {
+    "id": 8353,
+    "name": "Al Ain"
+   },
+   "home_score": 0.0,
+   "away_score": 2.0,
+   "model": {
+    "lambda_home": 1.0,
+    "lambda_away": 2.58,
+    "expected_goals": 3.58,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.1242,
+     "DRAW": 0.1619,
+     "AWAY": 0.7139,
+     "1X": 0.2861,
+     "X2": 0.8758,
+     "12": 0.8381,
+     "OVER25": 0.6931,
+     "UNDER25": 0.3069,
+     "BTTS_YES": 0.5835,
+     "BTTS_NO": 0.4165
+    }
+   },
+   "pick": {
+    "selection": "AWAY",
+    "family": "1x2",
+    "label": "Vitória do Al Ain",
+    "model_prob": 0.7139,
+    "trend_alignment": 0.714,
+    "confidence": 68,
+    "eligible": true,
+    "odd": 1.22,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "X2",
+     "family": "double_chance",
+     "label": "Dupla chance: Al Ain ou empate (X2)",
+     "model_prob": 0.8758,
+     "trend_alignment": 0.714,
+     "confidence": 68,
+     "eligible": true,
+     "odd": 1.06
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6931,
+     "trend_alignment": 0.0,
+     "confidence": 25,
+     "eligible": true,
+     "odd": 2.1
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5835,
+     "trend_alignment": 0.0,
+     "confidence": 11,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Kalba",
+     "model_prob": 0.1242,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 9.5
+    }
+   ],
+   "trends": [
+    {
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "Al Ain",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Kalba é 11º · Al Ain é 3º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Al Ain está 8 posições à frente",
+     "strength": 0.571,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "Al Ain",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Al Ain está 8 posições à frente",
+     "strength": 0.571,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 68,
+   "league": {
+    "key": "uae",
+    "name": "UAE Pro League",
+    "country": "Emirados Árabes"
+   },
+   "home_team": {
+    "id": 8355,
+    "name": "Kalba",
+    "position": 11,
+    "played": 3,
+    "points": 1.0,
+    "record": "0V 1E 2D",
+    "goals_for": 3,
+    "goals_against": 9,
+    "last5": "LLD",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-4",
+      "home": false,
+      "opponent": "Dubai United",
+      "date": "2026-08-28"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": true,
+      "opponent": "Al Wasl",
+      "date": "2026-08-21"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "Al Nasr Dubai",
+      "date": "2026-08-14"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 8353,
+    "name": "Al Ain",
+    "position": 3,
+    "played": 3,
+    "points": 9.0,
+    "record": "3V 0E 0D",
+    "goals_for": 8,
+    "goals_against": 3,
+    "last5": "WWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Al Nasr Dubai",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Khor Fakkan",
+      "date": "2026-08-22"
+     },
+     {
+      "result": "W",
+      "score": "4-2",
+      "home": false,
+      "opponent": "Baniyas",
+      "date": "2026-08-16"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-04T10:45:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "3 casas",
+   "is_cup": false,
+   "clear": true,
+   "result": "hit"
   },
   {
    "id": 4788164,
