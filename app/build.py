@@ -19,6 +19,7 @@ from . import __version__
 from .config import CLEAR_EDGE, S365, enabled_leagues
 from .model import league_avg_goals, predict
 from .recommend import clear_edge, evaluate
+from .results import compute_stats, grade_history
 from .sources.odds_api import OddsApi, find_match
 from .sources.scores365 import Scores365, status_ended, status_scheduled
 from .trends import compute_trends, last5_string, merge_recent
@@ -152,6 +153,7 @@ def build(target: date, days: int, *, out_dir: Path, use_odds: bool, cache_dir: 
         item["has_odds"] = False
         item["odds_bookmaker"] = None
         item["is_cup"] = lg.cup
+        item["result"] = "pending"  # vira "hit"/"miss"/"void" depois que o jogo termina
         item["clear"] = clear_edge(
             item["pick"]["selection"], hr, ar, h_recent, a_recent,
             table_size=len(all_rows), is_cup=lg.cup,
@@ -265,6 +267,16 @@ def build(target: date, days: int, *, out_dir: Path, use_odds: bool, cache_dir: 
         written_dates.append(d.isoformat())
         print(f"  ✓ {d.isoformat()}: {len(clear)} clara(s) + {len(picks) - len(clear)} de reserva  ({len(day)} jogos no dia)")
 
+    # confere o placar de quem já jogou (inclui os que já terminaram hoje) e
+    # atualiza o histórico inteiro — feito depois de escrever, p/ não perder
+    # a checagem de hoje quando o build re-escreve o arquivo do dia
+    final_scores = {
+        g["id"]: (g["home_score"], g["away_score"])
+        for g in finished
+        if g["home_score"] is not None and g["away_score"] is not None
+    }
+    grade_history(out_dir, TZ, final_scores)
+
     # remove arquivos de dias sem jogo (alvos vazios e testes antigos),
     # mantendo sempre ao menos o primeiro dia alvo p/ o site não quebrar
     keep = written_dates[0]
@@ -297,6 +309,14 @@ def build(target: date, days: int, *, out_dir: Path, use_odds: bool, cache_dir: 
         "games_with_odds": odds_count,
         "leagues": [{"name": lg.name, "country": lg.country} for lg in leagues],
     }, ensure_ascii=False, indent=1))
+
+    stats = compute_stats(out_dir, target)
+    (out_dir / "stats.json").write_text(json.dumps(stats, ensure_ascii=False, indent=1))
+    print(
+        f"  stats: hoje {stats['today']['hits']}/{stats['today']['total']} · "
+        f"semana {stats['week']['hits']}/{stats['week']['total']} · "
+        f"total {stats['all_time']['hits']}/{stats['all_time']['total']}"
+    )
 
     return {"dates": written_dates, "games": len(enriched)}
 

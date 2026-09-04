@@ -1,0 +1,28 @@
+{
+ "generated_for": "2026-09-04",
+ "since": "2026-09-03",
+ "today": {
+  "hits": 0,
+  "misses": 0,
+  "voids": 0,
+  "total": 0
+ },
+ "last3": {
+  "hits": 3,
+  "misses": 0,
+  "voids": 0,
+  "total": 3
+ },
+ "week": {
+  "hits": 3,
+  "misses": 0,
+  "voids": 0,
+  "total": 3
+ },
+ "all_time": {
+  "hits": 3,
+  "misses": 0,
+  "voids": 0,
+  "total": 3
+ }
+}

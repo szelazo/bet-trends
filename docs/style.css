@@ -179,6 +179,28 @@ body {
 .date-chip[aria-selected="true"] .cnt { color: color-mix(in srgb, var(--on-accent) 75%, transparent); }
 .date-chip:active { transform: scale(0.95); }
 
+.statsbar {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.65rem;
+  padding-top: 0.6rem;
+  border-top: 1px solid var(--line);
+  font-size: 0.7rem;
+  color: var(--muted);
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.statsbar::-webkit-scrollbar { display: none; }
+.statsbar span { white-space: nowrap; flex-shrink: 0; }
+.statsbar b {
+  color: var(--text);
+  font-family: var(--f-head);
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-right: 0.25rem;
+  font-variant-numeric: tabular-nums;
+}
+
 .banner {
   position: relative;
   z-index: 1;
@@ -215,6 +237,7 @@ body {
 .card.filler { opacity: 0.66; }
 .card.filler .pick { background: var(--surface-2); }
 .card.filler .pk { color: var(--muted); }
+.card.void { opacity: 0.6; }
 
 .card {
   position: relative;
@@ -224,6 +247,15 @@ body {
   overflow: hidden;
   transition: box-shadow 0.15s ease, transform 0.15s ease;
 }
+.card.hit::before, .card.miss::before, .card.void::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 3px;
+}
+.card.hit::before { background: var(--win); }
+.card.miss::before { background: var(--loss); }
+.card.void::before { background: var(--muted); }
 @media (hover: hover) {
   .card:hover { box-shadow: var(--shadow-lift); transform: translateY(-1px); }
 }
@@ -313,6 +345,13 @@ body {
   flex-shrink: 0;
 }
 .pick .odd.none { font-family: var(--f-text); font-size: 0.72rem; font-weight: 500; color: var(--muted); background: none; padding: 0.28rem 0; }
+.pick .odd.result { font-size: 1.25rem; }
+.pick .odd.result.hit { color: var(--win); }
+.pick .odd.result.miss { color: var(--loss); }
+.pick .odd.result.void {
+  font-family: var(--f-text); font-size: 0.72rem; font-weight: 500;
+  color: var(--muted); background: none; padding: 0.28rem 0;
+}
 
 .why { font-size: 0.8rem; color: var(--text-dim); line-height: 1.4; }
 .why .m { color: var(--accent); }

@@ -1,6 +1,6 @@
 {
  "date": "2026-09-04",
- "generated_at": "2026-09-04T14:03:25.840131-03:00",
+ "generated_at": "2026-09-04T14:15:49.429785-03:00",
  "version": "0.1.0",
  "count": 4,
  "clear_count": 4,
@@ -49,7 +49,7 @@
     "trend_alignment": 1.0,
     "confidence": 81,
     "eligible": true,
-    "odd": 1.54,
+    "odd": 1.57,
     "low_conviction": false
    },
    "alt_markets": [
@@ -61,7 +61,7 @@
      "trend_alignment": 1.0,
      "confidence": 81,
      "eligible": true,
-     "odd": 1.15
+     "odd": 1.16
     },
     {
      "selection": "OVER25",
@@ -91,7 +91,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 5.55
+     "odd": 5.33
     }
    ],
    "trends": [
@@ -303,6 +303,7 @@
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
+   "result": "pending",
    "clear": true
   },
   {
@@ -348,7 +349,7 @@
     "trend_alignment": 1.0,
     "confidence": 73,
     "eligible": true,
-    "odd": 1.56,
+    "odd": 1.53,
     "low_conviction": false
    },
    "alt_markets": [
@@ -370,7 +371,7 @@
      "trend_alignment": 0.313,
      "confidence": 11,
      "eligible": false,
-     "odd": 1.8
+     "odd": 1.78
     },
     {
      "selection": "BTTS_NO",
@@ -629,6 +630,7 @@
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
+   "result": "pending",
    "clear": true
   },
   {
@@ -674,7 +676,7 @@
     "trend_alignment": 1.0,
     "confidence": 55,
     "eligible": true,
-    "odd": 1.28,
+    "odd": 1.32,
     "low_conviction": false
    },
    "alt_markets": [
@@ -686,7 +688,7 @@
      "trend_alignment": 1.0,
      "confidence": 55,
      "eligible": true,
-     "odd": 1.09
+     "odd": 1.1
     },
     {
      "selection": "OVER25",
@@ -696,7 +698,7 @@
      "trend_alignment": 0.641,
      "confidence": 31,
      "eligible": true,
-     "odd": 1.92
+     "odd": 1.91
     },
     {
      "selection": "BTTS_YES",
@@ -716,7 +718,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 7.5
+     "odd": 7.35
     }
    ],
    "trends": [
@@ -914,6 +916,7 @@
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
+   "result": "pending",
    "clear": true
   },
   {
@@ -1213,6 +1216,7 @@
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
+   "result": "pending",
    "clear": true
   }
  ]

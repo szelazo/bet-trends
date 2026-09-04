@@ -1,6 +1,6 @@
 {
  "date": "2026-09-06",
- "generated_at": "2026-09-04T14:03:28.380714-03:00",
+ "generated_at": "2026-09-04T14:15:51.818916-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -321,6 +321,7 @@
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
+   "result": "pending",
    "clear": true
   },
   {
@@ -588,6 +589,7 @@
    "has_odds": false,
    "odds_bookmaker": null,
    "is_cup": false,
+   "result": "pending",
    "clear": true
   },
   {
@@ -905,6 +907,7 @@
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
+   "result": "pending",
    "clear": true
   },
   {
@@ -1172,6 +1175,7 @@
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
+   "result": "pending",
    "clear": true
   },
   {
@@ -1516,6 +1520,7 @@
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
+   "result": "pending",
    "clear": true
   }
  ]

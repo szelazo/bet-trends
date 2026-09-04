@@ -21,8 +21,8 @@
     "id": 10209,
     "name": "Alianza FC"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 3.0,
+   "away_score": 0.0,
    "model": {
     "lambda_home": 2.68,
     "lambda_away": 0.62,
@@ -312,7 +312,8 @@
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
-   "clear": true
+   "clear": true,
+   "result": "hit"
   },
   {
    "id": 4665946,
@@ -329,8 +330,8 @@
     "id": 7203,
     "name": "Emelec"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 1.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 1.49,
     "lambda_away": 0.72,
@@ -558,7 +559,8 @@
    "odds_bookmaker": "3 casas",
    "is_cup": false,
    "clear": false,
-   "below_bar": true
+   "below_bar": true,
+   "result": "hit"
   },
   {
    "id": 4732027,
@@ -575,8 +577,8 @@
     "id": 8643,
     "name": "Independiente Medellin"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 0.0,
+   "away_score": 3.0,
    "model": {
     "lambda_home": 0.96,
     "lambda_away": 0.96,
@@ -831,7 +833,8 @@
    "odds_bookmaker": "3 casas",
    "is_cup": false,
    "clear": false,
-   "below_bar": true
+   "below_bar": true,
+   "result": "hit"
   }
  ]
 }

@@ -89,9 +89,21 @@ function side(t, cls) {
   return `<span class="side ${cls}"><span class="tn">${t.name}</span>${rk}</span>`;
 }
 
+function resultBadge(g) {
+  if (g.result === "hit" || g.result === "miss") {
+    const score = `${Math.round(g.home_score)}-${Math.round(g.away_score)}`;
+    const icon = g.result === "hit" ? "✅" : "❌";
+    return `<span class="odd result ${g.result}">${score} <b>${icon}</b></span>`;
+  }
+  if (g.result === "void") {
+    return `<span class="odd result void">Anulado</span>`;
+  }
+  const p = g.pick;
+  return `<span class="odd${p.odd ? "" : " none"}">${p.odd ? p.odd.toFixed(2) : "sem odd"}</span>`;
+}
+
 function card(g) {
   const p = g.pick;
-  const oddTxt = p.odd ? p.odd.toFixed(2) : "sem odd";
   const filler = !!g.below_bar;
   const pk = filler ? "Fora dos critérios do dia" : `Palpite${p.low_conviction ? " · pouca convicção" : ""}`;
 
@@ -114,8 +126,9 @@ function card(g) {
   const alts = (g.alt_markets || []).map((a) => `
     <div class="row"><span>${a.label}</span><b>${pct(a.model_prob)}${a.odd ? ` · ${a.odd.toFixed(2)}` : ""}</b></div>`).join("");
 
+  const cardCls = ["card", filler && "filler", g.result && g.result !== "pending" && g.result].filter(Boolean).join(" ");
   return `
-  <details class="card${filler ? " filler" : ""}">
+  <details class="${cardCls}">
     <summary>
       <div class="card-top">
         <span class="comp">${g.league.name}${g.is_cup ? " · copa" : ""}</span>
@@ -131,7 +144,7 @@ function card(g) {
           <span class="pk">${pk}</span>
           <span class="plabel">${p.label}</span>
         </span>
-        <span class="odd${p.odd ? "" : " none"}">${oddTxt}</span>
+        ${resultBadge(g)}
       </div>
       ${why}
       ${CHEV}
@@ -197,9 +210,22 @@ function checkFreshness() {
   }
 }
 
+function renderStats(stats) {
+  const el = $("#statsBar");
+  if (!stats) { el.hidden = true; return; }
+  const b = (x) => `${x.hits}/${x.total}`;
+  el.innerHTML = [
+    ["Hoje", stats.today], ["3 dias", stats.last3],
+    ["Semana", stats.week], ["Total", stats.all_time],
+  ].map(([label, x]) => `<span><b>${b(x)}</b> ${label}</span>`).join("");
+  el.title = stats.since ? `Acertos desde ${stats.since}` : "";
+  el.hidden = false;
+}
+
 function renderDateStrip() {
   const strip = $("#dateStrip");
-  strip.innerHTML = (state.index.dates || []).map((d) => `
+  const dates = (state.index.dates || []).slice(-21); // não deixa a fita crescer pra sempre
+  strip.innerHTML = dates.map((d) => `
     <button class="date-chip" role="tab" data-d="${d}" aria-selected="${d === state.date}">
       <span class="dow">${fmtDow(d)}</span>
       <span class="dnum">${asDate(d).getDate()}</span>
@@ -238,6 +264,7 @@ async function boot() {
   }
   wire();
   checkFreshness();
+  fetchJSON("data/stats.json").then(renderStats).catch(() => renderStats(null));
 
   const dates = state.index.dates || [];
   const wanted = location.hash.slice(1);
