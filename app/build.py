@@ -109,6 +109,35 @@ def _team_summary(team: dict, row: dict | None, recent: list[dict]) -> dict:
     }
 
 
+def select_day_picks(day: list[dict], prev_games: list[dict], ce: dict) -> tuple[list[dict], list[dict]]:
+    """Escolhe os palpites do dia, travando quem já saiu de 'agendado' na rodada anterior.
+
+    `day` = candidatos atualmente agendados (recém-computados, com `id`/`confidence`/`clear`).
+    `prev_games` = o que já estava publicado nesse dia (pode estar vazio).
+    Retorna (picks, locked) — `locked` é o subconjunto de `prev_games` preservado tal
+    e qual (já foi a jogo ou terminou, então não pode mais trocar de palpite).
+    """
+    scheduled_ids = {g["id"] for g in day}
+    locked = [g for g in prev_games if g.get("id") not in scheduled_ids]
+
+    by_conf = sorted(day, key=lambda g: -g["confidence"])
+    room = max(0, ce["max_per_day"] - len(locked))
+    clear = [g for g in by_conf if g["clear"]][:room]
+    picks = locked + clear
+    if len(picks) < ce["min_per_day"]:
+        have = {g["id"] for g in picks}
+        for g in by_conf:
+            if g["id"] in have:
+                continue
+            g["below_bar"] = True
+            picks.append(g)
+            have.add(g["id"])
+            if len(picks) >= ce["min_per_day"]:
+                break
+    picks.sort(key=lambda g: (0 if g.get("clear") else 1, -g["confidence"], g.get("kickoff_local", "")))
+    return picks, locked
+
+
 def build(target: date, days: int, *, out_dir: Path, use_odds: bool, cache_dir: str) -> dict:
     leagues = enabled_leagues()
     league_by_s365 = {lg.s365_id: lg for lg in leagues}
@@ -230,42 +259,54 @@ def build(target: date, days: int, *, out_dir: Path, use_odds: bool, cache_dir: 
         if skipped:
             print(f"  · {lg.name}: {skipped} jogo(s) fora (time de divisão inferior)")
 
+    # jogos do dia (qualquer status) — só p/ o número informativo "de N jogos"
+    day_total_all: dict[date, int] = {}
+    for g in our_games:
+        if g["start_time"]:
+            dd = _local_date(g["start_time"])
+            day_total_all[dd] = day_total_all.get(dd, 0) + 1
+
     # ── escreve um arquivo por data ──────────────────────────────────────────
     out_dir.mkdir(parents=True, exist_ok=True)
     written_dates: list[str] = []
     ce = CLEAR_EDGE
     for d in target_dates:
         day = [g for g in enriched if _local_date(g["start_time"]) == d]
-        by_conf = sorted(day, key=lambda g: -g["confidence"])
 
-        clear = [g for g in by_conf if g["clear"]][: ce["max_per_day"]]
-        picks = list(clear)
-        if len(picks) < ce["min_per_day"]:
-            for g in by_conf:
-                if g in picks:
-                    continue
-                g["below_bar"] = True
-                picks.append(g)
-                if len(picks) >= ce["min_per_day"]:
-                    break
-        picks.sort(key=lambda g: (0 if g.get("clear") else 1, -g["confidence"], g["kickoff_local"]))
+        # jogos já publicados nesse dia que saíram da lista de "agendados" (foram
+        # a jogo ou terminaram) ficam TRAVADOS — nunca somem nem trocam de palpite,
+        # só recebem o placar/resultado depois (via grade_history)
+        prev_games: list[dict] = []
+        existing_path = out_dir / f"{d.isoformat()}.json"
+        if existing_path.exists():
+            try:
+                prev_games = json.loads(existing_path.read_text()).get("games", [])
+            except (json.JSONDecodeError, OSError):
+                prev_games = []
+
+        picks, locked = select_day_picks(day, prev_games, ce)
         for g in picks:
-            attach_odds(g)
+            if "_ctx" in g:  # só os recém-computados; os travados já têm tudo pronto
+                attach_odds(g)
 
+        clear_count = sum(1 for g in picks if g.get("clear"))
         payload = {
             "date": d.isoformat(),
             "generated_at": datetime.now(TZ).isoformat(),
             "version": __version__,
             "count": len(picks),
-            "clear_count": len(clear),
-            "day_total": len(day),
+            "clear_count": clear_count,
+            "day_total": day_total_all.get(d, len(day)),
             "games": picks,
         }
         (out_dir / f"{d.isoformat()}.json").write_text(
             json.dumps(payload, ensure_ascii=False, indent=1)
         )
         written_dates.append(d.isoformat())
-        print(f"  ✓ {d.isoformat()}: {len(clear)} clara(s) + {len(picks) - len(clear)} de reserva  ({len(day)} jogos no dia)")
+        print(
+            f"  ✓ {d.isoformat()}: {clear_count} clara(s) + {len(picks) - clear_count} de reserva "
+            f"({len(locked)} já travado(s), {day_total_all.get(d, len(day))} jogos no dia)"
+        )
 
     # confere o placar de quem já jogou (inclui os que já terminaram hoje) e
     # atualiza o histórico inteiro — feito depois de escrever, p/ não perder

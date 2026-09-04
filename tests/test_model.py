@@ -1,3 +1,5 @@
+from app.build import select_day_picks
+from app.config import CLEAR_EDGE
 from app.model import _effective_played, league_avg_goals, predict
 from app.recommend import clear_edge, evaluate, form_ppg
 from app.util import match_teams, poisson_pmf, score_matrix
@@ -125,3 +127,35 @@ def test_clear_edge_false_when_table_close():
 def test_clear_edge_over_under_never_clear():
     assert clear_edge("OVER25", {"position": 1}, {"position": 20},
                       _rec("WWWWW"), _rec("LLLLL"), table_size=20, is_cup=False) is False
+
+
+def _cand(gid, confidence, clear, kickoff="2026-09-04T20:00:00-03:00"):
+    return {"id": gid, "confidence": confidence, "clear": clear, "kickoff_local": kickoff}
+
+
+def test_select_day_picks_locks_games_that_left_the_scheduled_pool():
+    # "gid 1" já foi publicado, mas o jogo já começou/terminou (saiu de `day`) —
+    # tem que continuar na lista mesmo sem estar mais entre os agendados de hoje.
+    prev_games = [_cand(1, 70, True), _cand(2, 50, False)]
+    day = [_cand(3, 80, True), _cand(4, 60, True)]  # 1 e 2 não estão mais agendados
+    picks, locked = select_day_picks(day, prev_games, CLEAR_EDGE)
+    ids = {g["id"] for g in picks}
+    assert {1, 2} <= ids  # os dois travados sobrevivem
+    assert 3 in ids  # e ainda sobra espaço p/ o melhor novo candidato
+
+
+def test_select_day_picks_never_drops_a_locked_game_for_room():
+    ce = {**CLEAR_EDGE, "max_per_day": 2, "min_per_day": 1}
+    prev_games = [_cand(1, 90, True), _cand(2, 85, True)]  # já lota o teto sozinho
+    day = [_cand(3, 99, True)]  # candidato novo muito mais forte
+    picks, locked = select_day_picks(day, prev_games, ce)
+    ids = {g["id"] for g in picks}
+    assert ids == {1, 2}  # travados não saem pra dar lugar a um "melhor"
+
+
+def test_select_day_picks_fresh_day_behaves_like_before():
+    day = [_cand(1, 90, True), _cand(2, 40, False), _cand(3, 30, False)]
+    picks, locked = select_day_picks(day, [], CLEAR_EDGE)
+    assert locked == []
+    assert picks[0]["id"] == 1
+    assert len(picks) >= CLEAR_EDGE["min_per_day"]
