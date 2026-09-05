@@ -298,8 +298,8 @@
     "id": 10367,
     "name": "UTC"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 3.0,
+   "away_score": 2.0,
    "model": {
     "lambda_home": 2.64,
     "lambda_away": 0.86,
@@ -580,7 +580,7 @@
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {

@@ -1,10 +1,10 @@
 {
  "date": "2026-09-05",
- "generated_at": "2026-09-04T17:13:35.750545-03:00",
+ "generated_at": "2026-09-05T08:16:47.279152-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
- "day_total": 132,
+ "day_total": 130,
  "games": [
   {
    "id": 4748719,
@@ -678,27 +678,27 @@
     "expected_goals": 2.54,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.2092,
-     "DRAW": 0.2469,
-     "AWAY": 0.5439,
-     "1X": 0.4561,
-     "X2": 0.7908,
-     "12": 0.7531,
-     "OVER25": 0.4666,
-     "UNDER25": 0.5334,
-     "BTTS_YES": 0.4802,
-     "BTTS_NO": 0.5198
+     "HOME": 0.2104,
+     "DRAW": 0.2474,
+     "AWAY": 0.5423,
+     "1X": 0.4577,
+     "X2": 0.7896,
+     "12": 0.7526,
+     "OVER25": 0.466,
+     "UNDER25": 0.534,
+     "BTTS_YES": 0.4804,
+     "BTTS_NO": 0.5196
     }
    },
    "pick": {
     "selection": "X2",
     "family": "double_chance",
     "label": "Dupla chance: Legia Warszawa ou empate (X2)",
-    "model_prob": 0.7908,
+    "model_prob": 0.7896,
     "trend_alignment": 1.0,
-    "confidence": 66,
+    "confidence": 65,
     "eligible": true,
-    "odd": 1.27,
+    "odd": 1.32,
     "low_conviction": false
    },
    "alt_markets": [
@@ -706,27 +706,27 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Legia Warszawa",
-     "model_prob": 0.5439,
+     "model_prob": 0.5423,
      "trend_alignment": 1.0,
      "confidence": 55,
      "eligible": true,
-     "odd": 1.8
+     "odd": 1.98
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.4666,
+     "model_prob": 0.466,
      "trend_alignment": 0.287,
      "confidence": 10,
      "eligible": false,
-     "odd": 1.73
+     "odd": 1.74
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.4802,
+     "model_prob": 0.4804,
      "trend_alignment": 0.287,
      "confidence": 10,
      "eligible": false,
@@ -736,11 +736,11 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.5334,
+     "model_prob": 0.534,
      "trend_alignment": 0.0,
      "confidence": 4,
      "eligible": false,
-     "odd": 2.03
+     "odd": 2.05
     }
    ],
    "trends": [
@@ -837,7 +837,7 @@
      "kind": "table_gap"
     }
    ],
-   "confidence": 66,
+   "confidence": 65,
    "league": {
     "key": "poland",
     "name": "Ekstraklasa",
@@ -989,7 +989,7 @@
     "trend_alignment": 1.0,
     "confidence": 61,
     "eligible": true,
-    "odd": 1.5,
+    "odd": 1.51,
     "low_conviction": false
    },
    "alt_markets": [
@@ -1001,7 +1001,7 @@
      "trend_alignment": 1.0,
      "confidence": 51,
      "eligible": true,
-     "odd": 2.54
+     "odd": 2.61
     },
     {
      "selection": "BTTS_YES",
@@ -1021,7 +1021,7 @@
      "trend_alignment": 0.3,
      "confidence": 10,
      "eligible": false,
-     "odd": 1.81
+     "odd": 1.77
     },
     {
      "selection": "UNDER25",
@@ -1031,7 +1031,7 @@
      "trend_alignment": 0.0,
      "confidence": 2,
      "eligible": false,
-     "odd": 2.01
+     "odd": 2.05
     }
    ],
    "trends": [
@@ -1257,7 +1257,7 @@
     "trend_alignment": 1.0,
     "confidence": 57,
     "eligible": true,
-    "odd": 1.74,
+    "odd": 1.84,
     "low_conviction": false
    },
    "alt_markets": [
@@ -1269,7 +1269,7 @@
      "trend_alignment": 1.0,
      "confidence": 47,
      "eligible": false,
-     "odd": 3.55
+     "odd": 3.9
     },
     {
      "selection": "OVER25",
@@ -1279,7 +1279,7 @@
      "trend_alignment": 0.575,
      "confidence": 20,
      "eligible": false,
-     "odd": 2.1
+     "odd": 2.18
     },
     {
      "selection": "BTTS_YES",
@@ -1299,7 +1299,7 @@
      "trend_alignment": 0.0,
      "confidence": 11,
      "eligible": false,
-     "odd": 1.73
+     "odd": 1.65
     }
    ],
    "trends": [
