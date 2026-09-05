@@ -3,26 +3,26 @@
  "since": "2026-09-03",
  "today": {
   "hits": 0,
-  "misses": 0,
+  "misses": 2,
   "voids": 0,
-  "total": 0
+  "total": 2
  },
  "last3": {
   "hits": 7,
-  "misses": 1,
+  "misses": 3,
   "voids": 0,
-  "total": 8
+  "total": 10
  },
  "week": {
   "hits": 7,
-  "misses": 1,
+  "misses": 3,
   "voids": 0,
-  "total": 8
+  "total": 10
  },
  "all_time": {
   "hits": 7,
-  "misses": 1,
+  "misses": 3,
   "voids": 0,
-  "total": 8
+  "total": 10
  }
 }

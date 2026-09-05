@@ -1,293 +1,11 @@
 {
  "date": "2026-09-07",
- "generated_at": "2026-09-05T08:17:10.642173-03:00",
+ "generated_at": "2026-09-05T17:12:51.227016-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
  "day_total": 41,
  "games": [
-  {
-   "id": 4736409,
-   "s365_competition_id": 153,
-   "competition_name": "Ekstraklasa",
-   "start_time": "2026-09-07T18:30:00+00:00",
-   "status_group": 2,
-   "round": "Round",
-   "home": {
-    "id": 6016,
-    "name": "Pogon"
-   },
-   "away": {
-    "id": 2231,
-    "name": "Wisla Plock"
-   },
-   "home_score": -1.0,
-   "away_score": -1.0,
-   "model": {
-    "lambda_home": 1.77,
-    "lambda_away": 0.71,
-    "expected_goals": 2.48,
-    "sample_factor": 1.0,
-    "probs": {
-     "HOME": 0.6262,
-     "DRAW": 0.2275,
-     "AWAY": 0.1463,
-     "1X": 0.8537,
-     "X2": 0.3738,
-     "12": 0.7725,
-     "OVER25": 0.4516,
-     "UNDER25": 0.5484,
-     "BTTS_YES": 0.4234,
-     "BTTS_NO": 0.5766
-    }
-   },
-   "pick": {
-    "selection": "1X",
-    "family": "double_chance",
-    "label": "Dupla chance: Pogon ou empate (1X)",
-    "model_prob": 0.8537,
-    "trend_alignment": 1.0,
-    "confidence": 74,
-    "eligible": true,
-    "odd": 1.29,
-    "low_conviction": false
-   },
-   "alt_markets": [
-    {
-     "selection": "HOME",
-     "family": "1x2",
-     "label": "Vitória do Pogon",
-     "model_prob": 0.6262,
-     "trend_alignment": 1.0,
-     "confidence": 63,
-     "eligible": true,
-     "odd": 1.85
-    },
-    {
-     "selection": "BTTS_NO",
-     "family": "btts",
-     "label": "Ambos marcam: não",
-     "model_prob": 0.5766,
-     "trend_alignment": 0.0,
-     "confidence": 10,
-     "eligible": false,
-     "odd": null
-    },
-    {
-     "selection": "UNDER25",
-     "family": "over_under",
-     "label": "Menos de 2.5 gols",
-     "model_prob": 0.5484,
-     "trend_alignment": 0.0,
-     "confidence": 6,
-     "eligible": false,
-     "odd": 2.01
-    },
-    {
-     "selection": "AWAY",
-     "family": "1x2",
-     "label": "Vitória do Wisla Plock",
-     "model_prob": 0.1463,
-     "trend_alignment": 0.0,
-     "confidence": 0,
-     "eligible": false,
-     "odd": 3.59
-    }
-   ],
-   "trends": [
-    {
-     "label": "Perdeu 3 dos últimos 5",
-     "strength": 0.52,
-     "favors": "HOME",
-     "team": "Wisla Plock",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Não marcou em 3 dos últimos 5",
-     "strength": 0.38,
-     "favors": "HOME",
-     "team": "Wisla Plock",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "no_score"
-    },
-    {
-     "label": "Invicto em 4 dos últimos 5",
-     "strength": 0.48,
-     "favors": "HOME",
-     "team": "Pogon",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "unbeaten"
-    },
-    {
-     "label": "Pogon é 8º · Wisla Plock é 16º",
-     "strength": 0.0,
-     "favors": null,
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "positions"
-    },
-    {
-     "label": "Pogon está 8 posições à frente",
-     "strength": 0.571,
-     "favors": "HOME",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "aligned_trends": [
-    {
-     "label": "Perdeu 3 dos últimos 5",
-     "strength": 0.52,
-     "favors": "HOME",
-     "team": "Wisla Plock",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Não marcou em 3 dos últimos 5",
-     "strength": 0.38,
-     "favors": "HOME",
-     "team": "Wisla Plock",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "no_score"
-    },
-    {
-     "label": "Invicto em 4 dos últimos 5",
-     "strength": 0.48,
-     "favors": "HOME",
-     "team": "Pogon",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "unbeaten"
-    },
-    {
-     "label": "Pogon está 8 posições à frente",
-     "strength": 0.571,
-     "favors": "HOME",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "confidence": 74,
-   "league": {
-    "key": "poland",
-    "name": "Ekstraklasa",
-    "country": "Polônia"
-   },
-   "home_team": {
-    "id": 6016,
-    "name": "Pogon",
-    "position": 8,
-    "played": 5,
-    "points": 8.0,
-    "record": "2V 2E 1D",
-    "goals_for": 7,
-    "goals_against": 4,
-    "last5": "DDWWL",
-    "recent": [
-     {
-      "result": "D",
-      "score": "0-0",
-      "home": false,
-      "opponent": "Zaglebie Lubin",
-      "date": "2026-08-29"
-     },
-     {
-      "result": "D",
-      "score": "2-2",
-      "home": true,
-      "opponent": "Wisla Krakow",
-      "date": "2026-08-23"
-     },
-     {
-      "result": "W",
-      "score": "3-1",
-      "home": true,
-      "opponent": "Motor Lublin",
-      "date": "2026-08-08"
-     },
-     {
-      "result": "W",
-      "score": "2-0",
-      "home": false,
-      "opponent": "Cracovia Krakow",
-      "date": "2026-08-03"
-     },
-     {
-      "result": "L",
-      "score": "0-1",
-      "home": true,
-      "opponent": "Legia Warszawa",
-      "date": "2026-07-24"
-     }
-    ]
-   },
-   "away_team": {
-    "id": 2231,
-    "name": "Wisla Plock",
-    "position": 16,
-    "played": 5,
-    "points": 4.0,
-    "record": "1V 1E 3D",
-    "goals_for": 3,
-    "goals_against": 10,
-    "last5": "LLLDW",
-    "recent": [
-     {
-      "result": "L",
-      "score": "0-2",
-      "home": true,
-      "opponent": "Korona Kielce",
-      "date": "2026-08-28"
-     },
-     {
-      "result": "L",
-      "score": "0-5",
-      "home": false,
-      "opponent": "GKS Katowice",
-      "date": "2026-08-23"
-     },
-     {
-      "result": "L",
-      "score": "1-2",
-      "home": false,
-      "opponent": "Wisla Krakow",
-      "date": "2026-08-07"
-     },
-     {
-      "result": "D",
-      "score": "0-0",
-      "home": true,
-      "opponent": "Widzew Lodz",
-      "date": "2026-07-31"
-     },
-     {
-      "result": "W",
-      "score": "2-1",
-      "home": false,
-      "opponent": "Rakow Czestochowa",
-      "date": "2026-07-26"
-     }
-    ]
-   },
-   "kickoff_local": "2026-09-07T15:30:00-03:00",
-   "has_odds": true,
-   "odds_bookmaker": "3 casas",
-   "is_cup": false,
-   "result": "pending",
-   "clear": true
-  },
   {
    "id": 4636021,
    "s365_competition_id": 122,
@@ -307,49 +25,49 @@
    "away_score": -1.0,
    "model": {
     "lambda_home": 0.84,
-    "lambda_away": 1.84,
-    "expected_goals": 2.68,
+    "lambda_away": 1.85,
+    "expected_goals": 2.69,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.167,
-     "DRAW": 0.2234,
-     "AWAY": 0.6096,
-     "1X": 0.3904,
-     "X2": 0.833,
-     "12": 0.7766,
-     "OVER25": 0.5016,
-     "UNDER25": 0.4984,
-     "BTTS_YES": 0.4785,
-     "BTTS_NO": 0.5215
+     "HOME": 0.1649,
+     "DRAW": 0.222,
+     "AWAY": 0.6131,
+     "1X": 0.3869,
+     "X2": 0.8351,
+     "12": 0.778,
+     "OVER25": 0.5035,
+     "UNDER25": 0.4965,
+     "BTTS_YES": 0.4782,
+     "BTTS_NO": 0.5218
     }
    },
    "pick": {
-    "selection": "AWAY",
-    "family": "1x2",
-    "label": "Vitória do Djurgårdens IF",
-    "model_prob": 0.6096,
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: Djurgårdens IF ou empate (X2)",
+    "model_prob": 0.8351,
     "trend_alignment": 1.0,
-    "confidence": 71,
+    "confidence": 72,
     "eligible": true,
-    "odd": 1.8,
+    "odd": 1.25,
     "low_conviction": false
    },
    "alt_markets": [
     {
-     "selection": "X2",
-     "family": "double_chance",
-     "label": "Dupla chance: Djurgårdens IF ou empate (X2)",
-     "model_prob": 0.833,
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Djurgårdens IF",
+     "model_prob": 0.6131,
      "trend_alignment": 1.0,
-     "confidence": 71,
+     "confidence": 62,
      "eligible": true,
-     "odd": 1.24
+     "odd": 1.8
     },
     {
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.5215,
+     "model_prob": 0.5218,
      "trend_alignment": 0.52,
      "confidence": 21,
      "eligible": false,
@@ -359,7 +77,7 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.4984,
+     "model_prob": 0.4965,
      "trend_alignment": 0.52,
      "confidence": 18,
      "eligible": false,
@@ -369,11 +87,11 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Kalmar FF",
-     "model_prob": 0.167,
+     "model_prob": 0.1649,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 4.11
+     "odd": 4.06
     }
    ],
    "trends": [
@@ -533,7 +251,7 @@
      "kind": "table_gap"
     }
    ],
-   "confidence": 71,
+   "confidence": 72,
    "league": {
     "key": "sweden",
     "name": "Allsvenskan",
@@ -660,30 +378,30 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 1.29,
-    "lambda_away": 0.62,
+    "lambda_home": 1.28,
+    "lambda_away": 0.63,
     "expected_goals": 1.91,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.5282,
-     "DRAW": 0.2922,
-     "AWAY": 0.1797,
-     "1X": 0.8203,
-     "X2": 0.4718,
-     "12": 0.7078,
-     "OVER25": 0.3001,
-     "UNDER25": 0.6999,
-     "BTTS_YES": 0.3361,
-     "BTTS_NO": 0.6639
+     "HOME": 0.5252,
+     "DRAW": 0.2931,
+     "AWAY": 0.1817,
+     "1X": 0.8183,
+     "X2": 0.4748,
+     "12": 0.7069,
+     "OVER25": 0.2995,
+     "UNDER25": 0.7005,
+     "BTTS_YES": 0.3369,
+     "BTTS_NO": 0.6631
     }
    },
    "pick": {
     "selection": "1X",
     "family": "double_chance",
     "label": "Dupla chance: Mardin 1969 ou empate (1X)",
-    "model_prob": 0.8203,
+    "model_prob": 0.8183,
     "trend_alignment": 1.0,
-    "confidence": 70,
+    "confidence": 69,
     "eligible": true,
     "odd": 1.22,
     "low_conviction": false
@@ -693,9 +411,9 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Mardin 1969",
-     "model_prob": 0.5282,
+     "model_prob": 0.5252,
      "trend_alignment": 1.0,
-     "confidence": 54,
+     "confidence": 53,
      "eligible": true,
      "odd": 1.74
     },
@@ -703,17 +421,17 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.6999,
+     "model_prob": 0.7005,
      "trend_alignment": 0.573,
      "confidence": 46,
      "eligible": true,
-     "odd": 1.76
+     "odd": 1.77
     },
     {
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.6639,
+     "model_prob": 0.6631,
      "trend_alignment": 0.573,
      "confidence": 41,
      "eligible": true,
@@ -723,7 +441,7 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Bodrumspor",
-     "model_prob": 0.1797,
+     "model_prob": 0.1817,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
@@ -786,7 +504,7 @@
      "kind": "winless_streak"
     },
     {
-     "label": "Mardin 1969 é 5º · Bodrumspor é 15º",
+     "label": "Mardin 1969 é 7º · Bodrumspor é 15º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -795,8 +513,8 @@
      "kind": "positions"
     },
     {
-     "label": "Mardin 1969 está 10 posições à frente",
-     "strength": 0.714,
+     "label": "Mardin 1969 está 8 posições à frente",
+     "strength": 0.571,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -842,8 +560,8 @@
      "kind": "winless_streak"
     },
     {
-     "label": "Mardin 1969 está 10 posições à frente",
-     "strength": 0.714,
+     "label": "Mardin 1969 está 8 posições à frente",
+     "strength": 0.571,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -851,7 +569,7 @@
      "kind": "table_gap"
     }
    ],
-   "confidence": 70,
+   "confidence": 69,
    "league": {
     "key": "turkey2",
     "name": "1. Lig",
@@ -860,7 +578,7 @@
    "home_team": {
     "id": 84097,
     "name": "Mardin 1969",
-    "position": 5,
+    "position": 7,
     "played": 5,
     "points": 9.0,
     "record": "2V 3E 0D",
@@ -979,31 +697,31 @@
    "away_score": -1.0,
    "model": {
     "lambda_home": 1.17,
-    "lambda_away": 1.78,
-    "expected_goals": 2.96,
+    "lambda_away": 1.77,
+    "expected_goals": 2.94,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.2505,
-     "DRAW": 0.2328,
-     "AWAY": 0.5167,
-     "1X": 0.4833,
-     "X2": 0.7495,
-     "12": 0.7672,
-     "OVER25": 0.5673,
-     "UNDER25": 0.4327,
-     "BTTS_YES": 0.5748,
-     "BTTS_NO": 0.4252
+     "HOME": 0.2503,
+     "DRAW": 0.2337,
+     "AWAY": 0.516,
+     "1X": 0.484,
+     "X2": 0.7497,
+     "12": 0.7663,
+     "OVER25": 0.5631,
+     "UNDER25": 0.4369,
+     "BTTS_YES": 0.5715,
+     "BTTS_NO": 0.4285
     }
    },
    "pick": {
     "selection": "X2",
     "family": "double_chance",
     "label": "Dupla chance: Igdir Fk ou empate (X2)",
-    "model_prob": 0.7495,
+    "model_prob": 0.7497,
     "trend_alignment": 1.0,
     "confidence": 60,
     "eligible": true,
-    "odd": 1.37,
+    "odd": 1.38,
     "low_conviction": false
    },
    "alt_markets": [
@@ -1011,39 +729,39 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Igdir Fk",
-     "model_prob": 0.5167,
+     "model_prob": 0.516,
      "trend_alignment": 1.0,
      "confidence": 52,
      "eligible": true,
-     "odd": 2.09
+     "odd": 2.15
     },
     {
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.4327,
+     "model_prob": 0.4369,
      "trend_alignment": 0.291,
      "confidence": 10,
      "eligible": false,
-     "odd": 2.01
-    },
-    {
-     "selection": "BTTS_YES",
-     "family": "btts",
-     "label": "Ambos os times marcam",
-     "model_prob": 0.5748,
-     "trend_alignment": 0.0,
-     "confidence": 10,
-     "eligible": false,
-     "odd": null
+     "odd": 1.92
     },
     {
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.4252,
+     "model_prob": 0.4285,
      "trend_alignment": 0.291,
      "confidence": 10,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5715,
+     "trend_alignment": 0.0,
+     "confidence": 9,
      "eligible": false,
      "odd": null
     }
@@ -1095,7 +813,7 @@
      "kind": "winless_streak"
     },
     {
-     "label": "Istanbulspor AS é 19º · Igdir Fk é 6º",
+     "label": "Istanbulspor AS é 19º · Igdir Fk é 8º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -1104,8 +822,8 @@
      "kind": "positions"
     },
     {
-     "label": "Igdir Fk está 13 posições à frente",
-     "strength": 0.8,
+     "label": "Igdir Fk está 11 posições à frente",
+     "strength": 0.786,
      "favors": "AWAY",
      "team": null,
      "side": null,
@@ -1133,8 +851,8 @@
      "kind": "winless_streak"
     },
     {
-     "label": "Igdir Fk está 13 posições à frente",
-     "strength": 0.8,
+     "label": "Igdir Fk está 11 posições à frente",
+     "strength": 0.786,
      "favors": "AWAY",
      "team": null,
      "side": null,
@@ -1199,7 +917,7 @@
    "away_team": {
     "id": 72152,
     "name": "Igdir Fk",
-    "position": 6,
+    "position": 8,
     "played": 5,
     "points": 9.0,
     "record": "3V 0E 2D",
@@ -1274,23 +992,23 @@
     "expected_goals": 2.67,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.2534,
-     "DRAW": 0.2492,
-     "AWAY": 0.4974,
-     "1X": 0.5026,
-     "X2": 0.7466,
-     "12": 0.7508,
-     "OVER25": 0.4992,
-     "UNDER25": 0.5008,
-     "BTTS_YES": 0.5243,
-     "BTTS_NO": 0.4757
+     "HOME": 0.2535,
+     "DRAW": 0.2493,
+     "AWAY": 0.4972,
+     "1X": 0.5028,
+     "X2": 0.7465,
+     "12": 0.7507,
+     "OVER25": 0.4987,
+     "UNDER25": 0.5013,
+     "BTTS_YES": 0.524,
+     "BTTS_NO": 0.476
     }
    },
    "pick": {
     "selection": "X2",
     "family": "double_chance",
     "label": "Dupla chance: Arouca ou empate (X2)",
-    "model_prob": 0.7466,
+    "model_prob": 0.7465,
     "trend_alignment": 1.0,
     "confidence": 60,
     "eligible": true,
@@ -1302,27 +1020,27 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Arouca",
-     "model_prob": 0.4974,
+     "model_prob": 0.4972,
      "trend_alignment": 1.0,
-     "confidence": 51,
+     "confidence": 50,
      "eligible": true,
-     "odd": 3.01
+     "odd": 3.0
     },
     {
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.5008,
+     "model_prob": 0.5013,
      "trend_alignment": 0.55,
      "confidence": 19,
      "eligible": false,
-     "odd": 1.96
+     "odd": 1.91
     },
     {
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.4757,
+     "model_prob": 0.476,
      "trend_alignment": 0.55,
      "confidence": 19,
      "eligible": false,
@@ -1332,7 +1050,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5243,
+     "model_prob": 0.524,
      "trend_alignment": 0.0,
      "confidence": 3,
      "eligible": false,
@@ -1377,7 +1095,7 @@
      "kind": "under"
     },
     {
-     "label": "Estoril é 17º · Arouca é 3º",
+     "label": "Estoril é 17º · Arouca é 4º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -1386,7 +1104,7 @@
      "kind": "positions"
     },
     {
-     "label": "Arouca está 14 posições à frente",
+     "label": "Arouca está 13 posições à frente",
      "strength": 0.8,
      "favors": "AWAY",
      "team": null,
@@ -1415,7 +1133,7 @@
      "kind": "losses"
     },
     {
-     "label": "Arouca está 14 posições à frente",
+     "label": "Arouca está 13 posições à frente",
      "strength": 0.8,
      "favors": "AWAY",
      "team": null,
@@ -1474,7 +1192,7 @@
    "away_team": {
     "id": 927,
     "name": "Arouca",
-    "position": 3,
+    "position": 4,
     "played": 4,
     "points": 9.0,
     "record": "3V 0E 1D",
@@ -1513,6 +1231,306 @@
     ]
    },
    "kickoff_local": "2026-09-07T16:15:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "3 casas",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4766984,
+   "s365_competition_id": 81,
+   "competition_name": "1. Lig",
+   "start_time": "2026-09-07T14:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 49312,
+    "name": "Erokspor"
+   },
+   "away": {
+    "id": 949,
+    "name": "Kayserispor"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 0.85,
+    "lambda_away": 0.83,
+    "expected_goals": 1.69,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.3351,
+     "DRAW": 0.3421,
+     "AWAY": 0.3228,
+     "1X": 0.6772,
+     "X2": 0.6649,
+     "12": 0.6579,
+     "OVER25": 0.2394,
+     "UNDER25": 0.7606,
+     "BTTS_YES": 0.3247,
+     "BTTS_NO": 0.6753
+    }
+   },
+   "pick": {
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: Kayserispor ou empate (X2)",
+    "model_prob": 0.6649,
+    "trend_alignment": 1.0,
+    "confidence": 48,
+    "eligible": true,
+    "odd": 1.66,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.7606,
+     "trend_alignment": 0.68,
+     "confidence": 58,
+     "eligible": true,
+     "odd": 1.99
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.6753,
+     "trend_alignment": 0.68,
+     "confidence": 47,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Kayserispor",
+     "model_prob": 0.3228,
+     "trend_alignment": 1.0,
+     "confidence": 35,
+     "eligible": false,
+     "odd": 2.88
+    },
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Erokspor ou empate (1X)",
+     "model_prob": 0.6772,
+     "trend_alignment": 0.0,
+     "confidence": 17,
+     "eligible": true,
+     "odd": 1.4
+    }
+   ],
+   "trends": [
+    {
+     "label": "Não venceu nenhum dos últimos 5",
+     "strength": 0.55,
+     "favors": "AWAY",
+     "team": "Erokspor",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "Menos de 2.5 gols em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "UNDER",
+     "team": "Erokspor",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "under"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "AWAY",
+     "team": "Kayserispor",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Menos de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "UNDER",
+     "team": "Kayserispor",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "under"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Erokspor",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Erokspor é 14º · Kayserispor é 4º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Kayserispor está 10 posições à frente",
+     "strength": 0.714,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Não venceu nenhum dos últimos 5",
+     "strength": 0.55,
+     "favors": "AWAY",
+     "team": "Erokspor",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "AWAY",
+     "team": "Kayserispor",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Erokspor",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Kayserispor está 10 posições à frente",
+     "strength": 0.714,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 48,
+   "league": {
+    "key": "turkey2",
+    "name": "1. Lig",
+    "country": "Turquia"
+   },
+   "home_team": {
+    "id": 49312,
+    "name": "Erokspor",
+    "position": 14,
+    "played": 5,
+    "points": 4.0,
+    "record": "0V 4E 1D",
+    "goals_for": 2,
+    "goals_against": 3,
+    "last5": "DLDDD",
+    "recent": [
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Bodrumspor",
+      "date": "2026-09-03"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Igdir Fk",
+      "date": "2026-08-30"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Ümraniyespor",
+      "date": "2026-08-22"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Sariyer",
+      "date": "2026-08-14"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Sivasspor",
+      "date": "2026-08-08"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 949,
+    "name": "Kayserispor",
+    "position": 4,
+    "played": 5,
+    "points": 10.0,
+    "record": "3V 1E 1D",
+    "goals_for": 7,
+    "goals_against": 3,
+    "last5": "DLWWW",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Fatih Karagümrük",
+      "date": "2026-09-02"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Bursaspor",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Igdir Fk",
+      "date": "2026-08-22"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Sivasspor",
+      "date": "2026-08-16"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "Van Spor FK",
+      "date": "2026-08-09"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-07T11:00:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
