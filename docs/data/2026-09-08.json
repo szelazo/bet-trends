@@ -1,0 +1,705 @@
+{
+ "date": "2026-09-08",
+ "generated_at": "2026-09-06T17:13:33.118476-03:00",
+ "version": "0.1.0",
+ "count": 3,
+ "clear_count": 1,
+ "day_total": 8,
+ "games": [
+  {
+   "id": 4828498,
+   "s365_competition_id": 572,
+   "competition_name": "UEFA Champions League",
+   "start_time": "2026-09-08T19:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 341,
+    "name": "Borussia Dortmund"
+   },
+   "away": {
+    "id": 133,
+    "name": "Villarreal"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.4,
+    "lambda_away": 1.15,
+    "expected_goals": 3.55,
+    "sample_factor": 0.6,
+    "probs": {
+     "HOME": 0.6495,
+     "DRAW": 0.183,
+     "AWAY": 0.1675,
+     "1X": 0.8325,
+     "X2": 0.3505,
+     "12": 0.817,
+     "OVER25": 0.6876,
+     "UNDER25": 0.3124,
+     "BTTS_YES": 0.6211,
+     "BTTS_NO": 0.3789
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Borussia Dortmund",
+    "model_prob": 0.6495,
+    "trend_alignment": 0.867,
+    "confidence": 40,
+    "eligible": true,
+    "odd": 1.76,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Borussia Dortmund ou empate (1X)",
+     "model_prob": 0.8325,
+     "trend_alignment": 0.867,
+     "confidence": 40,
+     "eligible": true,
+     "odd": 1.24
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6876,
+     "trend_alignment": 0.0,
+     "confidence": 15,
+     "eligible": true,
+     "odd": 2.18
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.6211,
+     "trend_alignment": 0.0,
+     "confidence": 9,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Villarreal",
+     "model_prob": 0.1675,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 4.21
+    }
+   ],
+   "trends": [
+    {
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Borussia Dortmund",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Borussia Dortmund é 8º · Villarreal é 36º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Borussia Dortmund está 28 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Borussia Dortmund",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Borussia Dortmund está 28 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 40,
+   "league": {
+    "key": "ucl",
+    "name": "UEFA Champions League",
+    "country": "Europa"
+   },
+   "home_team": {
+    "id": 341,
+    "name": "Borussia Dortmund",
+    "position": 8,
+    "played": 0,
+    "points": 0,
+    "record": "0V 0E 0D",
+    "goals_for": 0,
+    "goals_against": 0,
+    "last5": "WWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": false,
+      "opponent": "Hoffenheim",
+      "date": "2026-09-05"
+     },
+     {
+      "result": "W",
+      "score": "5-0",
+      "home": false,
+      "opponent": "HEBC Hamburg",
+      "date": "2026-09-01"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Hamburger SV",
+      "date": "2026-08-29"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 133,
+    "name": "Villarreal",
+    "position": 36,
+    "played": 0,
+    "points": 0,
+    "record": "0V 0E 0D",
+    "goals_for": 0,
+    "goals_against": 0,
+    "last5": "LLD",
+    "recent": [
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": true,
+      "opponent": "Deportivo A Coruña",
+      "date": "2026-09-05"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Alaves",
+      "date": "2026-08-28"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "Atletico Madrid",
+      "date": "2026-08-23"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-08T16:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "3 casas",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4819509,
+   "s365_competition_id": 102,
+   "competition_name": "CONMEBOL Libertadores - Quarter Finals",
+   "start_time": "2026-09-08T22:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 1216,
+    "name": "Fluminense"
+   },
+   "away": {
+    "id": 7207,
+    "name": "Platense"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.26,
+    "lambda_away": 0.92,
+    "expected_goals": 2.18,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.4426,
+     "DRAW": 0.2876,
+     "AWAY": 0.2698,
+     "1X": 0.7302,
+     "X2": 0.5574,
+     "12": 0.7124,
+     "OVER25": 0.3706,
+     "UNDER25": 0.6294,
+     "BTTS_YES": 0.4295,
+     "BTTS_NO": 0.5705
+    }
+   },
+   "pick": {
+    "selection": "1X",
+    "family": "double_chance",
+    "label": "Dupla chance: Fluminense ou empate (1X)",
+    "model_prob": 0.7302,
+    "trend_alignment": 1.0,
+    "confidence": 57,
+    "eligible": true,
+    "odd": 1.1,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Fluminense",
+     "model_prob": 0.4426,
+     "trend_alignment": 1.0,
+     "confidence": 45,
+     "eligible": false,
+     "odd": 1.56
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.6294,
+     "trend_alignment": 0.067,
+     "confidence": 19,
+     "eligible": true,
+     "odd": 1.56
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5705,
+     "trend_alignment": 0.067,
+     "confidence": 12,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "X2",
+     "family": "double_chance",
+     "label": "Dupla chance: Platense ou empate (X2)",
+     "model_prob": 0.5574,
+     "trend_alignment": 0.0,
+     "confidence": 1,
+     "eligible": false,
+     "odd": 2.44
+    }
+   ],
+   "trends": [
+    {
+     "label": "Invicto há 7+ jogos",
+     "strength": 0.667,
+     "favors": "HOME",
+     "team": "Fluminense",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Venceu 3 dos últimos 4 em casa",
+     "strength": 0.625,
+     "favors": "HOME",
+     "team": "Fluminense",
+     "side": "HOME",
+     "group": "casa_fora",
+     "kind": "wins"
+    },
+    {
+     "label": "Invicto em 7 dos últimos 7",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Fluminense",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Ambos marcaram em 5 dos últimos 7",
+     "strength": 0.4,
+     "favors": "BTTS_YES",
+     "team": "Fluminense",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "btts"
+    },
+    {
+     "label": "Menos de 2.5 gols em 7 dos últimos 9",
+     "strength": 0.461,
+     "favors": "UNDER",
+     "team": "Platense",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "under"
+    },
+    {
+     "label": "Fluminense é 2º · Platense é 2º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Invicto há 7+ jogos",
+     "strength": 0.667,
+     "favors": "HOME",
+     "team": "Fluminense",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Venceu 3 dos últimos 4 em casa",
+     "strength": 0.625,
+     "favors": "HOME",
+     "team": "Fluminense",
+     "side": "HOME",
+     "group": "casa_fora",
+     "kind": "wins"
+    },
+    {
+     "label": "Invicto em 7 dos últimos 7",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Fluminense",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    }
+   ],
+   "confidence": 57,
+   "league": {
+    "key": "libertadores",
+    "name": "CONMEBOL Libertadores",
+    "country": "América do Sul"
+   },
+   "home_team": {
+    "id": 1216,
+    "name": "Fluminense",
+    "position": 2,
+    "played": 6,
+    "points": 8.0,
+    "record": "2V 2E 2D",
+    "goals_for": 7,
+    "goals_against": 7,
+    "last5": "WDDDW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Vasco da Gama",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "D",
+      "score": "3-3",
+      "home": false,
+      "opponent": "Athletico Paranaense",
+      "date": "2026-08-30"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Independiente Rivadavia",
+      "date": "2026-08-18"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Independiente Rivadavia",
+      "date": "2026-08-11"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": true,
+      "opponent": "Deportivo La Guaira",
+      "date": "2026-05-28"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 7207,
+    "name": "Platense",
+    "position": 2,
+    "played": 6,
+    "points": 10.0,
+    "record": "3V 1E 2D",
+    "goals_for": 8,
+    "goals_against": 7,
+    "last5": "DLDWD",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Riestra",
+      "date": "2026-09-04"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Defensa Y Justicia",
+      "date": "2026-08-31"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Instituto AC Cordoba",
+      "date": "2026-08-28"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Barracas Central",
+      "date": "2026-08-23"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Coquimbo Unido",
+      "date": "2026-08-19"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-08T19:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "3 casas",
+   "is_cup": false,
+   "result": "pending",
+   "clear": false,
+   "below_bar": true
+  },
+  {
+   "id": 4828502,
+   "s365_competition_id": 572,
+   "competition_name": "UEFA Champions League",
+   "start_time": "2026-09-08T16:45:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 1024,
+    "name": "AEK Athens"
+   },
+   "away": {
+    "id": 1743,
+    "name": "LASK Linz"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.53,
+    "lambda_away": 1.19,
+    "expected_goals": 2.72,
+    "sample_factor": 0.45,
+    "probs": {
+     "HOME": 0.4499,
+     "DRAW": 0.2529,
+     "AWAY": 0.2972,
+     "1X": 0.7028,
+     "X2": 0.5501,
+     "12": 0.7471,
+     "OVER25": 0.5114,
+     "UNDER25": 0.4886,
+     "BTTS_YES": 0.5455,
+     "BTTS_NO": 0.4545
+    }
+   },
+   "pick": {
+    "selection": "1X",
+    "family": "double_chance",
+    "label": "Dupla chance: AEK Athens ou empate (1X)",
+    "model_prob": 0.7028,
+    "trend_alignment": 0.533,
+    "confidence": 17,
+    "eligible": true,
+    "odd": 1.22,
+    "low_conviction": true
+   },
+   "alt_markets": [
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do AEK Athens",
+     "model_prob": 0.4499,
+     "trend_alignment": 0.533,
+     "confidence": 13,
+     "eligible": false,
+     "odd": 1.77
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5455,
+     "trend_alignment": 0.0,
+     "confidence": 3,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5114,
+     "trend_alignment": 0.0,
+     "confidence": 1,
+     "eligible": false,
+     "odd": 1.66
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do LASK Linz",
+     "model_prob": 0.2972,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 4.4
+    }
+   ],
+   "trends": [
+    {
+     "label": "AEK Athens é 1º · LASK Linz é 15º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "AEK Athens está 14 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "AEK Athens está 14 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 17,
+   "league": {
+    "key": "ucl",
+    "name": "UEFA Champions League",
+    "country": "Europa"
+   },
+   "home_team": {
+    "id": 1024,
+    "name": "AEK Athens",
+    "position": 1,
+    "played": 0,
+    "points": 0,
+    "record": "0V 0E 0D",
+    "goals_for": 0,
+    "goals_against": 0,
+    "last5": "WDW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "5-0",
+      "home": true,
+      "opponent": "Aris Salonica",
+      "date": "2026-09-05"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Kifisia",
+      "date": "2026-08-30"
+     },
+     {
+      "result": "W",
+      "score": "4-0",
+      "home": true,
+      "opponent": "Iraklis",
+      "date": "2026-08-22"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 1743,
+    "name": "LASK Linz",
+    "position": 15,
+    "played": 0,
+    "points": 0,
+    "record": "0V 0E 0D",
+    "goals_for": 0,
+    "goals_against": 0,
+    "last5": "WW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": false,
+      "opponent": "Wolfsberger AC",
+      "date": "2026-09-01"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "SCR Altach",
+      "date": "2026-08-29"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-08T13:45:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "3 casas",
+   "is_cup": false,
+   "result": "pending",
+   "clear": false,
+   "below_bar": true
+  }
+ ]
+}

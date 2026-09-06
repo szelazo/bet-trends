@@ -1,6 +1,6 @@
 {
  "date": "2026-09-07",
- "generated_at": "2026-09-05T17:12:51.227016-03:00",
+ "generated_at": "2026-09-06T17:13:32.270513-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -29,39 +29,39 @@
     "expected_goals": 2.69,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.1649,
-     "DRAW": 0.222,
-     "AWAY": 0.6131,
-     "1X": 0.3869,
-     "X2": 0.8351,
-     "12": 0.778,
-     "OVER25": 0.5035,
-     "UNDER25": 0.4965,
+     "HOME": 0.1646,
+     "DRAW": 0.2218,
+     "AWAY": 0.6136,
+     "1X": 0.3864,
+     "X2": 0.8354,
+     "12": 0.7782,
+     "OVER25": 0.5038,
+     "UNDER25": 0.4962,
      "BTTS_YES": 0.4782,
      "BTTS_NO": 0.5218
     }
    },
    "pick": {
-    "selection": "X2",
-    "family": "double_chance",
-    "label": "Dupla chance: Djurgårdens IF ou empate (X2)",
-    "model_prob": 0.8351,
+    "selection": "AWAY",
+    "family": "1x2",
+    "label": "Vitória do Djurgårdens IF",
+    "model_prob": 0.6136,
     "trend_alignment": 1.0,
     "confidence": 72,
     "eligible": true,
-    "odd": 1.25,
+    "odd": 1.79,
     "low_conviction": false
    },
    "alt_markets": [
     {
-     "selection": "AWAY",
-     "family": "1x2",
-     "label": "Vitória do Djurgårdens IF",
-     "model_prob": 0.6131,
+     "selection": "X2",
+     "family": "double_chance",
+     "label": "Dupla chance: Djurgårdens IF ou empate (X2)",
+     "model_prob": 0.8354,
      "trend_alignment": 1.0,
-     "confidence": 62,
+     "confidence": 72,
      "eligible": true,
-     "odd": 1.8
+     "odd": 1.24
     },
     {
      "selection": "BTTS_NO",
@@ -77,7 +77,7 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.4965,
+     "model_prob": 0.4962,
      "trend_alignment": 0.52,
      "confidence": 18,
      "eligible": false,
@@ -87,11 +87,11 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Kalmar FF",
-     "model_prob": 0.1649,
+     "model_prob": 0.1646,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 4.06
+     "odd": 4.21
     }
    ],
    "trends": [
@@ -150,7 +150,7 @@
      "kind": "def_rank"
     },
     {
-     "label": "3º melhor ataque da liga (2.3 marcados/jogo)",
+     "label": "2º melhor ataque da liga (2.3 marcados/jogo)",
      "strength": 0.32,
      "favors": "AWAY",
      "team": "Djurgårdens IF",
@@ -224,7 +224,7 @@
      "kind": "def_rank"
     },
     {
-     "label": "3º melhor ataque da liga (2.3 marcados/jogo)",
+     "label": "2º melhor ataque da liga (2.3 marcados/jogo)",
      "strength": 0.32,
      "favors": "AWAY",
      "team": "Djurgårdens IF",
@@ -425,7 +425,7 @@
      "trend_alignment": 0.573,
      "confidence": 46,
      "eligible": true,
-     "odd": 1.77
+     "odd": 1.76
     },
     {
      "selection": "BTTS_NO",
@@ -721,7 +721,7 @@
     "trend_alignment": 1.0,
     "confidence": 60,
     "eligible": true,
-    "odd": 1.38,
+    "odd": 1.37,
     "low_conviction": false
    },
    "alt_markets": [
@@ -733,7 +733,7 @@
      "trend_alignment": 1.0,
      "confidence": 52,
      "eligible": true,
-     "odd": 2.15
+     "odd": 2.09
     },
     {
      "selection": "UNDER25",
@@ -743,7 +743,7 @@
      "trend_alignment": 0.291,
      "confidence": 10,
      "eligible": false,
-     "odd": 1.92
+     "odd": 2.01
     },
     {
      "selection": "BTTS_NO",
@@ -988,31 +988,31 @@
    "away_score": -1.0,
    "model": {
     "lambda_home": 1.07,
-    "lambda_away": 1.6,
-    "expected_goals": 2.67,
+    "lambda_away": 1.61,
+    "expected_goals": 2.69,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.2535,
-     "DRAW": 0.2493,
-     "AWAY": 0.4972,
-     "1X": 0.5028,
-     "X2": 0.7465,
-     "12": 0.7507,
-     "OVER25": 0.4987,
-     "UNDER25": 0.5013,
-     "BTTS_YES": 0.524,
-     "BTTS_NO": 0.476
+     "HOME": 0.253,
+     "DRAW": 0.248,
+     "AWAY": 0.499,
+     "1X": 0.501,
+     "X2": 0.747,
+     "12": 0.752,
+     "OVER25": 0.5036,
+     "UNDER25": 0.4964,
+     "BTTS_YES": 0.5275,
+     "BTTS_NO": 0.4725
     }
    },
    "pick": {
     "selection": "X2",
     "family": "double_chance",
     "label": "Dupla chance: Arouca ou empate (X2)",
-    "model_prob": 0.7465,
+    "model_prob": 0.747,
     "trend_alignment": 1.0,
     "confidence": 60,
     "eligible": true,
-    "odd": 1.63,
+    "odd": 1.62,
     "low_conviction": false
    },
    "alt_markets": [
@@ -1020,17 +1020,17 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Arouca",
-     "model_prob": 0.4972,
+     "model_prob": 0.499,
      "trend_alignment": 1.0,
-     "confidence": 50,
+     "confidence": 51,
      "eligible": true,
-     "odd": 3.0
+     "odd": 3.01
     },
     {
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.5013,
+     "model_prob": 0.4964,
      "trend_alignment": 0.55,
      "confidence": 19,
      "eligible": false,
@@ -1040,7 +1040,7 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.476,
+     "model_prob": 0.4725,
      "trend_alignment": 0.55,
      "confidence": 19,
      "eligible": false,
@@ -1050,9 +1050,9 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.524,
+     "model_prob": 0.5275,
      "trend_alignment": 0.0,
-     "confidence": 3,
+     "confidence": 4,
      "eligible": false,
      "odd": null
     }
@@ -1095,7 +1095,7 @@
      "kind": "under"
     },
     {
-     "label": "Estoril é 17º · Arouca é 4º",
+     "label": "Estoril é 17º · Arouca é 5º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -1104,7 +1104,7 @@
      "kind": "positions"
     },
     {
-     "label": "Arouca está 13 posições à frente",
+     "label": "Arouca está 12 posições à frente",
      "strength": 0.8,
      "favors": "AWAY",
      "team": null,
@@ -1133,7 +1133,7 @@
      "kind": "losses"
     },
     {
-     "label": "Arouca está 13 posições à frente",
+     "label": "Arouca está 12 posições à frente",
      "strength": 0.8,
      "favors": "AWAY",
      "team": null,
@@ -1192,7 +1192,7 @@
    "away_team": {
     "id": 927,
     "name": "Arouca",
-    "position": 4,
+    "position": 5,
     "played": 4,
     "points": 9.0,
     "record": "3V 0E 1D",
@@ -1292,7 +1292,7 @@
      "trend_alignment": 0.68,
      "confidence": 58,
      "eligible": true,
-     "odd": 1.99
+     "odd": 2.04
     },
     {
      "selection": "BTTS_NO",
