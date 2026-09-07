@@ -1193,8 +1193,8 @@
     "id": 1215,
     "name": "Flamengo"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 0.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 1.03,
     "lambda_away": 2.23,
@@ -1520,7 +1520,7 @@
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   }
  ]

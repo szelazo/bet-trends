@@ -1,6 +1,6 @@
 {
  "date": "2026-09-07",
- "generated_at": "2026-09-06T17:13:32.270513-03:00",
+ "generated_at": "2026-09-07T08:18:26.966194-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -49,7 +49,7 @@
     "trend_alignment": 1.0,
     "confidence": 72,
     "eligible": true,
-    "odd": 1.79,
+    "odd": 1.67,
     "low_conviction": false
    },
    "alt_markets": [
@@ -61,7 +61,7 @@
      "trend_alignment": 1.0,
      "confidence": 72,
      "eligible": true,
-     "odd": 1.24
+     "odd": 1.19
     },
     {
      "selection": "BTTS_NO",
@@ -91,7 +91,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 4.21
+     "odd": 4.94
     }
    ],
    "trends": [
@@ -378,28 +378,28 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 1.28,
-    "lambda_away": 0.63,
+    "lambda_home": 1.27,
+    "lambda_away": 0.64,
     "expected_goals": 1.91,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.5252,
-     "DRAW": 0.2931,
-     "AWAY": 0.1817,
-     "1X": 0.8183,
-     "X2": 0.4748,
-     "12": 0.7069,
-     "OVER25": 0.2995,
-     "UNDER25": 0.7005,
-     "BTTS_YES": 0.3369,
-     "BTTS_NO": 0.6631
+     "HOME": 0.5184,
+     "DRAW": 0.2952,
+     "AWAY": 0.1865,
+     "1X": 0.8135,
+     "X2": 0.4816,
+     "12": 0.7048,
+     "OVER25": 0.2982,
+     "UNDER25": 0.7018,
+     "BTTS_YES": 0.3387,
+     "BTTS_NO": 0.6613
     }
    },
    "pick": {
     "selection": "1X",
     "family": "double_chance",
     "label": "Dupla chance: Mardin 1969 ou empate (1X)",
-    "model_prob": 0.8183,
+    "model_prob": 0.8135,
     "trend_alignment": 1.0,
     "confidence": 69,
     "eligible": true,
@@ -411,7 +411,7 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Mardin 1969",
-     "model_prob": 0.5252,
+     "model_prob": 0.5184,
      "trend_alignment": 1.0,
      "confidence": 53,
      "eligible": true,
@@ -421,17 +421,17 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.7005,
+     "model_prob": 0.7018,
      "trend_alignment": 0.573,
      "confidence": 46,
      "eligible": true,
-     "odd": 1.76
+     "odd": 1.77
     },
     {
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.6631,
+     "model_prob": 0.6613,
      "trend_alignment": 0.573,
      "confidence": 41,
      "eligible": true,
@@ -441,7 +441,7 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Bodrumspor",
-     "model_prob": 0.1817,
+     "model_prob": 0.1865,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
@@ -504,7 +504,7 @@
      "kind": "winless_streak"
     },
     {
-     "label": "Mardin 1969 é 7º · Bodrumspor é 15º",
+     "label": "Mardin 1969 é 7º · Bodrumspor é 17º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -513,8 +513,8 @@
      "kind": "positions"
     },
     {
-     "label": "Mardin 1969 está 8 posições à frente",
-     "strength": 0.571,
+     "label": "Mardin 1969 está 10 posições à frente",
+     "strength": 0.714,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -560,8 +560,8 @@
      "kind": "winless_streak"
     },
     {
-     "label": "Mardin 1969 está 8 posições à frente",
-     "strength": 0.571,
+     "label": "Mardin 1969 está 10 posições à frente",
+     "strength": 0.714,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -626,7 +626,7 @@
    "away_team": {
     "id": 26767,
     "name": "Bodrumspor",
-    "position": 15,
+    "position": 17,
     "played": 5,
     "points": 4.0,
     "record": "0V 4E 1D",
@@ -696,32 +696,32 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 1.17,
-    "lambda_away": 1.77,
-    "expected_goals": 2.94,
+    "lambda_home": 1.15,
+    "lambda_away": 1.74,
+    "expected_goals": 2.89,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.2503,
-     "DRAW": 0.2337,
-     "AWAY": 0.516,
-     "1X": 0.484,
-     "X2": 0.7497,
-     "12": 0.7663,
-     "OVER25": 0.5631,
-     "UNDER25": 0.4369,
-     "BTTS_YES": 0.5715,
-     "BTTS_NO": 0.4285
+     "HOME": 0.2513,
+     "DRAW": 0.2365,
+     "AWAY": 0.5121,
+     "1X": 0.4879,
+     "X2": 0.7487,
+     "12": 0.7635,
+     "OVER25": 0.5512,
+     "UNDER25": 0.4488,
+     "BTTS_YES": 0.563,
+     "BTTS_NO": 0.437
     }
    },
    "pick": {
     "selection": "X2",
     "family": "double_chance",
     "label": "Dupla chance: Igdir Fk ou empate (X2)",
-    "model_prob": 0.7497,
+    "model_prob": 0.7487,
     "trend_alignment": 1.0,
     "confidence": 60,
     "eligible": true,
-    "odd": 1.37,
+    "odd": 1.36,
     "low_conviction": false
    },
    "alt_markets": [
@@ -729,17 +729,17 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Igdir Fk",
-     "model_prob": 0.516,
+     "model_prob": 0.5121,
      "trend_alignment": 1.0,
      "confidence": 52,
      "eligible": true,
-     "odd": 2.09
+     "odd": 2.04
     },
     {
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.4369,
+     "model_prob": 0.4488,
      "trend_alignment": 0.291,
      "confidence": 10,
      "eligible": false,
@@ -749,7 +749,7 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.4285,
+     "model_prob": 0.437,
      "trend_alignment": 0.291,
      "confidence": 10,
      "eligible": false,
@@ -759,9 +759,9 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5715,
+     "model_prob": 0.563,
      "trend_alignment": 0.0,
-     "confidence": 9,
+     "confidence": 8,
      "eligible": false,
      "odd": null
     }
@@ -1012,7 +1012,7 @@
     "trend_alignment": 1.0,
     "confidence": 60,
     "eligible": true,
-    "odd": 1.62,
+    "odd": 1.55,
     "low_conviction": false
    },
    "alt_markets": [
@@ -1024,7 +1024,7 @@
      "trend_alignment": 1.0,
      "confidence": 51,
      "eligible": true,
-     "odd": 3.01
+     "odd": 2.71
     },
     {
      "selection": "UNDER25",
@@ -1034,7 +1034,7 @@
      "trend_alignment": 0.55,
      "confidence": 19,
      "eligible": false,
-     "odd": 1.91
+     "odd": 1.96
     },
     {
      "selection": "BTTS_NO",
@@ -1255,32 +1255,32 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 0.85,
-    "lambda_away": 0.83,
-    "expected_goals": 1.69,
+    "lambda_home": 0.87,
+    "lambda_away": 0.85,
+    "expected_goals": 1.72,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.3351,
-     "DRAW": 0.3421,
-     "AWAY": 0.3228,
-     "1X": 0.6772,
-     "X2": 0.6649,
-     "12": 0.6579,
-     "OVER25": 0.2394,
-     "UNDER25": 0.7606,
-     "BTTS_YES": 0.3247,
-     "BTTS_NO": 0.6753
+     "HOME": 0.3361,
+     "DRAW": 0.3387,
+     "AWAY": 0.3252,
+     "1X": 0.6748,
+     "X2": 0.6639,
+     "12": 0.6613,
+     "OVER25": 0.2467,
+     "UNDER25": 0.7533,
+     "BTTS_YES": 0.3315,
+     "BTTS_NO": 0.6685
     }
    },
    "pick": {
     "selection": "X2",
     "family": "double_chance",
     "label": "Dupla chance: Kayserispor ou empate (X2)",
-    "model_prob": 0.6649,
+    "model_prob": 0.6639,
     "trend_alignment": 1.0,
     "confidence": 48,
     "eligible": true,
-    "odd": 1.66,
+    "odd": 1.52,
     "low_conviction": false
    },
    "alt_markets": [
@@ -1288,19 +1288,19 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.7606,
+     "model_prob": 0.7533,
      "trend_alignment": 0.68,
-     "confidence": 58,
+     "confidence": 57,
      "eligible": true,
-     "odd": 2.04
+     "odd": 1.98
     },
     {
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.6753,
+     "model_prob": 0.6685,
      "trend_alignment": 0.68,
-     "confidence": 47,
+     "confidence": 46,
      "eligible": true,
      "odd": null
     },
@@ -1308,21 +1308,21 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Kayserispor",
-     "model_prob": 0.3228,
+     "model_prob": 0.3252,
      "trend_alignment": 1.0,
      "confidence": 35,
      "eligible": false,
-     "odd": 2.88
+     "odd": 2.55
     },
     {
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Erokspor ou empate (1X)",
-     "model_prob": 0.6772,
+     "model_prob": 0.6748,
      "trend_alignment": 0.0,
      "confidence": 17,
      "eligible": true,
-     "odd": 1.4
+     "odd": 1.5
     }
    ],
    "trends": [
@@ -1372,7 +1372,7 @@
      "kind": "winless_streak"
     },
     {
-     "label": "Erokspor é 14º · Kayserispor é 4º",
+     "label": "Erokspor é 16º · Kayserispor é 4º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -1381,8 +1381,8 @@
      "kind": "positions"
     },
     {
-     "label": "Kayserispor está 10 posições à frente",
-     "strength": 0.714,
+     "label": "Kayserispor está 12 posições à frente",
+     "strength": 0.8,
      "favors": "AWAY",
      "team": null,
      "side": null,
@@ -1419,8 +1419,8 @@
      "kind": "winless_streak"
     },
     {
-     "label": "Kayserispor está 10 posições à frente",
-     "strength": 0.714,
+     "label": "Kayserispor está 12 posições à frente",
+     "strength": 0.8,
      "favors": "AWAY",
      "team": null,
      "side": null,
@@ -1437,7 +1437,7 @@
    "home_team": {
     "id": 49312,
     "name": "Erokspor",
-    "position": 14,
+    "position": 16,
     "played": 5,
     "points": 4.0,
     "record": "0V 4E 1D",

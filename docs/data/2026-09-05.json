@@ -298,7 +298,7 @@
    "has_odds": true,
    "odds_bookmaker": "SportingBet",
    "is_cup": false,
-   "result": "pending",
+   "result": "void",
    "clear": true
   },
   {
