@@ -1,6 +1,6 @@
 {
  "date": "2026-09-07",
- "generated_at": "2026-09-07T08:18:26.966194-03:00",
+ "generated_at": "2026-09-07T17:11:16.226436-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -21,8 +21,8 @@
     "id": 1892,
     "name": "Djurgårdens IF"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 0.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 0.84,
     "lambda_away": 1.85,
@@ -357,7 +357,7 @@
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -375,8 +375,8 @@
     "id": 26767,
     "name": "Bodrumspor"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 1.0,
+   "away_score": 0.0,
    "model": {
     "lambda_home": 1.27,
     "lambda_away": 0.64,
@@ -675,7 +675,7 @@
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -693,8 +693,8 @@
     "id": 72152,
     "name": "Igdir Fk"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 1.0,
+   "away_score": 2.0,
    "model": {
     "lambda_home": 1.15,
     "lambda_away": 1.74,
@@ -966,7 +966,7 @@
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -1252,8 +1252,8 @@
     "id": 949,
     "name": "Kayserispor"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 0.0,
+   "away_score": 3.0,
    "model": {
     "lambda_home": 0.87,
     "lambda_away": 0.85,
@@ -1534,7 +1534,7 @@
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   }
  ]

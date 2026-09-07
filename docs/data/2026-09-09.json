@@ -1,6 +1,6 @@
 {
  "date": "2026-09-09",
- "generated_at": "2026-09-07T08:18:29.507228-03:00",
+ "generated_at": "2026-09-07T17:11:18.260257-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -37,8 +37,8 @@
      "12": 0.8765,
      "OVER25": 0.7084,
      "UNDER25": 0.2916,
-     "BTTS_YES": 0.5069,
-     "BTTS_NO": 0.4931
+     "BTTS_YES": 0.5068,
+     "BTTS_NO": 0.4932
     }
    },
    "pick": {
@@ -49,7 +49,7 @@
     "trend_alignment": 1.0,
     "confidence": 84,
     "eligible": true,
-    "odd": 1.32,
+    "odd": 1.23,
     "low_conviction": false
    },
    "alt_markets": [
@@ -61,7 +61,7 @@
      "trend_alignment": 1.0,
      "confidence": 84,
      "eligible": true,
-     "odd": 1.09
+     "odd": 1.06
     },
     {
      "selection": "OVER25",
@@ -71,13 +71,13 @@
      "trend_alignment": 0.633,
      "confidence": 49,
      "eligible": true,
-     "odd": 1.85
+     "odd": 1.83
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5069,
+     "model_prob": 0.5068,
      "trend_alignment": 0.633,
      "confidence": 23,
      "eligible": false,
@@ -91,7 +91,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 7.8
+     "odd": 10.12
     }
    ],
    "trends": [
@@ -642,28 +642,28 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 1.59,
+    "lambda_home": 1.61,
     "lambda_away": 0.5,
-    "expected_goals": 2.09,
+    "expected_goals": 2.11,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.6441,
-     "DRAW": 0.2433,
-     "AWAY": 0.1126,
-     "1X": 0.8874,
-     "X2": 0.3559,
-     "12": 0.7567,
-     "OVER25": 0.3465,
-     "UNDER25": 0.6535,
-     "BTTS_YES": 0.3115,
-     "BTTS_NO": 0.6885
+     "HOME": 0.6466,
+     "DRAW": 0.2408,
+     "AWAY": 0.1125,
+     "1X": 0.8875,
+     "X2": 0.3534,
+     "12": 0.7592,
+     "OVER25": 0.353,
+     "UNDER25": 0.647,
+     "BTTS_YES": 0.3159,
+     "BTTS_NO": 0.6841
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Pyramids",
-    "model_prob": 0.6441,
+    "model_prob": 0.6466,
     "trend_alignment": 1.0,
     "confidence": 79,
     "eligible": true,
@@ -675,7 +675,7 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Pyramids ou empate (1X)",
-     "model_prob": 0.8874,
+     "model_prob": 0.8875,
      "trend_alignment": 1.0,
      "confidence": 79,
      "eligible": true,
@@ -685,7 +685,7 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.6885,
+     "model_prob": 0.6841,
      "trend_alignment": 0.367,
      "confidence": 37,
      "eligible": true,
@@ -695,9 +695,9 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.6535,
+     "model_prob": 0.647,
      "trend_alignment": 0.367,
-     "confidence": 33,
+     "confidence": 32,
      "eligible": true,
      "odd": 1.55
     },
@@ -705,7 +705,7 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do El Gounah",
-     "model_prob": 0.1126,
+     "model_prob": 0.1125,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
@@ -741,7 +741,7 @@
      "kind": "win_streak"
     },
     {
-     "label": "Pyramids é 1º · El Gounah é 15º",
+     "label": "Pyramids é 1º · El Gounah é 16º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -750,7 +750,7 @@
      "kind": "positions"
     },
     {
-     "label": "Pyramids está 14 posições à frente",
+     "label": "Pyramids está 15 posições à frente",
      "strength": 0.8,
      "favors": "HOME",
      "team": null,
@@ -779,7 +779,7 @@
      "kind": "win_streak"
     },
     {
-     "label": "Pyramids está 14 posições à frente",
+     "label": "Pyramids está 15 posições à frente",
      "strength": 0.8,
      "favors": "HOME",
      "team": null,
@@ -838,7 +838,7 @@
    "away_team": {
     "id": 8308,
     "name": "El Gounah",
-    "position": 15,
+    "position": 16,
     "played": 3,
     "points": 2.0,
     "record": "0V 2E 1D",
@@ -894,28 +894,28 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 2.29,
+    "lambda_home": 2.31,
     "lambda_away": 1.03,
-    "expected_goals": 3.32,
+    "expected_goals": 3.34,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.6558,
-     "DRAW": 0.1872,
-     "AWAY": 0.157,
-     "1X": 0.843,
-     "X2": 0.3442,
-     "12": 0.8128,
-     "OVER25": 0.6447,
-     "UNDER25": 0.3553,
-     "BTTS_YES": 0.5785,
-     "BTTS_NO": 0.4215
+     "HOME": 0.6581,
+     "DRAW": 0.186,
+     "AWAY": 0.1559,
+     "1X": 0.8441,
+     "X2": 0.3419,
+     "12": 0.814,
+     "OVER25": 0.6485,
+     "UNDER25": 0.3515,
+     "BTTS_YES": 0.5804,
+     "BTTS_NO": 0.4196
     }
    },
    "pick": {
     "selection": "1X",
     "family": "double_chance",
     "label": "Dupla chance: Al-Kholood ou empate (1X)",
-    "model_prob": 0.843,
+    "model_prob": 0.8441,
     "trend_alignment": 1.0,
     "confidence": 73,
     "eligible": true,
@@ -927,27 +927,27 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Al-Kholood",
-     "model_prob": 0.6558,
+     "model_prob": 0.6581,
      "trend_alignment": 1.0,
      "confidence": 66,
      "eligible": true,
-     "odd": 2.89
+     "odd": 2.92
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6447,
+     "model_prob": 0.6485,
      "trend_alignment": 0.333,
-     "confidence": 30,
+     "confidence": 31,
      "eligible": true,
-     "odd": 1.71
+     "odd": 1.73
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5785,
+     "model_prob": 0.5804,
      "trend_alignment": 0.333,
      "confidence": 22,
      "eligible": false,
@@ -957,11 +957,11 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Al Shabab Riyadh",
-     "model_prob": 0.157,
+     "model_prob": 0.1559,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 2.2
+     "odd": 2.23
     }
    ],
    "trends": [
@@ -1011,7 +1011,7 @@
      "kind": "winless_streak"
     },
     {
-     "label": "Al-Kholood é 6º · Al Shabab Riyadh é 14º",
+     "label": "Al-Kholood é 7º · Al Shabab Riyadh é 15º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -1085,7 +1085,7 @@
    "home_team": {
     "id": 55800,
     "name": "Al-Kholood",
-    "position": 6,
+    "position": 7,
     "played": 5,
     "points": 9.0,
     "record": "2V 3E 0D",
@@ -1133,7 +1133,7 @@
    "away_team": {
     "id": 8945,
     "name": "Al Shabab Riyadh",
-    "position": 14,
+    "position": 15,
     "played": 5,
     "points": 3.0,
     "record": "0V 3E 2D",
@@ -1228,7 +1228,7 @@
     "trend_alignment": 1.0,
     "confidence": 49,
     "eligible": true,
-    "odd": 1.43,
+    "odd": 1.4,
     "low_conviction": false
    },
    "alt_markets": [
@@ -1240,7 +1240,7 @@
      "trend_alignment": 1.0,
      "confidence": 42,
      "eligible": false,
-     "odd": 2.45
+     "odd": 2.35
     },
     {
      "selection": "BTTS_YES",
@@ -1270,7 +1270,7 @@
      "trend_alignment": 0.0,
      "confidence": 6,
      "eligible": false,
-     "odd": 1.56
+     "odd": 1.6
     }
    ],
    "trends": [
