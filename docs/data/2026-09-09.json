@@ -1,6 +1,6 @@
 {
  "date": "2026-09-09",
- "generated_at": "2026-09-08T08:16:40.197955-03:00",
+ "generated_at": "2026-09-08T17:11:23.694945-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -49,7 +49,7 @@
     "trend_alignment": 1.0,
     "confidence": 84,
     "eligible": true,
-    "odd": 1.21,
+    "odd": 1.19,
     "low_conviction": false
    },
    "alt_markets": [
@@ -61,7 +61,7 @@
      "trend_alignment": 1.0,
      "confidence": 84,
      "eligible": true,
-     "odd": 1.06
+     "odd": 1.05
     },
     {
      "selection": "OVER25",
@@ -71,7 +71,7 @@
      "trend_alignment": 0.633,
      "confidence": 49,
      "eligible": true,
-     "odd": 1.81
+     "odd": 1.83
     },
     {
      "selection": "BTTS_YES",
@@ -91,7 +91,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 10.0
+     "odd": 11.0
     }
    ],
    "trends": [
@@ -141,7 +141,7 @@
      "kind": "winless_streak"
     },
     {
-     "label": "Al Nassr FC Riyadh é 2º · Abha Club é 18º",
+     "label": "Al Nassr FC Riyadh é 4º · Abha Club é 18º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -150,7 +150,7 @@
      "kind": "positions"
     },
     {
-     "label": "Al Nassr FC Riyadh está 16 posições à frente",
+     "label": "Al Nassr FC Riyadh está 14 posições à frente",
      "strength": 0.8,
      "favors": "HOME",
      "team": null,
@@ -188,7 +188,7 @@
      "kind": "winless_streak"
     },
     {
-     "label": "Al Nassr FC Riyadh está 16 posições à frente",
+     "label": "Al Nassr FC Riyadh está 14 posições à frente",
      "strength": 0.8,
      "favors": "HOME",
      "team": null,
@@ -206,7 +206,7 @@
    "home_team": {
     "id": 7549,
     "name": "Al Nassr FC Riyadh",
-    "position": 2,
+    "position": 4,
     "played": 5,
     "points": 12.0,
     "record": "4V 0E 1D",
@@ -349,7 +349,7 @@
     "trend_alignment": 1.0,
     "confidence": 82,
     "eligible": true,
-    "odd": 1.29,
+    "odd": 1.23,
     "low_conviction": false
    },
    "alt_markets": [
@@ -361,7 +361,7 @@
      "trend_alignment": 1.0,
      "confidence": 82,
      "eligible": true,
-     "odd": 1.06
+     "odd": 1.05
     },
     {
      "selection": "OVER25",
@@ -371,7 +371,7 @@
      "trend_alignment": 0.467,
      "confidence": 29,
      "eligible": true,
-     "odd": 1.78
+     "odd": 1.86
     },
     {
      "selection": "BTTS_YES",
@@ -648,15 +648,15 @@
     "sample_factor": 1.0,
     "probs": {
      "HOME": 0.6466,
-     "DRAW": 0.2408,
+     "DRAW": 0.2409,
      "AWAY": 0.1125,
      "1X": 0.8875,
      "X2": 0.3534,
-     "12": 0.7592,
-     "OVER25": 0.353,
-     "UNDER25": 0.647,
-     "BTTS_YES": 0.3159,
-     "BTTS_NO": 0.6841
+     "12": 0.7591,
+     "OVER25": 0.3529,
+     "UNDER25": 0.6471,
+     "BTTS_YES": 0.3158,
+     "BTTS_NO": 0.6842
     }
    },
    "pick": {
@@ -685,7 +685,7 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.6841,
+     "model_prob": 0.6842,
      "trend_alignment": 0.367,
      "confidence": 37,
      "eligible": true,
@@ -695,11 +695,11 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.647,
+     "model_prob": 0.6471,
      "trend_alignment": 0.367,
      "confidence": 32,
      "eligible": true,
-     "odd": 1.54
+     "odd": 1.58
     },
     {
      "selection": "AWAY",
@@ -741,7 +741,7 @@
      "kind": "win_streak"
     },
     {
-     "label": "Pyramids é 1º · El Gounah é 16º",
+     "label": "Pyramids é 2º · El Gounah é 16º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -750,7 +750,7 @@
      "kind": "positions"
     },
     {
-     "label": "Pyramids está 15 posições à frente",
+     "label": "Pyramids está 14 posições à frente",
      "strength": 0.8,
      "favors": "HOME",
      "team": null,
@@ -779,7 +779,7 @@
      "kind": "win_streak"
     },
     {
-     "label": "Pyramids está 15 posições à frente",
+     "label": "Pyramids está 14 posições à frente",
      "strength": 0.8,
      "favors": "HOME",
      "team": null,
@@ -797,7 +797,7 @@
    "home_team": {
     "id": 22143,
     "name": "Pyramids",
-    "position": 1,
+    "position": 2,
     "played": 3,
     "points": 9.0,
     "record": "3V 0E 0D",
@@ -895,31 +895,31 @@
    "away_score": -1.0,
    "model": {
     "lambda_home": 2.31,
-    "lambda_away": 1.03,
-    "expected_goals": 3.34,
+    "lambda_away": 1.04,
+    "expected_goals": 3.35,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.6581,
-     "DRAW": 0.186,
-     "AWAY": 0.1559,
-     "1X": 0.8441,
-     "X2": 0.3419,
-     "12": 0.814,
-     "OVER25": 0.6485,
-     "UNDER25": 0.3515,
-     "BTTS_YES": 0.5804,
-     "BTTS_NO": 0.4196
+     "HOME": 0.6592,
+     "DRAW": 0.1854,
+     "AWAY": 0.1554,
+     "1X": 0.8446,
+     "X2": 0.3408,
+     "12": 0.8146,
+     "OVER25": 0.6502,
+     "UNDER25": 0.3498,
+     "BTTS_YES": 0.5813,
+     "BTTS_NO": 0.4187
     }
    },
    "pick": {
     "selection": "1X",
     "family": "double_chance",
     "label": "Dupla chance: Al-Kholood ou empate (1X)",
-    "model_prob": 0.8441,
+    "model_prob": 0.8446,
     "trend_alignment": 1.0,
     "confidence": 73,
     "eligible": true,
-    "odd": 1.64,
+    "odd": 1.61,
     "low_conviction": false
    },
    "alt_markets": [
@@ -927,27 +927,27 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Al-Kholood",
-     "model_prob": 0.6581,
+     "model_prob": 0.6592,
      "trend_alignment": 1.0,
      "confidence": 66,
      "eligible": true,
-     "odd": 2.89
+     "odd": 2.83
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6485,
+     "model_prob": 0.6502,
      "trend_alignment": 0.333,
      "confidence": 31,
      "eligible": true,
-     "odd": 1.71
+     "odd": 1.74
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5804,
+     "model_prob": 0.5813,
      "trend_alignment": 0.333,
      "confidence": 22,
      "eligible": false,
@@ -957,11 +957,11 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Al Shabab Riyadh",
-     "model_prob": 0.1559,
+     "model_prob": 0.1554,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 2.2
+     "odd": 2.3
     }
    ],
    "trends": [
@@ -1011,7 +1011,7 @@
      "kind": "winless_streak"
     },
     {
-     "label": "Al-Kholood é 7º · Al Shabab Riyadh é 15º",
+     "label": "Al-Kholood é 8º · Al Shabab Riyadh é 15º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -1020,8 +1020,8 @@
      "kind": "positions"
     },
     {
-     "label": "Al-Kholood está 8 posições à frente",
-     "strength": 0.571,
+     "label": "Al-Kholood está 7 posições à frente",
+     "strength": 0.5,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -1067,8 +1067,8 @@
      "kind": "winless_streak"
     },
     {
-     "label": "Al-Kholood está 8 posições à frente",
-     "strength": 0.571,
+     "label": "Al-Kholood está 7 posições à frente",
+     "strength": 0.5,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -1085,7 +1085,7 @@
    "home_team": {
     "id": 55800,
     "name": "Al-Kholood",
-    "position": 7,
+    "position": 8,
     "played": 5,
     "points": 9.0,
     "record": "2V 3E 0D",
@@ -1228,7 +1228,7 @@
     "trend_alignment": 1.0,
     "confidence": 68,
     "eligible": true,
-    "odd": null,
+    "odd": 1.34,
     "low_conviction": false
    },
    "alt_markets": [
@@ -1240,7 +1240,7 @@
      "trend_alignment": 1.0,
      "confidence": 58,
      "eligible": true,
-     "odd": null
+     "odd": 2.15
     },
     {
      "selection": "OVER25",
@@ -1250,7 +1250,7 @@
      "trend_alignment": 0.267,
      "confidence": 9,
      "eligible": false,
-     "odd": null
+     "odd": 2.04
     },
     {
      "selection": "BTTS_YES",
@@ -1470,8 +1470,8 @@
     ]
    },
    "kickoff_local": "2026-09-09T22:10:00-03:00",
-   "has_odds": false,
-   "odds_bookmaker": null,
+   "has_odds": true,
+   "odds_bookmaker": "3 casas",
    "is_cup": true,
    "result": "pending",
    "clear": true

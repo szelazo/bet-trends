@@ -1,6 +1,6 @@
 {
  "date": "2026-09-10",
- "generated_at": "2026-09-08T08:16:40.911305-03:00",
+ "generated_at": "2026-09-08T17:11:24.347604-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 2,
@@ -219,7 +219,7 @@
    },
    "kickoff_local": "2026-09-10T13:15:00-03:00",
    "has_odds": true,
-   "odds_bookmaker": "NoviBet",
+   "odds_bookmaker": "2 casas",
    "is_cup": false,
    "result": "pending",
    "clear": true
@@ -279,7 +279,7 @@
      "trend_alignment": 0.429,
      "confidence": 55,
      "eligible": true,
-     "odd": 2.15
+     "odd": 2.1
     },
     {
      "selection": "OVER25",
@@ -289,7 +289,7 @@
      "trend_alignment": 0.0,
      "confidence": 34,
      "eligible": true,
-     "odd": 1.55
+     "odd": 1.56
     },
     {
      "selection": "BTTS_YES",
@@ -419,7 +419,7 @@
    },
    "kickoff_local": "2026-09-10T11:00:00-03:00",
    "has_odds": true,
-   "odds_bookmaker": "NoviBet",
+   "odds_bookmaker": "2 casas",
    "is_cup": false,
    "result": "pending",
    "clear": true
@@ -460,26 +460,26 @@
     }
    },
    "pick": {
-    "selection": "1X",
-    "family": "double_chance",
-    "label": "Dupla chance: Jazira Abu Dhabi ou empate (1X)",
-    "model_prob": 0.8461,
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Jazira Abu Dhabi",
+    "model_prob": 0.6434,
     "trend_alignment": 1.0,
     "confidence": 73,
     "eligible": true,
-    "odd": null,
+    "odd": 1.42,
     "low_conviction": false
    },
    "alt_markets": [
     {
-     "selection": "HOME",
-     "family": "1x2",
-     "label": "Vitória do Jazira Abu Dhabi",
-     "model_prob": 0.6434,
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Jazira Abu Dhabi ou empate (1X)",
+     "model_prob": 0.8461,
      "trend_alignment": 1.0,
-     "confidence": 65,
+     "confidence": 73,
      "eligible": true,
-     "odd": null
+     "odd": 1.15
     },
     {
      "selection": "OVER25",
@@ -489,7 +489,7 @@
      "trend_alignment": 0.03,
      "confidence": 10,
      "eligible": false,
-     "odd": null
+     "odd": 2.15
     },
     {
      "selection": "BTTS_YES",
@@ -499,7 +499,7 @@
      "trend_alignment": 0.03,
      "confidence": 3,
      "eligible": false,
-     "odd": null
+     "odd": 1.62
     },
     {
      "selection": "UNDER25",
@@ -509,7 +509,7 @@
      "trend_alignment": 0.03,
      "confidence": 1,
      "eligible": false,
-     "odd": null
+     "odd": 1.62
     }
    ],
    "trends": [
@@ -704,8 +704,8 @@
     ]
    },
    "kickoff_local": "2026-09-10T10:40:00-03:00",
-   "has_odds": false,
-   "odds_bookmaker": null,
+   "has_odds": true,
+   "odds_bookmaker": "SportingBet",
    "is_cup": false,
    "result": "pending",
    "clear": false,
