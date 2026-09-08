@@ -1,0 +1,715 @@
+{
+ "date": "2026-09-10",
+ "generated_at": "2026-09-08T08:16:40.911305-03:00",
+ "version": "0.1.0",
+ "count": 3,
+ "clear_count": 2,
+ "day_total": 16,
+ "games": [
+  {
+   "id": 4779023,
+   "s365_competition_id": 408,
+   "competition_name": "Doha Bank Stars League",
+   "start_time": "2026-09-10T16:15:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 6991,
+    "name": "Al Sailiya"
+   },
+   "away": {
+    "id": 6992,
+    "name": "Al Sadd"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.19,
+    "lambda_away": 2.67,
+    "expected_goals": 3.86,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.1474,
+     "DRAW": 0.1642,
+     "AWAY": 0.6884,
+     "1X": 0.3116,
+     "X2": 0.8526,
+     "12": 0.8358,
+     "OVER25": 0.7407,
+     "UNDER25": 0.2593,
+     "BTTS_YES": 0.6476,
+     "BTTS_NO": 0.3524
+    }
+   },
+   "pick": {
+    "selection": "AWAY",
+    "family": "1x2",
+    "label": "Vitória do Al Sadd",
+    "model_prob": 0.6884,
+    "trend_alignment": 0.857,
+    "confidence": 69,
+    "eligible": true,
+    "odd": 1.18,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "X2",
+     "family": "double_chance",
+     "label": "Dupla chance: Al Sadd ou empate (X2)",
+     "model_prob": 0.8526,
+     "trend_alignment": 0.857,
+     "confidence": 69,
+     "eligible": true,
+     "odd": 1.06
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.7407,
+     "trend_alignment": 0.0,
+     "confidence": 31,
+     "eligible": true,
+     "odd": 1.85
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.6476,
+     "trend_alignment": 0.0,
+     "confidence": 19,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Al Sailiya",
+     "model_prob": 0.1474,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 9.6
+    }
+   ],
+   "trends": [
+    {
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "Al Sadd",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Al Sailiya é 12º · Al Sadd é 1º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Al Sadd está 11 posições à frente",
+     "strength": 0.786,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "Al Sadd",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Al Sadd está 11 posições à frente",
+     "strength": 0.786,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 69,
+   "league": {
+    "key": "qatar",
+    "name": "Qatar Stars League",
+    "country": "Catar"
+   },
+   "home_team": {
+    "id": 6991,
+    "name": "Al Sailiya",
+    "position": 12,
+    "played": 3,
+    "points": 0,
+    "record": "0V 0E 3D",
+    "goals_for": 2,
+    "goals_against": 7,
+    "last5": "LLL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": true,
+      "opponent": "Al Arabi Doha",
+      "date": "2026-09-03"
+     },
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": false,
+      "opponent": "Shahaniya SC",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Al Duhail",
+      "date": "2026-08-22"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 6992,
+    "name": "Al Sadd",
+    "position": 1,
+    "played": 3,
+    "points": 9.0,
+    "record": "3V 0E 0D",
+    "goals_for": 13,
+    "goals_against": 4,
+    "last5": "WWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "4-1",
+      "home": true,
+      "opponent": "Al Gharafa",
+      "date": "2026-09-05"
+     },
+     {
+      "result": "W",
+      "score": "6-2",
+      "home": false,
+      "opponent": "Qatar SC",
+      "date": "2026-08-28"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": true,
+      "opponent": "Al-Ahli Doha",
+      "date": "2026-08-22"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-10T13:15:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "NoviBet",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4779025,
+   "s365_competition_id": 408,
+   "competition_name": "Doha Bank Stars League",
+   "start_time": "2026-09-10T14:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 7081,
+    "name": "Al Shamal"
+   },
+   "away": {
+    "id": 5996,
+    "name": "Al Wakrah"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.9,
+    "lambda_away": 1.08,
+    "expected_goals": 3.98,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.7453,
+     "DRAW": 0.1429,
+     "AWAY": 0.1118,
+     "1X": 0.8882,
+     "X2": 0.2547,
+     "12": 0.8571,
+     "OVER25": 0.758,
+     "UNDER25": 0.242,
+     "BTTS_YES": 0.6235,
+     "BTTS_NO": 0.3765
+    }
+   },
+   "pick": {
+    "selection": "1X",
+    "family": "double_chance",
+    "label": "Dupla chance: Al Shamal ou empate (1X)",
+    "model_prob": 0.8882,
+    "trend_alignment": 0.429,
+    "confidence": 60,
+    "eligible": true,
+    "odd": 1.41,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Al Shamal",
+     "model_prob": 0.7453,
+     "trend_alignment": 0.429,
+     "confidence": 55,
+     "eligible": true,
+     "odd": 2.15
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.758,
+     "trend_alignment": 0.0,
+     "confidence": 34,
+     "eligible": true,
+     "odd": 1.55
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.6235,
+     "trend_alignment": 0.0,
+     "confidence": 16,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Al Wakrah",
+     "model_prob": 0.1118,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 2.85
+    }
+   ],
+   "trends": [
+    {
+     "label": "Al Shamal é 2º · Al Wakrah é 11º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Al Shamal está 9 posições à frente",
+     "strength": 0.643,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Al Shamal está 9 posições à frente",
+     "strength": 0.643,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 60,
+   "league": {
+    "key": "qatar",
+    "name": "Qatar Stars League",
+    "country": "Catar"
+   },
+   "home_team": {
+    "id": 7081,
+    "name": "Al Shamal",
+    "position": 2,
+    "played": 3,
+    "points": 7.0,
+    "record": "2V 1E 0D",
+    "goals_for": 9,
+    "goals_against": 5,
+    "last5": "WWD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "4-2",
+      "home": true,
+      "opponent": "Shahaniya SC",
+      "date": "2026-09-04"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": false,
+      "opponent": "Al Gharafa",
+      "date": "2026-08-27"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "Al Arabi Doha",
+      "date": "2026-08-21"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 5996,
+    "name": "Al Wakrah",
+    "position": 11,
+    "played": 3,
+    "points": 1.0,
+    "record": "0V 1E 2D",
+    "goals_for": 3,
+    "goals_against": 8,
+    "last5": "LLD",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-4",
+      "home": false,
+      "opponent": "Lusail Sports Club",
+      "date": "2026-09-04"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Al Rayyan",
+      "date": "2026-08-27"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "Qatar SC",
+      "date": "2026-08-20"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-10T11:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "NoviBet",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4820631,
+   "s365_competition_id": 549,
+   "competition_name": "UAE Pro League",
+   "start_time": "2026-09-10T13:40:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 8344,
+    "name": "Jazira Abu Dhabi"
+   },
+   "away": {
+    "id": 8349,
+    "name": "Al Nasr Dubai"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.06,
+    "lambda_away": 0.89,
+    "expected_goals": 2.95,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.6434,
+     "DRAW": 0.2027,
+     "AWAY": 0.1539,
+     "1X": 0.8461,
+     "X2": 0.3566,
+     "12": 0.7973,
+     "OVER25": 0.5656,
+     "UNDER25": 0.4344,
+     "BTTS_YES": 0.515,
+     "BTTS_NO": 0.485
+    }
+   },
+   "pick": {
+    "selection": "1X",
+    "family": "double_chance",
+    "label": "Dupla chance: Jazira Abu Dhabi ou empate (1X)",
+    "model_prob": 0.8461,
+    "trend_alignment": 1.0,
+    "confidence": 73,
+    "eligible": true,
+    "odd": null,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Jazira Abu Dhabi",
+     "model_prob": 0.6434,
+     "trend_alignment": 1.0,
+     "confidence": 65,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5656,
+     "trend_alignment": 0.03,
+     "confidence": 10,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.515,
+     "trend_alignment": 0.03,
+     "confidence": 3,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.4344,
+     "trend_alignment": 0.03,
+     "confidence": 1,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Venceu 4 dos últimos 4",
+     "strength": 0.75,
+     "favors": "HOME",
+     "team": "Jazira Abu Dhabi",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Não sofreu gol em 3 dos últimos 4",
+     "strength": 0.45,
+     "favors": "UNDER",
+     "team": "Jazira Abu Dhabi",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "clean_sheets"
+    },
+    {
+     "label": "4 vitórias seguidas",
+     "strength": 0.75,
+     "favors": "HOME",
+     "team": "Jazira Abu Dhabi",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Só venceu 1 dos últimos 4",
+     "strength": 0.462,
+     "favors": "HOME",
+     "team": "Al Nasr Dubai",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "Mais de 2.5 gols em 3 dos últimos 4",
+     "strength": 0.45,
+     "favors": "OVER",
+     "team": "Al Nasr Dubai",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Jazira Abu Dhabi é 2º · Al Nasr Dubai é 9º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Jazira Abu Dhabi está 7 posições à frente",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Venceu 4 dos últimos 4",
+     "strength": 0.75,
+     "favors": "HOME",
+     "team": "Jazira Abu Dhabi",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "4 vitórias seguidas",
+     "strength": 0.75,
+     "favors": "HOME",
+     "team": "Jazira Abu Dhabi",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Só venceu 1 dos últimos 4",
+     "strength": 0.462,
+     "favors": "HOME",
+     "team": "Al Nasr Dubai",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "Jazira Abu Dhabi está 7 posições à frente",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 73,
+   "league": {
+    "key": "uae",
+    "name": "UAE Pro League",
+    "country": "Emirados Árabes"
+   },
+   "home_team": {
+    "id": 8344,
+    "name": "Jazira Abu Dhabi",
+    "position": 2,
+    "played": 4,
+    "points": 12.0,
+    "record": "4V 0E 0D",
+    "goals_for": 10,
+    "goals_against": 1,
+    "last5": "WWWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": false,
+      "opponent": "Shabab Al Ahly",
+      "date": "2026-09-05"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "Ajman Club",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "Sharjah SC",
+      "date": "2026-08-23"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "Hatta Club",
+      "date": "2026-08-16"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 8349,
+    "name": "Al Nasr Dubai",
+    "position": 9,
+    "played": 4,
+    "points": 4.0,
+    "record": "1V 1E 2D",
+    "goals_for": 5,
+    "goals_against": 6,
+    "last5": "LLWD",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Ajman Club",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Al Ain",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Al-Wahda",
+      "date": "2026-08-21"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "Kalba",
+      "date": "2026-08-14"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-10T10:40:00-03:00",
+   "has_odds": false,
+   "odds_bookmaker": null,
+   "is_cup": false,
+   "result": "pending",
+   "clear": false,
+   "below_bar": true
+  }
+ ]
+}

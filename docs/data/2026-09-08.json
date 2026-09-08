@@ -1,10 +1,10 @@
 {
  "date": "2026-09-08",
- "generated_at": "2026-09-07T17:11:16.997500-03:00",
+ "generated_at": "2026-09-08T08:16:38.903977-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
- "day_total": 14,
+ "day_total": 23,
  "games": [
   {
    "id": 4788285,
@@ -61,7 +61,7 @@
      "trend_alignment": 0.997,
      "confidence": 64,
      "eligible": true,
-     "odd": 1.9
+     "odd": 1.85
     },
     {
      "selection": "OVER25",
@@ -71,7 +71,7 @@
      "trend_alignment": 0.0,
      "confidence": 14,
      "eligible": true,
-     "odd": 1.56
+     "odd": 1.6
     },
     {
      "selection": "BTTS_YES",
@@ -91,7 +91,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 3.52
+     "odd": 3.5
     }
    ],
    "trends": [
@@ -325,7 +325,7 @@
      "trend_alignment": 1.0,
      "confidence": 54,
      "eligible": true,
-     "odd": 1.56
+     "odd": 1.55
     },
     {
      "selection": "OVER25",
@@ -335,7 +335,7 @@
      "trend_alignment": 0.313,
      "confidence": 23,
      "eligible": false,
-     "odd": 1.61
+     "odd": 1.56
     },
     {
      "selection": "BTTS_YES",
@@ -838,32 +838,32 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 0.75,
+    "lambda_home": 0.76,
     "lambda_away": 1.02,
-    "expected_goals": 1.77,
+    "expected_goals": 1.78,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.2632,
-     "DRAW": 0.3283,
-     "AWAY": 0.4085,
-     "1X": 0.5915,
-     "X2": 0.7368,
-     "12": 0.6717,
-     "OVER25": 0.2605,
-     "UNDER25": 0.7395,
-     "BTTS_YES": 0.3369,
-     "BTTS_NO": 0.6631
+     "HOME": 0.2649,
+     "DRAW": 0.3269,
+     "AWAY": 0.4082,
+     "1X": 0.5918,
+     "X2": 0.7351,
+     "12": 0.6731,
+     "OVER25": 0.2642,
+     "UNDER25": 0.7358,
+     "BTTS_YES": 0.3404,
+     "BTTS_NO": 0.6596
     }
    },
    "pick": {
     "selection": "X2",
     "family": "double_chance",
     "label": "Dupla chance: Ceramica Cleopatra ou empate (X2)",
-    "model_prob": 0.7368,
-    "trend_alignment": 0.533,
-    "confidence": 43,
+    "model_prob": 0.7351,
+    "trend_alignment": 0.524,
+    "confidence": 42,
     "eligible": true,
-    "odd": 1.36,
+    "odd": 1.33,
     "low_conviction": false
    },
    "alt_markets": [
@@ -871,27 +871,27 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.7395,
+     "model_prob": 0.7358,
      "trend_alignment": 0.0,
      "confidence": 31,
      "eligible": true,
-     "odd": 2.35
+     "odd": 2.22
     },
     {
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Ceramica Cleopatra",
-     "model_prob": 0.4085,
-     "trend_alignment": 0.533,
+     "model_prob": 0.4082,
+     "trend_alignment": 0.524,
      "confidence": 25,
      "eligible": false,
-     "odd": 2.41
+     "odd": 2.31
     },
     {
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.6631,
+     "model_prob": 0.6596,
      "trend_alignment": 0.0,
      "confidence": 21,
      "eligible": true,
@@ -901,16 +901,16 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Smouha ou empate (1X)",
-     "model_prob": 0.5915,
+     "model_prob": 0.5918,
      "trend_alignment": 0.0,
      "confidence": 6,
      "eligible": false,
-     "odd": 1.54
+     "odd": 1.58
     }
    ],
    "trends": [
     {
-     "label": "Smouha é 20º · Ceramica Cleopatra é 4º",
+     "label": "Smouha é 20º · Ceramica Cleopatra é 9º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -919,8 +919,8 @@
      "kind": "positions"
     },
     {
-     "label": "Ceramica Cleopatra está 16 posições à frente",
-     "strength": 0.8,
+     "label": "Ceramica Cleopatra está 11 posições à frente",
+     "strength": 0.786,
      "favors": "AWAY",
      "team": null,
      "side": null,
@@ -930,8 +930,8 @@
    ],
    "aligned_trends": [
     {
-     "label": "Ceramica Cleopatra está 16 posições à frente",
-     "strength": 0.8,
+     "label": "Ceramica Cleopatra está 11 posições à frente",
+     "strength": 0.786,
      "favors": "AWAY",
      "team": null,
      "side": null,
@@ -939,7 +939,7 @@
      "kind": "table_gap"
     }
    ],
-   "confidence": 43,
+   "confidence": 42,
    "league": {
     "key": "egypt",
     "name": "Premier League",
@@ -982,7 +982,7 @@
    "away_team": {
     "id": 50882,
     "name": "Ceramica Cleopatra",
-    "position": 4,
+    "position": 9,
     "played": 3,
     "points": 6.0,
     "record": "2V 0E 1D",
@@ -1085,7 +1085,7 @@
      "trend_alignment": 0.0,
      "confidence": 15,
      "eligible": true,
-     "odd": 2.09
+     "odd": 2.08
     },
     {
      "selection": "BTTS_YES",
@@ -1105,7 +1105,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 4.12
+     "odd": 4.0
     }
    ],
    "trends": [
