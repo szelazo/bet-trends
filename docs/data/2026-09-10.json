@@ -1,6 +1,6 @@
 {
  "date": "2026-09-10",
- "generated_at": "2026-09-08T17:11:24.347604-03:00",
+ "generated_at": "2026-09-09T08:17:28.346333-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 2,
@@ -49,7 +49,7 @@
     "trend_alignment": 0.857,
     "confidence": 69,
     "eligible": true,
-    "odd": 1.18,
+    "odd": 1.17,
     "low_conviction": false
    },
    "alt_markets": [
@@ -61,7 +61,7 @@
      "trend_alignment": 0.857,
      "confidence": 69,
      "eligible": true,
-     "odd": 1.06
+     "odd": 1.05
     },
     {
      "selection": "OVER25",
@@ -71,7 +71,7 @@
      "trend_alignment": 0.0,
      "confidence": 31,
      "eligible": true,
-     "odd": 1.85
+     "odd": 1.88
     },
     {
      "selection": "BTTS_YES",
@@ -91,7 +91,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 9.6
+     "odd": 10.5
     }
    ],
    "trends": [
@@ -267,7 +267,7 @@
     "trend_alignment": 0.429,
     "confidence": 60,
     "eligible": true,
-    "odd": 1.41,
+    "odd": 1.4,
     "low_conviction": false
    },
    "alt_markets": [
@@ -289,7 +289,7 @@
      "trend_alignment": 0.0,
      "confidence": 34,
      "eligible": true,
-     "odd": 1.56
+     "odd": 2.24
     },
     {
      "selection": "BTTS_YES",
@@ -309,7 +309,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 2.85
+     "odd": 2.86
     }
    ],
    "trends": [
@@ -419,7 +419,7 @@
    },
    "kickoff_local": "2026-09-10T11:00:00-03:00",
    "has_odds": true,
-   "odds_bookmaker": "2 casas",
+   "odds_bookmaker": "3 casas",
    "is_cup": false,
    "result": "pending",
    "clear": true
@@ -467,7 +467,7 @@
     "trend_alignment": 1.0,
     "confidence": 73,
     "eligible": true,
-    "odd": 1.42,
+    "odd": 1.48,
     "low_conviction": false
    },
    "alt_markets": [
@@ -489,7 +489,7 @@
      "trend_alignment": 0.03,
      "confidence": 10,
      "eligible": false,
-     "odd": 2.15
+     "odd": 2.09
     },
     {
      "selection": "BTTS_YES",
@@ -499,7 +499,7 @@
      "trend_alignment": 0.03,
      "confidence": 3,
      "eligible": false,
-     "odd": 1.62
+     "odd": null
     },
     {
      "selection": "UNDER25",
@@ -509,7 +509,7 @@
      "trend_alignment": 0.03,
      "confidence": 1,
      "eligible": false,
-     "odd": 1.62
+     "odd": 1.66
     }
    ],
    "trends": [
@@ -705,7 +705,7 @@
    },
    "kickoff_local": "2026-09-10T10:40:00-03:00",
    "has_odds": true,
-   "odds_bookmaker": "SportingBet",
+   "odds_bookmaker": "3 casas",
    "is_cup": false,
    "result": "pending",
    "clear": false,
