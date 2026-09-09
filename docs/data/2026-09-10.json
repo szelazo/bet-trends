@@ -1,6 +1,6 @@
 {
  "date": "2026-09-10",
- "generated_at": "2026-09-09T08:17:28.346333-03:00",
+ "generated_at": "2026-09-09T17:11:59.126516-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 2,
@@ -71,7 +71,7 @@
      "trend_alignment": 0.0,
      "confidence": 31,
      "eligible": true,
-     "odd": 1.88
+     "odd": 1.74
     },
     {
      "selection": "BTTS_YES",
@@ -91,7 +91,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 10.5
+     "odd": 10.0
     }
    ],
    "trends": [
@@ -219,7 +219,7 @@
    },
    "kickoff_local": "2026-09-10T13:15:00-03:00",
    "has_odds": true,
-   "odds_bookmaker": "2 casas",
+   "odds_bookmaker": "3 casas",
    "is_cup": false,
    "result": "pending",
    "clear": true
@@ -309,7 +309,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 2.86
+     "odd": 2.87
     }
    ],
    "trends": [

@@ -1,6 +1,6 @@
 {
  "date": "2026-09-11",
- "generated_at": "2026-09-09T08:17:29.626725-03:00",
+ "generated_at": "2026-09-09T17:12:00.480075-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -403,7 +403,7 @@
     "trend_alignment": 1.0,
     "confidence": 73,
     "eligible": true,
-    "odd": null,
+    "odd": 1.35,
     "low_conviction": false
    },
    "alt_markets": [
@@ -415,7 +415,7 @@
      "trend_alignment": 1.0,
      "confidence": 68,
      "eligible": true,
-     "odd": null
+     "odd": 1.98
     },
     {
      "selection": "OVER25",
@@ -425,7 +425,7 @@
      "trend_alignment": 0.667,
      "confidence": 51,
      "eligible": true,
-     "odd": null
+     "odd": 1.7
     },
     {
      "selection": "BTTS_YES",
@@ -435,7 +435,7 @@
      "trend_alignment": 0.667,
      "confidence": 40,
      "eligible": true,
-     "odd": null
+     "odd": 1.61
     },
     {
      "selection": "AWAY",
@@ -445,7 +445,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": null
+     "odd": 3.1
     }
    ],
    "trends": [
@@ -622,8 +622,8 @@
     ]
    },
    "kickoff_local": "2026-09-11T13:15:00-03:00",
-   "has_odds": false,
-   "odds_bookmaker": null,
+   "has_odds": true,
+   "odds_bookmaker": "SportingBet",
    "is_cup": false,
    "result": "pending",
    "clear": true
@@ -671,7 +671,7 @@
     "trend_alignment": 1.0,
     "confidence": 72,
     "eligible": true,
-    "odd": 1.57,
+    "odd": 1.59,
     "low_conviction": false
    },
    "alt_markets": [
@@ -693,7 +693,7 @@
      "trend_alignment": 0.487,
      "confidence": 34,
      "eligible": true,
-     "odd": 2.2
+     "odd": 2.12
     },
     {
      "selection": "BTTS_YES",
@@ -971,7 +971,7 @@
     "trend_alignment": 1.0,
     "confidence": 72,
     "eligible": true,
-    "odd": 1.32,
+    "odd": 1.29,
     "low_conviction": false
    },
    "alt_markets": [
@@ -983,7 +983,7 @@
      "trend_alignment": 1.0,
      "confidence": 64,
      "eligible": true,
-     "odd": 2.21
+     "odd": 2.11
     },
     {
      "selection": "OVER25",
@@ -1013,7 +1013,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 3.53
+     "odd": 3.76
     }
    ],
    "trends": [
@@ -1206,141 +1206,132 @@
    "clear": true
   },
   {
-   "id": 4734591,
-   "s365_competition_id": 57,
-   "competition_name": "Eredivisie",
-   "start_time": "2026-09-11T18:00:00+00:00",
+   "id": 4748708,
+   "s365_competition_id": 129,
+   "competition_name": "Premier League",
+   "start_time": "2026-09-11T12:30:00+00:00",
    "status_group": 2,
    "round": "Round",
    "home": {
-    "id": 699,
-    "name": "AZ Alkmaar"
+    "id": 25550,
+    "name": "Kolos Kovalivka"
    },
    "away": {
-    "id": 706,
-    "name": "Willem II"
+    "id": 1965,
+    "name": "Karpaty Lviv"
    },
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 2.9,
-    "lambda_away": 0.9,
-    "expected_goals": 3.8,
-    "sample_factor": 0.8,
+    "lambda_home": 0.89,
+    "lambda_away": 1.61,
+    "expected_goals": 2.5,
+    "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.7806,
-     "DRAW": 0.1323,
-     "AWAY": 0.0871,
-     "1X": 0.9129,
-     "X2": 0.2194,
-     "12": 0.8677,
-     "OVER25": 0.7302,
-     "UNDER25": 0.2698,
-     "BTTS_YES": 0.5605,
-     "BTTS_NO": 0.4395
+     "HOME": 0.2068,
+     "DRAW": 0.2492,
+     "AWAY": 0.544,
+     "1X": 0.456,
+     "X2": 0.7932,
+     "12": 0.7508,
+     "OVER25": 0.4553,
+     "UNDER25": 0.5447,
+     "BTTS_YES": 0.4704,
+     "BTTS_NO": 0.5296
     }
    },
    "pick": {
-    "selection": "HOME",
-    "family": "1x2",
-    "label": "Vitória do AZ Alkmaar",
-    "model_prob": 0.7806,
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: Karpaty Lviv ou empate (X2)",
+    "model_prob": 0.7932,
     "trend_alignment": 1.0,
     "confidence": 66,
     "eligible": true,
-    "odd": 1.12,
+    "odd": 1.44,
     "low_conviction": false
    },
    "alt_markets": [
     {
-     "selection": "1X",
-     "family": "double_chance",
-     "label": "Dupla chance: AZ Alkmaar ou empate (1X)",
-     "model_prob": 0.9129,
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Karpaty Lviv",
+     "model_prob": 0.544,
      "trend_alignment": 1.0,
-     "confidence": 66,
+     "confidence": 55,
      "eligible": true,
-     "odd": 1.02
+     "odd": 2.45
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.7302,
-     "trend_alignment": 0.567,
-     "confidence": 40,
-     "eligible": true,
-     "odd": 1.66
+     "model_prob": 0.4553,
+     "trend_alignment": 0.313,
+     "confidence": 11,
+     "eligible": false,
+     "odd": 2.09
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5605,
-     "trend_alignment": 0.567,
-     "confidence": 22,
+     "model_prob": 0.4704,
+     "trend_alignment": 0.313,
+     "confidence": 11,
      "eligible": false,
      "odd": null
     },
     {
-     "selection": "AWAY",
-     "family": "1x2",
-     "label": "Vitória do Willem II",
-     "model_prob": 0.0871,
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.5447,
      "trend_alignment": 0.0,
-     "confidence": 0,
+     "confidence": 6,
      "eligible": false,
-     "odd": 15.0
+     "odd": 1.65
     }
    ],
    "trends": [
     {
-     "label": "5 vitórias seguidas",
-     "strength": 1.0,
-     "favors": "HOME",
-     "team": "AZ Alkmaar",
-     "side": "HOME",
-     "group": "sequencia",
-     "kind": "win_streak"
-    },
-    {
-     "label": "Venceu 5 dos últimos 5",
-     "strength": 0.75,
-     "favors": "HOME",
-     "team": "AZ Alkmaar",
+     "label": "Não venceu nenhum dos últimos 4",
+     "strength": 0.55,
+     "favors": "AWAY",
+     "team": "Kolos Kovalivka",
      "side": "HOME",
      "group": "geral",
-     "kind": "wins"
+     "kind": "winless"
     },
     {
-     "label": "Marcou em todos os últimos 5",
-     "strength": 0.3,
-     "favors": "OVER",
-     "team": "AZ Alkmaar",
+     "label": "Não marcou em 2 dos últimos 4",
+     "strength": 0.35,
+     "favors": "AWAY",
+     "team": "Kolos Kovalivka",
      "side": "HOME",
      "group": "geral",
-     "kind": "always_score"
+     "kind": "no_score"
     },
     {
-     "label": "Perdeu 3 dos últimos 4",
-     "strength": 0.588,
-     "favors": "HOME",
-     "team": "Willem II",
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "AWAY",
+     "team": "Karpaty Lviv",
      "side": "AWAY",
      "group": "geral",
-     "kind": "losses"
+     "kind": "unbeaten"
     },
     {
-     "label": "Mais de 2.5 gols em 4 dos últimos 4",
-     "strength": 0.55,
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
      "favors": "OVER",
-     "team": "Willem II",
+     "team": "Karpaty Lviv",
      "side": "AWAY",
      "group": "geral",
      "kind": "over"
     },
     {
-     "label": "AZ Alkmaar é 1º · Willem II é 17º",
+     "label": "Kolos Kovalivka é 15º · Karpaty Lviv é 3º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -1349,9 +1340,9 @@
      "kind": "positions"
     },
     {
-     "label": "AZ Alkmaar está 16 posições à frente",
+     "label": "Karpaty Lviv está 12 posições à frente",
      "strength": 0.8,
-     "favors": "HOME",
+     "favors": "AWAY",
      "team": null,
      "side": null,
      "group": "confronto",
@@ -1360,36 +1351,36 @@
    ],
    "aligned_trends": [
     {
-     "label": "5 vitórias seguidas",
-     "strength": 1.0,
-     "favors": "HOME",
-     "team": "AZ Alkmaar",
-     "side": "HOME",
-     "group": "sequencia",
-     "kind": "win_streak"
-    },
-    {
-     "label": "Venceu 5 dos últimos 5",
-     "strength": 0.75,
-     "favors": "HOME",
-     "team": "AZ Alkmaar",
+     "label": "Não venceu nenhum dos últimos 4",
+     "strength": 0.55,
+     "favors": "AWAY",
+     "team": "Kolos Kovalivka",
      "side": "HOME",
      "group": "geral",
-     "kind": "wins"
+     "kind": "winless"
     },
     {
-     "label": "Perdeu 3 dos últimos 4",
-     "strength": 0.588,
-     "favors": "HOME",
-     "team": "Willem II",
+     "label": "Não marcou em 2 dos últimos 4",
+     "strength": 0.35,
+     "favors": "AWAY",
+     "team": "Kolos Kovalivka",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "no_score"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "AWAY",
+     "team": "Karpaty Lviv",
      "side": "AWAY",
      "group": "geral",
-     "kind": "losses"
+     "kind": "unbeaten"
     },
     {
-     "label": "AZ Alkmaar está 16 posições à frente",
+     "label": "Karpaty Lviv está 12 posições à frente",
      "strength": 0.8,
-     "favors": "HOME",
+     "favors": "AWAY",
      "team": null,
      "side": null,
      "group": "confronto",
@@ -1398,102 +1389,102 @@
    ],
    "confidence": 66,
    "league": {
-    "key": "eredivisie",
-    "name": "Eredivisie",
-    "country": "Holanda"
+    "key": "ukraine",
+    "name": "Premier League",
+    "country": "Ucrânia"
    },
    "home_team": {
-    "id": 699,
-    "name": "AZ Alkmaar",
-    "position": 1,
-    "played": 5,
-    "points": 15.0,
-    "record": "5V 0E 0D",
-    "goals_for": 16,
-    "goals_against": 5,
-    "last5": "WWWWW",
+    "id": 25550,
+    "name": "Kolos Kovalivka",
+    "position": 15,
+    "played": 4,
+    "points": 2.0,
+    "record": "0V 2E 2D",
+    "goals_for": 3,
+    "goals_against": 6,
+    "last5": "DDLL",
     "recent": [
      {
-      "result": "W",
-      "score": "3-2",
+      "result": "D",
+      "score": "2-2",
       "home": false,
-      "opponent": "Heerenveen",
-      "date": "2026-09-06"
+      "opponent": "Kryvbas",
+      "date": "2026-09-05"
      },
      {
-      "result": "W",
-      "score": "5-2",
+      "result": "D",
+      "score": "0-0",
       "home": true,
-      "opponent": "Go Ahead Eagles",
+      "opponent": "Obolon Kyiv",
+      "date": "2026-08-28"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Dynamo Kyiv",
+      "date": "2026-08-16"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Zorya Luhansk",
+      "date": "2026-07-31"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 1965,
+    "name": "Karpaty Lviv",
+    "position": 3,
+    "played": 5,
+    "points": 10.0,
+    "record": "3V 1E 1D",
+    "goals_for": 12,
+    "goals_against": 4,
+    "last5": "LDWWW",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Shakhtar Donetsk",
+      "date": "2026-09-05"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Livyi Bereh",
       "date": "2026-08-29"
      },
      {
       "result": "W",
-      "score": "2-0",
-      "home": false,
-      "opponent": "Fortuna Sittard",
-      "date": "2026-08-22"
+      "score": "3-0",
+      "home": true,
+      "opponent": "Bukovyna",
+      "date": "2026-08-15"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "LNZ Cherkasy",
+      "date": "2026-08-10"
      },
      {
       "result": "W",
       "score": "4-1",
       "home": false,
-      "opponent": "Utrecht",
-      "date": "2026-08-15"
-     },
-     {
-      "result": "W",
-      "score": "2-0",
-      "home": true,
-      "opponent": "ADO Den Haag",
-      "date": "2026-08-08"
+      "opponent": "Kryvbas",
+      "date": "2026-08-01"
      }
     ]
    },
-   "away_team": {
-    "id": 706,
-    "name": "Willem II",
-    "position": 17,
-    "played": 4,
-    "points": 1.0,
-    "record": "0V 1E 3D",
-    "goals_for": 4,
-    "goals_against": 13,
-    "last5": "LDLL",
-    "recent": [
-     {
-      "result": "L",
-      "score": "0-3",
-      "home": true,
-      "opponent": "Excelsior",
-      "date": "2026-09-05"
-     },
-     {
-      "result": "D",
-      "score": "2-2",
-      "home": true,
-      "opponent": "Heerenveen",
-      "date": "2026-08-30"
-     },
-     {
-      "result": "L",
-      "score": "1-4",
-      "home": true,
-      "opponent": "N.E.C. Nijmegen",
-      "date": "2026-08-15"
-     },
-     {
-      "result": "L",
-      "score": "1-4",
-      "home": false,
-      "opponent": "Go Ahead Eagles",
-      "date": "2026-08-08"
-     }
-    ]
-   },
-   "kickoff_local": "2026-09-11T15:00:00-03:00",
+   "kickoff_local": "2026-09-11T09:30:00-03:00",
    "has_odds": true,
-   "odds_bookmaker": "3 casas",
+   "odds_bookmaker": "2 casas",
    "is_cup": false,
    "result": "pending",
    "clear": true
