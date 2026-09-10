@@ -1,147 +1,111 @@
 {
- "date": "2026-09-09",
- "generated_at": "2026-09-09T17:11:58.369686-03:00",
+ "date": "2026-09-10",
+ "generated_at": "2026-09-10T08:17:33.850475-03:00",
  "version": "0.1.0",
- "count": 5,
- "clear_count": 5,
- "day_total": 45,
+ "count": 3,
+ "clear_count": 2,
+ "day_total": 16,
  "games": [
   {
-   "id": 4788292,
-   "s365_competition_id": 649,
-   "competition_name": "Saudi League",
-   "start_time": "2026-09-09T18:00:00+00:00",
+   "id": 4779023,
+   "s365_competition_id": 408,
+   "competition_name": "Doha Bank Stars League",
+   "start_time": "2026-09-10T16:15:00+00:00",
    "status_group": 2,
    "round": "Round",
    "home": {
-    "id": 7549,
-    "name": "Al Nassr FC Riyadh"
+    "id": 6991,
+    "name": "Al Sailiya"
    },
    "away": {
-    "id": 14898,
-    "name": "Abha Club"
+    "id": 6992,
+    "name": "Al Sadd"
    },
-   "home_score": 2.0,
-   "away_score": 1.0,
+   "home_score": -1.0,
+   "away_score": -1.0,
    "model": {
-    "lambda_home": 2.9,
-    "lambda_away": 0.77,
-    "expected_goals": 3.67,
+    "lambda_home": 1.19,
+    "lambda_away": 2.67,
+    "expected_goals": 3.86,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.8061,
-     "DRAW": 0.1235,
-     "AWAY": 0.0704,
-     "1X": 0.9296,
-     "X2": 0.1939,
-     "12": 0.8765,
-     "OVER25": 0.7084,
-     "UNDER25": 0.2916,
-     "BTTS_YES": 0.5068,
-     "BTTS_NO": 0.4932
+     "HOME": 0.1474,
+     "DRAW": 0.1642,
+     "AWAY": 0.6884,
+     "1X": 0.3116,
+     "X2": 0.8526,
+     "12": 0.8358,
+     "OVER25": 0.7407,
+     "UNDER25": 0.2593,
+     "BTTS_YES": 0.6476,
+     "BTTS_NO": 0.3524
     }
    },
    "pick": {
-    "selection": "HOME",
+    "selection": "AWAY",
     "family": "1x2",
-    "label": "Vitória do Al Nassr FC Riyadh",
-    "model_prob": 0.8061,
-    "trend_alignment": 1.0,
-    "confidence": 84,
+    "label": "Vitória do Al Sadd",
+    "model_prob": 0.6884,
+    "trend_alignment": 0.857,
+    "confidence": 69,
     "eligible": true,
     "odd": 1.12,
     "low_conviction": false
    },
    "alt_markets": [
     {
-     "selection": "1X",
+     "selection": "X2",
      "family": "double_chance",
-     "label": "Dupla chance: Al Nassr FC Riyadh ou empate (1X)",
-     "model_prob": 0.9296,
-     "trend_alignment": 1.0,
-     "confidence": 84,
+     "label": "Dupla chance: Al Sadd ou empate (X2)",
+     "model_prob": 0.8526,
+     "trend_alignment": 0.857,
+     "confidence": 69,
      "eligible": true,
-     "odd": 1.02
+     "odd": 1.03
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.7084,
-     "trend_alignment": 0.633,
-     "confidence": 49,
+     "model_prob": 0.7407,
+     "trend_alignment": 0.0,
+     "confidence": 31,
      "eligible": true,
-     "odd": 1.67
+     "odd": 1.74
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5068,
-     "trend_alignment": 0.633,
-     "confidence": 23,
-     "eligible": false,
+     "model_prob": 0.6476,
+     "trend_alignment": 0.0,
+     "confidence": 19,
+     "eligible": true,
      "odd": null
     },
     {
-     "selection": "AWAY",
+     "selection": "HOME",
      "family": "1x2",
-     "label": "Vitória do Abha Club",
-     "model_prob": 0.0704,
+     "label": "Vitória do Al Sailiya",
+     "model_prob": 0.1474,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 15.0
+     "odd": 13.0
     }
    ],
    "trends": [
     {
-     "label": "Venceu 4 dos últimos 5",
-     "strength": 0.65,
-     "favors": "HOME",
-     "team": "Al Nassr FC Riyadh",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "Mais de 2.5 gols em 5 dos últimos 5",
-     "strength": 0.55,
-     "favors": "OVER",
-     "team": "Al Nassr FC Riyadh",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "over"
-    },
-    {
-     "label": "Perdeu 4 dos últimos 5",
-     "strength": 0.61,
-     "favors": "HOME",
-     "team": "Abha Club",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Sofreu gol em todos os últimos 5",
-     "strength": 0.4,
-     "favors": "OVER",
-     "team": "Abha Club",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "always_concede"
-    },
-    {
-     "label": "Não vence há 5+ jogos",
-     "strength": 0.333,
-     "favors": "HOME",
-     "team": "Abha Club",
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "Al Sadd",
      "side": "AWAY",
      "group": "sequencia",
-     "kind": "winless_streak"
+     "kind": "win_streak"
     },
     {
-     "label": "Al Nassr FC Riyadh é 4º · Abha Club é 18º",
+     "label": "Al Sailiya é 12º · Al Sadd é 1º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -150,9 +114,9 @@
      "kind": "positions"
     },
     {
-     "label": "Al Nassr FC Riyadh está 14 posições à frente",
-     "strength": 0.8,
-     "favors": "HOME",
+     "label": "Al Sadd está 11 posições à frente",
+     "strength": 0.786,
+     "favors": "AWAY",
      "team": null,
      "side": null,
      "group": "confronto",
@@ -161,555 +125,391 @@
    ],
    "aligned_trends": [
     {
-     "label": "Venceu 4 dos últimos 5",
-     "strength": 0.65,
-     "favors": "HOME",
-     "team": "Al Nassr FC Riyadh",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "Perdeu 4 dos últimos 5",
-     "strength": 0.61,
-     "favors": "HOME",
-     "team": "Abha Club",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Não vence há 5+ jogos",
-     "strength": 0.333,
-     "favors": "HOME",
-     "team": "Abha Club",
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "Al Sadd",
      "side": "AWAY",
      "group": "sequencia",
-     "kind": "winless_streak"
+     "kind": "win_streak"
     },
     {
-     "label": "Al Nassr FC Riyadh está 14 posições à frente",
-     "strength": 0.8,
-     "favors": "HOME",
+     "label": "Al Sadd está 11 posições à frente",
+     "strength": 0.786,
+     "favors": "AWAY",
      "team": null,
      "side": null,
      "group": "confronto",
      "kind": "table_gap"
     }
    ],
-   "confidence": 84,
+   "confidence": 69,
    "league": {
-    "key": "saudi",
-    "name": "Saudi Pro League",
-    "country": "Arábia Saudita"
+    "key": "qatar",
+    "name": "Qatar Stars League",
+    "country": "Catar"
    },
    "home_team": {
-    "id": 7549,
-    "name": "Al Nassr FC Riyadh",
-    "position": 4,
-    "played": 5,
-    "points": 12.0,
-    "record": "4V 0E 1D",
-    "goals_for": 13,
-    "goals_against": 5,
-    "last5": "LWWWW",
+    "id": 6991,
+    "name": "Al Sailiya",
+    "position": 12,
+    "played": 3,
+    "points": 0,
+    "record": "0V 0E 3D",
+    "goals_for": 2,
+    "goals_against": 7,
+    "last5": "LLL",
     "recent": [
      {
       "result": "L",
-      "score": "1-2",
-      "home": false,
-      "opponent": "Ittihad Jeddah",
-      "date": "2026-09-05"
-     },
-     {
-      "result": "W",
-      "score": "2-1",
+      "score": "0-2",
       "home": true,
-      "opponent": "Al Taawoun",
-      "date": "2026-08-28"
-     },
-     {
-      "result": "W",
-      "score": "3-2",
-      "home": false,
-      "opponent": "Al Ettifaq",
-      "date": "2026-08-25"
-     },
-     {
-      "result": "W",
-      "score": "4-0",
-      "home": false,
-      "opponent": "Al Riyadh SC",
-      "date": "2026-08-21"
-     },
-     {
-      "result": "W",
-      "score": "3-0",
-      "home": true,
-      "opponent": "Al Fateh",
-      "date": "2026-08-15"
-     }
-    ]
-   },
-   "away_team": {
-    "id": 14898,
-    "name": "Abha Club",
-    "position": 18,
-    "played": 5,
-    "points": 1.0,
-    "record": "0V 1E 4D",
-    "goals_for": 4,
-    "goals_against": 11,
-    "last5": "LLDLL",
-    "recent": [
-     {
-      "result": "L",
-      "score": "0-1",
-      "home": true,
-      "opponent": "Al Ettifaq",
-      "date": "2026-09-04"
+      "opponent": "Al Arabi Doha",
+      "date": "2026-09-03"
      },
      {
       "result": "L",
       "score": "2-3",
       "home": false,
-      "opponent": "Al Feiha",
-      "date": "2026-08-28"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": true,
-      "opponent": "Al Khaleej Club",
-      "date": "2026-08-25"
-     },
-     {
-      "result": "L",
-      "score": "0-4",
-      "home": false,
-      "opponent": "Al Ahli Jeddah",
-      "date": "2026-08-22"
-     },
-     {
-      "result": "L",
-      "score": "1-2",
-      "home": true,
-      "opponent": "Al Hazm",
-      "date": "2026-08-13"
-     }
-    ]
-   },
-   "kickoff_local": "2026-09-09T15:00:00-03:00",
-   "has_odds": true,
-   "odds_bookmaker": "3 casas",
-   "is_cup": false,
-   "result": "hit",
-   "clear": true
-  },
-  {
-   "id": 4795424,
-   "s365_competition_id": 414,
-   "competition_name": "Premier League",
-   "start_time": "2026-09-09T17:30:00+00:00",
-   "status_group": 2,
-   "round": "Round",
-   "home": {
-    "id": 7277,
-    "name": "Mamelodi Sundowns"
-   },
-   "away": {
-    "id": 90073,
-    "name": "Siwelele"
-   },
-   "home_score": 3.0,
-   "away_score": 0.0,
-   "model": {
-    "lambda_home": 2.4,
-    "lambda_away": 0.71,
-    "expected_goals": 3.11,
-    "sample_factor": 1.0,
-    "probs": {
-     "HOME": 0.749,
-     "DRAW": 0.1598,
-     "AWAY": 0.0912,
-     "1X": 0.9088,
-     "X2": 0.251,
-     "12": 0.8402,
-     "OVER25": 0.6006,
-     "UNDER25": 0.3994,
-     "BTTS_YES": 0.4617,
-     "BTTS_NO": 0.5383
-    }
-   },
-   "pick": {
-    "selection": "HOME",
-    "family": "1x2",
-    "label": "Vitória do Mamelodi Sundowns",
-    "model_prob": 0.749,
-    "trend_alignment": 1.0,
-    "confidence": 82,
-    "eligible": true,
-    "odd": 1.23,
-    "low_conviction": false
-   },
-   "alt_markets": [
-    {
-     "selection": "1X",
-     "family": "double_chance",
-     "label": "Dupla chance: Mamelodi Sundowns ou empate (1X)",
-     "model_prob": 0.9088,
-     "trend_alignment": 1.0,
-     "confidence": 82,
-     "eligible": true,
-     "odd": 1.05
-    },
-    {
-     "selection": "OVER25",
-     "family": "over_under",
-     "label": "Mais de 2.5 gols",
-     "model_prob": 0.6006,
-     "trend_alignment": 0.467,
-     "confidence": 29,
-     "eligible": true,
-     "odd": 1.86
-    },
-    {
-     "selection": "BTTS_YES",
-     "family": "btts",
-     "label": "Ambos os times marcam",
-     "model_prob": 0.4617,
-     "trend_alignment": 0.467,
-     "confidence": 16,
-     "eligible": false,
-     "odd": null
-    },
-    {
-     "selection": "BTTS_NO",
-     "family": "btts",
-     "label": "Ambos marcam: não",
-     "model_prob": 0.5383,
-     "trend_alignment": 0.0,
-     "confidence": 5,
-     "eligible": false,
-     "odd": null
-    }
-   ],
-   "trends": [
-    {
-     "label": "4 vitórias seguidas",
-     "strength": 0.75,
-     "favors": "HOME",
-     "team": "Mamelodi Sundowns",
-     "side": "HOME",
-     "group": "sequencia",
-     "kind": "win_streak"
-    },
-    {
-     "label": "Venceu 4 dos últimos 5",
-     "strength": 0.65,
-     "favors": "HOME",
-     "team": "Mamelodi Sundowns",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "Marcou em todos os últimos 5",
-     "strength": 0.3,
-     "favors": "OVER",
-     "team": "Mamelodi Sundowns",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "always_score"
-    },
-    {
-     "label": "Perdeu 3 dos últimos 5",
-     "strength": 0.52,
-     "favors": "HOME",
-     "team": "Siwelele",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Sofreu gol em todos os últimos 5",
-     "strength": 0.4,
-     "favors": "OVER",
-     "team": "Siwelele",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "always_concede"
-    },
-    {
-     "label": "Não vence há 5+ jogos",
-     "strength": 0.333,
-     "favors": "HOME",
-     "team": "Siwelele",
-     "side": "AWAY",
-     "group": "sequencia",
-     "kind": "winless_streak"
-    },
-    {
-     "label": "Mamelodi Sundowns é 1º · Siwelele é 14º",
-     "strength": 0.0,
-     "favors": null,
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "positions"
-    },
-    {
-     "label": "Mamelodi Sundowns está 13 posições à frente",
-     "strength": 0.8,
-     "favors": "HOME",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "aligned_trends": [
-    {
-     "label": "4 vitórias seguidas",
-     "strength": 0.75,
-     "favors": "HOME",
-     "team": "Mamelodi Sundowns",
-     "side": "HOME",
-     "group": "sequencia",
-     "kind": "win_streak"
-    },
-    {
-     "label": "Venceu 4 dos últimos 5",
-     "strength": 0.65,
-     "favors": "HOME",
-     "team": "Mamelodi Sundowns",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "Perdeu 3 dos últimos 5",
-     "strength": 0.52,
-     "favors": "HOME",
-     "team": "Siwelele",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Não vence há 5+ jogos",
-     "strength": 0.333,
-     "favors": "HOME",
-     "team": "Siwelele",
-     "side": "AWAY",
-     "group": "sequencia",
-     "kind": "winless_streak"
-    },
-    {
-     "label": "Mamelodi Sundowns está 13 posições à frente",
-     "strength": 0.8,
-     "favors": "HOME",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "confidence": 82,
-   "league": {
-    "key": "south_africa",
-    "name": "Premier League",
-    "country": "África do Sul"
-   },
-   "home_team": {
-    "id": 7277,
-    "name": "Mamelodi Sundowns",
-    "position": 1,
-    "played": 6,
-    "points": 16.0,
-    "record": "5V 1E 0D",
-    "goals_for": 15,
-    "goals_against": 6,
-    "last5": "WWWWD",
-    "recent": [
-     {
-      "result": "W",
-      "score": "2-1",
-      "home": false,
-      "opponent": "Golden Arrows",
-      "date": "2026-09-06"
-     },
-     {
-      "result": "W",
-      "score": "2-0",
-      "home": true,
-      "opponent": "Milford",
-      "date": "2026-09-02"
-     },
-     {
-      "result": "W",
-      "score": "5-2",
-      "home": true,
-      "opponent": "AmaZulu",
-      "date": "2026-08-26"
-     },
-     {
-      "result": "W",
-      "score": "2-0",
-      "home": true,
-      "opponent": "Marumo Gallants",
-      "date": "2026-08-19"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": false,
-      "opponent": "Kaizer Chiefs",
-      "date": "2026-08-15"
-     }
-    ]
-   },
-   "away_team": {
-    "id": 90073,
-    "name": "Siwelele",
-    "position": 14,
-    "played": 5,
-    "points": 2.0,
-    "record": "0V 2E 3D",
-    "goals_for": 5,
-    "goals_against": 9,
-    "last5": "LDLLD",
-    "recent": [
-     {
-      "result": "L",
-      "score": "2-3",
-      "home": false,
-      "opponent": "Kaizer Chiefs",
-      "date": "2026-09-06"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": true,
-      "opponent": "Chippa United",
-      "date": "2026-08-25"
+      "opponent": "Shahaniya SC",
+      "date": "2026-08-29"
      },
      {
       "result": "L",
       "score": "0-2",
       "home": false,
-      "opponent": "AmaZulu",
-      "date": "2026-08-15"
+      "opponent": "Al Duhail",
+      "date": "2026-08-22"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 6992,
+    "name": "Al Sadd",
+    "position": 1,
+    "played": 3,
+    "points": 9.0,
+    "record": "3V 0E 0D",
+    "goals_for": 13,
+    "goals_against": 4,
+    "last5": "WWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "4-1",
+      "home": true,
+      "opponent": "Al Gharafa",
+      "date": "2026-09-05"
+     },
+     {
+      "result": "W",
+      "score": "6-2",
+      "home": false,
+      "opponent": "Qatar SC",
+      "date": "2026-08-28"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": true,
+      "opponent": "Al-Ahli Doha",
+      "date": "2026-08-22"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-10T13:15:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "3 casas",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4779025,
+   "s365_competition_id": 408,
+   "competition_name": "Doha Bank Stars League",
+   "start_time": "2026-09-10T14:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 7081,
+    "name": "Al Shamal"
+   },
+   "away": {
+    "id": 5996,
+    "name": "Al Wakrah"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.9,
+    "lambda_away": 1.08,
+    "expected_goals": 3.98,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.7453,
+     "DRAW": 0.1429,
+     "AWAY": 0.1118,
+     "1X": 0.8882,
+     "X2": 0.2547,
+     "12": 0.8571,
+     "OVER25": 0.758,
+     "UNDER25": 0.242,
+     "BTTS_YES": 0.6235,
+     "BTTS_NO": 0.3765
+    }
+   },
+   "pick": {
+    "selection": "1X",
+    "family": "double_chance",
+    "label": "Dupla chance: Al Shamal ou empate (1X)",
+    "model_prob": 0.8882,
+    "trend_alignment": 0.429,
+    "confidence": 60,
+    "eligible": true,
+    "odd": 1.41,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Al Shamal",
+     "model_prob": 0.7453,
+     "trend_alignment": 0.429,
+     "confidence": 55,
+     "eligible": true,
+     "odd": 2.1
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.758,
+     "trend_alignment": 0.0,
+     "confidence": 34,
+     "eligible": true,
+     "odd": 2.19
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.6235,
+     "trend_alignment": 0.0,
+     "confidence": 16,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Al Wakrah",
+     "model_prob": 0.1118,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 2.8
+    }
+   ],
+   "trends": [
+    {
+     "label": "Al Shamal é 2º · Al Wakrah é 11º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Al Shamal está 9 posições à frente",
+     "strength": 0.643,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Al Shamal está 9 posições à frente",
+     "strength": 0.643,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 60,
+   "league": {
+    "key": "qatar",
+    "name": "Qatar Stars League",
+    "country": "Catar"
+   },
+   "home_team": {
+    "id": 7081,
+    "name": "Al Shamal",
+    "position": 2,
+    "played": 3,
+    "points": 7.0,
+    "record": "2V 1E 0D",
+    "goals_for": 9,
+    "goals_against": 5,
+    "last5": "WWD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "4-2",
+      "home": true,
+      "opponent": "Shahaniya SC",
+      "date": "2026-09-04"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": false,
+      "opponent": "Al Gharafa",
+      "date": "2026-08-27"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "Al Arabi Doha",
+      "date": "2026-08-21"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 5996,
+    "name": "Al Wakrah",
+    "position": 11,
+    "played": 3,
+    "points": 1.0,
+    "record": "0V 1E 2D",
+    "goals_for": 3,
+    "goals_against": 8,
+    "last5": "LLD",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-4",
+      "home": false,
+      "opponent": "Lusail Sports Club",
+      "date": "2026-09-04"
      },
      {
       "result": "L",
-      "score": "0-1",
-      "home": false,
-      "opponent": "Milford",
-      "date": "2026-08-12"
+      "score": "1-2",
+      "home": true,
+      "opponent": "Al Rayyan",
+      "date": "2026-08-27"
      },
      {
       "result": "D",
       "score": "2-2",
       "home": true,
-      "opponent": "TS Galaxy",
-      "date": "2026-08-02"
+      "opponent": "Qatar SC",
+      "date": "2026-08-20"
      }
     ]
    },
-   "kickoff_local": "2026-09-09T14:30:00-03:00",
+   "kickoff_local": "2026-09-10T11:00:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
-   "result": "hit",
+   "result": "pending",
    "clear": true
   },
   {
-   "id": 4804662,
-   "s365_competition_id": 552,
-   "competition_name": "Premier League",
-   "start_time": "2026-09-09T14:00:00+00:00",
+   "id": 4820631,
+   "s365_competition_id": 549,
+   "competition_name": "UAE Pro League",
+   "start_time": "2026-09-10T13:40:00+00:00",
    "status_group": 2,
    "round": "Round",
    "home": {
-    "id": 22143,
-    "name": "Pyramids"
+    "id": 8344,
+    "name": "Jazira Abu Dhabi"
    },
    "away": {
-    "id": 8308,
-    "name": "El Gounah"
+    "id": 8349,
+    "name": "Al Nasr Dubai"
    },
-   "home_score": 1.0,
-   "away_score": 0.0,
+   "home_score": -1.0,
+   "away_score": -1.0,
    "model": {
-    "lambda_home": 1.61,
-    "lambda_away": 0.5,
-    "expected_goals": 2.11,
+    "lambda_home": 2.06,
+    "lambda_away": 0.89,
+    "expected_goals": 2.95,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.6466,
-     "DRAW": 0.2409,
-     "AWAY": 0.1125,
-     "1X": 0.8875,
-     "X2": 0.3534,
-     "12": 0.7591,
-     "OVER25": 0.3529,
-     "UNDER25": 0.6471,
-     "BTTS_YES": 0.3158,
-     "BTTS_NO": 0.6842
+     "HOME": 0.6434,
+     "DRAW": 0.2027,
+     "AWAY": 0.1539,
+     "1X": 0.8461,
+     "X2": 0.3566,
+     "12": 0.7973,
+     "OVER25": 0.5656,
+     "UNDER25": 0.4344,
+     "BTTS_YES": 0.515,
+     "BTTS_NO": 0.485
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
-    "label": "Vitória do Pyramids",
-    "model_prob": 0.6466,
+    "label": "Vitória do Jazira Abu Dhabi",
+    "model_prob": 0.6434,
     "trend_alignment": 1.0,
-    "confidence": 79,
+    "confidence": 73,
     "eligible": true,
-    "odd": 1.38,
+    "odd": 1.53,
     "low_conviction": false
    },
    "alt_markets": [
     {
      "selection": "1X",
      "family": "double_chance",
-     "label": "Dupla chance: Pyramids ou empate (1X)",
-     "model_prob": 0.8875,
+     "label": "Dupla chance: Jazira Abu Dhabi ou empate (1X)",
+     "model_prob": 0.8461,
      "trend_alignment": 1.0,
-     "confidence": 79,
+     "confidence": 73,
      "eligible": true,
-     "odd": 1.09
+     "odd": 1.16
     },
     {
-     "selection": "BTTS_NO",
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5656,
+     "trend_alignment": 0.03,
+     "confidence": 10,
+     "eligible": false,
+     "odd": 2.19
+    },
+    {
+     "selection": "BTTS_YES",
      "family": "btts",
-     "label": "Ambos marcam: não",
-     "model_prob": 0.6842,
-     "trend_alignment": 0.367,
-     "confidence": 37,
-     "eligible": true,
+     "label": "Ambos os times marcam",
+     "model_prob": 0.515,
+     "trend_alignment": 0.03,
+     "confidence": 3,
+     "eligible": false,
      "odd": null
     },
     {
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.6471,
-     "trend_alignment": 0.367,
-     "confidence": 32,
-     "eligible": true,
-     "odd": 1.58
-    },
-    {
-     "selection": "AWAY",
-     "family": "1x2",
-     "label": "Vitória do El Gounah",
-     "model_prob": 0.1125,
-     "trend_alignment": 0.0,
-     "confidence": 0,
+     "model_prob": 0.4344,
+     "trend_alignment": 0.03,
+     "confidence": 1,
      "eligible": false,
-     "odd": 7.5
+     "odd": 1.61
     }
    ],
    "trends": [
@@ -717,16 +517,16 @@
      "label": "Venceu 4 dos últimos 4",
      "strength": 0.75,
      "favors": "HOME",
-     "team": "Pyramids",
+     "team": "Jazira Abu Dhabi",
      "side": "HOME",
      "group": "geral",
      "kind": "wins"
     },
     {
-     "label": "Não sofreu gol em 4 dos últimos 4",
-     "strength": 0.55,
+     "label": "Não sofreu gol em 3 dos últimos 4",
+     "strength": 0.45,
      "favors": "UNDER",
-     "team": "Pyramids",
+     "team": "Jazira Abu Dhabi",
      "side": "HOME",
      "group": "geral",
      "kind": "clean_sheets"
@@ -735,13 +535,31 @@
      "label": "4 vitórias seguidas",
      "strength": 0.75,
      "favors": "HOME",
-     "team": "Pyramids",
+     "team": "Jazira Abu Dhabi",
      "side": "HOME",
      "group": "sequencia",
      "kind": "win_streak"
     },
     {
-     "label": "Pyramids é 2º · El Gounah é 16º",
+     "label": "Só venceu 1 dos últimos 4",
+     "strength": 0.462,
+     "favors": "HOME",
+     "team": "Al Nasr Dubai",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "Mais de 2.5 gols em 3 dos últimos 4",
+     "strength": 0.45,
+     "favors": "OVER",
+     "team": "Al Nasr Dubai",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Jazira Abu Dhabi é 2º · Al Nasr Dubai é 9º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -750,8 +568,8 @@
      "kind": "positions"
     },
     {
-     "label": "Pyramids está 14 posições à frente",
-     "strength": 0.8,
+     "label": "Jazira Abu Dhabi está 7 posições à frente",
+     "strength": 0.5,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -764,7 +582,7 @@
      "label": "Venceu 4 dos últimos 4",
      "strength": 0.75,
      "favors": "HOME",
-     "team": "Pyramids",
+     "team": "Jazira Abu Dhabi",
      "side": "HOME",
      "group": "geral",
      "kind": "wins"
@@ -773,301 +591,22 @@
      "label": "4 vitórias seguidas",
      "strength": 0.75,
      "favors": "HOME",
-     "team": "Pyramids",
+     "team": "Jazira Abu Dhabi",
      "side": "HOME",
      "group": "sequencia",
      "kind": "win_streak"
     },
     {
-     "label": "Pyramids está 14 posições à frente",
-     "strength": 0.8,
+     "label": "Só venceu 1 dos últimos 4",
+     "strength": 0.462,
      "favors": "HOME",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "confidence": 79,
-   "league": {
-    "key": "egypt",
-    "name": "Premier League",
-    "country": "Egito"
-   },
-   "home_team": {
-    "id": 22143,
-    "name": "Pyramids",
-    "position": 2,
-    "played": 3,
-    "points": 9.0,
-    "record": "3V 0E 0D",
-    "goals_for": 6,
-    "goals_against": 0,
-    "last5": "WWWW",
-    "recent": [
-     {
-      "result": "W",
-      "score": "2-0",
-      "home": false,
-      "opponent": "Gor Mahia",
-      "date": "2026-09-06"
-     },
-     {
-      "result": "W",
-      "score": "1-0",
-      "home": false,
-      "opponent": "Al Masry",
-      "date": "2026-08-31"
-     },
-     {
-      "result": "W",
-      "score": "2-0",
-      "home": true,
-      "opponent": "Abo Qir Semad",
-      "date": "2026-08-27"
-     },
-     {
-      "result": "W",
-      "score": "3-0",
-      "home": false,
-      "opponent": "Ghazl El-Mehalla",
-      "date": "2026-08-22"
-     }
-    ]
-   },
-   "away_team": {
-    "id": 8308,
-    "name": "El Gounah",
-    "position": 16,
-    "played": 3,
-    "points": 2.0,
-    "record": "0V 2E 1D",
-    "goals_for": 2,
-    "goals_against": 3,
-    "last5": "LDD",
-    "recent": [
-     {
-      "result": "L",
-      "score": "0-1",
-      "home": true,
-      "opponent": "Al Mokawloon Al Arab",
-      "date": "2026-09-02"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": false,
-      "opponent": "El Qanah FC",
-      "date": "2026-08-28"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": true,
-      "opponent": "Modern Sport FC",
-      "date": "2026-08-23"
-     }
-    ]
-   },
-   "kickoff_local": "2026-09-09T11:00:00-03:00",
-   "has_odds": true,
-   "odds_bookmaker": "3 casas",
-   "is_cup": false,
-   "result": "hit",
-   "clear": true
-  },
-  {
-   "id": 4788290,
-   "s365_competition_id": 649,
-   "competition_name": "Saudi League",
-   "start_time": "2026-09-09T15:55:00+00:00",
-   "status_group": 2,
-   "round": "Round",
-   "home": {
-    "id": 55800,
-    "name": "Al-Kholood"
-   },
-   "away": {
-    "id": 8945,
-    "name": "Al Shabab Riyadh"
-   },
-   "home_score": 2.0,
-   "away_score": 1.0,
-   "model": {
-    "lambda_home": 2.31,
-    "lambda_away": 1.04,
-    "expected_goals": 3.35,
-    "sample_factor": 1.0,
-    "probs": {
-     "HOME": 0.6592,
-     "DRAW": 0.1854,
-     "AWAY": 0.1554,
-     "1X": 0.8446,
-     "X2": 0.3408,
-     "12": 0.8146,
-     "OVER25": 0.6502,
-     "UNDER25": 0.3498,
-     "BTTS_YES": 0.5813,
-     "BTTS_NO": 0.4187
-    }
-   },
-   "pick": {
-    "selection": "1X",
-    "family": "double_chance",
-    "label": "Dupla chance: Al-Kholood ou empate (1X)",
-    "model_prob": 0.8446,
-    "trend_alignment": 1.0,
-    "confidence": 73,
-    "eligible": true,
-    "odd": 1.56,
-    "low_conviction": false
-   },
-   "alt_markets": [
-    {
-     "selection": "HOME",
-     "family": "1x2",
-     "label": "Vitória do Al-Kholood",
-     "model_prob": 0.6592,
-     "trend_alignment": 1.0,
-     "confidence": 66,
-     "eligible": true,
-     "odd": 2.67
-    },
-    {
-     "selection": "OVER25",
-     "family": "over_under",
-     "label": "Mais de 2.5 gols",
-     "model_prob": 0.6502,
-     "trend_alignment": 0.333,
-     "confidence": 31,
-     "eligible": true,
-     "odd": 1.73
-    },
-    {
-     "selection": "BTTS_YES",
-     "family": "btts",
-     "label": "Ambos os times marcam",
-     "model_prob": 0.5813,
-     "trend_alignment": 0.333,
-     "confidence": 22,
-     "eligible": false,
-     "odd": null
-    },
-    {
-     "selection": "AWAY",
-     "family": "1x2",
-     "label": "Vitória do Al Shabab Riyadh",
-     "model_prob": 0.1554,
-     "trend_alignment": 0.0,
-     "confidence": 0,
-     "eligible": false,
-     "odd": 2.4
-    }
-   ],
-   "trends": [
-    {
-     "label": "Invicto em 5 dos últimos 5",
-     "strength": 0.55,
-     "favors": "HOME",
-     "team": "Al-Kholood",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "unbeaten"
-    },
-    {
-     "label": "Ambos marcaram em 5 dos últimos 5",
-     "strength": 0.5,
-     "favors": "BTTS_YES",
-     "team": "Al-Kholood",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "btts"
-    },
-    {
-     "label": "Não venceu nenhum dos últimos 5",
-     "strength": 0.55,
-     "favors": "HOME",
-     "team": "Al Shabab Riyadh",
+     "team": "Al Nasr Dubai",
      "side": "AWAY",
      "group": "geral",
      "kind": "winless"
     },
     {
-     "label": "Invicto há 5+ jogos",
-     "strength": 0.333,
-     "favors": "HOME",
-     "team": "Al-Kholood",
-     "side": "HOME",
-     "group": "sequencia",
-     "kind": "unbeaten_streak"
-    },
-    {
-     "label": "Não vence há 5+ jogos",
-     "strength": 0.333,
-     "favors": "HOME",
-     "team": "Al Shabab Riyadh",
-     "side": "AWAY",
-     "group": "sequencia",
-     "kind": "winless_streak"
-    },
-    {
-     "label": "Al-Kholood é 8º · Al Shabab Riyadh é 15º",
-     "strength": 0.0,
-     "favors": null,
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "positions"
-    },
-    {
-     "label": "Al-Kholood está 7 posições à frente",
-     "strength": 0.5,
-     "favors": "HOME",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "aligned_trends": [
-    {
-     "label": "Invicto em 5 dos últimos 5",
-     "strength": 0.55,
-     "favors": "HOME",
-     "team": "Al-Kholood",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "unbeaten"
-    },
-    {
-     "label": "Não venceu nenhum dos últimos 5",
-     "strength": 0.55,
-     "favors": "HOME",
-     "team": "Al Shabab Riyadh",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "winless"
-    },
-    {
-     "label": "Invicto há 5+ jogos",
-     "strength": 0.333,
-     "favors": "HOME",
-     "team": "Al-Kholood",
-     "side": "HOME",
-     "group": "sequencia",
-     "kind": "unbeaten_streak"
-    },
-    {
-     "label": "Não vence há 5+ jogos",
-     "strength": 0.333,
-     "favors": "HOME",
-     "team": "Al Shabab Riyadh",
-     "side": "AWAY",
-     "group": "sequencia",
-     "kind": "winless_streak"
-    },
-    {
-     "label": "Al-Kholood está 7 posições à frente",
+     "label": "Jazira Abu Dhabi está 7 posições à frente",
      "strength": 0.5,
      "favors": "HOME",
      "team": null,
@@ -1078,403 +617,99 @@
    ],
    "confidence": 73,
    "league": {
-    "key": "saudi",
-    "name": "Saudi Pro League",
-    "country": "Arábia Saudita"
+    "key": "uae",
+    "name": "UAE Pro League",
+    "country": "Emirados Árabes"
    },
    "home_team": {
-    "id": 55800,
-    "name": "Al-Kholood",
-    "position": 8,
-    "played": 5,
-    "points": 9.0,
-    "record": "2V 3E 0D",
+    "id": 8344,
+    "name": "Jazira Abu Dhabi",
+    "position": 2,
+    "played": 4,
+    "points": 12.0,
+    "record": "4V 0E 0D",
     "goals_for": 10,
-    "goals_against": 7,
-    "last5": "DWDWD",
+    "goals_against": 1,
+    "last5": "WWWW",
     "recent": [
-     {
-      "result": "D",
-      "score": "2-2",
-      "home": false,
-      "opponent": "Al Feiha",
-      "date": "2026-09-03"
-     },
      {
       "result": "W",
       "score": "3-1",
-      "home": true,
-      "opponent": "Al Ahli Jeddah",
-      "date": "2026-08-29"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
       "home": false,
-      "opponent": "Diriyah",
-      "date": "2026-08-26"
+      "opponent": "Shabab Al Ahly",
+      "date": "2026-09-05"
      },
      {
       "result": "W",
-      "score": "3-2",
+      "score": "3-0",
       "home": true,
-      "opponent": "Al Taawoun",
-      "date": "2026-08-22"
+      "opponent": "Ajman Club",
+      "date": "2026-08-29"
      },
      {
-      "result": "D",
-      "score": "1-1",
+      "result": "W",
+      "score": "2-0",
       "home": false,
-      "opponent": "Ittihad Jeddah",
-      "date": "2026-08-15"
+      "opponent": "Sharjah SC",
+      "date": "2026-08-23"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "Hatta Club",
+      "date": "2026-08-16"
      }
     ]
    },
    "away_team": {
-    "id": 8945,
-    "name": "Al Shabab Riyadh",
-    "position": 15,
-    "played": 5,
-    "points": 3.0,
-    "record": "0V 3E 2D",
+    "id": 8349,
+    "name": "Al Nasr Dubai",
+    "position": 9,
+    "played": 4,
+    "points": 4.0,
+    "record": "1V 1E 2D",
     "goals_for": 5,
-    "goals_against": 9,
-    "last5": "LDDDL",
+    "goals_against": 6,
+    "last5": "LLWD",
     "recent": [
-     {
-      "result": "L",
-      "score": "0-2",
-      "home": true,
-      "opponent": "Al Hilal Riyadh",
-      "date": "2026-09-04"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": false,
-      "opponent": "Al Hazm",
-      "date": "2026-08-30"
-     },
-     {
-      "result": "D",
-      "score": "3-3",
-      "home": true,
-      "opponent": "Al Riyadh SC",
-      "date": "2026-08-25"
-     },
-     {
-      "result": "D",
-      "score": "0-0",
-      "home": false,
-      "opponent": "Al Khaleej Club",
-      "date": "2026-08-22"
-     },
-     {
-      "result": "L",
-      "score": "1-3",
-      "home": true,
-      "opponent": "Qadisiya",
-      "date": "2026-08-13"
-     }
-    ]
-   },
-   "kickoff_local": "2026-09-09T12:55:00-03:00",
-   "has_odds": true,
-   "odds_bookmaker": "3 casas",
-   "is_cup": false,
-   "result": "hit",
-   "clear": true
-  },
-  {
-   "id": 4797357,
-   "s365_competition_id": 616,
-   "competition_name": "Copa Colombia - Round of 16",
-   "start_time": "2026-09-10T01:10:00+00:00",
-   "status_group": 2,
-   "round": "Round",
-   "home": {
-    "id": 9048,
-    "name": "Deportivo Pasto"
-   },
-   "away": {
-    "id": 8643,
-    "name": "Independiente Medellin"
-   },
-   "home_score": -1.0,
-   "away_score": -1.0,
-   "model": {
-    "lambda_home": 0.91,
-    "lambda_away": 1.75,
-    "expected_goals": 2.66,
-    "sample_factor": 1.0,
-    "probs": {
-     "HOME": 0.1943,
-     "DRAW": 0.2343,
-     "AWAY": 0.5714,
-     "1X": 0.4286,
-     "X2": 0.8057,
-     "12": 0.7657,
-     "OVER25": 0.4975,
-     "UNDER25": 0.5025,
-     "BTTS_YES": 0.4948,
-     "BTTS_NO": 0.5052
-    }
-   },
-   "pick": {
-    "selection": "X2",
-    "family": "double_chance",
-    "label": "Dupla chance: Independiente Medellin ou empate (X2)",
-    "model_prob": 0.8057,
-    "trend_alignment": 1.0,
-    "confidence": 68,
-    "eligible": true,
-    "odd": 1.3,
-    "low_conviction": false
-   },
-   "alt_markets": [
-    {
-     "selection": "AWAY",
-     "family": "1x2",
-     "label": "Vitória do Independiente Medellin",
-     "model_prob": 0.5714,
-     "trend_alignment": 1.0,
-     "confidence": 58,
-     "eligible": true,
-     "odd": 2.09
-    },
-    {
-     "selection": "OVER25",
-     "family": "over_under",
-     "label": "Mais de 2.5 gols",
-     "model_prob": 0.4975,
-     "trend_alignment": 0.267,
-     "confidence": 9,
-     "eligible": false,
-     "odd": 2.16
-    },
-    {
-     "selection": "BTTS_YES",
-     "family": "btts",
-     "label": "Ambos os times marcam",
-     "model_prob": 0.4948,
-     "trend_alignment": 0.267,
-     "confidence": 9,
-     "eligible": false,
-     "odd": null
-    },
-    {
-     "selection": "BTTS_NO",
-     "family": "btts",
-     "label": "Ambos marcam: não",
-     "model_prob": 0.5052,
-     "trend_alignment": 0.0,
-     "confidence": 1,
-     "eligible": false,
-     "odd": null
-    }
-   ],
-   "trends": [
-    {
-     "label": "Venceu 4 dos últimos 5",
-     "strength": 0.65,
-     "favors": "AWAY",
-     "team": "Independiente Medellin",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "Perdeu 3 dos últimos 5",
-     "strength": 0.52,
-     "favors": "AWAY",
-     "team": "Deportivo Pasto",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Sofreu gol em todos os últimos 5",
-     "strength": 0.4,
-     "favors": "OVER",
-     "team": "Deportivo Pasto",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "always_concede"
-    },
-    {
-     "label": "Não vence há 5+ jogos",
-     "strength": 0.333,
-     "favors": "AWAY",
-     "team": "Deportivo Pasto",
-     "side": "HOME",
-     "group": "sequencia",
-     "kind": "winless_streak"
-    },
-    {
-     "label": "Deportivo Pasto é 19º · Independiente Medellin é 3º",
-     "strength": 0.0,
-     "favors": null,
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "positions"
-    },
-    {
-     "label": "Independiente Medellin está 16 posições à frente",
-     "strength": 0.8,
-     "favors": "AWAY",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "aligned_trends": [
-    {
-     "label": "Venceu 4 dos últimos 5",
-     "strength": 0.65,
-     "favors": "AWAY",
-     "team": "Independiente Medellin",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "Perdeu 3 dos últimos 5",
-     "strength": 0.52,
-     "favors": "AWAY",
-     "team": "Deportivo Pasto",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Não vence há 5+ jogos",
-     "strength": 0.333,
-     "favors": "AWAY",
-     "team": "Deportivo Pasto",
-     "side": "HOME",
-     "group": "sequencia",
-     "kind": "winless_streak"
-    },
-    {
-     "label": "Independiente Medellin está 16 posições à frente",
-     "strength": 0.8,
-     "favors": "AWAY",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "confidence": 68,
-   "league": {
-    "key": "copa_co",
-    "name": "Copa Colombia",
-    "country": "Colômbia"
-   },
-   "home_team": {
-    "id": 9048,
-    "name": "Deportivo Pasto",
-    "position": 19,
-    "played": 8,
-    "points": 2.0,
-    "record": "0V 2E 6D",
-    "goals_for": 7,
-    "goals_against": 15,
-    "last5": "DLDLL",
-    "recent": [
-     {
-      "result": "D",
-      "score": "2-2",
-      "home": false,
-      "opponent": "Cucuta Deportivo",
-      "date": "2026-09-05"
-     },
      {
       "result": "L",
       "score": "1-2",
       "home": true,
-      "opponent": "Deportivo Pereira",
-      "date": "2026-08-31"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": false,
-      "opponent": "Internacional de Bogota",
-      "date": "2026-08-28"
+      "opponent": "Ajman Club",
+      "date": "2026-09-06"
      },
      {
       "result": "L",
-      "score": "0-1",
-      "home": true,
-      "opponent": "Llaneros FC",
-      "date": "2026-08-23"
-     },
-     {
-      "result": "L",
-      "score": "0-2",
-      "home": true,
-      "opponent": "Deportivo Cali",
-      "date": "2026-08-09"
-     }
-    ]
-   },
-   "away_team": {
-    "id": 8643,
-    "name": "Independiente Medellin",
-    "position": 3,
-    "played": 6,
-    "points": 15.0,
-    "record": "5V 0E 1D",
-    "goals_for": 12,
-    "goals_against": 6,
-    "last5": "WWLWW",
-    "recent": [
-     {
-      "result": "W",
-      "score": "3-0",
+      "score": "1-2",
       "home": false,
-      "opponent": "Deportivo Pereira",
-      "date": "2026-09-04"
-     },
-     {
-      "result": "W",
-      "score": "2-1",
-      "home": true,
-      "opponent": "Llaneros FC",
-      "date": "2026-08-30"
-     },
-     {
-      "result": "L",
-      "score": "0-1",
-      "home": true,
-      "opponent": "Cucuta Deportivo",
-      "date": "2026-08-23"
-     },
-     {
-      "result": "W",
-      "score": "3-2",
-      "home": false,
-      "opponent": "Deportes Tolima",
-      "date": "2026-08-04"
+      "opponent": "Al Ain",
+      "date": "2026-08-29"
      },
      {
       "result": "W",
       "score": "1-0",
       "home": true,
-      "opponent": "Deportivo Cali",
-      "date": "2026-08-01"
+      "opponent": "Al-Wahda",
+      "date": "2026-08-21"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "Kalba",
+      "date": "2026-08-14"
      }
     ]
    },
-   "kickoff_local": "2026-09-09T22:10:00-03:00",
+   "kickoff_local": "2026-09-10T10:40:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "3 casas",
-   "is_cup": true,
+   "is_cup": false,
    "result": "pending",
-   "clear": true
+   "clear": false,
+   "below_bar": true
   }
  ]
 }

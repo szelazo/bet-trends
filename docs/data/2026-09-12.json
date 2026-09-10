@@ -1,0 +1,1528 @@
+{
+ "date": "2026-09-12",
+ "generated_at": "2026-09-10T08:17:36.397194-03:00",
+ "version": "0.1.0",
+ "count": 5,
+ "clear_count": 5,
+ "day_total": 144,
+ "games": [
+  {
+   "id": 4734590,
+   "s365_competition_id": 57,
+   "competition_name": "Eredivisie",
+   "start_time": "2026-09-12T14:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 696,
+    "name": "Twente"
+   },
+   "away": {
+    "id": 708,
+    "name": "ADO Den Haag"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.68,
+    "lambda_away": 0.95,
+    "expected_goals": 3.63,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.7402,
+     "DRAW": 0.1513,
+     "AWAY": 0.1085,
+     "1X": 0.8915,
+     "X2": 0.2598,
+     "12": 0.8487,
+     "OVER25": 0.7021,
+     "UNDER25": 0.2979,
+     "BTTS_YES": 0.5705,
+     "BTTS_NO": 0.4295
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Twente",
+    "model_prob": 0.7402,
+    "trend_alignment": 1.0,
+    "confidence": 79,
+    "eligible": true,
+    "odd": 1.21,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Twente ou empate (1X)",
+     "model_prob": 0.8915,
+     "trend_alignment": 1.0,
+     "confidence": 79,
+     "eligible": true,
+     "odd": 1.06
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.7021,
+     "trend_alignment": 0.313,
+     "confidence": 37,
+     "eligible": true,
+     "odd": 1.82
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5705,
+     "trend_alignment": 0.313,
+     "confidence": 20,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do ADO Den Haag",
+     "model_prob": 0.1085,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 10.0
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "HOME",
+     "team": "ADO Den Haag",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "ADO Den Haag",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Invicto em 5 dos últimos 6",
+     "strength": 0.492,
+     "favors": "HOME",
+     "team": "Twente",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Invicto há 5 jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Twente",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "ADO Den Haag",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Twente é 5º · ADO Den Haag é 16º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Twente está 11 posições à frente",
+     "strength": 0.786,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "HOME",
+     "team": "ADO Den Haag",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto em 5 dos últimos 6",
+     "strength": 0.492,
+     "favors": "HOME",
+     "team": "Twente",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Invicto há 5 jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Twente",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "ADO Den Haag",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Twente está 11 posições à frente",
+     "strength": 0.786,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 79,
+   "league": {
+    "key": "eredivisie",
+    "name": "Eredivisie",
+    "country": "Holanda"
+   },
+   "home_team": {
+    "id": 696,
+    "name": "Twente",
+    "position": 5,
+    "played": 5,
+    "points": 10.0,
+    "record": "3V 1E 1D",
+    "goals_for": 10,
+    "goals_against": 5,
+    "last5": "WDWWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Telstar",
+      "date": "2026-09-09"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "Groningen",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "W",
+      "score": "4-1",
+      "home": false,
+      "opponent": "Cambuur",
+      "date": "2026-08-30"
+     },
+     {
+      "result": "W",
+      "score": "4-1",
+      "home": false,
+      "opponent": "Qarabag Agdam",
+      "date": "2026-08-27"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": true,
+      "opponent": "PEC Zwolle",
+      "date": "2026-08-16"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 708,
+    "name": "ADO Den Haag",
+    "position": 16,
+    "played": 5,
+    "points": 1.0,
+    "record": "0V 1E 4D",
+    "goals_for": 6,
+    "goals_against": 14,
+    "last5": "LDLLL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": true,
+      "opponent": "Fortuna Sittard",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "Feyenoord",
+      "date": "2026-08-30"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": false,
+      "opponent": "Go Ahead Eagles",
+      "date": "2026-08-23"
+     },
+     {
+      "result": "L",
+      "score": "1-4",
+      "home": true,
+      "opponent": "Groningen",
+      "date": "2026-08-16"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "AZ Alkmaar",
+      "date": "2026-08-08"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-12T11:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "3 casas",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4757152,
+   "s365_competition_id": 73,
+   "competition_name": "Liga Portugal",
+   "start_time": "2026-09-12T17:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 6372,
+    "name": "Casa Pia AC"
+   },
+   "away": {
+    "id": 887,
+    "name": "FC Porto"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 0.73,
+    "lambda_away": 2.22,
+    "expected_goals": 2.94,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.1081,
+     "DRAW": 0.1788,
+     "AWAY": 0.7131,
+     "1X": 0.2869,
+     "X2": 0.8919,
+     "12": 0.8212,
+     "OVER25": 0.5639,
+     "UNDER25": 0.4361,
+     "BTTS_YES": 0.4609,
+     "BTTS_NO": 0.5391
+    }
+   },
+   "pick": {
+    "selection": "AWAY",
+    "family": "1x2",
+    "label": "Vitória do FC Porto",
+    "model_prob": 0.7131,
+    "trend_alignment": 1.0,
+    "confidence": 79,
+    "eligible": true,
+    "odd": 1.23,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "X2",
+     "family": "double_chance",
+     "label": "Dupla chance: FC Porto ou empate (X2)",
+     "model_prob": 0.8919,
+     "trend_alignment": 1.0,
+     "confidence": 79,
+     "eligible": true,
+     "odd": 1.06
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5391,
+     "trend_alignment": 0.278,
+     "confidence": 15,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.4361,
+     "trend_alignment": 0.278,
+     "confidence": 10,
+     "eligible": false,
+     "odd": 2.01
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5639,
+     "trend_alignment": 0.0,
+     "confidence": 8,
+     "eligible": false,
+     "odd": 1.77
+    }
+   ],
+   "trends": [
+    {
+     "label": "Venceu 5 dos últimos 6",
+     "strength": 0.667,
+     "favors": "AWAY",
+     "team": "FC Porto",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Não sofreu gol em 4 dos últimos 6",
+     "strength": 0.417,
+     "favors": "UNDER",
+     "team": "FC Porto",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "clean_sheets"
+    },
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "AWAY",
+     "team": "Casa Pia AC",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Não marcou em 5 dos últimos 5",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "Casa Pia AC",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "no_score"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Casa Pia AC",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Casa Pia AC é 18º · FC Porto é 1º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "FC Porto está 17 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Venceu 5 dos últimos 6",
+     "strength": 0.667,
+     "favors": "AWAY",
+     "team": "FC Porto",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "AWAY",
+     "team": "Casa Pia AC",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Não marcou em 5 dos últimos 5",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "Casa Pia AC",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "no_score"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Casa Pia AC",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "FC Porto está 17 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 79,
+   "league": {
+    "key": "liga_pt",
+    "name": "Liga Portugal",
+    "country": "Portugal"
+   },
+   "home_team": {
+    "id": 6372,
+    "name": "Casa Pia AC",
+    "position": 18,
+    "played": 5,
+    "points": 1.0,
+    "record": "0V 1E 4D",
+    "goals_for": 0,
+    "goals_against": 11,
+    "last5": "DLLLL",
+    "recent": [
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Guimarães",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Moreirense",
+      "date": "2026-08-30"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Gil Vicente FC",
+      "date": "2026-08-24"
+     },
+     {
+      "result": "L",
+      "score": "0-7",
+      "home": true,
+      "opponent": "Benfica",
+      "date": "2026-08-17"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Maritimo",
+      "date": "2026-08-08"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 887,
+    "name": "FC Porto",
+    "position": 1,
+    "played": 5,
+    "points": 15.0,
+    "record": "5V 0E 0D",
+    "goals_for": 11,
+    "goals_against": 1,
+    "last5": "LWWWW",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": true,
+      "opponent": "Manchester City",
+      "date": "2026-09-08"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Moreirense",
+      "date": "2026-09-04"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": false,
+      "opponent": "Viseu",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Arouca",
+      "date": "2026-08-23"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "Rio Ave",
+      "date": "2026-08-15"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-12T14:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "3 casas",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4748442,
+   "s365_competition_id": 136,
+   "competition_name": "Liga 1",
+   "start_time": "2026-09-12T18:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 2042,
+    "name": "Rapid Bucuresti"
+   },
+   "away": {
+    "id": 14432,
+    "name": "FC Voluntari"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.84,
+    "lambda_away": 0.67,
+    "expected_goals": 2.51,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.6546,
+     "DRAW": 0.2167,
+     "AWAY": 0.1287,
+     "1X": 0.8713,
+     "X2": 0.3454,
+     "12": 0.7833,
+     "OVER25": 0.4586,
+     "UNDER25": 0.5414,
+     "BTTS_YES": 0.4101,
+     "BTTS_NO": 0.5899
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Rapid Bucuresti",
+    "model_prob": 0.6546,
+    "trend_alignment": 1.0,
+    "confidence": 77,
+    "eligible": true,
+    "odd": 1.44,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Rapid Bucuresti ou empate (1X)",
+     "model_prob": 0.8713,
+     "trend_alignment": 1.0,
+     "confidence": 77,
+     "eligible": true,
+     "odd": 1.11
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5899,
+     "trend_alignment": 0.0,
+     "confidence": 12,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.4586,
+     "trend_alignment": 0.21,
+     "confidence": 7,
+     "eligible": false,
+     "odd": 1.86
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.4101,
+     "trend_alignment": 0.21,
+     "confidence": 7,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Menos de 2.5 gols em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "UNDER",
+     "team": "Rapid Bucuresti",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "under"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Rapid Bucuresti",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "FC Voluntari",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "FC Voluntari",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Melhor defesa da liga (0.5 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Rapid Bucuresti",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Pior defesa da liga (2.2 sofridos/jogo)",
+     "strength": 0.34,
+     "favors": "OVER",
+     "team": "FC Voluntari",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_bottom"
+    },
+    {
+     "label": "Rapid Bucuresti é 2º · FC Voluntari é 15º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Rapid Bucuresti está 13 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Rapid Bucuresti",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "FC Voluntari",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Melhor defesa da liga (0.5 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Rapid Bucuresti",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Rapid Bucuresti está 13 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 77,
+   "league": {
+    "key": "romania",
+    "name": "Liga 1",
+    "country": "Romênia"
+   },
+   "home_team": {
+    "id": 2042,
+    "name": "Rapid Bucuresti",
+    "position": 2,
+    "played": 8,
+    "points": 15.0,
+    "record": "4V 3E 1D",
+    "goals_for": 9,
+    "goals_against": 4,
+    "last5": "WDWLD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Otelul Galati",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "CS Universitatea Craiova",
+      "date": "2026-08-31"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "Petrolul Ploiesti",
+      "date": "2026-08-21"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Dinamo Bucuresti",
+      "date": "2026-08-15"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "UTA Arad",
+      "date": "2026-08-07"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 14432,
+    "name": "FC Voluntari",
+    "position": 15,
+    "played": 8,
+    "points": 8.0,
+    "record": "2V 2E 4D",
+    "goals_for": 8,
+    "goals_against": 18,
+    "last5": "WDLLL",
+    "recent": [
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "FC Arges Pitesti",
+      "date": "2026-09-07"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "Otelul Galati",
+      "date": "2026-08-28"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": false,
+      "opponent": "CS Universitatea Craiova",
+      "date": "2026-08-23"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Petrolul Ploiesti",
+      "date": "2026-08-14"
+     },
+     {
+      "result": "L",
+      "score": "0-4",
+      "home": false,
+      "opponent": "Dinamo Bucuresti",
+      "date": "2026-08-08"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-12T15:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "3 casas",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4746140,
+   "s365_competition_id": 1,
+   "competition_name": "Championship",
+   "start_time": "2026-09-12T14:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 28,
+    "name": "Swansea"
+   },
+   "away": {
+    "id": 12,
+    "name": "Burnley"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.92,
+    "lambda_away": 0.75,
+    "expected_goals": 2.67,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.6507,
+     "DRAW": 0.211,
+     "AWAY": 0.1384,
+     "1X": 0.8616,
+     "X2": 0.3493,
+     "12": 0.789,
+     "OVER25": 0.4996,
+     "UNDER25": 0.5004,
+     "BTTS_YES": 0.4506,
+     "BTTS_NO": 0.5494
+    }
+   },
+   "pick": {
+    "selection": "1X",
+    "family": "double_chance",
+    "label": "Dupla chance: Swansea ou empate (1X)",
+    "model_prob": 0.8616,
+    "trend_alignment": 1.0,
+    "confidence": 75,
+    "eligible": true,
+    "odd": 1.34,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Swansea",
+     "model_prob": 0.6507,
+     "trend_alignment": 1.0,
+     "confidence": 66,
+     "eligible": true,
+     "odd": 2.09
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5494,
+     "trend_alignment": 0.013,
+     "confidence": 7,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.4996,
+     "trend_alignment": 0.051,
+     "confidence": 2,
+     "eligible": false,
+     "odd": 1.9
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.4506,
+     "trend_alignment": 0.051,
+     "confidence": 2,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Burnley",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Ambos marcaram em 5 dos últimos 5",
+     "strength": 0.5,
+     "favors": "BTTS_YES",
+     "team": "Burnley",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "btts"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Swansea",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Não sofreu gol em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "UNDER",
+     "team": "Swansea",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "clean_sheets"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Burnley",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Swansea é 3º · Burnley é 23º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Swansea está 20 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Burnley",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Swansea",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Burnley",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Swansea está 20 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 75,
+   "league": {
+    "key": "championship",
+    "name": "Championship",
+    "country": "Inglaterra"
+   },
+   "home_team": {
+    "id": 28,
+    "name": "Swansea",
+    "position": 3,
+    "played": 6,
+    "points": 11.0,
+    "record": "3V 2E 1D",
+    "goals_for": 8,
+    "goals_against": 4,
+    "last5": "LDWWD",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": false,
+      "opponent": "Southampton",
+      "date": "2026-09-08"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Wrexham",
+      "date": "2026-09-05"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Watford FC",
+      "date": "2026-09-01"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": false,
+      "opponent": "Derby",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Sheffield Utd",
+      "date": "2026-08-22"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 12,
+    "name": "Burnley",
+    "position": 23,
+    "played": 6,
+    "points": 3.0,
+    "record": "0V 3E 3D",
+    "goals_for": 7,
+    "goals_against": 13,
+    "last5": "DLDLL",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Wrexham",
+      "date": "2026-09-08"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Bristol City",
+      "date": "2026-09-05"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Middlesbrough",
+      "date": "2026-09-02"
+     },
+     {
+      "result": "L",
+      "score": "1-4",
+      "home": false,
+      "opponent": "Norwich",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": false,
+      "opponent": "West Brom",
+      "date": "2026-08-23"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-12T11:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "3 casas",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4795422,
+   "s365_competition_id": 414,
+   "competition_name": "Premier League",
+   "start_time": "2026-09-12T13:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 6999,
+    "name": "AmaZulu"
+   },
+   "away": {
+    "id": 51137,
+    "name": "Marumo Gallants"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.02,
+    "lambda_away": 0.91,
+    "expected_goals": 2.94,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.6321,
+     "DRAW": 0.2067,
+     "AWAY": 0.1612,
+     "1X": 0.8388,
+     "X2": 0.3679,
+     "12": 0.7933,
+     "OVER25": 0.5621,
+     "UNDER25": 0.4379,
+     "BTTS_YES": 0.5189,
+     "BTTS_NO": 0.4811
+    }
+   },
+   "pick": {
+    "selection": "1X",
+    "family": "double_chance",
+    "label": "Dupla chance: AmaZulu ou empate (1X)",
+    "model_prob": 0.8388,
+    "trend_alignment": 1.0,
+    "confidence": 72,
+    "eligible": true,
+    "odd": 1.27,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do AmaZulu",
+     "model_prob": 0.6321,
+     "trend_alignment": 1.0,
+     "confidence": 64,
+     "eligible": true,
+     "odd": 2.03
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5621,
+     "trend_alignment": 0.2,
+     "confidence": 15,
+     "eligible": false,
+     "odd": 2.3
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5189,
+     "trend_alignment": 0.2,
+     "confidence": 9,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Marumo Gallants",
+     "model_prob": 0.1612,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 3.8
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Marumo Gallants",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "AmaZulu",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Marcou em todos os últimos 5",
+     "strength": 0.3,
+     "favors": "OVER",
+     "team": "AmaZulu",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "always_score"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Marumo Gallants",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "AmaZulu é 4º · Marumo Gallants é 14º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "AmaZulu está 10 posições à frente",
+     "strength": 0.714,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Marumo Gallants",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "AmaZulu",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Marumo Gallants",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "AmaZulu está 10 posições à frente",
+     "strength": 0.714,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 72,
+   "league": {
+    "key": "south_africa",
+    "name": "Premier League",
+    "country": "África do Sul"
+   },
+   "home_team": {
+    "id": 6999,
+    "name": "AmaZulu",
+    "position": 4,
+    "played": 5,
+    "points": 10.0,
+    "record": "3V 1E 1D",
+    "goals_for": 8,
+    "goals_against": 7,
+    "last5": "WLWDW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Richards Bay",
+      "date": "2026-09-04"
+     },
+     {
+      "result": "L",
+      "score": "2-5",
+      "home": false,
+      "opponent": "Mamelodi Sundowns",
+      "date": "2026-08-26"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Siwelele",
+      "date": "2026-08-15"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Orlando Pirates",
+      "date": "2026-08-12"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Stellenbosch FC",
+      "date": "2026-08-01"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 51137,
+    "name": "Marumo Gallants",
+    "position": 14,
+    "played": 5,
+    "points": 2.0,
+    "record": "0V 2E 3D",
+    "goals_for": 5,
+    "goals_against": 10,
+    "last5": "DLLLD",
+    "recent": [
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "Polokwane City",
+      "date": "2026-09-04"
+     },
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": true,
+      "opponent": "TS Galaxy",
+      "date": "2026-08-25"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Mamelodi Sundowns",
+      "date": "2026-08-19"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": false,
+      "opponent": "Stellenbosch FC",
+      "date": "2026-08-14"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Kruger United",
+      "date": "2026-08-11"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-12T10:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "2 casas",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  }
+ ]
+}
