@@ -1,10 +1,10 @@
 {
  "date": "2026-09-11",
- "generated_at": "2026-09-10T11:58:23.477608-03:00",
+ "generated_at": "2026-09-10T17:11:29.871295-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
- "day_total": 55,
+ "day_total": 53,
  "games": [
   {
    "id": 4748447,
@@ -49,7 +49,7 @@
     "trend_alignment": 1.0,
     "confidence": 78,
     "eligible": true,
-    "odd": 1.54,
+    "odd": 1.6,
     "low_conviction": false
    },
    "alt_markets": [
@@ -61,7 +61,7 @@
      "trend_alignment": 1.0,
      "confidence": 78,
      "eligible": true,
-     "odd": 1.16
+     "odd": 1.17
     },
     {
      "selection": "OVER25",
@@ -71,7 +71,7 @@
      "trend_alignment": 0.427,
      "confidence": 25,
      "eligible": false,
-     "odd": 1.91
+     "odd": 1.88
     },
     {
      "selection": "BTTS_YES",
@@ -378,28 +378,28 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 2.59,
-    "lambda_away": 1.13,
-    "expected_goals": 3.71,
+    "lambda_home": 2.55,
+    "lambda_away": 1.14,
+    "expected_goals": 3.69,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.6872,
-     "DRAW": 0.1677,
-     "AWAY": 0.1451,
-     "1X": 0.8549,
-     "X2": 0.3128,
-     "12": 0.8323,
-     "OVER25": 0.7166,
-     "UNDER25": 0.2834,
-     "BTTS_YES": 0.6252,
-     "BTTS_NO": 0.3748
+     "HOME": 0.6786,
+     "DRAW": 0.1709,
+     "AWAY": 0.1505,
+     "1X": 0.8495,
+     "X2": 0.3214,
+     "12": 0.8291,
+     "OVER25": 0.7128,
+     "UNDER25": 0.2872,
+     "BTTS_YES": 0.6271,
+     "BTTS_NO": 0.3729
     }
    },
    "pick": {
     "selection": "1X",
     "family": "double_chance",
     "label": "Dupla chance: Ajman Club ou empate (1X)",
-    "model_prob": 0.8549,
+    "model_prob": 0.8495,
     "trend_alignment": 1.0,
     "confidence": 74,
     "eligible": true,
@@ -411,9 +411,9 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Ajman Club",
-     "model_prob": 0.6872,
+     "model_prob": 0.6786,
      "trend_alignment": 1.0,
-     "confidence": 69,
+     "confidence": 68,
      "eligible": true,
      "odd": 1.98
     },
@@ -421,7 +421,7 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.7166,
+     "model_prob": 0.7128,
      "trend_alignment": 0.667,
      "confidence": 51,
      "eligible": true,
@@ -431,7 +431,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.6252,
+     "model_prob": 0.6271,
      "trend_alignment": 0.667,
      "confidence": 40,
      "eligible": true,
@@ -441,7 +441,7 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Kalba",
-     "model_prob": 0.1451,
+     "model_prob": 0.1505,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
@@ -671,7 +671,7 @@
     "trend_alignment": 1.0,
     "confidence": 72,
     "eligible": true,
-    "odd": 1.53,
+    "odd": 1.51,
     "low_conviction": false
    },
    "alt_markets": [
@@ -683,7 +683,7 @@
      "trend_alignment": 1.0,
      "confidence": 72,
      "eligible": true,
-     "odd": 1.17
+     "odd": 1.16
     },
     {
      "selection": "OVER25",
@@ -713,7 +713,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 5.25
+     "odd": 5.5
     }
    ],
    "trends": [
@@ -971,7 +971,7 @@
     "trend_alignment": 1.0,
     "confidence": 72,
     "eligible": true,
-    "odd": 1.28,
+    "odd": 1.27,
     "low_conviction": false
    },
    "alt_markets": [
@@ -983,7 +983,7 @@
      "trend_alignment": 1.0,
      "confidence": 64,
      "eligible": true,
-     "odd": 2.08
+     "odd": 2.05
     },
     {
      "selection": "OVER25",
@@ -993,7 +993,7 @@
      "trend_alignment": 0.333,
      "confidence": 22,
      "eligible": false,
-     "odd": 2.3
+     "odd": 2.25
     },
     {
      "selection": "BTTS_YES",
@@ -1013,7 +1013,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 3.84
+     "odd": 3.89
     }
    ],
    "trends": [
@@ -1248,7 +1248,7 @@
     "trend_alignment": 1.0,
     "confidence": 66,
     "eligible": true,
-    "odd": 1.35,
+    "odd": 1.36,
     "low_conviction": false
    },
    "alt_markets": [
@@ -1260,7 +1260,7 @@
      "trend_alignment": 1.0,
      "confidence": 55,
      "eligible": true,
-     "odd": 2.06
+     "odd": 2.1
     },
     {
      "selection": "OVER25",
@@ -1270,7 +1270,7 @@
      "trend_alignment": 0.313,
      "confidence": 11,
      "eligible": false,
-     "odd": 1.96
+     "odd": 1.93
     },
     {
      "selection": "BTTS_YES",
@@ -1280,7 +1280,7 @@
      "trend_alignment": 0.313,
      "confidence": 11,
      "eligible": false,
-     "odd": 1.8
+     "odd": null
     },
     {
      "selection": "UNDER25",
@@ -1290,7 +1290,7 @@
      "trend_alignment": 0.0,
      "confidence": 6,
      "eligible": false,
-     "odd": 1.86
+     "odd": 1.77
     }
    ],
    "trends": [

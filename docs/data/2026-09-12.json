@@ -1,10 +1,10 @@
 {
  "date": "2026-09-12",
- "generated_at": "2026-09-10T11:58:24.749972-03:00",
+ "generated_at": "2026-09-10T17:11:31.143830-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
- "day_total": 143,
+ "day_total": 137,
  "games": [
   {
    "id": 4734590,
@@ -49,7 +49,7 @@
     "trend_alignment": 1.0,
     "confidence": 79,
     "eligible": true,
-    "odd": 1.21,
+    "odd": 1.24,
     "low_conviction": false
    },
    "alt_markets": [
@@ -61,7 +61,7 @@
      "trend_alignment": 1.0,
      "confidence": 79,
      "eligible": true,
-     "odd": 1.05
+     "odd": 1.06
     },
     {
      "selection": "OVER25",
@@ -71,7 +71,7 @@
      "trend_alignment": 0.313,
      "confidence": 37,
      "eligible": true,
-     "odd": 1.82
+     "odd": 1.83
     },
     {
      "selection": "BTTS_YES",
@@ -91,7 +91,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 11.0
+     "odd": 10.2
     }
    ],
    "trends": [
@@ -333,28 +333,28 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 0.73,
+    "lambda_home": 0.72,
     "lambda_away": 2.22,
-    "expected_goals": 2.94,
+    "expected_goals": 2.95,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.1081,
-     "DRAW": 0.1788,
-     "AWAY": 0.7131,
-     "1X": 0.2869,
-     "X2": 0.8919,
-     "12": 0.8212,
-     "OVER25": 0.5639,
-     "UNDER25": 0.4361,
-     "BTTS_YES": 0.4609,
-     "BTTS_NO": 0.5391
+     "HOME": 0.1069,
+     "DRAW": 0.178,
+     "AWAY": 0.7151,
+     "1X": 0.2849,
+     "X2": 0.8931,
+     "12": 0.822,
+     "OVER25": 0.5643,
+     "UNDER25": 0.4357,
+     "BTTS_YES": 0.4595,
+     "BTTS_NO": 0.5405
     }
    },
    "pick": {
     "selection": "AWAY",
     "family": "1x2",
     "label": "Vitória do FC Porto",
-    "model_prob": 0.7131,
+    "model_prob": 0.7151,
     "trend_alignment": 1.0,
     "confidence": 79,
     "eligible": true,
@@ -366,7 +366,7 @@
      "selection": "X2",
      "family": "double_chance",
      "label": "Dupla chance: FC Porto ou empate (X2)",
-     "model_prob": 0.8919,
+     "model_prob": 0.8931,
      "trend_alignment": 1.0,
      "confidence": 79,
      "eligible": true,
@@ -376,7 +376,7 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.5391,
+     "model_prob": 0.5405,
      "trend_alignment": 0.278,
      "confidence": 15,
      "eligible": false,
@@ -386,7 +386,7 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.4361,
+     "model_prob": 0.4357,
      "trend_alignment": 0.278,
      "confidence": 10,
      "eligible": false,
@@ -396,7 +396,7 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.5639,
+     "model_prob": 0.5643,
      "trend_alignment": 0.0,
      "confidence": 8,
      "eligible": false,
@@ -667,7 +667,7 @@
     "trend_alignment": 1.0,
     "confidence": 77,
     "eligible": true,
-    "odd": 1.49,
+    "odd": 1.44,
     "low_conviction": false
    },
    "alt_markets": [
@@ -679,7 +679,7 @@
      "trend_alignment": 1.0,
      "confidence": 77,
      "eligible": true,
-     "odd": 1.13
+     "odd": 1.11
     },
     {
      "selection": "BTTS_NO",
@@ -699,7 +699,7 @@
      "trend_alignment": 0.21,
      "confidence": 7,
      "eligible": false,
-     "odd": 1.84
+     "odd": 1.86
     },
     {
      "selection": "BTTS_YES",
@@ -1008,7 +1008,7 @@
      "trend_alignment": 0.051,
      "confidence": 2,
      "eligible": false,
-     "odd": 1.87
+     "odd": 1.9
     },
     {
      "selection": "BTTS_YES",
@@ -1276,7 +1276,7 @@
     "trend_alignment": 1.0,
     "confidence": 72,
     "eligible": true,
-    "odd": 1.76,
+    "odd": 1.92,
     "low_conviction": false
    },
    "alt_markets": [
@@ -1288,7 +1288,7 @@
      "trend_alignment": 1.0,
      "confidence": 72,
      "eligible": true,
-     "odd": 1.18
+     "odd": 1.24
     },
     {
      "selection": "OVER25",
@@ -1298,7 +1298,7 @@
      "trend_alignment": 0.2,
      "confidence": 15,
      "eligible": false,
-     "odd": 1.5
+     "odd": 2.49
     },
     {
      "selection": "BTTS_YES",
@@ -1308,7 +1308,7 @@
      "trend_alignment": 0.2,
      "confidence": 9,
      "eligible": false,
-     "odd": 2.37
+     "odd": null
     },
     {
      "selection": "AWAY",
@@ -1318,7 +1318,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 4.77
+     "odd": 4.02
     }
    ],
    "trends": [
