@@ -105,12 +105,15 @@ function resultBadge(g) {
 function card(g) {
   const p = g.pick;
   const filler = !!g.below_bar;
-  const pk = filler ? "Fora dos critérios · não conta no placar" : `Palpite${p.low_conviction ? " · pouca convicção" : ""}`;
+  const pk = filler ? "Palpite de reserva" : `Palpite${p.low_conviction ? " · pouca convicção" : ""}`;
+  const fillerTag = filler
+    ? '<div class="filler-tag">⚠ FORA DOS CRITÉRIOS DO DIA — não entra no placar</div>'
+    : "";
 
   const top = (g.aligned_trends || []).slice().sort((a, b) => b.strength - a.strength)[0];
   const why = top
     ? `<p class="why"><span class="m">▸</span> ${top.team ? `<b>${top.team}:</b> ` : ""}${top.label}</p>`
-    : (filler ? '<p class="why">Sem mismatch claro — entrou só por não ter opção melhor hoje.</p>' : "");
+    : (filler ? '<p class="why">Nenhum jogo bateu os critérios hoje. Este entrou só por não ter opção melhor — arrisque por conta própria.</p>' : "");
 
   const probs = g.model.probs;
   const probbar = `
@@ -130,6 +133,7 @@ function card(g) {
   return `
   <details class="${cardCls}">
     <summary>
+      ${fillerTag}
       <div class="card-top">
         <span class="comp">${g.league.name}${g.is_cup ? " · copa" : ""}</span>
         <span class="ko">${kickoff(g.kickoff_local)}</span>
