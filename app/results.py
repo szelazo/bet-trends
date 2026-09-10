@@ -12,6 +12,8 @@ from datetime import date, datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
+from .config import PRELAUNCH_RECORD
+
 VOID_AFTER_DAYS = 2  # sem placar depois disso → assume adiado/cancelado
 
 _HIT = {
@@ -69,8 +71,13 @@ def _parse_dt(iso: str | None) -> datetime | None:
         return None
 
 
-def compute_stats(out_dir: Path, target: date) -> dict:
-    """Agrega hit/miss/void em hoje, últimos 3 dias, semana e total histórico."""
+def compute_stats(out_dir: Path, target: date, *, prelaunch: dict | None = None) -> dict:
+    """Agrega hit/miss/void em hoje, últimos 3 dias, semana e total histórico.
+
+    `prelaunch` ({"hits", "total"}) soma um placar de antes do site SÓ no total geral.
+    """
+    if prelaunch is None:
+        prelaunch = PRELAUNCH_RECORD
     windows = {"today": 0, "last3": 2, "week": 6, "all_time": None}
     counts = {k: {"hits": 0, "misses": 0, "voids": 0, "total": 0} for k in windows}
     earliest: date | None = None
@@ -102,8 +109,12 @@ def compute_stats(out_dir: Path, target: date) -> dict:
                     bucket[f"{result}es" if result == "miss" else f"{result}s"] += 1
                     bucket["total"] += 1
 
+    counts["all_time"]["hits"] += prelaunch.get("hits", 0)
+    counts["all_time"]["total"] += prelaunch.get("total", 0)
+
     return {
         "generated_for": target.isoformat(),
         "since": earliest.isoformat() if earliest else None,
+        "prelaunch": prelaunch,
         **counts,
     }

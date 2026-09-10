@@ -1,6 +1,6 @@
 {
  "date": "2026-09-10",
- "generated_at": "2026-09-10T08:17:33.850475-03:00",
+ "generated_at": "2026-09-10T11:58:22.197002-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 2,
@@ -24,32 +24,32 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 1.19,
-    "lambda_away": 2.67,
-    "expected_goals": 3.86,
+    "lambda_home": 1.18,
+    "lambda_away": 2.65,
+    "expected_goals": 3.83,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.1474,
-     "DRAW": 0.1642,
-     "AWAY": 0.6884,
-     "1X": 0.3116,
-     "X2": 0.8526,
-     "12": 0.8358,
-     "OVER25": 0.7407,
-     "UNDER25": 0.2593,
-     "BTTS_YES": 0.6476,
-     "BTTS_NO": 0.3524
+     "HOME": 0.1475,
+     "DRAW": 0.1652,
+     "AWAY": 0.6873,
+     "1X": 0.3127,
+     "X2": 0.8525,
+     "12": 0.8348,
+     "OVER25": 0.7358,
+     "UNDER25": 0.2642,
+     "BTTS_YES": 0.6435,
+     "BTTS_NO": 0.3565
     }
    },
    "pick": {
     "selection": "AWAY",
     "family": "1x2",
     "label": "Vitória do Al Sadd",
-    "model_prob": 0.6884,
+    "model_prob": 0.6873,
     "trend_alignment": 0.857,
     "confidence": 69,
     "eligible": true,
-    "odd": 1.12,
+    "odd": 1.18,
     "low_conviction": false
    },
    "alt_markets": [
@@ -57,27 +57,27 @@
      "selection": "X2",
      "family": "double_chance",
      "label": "Dupla chance: Al Sadd ou empate (X2)",
-     "model_prob": 0.8526,
+     "model_prob": 0.8525,
      "trend_alignment": 0.857,
      "confidence": 69,
      "eligible": true,
-     "odd": 1.03
+     "odd": 1.06
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.7407,
+     "model_prob": 0.7358,
      "trend_alignment": 0.0,
      "confidence": 31,
      "eligible": true,
-     "odd": 1.74
+     "odd": 1.76
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.6476,
+     "model_prob": 0.6435,
      "trend_alignment": 0.0,
      "confidence": 19,
      "eligible": true,
@@ -87,11 +87,11 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Al Sailiya",
-     "model_prob": 0.1474,
+     "model_prob": 0.1475,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 13.0
+     "odd": 10.0
     }
    ],
    "trends": [

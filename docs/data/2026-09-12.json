@@ -1,10 +1,10 @@
 {
  "date": "2026-09-12",
- "generated_at": "2026-09-10T08:17:36.397194-03:00",
+ "generated_at": "2026-09-10T11:58:24.749972-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
- "day_total": 144,
+ "day_total": 143,
  "games": [
   {
    "id": 4734590,
@@ -61,7 +61,7 @@
      "trend_alignment": 1.0,
      "confidence": 79,
      "eligible": true,
-     "odd": 1.06
+     "odd": 1.05
     },
     {
      "selection": "OVER25",
@@ -91,7 +91,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 10.0
+     "odd": 11.0
     }
    ],
    "trends": [
@@ -667,7 +667,7 @@
     "trend_alignment": 1.0,
     "confidence": 77,
     "eligible": true,
-    "odd": 1.44,
+    "odd": 1.49,
     "low_conviction": false
    },
    "alt_markets": [
@@ -679,7 +679,7 @@
      "trend_alignment": 1.0,
      "confidence": 77,
      "eligible": true,
-     "odd": 1.11
+     "odd": 1.13
     },
     {
      "selection": "BTTS_NO",
@@ -699,7 +699,7 @@
      "trend_alignment": 0.21,
      "confidence": 7,
      "eligible": false,
-     "odd": 1.86
+     "odd": 1.84
     },
     {
      "selection": "BTTS_YES",
@@ -1008,7 +1008,7 @@
      "trend_alignment": 0.051,
      "confidence": 2,
      "eligible": false,
-     "odd": 1.9
+     "odd": 1.87
     },
     {
      "selection": "BTTS_YES",
@@ -1269,26 +1269,26 @@
     }
    },
    "pick": {
-    "selection": "1X",
-    "family": "double_chance",
-    "label": "Dupla chance: AmaZulu ou empate (1X)",
-    "model_prob": 0.8388,
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do AmaZulu",
+    "model_prob": 0.6321,
     "trend_alignment": 1.0,
     "confidence": 72,
     "eligible": true,
-    "odd": 1.27,
+    "odd": 1.76,
     "low_conviction": false
    },
    "alt_markets": [
     {
-     "selection": "HOME",
-     "family": "1x2",
-     "label": "Vitória do AmaZulu",
-     "model_prob": 0.6321,
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: AmaZulu ou empate (1X)",
+     "model_prob": 0.8388,
      "trend_alignment": 1.0,
-     "confidence": 64,
+     "confidence": 72,
      "eligible": true,
-     "odd": 2.03
+     "odd": 1.18
     },
     {
      "selection": "OVER25",
@@ -1298,7 +1298,7 @@
      "trend_alignment": 0.2,
      "confidence": 15,
      "eligible": false,
-     "odd": 2.3
+     "odd": 1.5
     },
     {
      "selection": "BTTS_YES",
@@ -1308,7 +1308,7 @@
      "trend_alignment": 0.2,
      "confidence": 9,
      "eligible": false,
-     "odd": null
+     "odd": 2.37
     },
     {
      "selection": "AWAY",
@@ -1318,7 +1318,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 3.8
+     "odd": 4.77
     }
    ],
    "trends": [
@@ -1519,7 +1519,7 @@
    },
    "kickoff_local": "2026-09-12T10:00:00-03:00",
    "has_odds": true,
-   "odds_bookmaker": "2 casas",
+   "odds_bookmaker": "3 casas",
    "is_cup": false,
    "result": "pending",
    "clear": true

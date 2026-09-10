@@ -213,19 +213,40 @@ function checkFreshness() {
 function renderStats(stats) {
   const el = $("#statsBar");
   if (!stats) { el.hidden = true; return; }
-  const b = (x) => `${x.hits}/${x.total}`;
+  const b = (x) => {
+    if (!x.total) return `${x.hits}/${x.total}`;
+    return `${x.hits}/${x.total} <i>${Math.round((100 * x.hits) / x.total)}%</i>`;
+  };
   el.innerHTML = [
     ["Hoje", stats.today], ["3 dias", stats.last3],
     ["Semana", stats.week], ["Total", stats.all_time],
-  ].map(([label, x]) => `<span><b>${b(x)}</b> ${label}</span>`).join("");
-  el.title = stats.since ? `Acertos desde ${stats.since}` : "";
+  ].map(([label, x]) => `<span>${label} <b>${b(x)}</b></span>`).join("");
+  const pre = stats.prelaunch && stats.prelaunch.total
+    ? ` · inclui ${stats.prelaunch.hits}/${stats.prelaunch.total} de antes do site`
+    : "";
+  el.title = (stats.since ? `Desde ${stats.since}` : "") + pre;
   el.hidden = false;
 }
 
+let showAllDates = false;
+
 function renderDateStrip() {
   const strip = $("#dateStrip");
-  const dates = (state.index.dates || []).slice(-21); // não deixa a fita crescer pra sempre
-  strip.innerHTML = dates.map((d) => `
+  const all = state.index.dates || [];
+  const today = todayLocal();
+  let shown;
+  if (showAllDates) {
+    shown = all.slice(-45);
+  } else {
+    const past = all.filter((d) => d < today).slice(-2);
+    const future = all.filter((d) => d >= today);
+    shown = [...past, ...future];
+  }
+  const hidden = all.length - shown.length;
+  const moreBtn = !showAllDates && hidden > 0
+    ? `<button class="date-chip more" data-more="1"><span class="dow">ver</span><span class="dnum">+${hidden}</span><span class="cnt">mais</span></button>`
+    : "";
+  strip.innerHTML = moreBtn + shown.map((d) => `
     <button class="date-chip" role="tab" data-d="${d}" aria-selected="${d === state.date}">
       <span class="dow">${fmtDow(d)}</span>
       <span class="dnum">${asDate(d).getDate()}</span>
@@ -250,6 +271,11 @@ async function loadDate(date) {
 
 function wire() {
   $("#dateStrip").addEventListener("click", (e) => {
+    if (e.target.closest("[data-more]")) {
+      showAllDates = true;
+      renderDateStrip();
+      return;
+    }
     const b = e.target.closest("[data-d]");
     if (b) loadDate(b.dataset.d);
   });

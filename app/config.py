@@ -156,6 +156,9 @@ SCORING = {
     "straight_switch_prob": 0.55,        # prob. mínima do resultado seco p/ a troca
 }
 
+# Placar de apostas feitas ANTES do site entrar no ar — soma só no "Total" geral.
+PRELAUNCH_RECORD = {"hits": 12, "total": 12}
+
 # ── "Aposta clara" — só entra na lista jogo com edge óbvio ────────────────────
 # Exige: (1) diferença grande na tabela  E  (2) forma dos dois lados no mesmo sentido.
 CLEAR_EDGE = {

@@ -178,6 +178,9 @@ body {
 }
 .date-chip[aria-selected="true"] .cnt { color: color-mix(in srgb, var(--on-accent) 75%, transparent); }
 .date-chip:active { transform: scale(0.95); }
+.date-chip.more { color: var(--accent); border-style: dashed; }
+.date-chip.more .dnum { font-size: 1rem; }
+.date-chip.more .dow, .date-chip.more .cnt { color: var(--accent); }
 
 .statsbar {
   display: flex;
@@ -197,8 +200,16 @@ body {
   font-family: var(--f-head);
   font-size: 0.95rem;
   font-weight: 600;
-  margin-right: 0.25rem;
+  margin-left: 0.25rem;
   font-variant-numeric: tabular-nums;
+}
+.statsbar b i {
+  font-style: normal;
+  font-family: var(--f-text);
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--accent);
+  margin-left: 0.15rem;
 }
 
 .banner {

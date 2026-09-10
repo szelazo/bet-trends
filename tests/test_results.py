@@ -66,7 +66,7 @@ def test_compute_stats_buckets(tmp_path):
     _write_day(tmp_path, "2026-08-01", [_game(4, "HOME", result="hit")])  # só no total
     _write_day(tmp_path, "2026-09-10", [])  # não deveria conflitar (mesmo nome, sobrescrito)
 
-    stats = compute_stats(tmp_path, today)
+    stats = compute_stats(tmp_path, today, prelaunch={"hits": 0, "total": 0})
     assert stats["today"]["total"] == 0  # o segundo write sobrescreveu com lista vazia
     assert stats["all_time"]["hits"] == 2   # 09-09 é miss, 09-04 e 08-01 são hit
     assert stats["all_time"]["misses"] == 1
@@ -80,6 +80,14 @@ def test_compute_stats_excludes_pending_and_void(tmp_path):
         _game(2, "HOME", result="void"),
         _game(3, "HOME", result="hit"),
     ])
-    stats = compute_stats(tmp_path, today)
+    stats = compute_stats(tmp_path, today, prelaunch={"hits": 0, "total": 0})
     assert stats["today"]["total"] == 1
     assert stats["today"]["voids"] == 1
+
+
+def test_compute_stats_prelaunch_only_in_all_time(tmp_path):
+    today = date(2026, 9, 10)
+    _write_day(tmp_path, "2026-09-10", [_game(1, "HOME", result="hit")])
+    stats = compute_stats(tmp_path, today, prelaunch={"hits": 12, "total": 12})
+    assert stats["today"]["hits"] == 1 and stats["today"]["total"] == 1
+    assert stats["all_time"]["hits"] == 13 and stats["all_time"]["total"] == 13

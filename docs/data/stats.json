@@ -1,6 +1,10 @@
 {
  "generated_for": "2026-09-10",
  "since": "2026-09-03",
+ "prelaunch": {
+  "hits": 12,
+  "total": 12
+ },
  "today": {
   "hits": 0,
   "misses": 0,
@@ -20,9 +24,9 @@
   "total": 29
  },
  "all_time": {
-  "hits": 28,
+  "hits": 40,
   "misses": 4,
   "voids": 1,
-  "total": 32
+  "total": 44
  }
 }
