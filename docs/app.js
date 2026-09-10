@@ -105,7 +105,7 @@ function resultBadge(g) {
 function card(g) {
   const p = g.pick;
   const filler = !!g.below_bar;
-  const pk = filler ? "Fora dos critérios do dia" : `Palpite${p.low_conviction ? " · pouca convicção" : ""}`;
+  const pk = filler ? "Fora dos critérios · não conta no placar" : `Palpite${p.low_conviction ? " · pouca convicção" : ""}`;
 
   const top = (g.aligned_trends || []).slice().sort((a, b) => b.strength - a.strength)[0];
   const why = top

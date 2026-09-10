@@ -98,6 +98,8 @@ def compute_stats(out_dir: Path, target: date, *, prelaunch: dict | None = None)
             result = g.get("result", "pending")
             if result not in ("hit", "miss", "void"):
                 continue
+            if g.get("below_bar"):
+                continue  # "reserva" (fora dos critérios) não entra no placar
             earliest = d if earliest is None or d < earliest else earliest
             for name, max_age in windows.items():
                 if max_age is not None and age > max_age:

@@ -85,6 +85,16 @@ def test_compute_stats_excludes_pending_and_void(tmp_path):
     assert stats["today"]["voids"] == 1
 
 
+def test_compute_stats_ignores_fillers(tmp_path):
+    today = date(2026, 9, 10)
+    _write_day(tmp_path, "2026-09-10", [
+        {**_game(1, "HOME", result="hit")},
+        {**_game(2, "HOME", result="miss"), "below_bar": True},  # reserva — não conta
+    ])
+    stats = compute_stats(tmp_path, today, prelaunch={"hits": 0, "total": 0})
+    assert stats["today"] == {"hits": 1, "misses": 0, "voids": 0, "total": 1}
+
+
 def test_compute_stats_prelaunch_only_in_all_time(tmp_path):
     today = date(2026, 9, 10)
     _write_day(tmp_path, "2026-09-10", [_game(1, "HOME", result="hit")])
