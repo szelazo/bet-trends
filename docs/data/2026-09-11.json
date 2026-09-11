@@ -1,6 +1,6 @@
 {
  "date": "2026-09-11",
- "generated_at": "2026-09-10T17:55:44.262516-03:00",
+ "generated_at": "2026-09-11T08:18:26.484897-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -49,7 +49,7 @@
     "trend_alignment": 1.0,
     "confidence": 78,
     "eligible": true,
-    "odd": 1.6,
+    "odd": 1.51,
     "low_conviction": false
    },
    "alt_markets": [
@@ -61,7 +61,7 @@
      "trend_alignment": 1.0,
      "confidence": 78,
      "eligible": true,
-     "odd": 1.17
+     "odd": 1.14
     },
     {
      "selection": "OVER25",
@@ -403,7 +403,7 @@
     "trend_alignment": 1.0,
     "confidence": 74,
     "eligible": true,
-    "odd": 1.34,
+    "odd": 1.37,
     "low_conviction": false
    },
    "alt_markets": [
@@ -415,7 +415,7 @@
      "trend_alignment": 1.0,
      "confidence": 68,
      "eligible": true,
-     "odd": 1.99
+     "odd": 2.08
     },
     {
      "selection": "OVER25",
@@ -445,7 +445,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 3.18
+     "odd": 3.08
     }
    ],
    "trends": [
@@ -671,7 +671,7 @@
     "trend_alignment": 1.0,
     "confidence": 72,
     "eligible": true,
-    "odd": 1.52,
+    "odd": 1.54,
     "low_conviction": false
    },
    "alt_markets": [
@@ -713,7 +713,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 5.45
+     "odd": 5.3
     }
    ],
    "trends": [
@@ -971,7 +971,7 @@
     "trend_alignment": 1.0,
     "confidence": 72,
     "eligible": true,
-    "odd": 1.27,
+    "odd": 1.26,
     "low_conviction": false
    },
    "alt_markets": [
@@ -983,7 +983,7 @@
      "trend_alignment": 1.0,
      "confidence": 64,
      "eligible": true,
-     "odd": 2.05
+     "odd": 1.96
     },
     {
      "selection": "OVER25",
@@ -993,7 +993,7 @@
      "trend_alignment": 0.333,
      "confidence": 22,
      "eligible": false,
-     "odd": 2.25
+     "odd": 2.3
     },
     {
      "selection": "BTTS_YES",
@@ -1013,7 +1013,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 3.89
+     "odd": 4.03
     }
    ],
    "trends": [
