@@ -1,302 +1,11 @@
 {
  "date": "2026-09-13",
- "generated_at": "2026-09-11T08:18:29.024810-03:00",
+ "generated_at": "2026-09-11T17:12:47.041959-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
  "day_total": 119,
  "games": [
-  {
-   "id": 4789474,
-   "s365_competition_id": 649,
-   "competition_name": "Saudi League",
-   "start_time": "2026-09-13T18:00:00+00:00",
-   "status_group": 2,
-   "round": "Round",
-   "home": {
-    "id": 13801,
-    "name": "Diriyah"
-   },
-   "away": {
-    "id": 14898,
-    "name": "Abha Club"
-   },
-   "home_score": -1.0,
-   "away_score": -1.0,
-   "model": {
-    "lambda_home": 2.03,
-    "lambda_away": 0.68,
-    "expected_goals": 2.71,
-    "sample_factor": 1.0,
-    "probs": {
-     "HOME": 0.689,
-     "DRAW": 0.1959,
-     "AWAY": 0.115,
-     "1X": 0.885,
-     "X2": 0.311,
-     "12": 0.8041,
-     "OVER25": 0.5088,
-     "UNDER25": 0.4912,
-     "BTTS_YES": 0.4299,
-     "BTTS_NO": 0.5701
-    }
-   },
-   "pick": {
-    "selection": "HOME",
-    "family": "1x2",
-    "label": "Vitória do Diriyah",
-    "model_prob": 0.689,
-    "trend_alignment": 1.0,
-    "confidence": 78,
-    "eligible": true,
-    "odd": 1.5,
-    "low_conviction": false
-   },
-   "alt_markets": [
-    {
-     "selection": "1X",
-     "family": "double_chance",
-     "label": "Dupla chance: Diriyah ou empate (1X)",
-     "model_prob": 0.885,
-     "trend_alignment": 1.0,
-     "confidence": 78,
-     "eligible": true,
-     "odd": 1.15
-    },
-    {
-     "selection": "OVER25",
-     "family": "over_under",
-     "label": "Mais de 2.5 gols",
-     "model_prob": 0.5088,
-     "trend_alignment": 0.267,
-     "confidence": 10,
-     "eligible": false,
-     "odd": 1.72
-    },
-    {
-     "selection": "BTTS_YES",
-     "family": "btts",
-     "label": "Ambos os times marcam",
-     "model_prob": 0.4299,
-     "trend_alignment": 0.267,
-     "confidence": 9,
-     "eligible": false,
-     "odd": null
-    },
-    {
-     "selection": "BTTS_NO",
-     "family": "btts",
-     "label": "Ambos marcam: não",
-     "model_prob": 0.5701,
-     "trend_alignment": 0.0,
-     "confidence": 9,
-     "eligible": false,
-     "odd": null
-    }
-   ],
-   "trends": [
-    {
-     "label": "Perdeu 4 dos últimos 5",
-     "strength": 0.61,
-     "favors": "HOME",
-     "team": "Abha Club",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Sofreu gol em todos os últimos 5",
-     "strength": 0.4,
-     "favors": "OVER",
-     "team": "Abha Club",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "always_concede"
-    },
-    {
-     "label": "Invicto em 4 dos últimos 5",
-     "strength": 0.48,
-     "favors": "HOME",
-     "team": "Diriyah",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "unbeaten"
-    },
-    {
-     "label": "Não vence há 5+ jogos",
-     "strength": 0.333,
-     "favors": "HOME",
-     "team": "Abha Club",
-     "side": "AWAY",
-     "group": "sequencia",
-     "kind": "winless_streak"
-    },
-    {
-     "label": "Diriyah é 7º · Abha Club é 18º",
-     "strength": 0.0,
-     "favors": null,
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "positions"
-    },
-    {
-     "label": "Diriyah está 11 posições à frente",
-     "strength": 0.786,
-     "favors": "HOME",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "aligned_trends": [
-    {
-     "label": "Perdeu 4 dos últimos 5",
-     "strength": 0.61,
-     "favors": "HOME",
-     "team": "Abha Club",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Invicto em 4 dos últimos 5",
-     "strength": 0.48,
-     "favors": "HOME",
-     "team": "Diriyah",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "unbeaten"
-    },
-    {
-     "label": "Não vence há 5+ jogos",
-     "strength": 0.333,
-     "favors": "HOME",
-     "team": "Abha Club",
-     "side": "AWAY",
-     "group": "sequencia",
-     "kind": "winless_streak"
-    },
-    {
-     "label": "Diriyah está 11 posições à frente",
-     "strength": 0.786,
-     "favors": "HOME",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "confidence": 78,
-   "league": {
-    "key": "saudi",
-    "name": "Saudi Pro League",
-    "country": "Arábia Saudita"
-   },
-   "home_team": {
-    "id": 13801,
-    "name": "Diriyah",
-    "position": 7,
-    "played": 6,
-    "points": 10.0,
-    "record": "3V 1E 2D",
-    "goals_for": 7,
-    "goals_against": 5,
-    "last5": "WLWDW",
-    "recent": [
-     {
-      "result": "W",
-      "score": "2-1",
-      "home": false,
-      "opponent": "Al Fateh",
-      "date": "2026-09-09"
-     },
-     {
-      "result": "L",
-      "score": "0-2",
-      "home": true,
-      "opponent": "Qadisiya",
-      "date": "2026-09-03"
-     },
-     {
-      "result": "W",
-      "score": "3-0",
-      "home": false,
-      "opponent": "Al Ettifaq",
-      "date": "2026-08-29"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": true,
-      "opponent": "Al-Kholood",
-      "date": "2026-08-26"
-     },
-     {
-      "result": "W",
-      "score": "1-0",
-      "home": false,
-      "opponent": "Al Hazm",
-      "date": "2026-08-21"
-     }
-    ]
-   },
-   "away_team": {
-    "id": 14898,
-    "name": "Abha Club",
-    "position": 18,
-    "played": 6,
-    "points": 1.0,
-    "record": "0V 1E 5D",
-    "goals_for": 5,
-    "goals_against": 13,
-    "last5": "LLLDL",
-    "recent": [
-     {
-      "result": "L",
-      "score": "1-2",
-      "home": false,
-      "opponent": "Al Nassr FC Riyadh",
-      "date": "2026-09-09"
-     },
-     {
-      "result": "L",
-      "score": "0-1",
-      "home": true,
-      "opponent": "Al Ettifaq",
-      "date": "2026-09-04"
-     },
-     {
-      "result": "L",
-      "score": "2-3",
-      "home": false,
-      "opponent": "Al Feiha",
-      "date": "2026-08-28"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": true,
-      "opponent": "Al Khaleej Club",
-      "date": "2026-08-25"
-     },
-     {
-      "result": "L",
-      "score": "0-4",
-      "home": false,
-      "opponent": "Al Ahli Jeddah",
-      "date": "2026-08-22"
-     }
-    ]
-   },
-   "kickoff_local": "2026-09-13T15:00:00-03:00",
-   "has_odds": true,
-   "odds_bookmaker": "3 casas",
-   "is_cup": false,
-   "result": "pending",
-   "clear": true
-  },
   {
    "id": 4632686,
    "s365_competition_id": 113,
@@ -340,7 +49,7 @@
     "trend_alignment": 1.0,
     "confidence": 78,
     "eligible": true,
-    "odd": 1.41,
+    "odd": 1.33,
     "low_conviction": false
    },
    "alt_markets": [
@@ -352,7 +61,7 @@
      "trend_alignment": 1.0,
      "confidence": 78,
      "eligible": true,
-     "odd": 1.09
+     "odd": 1.06
     },
     {
      "selection": "BTTS_NO",
@@ -372,7 +81,7 @@
      "trend_alignment": 0.278,
      "confidence": 10,
      "eligible": false,
-     "odd": 1.91
+     "odd": 1.92
     },
     {
      "selection": "OVER25",
@@ -382,7 +91,7 @@
      "trend_alignment": 0.0,
      "confidence": 1,
      "eligible": false,
-     "odd": 1.91
+     "odd": 1.92
     }
    ],
    "trends": [
@@ -674,23 +383,23 @@
     "expected_goals": 4.06,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.7299,
-     "DRAW": 0.147,
-     "AWAY": 0.1231,
-     "1X": 0.8769,
-     "X2": 0.2701,
-     "12": 0.853,
-     "OVER25": 0.7694,
-     "UNDER25": 0.2306,
-     "BTTS_YES": 0.6476,
-     "BTTS_NO": 0.3524
+     "HOME": 0.7292,
+     "DRAW": 0.1472,
+     "AWAY": 0.1236,
+     "1X": 0.8764,
+     "X2": 0.2708,
+     "12": 0.8528,
+     "OVER25": 0.7699,
+     "UNDER25": 0.2301,
+     "BTTS_YES": 0.6487,
+     "BTTS_NO": 0.3513
     }
    },
    "pick": {
     "selection": "1X",
     "family": "double_chance",
     "label": "Dupla chance: Excelsior ou empate (1X)",
-    "model_prob": 0.8769,
+    "model_prob": 0.8764,
     "trend_alignment": 1.0,
     "confidence": 77,
     "eligible": true,
@@ -702,7 +411,7 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Excelsior",
-     "model_prob": 0.7299,
+     "model_prob": 0.7292,
      "trend_alignment": 1.0,
      "confidence": 73,
      "eligible": true,
@@ -712,7 +421,7 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.7694,
+     "model_prob": 0.7699,
      "trend_alignment": 0.733,
      "confidence": 61,
      "eligible": true,
@@ -722,7 +431,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.6476,
+     "model_prob": 0.6487,
      "trend_alignment": 0.733,
      "confidence": 45,
      "eligible": true,
@@ -732,7 +441,7 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Utrecht",
-     "model_prob": 0.1231,
+     "model_prob": 0.1236,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
@@ -974,23 +683,23 @@
     "expected_goals": 2.45,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.6556,
-     "DRAW": 0.219,
-     "AWAY": 0.1253,
-     "1X": 0.8747,
-     "X2": 0.3444,
-     "12": 0.781,
-     "OVER25": 0.4437,
-     "UNDER25": 0.5563,
-     "BTTS_YES": 0.3955,
-     "BTTS_NO": 0.6045
+     "HOME": 0.6564,
+     "DRAW": 0.2188,
+     "AWAY": 0.1249,
+     "1X": 0.8751,
+     "X2": 0.3436,
+     "12": 0.7812,
+     "OVER25": 0.4438,
+     "UNDER25": 0.5562,
+     "BTTS_YES": 0.3951,
+     "BTTS_NO": 0.6049
     }
    },
    "pick": {
     "selection": "1X",
     "family": "double_chance",
     "label": "Dupla chance: IF Elfsborg ou empate (1X)",
-    "model_prob": 0.8747,
+    "model_prob": 0.8751,
     "trend_alignment": 1.0,
     "confidence": 77,
     "eligible": true,
@@ -1002,7 +711,7 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do IF Elfsborg",
-     "model_prob": 0.6556,
+     "model_prob": 0.6564,
      "trend_alignment": 1.0,
      "confidence": 66,
      "eligible": true,
@@ -1012,7 +721,7 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.6045,
+     "model_prob": 0.6049,
      "trend_alignment": 0.26,
      "confidence": 23,
      "eligible": true,
@@ -1022,21 +731,21 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.5563,
+     "model_prob": 0.5562,
      "trend_alignment": 0.26,
      "confidence": 16,
      "eligible": false,
-     "odd": 1.96
+     "odd": 1.97
     },
     {
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Kalmar FF",
-     "model_prob": 0.1253,
+     "model_prob": 0.1249,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 4.0
+     "odd": 4.01
     }
    ],
    "trends": [
@@ -1261,6 +970,240 @@
    "clear": true
   },
   {
+   "id": 4776110,
+   "s365_competition_id": 84,
+   "competition_name": "Super League",
+   "start_time": "2026-09-13T16:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 1026,
+    "name": "Asteras Aktor"
+   },
+   "away": {
+    "id": 1024,
+    "name": "AEK Athens"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 0.77,
+    "lambda_away": 2.23,
+    "expected_goals": 3.0,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.1136,
+     "DRAW": 0.1796,
+     "AWAY": 0.7068,
+     "1X": 0.2932,
+     "X2": 0.8864,
+     "12": 0.8204,
+     "OVER25": 0.5756,
+     "UNDER25": 0.4244,
+     "BTTS_YES": 0.4774,
+     "BTTS_NO": 0.5226
+    }
+   },
+   "pick": {
+    "selection": "AWAY",
+    "family": "1x2",
+    "label": "Vitória do AEK Athens",
+    "model_prob": 0.7068,
+    "trend_alignment": 0.893,
+    "confidence": 75,
+    "eligible": true,
+    "odd": 1.39,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "X2",
+     "family": "double_chance",
+     "label": "Dupla chance: AEK Athens ou empate (X2)",
+     "model_prob": 0.8864,
+     "trend_alignment": 0.893,
+     "confidence": 75,
+     "eligible": true,
+     "odd": 1.08
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5226,
+     "trend_alignment": 0.3,
+     "confidence": 13,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5756,
+     "trend_alignment": 0.0,
+     "confidence": 10,
+     "eligible": false,
+     "odd": 1.9
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.4244,
+     "trend_alignment": 0.3,
+     "confidence": 10,
+     "eligible": false,
+     "odd": 1.9
+    }
+   ],
+   "trends": [
+    {
+     "label": "Venceu 3 dos últimos 4",
+     "strength": 0.625,
+     "favors": "AWAY",
+     "team": "AEK Athens",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Não sofreu gol em 3 dos últimos 4",
+     "strength": 0.45,
+     "favors": "UNDER",
+     "team": "AEK Athens",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "clean_sheets"
+    },
+    {
+     "label": "Asteras Aktor é 13º · AEK Athens é 3º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "AEK Athens está 10 posições à frente",
+     "strength": 0.714,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Venceu 3 dos últimos 4",
+     "strength": 0.625,
+     "favors": "AWAY",
+     "team": "AEK Athens",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "AEK Athens está 10 posições à frente",
+     "strength": 0.714,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 75,
+   "league": {
+    "key": "greece",
+    "name": "Super League",
+    "country": "Grécia"
+   },
+   "home_team": {
+    "id": 1026,
+    "name": "Asteras Aktor",
+    "position": 13,
+    "played": 3,
+    "points": 0,
+    "record": "0V 0E 3D",
+    "goals_for": 1,
+    "goals_against": 6,
+    "last5": "LLL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": true,
+      "opponent": "Iraklis",
+      "date": "2026-09-07"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Olympiacos",
+      "date": "2026-08-30"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": false,
+      "opponent": "Panetolikos",
+      "date": "2026-08-23"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 1024,
+    "name": "AEK Athens",
+    "position": 3,
+    "played": 3,
+    "points": 7.0,
+    "record": "2V 1E 0D",
+    "goals_for": 10,
+    "goals_against": 1,
+    "last5": "WWDW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "LASK Linz",
+      "date": "2026-09-08"
+     },
+     {
+      "result": "W",
+      "score": "5-0",
+      "home": true,
+      "opponent": "Aris Salonica",
+      "date": "2026-09-05"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Kifisia",
+      "date": "2026-08-30"
+     },
+     {
+      "result": "W",
+      "score": "4-0",
+      "home": true,
+      "opponent": "Iraklis",
+      "date": "2026-08-22"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-13T13:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "3 casas",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
    "id": 4766977,
    "s365_competition_id": 81,
    "competition_name": "1. Lig",
@@ -1279,31 +1222,31 @@
    "away_score": -1.0,
    "model": {
     "lambda_home": 1.68,
-    "lambda_away": 0.65,
+    "lambda_away": 0.66,
     "expected_goals": 2.34,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.6223,
-     "DRAW": 0.2362,
-     "AWAY": 0.1415,
-     "1X": 0.8585,
-     "X2": 0.3777,
-     "12": 0.7638,
-     "OVER25": 0.4139,
-     "UNDER25": 0.5861,
-     "BTTS_YES": 0.3912,
-     "BTTS_NO": 0.6088
+     "HOME": 0.6227,
+     "DRAW": 0.2359,
+     "AWAY": 0.1414,
+     "1X": 0.8586,
+     "X2": 0.3773,
+     "12": 0.7641,
+     "OVER25": 0.4145,
+     "UNDER25": 0.5855,
+     "BTTS_YES": 0.3916,
+     "BTTS_NO": 0.6084
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Bursaspor",
-    "model_prob": 0.6223,
+    "model_prob": 0.6227,
     "trend_alignment": 1.0,
     "confidence": 75,
     "eligible": true,
-    "odd": 1.69,
+    "odd": 1.67,
     "low_conviction": false
    },
    "alt_markets": [
@@ -1311,17 +1254,17 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Bursaspor ou empate (1X)",
-     "model_prob": 0.8585,
+     "model_prob": 0.8586,
      "trend_alignment": 1.0,
      "confidence": 75,
      "eligible": true,
-     "odd": 1.21
+     "odd": 1.2
     },
     {
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.6088,
+     "model_prob": 0.6084,
      "trend_alignment": 0.031,
      "confidence": 15,
      "eligible": true,
@@ -1331,21 +1274,21 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.5861,
+     "model_prob": 0.5855,
      "trend_alignment": 0.031,
      "confidence": 12,
      "eligible": false,
-     "odd": 1.94
+     "odd": 2.01
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.4139,
+     "model_prob": 0.4145,
      "trend_alignment": 0.031,
      "confidence": 1,
      "eligible": false,
-     "odd": 1.76
+     "odd": 1.81
     }
    ],
    "trends": [

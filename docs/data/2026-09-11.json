@@ -1,6 +1,6 @@
 {
  "date": "2026-09-11",
- "generated_at": "2026-09-11T08:18:26.484897-03:00",
+ "generated_at": "2026-09-11T17:12:13.964160-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -21,8 +21,8 @@
     "id": 2043,
     "name": "Dinamo Bucuresti"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 1.0,
+   "away_score": 3.0,
    "model": {
     "lambda_home": 0.78,
     "lambda_away": 2.21,
@@ -357,7 +357,7 @@
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -375,8 +375,8 @@
     "id": 8355,
     "name": "Kalba"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 3.0,
    "model": {
     "lambda_home": 2.55,
     "lambda_away": 1.14,
@@ -625,7 +625,7 @@
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
-   "result": "pending",
+   "result": "miss",
    "clear": true
   },
   {
@@ -643,8 +643,8 @@
     "id": 1739,
     "name": "Red Bull Salzburg"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 1.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 1.02,
     "lambda_away": 2.22,
@@ -925,7 +925,7 @@
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
-   "result": "pending",
+   "result": "miss",
    "clear": true
   },
   {
@@ -1220,8 +1220,8 @@
     "id": 1965,
     "name": "Karpaty Lviv"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 0.0,
+   "away_score": 2.0,
    "model": {
     "lambda_home": 0.89,
     "lambda_away": 1.61,
@@ -1486,7 +1486,7 @@
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   }
  ]
