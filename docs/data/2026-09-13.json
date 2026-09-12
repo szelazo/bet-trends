@@ -1,10 +1,10 @@
 {
  "date": "2026-09-13",
- "generated_at": "2026-09-11T17:12:47.041959-03:00",
+ "generated_at": "2026-09-12T17:12:28.456855-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
- "day_total": 119,
+ "day_total": 120,
  "games": [
   {
    "id": 4632686,
@@ -26,30 +26,30 @@
    "model": {
     "lambda_home": 2.02,
     "lambda_away": 0.68,
-    "expected_goals": 2.69,
+    "expected_goals": 2.7,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.6889,
-     "DRAW": 0.1966,
-     "AWAY": 0.1145,
-     "1X": 0.8855,
-     "X2": 0.3111,
-     "12": 0.8034,
-     "OVER25": 0.505,
-     "UNDER25": 0.495,
-     "BTTS_YES": 0.4263,
-     "BTTS_NO": 0.5737
+     "HOME": 0.6902,
+     "DRAW": 0.1959,
+     "AWAY": 0.1138,
+     "1X": 0.8862,
+     "X2": 0.3098,
+     "12": 0.8041,
+     "OVER25": 0.506,
+     "UNDER25": 0.494,
+     "BTTS_YES": 0.4262,
+     "BTTS_NO": 0.5738
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Flamengo",
-    "model_prob": 0.6889,
+    "model_prob": 0.6902,
     "trend_alignment": 1.0,
-    "confidence": 78,
+    "confidence": 79,
     "eligible": true,
-    "odd": 1.33,
+    "odd": 1.35,
     "low_conviction": false
    },
    "alt_markets": [
@@ -57,9 +57,9 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Flamengo ou empate (1X)",
-     "model_prob": 0.8855,
+     "model_prob": 0.8862,
      "trend_alignment": 1.0,
-     "confidence": 78,
+     "confidence": 79,
      "eligible": true,
      "odd": 1.06
     },
@@ -67,7 +67,7 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.5737,
+     "model_prob": 0.5738,
      "trend_alignment": 0.278,
      "confidence": 19,
      "eligible": false,
@@ -77,21 +77,21 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.495,
+     "model_prob": 0.494,
      "trend_alignment": 0.278,
      "confidence": 10,
      "eligible": false,
-     "odd": 1.92
+     "odd": 1.93
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.505,
+     "model_prob": 0.506,
      "trend_alignment": 0.0,
      "confidence": 1,
      "eligible": false,
-     "odd": 1.92
+     "odd": 1.87
     }
    ],
    "trends": [
@@ -251,7 +251,7 @@
      "kind": "table_gap"
     }
    ],
-   "confidence": 78,
+   "confidence": 79,
    "league": {
     "key": "br_serie_a",
     "name": "Brasileirão Série A",
@@ -379,31 +379,31 @@
    "away_score": -1.0,
    "model": {
     "lambda_home": 2.9,
-    "lambda_away": 1.16,
-    "expected_goals": 4.06,
+    "lambda_away": 1.17,
+    "expected_goals": 4.07,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.7292,
-     "DRAW": 0.1472,
-     "AWAY": 0.1236,
-     "1X": 0.8764,
-     "X2": 0.2708,
-     "12": 0.8528,
-     "OVER25": 0.7699,
-     "UNDER25": 0.2301,
-     "BTTS_YES": 0.6487,
-     "BTTS_NO": 0.3513
+     "HOME": 0.7274,
+     "DRAW": 0.1476,
+     "AWAY": 0.125,
+     "1X": 0.875,
+     "X2": 0.2726,
+     "12": 0.8524,
+     "OVER25": 0.7712,
+     "UNDER25": 0.2288,
+     "BTTS_YES": 0.6513,
+     "BTTS_NO": 0.3487
     }
    },
    "pick": {
     "selection": "1X",
     "family": "double_chance",
     "label": "Dupla chance: Excelsior ou empate (1X)",
-    "model_prob": 0.8764,
+    "model_prob": 0.875,
     "trend_alignment": 1.0,
     "confidence": 77,
     "eligible": true,
-    "odd": 1.42,
+    "odd": 1.4,
     "low_conviction": false
    },
    "alt_markets": [
@@ -411,27 +411,27 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Excelsior",
-     "model_prob": 0.7292,
+     "model_prob": 0.7274,
      "trend_alignment": 1.0,
      "confidence": 73,
      "eligible": true,
-     "odd": 2.23
+     "odd": 2.21
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.7699,
+     "model_prob": 0.7712,
      "trend_alignment": 0.733,
      "confidence": 61,
      "eligible": true,
-     "odd": 1.62
+     "odd": 1.6
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.6487,
+     "model_prob": 0.6513,
      "trend_alignment": 0.733,
      "confidence": 45,
      "eligible": true,
@@ -441,11 +441,11 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Utrecht",
-     "model_prob": 0.1236,
+     "model_prob": 0.125,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 2.95
+     "odd": 3.0
     }
    ],
    "trends": [
@@ -495,7 +495,7 @@
      "kind": "winless_streak"
     },
     {
-     "label": "Excelsior é 4º · Utrecht é 15º",
+     "label": "Excelsior é 6º · Utrecht é 16º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -504,8 +504,8 @@
      "kind": "positions"
     },
     {
-     "label": "Excelsior está 11 posições à frente",
-     "strength": 0.786,
+     "label": "Excelsior está 10 posições à frente",
+     "strength": 0.714,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -542,8 +542,8 @@
      "kind": "winless_streak"
     },
     {
-     "label": "Excelsior está 11 posições à frente",
-     "strength": 0.786,
+     "label": "Excelsior está 10 posições à frente",
+     "strength": 0.714,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -560,7 +560,7 @@
    "home_team": {
     "id": 705,
     "name": "Excelsior",
-    "position": 4,
+    "position": 6,
     "played": 5,
     "points": 10.0,
     "record": "3V 1E 1D",
@@ -608,7 +608,7 @@
    "away_team": {
     "id": 698,
     "name": "Utrecht",
-    "position": 15,
+    "position": 16,
     "played": 5,
     "points": 2.0,
     "record": "0V 2E 3D",
@@ -703,7 +703,7 @@
     "trend_alignment": 1.0,
     "confidence": 77,
     "eligible": true,
-    "odd": 1.25,
+    "odd": null,
     "low_conviction": false
    },
    "alt_markets": [
@@ -715,7 +715,7 @@
      "trend_alignment": 1.0,
      "confidence": 66,
      "eligible": true,
-     "odd": 1.79
+     "odd": null
     },
     {
      "selection": "BTTS_NO",
@@ -735,7 +735,7 @@
      "trend_alignment": 0.26,
      "confidence": 16,
      "eligible": false,
-     "odd": 1.97
+     "odd": null
     },
     {
      "selection": "AWAY",
@@ -745,7 +745,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 4.01
+     "odd": null
     }
    ],
    "trends": [
@@ -963,242 +963,8 @@
     ]
    },
    "kickoff_local": "2026-09-13T09:00:00-03:00",
-   "has_odds": true,
-   "odds_bookmaker": "3 casas",
-   "is_cup": false,
-   "result": "pending",
-   "clear": true
-  },
-  {
-   "id": 4776110,
-   "s365_competition_id": 84,
-   "competition_name": "Super League",
-   "start_time": "2026-09-13T16:00:00+00:00",
-   "status_group": 2,
-   "round": "Round",
-   "home": {
-    "id": 1026,
-    "name": "Asteras Aktor"
-   },
-   "away": {
-    "id": 1024,
-    "name": "AEK Athens"
-   },
-   "home_score": -1.0,
-   "away_score": -1.0,
-   "model": {
-    "lambda_home": 0.77,
-    "lambda_away": 2.23,
-    "expected_goals": 3.0,
-    "sample_factor": 1.0,
-    "probs": {
-     "HOME": 0.1136,
-     "DRAW": 0.1796,
-     "AWAY": 0.7068,
-     "1X": 0.2932,
-     "X2": 0.8864,
-     "12": 0.8204,
-     "OVER25": 0.5756,
-     "UNDER25": 0.4244,
-     "BTTS_YES": 0.4774,
-     "BTTS_NO": 0.5226
-    }
-   },
-   "pick": {
-    "selection": "AWAY",
-    "family": "1x2",
-    "label": "Vitória do AEK Athens",
-    "model_prob": 0.7068,
-    "trend_alignment": 0.893,
-    "confidence": 75,
-    "eligible": true,
-    "odd": 1.39,
-    "low_conviction": false
-   },
-   "alt_markets": [
-    {
-     "selection": "X2",
-     "family": "double_chance",
-     "label": "Dupla chance: AEK Athens ou empate (X2)",
-     "model_prob": 0.8864,
-     "trend_alignment": 0.893,
-     "confidence": 75,
-     "eligible": true,
-     "odd": 1.08
-    },
-    {
-     "selection": "BTTS_NO",
-     "family": "btts",
-     "label": "Ambos marcam: não",
-     "model_prob": 0.5226,
-     "trend_alignment": 0.3,
-     "confidence": 13,
-     "eligible": false,
-     "odd": null
-    },
-    {
-     "selection": "OVER25",
-     "family": "over_under",
-     "label": "Mais de 2.5 gols",
-     "model_prob": 0.5756,
-     "trend_alignment": 0.0,
-     "confidence": 10,
-     "eligible": false,
-     "odd": 1.9
-    },
-    {
-     "selection": "UNDER25",
-     "family": "over_under",
-     "label": "Menos de 2.5 gols",
-     "model_prob": 0.4244,
-     "trend_alignment": 0.3,
-     "confidence": 10,
-     "eligible": false,
-     "odd": 1.9
-    }
-   ],
-   "trends": [
-    {
-     "label": "Venceu 3 dos últimos 4",
-     "strength": 0.625,
-     "favors": "AWAY",
-     "team": "AEK Athens",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "Não sofreu gol em 3 dos últimos 4",
-     "strength": 0.45,
-     "favors": "UNDER",
-     "team": "AEK Athens",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "clean_sheets"
-    },
-    {
-     "label": "Asteras Aktor é 13º · AEK Athens é 3º",
-     "strength": 0.0,
-     "favors": null,
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "positions"
-    },
-    {
-     "label": "AEK Athens está 10 posições à frente",
-     "strength": 0.714,
-     "favors": "AWAY",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "aligned_trends": [
-    {
-     "label": "Venceu 3 dos últimos 4",
-     "strength": 0.625,
-     "favors": "AWAY",
-     "team": "AEK Athens",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "AEK Athens está 10 posições à frente",
-     "strength": 0.714,
-     "favors": "AWAY",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "confidence": 75,
-   "league": {
-    "key": "greece",
-    "name": "Super League",
-    "country": "Grécia"
-   },
-   "home_team": {
-    "id": 1026,
-    "name": "Asteras Aktor",
-    "position": 13,
-    "played": 3,
-    "points": 0,
-    "record": "0V 0E 3D",
-    "goals_for": 1,
-    "goals_against": 6,
-    "last5": "LLL",
-    "recent": [
-     {
-      "result": "L",
-      "score": "0-2",
-      "home": true,
-      "opponent": "Iraklis",
-      "date": "2026-09-07"
-     },
-     {
-      "result": "L",
-      "score": "0-1",
-      "home": true,
-      "opponent": "Olympiacos",
-      "date": "2026-08-30"
-     },
-     {
-      "result": "L",
-      "score": "1-3",
-      "home": false,
-      "opponent": "Panetolikos",
-      "date": "2026-08-23"
-     }
-    ]
-   },
-   "away_team": {
-    "id": 1024,
-    "name": "AEK Athens",
-    "position": 3,
-    "played": 3,
-    "points": 7.0,
-    "record": "2V 1E 0D",
-    "goals_for": 10,
-    "goals_against": 1,
-    "last5": "WWDW",
-    "recent": [
-     {
-      "result": "W",
-      "score": "1-0",
-      "home": true,
-      "opponent": "LASK Linz",
-      "date": "2026-09-08"
-     },
-     {
-      "result": "W",
-      "score": "5-0",
-      "home": true,
-      "opponent": "Aris Salonica",
-      "date": "2026-09-05"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": false,
-      "opponent": "Kifisia",
-      "date": "2026-08-30"
-     },
-     {
-      "result": "W",
-      "score": "4-0",
-      "home": true,
-      "opponent": "Iraklis",
-      "date": "2026-08-22"
-     }
-    ]
-   },
-   "kickoff_local": "2026-09-13T13:00:00-03:00",
-   "has_odds": true,
-   "odds_bookmaker": "3 casas",
+   "has_odds": false,
+   "odds_bookmaker": null,
    "is_cup": false,
    "result": "pending",
    "clear": true
@@ -1226,23 +992,23 @@
     "expected_goals": 2.34,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.6227,
-     "DRAW": 0.2359,
-     "AWAY": 0.1414,
-     "1X": 0.8586,
-     "X2": 0.3773,
-     "12": 0.7641,
-     "OVER25": 0.4145,
-     "UNDER25": 0.5855,
-     "BTTS_YES": 0.3916,
-     "BTTS_NO": 0.6084
+     "HOME": 0.6225,
+     "DRAW": 0.2361,
+     "AWAY": 0.1415,
+     "1X": 0.8585,
+     "X2": 0.3775,
+     "12": 0.7639,
+     "OVER25": 0.4141,
+     "UNDER25": 0.5859,
+     "BTTS_YES": 0.3913,
+     "BTTS_NO": 0.6087
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Bursaspor",
-    "model_prob": 0.6227,
+    "model_prob": 0.6225,
     "trend_alignment": 1.0,
     "confidence": 75,
     "eligible": true,
@@ -1254,7 +1020,7 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Bursaspor ou empate (1X)",
-     "model_prob": 0.8586,
+     "model_prob": 0.8585,
      "trend_alignment": 1.0,
      "confidence": 75,
      "eligible": true,
@@ -1264,7 +1030,7 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.6084,
+     "model_prob": 0.6087,
      "trend_alignment": 0.031,
      "confidence": 15,
      "eligible": true,
@@ -1274,7 +1040,7 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.5855,
+     "model_prob": 0.5859,
      "trend_alignment": 0.031,
      "confidence": 12,
      "eligible": false,
@@ -1284,7 +1050,7 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.4145,
+     "model_prob": 0.4141,
      "trend_alignment": 0.031,
      "confidence": 1,
      "eligible": false,
@@ -1515,6 +1281,333 @@
     ]
    },
    "kickoff_local": "2026-09-13T14:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "3 casas",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4764183,
+   "s365_competition_id": 621,
+   "competition_name": "Copa de Primera - Clausura",
+   "start_time": "2026-09-13T19:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 8548,
+    "name": "Olimpia"
+   },
+   "away": {
+    "id": 8778,
+    "name": "Sportivo Luqueño"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.22,
+    "lambda_away": 0.93,
+    "expected_goals": 3.15,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.665,
+     "DRAW": 0.1894,
+     "AWAY": 0.1457,
+     "1X": 0.8543,
+     "X2": 0.335,
+     "12": 0.8106,
+     "OVER25": 0.6098,
+     "UNDER25": 0.3902,
+     "BTTS_YES": 0.5408,
+     "BTTS_NO": 0.4592
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Olimpia",
+    "model_prob": 0.665,
+    "trend_alignment": 1.0,
+    "confidence": 74,
+    "eligible": true,
+    "odd": 1.5,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Olimpia ou empate (1X)",
+     "model_prob": 0.8543,
+     "trend_alignment": 1.0,
+     "confidence": 74,
+     "eligible": true,
+     "odd": 1.14
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6098,
+     "trend_alignment": 0.873,
+     "confidence": 45,
+     "eligible": true,
+     "odd": 1.76
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5408,
+     "trend_alignment": 0.873,
+     "confidence": 36,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Sportivo Luqueño",
+     "model_prob": 0.1457,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 5.94
+    }
+   ],
+   "trends": [
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "HOME",
+     "team": "Olimpia",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Ambos marcaram em 5 dos últimos 5",
+     "strength": 0.5,
+     "favors": "BTTS_YES",
+     "team": "Olimpia",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "btts"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Sportivo Luqueño",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "Sportivo Luqueño",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Pior defesa da liga (1.9 sofridos/jogo)",
+     "strength": 0.34,
+     "favors": "OVER",
+     "team": "Sportivo Luqueño",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_bottom"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Olimpia",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "3º melhor ataque da liga (1.6 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Olimpia",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Olimpia é 3º · Sportivo Luqueño é 9º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Olimpia está 6 posições à frente",
+     "strength": 0.429,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "HOME",
+     "team": "Olimpia",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Sportivo Luqueño",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Olimpia",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "3º melhor ataque da liga (1.6 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Olimpia",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Olimpia está 6 posições à frente",
+     "strength": 0.429,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 74,
+   "league": {
+    "key": "py_primera",
+    "name": "Copa de Primera",
+    "country": "Paraguai"
+   },
+   "home_team": {
+    "id": 8548,
+    "name": "Olimpia",
+    "position": 3,
+    "played": 9,
+    "points": 16.0,
+    "record": "5V 1E 3D",
+    "goals_for": 14,
+    "goals_against": 9,
+    "last5": "WDWWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Sportivo Trinidense",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Club Guarani",
+      "date": "2026-09-02"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Recoleta FC",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Cerro Porteño",
+      "date": "2026-08-23"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Sportivo Ameliano",
+      "date": "2026-08-16"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 8778,
+    "name": "Sportivo Luqueño",
+    "position": 9,
+    "played": 9,
+    "points": 10.0,
+    "record": "3V 1E 5D",
+    "goals_for": 11,
+    "goals_against": 17,
+    "last5": "LDWLL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Sportivo Ameliano",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "2 de Mayo",
+      "date": "2026-09-01"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Rubio Ñu",
+      "date": "2026-08-28"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Club Nacional",
+      "date": "2026-08-24"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Libertad",
+      "date": "2026-08-16"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-13T16:00:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,

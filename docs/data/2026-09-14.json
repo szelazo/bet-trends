@@ -1,0 +1,1595 @@
+{
+ "date": "2026-09-14",
+ "generated_at": "2026-09-12T17:12:30.004563-03:00",
+ "version": "0.1.0",
+ "count": 5,
+ "clear_count": 5,
+ "day_total": 32,
+ "games": [
+  {
+   "id": 4732000,
+   "s365_competition_id": 620,
+   "competition_name": "Liga BetPlay - Clausura",
+   "start_time": "2026-09-15T01:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 8645,
+    "name": "America de Cali"
+   },
+   "away": {
+    "id": 9048,
+    "name": "Deportivo Pasto"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.55,
+    "lambda_away": 0.62,
+    "expected_goals": 3.17,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.7923,
+     "DRAW": 0.1394,
+     "AWAY": 0.0683,
+     "1X": 0.9317,
+     "X2": 0.2077,
+     "12": 0.8606,
+     "OVER25": 0.6133,
+     "UNDER25": 0.3867,
+     "BTTS_YES": 0.4243,
+     "BTTS_NO": 0.5757
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do America de Cali",
+    "model_prob": 0.7923,
+    "trend_alignment": 1.0,
+    "confidence": 85,
+    "eligible": true,
+    "odd": 1.4,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: America de Cali ou empate (1X)",
+     "model_prob": 0.9317,
+     "trend_alignment": 1.0,
+     "confidence": 85,
+     "eligible": true,
+     "odd": 1.08
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6133,
+     "trend_alignment": 0.567,
+     "confidence": 35,
+     "eligible": true,
+     "odd": 2.07
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.4243,
+     "trend_alignment": 0.567,
+     "confidence": 20,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5757,
+     "trend_alignment": 0.0,
+     "confidence": 10,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Venceu 4 dos últimos 4 em casa",
+     "strength": 0.75,
+     "favors": "HOME",
+     "team": "America de Cali",
+     "side": "HOME",
+     "group": "casa_fora",
+     "kind": "wins"
+    },
+    {
+     "label": "Mais de 2.5 gols em 3 dos últimos 4 em casa",
+     "strength": 0.45,
+     "favors": "OVER",
+     "team": "America de Cali",
+     "side": "HOME",
+     "group": "casa_fora",
+     "kind": "over"
+    },
+    {
+     "label": "Invicto em 6 dos últimos 6",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "America de Cali",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Perdeu 4 dos últimos 6",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Deportivo Pasto",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Sofreu gol em todos os últimos 6",
+     "strength": 0.4,
+     "favors": "OVER",
+     "team": "Deportivo Pasto",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "always_concede"
+    },
+    {
+     "label": "Invicto há 6+ jogos",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "America de Cali",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Melhor defesa da liga (0.5 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "America de Cali",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Melhor ataque da liga (2.5 marcados/jogo)",
+     "strength": 0.44,
+     "favors": "HOME",
+     "team": "America de Cali",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Não vence há 6+ jogos",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Deportivo Pasto",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "America de Cali é 1º · Deportivo Pasto é 19º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "America de Cali está 18 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Venceu 4 dos últimos 4 em casa",
+     "strength": 0.75,
+     "favors": "HOME",
+     "team": "America de Cali",
+     "side": "HOME",
+     "group": "casa_fora",
+     "kind": "wins"
+    },
+    {
+     "label": "Invicto em 6 dos últimos 6",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "America de Cali",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Perdeu 4 dos últimos 6",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Deportivo Pasto",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto há 6+ jogos",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "America de Cali",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Melhor defesa da liga (0.5 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "America de Cali",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Melhor ataque da liga (2.5 marcados/jogo)",
+     "strength": 0.44,
+     "favors": "HOME",
+     "team": "America de Cali",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Não vence há 6+ jogos",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Deportivo Pasto",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "America de Cali está 18 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 85,
+   "league": {
+    "key": "co_primera",
+    "name": "Liga BetPlay",
+    "country": "Colômbia"
+   },
+   "home_team": {
+    "id": 8645,
+    "name": "America de Cali",
+    "position": 1,
+    "played": 8,
+    "points": 20.0,
+    "record": "6V 2E 0D",
+    "goals_for": 20,
+    "goals_against": 4,
+    "last5": "WWDWD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "4-1",
+      "home": true,
+      "opponent": "Deportivo Pereira",
+      "date": "2026-09-09"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "Alianza FC",
+      "date": "2026-09-03"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "Jaguares de Córdoba",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "W",
+      "score": "4-2",
+      "home": true,
+      "opponent": "Junior FC",
+      "date": "2026-08-26"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Independiente Santa Fe",
+      "date": "2026-08-22"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 9048,
+    "name": "Deportivo Pasto",
+    "position": 19,
+    "played": 8,
+    "points": 2.0,
+    "record": "0V 2E 6D",
+    "goals_for": 7,
+    "goals_against": 15,
+    "last5": "LDLDL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-4",
+      "home": true,
+      "opponent": "Independiente Medellin",
+      "date": "2026-09-10"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "Cucuta Deportivo",
+      "date": "2026-09-05"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Deportivo Pereira",
+      "date": "2026-08-31"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Internacional de Bogota",
+      "date": "2026-08-28"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Llaneros FC",
+      "date": "2026-08-23"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-14T22:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "3 casas",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4766976,
+   "s365_competition_id": 81,
+   "competition_name": "1. Lig",
+   "start_time": "2026-09-14T17:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 949,
+    "name": "Kayserispor"
+   },
+   "away": {
+    "id": 999,
+    "name": "Istanbulspor AS"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.4,
+    "lambda_away": 0.78,
+    "expected_goals": 3.18,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.7316,
+     "DRAW": 0.1649,
+     "AWAY": 0.1036,
+     "1X": 0.8964,
+     "X2": 0.2684,
+     "12": 0.8351,
+     "OVER25": 0.6161,
+     "UNDER25": 0.3839,
+     "BTTS_YES": 0.4939,
+     "BTTS_NO": 0.5061
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Kayserispor",
+    "model_prob": 0.7316,
+    "trend_alignment": 1.0,
+    "confidence": 80,
+    "eligible": true,
+    "odd": 1.48,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Kayserispor ou empate (1X)",
+     "model_prob": 0.8964,
+     "trend_alignment": 1.0,
+     "confidence": 80,
+     "eligible": true,
+     "odd": 1.14
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6161,
+     "trend_alignment": 0.079,
+     "confidence": 18,
+     "eligible": true,
+     "odd": 1.76
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.4939,
+     "trend_alignment": 0.079,
+     "confidence": 3,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5061,
+     "trend_alignment": 0.0,
+     "confidence": 1,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Istanbulspor AS",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "Istanbulspor AS",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Kayserispor",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Não sofreu gol em 3 dos últimos 5",
+     "strength": 0.39,
+     "favors": "UNDER",
+     "team": "Kayserispor",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "clean_sheets"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Istanbulspor AS",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Kayserispor é 3º · Istanbulspor AS é 19º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Kayserispor está 16 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Istanbulspor AS",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Kayserispor",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Istanbulspor AS",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Kayserispor está 16 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 80,
+   "league": {
+    "key": "turkey2",
+    "name": "1. Lig",
+    "country": "Turquia"
+   },
+   "home_team": {
+    "id": 949,
+    "name": "Kayserispor",
+    "position": 3,
+    "played": 6,
+    "points": 13.0,
+    "record": "4V 1E 1D",
+    "goals_for": 10,
+    "goals_against": 3,
+    "last5": "WDLWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": false,
+      "opponent": "Erokspor",
+      "date": "2026-09-07"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Fatih Karagümrük",
+      "date": "2026-09-02"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Bursaspor",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Igdir Fk",
+      "date": "2026-08-22"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Sivasspor",
+      "date": "2026-08-16"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 999,
+    "name": "Istanbulspor AS",
+    "position": 19,
+    "played": 6,
+    "points": 2.0,
+    "record": "0V 2E 4D",
+    "goals_for": 6,
+    "goals_against": 15,
+    "last5": "LLDLD",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Igdir Fk",
+      "date": "2026-09-07"
+     },
+     {
+      "result": "L",
+      "score": "0-4",
+      "home": false,
+      "opponent": "Bursaspor",
+      "date": "2026-09-03"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Fatih Karagümrük",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": false,
+      "opponent": "Van Spor FK",
+      "date": "2026-08-23"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "Bodrumspor",
+      "date": "2026-08-15"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-14T14:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "3 casas",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4732709,
+   "s365_competition_id": 17,
+   "competition_name": "Serie A",
+   "start_time": "2026-09-14T16:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 6117,
+    "name": "Como"
+   },
+   "away": {
+    "id": 241,
+    "name": "Parma"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.95,
+    "lambda_away": 0.64,
+    "expected_goals": 2.6,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.684,
+     "DRAW": 0.2024,
+     "AWAY": 0.1137,
+     "1X": 0.8863,
+     "X2": 0.316,
+     "12": 0.7976,
+     "OVER25": 0.4803,
+     "UNDER25": 0.5197,
+     "BTTS_YES": 0.4073,
+     "BTTS_NO": 0.5927
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Como",
+    "model_prob": 0.684,
+    "trend_alignment": 1.0,
+    "confidence": 79,
+    "eligible": true,
+    "odd": 1.23,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Como ou empate (1X)",
+     "model_prob": 0.8863,
+     "trend_alignment": 1.0,
+     "confidence": 79,
+     "eligible": true,
+     "odd": 1.03
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5927,
+     "trend_alignment": 0.067,
+     "confidence": 14,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.5197,
+     "trend_alignment": 0.067,
+     "confidence": 5,
+     "eligible": false,
+     "odd": 2.21
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Parma",
+     "model_prob": 0.1137,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 13.75
+    }
+   ],
+   "trends": [
+    {
+     "label": "Venceu 3 dos últimos 4",
+     "strength": 0.625,
+     "favors": "HOME",
+     "team": "Como",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Ambos marcaram em 4 dos últimos 4",
+     "strength": 0.5,
+     "favors": "BTTS_YES",
+     "team": "Como",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "btts"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 4",
+     "strength": 0.588,
+     "favors": "HOME",
+     "team": "Parma",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Menos de 2.5 gols em 4 dos últimos 4",
+     "strength": 0.55,
+     "favors": "UNDER",
+     "team": "Parma",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "under"
+    },
+    {
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Como",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Como é 6º · Parma é 17º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Como está 11 posições à frente",
+     "strength": 0.786,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Venceu 3 dos últimos 4",
+     "strength": 0.625,
+     "favors": "HOME",
+     "team": "Como",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 4",
+     "strength": 0.588,
+     "favors": "HOME",
+     "team": "Parma",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Como",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Como está 11 posições à frente",
+     "strength": 0.786,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 79,
+   "league": {
+    "key": "serie_a_ita",
+    "name": "Serie A",
+    "country": "Itália"
+   },
+   "home_team": {
+    "id": 6117,
+    "name": "Como",
+    "position": 6,
+    "played": 3,
+    "points": 7.0,
+    "record": "2V 1E 0D",
+    "goals_for": 7,
+    "goals_against": 3,
+    "last5": "WWWD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "4-1",
+      "home": true,
+      "opponent": "RB Leipzig",
+      "date": "2026-09-10"
+     },
+     {
+      "result": "W",
+      "score": "4-1",
+      "home": false,
+      "opponent": "Genoa",
+      "date": "2026-09-04"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Napoli",
+      "date": "2026-08-30"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Udinese",
+      "date": "2026-08-22"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 241,
+    "name": "Parma",
+    "position": 17,
+    "played": 3,
+    "points": 1.0,
+    "record": "0V 1E 2D",
+    "goals_for": 1,
+    "goals_against": 4,
+    "last5": "DLLL",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Monza",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": true,
+      "opponent": "Cremonese",
+      "date": "2026-09-01"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Juventus",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Cagliari",
+      "date": "2026-08-22"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-14T13:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "3 casas",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4757154,
+   "s365_competition_id": 73,
+   "competition_name": "Liga Portugal",
+   "start_time": "2026-09-14T19:45:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 895,
+    "name": "SC Braga"
+   },
+   "away": {
+    "id": 909,
+    "name": "Estoril"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.89,
+    "lambda_away": 0.77,
+    "expected_goals": 2.66,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.6391,
+     "DRAW": 0.2153,
+     "AWAY": 0.1457,
+     "1X": 0.8543,
+     "X2": 0.3609,
+     "12": 0.7847,
+     "OVER25": 0.4966,
+     "UNDER25": 0.5034,
+     "BTTS_YES": 0.4558,
+     "BTTS_NO": 0.5442
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do SC Braga",
+    "model_prob": 0.6391,
+    "trend_alignment": 1.0,
+    "confidence": 74,
+    "eligible": true,
+    "odd": 1.41,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: SC Braga ou empate (1X)",
+     "model_prob": 0.8543,
+     "trend_alignment": 1.0,
+     "confidence": 74,
+     "eligible": true,
+     "odd": 1.1
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5442,
+     "trend_alignment": 0.313,
+     "confidence": 17,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.5034,
+     "trend_alignment": 0.313,
+     "confidence": 11,
+     "eligible": false,
+     "odd": 2.07
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Estoril",
+     "model_prob": 0.1457,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 7.5
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Estoril",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Menos de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "UNDER",
+     "team": "Estoril",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "under"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "SC Braga",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Estoril",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "SC Braga é 8º · Estoril é 17º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "SC Braga está 9 posições à frente",
+     "strength": 0.643,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Estoril",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "SC Braga",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Estoril",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "SC Braga está 9 posições à frente",
+     "strength": 0.643,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 74,
+   "league": {
+    "key": "liga_pt",
+    "name": "Liga Portugal",
+    "country": "Portugal"
+   },
+   "home_team": {
+    "id": 895,
+    "name": "SC Braga",
+    "position": 8,
+    "played": 4,
+    "points": 7.0,
+    "record": "2V 1E 1D",
+    "goals_for": 6,
+    "goals_against": 5,
+    "last5": "LWWDD",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Estrela da Amadora",
+      "date": "2026-09-10"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Alverca",
+      "date": "2026-09-05"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Guimarães",
+      "date": "2026-08-31"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Austria Vienna",
+      "date": "2026-08-27"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "Moreirense",
+      "date": "2026-08-09"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 909,
+    "name": "Estoril",
+    "position": 17,
+    "played": 5,
+    "points": 2.0,
+    "record": "0V 2E 3D",
+    "goals_for": 2,
+    "goals_against": 7,
+    "last5": "DLLLD",
+    "recent": [
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Arouca",
+      "date": "2026-09-07"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Benfica",
+      "date": "2026-08-31"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": true,
+      "opponent": "Rio Ave",
+      "date": "2026-08-22"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Nacional Madeira",
+      "date": "2026-08-16"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Famalicão",
+      "date": "2026-08-07"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-14T16:45:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "3 casas",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4632678,
+   "s365_competition_id": 113,
+   "competition_name": "Brasileirão Série A",
+   "start_time": "2026-09-14T23:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 1767,
+    "name": "Bahia"
+   },
+   "away": {
+    "id": 7383,
+    "name": "Remo"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.34,
+    "lambda_away": 1.07,
+    "expected_goals": 3.4,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.6569,
+     "DRAW": 0.1847,
+     "AWAY": 0.1584,
+     "1X": 0.8416,
+     "X2": 0.3431,
+     "12": 0.8153,
+     "OVER25": 0.6606,
+     "UNDER25": 0.3394,
+     "BTTS_YES": 0.5922,
+     "BTTS_NO": 0.4078
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Bahia",
+    "model_prob": 0.6569,
+    "trend_alignment": 1.0,
+    "confidence": 72,
+    "eligible": true,
+    "odd": 1.42,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Bahia ou empate (1X)",
+     "model_prob": 0.8416,
+     "trend_alignment": 1.0,
+     "confidence": 72,
+     "eligible": true,
+     "odd": 1.11
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6606,
+     "trend_alignment": 0.513,
+     "confidence": 39,
+     "eligible": true,
+     "odd": 1.67
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5922,
+     "trend_alignment": 0.513,
+     "confidence": 30,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Remo",
+     "model_prob": 0.1584,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 7.0
+    }
+   ],
+   "trends": [
+    {
+     "label": "Invicto em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Bahia",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Remo",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Ambos marcaram em 4 dos últimos 5",
+     "strength": 0.43,
+     "favors": "BTTS_YES",
+     "team": "Remo",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "btts"
+    },
+    {
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Bahia",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Pior defesa da liga (1.7 sofridos/jogo)",
+     "strength": 0.34,
+     "favors": "OVER",
+     "team": "Remo",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_bottom"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Remo",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "3º melhor ataque da liga (1.5 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Bahia",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Bahia é 5º · Remo é 19º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Bahia está 14 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Invicto em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Bahia",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Remo",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Bahia",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Remo",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "3º melhor ataque da liga (1.5 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Bahia",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Bahia está 14 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 72,
+   "league": {
+    "key": "br_serie_a",
+    "name": "Brasileirão Série A",
+    "country": "Brasil"
+   },
+   "home_team": {
+    "id": 1767,
+    "name": "Bahia",
+    "position": 5,
+    "played": 26,
+    "points": 43.0,
+    "record": "11V 10E 5D",
+    "goals_for": 40,
+    "goals_against": 32,
+    "last5": "WWWDD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": false,
+      "opponent": "RB Bragantino",
+      "date": "2026-09-05"
+     },
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": true,
+      "opponent": "Internacional",
+      "date": "2026-08-30"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "Vitoria",
+      "date": "2026-08-23"
+     },
+     {
+      "result": "D",
+      "score": "3-3",
+      "home": false,
+      "opponent": "Chapecoense",
+      "date": "2026-08-16"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Vasco da Gama",
+      "date": "2026-08-09"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 7383,
+    "name": "Remo",
+    "position": 19,
+    "played": 26,
+    "points": 23.0,
+    "record": "5V 8E 13D",
+    "goals_for": 30,
+    "goals_against": 43,
+    "last5": "LLLDD",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Flamengo",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": true,
+      "opponent": "Coritiba",
+      "date": "2026-08-31"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Fluminense",
+      "date": "2026-08-22"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Internacional",
+      "date": "2026-08-17"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "Atlético Mineiro",
+      "date": "2026-08-08"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-14T20:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "3 casas",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  }
+ ]
+}
