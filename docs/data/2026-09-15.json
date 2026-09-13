@@ -1,0 +1,1496 @@
+{
+ "date": "2026-09-15",
+ "generated_at": "2026-09-13T08:17:07.730402-03:00",
+ "version": "0.1.0",
+ "count": 5,
+ "clear_count": 5,
+ "day_total": 23,
+ "games": [
+  {
+   "id": 4734582,
+   "s365_competition_id": 57,
+   "competition_name": "Eredivisie",
+   "start_time": "2026-09-15T18:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 690,
+    "name": "Ajax"
+   },
+   "away": {
+    "id": 706,
+    "name": "Willem II"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.9,
+    "lambda_away": 0.89,
+    "expected_goals": 3.79,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.7822,
+     "DRAW": 0.1318,
+     "AWAY": 0.0861,
+     "1X": 0.9139,
+     "X2": 0.2178,
+     "12": 0.8682,
+     "OVER25": 0.7289,
+     "UNDER25": 0.2711,
+     "BTTS_YES": 0.5574,
+     "BTTS_NO": 0.4426
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Ajax",
+    "model_prob": 0.7822,
+    "trend_alignment": 1.0,
+    "confidence": 82,
+    "eligible": true,
+    "odd": 1.19,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Ajax ou empate (1X)",
+     "model_prob": 0.9139,
+     "trend_alignment": 1.0,
+     "confidence": 82,
+     "eligible": true,
+     "odd": 1.05
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.7289,
+     "trend_alignment": 0.635,
+     "confidence": 52,
+     "eligible": true,
+     "odd": 1.62
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5574,
+     "trend_alignment": 0.635,
+     "confidence": 30,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Willem II",
+     "model_prob": 0.0861,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 10.75
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Willem II",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "Willem II",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Invicto em 5 dos últimos 6",
+     "strength": 0.492,
+     "favors": "HOME",
+     "team": "Ajax",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Mais de 2.5 gols em 5 dos últimos 6",
+     "strength": 0.483,
+     "favors": "OVER",
+     "team": "Ajax",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Willem II",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Ajax é 5º · Willem II é 17º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Ajax está 12 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Willem II",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto em 5 dos últimos 6",
+     "strength": 0.492,
+     "favors": "HOME",
+     "team": "Ajax",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Willem II",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Ajax está 12 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 82,
+   "league": {
+    "key": "eredivisie",
+    "name": "Eredivisie",
+    "country": "Holanda"
+   },
+   "home_team": {
+    "id": 690,
+    "name": "Ajax",
+    "position": 5,
+    "played": 5,
+    "points": 10.0,
+    "record": "3V 1E 1D",
+    "goals_for": 14,
+    "goals_against": 6,
+    "last5": "WLWWD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "5-1",
+      "home": false,
+      "opponent": "Fortuna Sittard",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": true,
+      "opponent": "PSV Eindhoven",
+      "date": "2026-09-05"
+     },
+     {
+      "result": "W",
+      "score": "4-0",
+      "home": false,
+      "opponent": "Telstar",
+      "date": "2026-08-30"
+     },
+     {
+      "result": "W",
+      "score": "5-3",
+      "home": true,
+      "opponent": "FC Sion",
+      "date": "2026-08-27"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "Heerenveen",
+      "date": "2026-08-16"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 706,
+    "name": "Willem II",
+    "position": 17,
+    "played": 5,
+    "points": 2.0,
+    "record": "0V 2E 3D",
+    "goals_for": 5,
+    "goals_against": 14,
+    "last5": "DLDLL",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "AZ Alkmaar",
+      "date": "2026-09-11"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": true,
+      "opponent": "Excelsior",
+      "date": "2026-09-05"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "Heerenveen",
+      "date": "2026-08-30"
+     },
+     {
+      "result": "L",
+      "score": "1-4",
+      "home": true,
+      "opponent": "N.E.C. Nijmegen",
+      "date": "2026-08-15"
+     },
+     {
+      "result": "L",
+      "score": "1-4",
+      "home": false,
+      "opponent": "Go Ahead Eagles",
+      "date": "2026-08-08"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-15T15:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "3 casas",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4750860,
+   "s365_competition_id": 11,
+   "competition_name": "LaLiga",
+   "start_time": "2026-09-15T18:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 168,
+    "name": "Alaves"
+   },
+   "away": {
+    "id": 139,
+    "name": "Valencia"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.25,
+    "lambda_away": 0.78,
+    "expected_goals": 3.03,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.7076,
+     "DRAW": 0.1784,
+     "AWAY": 0.114,
+     "1X": 0.886,
+     "X2": 0.2924,
+     "12": 0.8216,
+     "OVER25": 0.5826,
+     "UNDER25": 0.4174,
+     "BTTS_YES": 0.4833,
+     "BTTS_NO": 0.5167
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Alaves",
+    "model_prob": 0.7076,
+    "trend_alignment": 1.0,
+    "confidence": 79,
+    "eligible": true,
+    "odd": 1.85,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Alaves ou empate (1X)",
+     "model_prob": 0.886,
+     "trend_alignment": 1.0,
+     "confidence": 79,
+     "eligible": true,
+     "odd": 1.2
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5826,
+     "trend_alignment": 0.2,
+     "confidence": 18,
+     "eligible": false,
+     "odd": 2.22
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.4833,
+     "trend_alignment": 0.2,
+     "confidence": 7,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5167,
+     "trend_alignment": 0.0,
+     "confidence": 2,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "HOME",
+     "team": "Valencia",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Não marcou em 4 dos últimos 5",
+     "strength": 0.44,
+     "favors": "HOME",
+     "team": "Valencia",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "no_score"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Alaves",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Marcou em todos os últimos 5",
+     "strength": 0.3,
+     "favors": "OVER",
+     "team": "Alaves",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "always_score"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Valencia",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Alaves é 3º · Valencia é 20º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Alaves está 17 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "HOME",
+     "team": "Valencia",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Não marcou em 4 dos últimos 5",
+     "strength": 0.44,
+     "favors": "HOME",
+     "team": "Valencia",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "no_score"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Alaves",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Valencia",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Alaves está 17 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 79,
+   "league": {
+    "key": "laliga",
+    "name": "LaLiga",
+    "country": "Espanha"
+   },
+   "home_team": {
+    "id": 168,
+    "name": "Alaves",
+    "position": 3,
+    "played": 5,
+    "points": 10.0,
+    "record": "3V 1E 1D",
+    "goals_for": 11,
+    "goals_against": 5,
+    "last5": "LWWDW",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Racing Santander",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "W",
+      "score": "5-2",
+      "home": true,
+      "opponent": "Osasuna",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Villarreal",
+      "date": "2026-08-28"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Rayo Vallecano",
+      "date": "2026-08-20"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "Getafe",
+      "date": "2026-08-15"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 139,
+    "name": "Valencia",
+    "position": 20,
+    "played": 5,
+    "points": 1.0,
+    "record": "0V 1E 4D",
+    "goals_for": 1,
+    "goals_against": 10,
+    "last5": "LLLLD",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Sevilla",
+      "date": "2026-09-11"
+     },
+     {
+      "result": "L",
+      "score": "0-5",
+      "home": true,
+      "opponent": "FC Barcelona",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": false,
+      "opponent": "Deportivo A Coruña",
+      "date": "2026-08-30"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Real Betis",
+      "date": "2026-08-25"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Celta Vigo",
+      "date": "2026-08-22"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-15T15:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "3 casas",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4750856,
+   "s365_competition_id": 11,
+   "competition_name": "LaLiga",
+   "start_time": "2026-09-15T19:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 156,
+    "name": "Elche"
+   },
+   "away": {
+    "id": 131,
+    "name": "Real Madrid"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.03,
+    "lambda_away": 2.57,
+    "expected_goals": 3.61,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.1307,
+     "DRAW": 0.1644,
+     "AWAY": 0.7049,
+     "1X": 0.2951,
+     "X2": 0.8693,
+     "12": 0.8356,
+     "OVER25": 0.6978,
+     "UNDER25": 0.3022,
+     "BTTS_YES": 0.5948,
+     "BTTS_NO": 0.4052
+    }
+   },
+   "pick": {
+    "selection": "AWAY",
+    "family": "1x2",
+    "label": "Vitória do Real Madrid",
+    "model_prob": 0.7049,
+    "trend_alignment": 1.0,
+    "confidence": 76,
+    "eligible": true,
+    "odd": 1.33,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "X2",
+     "family": "double_chance",
+     "label": "Dupla chance: Real Madrid ou empate (X2)",
+     "model_prob": 0.8693,
+     "trend_alignment": 1.0,
+     "confidence": 76,
+     "eligible": true,
+     "odd": 1.08
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6978,
+     "trend_alignment": 0.609,
+     "confidence": 47,
+     "eligible": true,
+     "odd": 1.91
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5948,
+     "trend_alignment": 0.609,
+     "confidence": 34,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Elche",
+     "model_prob": 0.1307,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 8.5
+    }
+   ],
+   "trends": [
+    {
+     "label": "Venceu 5 dos últimos 6",
+     "strength": 0.667,
+     "favors": "AWAY",
+     "team": "Real Madrid",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Mais de 2.5 gols em 5 dos últimos 6",
+     "strength": 0.483,
+     "favors": "OVER",
+     "team": "Real Madrid",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Elche",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Ambos marcaram em 4 dos últimos 5",
+     "strength": 0.43,
+     "favors": "BTTS_YES",
+     "team": "Elche",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "btts"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Elche",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Elche é 19º · Real Madrid é 2º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Real Madrid está 17 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Venceu 5 dos últimos 6",
+     "strength": 0.667,
+     "favors": "AWAY",
+     "team": "Real Madrid",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Elche",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Elche",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Real Madrid está 17 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 76,
+   "league": {
+    "key": "laliga",
+    "name": "LaLiga",
+    "country": "Espanha"
+   },
+   "home_team": {
+    "id": 156,
+    "name": "Elche",
+    "position": 19,
+    "played": 5,
+    "points": 2.0,
+    "record": "0V 2E 3D",
+    "goals_for": 6,
+    "goals_against": 13,
+    "last5": "DLLLD",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Athletic Bilbao",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": true,
+      "opponent": "Real Sociedad",
+      "date": "2026-09-07"
+     },
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": false,
+      "opponent": "Racing Santander",
+      "date": "2026-08-28"
+     },
+     {
+      "result": "L",
+      "score": "0-5",
+      "home": true,
+      "opponent": "FC Barcelona",
+      "date": "2026-08-23"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Deportivo A Coruña",
+      "date": "2026-08-17"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 131,
+    "name": "Real Madrid",
+    "position": 2,
+    "played": 5,
+    "points": 12.0,
+    "record": "4V 0E 1D",
+    "goals_for": 14,
+    "goals_against": 4,
+    "last5": "WWLWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "4-1",
+      "home": true,
+      "opponent": "Rayo Vallecano",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Inter Milan",
+      "date": "2026-09-08"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Real Betis",
+      "date": "2026-09-04"
+     },
+     {
+      "result": "W",
+      "score": "4-0",
+      "home": true,
+      "opponent": "Malaga",
+      "date": "2026-08-30"
+     },
+     {
+      "result": "W",
+      "score": "4-1",
+      "home": true,
+      "opponent": "Real Sociedad",
+      "date": "2026-08-26"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-15T16:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "3 casas",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4741678,
+   "s365_competition_id": 61,
+   "competition_name": "Scottish Premiership",
+   "start_time": "2026-09-15T18:45:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 758,
+    "name": "Falkirk"
+   },
+   "away": {
+    "id": 759,
+    "name": "Hearts"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 0.9,
+    "lambda_away": 1.77,
+    "expected_goals": 2.67,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.1893,
+     "DRAW": 0.2325,
+     "AWAY": 0.5783,
+     "1X": 0.4217,
+     "X2": 0.8107,
+     "12": 0.7675,
+     "OVER25": 0.4983,
+     "UNDER25": 0.5017,
+     "BTTS_YES": 0.4922,
+     "BTTS_NO": 0.5078
+    }
+   },
+   "pick": {
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: Hearts ou empate (X2)",
+    "model_prob": 0.8107,
+    "trend_alignment": 1.0,
+    "confidence": 68,
+    "eligible": true,
+    "odd": 1.31,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Hearts",
+     "model_prob": 0.5783,
+     "trend_alignment": 1.0,
+     "confidence": 58,
+     "eligible": true,
+     "odd": 1.97
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.4983,
+     "trend_alignment": 0.367,
+     "confidence": 13,
+     "eligible": false,
+     "odd": 1.73
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.4922,
+     "trend_alignment": 0.367,
+     "confidence": 13,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5078,
+     "trend_alignment": 0.0,
+     "confidence": 1,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Mais de 2.5 gols em 6 dos últimos 6",
+     "strength": 0.55,
+     "favors": "OVER",
+     "team": "Hearts",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Invicto em 5 dos últimos 6",
+     "strength": 0.492,
+     "favors": "AWAY",
+     "team": "Hearts",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Falkirk",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "Hearts",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Falkirk",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Falkirk é 11º · Hearts é 3º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Hearts está 8 posições à frente",
+     "strength": 0.571,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Invicto em 5 dos últimos 6",
+     "strength": 0.492,
+     "favors": "AWAY",
+     "team": "Hearts",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Falkirk",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "Hearts",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Falkirk",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Hearts está 8 posições à frente",
+     "strength": 0.571,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 68,
+   "league": {
+    "key": "scotland",
+    "name": "Scottish Premiership",
+    "country": "Escócia"
+   },
+   "home_team": {
+    "id": 758,
+    "name": "Falkirk",
+    "position": 11,
+    "played": 5,
+    "points": 2.0,
+    "record": "0V 2E 3D",
+    "goals_for": 3,
+    "goals_against": 7,
+    "last5": "DLLDL",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Dundee United",
+      "date": "2026-09-05"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Rangers",
+      "date": "2026-09-02"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Celtic",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Motherwell",
+      "date": "2026-08-09"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": true,
+      "opponent": "St. Mirren",
+      "date": "2026-08-01"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 759,
+    "name": "Hearts",
+    "position": 3,
+    "played": 5,
+    "points": 12.0,
+    "record": "4V 0E 1D",
+    "goals_for": 12,
+    "goals_against": 5,
+    "last5": "WWWDW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Dundee",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": false,
+      "opponent": "Hibernian",
+      "date": "2026-09-03"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "St. Johnstone",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "Rapid Vienna",
+      "date": "2026-08-26"
+     },
+     {
+      "result": "W",
+      "score": "4-0",
+      "home": true,
+      "opponent": "Dundee United",
+      "date": "2026-08-09"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-15T15:45:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "3 casas",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4804675,
+   "s365_competition_id": 552,
+   "competition_name": "Premier League",
+   "start_time": "2026-09-15T17:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 8200,
+    "name": "Al Ahly SC"
+   },
+   "away": {
+    "id": 19480,
+    "name": "Abo Qir Semad"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.06,
+    "lambda_away": 0.55,
+    "expected_goals": 2.61,
+    "sample_factor": 0.8,
+    "probs": {
+     "HOME": 0.7309,
+     "DRAW": 0.183,
+     "AWAY": 0.0861,
+     "1X": 0.9139,
+     "X2": 0.2691,
+     "12": 0.817,
+     "OVER25": 0.4836,
+     "UNDER25": 0.5164,
+     "BTTS_YES": 0.367,
+     "BTTS_NO": 0.633
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Al Ahly SC",
+    "model_prob": 0.7309,
+    "trend_alignment": 1.0,
+    "confidence": 66,
+    "eligible": true,
+    "odd": 1.26,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Al Ahly SC ou empate (1X)",
+     "model_prob": 0.9139,
+     "trend_alignment": 1.0,
+     "confidence": 66,
+     "eligible": true,
+     "odd": 1.05
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.633,
+     "trend_alignment": 0.667,
+     "confidence": 32,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.5164,
+     "trend_alignment": 0.667,
+     "confidence": 20,
+     "eligible": false,
+     "odd": 2.1
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Abo Qir Semad",
+     "model_prob": 0.0861,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 10.12
+    }
+   ],
+   "trends": [
+    {
+     "label": "Venceu 3 dos últimos 4",
+     "strength": 0.625,
+     "favors": "HOME",
+     "team": "Al Ahly SC",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Menos de 2.5 gols em 3 dos últimos 4",
+     "strength": 0.45,
+     "favors": "UNDER",
+     "team": "Al Ahly SC",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "under"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 4",
+     "strength": 0.588,
+     "favors": "HOME",
+     "team": "Abo Qir Semad",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Menos de 2.5 gols em 4 dos últimos 4",
+     "strength": 0.55,
+     "favors": "UNDER",
+     "team": "Abo Qir Semad",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "under"
+    },
+    {
+     "label": "Al Ahly SC é 3º · Abo Qir Semad é 16º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Al Ahly SC está 13 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Venceu 3 dos últimos 4",
+     "strength": 0.625,
+     "favors": "HOME",
+     "team": "Al Ahly SC",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 4",
+     "strength": 0.588,
+     "favors": "HOME",
+     "team": "Abo Qir Semad",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Al Ahly SC está 13 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 66,
+   "league": {
+    "key": "egypt",
+    "name": "Premier League",
+    "country": "Egito"
+   },
+   "home_team": {
+    "id": 8200,
+    "name": "Al Ahly SC",
+    "position": 3,
+    "played": 4,
+    "points": 10.0,
+    "record": "3V 1E 0D",
+    "goals_for": 7,
+    "goals_against": 3,
+    "last5": "DWWW",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Al Mokawloon Al Arab",
+      "date": "2026-09-09"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Smouha",
+      "date": "2026-09-03"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "Zed FC",
+      "date": "2026-08-28"
+     },
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": true,
+      "opponent": "ENPPI",
+      "date": "2026-08-23"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 19480,
+    "name": "Abo Qir Semad",
+    "position": 16,
+    "played": 4,
+    "points": 3.0,
+    "record": "1V 0E 3D",
+    "goals_for": 1,
+    "goals_against": 6,
+    "last5": "LLLW",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Zamalek SC",
+      "date": "2026-09-08"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": true,
+      "opponent": "Al Ittehad",
+      "date": "2026-09-02"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Pyramids",
+      "date": "2026-08-27"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "National Bank Of Egypt",
+      "date": "2026-08-21"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-15T14:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "3 casas",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  }
+ ]
+}
