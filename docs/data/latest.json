@@ -1,10 +1,10 @@
 {
  "date": "2026-09-13",
- "generated_at": "2026-09-13T08:17:05.231518-03:00",
+ "generated_at": "2026-09-13T17:12:46.486905-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
- "day_total": 117,
+ "day_total": 120,
  "games": [
   {
    "id": 4632686,
@@ -29,14 +29,14 @@
     "expected_goals": 2.69,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.6873,
-     "DRAW": 0.1974,
-     "AWAY": 0.1153,
-     "1X": 0.8847,
-     "X2": 0.3127,
-     "12": 0.8026,
-     "OVER25": 0.5036,
-     "UNDER25": 0.4964,
+     "HOME": 0.6876,
+     "DRAW": 0.1973,
+     "AWAY": 0.1152,
+     "1X": 0.8848,
+     "X2": 0.3124,
+     "12": 0.8027,
+     "OVER25": 0.5038,
+     "UNDER25": 0.4962,
      "BTTS_YES": 0.4264,
      "BTTS_NO": 0.5736
     }
@@ -45,11 +45,11 @@
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Flamengo",
-    "model_prob": 0.6873,
+    "model_prob": 0.6876,
     "trend_alignment": 1.0,
     "confidence": 78,
     "eligible": true,
-    "odd": 1.23,
+    "odd": 1.25,
     "low_conviction": false
    },
    "alt_markets": [
@@ -57,11 +57,11 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Flamengo ou empate (1X)",
-     "model_prob": 0.8847,
+     "model_prob": 0.8848,
      "trend_alignment": 1.0,
      "confidence": 78,
      "eligible": true,
-     "odd": 1.03
+     "odd": 1.04
     },
     {
      "selection": "BTTS_NO",
@@ -77,21 +77,21 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.4964,
+     "model_prob": 0.4962,
      "trend_alignment": 0.278,
      "confidence": 10,
      "eligible": false,
-     "odd": 2.12
+     "odd": 2.09
     },
     {
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Corinthians",
-     "model_prob": 0.1153,
+     "model_prob": 0.1152,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 13.0
+     "odd": 12.12
     }
    ],
    "trends": [
@@ -375,8 +375,8 @@
     "id": 698,
     "name": "Utrecht"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 1.0,
+   "away_score": 2.0,
    "model": {
     "lambda_home": 2.9,
     "lambda_away": 1.17,
@@ -657,7 +657,7 @@
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
-   "result": "pending",
+   "result": "miss",
    "clear": true
   },
   {
@@ -675,8 +675,8 @@
     "id": 1887,
     "name": "Kalmar FF"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 1.0,
+   "away_score": 0.0,
    "model": {
     "lambda_home": 1.81,
     "lambda_away": 0.64,
@@ -966,7 +966,7 @@
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -984,8 +984,8 @@
     "id": 49312,
     "name": "Erokspor"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 2.0,
    "model": {
     "lambda_home": 1.68,
     "lambda_away": 0.66,
@@ -1284,7 +1284,7 @@
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
-   "result": "pending",
+   "result": "miss",
    "clear": true
   },
   {
@@ -1302,8 +1302,8 @@
     "id": 1024,
     "name": "AEK Athens"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 1.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 0.74,
     "lambda_away": 2.2,
@@ -1518,7 +1518,7 @@
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
-   "result": "pending",
+   "result": "miss",
    "clear": true
   }
  ]

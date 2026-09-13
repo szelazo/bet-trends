@@ -1,6 +1,6 @@
 {
  "date": "2026-09-15",
- "generated_at": "2026-09-13T08:17:07.730402-03:00",
+ "generated_at": "2026-09-13T17:12:49.323966-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -29,27 +29,27 @@
     "expected_goals": 3.79,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.7822,
-     "DRAW": 0.1318,
-     "AWAY": 0.0861,
-     "1X": 0.9139,
-     "X2": 0.2178,
-     "12": 0.8682,
-     "OVER25": 0.7289,
-     "UNDER25": 0.2711,
-     "BTTS_YES": 0.5574,
-     "BTTS_NO": 0.4426
+     "HOME": 0.7823,
+     "DRAW": 0.1317,
+     "AWAY": 0.086,
+     "1X": 0.914,
+     "X2": 0.2177,
+     "12": 0.8683,
+     "OVER25": 0.7288,
+     "UNDER25": 0.2712,
+     "BTTS_YES": 0.5571,
+     "BTTS_NO": 0.4429
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Ajax",
-    "model_prob": 0.7822,
+    "model_prob": 0.7823,
     "trend_alignment": 1.0,
     "confidence": 82,
     "eligible": true,
-    "odd": 1.19,
+    "odd": 1.17,
     "low_conviction": false
    },
    "alt_markets": [
@@ -57,7 +57,7 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Ajax ou empate (1X)",
-     "model_prob": 0.9139,
+     "model_prob": 0.914,
      "trend_alignment": 1.0,
      "confidence": 82,
      "eligible": true,
@@ -67,17 +67,17 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.7289,
+     "model_prob": 0.7288,
      "trend_alignment": 0.635,
      "confidence": 52,
      "eligible": true,
-     "odd": 1.62
+     "odd": 1.56
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5574,
+     "model_prob": 0.5571,
      "trend_alignment": 0.635,
      "confidence": 30,
      "eligible": false,
@@ -87,11 +87,11 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Willem II",
-     "model_prob": 0.0861,
+     "model_prob": 0.086,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 10.75
+     "odd": 11.0
     }
    ],
    "trends": [
@@ -324,28 +324,28 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 2.25,
-    "lambda_away": 0.78,
-    "expected_goals": 3.03,
+    "lambda_home": 2.26,
+    "lambda_away": 0.77,
+    "expected_goals": 3.04,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.7076,
-     "DRAW": 0.1784,
-     "AWAY": 0.114,
-     "1X": 0.886,
-     "X2": 0.2924,
-     "12": 0.8216,
-     "OVER25": 0.5826,
-     "UNDER25": 0.4174,
-     "BTTS_YES": 0.4833,
-     "BTTS_NO": 0.5167
+     "HOME": 0.7105,
+     "DRAW": 0.177,
+     "AWAY": 0.1125,
+     "1X": 0.8875,
+     "X2": 0.2895,
+     "12": 0.823,
+     "OVER25": 0.5845,
+     "UNDER25": 0.4155,
+     "BTTS_YES": 0.4827,
+     "BTTS_NO": 0.5173
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Alaves",
-    "model_prob": 0.7076,
+    "model_prob": 0.7105,
     "trend_alignment": 1.0,
     "confidence": 79,
     "eligible": true,
@@ -357,7 +357,7 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Alaves ou empate (1X)",
-     "model_prob": 0.886,
+     "model_prob": 0.8875,
      "trend_alignment": 1.0,
      "confidence": 79,
      "eligible": true,
@@ -367,7 +367,7 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.5826,
+     "model_prob": 0.5845,
      "trend_alignment": 0.2,
      "confidence": 18,
      "eligible": false,
@@ -377,7 +377,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.4833,
+     "model_prob": 0.4827,
      "trend_alignment": 0.2,
      "confidence": 7,
      "eligible": false,
@@ -387,7 +387,7 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.5167,
+     "model_prob": 0.5173,
      "trend_alignment": 0.0,
      "confidence": 2,
      "eligible": false,
@@ -634,31 +634,31 @@
    "away_score": -1.0,
    "model": {
     "lambda_home": 1.03,
-    "lambda_away": 2.57,
-    "expected_goals": 3.61,
+    "lambda_away": 2.59,
+    "expected_goals": 3.62,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.1307,
-     "DRAW": 0.1644,
-     "AWAY": 0.7049,
-     "1X": 0.2951,
-     "X2": 0.8693,
-     "12": 0.8356,
-     "OVER25": 0.6978,
-     "UNDER25": 0.3022,
-     "BTTS_YES": 0.5948,
-     "BTTS_NO": 0.4052
+     "HOME": 0.1287,
+     "DRAW": 0.163,
+     "AWAY": 0.7083,
+     "1X": 0.2917,
+     "X2": 0.8713,
+     "12": 0.837,
+     "OVER25": 0.6997,
+     "UNDER25": 0.3003,
+     "BTTS_YES": 0.5942,
+     "BTTS_NO": 0.4058
     }
    },
    "pick": {
     "selection": "AWAY",
     "family": "1x2",
     "label": "Vitória do Real Madrid",
-    "model_prob": 0.7049,
+    "model_prob": 0.7083,
     "trend_alignment": 1.0,
-    "confidence": 76,
+    "confidence": 77,
     "eligible": true,
-    "odd": 1.33,
+    "odd": 1.27,
     "low_conviction": false
    },
    "alt_markets": [
@@ -666,17 +666,17 @@
      "selection": "X2",
      "family": "double_chance",
      "label": "Dupla chance: Real Madrid ou empate (X2)",
-     "model_prob": 0.8693,
+     "model_prob": 0.8713,
      "trend_alignment": 1.0,
-     "confidence": 76,
+     "confidence": 77,
      "eligible": true,
-     "odd": 1.08
+     "odd": 1.06
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6978,
+     "model_prob": 0.6997,
      "trend_alignment": 0.609,
      "confidence": 47,
      "eligible": true,
@@ -686,7 +686,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5948,
+     "model_prob": 0.5942,
      "trend_alignment": 0.609,
      "confidence": 34,
      "eligible": false,
@@ -696,11 +696,11 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Elche",
-     "model_prob": 0.1307,
+     "model_prob": 0.1287,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 8.5
+     "odd": 10.0
     }
    ],
    "trends": [
@@ -806,7 +806,7 @@
      "kind": "table_gap"
     }
    ],
-   "confidence": 76,
+   "confidence": 77,
    "league": {
     "key": "laliga",
     "name": "LaLiga",
@@ -958,7 +958,7 @@
     "trend_alignment": 1.0,
     "confidence": 68,
     "eligible": true,
-    "odd": 1.31,
+    "odd": 1.32,
     "low_conviction": false
    },
    "alt_markets": [
@@ -970,7 +970,7 @@
      "trend_alignment": 1.0,
      "confidence": 58,
      "eligible": true,
-     "odd": 1.97
+     "odd": 2.02
     },
     {
      "selection": "OVER25",
