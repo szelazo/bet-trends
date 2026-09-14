@@ -114,8 +114,13 @@ def form_ppg(recent: list[dict], n: int = 5) -> float | None:
 def clear_edge(
     selection: str, home_row: dict, away_row: dict,
     h_recent: list[dict], a_recent: list[dict], *, table_size: int, is_cup: bool,
+    edge_config: dict | None = None,
 ) -> bool:
-    """True só quando é claramente 'time bem x time mal': tabela + forma dos dois lados."""
+    """True só quando é claramente 'time bem x time mal': tabela + forma dos dois lados.
+
+    `edge_config` deixa a recalibração automática (app/autotune.py) injetar limiares
+    ajustados sem tocar em config.CLEAR_EDGE; por padrão usa o config normal.
+    """
     if selection in ("HOME", "1X"):
         fav_recent, dog_recent, fav_is_home = h_recent, a_recent, True
     elif selection in ("AWAY", "X2"):
@@ -123,7 +128,7 @@ def clear_edge(
     else:
         return False  # over/under/btts não é "mismatch" nesse sentido
 
-    c = CLEAR_EDGE
+    c = edge_config if edge_config is not None else CLEAR_EDGE
     if len(fav_recent[:5]) < 3 or len(dog_recent[:5]) < 3:
         return False  # amostra curta demais p/ afirmar "fase" (início de temporada)
     fav_ppg, dog_ppg = form_ppg(fav_recent), form_ppg(dog_recent)

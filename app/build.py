@@ -16,7 +16,8 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 from . import __version__
-from .config import CLEAR_EDGE, S365, enabled_leagues
+from .autotune import disabled_league_keys, effective_clear_edge, load_state as load_autotune_state, maybe_run as maybe_autotune
+from .config import S365, enabled_leagues
 from .model import league_avg_goals, predict
 from .recommend import clear_edge, evaluate
 from .results import compute_stats, grade_history
@@ -139,7 +140,16 @@ def select_day_picks(day: list[dict], prev_games: list[dict], ce: dict) -> tuple
 
 
 def build(target: date, days: int, *, out_dir: Path, use_odds: bool, cache_dir: str) -> dict:
-    leagues = enabled_leagues()
+    out_dir.mkdir(parents=True, exist_ok=True)
+    autotune_state = load_autotune_state(out_dir)
+    disabled_keys = disabled_league_keys(autotune_state)
+    ce = effective_clear_edge(autotune_state)
+    if disabled_keys:
+        print(f"  (autotune) ligas desativadas automaticamente: {sorted(disabled_keys)}")
+    if autotune_state.get("clear_edge_overrides"):
+        print(f"  (autotune) critério ajustado: {autotune_state['clear_edge_overrides']}")
+
+    leagues = [lg for lg in enabled_leagues() if lg.key not in disabled_keys]
     league_by_s365 = {lg.s365_id: lg for lg in leagues}
     window_start = target - timedelta(days=S365["history_days"])
     window_end = target + timedelta(days=days)
@@ -185,7 +195,7 @@ def build(target: date, days: int, *, out_dir: Path, use_odds: bool, cache_dir: 
         item["result"] = "pending"  # vira "hit"/"miss"/"void" depois que o jogo termina
         item["clear"] = clear_edge(
             item["pick"]["selection"], hr, ar, h_recent, a_recent,
-            table_size=len(all_rows), is_cup=lg.cup,
+            table_size=len(all_rows), is_cup=lg.cup, edge_config=ce,
         )
         item["_ctx"] = (g, model, trends, lg)
         return item
@@ -267,9 +277,7 @@ def build(target: date, days: int, *, out_dir: Path, use_odds: bool, cache_dir: 
             day_total_all[dd] = day_total_all.get(dd, 0) + 1
 
     # ── escreve um arquivo por data ──────────────────────────────────────────
-    out_dir.mkdir(parents=True, exist_ok=True)
     written_dates: list[str] = []
-    ce = CLEAR_EDGE
     for d in target_dates:
         day = [g for g in enriched if _local_date(g["start_time"]) == d]
 
@@ -358,6 +366,12 @@ def build(target: date, days: int, *, out_dir: Path, use_odds: bool, cache_dir: 
         f"semana {stats['week']['hits']}/{stats['week']['total']} · "
         f"total {stats['all_time']['hits']}/{stats['all_time']['total']}"
     )
+
+    # recalibração automática — só age de fato a cada AUTOTUNE["interval_days"]
+    new_state = maybe_autotune(out_dir, target)
+    if new_state["last_run"] == target.isoformat():
+        for change in new_state["log"][-1]["changes"]:
+            print(f"  (autotune) {change}")
 
     return {"dates": written_dates, "games": len(enriched)}
 

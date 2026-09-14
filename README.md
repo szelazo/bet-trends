@@ -50,16 +50,33 @@ pytest
 
 Tudo em `app/config.py`:
 
-- **`LEAGUES`** — ligas cobertas. Para adicionar uma:
+- **`LEAGUES`** — ligas cobertas (e as 7 copas, com `cup=True`). Para adicionar uma:
   ```bash
   python -m app.discover "nome da liga"     # acha o competitionId do 365scores
   ```
   e acrescente uma linha em `LEAGUES` (o `odds_key` pode ser `None`).
-- **`MODEL`** — pesos do modelo (mando de campo, temporada vs. recente, compressão de
-  forças extremas, limites de gols esperados).
-- **`SCORING`** — pisos de probabilidade por mercado, peso prob. × tendência, limiar de
-  valor, fração de Kelly, confiança mínima para um jogo entrar na lista.
-- **`BANKROLL`** — se preenchido, o stake aparece em R$ em vez de %.
+- **`MODEL`** — pesos do modelo Poisson (mando de campo, temporada vs. recente,
+  compressão de forças extremas, limites de gols esperados).
+- **`SCORING`** — pisos de probabilidade por mercado, peso prob. × tendência, quando
+  dupla chance vira resultado seco.
+- **`CLEAR_EDGE`** — o filtro de "aposta clara" (diferença de tabela + forma dos dois
+  lados, teto de palpites/dia). É o principal botão de rigor do site.
+- **`PRELAUNCH_RECORD`** — placar de antes do site existir, somado só no "Total" geral.
+
+### Recalibração automática (`app/autotune.py`)
+
+A cada build, o sistema confere se já passou `AUTOTUNE["interval_days"]` (padrão 14 dias)
+desde o último ajuste. Quando passa, ele reage ao histórico **sem IA nenhuma no loop**,
+só regras simples com amostra mínima:
+
+- liga com acerto ruim (≥8 palpites claros avaliados, acerto < 55%) → **desativada**;
+- acerto geral abaixo do esperado (≥20 palpites, < 65%) → **aperta** `fav_form_ppg` e
+  `min_table_gap` um passo (com teto — nunca fica impossível de bater o critério).
+
+Nunca afrouxa sozinho e nunca edita `app/config.py` — tudo fica em
+**`docs/data/autotune.json`** (dá pra abrir, ler o motivo de cada ajuste em `log`, editar
+ou simplesmente apagar o arquivo pra voltar ao padrão do `config.py`). Pra desligar de
+vez: `AUTOTUNE["enabled"] = False`.
 
 ## Deploy (uma vez)
 

@@ -173,6 +173,24 @@ CLEAR_EDGE = {
     "min_per_day": 3,            # se menos que isso passam, completa com os "menos ruins"
 }
 
+# ── Recalibração automática (sem IA no loop) ──────────────────────────────────
+# A cada `interval_days`, o build olha o histórico de resultados e reage — sem
+# tocar neste arquivo, tudo fica em docs/data/autotune.json (auditável e
+# reversível: apagar o arquivo volta tudo ao padrão). Só aperta, nunca afrouxa
+# sozinho. Ver app/autotune.py.
+AUTOTUNE = {
+    "enabled": True,
+    "interval_days": 14,
+    "min_league_samples": 8,          # jogos claros e avaliados p/ poder julgar 1 liga
+    "league_disable_hitrate": 0.55,   # acerto abaixo disso (com amostra) desliga a liga
+    "min_global_samples": 20,         # amostra mínima p/ mexer no critério geral
+    "global_tighten_hitrate": 0.65,   # acerto geral abaixo disso aperta o filtro
+    "form_ppg_step": 0.1,
+    "form_ppg_cap": 2.2,
+    "table_gap_step": 1,
+    "table_gap_cap": 9,
+}
+
 HTTP_HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "

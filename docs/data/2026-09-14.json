@@ -1,10 +1,10 @@
 {
  "date": "2026-09-14",
- "generated_at": "2026-09-13T17:12:47.793257-03:00",
+ "generated_at": "2026-09-14T07:27:10.779408-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
- "day_total": 32,
+ "day_total": 31,
  "games": [
   {
    "id": 4732000,
@@ -24,32 +24,32 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 2.57,
+    "lambda_home": 2.54,
     "lambda_away": 0.62,
-    "expected_goals": 3.19,
+    "expected_goals": 3.16,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.795,
-     "DRAW": 0.1377,
-     "AWAY": 0.0673,
-     "1X": 0.9327,
-     "X2": 0.205,
-     "12": 0.8623,
-     "OVER25": 0.617,
-     "UNDER25": 0.383,
-     "BTTS_YES": 0.4246,
-     "BTTS_NO": 0.5754
+     "HOME": 0.7896,
+     "DRAW": 0.1408,
+     "AWAY": 0.0696,
+     "1X": 0.9304,
+     "X2": 0.2104,
+     "12": 0.8592,
+     "OVER25": 0.6113,
+     "UNDER25": 0.3887,
+     "BTTS_YES": 0.4257,
+     "BTTS_NO": 0.5743
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do America de Cali",
-    "model_prob": 0.795,
+    "model_prob": 0.7896,
     "trend_alignment": 1.0,
     "confidence": 85,
     "eligible": true,
-    "odd": 1.41,
+    "odd": 1.42,
     "low_conviction": false
    },
    "alt_markets": [
@@ -57,19 +57,19 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: America de Cali ou empate (1X)",
-     "model_prob": 0.9327,
+     "model_prob": 0.9304,
      "trend_alignment": 1.0,
      "confidence": 85,
      "eligible": true,
-     "odd": 1.1
+     "odd": 1.11
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.617,
+     "model_prob": 0.6113,
      "trend_alignment": 0.793,
-     "confidence": 43,
+     "confidence": 42,
      "eligible": true,
      "odd": 1.92
     },
@@ -77,7 +77,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.4246,
+     "model_prob": 0.4257,
      "trend_alignment": 0.793,
      "confidence": 28,
      "eligible": false,
@@ -87,7 +87,7 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.5754,
+     "model_prob": 0.5743,
      "trend_alignment": 0.0,
      "confidence": 10,
      "eligible": false,
@@ -430,7 +430,7 @@
     "trend_alignment": 1.0,
     "confidence": 80,
     "eligible": true,
-    "odd": 1.44,
+    "odd": 1.43,
     "low_conviction": false
    },
    "alt_markets": [
@@ -452,7 +452,7 @@
      "trend_alignment": 0.079,
      "confidence": 18,
      "eligible": true,
-     "odd": 1.74
+     "odd": 1.71
     },
     {
      "selection": "BTTS_YES",
@@ -705,32 +705,32 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 1.96,
-    "lambda_away": 0.64,
-    "expected_goals": 2.6,
+    "lambda_home": 1.93,
+    "lambda_away": 0.65,
+    "expected_goals": 2.58,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.6874,
-     "DRAW": 0.2007,
-     "AWAY": 0.1119,
-     "1X": 0.8881,
-     "X2": 0.3126,
-     "12": 0.7993,
-     "OVER25": 0.4826,
-     "UNDER25": 0.5174,
-     "BTTS_YES": 0.4067,
-     "BTTS_NO": 0.5933
+     "HOME": 0.6788,
+     "DRAW": 0.2049,
+     "AWAY": 0.1164,
+     "1X": 0.8836,
+     "X2": 0.3212,
+     "12": 0.7951,
+     "OVER25": 0.4768,
+     "UNDER25": 0.5232,
+     "BTTS_YES": 0.4084,
+     "BTTS_NO": 0.5916
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Como",
-    "model_prob": 0.6874,
+    "model_prob": 0.6788,
     "trend_alignment": 1.0,
-    "confidence": 79,
+    "confidence": 78,
     "eligible": true,
-    "odd": 1.22,
+    "odd": 1.23,
     "low_conviction": false
    },
    "alt_markets": [
@@ -738,17 +738,17 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Como ou empate (1X)",
-     "model_prob": 0.8881,
+     "model_prob": 0.8836,
      "trend_alignment": 1.0,
-     "confidence": 79,
+     "confidence": 78,
      "eligible": true,
-     "odd": 1.02
+     "odd": 1.03
     },
     {
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.5933,
+     "model_prob": 0.5916,
      "trend_alignment": 0.067,
      "confidence": 14,
      "eligible": false,
@@ -758,21 +758,21 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.5174,
+     "model_prob": 0.5232,
      "trend_alignment": 0.067,
      "confidence": 5,
      "eligible": false,
-     "odd": 2.2
+     "odd": 2.3
     },
     {
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Parma",
-     "model_prob": 0.1119,
+     "model_prob": 0.1164,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 15.0
+     "odd": 14.12
     }
    ],
    "trends": [
@@ -878,7 +878,7 @@
      "kind": "table_gap"
     }
    ],
-   "confidence": 79,
+   "confidence": 78,
    "league": {
     "key": "serie_a_ita",
     "name": "Serie A",
@@ -991,32 +991,32 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 1.88,
-    "lambda_away": 0.77,
-    "expected_goals": 2.65,
+    "lambda_home": 1.87,
+    "lambda_away": 0.76,
+    "expected_goals": 2.63,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.6374,
-     "DRAW": 0.2164,
-     "AWAY": 0.1461,
-     "1X": 0.8539,
-     "X2": 0.3626,
-     "12": 0.7836,
-     "OVER25": 0.4929,
-     "UNDER25": 0.5071,
-     "BTTS_YES": 0.4535,
-     "BTTS_NO": 0.5465
+     "HOME": 0.6355,
+     "DRAW": 0.2176,
+     "AWAY": 0.1469,
+     "1X": 0.8531,
+     "X2": 0.3645,
+     "12": 0.7824,
+     "OVER25": 0.4896,
+     "UNDER25": 0.5104,
+     "BTTS_YES": 0.4519,
+     "BTTS_NO": 0.5481
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do SC Braga",
-    "model_prob": 0.6374,
+    "model_prob": 0.6355,
     "trend_alignment": 1.0,
     "confidence": 74,
     "eligible": true,
-    "odd": 1.41,
+    "odd": 1.4,
     "low_conviction": false
    },
    "alt_markets": [
@@ -1024,17 +1024,17 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: SC Braga ou empate (1X)",
-     "model_prob": 0.8539,
+     "model_prob": 0.8531,
      "trend_alignment": 1.0,
      "confidence": 74,
      "eligible": true,
-     "odd": 1.1
+     "odd": 1.09
     },
     {
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.5465,
+     "model_prob": 0.5481,
      "trend_alignment": 0.313,
      "confidence": 17,
      "eligible": false,
@@ -1044,7 +1044,7 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.5071,
+     "model_prob": 0.5104,
      "trend_alignment": 0.313,
      "confidence": 12,
      "eligible": false,
@@ -1054,11 +1054,11 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Estoril",
-     "model_prob": 0.1461,
+     "model_prob": 0.1469,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 7.5
+     "odd": 7.9
     }
    ],
    "trends": [
@@ -1287,23 +1287,23 @@
     "expected_goals": 3.38,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.6557,
-     "DRAW": 0.1855,
-     "AWAY": 0.1588,
-     "1X": 0.8412,
-     "X2": 0.3443,
-     "12": 0.8145,
-     "OVER25": 0.657,
-     "UNDER25": 0.343,
-     "BTTS_YES": 0.5897,
-     "BTTS_NO": 0.4103
+     "HOME": 0.6553,
+     "DRAW": 0.1858,
+     "AWAY": 0.1589,
+     "1X": 0.8411,
+     "X2": 0.3447,
+     "12": 0.8142,
+     "OVER25": 0.6559,
+     "UNDER25": 0.3441,
+     "BTTS_YES": 0.5889,
+     "BTTS_NO": 0.4111
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Bahia",
-    "model_prob": 0.6557,
+    "model_prob": 0.6553,
     "trend_alignment": 1.0,
     "confidence": 72,
     "eligible": true,
@@ -1315,7 +1315,7 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Bahia ou empate (1X)",
-     "model_prob": 0.8412,
+     "model_prob": 0.8411,
      "trend_alignment": 1.0,
      "confidence": 72,
      "eligible": true,
@@ -1325,17 +1325,17 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.657,
+     "model_prob": 0.6559,
      "trend_alignment": 0.513,
      "confidence": 38,
      "eligible": true,
-     "odd": 1.66
+     "odd": 1.6
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5897,
+     "model_prob": 0.5889,
      "trend_alignment": 0.513,
      "confidence": 30,
      "eligible": false,
@@ -1345,7 +1345,7 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Remo",
-     "model_prob": 0.1588,
+     "model_prob": 0.1589,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
