@@ -1,6 +1,6 @@
 {
  "date": "2026-09-16",
- "generated_at": "2026-09-14T08:18:05.697441-03:00",
+ "generated_at": "2026-09-14T17:12:34.833875-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 2,
@@ -24,30 +24,30 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 0.57,
-    "lambda_away": 1.76,
+    "lambda_home": 0.56,
+    "lambda_away": 1.77,
     "expected_goals": 2.33,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.1142,
-     "DRAW": 0.2222,
-     "AWAY": 0.6636,
-     "1X": 0.3364,
-     "X2": 0.8858,
-     "12": 0.7778,
-     "OVER25": 0.4114,
-     "UNDER25": 0.5886,
-     "BTTS_YES": 0.3589,
-     "BTTS_NO": 0.6411
+     "HOME": 0.1117,
+     "DRAW": 0.2206,
+     "AWAY": 0.6677,
+     "1X": 0.3323,
+     "X2": 0.8883,
+     "12": 0.7794,
+     "OVER25": 0.412,
+     "UNDER25": 0.588,
+     "BTTS_YES": 0.3562,
+     "BTTS_NO": 0.6438
     }
    },
    "pick": {
     "selection": "AWAY",
     "family": "1x2",
     "label": "Vitória do Zamalek SC",
-    "model_prob": 0.6636,
+    "model_prob": 0.6677,
     "trend_alignment": 1.0,
-    "confidence": 78,
+    "confidence": 79,
     "eligible": true,
     "odd": 1.7,
     "low_conviction": false
@@ -57,9 +57,9 @@
      "selection": "X2",
      "family": "double_chance",
      "label": "Dupla chance: Zamalek SC ou empate (X2)",
-     "model_prob": 0.8858,
+     "model_prob": 0.8883,
      "trend_alignment": 1.0,
-     "confidence": 78,
+     "confidence": 79,
      "eligible": true,
      "odd": 1.18
     },
@@ -67,7 +67,7 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.6411,
+     "model_prob": 0.6438,
      "trend_alignment": 0.278,
      "confidence": 28,
      "eligible": true,
@@ -77,17 +77,17 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.5886,
+     "model_prob": 0.588,
      "trend_alignment": 0.278,
      "confidence": 21,
      "eligible": false,
-     "odd": 1.66
+     "odd": 1.62
     },
     {
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Ghazl El-Mehalla",
-     "model_prob": 0.1142,
+     "model_prob": 0.1117,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
@@ -141,7 +141,7 @@
      "kind": "no_score"
     },
     {
-     "label": "Ghazl El-Mehalla é 20º · Zamalek SC é 2º",
+     "label": "Ghazl El-Mehalla é 20º · Zamalek SC é 3º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -150,7 +150,7 @@
      "kind": "positions"
     },
     {
-     "label": "Zamalek SC está 18 posições à frente",
+     "label": "Zamalek SC está 17 posições à frente",
      "strength": 0.8,
      "favors": "AWAY",
      "team": null,
@@ -197,7 +197,7 @@
      "kind": "no_score"
     },
     {
-     "label": "Zamalek SC está 18 posições à frente",
+     "label": "Zamalek SC está 17 posições à frente",
      "strength": 0.8,
      "favors": "AWAY",
      "team": null,
@@ -206,7 +206,7 @@
      "kind": "table_gap"
     }
    ],
-   "confidence": 78,
+   "confidence": 79,
    "league": {
     "key": "egypt",
     "name": "Premier League",
@@ -256,7 +256,7 @@
    "away_team": {
     "id": 8201,
     "name": "Zamalek SC",
-    "position": 2,
+    "position": 3,
     "played": 4,
     "points": 10.0,
     "record": "3V 1E 0D",
@@ -326,28 +326,28 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 2.57,
-    "lambda_away": 1.31,
+    "lambda_home": 2.58,
+    "lambda_away": 1.32,
     "expected_goals": 3.89,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.6454,
-     "DRAW": 0.176,
-     "AWAY": 0.1785,
-     "1X": 0.8215,
-     "X2": 0.3546,
-     "12": 0.824,
-     "OVER25": 0.7446,
-     "UNDER25": 0.2554,
-     "BTTS_YES": 0.6754,
-     "BTTS_NO": 0.3246
+     "HOME": 0.6458,
+     "DRAW": 0.1758,
+     "AWAY": 0.1784,
+     "1X": 0.8216,
+     "X2": 0.3542,
+     "12": 0.8242,
+     "OVER25": 0.7457,
+     "UNDER25": 0.2543,
+     "BTTS_YES": 0.6763,
+     "BTTS_NO": 0.3237
     }
    },
    "pick": {
     "selection": "1X",
     "family": "double_chance",
     "label": "Dupla chance: AIK Solna ou empate (1X)",
-    "model_prob": 0.8215,
+    "model_prob": 0.8216,
     "trend_alignment": 0.905,
     "confidence": 67,
     "eligible": true,
@@ -359,27 +359,27 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do AIK Solna",
-     "model_prob": 0.6454,
+     "model_prob": 0.6458,
      "trend_alignment": 0.905,
      "confidence": 62,
      "eligible": true,
-     "odd": 2.13
+     "odd": 2.11
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.7446,
+     "model_prob": 0.7457,
      "trend_alignment": 0.58,
      "confidence": 52,
      "eligible": true,
-     "odd": 1.72
+     "odd": 1.7
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.6754,
+     "model_prob": 0.6763,
      "trend_alignment": 0.58,
      "confidence": 43,
      "eligible": true,
@@ -389,11 +389,11 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Mjällby AIF",
-     "model_prob": 0.1785,
+     "model_prob": 0.1784,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 3.08
+     "odd": 3.1
     }
    ],
    "trends": [
@@ -621,8 +621,8 @@
      "12": 0.8547,
      "OVER25": 0.7396,
      "UNDER25": 0.2604,
-     "BTTS_YES": 0.605,
-     "BTTS_NO": 0.395
+     "BTTS_YES": 0.6051,
+     "BTTS_NO": 0.3949
     }
    },
    "pick": {
@@ -661,7 +661,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.605,
+     "model_prob": 0.6051,
      "trend_alignment": 0.922,
      "confidence": 46,
      "eligible": true,
@@ -675,7 +675,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 25.0
+     "odd": 23.0
     }
    ],
    "trends": [

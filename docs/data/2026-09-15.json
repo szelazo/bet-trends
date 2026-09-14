@@ -1,6 +1,6 @@
 {
  "date": "2026-09-15",
- "generated_at": "2026-09-14T08:18:04.971410-03:00",
+ "generated_at": "2026-09-14T17:12:34.087975-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -49,7 +49,7 @@
     "trend_alignment": 1.0,
     "confidence": 82,
     "eligible": true,
-    "odd": 1.15,
+    "odd": 1.12,
     "low_conviction": false
    },
    "alt_markets": [
@@ -61,7 +61,7 @@
      "trend_alignment": 1.0,
      "confidence": 82,
      "eligible": true,
-     "odd": 1.03
+     "odd": 1.02
     },
     {
      "selection": "OVER25",
@@ -71,7 +71,7 @@
      "trend_alignment": 0.635,
      "confidence": 52,
      "eligible": true,
-     "odd": 1.62
+     "odd": 2.25
     },
     {
      "selection": "BTTS_YES",
@@ -91,7 +91,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 14.62
+     "odd": 17.0
     }
    ],
    "trends": [
@@ -330,13 +330,13 @@
     "sample_factor": 1.0,
     "probs": {
      "HOME": 0.7057,
-     "DRAW": 0.1792,
+     "DRAW": 0.1793,
      "AWAY": 0.115,
      "1X": 0.885,
      "X2": 0.2943,
-     "12": 0.8208,
-     "OVER25": 0.5814,
-     "UNDER25": 0.4186,
+     "12": 0.8207,
+     "OVER25": 0.5813,
+     "UNDER25": 0.4187,
      "BTTS_YES": 0.4837,
      "BTTS_NO": 0.5163
     }
@@ -349,7 +349,7 @@
     "trend_alignment": 1.0,
     "confidence": 78,
     "eligible": true,
-    "odd": 1.79,
+    "odd": 1.84,
     "low_conviction": false
    },
    "alt_markets": [
@@ -361,17 +361,17 @@
      "trend_alignment": 1.0,
      "confidence": 78,
      "eligible": true,
-     "odd": 1.18
+     "odd": 1.19
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.5814,
+     "model_prob": 0.5813,
      "trend_alignment": 0.2,
      "confidence": 18,
      "eligible": false,
-     "odd": 2.22
+     "odd": 2.25
     },
     {
      "selection": "BTTS_YES",
@@ -441,7 +441,7 @@
      "kind": "winless_streak"
     },
     {
-     "label": "Alaves é 3º · Valencia é 20º",
+     "label": "Alaves é 4º · Valencia é 20º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -450,7 +450,7 @@
      "kind": "positions"
     },
     {
-     "label": "Alaves está 17 posições à frente",
+     "label": "Alaves está 16 posições à frente",
      "strength": 0.8,
      "favors": "HOME",
      "team": null,
@@ -497,7 +497,7 @@
      "kind": "winless_streak"
     },
     {
-     "label": "Alaves está 17 posições à frente",
+     "label": "Alaves está 16 posições à frente",
      "strength": 0.8,
      "favors": "HOME",
      "team": null,
@@ -515,7 +515,7 @@
    "home_team": {
     "id": 168,
     "name": "Alaves",
-    "position": 3,
+    "position": 4,
     "played": 5,
     "points": 10.0,
     "record": "3V 1E 1D",
@@ -638,11 +638,11 @@
     "expected_goals": 3.6,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.1319,
+     "HOME": 0.132,
      "DRAW": 0.1653,
      "AWAY": 0.7028,
      "1X": 0.2972,
-     "X2": 0.8681,
+     "X2": 0.868,
      "12": 0.8347,
      "OVER25": 0.6966,
      "UNDER25": 0.3034,
@@ -658,7 +658,7 @@
     "trend_alignment": 1.0,
     "confidence": 76,
     "eligible": true,
-    "odd": 1.25,
+    "odd": 1.22,
     "low_conviction": false
    },
    "alt_markets": [
@@ -666,7 +666,7 @@
      "selection": "X2",
      "family": "double_chance",
      "label": "Dupla chance: Real Madrid ou empate (X2)",
-     "model_prob": 0.8681,
+     "model_prob": 0.868,
      "trend_alignment": 1.0,
      "confidence": 76,
      "eligible": true,
@@ -680,7 +680,7 @@
      "trend_alignment": 0.609,
      "confidence": 47,
      "eligible": true,
-     "odd": 1.91
+     "odd": 1.8
     },
     {
      "selection": "BTTS_YES",
@@ -696,11 +696,11 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Elche",
-     "model_prob": 0.1319,
+     "model_prob": 0.132,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 10.62
+     "odd": 11.0
     }
    ],
    "trends": [
@@ -958,7 +958,7 @@
     "trend_alignment": 1.0,
     "confidence": 68,
     "eligible": true,
-    "odd": 1.29,
+    "odd": 1.26,
     "low_conviction": false
    },
    "alt_markets": [
@@ -970,7 +970,7 @@
      "trend_alignment": 1.0,
      "confidence": 58,
      "eligible": true,
-     "odd": 1.98
+     "odd": 1.89
     },
     {
      "selection": "OVER25",
@@ -980,7 +980,7 @@
      "trend_alignment": 0.367,
      "confidence": 13,
      "eligible": false,
-     "odd": 1.74
+     "odd": 1.73
     },
     {
      "selection": "BTTS_YES",
@@ -1242,28 +1242,28 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 2.06,
-    "lambda_away": 0.55,
+    "lambda_home": 2.07,
+    "lambda_away": 0.54,
     "expected_goals": 2.61,
     "sample_factor": 0.8,
     "probs": {
-     "HOME": 0.7309,
-     "DRAW": 0.183,
-     "AWAY": 0.0861,
-     "1X": 0.9139,
-     "X2": 0.2691,
-     "12": 0.817,
-     "OVER25": 0.4836,
-     "UNDER25": 0.5164,
-     "BTTS_YES": 0.367,
-     "BTTS_NO": 0.633
+     "HOME": 0.7331,
+     "DRAW": 0.1818,
+     "AWAY": 0.0851,
+     "1X": 0.9149,
+     "X2": 0.2669,
+     "12": 0.8182,
+     "OVER25": 0.4851,
+     "UNDER25": 0.5149,
+     "BTTS_YES": 0.3661,
+     "BTTS_NO": 0.6339
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Al Ahly SC",
-    "model_prob": 0.7309,
+    "model_prob": 0.7331,
     "trend_alignment": 1.0,
     "confidence": 66,
     "eligible": true,
@@ -1275,7 +1275,7 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Al Ahly SC ou empate (1X)",
-     "model_prob": 0.9139,
+     "model_prob": 0.9149,
      "trend_alignment": 1.0,
      "confidence": 66,
      "eligible": true,
@@ -1285,9 +1285,9 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.633,
+     "model_prob": 0.6339,
      "trend_alignment": 0.667,
-     "confidence": 32,
+     "confidence": 33,
      "eligible": true,
      "odd": null
     },
@@ -1295,7 +1295,7 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.5164,
+     "model_prob": 0.5149,
      "trend_alignment": 0.667,
      "confidence": 20,
      "eligible": false,
@@ -1305,7 +1305,7 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Abo Qir Semad",
-     "model_prob": 0.0861,
+     "model_prob": 0.0851,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
@@ -1350,7 +1350,7 @@
      "kind": "under"
     },
     {
-     "label": "Al Ahly SC é 3º · Abo Qir Semad é 16º",
+     "label": "Al Ahly SC é 4º · Abo Qir Semad é 17º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -1406,7 +1406,7 @@
    "home_team": {
     "id": 8200,
     "name": "Al Ahly SC",
-    "position": 3,
+    "position": 4,
     "played": 4,
     "points": 10.0,
     "record": "3V 1E 0D",
@@ -1447,7 +1447,7 @@
    "away_team": {
     "id": 19480,
     "name": "Abo Qir Semad",
-    "position": 16,
+    "position": 17,
     "played": 4,
     "points": 3.0,
     "record": "1V 0E 3D",

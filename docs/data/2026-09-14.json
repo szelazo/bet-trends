@@ -1,6 +1,6 @@
 {
  "date": "2026-09-14",
- "generated_at": "2026-09-14T08:18:03.712155-03:00",
+ "generated_at": "2026-09-14T17:12:32.806819-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -24,32 +24,32 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 2.55,
+    "lambda_home": 2.54,
     "lambda_away": 0.62,
     "expected_goals": 3.16,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.7907,
-     "DRAW": 0.1402,
-     "AWAY": 0.0691,
-     "1X": 0.9309,
-     "X2": 0.2093,
-     "12": 0.8598,
-     "OVER25": 0.6121,
-     "UNDER25": 0.3879,
-     "BTTS_YES": 0.4252,
-     "BTTS_NO": 0.5748
+     "HOME": 0.7896,
+     "DRAW": 0.1408,
+     "AWAY": 0.0696,
+     "1X": 0.9304,
+     "X2": 0.2104,
+     "12": 0.8592,
+     "OVER25": 0.6113,
+     "UNDER25": 0.3887,
+     "BTTS_YES": 0.4257,
+     "BTTS_NO": 0.5743
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do America de Cali",
-    "model_prob": 0.7907,
+    "model_prob": 0.7896,
     "trend_alignment": 1.0,
     "confidence": 85,
     "eligible": true,
-    "odd": 1.42,
+    "odd": 1.33,
     "low_conviction": false
    },
    "alt_markets": [
@@ -57,27 +57,27 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: America de Cali ou empate (1X)",
-     "model_prob": 0.9309,
+     "model_prob": 0.9304,
      "trend_alignment": 1.0,
      "confidence": 85,
      "eligible": true,
-     "odd": 1.11
+     "odd": 1.08
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6121,
+     "model_prob": 0.6113,
      "trend_alignment": 0.793,
      "confidence": 42,
      "eligible": true,
-     "odd": 1.92
+     "odd": 1.82
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.4252,
+     "model_prob": 0.4257,
      "trend_alignment": 0.793,
      "confidence": 28,
      "eligible": false,
@@ -87,7 +87,7 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.5748,
+     "model_prob": 0.5743,
      "trend_alignment": 0.0,
      "confidence": 10,
      "eligible": false,
@@ -402,8 +402,8 @@
     "id": 999,
     "name": "Istanbulspor AS"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 4.0,
+   "away_score": 0.0,
    "model": {
     "lambda_home": 2.41,
     "lambda_away": 0.78,
@@ -684,7 +684,7 @@
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -702,8 +702,8 @@
     "id": 241,
     "name": "Parma"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 1.93,
     "lambda_away": 0.65,
@@ -970,7 +970,7 @@
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -1307,7 +1307,7 @@
     "trend_alignment": 1.0,
     "confidence": 72,
     "eligible": true,
-    "odd": 1.41,
+    "odd": 1.39,
     "low_conviction": false
    },
    "alt_markets": [
@@ -1319,7 +1319,7 @@
      "trend_alignment": 1.0,
      "confidence": 72,
      "eligible": true,
-     "odd": 1.11
+     "odd": 1.1
     },
     {
      "selection": "OVER25",
@@ -1329,7 +1329,7 @@
      "trend_alignment": 0.513,
      "confidence": 38,
      "eligible": true,
-     "odd": 1.6
+     "odd": 2.38
     },
     {
      "selection": "BTTS_YES",
@@ -1349,7 +1349,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 7.0
+     "odd": 7.5
     }
    ],
    "trends": [
