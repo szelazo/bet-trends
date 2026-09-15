@@ -1,6 +1,6 @@
 {
  "date": "2026-09-15",
- "generated_at": "2026-09-14T17:12:34.087975-03:00",
+ "generated_at": "2026-09-15T08:17:30.039658-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -49,7 +49,7 @@
     "trend_alignment": 1.0,
     "confidence": 82,
     "eligible": true,
-    "odd": 1.12,
+    "odd": 1.1,
     "low_conviction": false
    },
    "alt_markets": [
@@ -61,25 +61,25 @@
      "trend_alignment": 1.0,
      "confidence": 82,
      "eligible": true,
-     "odd": 1.02
+     "odd": 1.01
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
      "model_prob": 0.7288,
-     "trend_alignment": 0.635,
+     "trend_alignment": 0.627,
      "confidence": 52,
      "eligible": true,
-     "odd": 2.25
+     "odd": 2.2
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
      "model_prob": 0.5571,
-     "trend_alignment": 0.635,
-     "confidence": 30,
+     "trend_alignment": 0.627,
+     "confidence": 29,
      "eligible": false,
      "odd": null
     },
@@ -91,7 +91,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 17.0
+     "odd": 21.0
     }
    ],
    "trends": [
@@ -114,8 +114,8 @@
      "kind": "over"
     },
     {
-     "label": "Invicto em 5 dos últimos 6",
-     "strength": 0.492,
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
      "favors": "HOME",
      "team": "Ajax",
      "side": "HOME",
@@ -123,8 +123,8 @@
      "kind": "unbeaten"
     },
     {
-     "label": "Mais de 2.5 gols em 5 dos últimos 6",
-     "strength": 0.483,
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
      "favors": "OVER",
      "team": "Ajax",
      "side": "HOME",
@@ -170,8 +170,8 @@
      "kind": "losses"
     },
     {
-     "label": "Invicto em 5 dos últimos 6",
-     "strength": 0.492,
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
      "favors": "HOME",
      "team": "Ajax",
      "side": "HOME",
@@ -212,7 +212,7 @@
     "record": "3V 1E 1D",
     "goals_for": 14,
     "goals_against": 6,
-    "last5": "WLWWD",
+    "last5": "WLWDW",
     "recent": [
      {
       "result": "W",
@@ -236,18 +236,18 @@
       "date": "2026-08-30"
      },
      {
-      "result": "W",
-      "score": "5-3",
-      "home": true,
-      "opponent": "FC Sion",
-      "date": "2026-08-27"
-     },
-     {
       "result": "D",
       "score": "2-2",
       "home": true,
       "opponent": "Heerenveen",
       "date": "2026-08-16"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "PEC Zwolle",
+      "date": "2026-08-09"
      }
     ]
    },
@@ -349,7 +349,7 @@
     "trend_alignment": 1.0,
     "confidence": 78,
     "eligible": true,
-    "odd": 1.84,
+    "odd": 1.73,
     "low_conviction": false
    },
    "alt_markets": [
@@ -361,7 +361,7 @@
      "trend_alignment": 1.0,
      "confidence": 78,
      "eligible": true,
-     "odd": 1.19
+     "odd": 1.17
     },
     {
      "selection": "OVER25",
@@ -371,7 +371,7 @@
      "trend_alignment": 0.2,
      "confidence": 18,
      "eligible": false,
-     "odd": 2.25
+     "odd": 2.1
     },
     {
      "selection": "BTTS_YES",
@@ -616,6 +616,288 @@
    "clear": true
   },
   {
+   "id": 4741676,
+   "s365_competition_id": 61,
+   "competition_name": "Scottish Premiership",
+   "start_time": "2026-09-15T18:45:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 755,
+    "name": "Motherwell"
+   },
+   "away": {
+    "id": 761,
+    "name": "Aberdeen"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.8,
+    "lambda_away": 0.66,
+    "expected_goals": 2.45,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.6475,
+     "DRAW": 0.2217,
+     "AWAY": 0.1307,
+     "1X": 0.8693,
+     "X2": 0.3525,
+     "12": 0.7783,
+     "OVER25": 0.4443,
+     "UNDER25": 0.5557,
+     "BTTS_YES": 0.4021,
+     "BTTS_NO": 0.5979
+    }
+   },
+   "pick": {
+    "selection": "1X",
+    "family": "double_chance",
+    "label": "Dupla chance: Motherwell ou empate (1X)",
+    "model_prob": 0.8693,
+    "trend_alignment": 1.0,
+    "confidence": 76,
+    "eligible": true,
+    "odd": 1.26,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Motherwell",
+     "model_prob": 0.6475,
+     "trend_alignment": 1.0,
+     "confidence": 65,
+     "eligible": true,
+     "odd": 1.84
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5979,
+     "trend_alignment": 0.0,
+     "confidence": 13,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.5557,
+     "trend_alignment": 0.0,
+     "confidence": 7,
+     "eligible": false,
+     "odd": 2.06
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Aberdeen",
+     "model_prob": 0.1307,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 3.98
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Aberdeen",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Não marcou em 4 dos últimos 5",
+     "strength": 0.44,
+     "favors": "HOME",
+     "team": "Aberdeen",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "no_score"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Motherwell",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Motherwell é 5º · Aberdeen é 10º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Motherwell está 5 posições à frente",
+     "strength": 0.357,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Aberdeen",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Não marcou em 4 dos últimos 5",
+     "strength": 0.44,
+     "favors": "HOME",
+     "team": "Aberdeen",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "no_score"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Motherwell",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Motherwell está 5 posições à frente",
+     "strength": 0.357,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 76,
+   "league": {
+    "key": "scotland",
+    "name": "Scottish Premiership",
+    "country": "Escócia"
+   },
+   "home_team": {
+    "id": 755,
+    "name": "Motherwell",
+    "position": 5,
+    "played": 5,
+    "points": 8.0,
+    "record": "2V 2E 1D",
+    "goals_for": 8,
+    "goals_against": 5,
+    "last5": "LWDDW",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Rangers",
+      "date": "2026-09-05"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "Dundee United",
+      "date": "2026-09-02"
+     },
+     {
+      "result": "D",
+      "score": "3-3",
+      "home": false,
+      "opponent": "St. Mirren",
+      "date": "2026-08-30"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Falkirk",
+      "date": "2026-08-09"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Hibernian",
+      "date": "2026-08-02"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 761,
+    "name": "Aberdeen",
+    "position": 10,
+    "played": 5,
+    "points": 4.0,
+    "record": "1V 1E 3D",
+    "goals_for": 2,
+    "goals_against": 7,
+    "last5": "DLLLW",
+    "recent": [
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Kilmarnock",
+      "date": "2026-09-05"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": false,
+      "opponent": "Celtic",
+      "date": "2026-09-02"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Rangers",
+      "date": "2026-08-30"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Dundee",
+      "date": "2026-08-08"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Hearts",
+      "date": "2026-08-01"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-15T15:45:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "3 casas",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
    "id": 4750856,
    "s365_competition_id": 11,
    "competition_name": "LaLiga",
@@ -658,7 +940,7 @@
     "trend_alignment": 1.0,
     "confidence": 76,
     "eligible": true,
-    "odd": 1.22,
+    "odd": 1.21,
     "low_conviction": false
    },
    "alt_markets": [
@@ -680,7 +962,7 @@
      "trend_alignment": 0.609,
      "confidence": 47,
      "eligible": true,
-     "odd": 1.8
+     "odd": 1.83
     },
     {
      "selection": "BTTS_YES",
@@ -700,7 +982,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 11.0
+     "odd": 11.5
     }
    ],
    "trends": [
@@ -958,7 +1240,7 @@
     "trend_alignment": 1.0,
     "confidence": 68,
     "eligible": true,
-    "odd": 1.26,
+    "odd": 1.28,
     "low_conviction": false
    },
    "alt_markets": [
@@ -970,7 +1252,7 @@
      "trend_alignment": 1.0,
      "confidence": 58,
      "eligible": true,
-     "odd": 1.89
+     "odd": 1.92
     },
     {
      "selection": "OVER25",
@@ -1218,274 +1500,6 @@
     ]
    },
    "kickoff_local": "2026-09-15T15:45:00-03:00",
-   "has_odds": true,
-   "odds_bookmaker": "3 casas",
-   "is_cup": false,
-   "result": "pending",
-   "clear": true
-  },
-  {
-   "id": 4804675,
-   "s365_competition_id": 552,
-   "competition_name": "Premier League",
-   "start_time": "2026-09-15T17:00:00+00:00",
-   "status_group": 2,
-   "round": "Round",
-   "home": {
-    "id": 8200,
-    "name": "Al Ahly SC"
-   },
-   "away": {
-    "id": 19480,
-    "name": "Abo Qir Semad"
-   },
-   "home_score": -1.0,
-   "away_score": -1.0,
-   "model": {
-    "lambda_home": 2.07,
-    "lambda_away": 0.54,
-    "expected_goals": 2.61,
-    "sample_factor": 0.8,
-    "probs": {
-     "HOME": 0.7331,
-     "DRAW": 0.1818,
-     "AWAY": 0.0851,
-     "1X": 0.9149,
-     "X2": 0.2669,
-     "12": 0.8182,
-     "OVER25": 0.4851,
-     "UNDER25": 0.5149,
-     "BTTS_YES": 0.3661,
-     "BTTS_NO": 0.6339
-    }
-   },
-   "pick": {
-    "selection": "HOME",
-    "family": "1x2",
-    "label": "Vitória do Al Ahly SC",
-    "model_prob": 0.7331,
-    "trend_alignment": 1.0,
-    "confidence": 66,
-    "eligible": true,
-    "odd": 1.2,
-    "low_conviction": false
-   },
-   "alt_markets": [
-    {
-     "selection": "1X",
-     "family": "double_chance",
-     "label": "Dupla chance: Al Ahly SC ou empate (1X)",
-     "model_prob": 0.9149,
-     "trend_alignment": 1.0,
-     "confidence": 66,
-     "eligible": true,
-     "odd": 1.04
-    },
-    {
-     "selection": "BTTS_NO",
-     "family": "btts",
-     "label": "Ambos marcam: não",
-     "model_prob": 0.6339,
-     "trend_alignment": 0.667,
-     "confidence": 33,
-     "eligible": true,
-     "odd": null
-    },
-    {
-     "selection": "UNDER25",
-     "family": "over_under",
-     "label": "Menos de 2.5 gols",
-     "model_prob": 0.5149,
-     "trend_alignment": 0.667,
-     "confidence": 20,
-     "eligible": false,
-     "odd": 2.16
-    },
-    {
-     "selection": "AWAY",
-     "family": "1x2",
-     "label": "Vitória do Abo Qir Semad",
-     "model_prob": 0.0851,
-     "trend_alignment": 0.0,
-     "confidence": 0,
-     "eligible": false,
-     "odd": 12.0
-    }
-   ],
-   "trends": [
-    {
-     "label": "Venceu 3 dos últimos 4",
-     "strength": 0.625,
-     "favors": "HOME",
-     "team": "Al Ahly SC",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "Menos de 2.5 gols em 3 dos últimos 4",
-     "strength": 0.45,
-     "favors": "UNDER",
-     "team": "Al Ahly SC",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "under"
-    },
-    {
-     "label": "Perdeu 3 dos últimos 4",
-     "strength": 0.588,
-     "favors": "HOME",
-     "team": "Abo Qir Semad",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Menos de 2.5 gols em 4 dos últimos 4",
-     "strength": 0.55,
-     "favors": "UNDER",
-     "team": "Abo Qir Semad",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "under"
-    },
-    {
-     "label": "Al Ahly SC é 4º · Abo Qir Semad é 17º",
-     "strength": 0.0,
-     "favors": null,
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "positions"
-    },
-    {
-     "label": "Al Ahly SC está 13 posições à frente",
-     "strength": 0.8,
-     "favors": "HOME",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "aligned_trends": [
-    {
-     "label": "Venceu 3 dos últimos 4",
-     "strength": 0.625,
-     "favors": "HOME",
-     "team": "Al Ahly SC",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "Perdeu 3 dos últimos 4",
-     "strength": 0.588,
-     "favors": "HOME",
-     "team": "Abo Qir Semad",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Al Ahly SC está 13 posições à frente",
-     "strength": 0.8,
-     "favors": "HOME",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "confidence": 66,
-   "league": {
-    "key": "egypt",
-    "name": "Premier League",
-    "country": "Egito"
-   },
-   "home_team": {
-    "id": 8200,
-    "name": "Al Ahly SC",
-    "position": 4,
-    "played": 4,
-    "points": 10.0,
-    "record": "3V 1E 0D",
-    "goals_for": 7,
-    "goals_against": 3,
-    "last5": "DWWW",
-    "recent": [
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": false,
-      "opponent": "Al Mokawloon Al Arab",
-      "date": "2026-09-09"
-     },
-     {
-      "result": "W",
-      "score": "1-0",
-      "home": true,
-      "opponent": "Smouha",
-      "date": "2026-09-03"
-     },
-     {
-      "result": "W",
-      "score": "2-0",
-      "home": false,
-      "opponent": "Zed FC",
-      "date": "2026-08-28"
-     },
-     {
-      "result": "W",
-      "score": "3-2",
-      "home": true,
-      "opponent": "ENPPI",
-      "date": "2026-08-23"
-     }
-    ]
-   },
-   "away_team": {
-    "id": 19480,
-    "name": "Abo Qir Semad",
-    "position": 17,
-    "played": 4,
-    "points": 3.0,
-    "record": "1V 0E 3D",
-    "goals_for": 1,
-    "goals_against": 6,
-    "last5": "LLLW",
-    "recent": [
-     {
-      "result": "L",
-      "score": "0-2",
-      "home": false,
-      "opponent": "Zamalek SC",
-      "date": "2026-09-08"
-     },
-     {
-      "result": "L",
-      "score": "0-2",
-      "home": true,
-      "opponent": "Al Ittehad",
-      "date": "2026-09-02"
-     },
-     {
-      "result": "L",
-      "score": "0-2",
-      "home": false,
-      "opponent": "Pyramids",
-      "date": "2026-08-27"
-     },
-     {
-      "result": "W",
-      "score": "1-0",
-      "home": true,
-      "opponent": "National Bank Of Egypt",
-      "date": "2026-08-21"
-     }
-    ]
-   },
-   "kickoff_local": "2026-09-15T14:00:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
