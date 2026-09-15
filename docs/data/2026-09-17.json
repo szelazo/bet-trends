@@ -1,6 +1,6 @@
 {
  "date": "2026-09-17",
- "generated_at": "2026-09-15T08:17:31.542808-03:00",
+ "generated_at": "2026-09-15T17:13:55.506071-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 1,
@@ -61,7 +61,7 @@
      "trend_alignment": 0.867,
      "confidence": 19,
      "eligible": false,
-     "odd": 1.77
+     "odd": 1.75
     },
     {
      "selection": "BTTS_YES",
@@ -81,7 +81,7 @@
      "trend_alignment": 0.0,
      "confidence": 1,
      "eligible": false,
-     "odd": 1.56
+     "odd": 1.61
     },
     {
      "selection": "AWAY",
@@ -91,7 +91,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 4.2
+     "odd": 4.18
     }
    ],
    "trends": [
@@ -225,298 +225,6 @@
    "clear": true
   },
   {
-   "id": 4795416,
-   "s365_competition_id": 414,
-   "competition_name": "Premier League",
-   "start_time": "2026-09-17T17:30:00+00:00",
-   "status_group": 2,
-   "round": "Round",
-   "home": {
-    "id": 5450,
-    "name": "Orlando Pirates"
-   },
-   "away": {
-    "id": 82528,
-    "name": "Durban City"
-   },
-   "home_score": -1.0,
-   "away_score": -1.0,
-   "model": {
-    "lambda_home": 1.41,
-    "lambda_away": 0.51,
-    "expected_goals": 1.92,
-    "sample_factor": 1.0,
-    "probs": {
-     "HOME": 0.5921,
-     "DRAW": 0.2733,
-     "AWAY": 0.1347,
-     "1X": 0.8653,
-     "X2": 0.4079,
-     "12": 0.7267,
-     "OVER25": 0.3013,
-     "UNDER25": 0.6987,
-     "BTTS_YES": 0.3028,
-     "BTTS_NO": 0.6972
-    }
-   },
-   "pick": {
-    "selection": "HOME",
-    "family": "1x2",
-    "label": "Vitória do Orlando Pirates",
-    "model_prob": 0.5921,
-    "trend_alignment": 0.895,
-    "confidence": 72,
-    "eligible": true,
-    "odd": 1.36,
-    "low_conviction": false
-   },
-   "alt_markets": [
-    {
-     "selection": "1X",
-     "family": "double_chance",
-     "label": "Dupla chance: Orlando Pirates ou empate (1X)",
-     "model_prob": 0.8653,
-     "trend_alignment": 0.895,
-     "confidence": 72,
-     "eligible": true,
-     "odd": 1.07
-    },
-    {
-     "selection": "UNDER25",
-     "family": "over_under",
-     "label": "Menos de 2.5 gols",
-     "model_prob": 0.6987,
-     "trend_alignment": 0.657,
-     "confidence": 49,
-     "eligible": true,
-     "odd": 1.72
-    },
-    {
-     "selection": "BTTS_NO",
-     "family": "btts",
-     "label": "Ambos marcam: não",
-     "model_prob": 0.6972,
-     "trend_alignment": 0.657,
-     "confidence": 49,
-     "eligible": true,
-     "odd": null
-    },
-    {
-     "selection": "AWAY",
-     "family": "1x2",
-     "label": "Vitória do Durban City",
-     "model_prob": 0.1347,
-     "trend_alignment": 0.0,
-     "confidence": 0,
-     "eligible": false,
-     "odd": 8.6
-    }
-   ],
-   "trends": [
-    {
-     "label": "Invicto há 7+ jogos",
-     "strength": 0.667,
-     "favors": "HOME",
-     "team": "Orlando Pirates",
-     "side": "HOME",
-     "group": "sequencia",
-     "kind": "unbeaten_streak"
-    },
-    {
-     "label": "Venceu 5 dos últimos 7",
-     "strength": 0.607,
-     "favors": "HOME",
-     "team": "Orlando Pirates",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "Não sofreu gol em 5 dos últimos 7",
-     "strength": 0.436,
-     "favors": "UNDER",
-     "team": "Orlando Pirates",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "clean_sheets"
-    },
-    {
-     "label": "Menos de 2.5 gols em 5 dos últimos 5",
-     "strength": 0.55,
-     "favors": "UNDER",
-     "team": "Durban City",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "under"
-    },
-    {
-     "label": "Invicto em 4 dos últimos 5",
-     "strength": 0.48,
-     "favors": "AWAY",
-     "team": "Durban City",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "unbeaten"
-    },
-    {
-     "label": "Orlando Pirates é 2º · Durban City é 9º",
-     "strength": 0.0,
-     "favors": null,
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "positions"
-    },
-    {
-     "label": "Orlando Pirates está 7 posições à frente",
-     "strength": 0.5,
-     "favors": "HOME",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "aligned_trends": [
-    {
-     "label": "Invicto há 7+ jogos",
-     "strength": 0.667,
-     "favors": "HOME",
-     "team": "Orlando Pirates",
-     "side": "HOME",
-     "group": "sequencia",
-     "kind": "unbeaten_streak"
-    },
-    {
-     "label": "Venceu 5 dos últimos 7",
-     "strength": 0.607,
-     "favors": "HOME",
-     "team": "Orlando Pirates",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "Orlando Pirates está 7 posições à frente",
-     "strength": 0.5,
-     "favors": "HOME",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "confidence": 72,
-   "league": {
-    "key": "south_africa",
-    "name": "Premier League",
-    "country": "África do Sul"
-   },
-   "home_team": {
-    "id": 5450,
-    "name": "Orlando Pirates",
-    "position": 2,
-    "played": 5,
-    "points": 13.0,
-    "record": "4V 1E 0D",
-    "goals_for": 12,
-    "goals_against": 1,
-    "last5": "WDWWW",
-    "recent": [
-     {
-      "result": "W",
-      "score": "3-1",
-      "home": true,
-      "opponent": "La Cure Waves",
-      "date": "2026-09-12"
-     },
-     {
-      "result": "D",
-      "score": "0-0",
-      "home": false,
-      "opponent": "La Cure Waves",
-      "date": "2026-09-06"
-     },
-     {
-      "result": "W",
-      "score": "4-0",
-      "home": false,
-      "opponent": "Kruger United",
-      "date": "2026-09-01"
-     },
-     {
-      "result": "W",
-      "score": "2-0",
-      "home": true,
-      "opponent": "Sekhukhune United",
-      "date": "2026-08-25"
-     },
-     {
-      "result": "W",
-      "score": "3-0",
-      "home": false,
-      "opponent": "Chippa United",
-      "date": "2026-08-16"
-     }
-    ]
-   },
-   "away_team": {
-    "id": 82528,
-    "name": "Durban City",
-    "position": 9,
-    "played": 5,
-    "points": 6.0,
-    "record": "1V 3E 1D",
-    "goals_for": 3,
-    "goals_against": 2,
-    "last5": "DWDDL",
-    "recent": [
-     {
-      "result": "D",
-      "score": "0-0",
-      "home": true,
-      "opponent": "Stellenbosch FC",
-      "date": "2026-09-01"
-     },
-     {
-      "result": "W",
-      "score": "2-0",
-      "home": false,
-      "opponent": "Kruger United",
-      "date": "2026-08-25"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": true,
-      "opponent": "Richards Bay",
-      "date": "2026-08-15"
-     },
-     {
-      "result": "D",
-      "score": "0-0",
-      "home": true,
-      "opponent": "Golden Arrows",
-      "date": "2026-08-12"
-     },
-     {
-      "result": "L",
-      "score": "0-1",
-      "home": false,
-      "opponent": "Sekhukhune United",
-      "date": "2026-08-01"
-     }
-    ]
-   },
-   "kickoff_local": "2026-09-17T14:30:00-03:00",
-   "has_odds": true,
-   "odds_bookmaker": "2 casas",
-   "is_cup": false,
-   "result": "pending",
-   "clear": false,
-   "below_bar": true
-  },
-  {
    "id": 4804677,
    "s365_competition_id": 552,
    "competition_name": "Premier League",
@@ -534,28 +242,28 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 0.89,
+    "lambda_home": 0.88,
     "lambda_away": 1.66,
     "expected_goals": 2.54,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.2002,
-     "DRAW": 0.2442,
-     "AWAY": 0.5556,
-     "1X": 0.4444,
-     "X2": 0.7998,
-     "12": 0.7558,
-     "OVER25": 0.4665,
-     "UNDER25": 0.5335,
-     "BTTS_YES": 0.4752,
-     "BTTS_NO": 0.5248
+     "HOME": 0.2001,
+     "DRAW": 0.2441,
+     "AWAY": 0.5558,
+     "1X": 0.4442,
+     "X2": 0.7999,
+     "12": 0.7559,
+     "OVER25": 0.4666,
+     "UNDER25": 0.5334,
+     "BTTS_YES": 0.4751,
+     "BTTS_NO": 0.5249
     }
    },
    "pick": {
     "selection": "AWAY",
     "family": "1x2",
     "label": "Vitória do Pyramids",
-    "model_prob": 0.5556,
+    "model_prob": 0.5558,
     "trend_alignment": 1.0,
     "confidence": 67,
     "eligible": true,
@@ -567,7 +275,7 @@
      "selection": "X2",
      "family": "double_chance",
      "label": "Dupla chance: Pyramids ou empate (X2)",
-     "model_prob": 0.7998,
+     "model_prob": 0.7999,
      "trend_alignment": 1.0,
      "confidence": 67,
      "eligible": true,
@@ -577,7 +285,7 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.5335,
+     "model_prob": 0.5334,
      "trend_alignment": 0.052,
      "confidence": 6,
      "eligible": false,
@@ -587,7 +295,7 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.5248,
+     "model_prob": 0.5249,
      "trend_alignment": 0.052,
      "confidence": 5,
      "eligible": false,
@@ -597,7 +305,7 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do ENPPI",
-     "model_prob": 0.2002,
+     "model_prob": 0.2001,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
@@ -651,7 +359,7 @@
      "kind": "over"
     },
     {
-     "label": "ENPPI é 12º · Pyramids é 2º",
+     "label": "ENPPI é 14º · Pyramids é 3º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -660,8 +368,8 @@
      "kind": "positions"
     },
     {
-     "label": "Pyramids está 10 posições à frente",
-     "strength": 0.714,
+     "label": "Pyramids está 11 posições à frente",
+     "strength": 0.786,
      "favors": "AWAY",
      "team": null,
      "side": null,
@@ -698,8 +406,8 @@
      "kind": "winless"
     },
     {
-     "label": "Pyramids está 10 posições à frente",
-     "strength": 0.714,
+     "label": "Pyramids está 11 posições à frente",
+     "strength": 0.786,
      "favors": "AWAY",
      "team": null,
      "side": null,
@@ -716,7 +424,7 @@
    "home_team": {
     "id": 8300,
     "name": "ENPPI",
-    "position": 12,
+    "position": 14,
     "played": 4,
     "points": 4.0,
     "record": "1V 1E 2D",
@@ -757,7 +465,7 @@
    "away_team": {
     "id": 22143,
     "name": "Pyramids",
-    "position": 2,
+    "position": 3,
     "played": 4,
     "points": 12.0,
     "record": "4V 0E 0D",
@@ -803,6 +511,298 @@
     ]
    },
    "kickoff_local": "2026-09-17T14:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "3 casas",
+   "is_cup": false,
+   "result": "pending",
+   "clear": false,
+   "below_bar": true
+  },
+  {
+   "id": 4795416,
+   "s365_competition_id": 414,
+   "competition_name": "Premier League",
+   "start_time": "2026-09-17T17:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 5450,
+    "name": "Orlando Pirates"
+   },
+   "away": {
+    "id": 82528,
+    "name": "Durban City"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.41,
+    "lambda_away": 0.51,
+    "expected_goals": 1.92,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.5921,
+     "DRAW": 0.2733,
+     "AWAY": 0.1347,
+     "1X": 0.8653,
+     "X2": 0.4079,
+     "12": 0.7267,
+     "OVER25": 0.3013,
+     "UNDER25": 0.6987,
+     "BTTS_YES": 0.3028,
+     "BTTS_NO": 0.6972
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Orlando Pirates",
+    "model_prob": 0.5921,
+    "trend_alignment": 0.745,
+    "confidence": 67,
+    "eligible": true,
+    "odd": 1.28,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Orlando Pirates ou empate (1X)",
+     "model_prob": 0.8653,
+     "trend_alignment": 0.745,
+     "confidence": 67,
+     "eligible": true,
+     "odd": 1.07
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.6987,
+     "trend_alignment": 0.689,
+     "confidence": 50,
+     "eligible": true,
+     "odd": 1.94
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.6972,
+     "trend_alignment": 0.689,
+     "confidence": 50,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Durban City",
+     "model_prob": 0.1347,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 9.0
+    }
+   ],
+   "trends": [
+    {
+     "label": "Invicto em 6 dos últimos 6",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Orlando Pirates",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Não sofreu gol em 5 dos últimos 6",
+     "strength": 0.483,
+     "favors": "UNDER",
+     "team": "Orlando Pirates",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "clean_sheets"
+    },
+    {
+     "label": "Menos de 2.5 gols em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "UNDER",
+     "team": "Durban City",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "under"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "AWAY",
+     "team": "Durban City",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Invicto há 6+ jogos",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Orlando Pirates",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Orlando Pirates é 2º · Durban City é 9º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Orlando Pirates está 7 posições à frente",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Invicto em 6 dos últimos 6",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Orlando Pirates",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Invicto há 6+ jogos",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Orlando Pirates",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Orlando Pirates está 7 posições à frente",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 67,
+   "league": {
+    "key": "south_africa",
+    "name": "Premier League",
+    "country": "África do Sul"
+   },
+   "home_team": {
+    "id": 5450,
+    "name": "Orlando Pirates",
+    "position": 2,
+    "played": 5,
+    "points": 13.0,
+    "record": "4V 1E 0D",
+    "goals_for": 12,
+    "goals_against": 1,
+    "last5": "DWWWD",
+    "recent": [
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "La Cure Waves",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "W",
+      "score": "4-0",
+      "home": false,
+      "opponent": "Kruger United",
+      "date": "2026-09-01"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Sekhukhune United",
+      "date": "2026-08-25"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": false,
+      "opponent": "Chippa United",
+      "date": "2026-08-16"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "AmaZulu",
+      "date": "2026-08-12"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 82528,
+    "name": "Durban City",
+    "position": 9,
+    "played": 5,
+    "points": 6.0,
+    "record": "1V 3E 1D",
+    "goals_for": 3,
+    "goals_against": 2,
+    "last5": "DWDDL",
+    "recent": [
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Stellenbosch FC",
+      "date": "2026-09-01"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "Kruger United",
+      "date": "2026-08-25"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Richards Bay",
+      "date": "2026-08-15"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Golden Arrows",
+      "date": "2026-08-12"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Sekhukhune United",
+      "date": "2026-08-01"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-17T14:30:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,

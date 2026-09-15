@@ -1,6 +1,6 @@
 {
  "date": "2026-09-16",
- "generated_at": "2026-09-15T08:17:30.778496-03:00",
+ "generated_at": "2026-09-15T17:13:45.015008-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 2,
@@ -29,27 +29,27 @@
     "expected_goals": 2.33,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.1117,
-     "DRAW": 0.2206,
-     "AWAY": 0.6677,
-     "1X": 0.3323,
-     "X2": 0.8883,
-     "12": 0.7794,
-     "OVER25": 0.412,
-     "UNDER25": 0.588,
-     "BTTS_YES": 0.3562,
-     "BTTS_NO": 0.6438
+     "HOME": 0.1115,
+     "DRAW": 0.2204,
+     "AWAY": 0.668,
+     "1X": 0.332,
+     "X2": 0.8885,
+     "12": 0.7796,
+     "OVER25": 0.4121,
+     "UNDER25": 0.5879,
+     "BTTS_YES": 0.356,
+     "BTTS_NO": 0.644
     }
    },
    "pick": {
     "selection": "AWAY",
     "family": "1x2",
     "label": "Vitória do Zamalek SC",
-    "model_prob": 0.6677,
+    "model_prob": 0.668,
     "trend_alignment": 1.0,
     "confidence": 79,
     "eligible": true,
-    "odd": 1.71,
+    "odd": 1.7,
     "low_conviction": false
    },
    "alt_markets": [
@@ -57,7 +57,7 @@
      "selection": "X2",
      "family": "double_chance",
      "label": "Dupla chance: Zamalek SC ou empate (X2)",
-     "model_prob": 0.8883,
+     "model_prob": 0.8885,
      "trend_alignment": 1.0,
      "confidence": 79,
      "eligible": true,
@@ -67,8 +67,8 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.6438,
-     "trend_alignment": 0.278,
+     "model_prob": 0.644,
+     "trend_alignment": 0.26,
      "confidence": 28,
      "eligible": true,
      "odd": null
@@ -77,8 +77,8 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.588,
-     "trend_alignment": 0.278,
+     "model_prob": 0.5879,
+     "trend_alignment": 0.26,
      "confidence": 21,
      "eligible": false,
      "odd": 1.66
@@ -87,17 +87,17 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Ghazl El-Mehalla",
-     "model_prob": 0.1117,
+     "model_prob": 0.1115,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 4.83
+     "odd": 4.75
     }
    ],
    "trends": [
     {
-     "label": "5 vitórias seguidas",
-     "strength": 1.0,
+     "label": "4 vitórias seguidas",
+     "strength": 0.75,
      "favors": "AWAY",
      "team": "Zamalek SC",
      "side": "AWAY",
@@ -105,8 +105,8 @@
      "kind": "win_streak"
     },
     {
-     "label": "Venceu 5 dos últimos 6",
-     "strength": 0.667,
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
      "favors": "AWAY",
      "team": "Zamalek SC",
      "side": "AWAY",
@@ -114,8 +114,8 @@
      "kind": "wins"
     },
     {
-     "label": "Não sofreu gol em 4 dos últimos 6",
-     "strength": 0.417,
+     "label": "Não sofreu gol em 3 dos últimos 5",
+     "strength": 0.39,
      "favors": "UNDER",
      "team": "Zamalek SC",
      "side": "AWAY",
@@ -141,7 +141,7 @@
      "kind": "no_score"
     },
     {
-     "label": "Ghazl El-Mehalla é 20º · Zamalek SC é 3º",
+     "label": "Ghazl El-Mehalla é 20º · Zamalek SC é 4º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -150,7 +150,7 @@
      "kind": "positions"
     },
     {
-     "label": "Zamalek SC está 17 posições à frente",
+     "label": "Zamalek SC está 16 posições à frente",
      "strength": 0.8,
      "favors": "AWAY",
      "team": null,
@@ -161,8 +161,8 @@
    ],
    "aligned_trends": [
     {
-     "label": "5 vitórias seguidas",
-     "strength": 1.0,
+     "label": "4 vitórias seguidas",
+     "strength": 0.75,
      "favors": "AWAY",
      "team": "Zamalek SC",
      "side": "AWAY",
@@ -170,8 +170,8 @@
      "kind": "win_streak"
     },
     {
-     "label": "Venceu 5 dos últimos 6",
-     "strength": 0.667,
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
      "favors": "AWAY",
      "team": "Zamalek SC",
      "side": "AWAY",
@@ -197,7 +197,7 @@
      "kind": "no_score"
     },
     {
-     "label": "Zamalek SC está 17 posições à frente",
+     "label": "Zamalek SC está 16 posições à frente",
      "strength": 0.8,
      "favors": "AWAY",
      "team": null,
@@ -256,21 +256,14 @@
    "away_team": {
     "id": 8201,
     "name": "Zamalek SC",
-    "position": 3,
+    "position": 4,
     "played": 4,
     "points": 10.0,
     "record": "3V 1E 0D",
     "goals_for": 7,
     "goals_against": 1,
-    "last5": "WWWWW",
+    "last5": "WWWWD",
     "recent": [
-     {
-      "result": "W",
-      "score": "4-0",
-      "home": true,
-      "opponent": "AS PORT",
-      "date": "2026-09-12"
-     },
      {
       "result": "W",
       "score": "2-0",
@@ -298,6 +291,13 @@
       "home": false,
       "opponent": "National Bank Of Egypt",
       "date": "2026-08-26"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Al Ittehad",
+      "date": "2026-08-21"
      }
     ]
    },
@@ -363,7 +363,7 @@
      "trend_alignment": 0.905,
      "confidence": 62,
      "eligible": true,
-     "odd": 2.11
+     "odd": 2.13
     },
     {
      "selection": "OVER25",
@@ -373,7 +373,7 @@
      "trend_alignment": 0.58,
      "confidence": 52,
      "eligible": true,
-     "odd": 1.7
+     "odd": 1.73
     },
     {
      "selection": "BTTS_YES",
@@ -393,7 +393,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 3.1
+     "odd": 3.13
     }
    ],
    "trends": [
@@ -608,28 +608,28 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 2.83,
-    "lambda_away": 1.03,
-    "expected_goals": 3.86,
+    "lambda_home": 2.81,
+    "lambda_away": 1.02,
+    "expected_goals": 3.83,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.7445,
-     "DRAW": 0.1453,
-     "AWAY": 0.1102,
-     "1X": 0.8898,
-     "X2": 0.2555,
-     "12": 0.8547,
-     "OVER25": 0.7396,
-     "UNDER25": 0.2604,
-     "BTTS_YES": 0.6051,
-     "BTTS_NO": 0.3949
+     "HOME": 0.743,
+     "DRAW": 0.1464,
+     "AWAY": 0.1106,
+     "1X": 0.8894,
+     "X2": 0.257,
+     "12": 0.8536,
+     "OVER25": 0.7352,
+     "UNDER25": 0.2648,
+     "BTTS_YES": 0.6018,
+     "BTTS_NO": 0.3982
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do FC Barcelona",
-    "model_prob": 0.7445,
+    "model_prob": 0.743,
     "trend_alignment": 1.0,
     "confidence": 79,
     "eligible": true,
@@ -641,7 +641,7 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: FC Barcelona ou empate (1X)",
-     "model_prob": 0.8898,
+     "model_prob": 0.8894,
      "trend_alignment": 1.0,
      "confidence": 79,
      "eligible": true,
@@ -651,17 +651,17 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.7396,
+     "model_prob": 0.7352,
      "trend_alignment": 0.922,
      "confidence": 63,
      "eligible": true,
-     "odd": 1.73
+     "odd": 1.8
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.6051,
+     "model_prob": 0.6018,
      "trend_alignment": 0.922,
      "confidence": 46,
      "eligible": true,
@@ -671,11 +671,11 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Racing Santander",
-     "model_prob": 0.1102,
+     "model_prob": 0.1106,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 21.5
+     "odd": 20.88
     }
    ],
    "trends": [

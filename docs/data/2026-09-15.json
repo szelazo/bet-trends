@@ -1,6 +1,6 @@
 {
  "date": "2026-09-15",
- "generated_at": "2026-09-15T08:17:30.039658-03:00",
+ "generated_at": "2026-09-15T17:13:44.256871-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -21,8 +21,8 @@
     "id": 706,
     "name": "Willem II"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 5.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 2.9,
     "lambda_away": 0.89,
@@ -303,7 +303,7 @@
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -321,8 +321,8 @@
     "id": 139,
     "name": "Valencia"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 0.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 2.24,
     "lambda_away": 0.78,
@@ -612,7 +612,7 @@
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
-   "result": "pending",
+   "result": "miss",
    "clear": true
   },
   {
