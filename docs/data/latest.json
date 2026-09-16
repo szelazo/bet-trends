@@ -1,6 +1,6 @@
 {
  "date": "2026-09-16",
- "generated_at": "2026-09-16T08:18:19.497447-03:00",
+ "generated_at": "2026-09-16T17:13:58.170879-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 2,
@@ -21,8 +21,8 @@
     "id": 8201,
     "name": "Zamalek SC"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 0.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 0.56,
     "lambda_away": 1.77,
@@ -305,7 +305,7 @@
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -323,8 +323,8 @@
     "id": 1906,
     "name": "Mjällby AIF"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 1.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 2.58,
     "lambda_away": 1.32,
@@ -587,7 +587,7 @@
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {

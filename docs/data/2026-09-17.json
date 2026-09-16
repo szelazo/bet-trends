@@ -1,6 +1,6 @@
 {
  "date": "2026-09-17",
- "generated_at": "2026-09-16T08:18:20.713027-03:00",
+ "generated_at": "2026-09-16T17:14:01.043974-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 1,
@@ -46,10 +46,10 @@
     "family": "double_chance",
     "label": "Dupla chance: Besiktas ou empate (1X)",
     "model_prob": 0.7028,
-    "trend_alignment": 0.867,
-    "confidence": 22,
+    "trend_alignment": 0.809,
+    "confidence": 21,
     "eligible": true,
-    "odd": 1.23,
+    "odd": 1.27,
     "low_conviction": true
    },
    "alt_markets": [
@@ -58,10 +58,10 @@
      "family": "1x2",
      "label": "Vitória do Besiktas",
      "model_prob": 0.4499,
-     "trend_alignment": 0.867,
-     "confidence": 19,
+     "trend_alignment": 0.809,
+     "confidence": 18,
      "eligible": false,
-     "odd": 1.75
+     "odd": 1.81
     },
     {
      "selection": "BTTS_YES",
@@ -81,7 +81,7 @@
      "trend_alignment": 0.0,
      "confidence": 1,
      "eligible": false,
-     "odd": 1.56
+     "odd": 1.61
     },
     {
      "selection": "AWAY",
@@ -91,7 +91,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 4.33
+     "odd": 3.92
     }
    ],
    "trends": [
@@ -105,7 +105,7 @@
      "kind": "win_streak"
     },
     {
-     "label": "Besiktas é 7º · Olympique de Marseille é 23º",
+     "label": "Besiktas é 14º · Olympique de Marseille é 24º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -114,8 +114,8 @@
      "kind": "positions"
     },
     {
-     "label": "Besiktas está 16 posições à frente",
-     "strength": 0.8,
+     "label": "Besiktas está 10 posições à frente",
+     "strength": 0.714,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -134,8 +134,8 @@
      "kind": "win_streak"
     },
     {
-     "label": "Besiktas está 16 posições à frente",
-     "strength": 0.8,
+     "label": "Besiktas está 10 posições à frente",
+     "strength": 0.714,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -143,7 +143,7 @@
      "kind": "table_gap"
     }
    ],
-   "confidence": 22,
+   "confidence": 21,
    "league": {
     "key": "uel",
     "name": "UEFA Europa League",
@@ -152,7 +152,7 @@
    "home_team": {
     "id": 947,
     "name": "Besiktas",
-    "position": 7,
+    "position": 14,
     "played": 0,
     "points": 0,
     "record": "0V 0E 0D",
@@ -186,7 +186,7 @@
    "away_team": {
     "id": 469,
     "name": "Olympique de Marseille",
-    "position": 23,
+    "position": 24,
     "played": 0,
     "points": 0,
     "record": "0V 0E 0D",
@@ -539,14 +539,14 @@
     "expected_goals": 2.54,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.2001,
+     "HOME": 0.2,
      "DRAW": 0.2441,
-     "AWAY": 0.5558,
-     "1X": 0.4442,
-     "X2": 0.7999,
+     "AWAY": 0.5559,
+     "1X": 0.4441,
+     "X2": 0.8,
      "12": 0.7559,
-     "OVER25": 0.4666,
-     "UNDER25": 0.5334,
+     "OVER25": 0.4667,
+     "UNDER25": 0.5333,
      "BTTS_YES": 0.4751,
      "BTTS_NO": 0.5249
     }
@@ -555,11 +555,11 @@
     "selection": "AWAY",
     "family": "1x2",
     "label": "Vitória do Pyramids",
-    "model_prob": 0.5558,
+    "model_prob": 0.5559,
     "trend_alignment": 1.0,
     "confidence": 67,
     "eligible": true,
-    "odd": 1.5,
+    "odd": 1.48,
     "low_conviction": false
    },
    "alt_markets": [
@@ -567,21 +567,21 @@
      "selection": "X2",
      "family": "double_chance",
      "label": "Dupla chance: Pyramids ou empate (X2)",
-     "model_prob": 0.7999,
+     "model_prob": 0.8,
      "trend_alignment": 1.0,
      "confidence": 67,
      "eligible": true,
-     "odd": 1.12
+     "odd": 1.11
     },
     {
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.5334,
+     "model_prob": 0.5333,
      "trend_alignment": 0.052,
      "confidence": 6,
      "eligible": false,
-     "odd": 1.59
+     "odd": 1.6
     },
     {
      "selection": "BTTS_NO",
@@ -597,11 +597,11 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do ENPPI",
-     "model_prob": 0.2001,
+     "model_prob": 0.2,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 6.42
+     "odd": 6.55
     }
    ],
    "trends": [
@@ -651,7 +651,7 @@
      "kind": "over"
     },
     {
-     "label": "ENPPI é 13º · Pyramids é 3º",
+     "label": "ENPPI é 14º · Pyramids é 4º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -716,7 +716,7 @@
    "home_team": {
     "id": 8300,
     "name": "ENPPI",
-    "position": 13,
+    "position": 14,
     "played": 4,
     "points": 4.0,
     "record": "1V 1E 2D",
@@ -757,7 +757,7 @@
    "away_team": {
     "id": 22143,
     "name": "Pyramids",
-    "position": 3,
+    "position": 4,
     "played": 4,
     "points": 12.0,
     "record": "4V 0E 0D",
