@@ -1,147 +1,111 @@
 {
- "date": "2026-09-16",
- "generated_at": "2026-09-16T17:13:58.170879-03:00",
+ "date": "2026-09-17",
+ "generated_at": "2026-09-17T08:17:03.243264-03:00",
  "version": "0.1.0",
  "count": 3,
- "clear_count": 2,
- "day_total": 26,
+ "clear_count": 1,
+ "day_total": 17,
  "games": [
   {
-   "id": 4804678,
-   "s365_competition_id": 552,
-   "competition_name": "Premier League",
-   "start_time": "2026-09-16T17:00:00+00:00",
+   "id": 4828752,
+   "s365_competition_id": 573,
+   "competition_name": "UEFA Europa League",
+   "start_time": "2026-09-17T19:00:00+00:00",
    "status_group": 2,
    "round": "Round",
    "home": {
-    "id": 8610,
-    "name": "Ghazl El-Mehalla"
+    "id": 947,
+    "name": "Besiktas"
    },
    "away": {
-    "id": 8201,
-    "name": "Zamalek SC"
+    "id": 469,
+    "name": "Olympique de Marseille"
    },
-   "home_score": 0.0,
-   "away_score": 1.0,
+   "home_score": -1.0,
+   "away_score": -1.0,
    "model": {
-    "lambda_home": 0.56,
-    "lambda_away": 1.77,
-    "expected_goals": 2.33,
-    "sample_factor": 1.0,
+    "lambda_home": 1.53,
+    "lambda_away": 1.19,
+    "expected_goals": 2.72,
+    "sample_factor": 0.45,
     "probs": {
-     "HOME": 0.1115,
-     "DRAW": 0.2204,
-     "AWAY": 0.668,
-     "1X": 0.332,
-     "X2": 0.8885,
-     "12": 0.7796,
-     "OVER25": 0.4121,
-     "UNDER25": 0.5879,
-     "BTTS_YES": 0.356,
-     "BTTS_NO": 0.644
+     "HOME": 0.4499,
+     "DRAW": 0.2529,
+     "AWAY": 0.2972,
+     "1X": 0.7028,
+     "X2": 0.5501,
+     "12": 0.7471,
+     "OVER25": 0.5114,
+     "UNDER25": 0.4886,
+     "BTTS_YES": 0.5455,
+     "BTTS_NO": 0.4545
     }
    },
    "pick": {
-    "selection": "AWAY",
-    "family": "1x2",
-    "label": "Vitória do Zamalek SC",
-    "model_prob": 0.668,
-    "trend_alignment": 1.0,
-    "confidence": 79,
+    "selection": "1X",
+    "family": "double_chance",
+    "label": "Dupla chance: Besiktas ou empate (1X)",
+    "model_prob": 0.7028,
+    "trend_alignment": 0.809,
+    "confidence": 21,
     "eligible": true,
-    "odd": 1.72,
-    "low_conviction": false
+    "odd": 1.25,
+    "low_conviction": true
    },
    "alt_markets": [
     {
-     "selection": "X2",
-     "family": "double_chance",
-     "label": "Dupla chance: Zamalek SC ou empate (X2)",
-     "model_prob": 0.8885,
-     "trend_alignment": 1.0,
-     "confidence": 79,
-     "eligible": true,
-     "odd": 1.17
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Besiktas",
+     "model_prob": 0.4499,
+     "trend_alignment": 0.809,
+     "confidence": 18,
+     "eligible": false,
+     "odd": 1.75
     },
     {
-     "selection": "BTTS_NO",
+     "selection": "BTTS_YES",
      "family": "btts",
-     "label": "Ambos marcam: não",
-     "model_prob": 0.644,
-     "trend_alignment": 0.278,
-     "confidence": 28,
-     "eligible": true,
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5455,
+     "trend_alignment": 0.0,
+     "confidence": 3,
+     "eligible": false,
      "odd": null
     },
     {
-     "selection": "UNDER25",
+     "selection": "OVER25",
      "family": "over_under",
-     "label": "Menos de 2.5 gols",
-     "model_prob": 0.5879,
-     "trend_alignment": 0.278,
-     "confidence": 21,
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5114,
+     "trend_alignment": 0.0,
+     "confidence": 1,
      "eligible": false,
-     "odd": 1.52
+     "odd": 2.31
     },
     {
-     "selection": "HOME",
+     "selection": "AWAY",
      "family": "1x2",
-     "label": "Vitória do Ghazl El-Mehalla",
-     "model_prob": 0.1115,
+     "label": "Vitória do Olympique de Marseille",
+     "model_prob": 0.2972,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 5.1
+     "odd": 4.1
     }
    ],
    "trends": [
     {
-     "label": "5 vitórias seguidas",
-     "strength": 1.0,
-     "favors": "AWAY",
-     "team": "Zamalek SC",
-     "side": "AWAY",
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Besiktas",
+     "side": "HOME",
      "group": "sequencia",
      "kind": "win_streak"
     },
     {
-     "label": "Venceu 5 dos últimos 6",
-     "strength": 0.667,
-     "favors": "AWAY",
-     "team": "Zamalek SC",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "Não sofreu gol em 4 dos últimos 6",
-     "strength": 0.417,
-     "favors": "UNDER",
-     "team": "Zamalek SC",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "clean_sheets"
-    },
-    {
-     "label": "Perdeu 3 dos últimos 4",
-     "strength": 0.588,
-     "favors": "AWAY",
-     "team": "Ghazl El-Mehalla",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Não marcou em 3 dos últimos 4",
-     "strength": 0.425,
-     "favors": "AWAY",
-     "team": "Ghazl El-Mehalla",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "no_score"
-    },
-    {
-     "label": "Ghazl El-Mehalla é 20º · Zamalek SC é 4º",
+     "label": "Besiktas é 12º · Olympique de Marseille é 22º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -150,9 +114,9 @@
      "kind": "positions"
     },
     {
-     "label": "Zamalek SC está 16 posições à frente",
-     "strength": 0.8,
-     "favors": "AWAY",
+     "label": "Besiktas está 10 posições à frente",
+     "strength": 0.714,
+     "favors": "HOME",
      "team": null,
      "side": null,
      "group": "confronto",
@@ -161,280 +125,241 @@
    ],
    "aligned_trends": [
     {
-     "label": "5 vitórias seguidas",
-     "strength": 1.0,
-     "favors": "AWAY",
-     "team": "Zamalek SC",
-     "side": "AWAY",
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Besiktas",
+     "side": "HOME",
      "group": "sequencia",
      "kind": "win_streak"
     },
     {
-     "label": "Venceu 5 dos últimos 6",
-     "strength": 0.667,
-     "favors": "AWAY",
-     "team": "Zamalek SC",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "Perdeu 3 dos últimos 4",
-     "strength": 0.588,
-     "favors": "AWAY",
-     "team": "Ghazl El-Mehalla",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Não marcou em 3 dos últimos 4",
-     "strength": 0.425,
-     "favors": "AWAY",
-     "team": "Ghazl El-Mehalla",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "no_score"
-    },
-    {
-     "label": "Zamalek SC está 16 posições à frente",
-     "strength": 0.8,
-     "favors": "AWAY",
+     "label": "Besiktas está 10 posições à frente",
+     "strength": 0.714,
+     "favors": "HOME",
      "team": null,
      "side": null,
      "group": "confronto",
      "kind": "table_gap"
     }
    ],
-   "confidence": 79,
+   "confidence": 21,
    "league": {
-    "key": "egypt",
-    "name": "Premier League",
-    "country": "Egito"
+    "key": "uel",
+    "name": "UEFA Europa League",
+    "country": "Europa"
    },
    "home_team": {
-    "id": 8610,
-    "name": "Ghazl El-Mehalla",
-    "position": 20,
-    "played": 4,
-    "points": 1.0,
-    "record": "0V 1E 3D",
-    "goals_for": 1,
-    "goals_against": 8,
-    "last5": "LDLL",
+    "id": 947,
+    "name": "Besiktas",
+    "position": 12,
+    "played": 0,
+    "points": 0,
+    "record": "0V 0E 0D",
+    "goals_for": 0,
+    "goals_against": 0,
+    "last5": "WWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "Erzurumspor FK",
+      "date": "2026-09-11"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Fenerbahçe SK",
+      "date": "2026-09-05"
+     },
+     {
+      "result": "W",
+      "score": "6-2",
+      "home": true,
+      "opponent": "Corum FK",
+      "date": "2026-08-31"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 469,
+    "name": "Olympique de Marseille",
+    "position": 22,
+    "played": 0,
+    "points": 0,
+    "record": "0V 0E 0D",
+    "goals_for": 0,
+    "goals_against": 0,
+    "last5": "LLL",
     "recent": [
      {
       "result": "L",
-      "score": "1-3",
+      "score": "0-1",
       "home": false,
-      "opponent": "National Bank Of Egypt",
-      "date": "2026-09-07"
+      "opponent": "Rennes",
+      "date": "2026-09-11"
      },
      {
-      "result": "D",
-      "score": "0-0",
+      "result": "L",
+      "score": "2-3",
       "home": true,
-      "opponent": "ENPPI",
-      "date": "2026-09-01"
+      "opponent": "Paris FC",
+      "date": "2026-09-06"
      },
      {
       "result": "L",
       "score": "0-2",
       "home": false,
-      "opponent": "Modern Sport FC",
-      "date": "2026-08-27"
-     },
-     {
-      "result": "L",
-      "score": "0-3",
-      "home": true,
-      "opponent": "Pyramids",
-      "date": "2026-08-22"
+      "opponent": "Monaco",
+      "date": "2026-08-30"
      }
     ]
    },
-   "away_team": {
-    "id": 8201,
-    "name": "Zamalek SC",
-    "position": 4,
-    "played": 4,
-    "points": 10.0,
-    "record": "3V 1E 0D",
-    "goals_for": 7,
-    "goals_against": 1,
-    "last5": "WWWWW",
-    "recent": [
-     {
-      "result": "W",
-      "score": "4-0",
-      "home": true,
-      "opponent": "AS PORT",
-      "date": "2026-09-12"
-     },
-     {
-      "result": "W",
-      "score": "2-0",
-      "home": true,
-      "opponent": "Abo Qir Semad",
-      "date": "2026-09-08"
-     },
-     {
-      "result": "W",
-      "score": "2-1",
-      "home": false,
-      "opponent": "AS PORT",
-      "date": "2026-09-04"
-     },
-     {
-      "result": "W",
-      "score": "2-1",
-      "home": true,
-      "opponent": "Petrojet",
-      "date": "2026-08-31"
-     },
-     {
-      "result": "W",
-      "score": "3-0",
-      "home": false,
-      "opponent": "National Bank Of Egypt",
-      "date": "2026-08-26"
-     }
-    ]
-   },
-   "kickoff_local": "2026-09-16T14:00:00-03:00",
+   "kickoff_local": "2026-09-17T16:00:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
-   "result": "hit",
+   "result": "pending",
    "clear": true
   },
   {
-   "id": 4636044,
-   "s365_competition_id": 122,
-   "competition_name": "Allsvenskan",
-   "start_time": "2026-09-16T17:00:00+00:00",
+   "id": 4795416,
+   "s365_competition_id": 414,
+   "competition_name": "Premier League",
+   "start_time": "2026-09-17T17:30:00+00:00",
    "status_group": 2,
    "round": "Round",
    "home": {
-    "id": 1890,
-    "name": "AIK Solna"
+    "id": 5450,
+    "name": "Orlando Pirates"
    },
    "away": {
-    "id": 1906,
-    "name": "Mjällby AIF"
+    "id": 82528,
+    "name": "Durban City"
    },
-   "home_score": 1.0,
-   "away_score": 1.0,
+   "home_score": -1.0,
+   "away_score": -1.0,
    "model": {
-    "lambda_home": 2.58,
-    "lambda_away": 1.32,
-    "expected_goals": 3.89,
+    "lambda_home": 1.41,
+    "lambda_away": 0.51,
+    "expected_goals": 1.92,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.6458,
-     "DRAW": 0.1758,
-     "AWAY": 0.1784,
-     "1X": 0.8216,
-     "X2": 0.3542,
-     "12": 0.8242,
-     "OVER25": 0.7457,
-     "UNDER25": 0.2543,
-     "BTTS_YES": 0.6763,
-     "BTTS_NO": 0.3237
+     "HOME": 0.5921,
+     "DRAW": 0.2733,
+     "AWAY": 0.1347,
+     "1X": 0.8653,
+     "X2": 0.4079,
+     "12": 0.7267,
+     "OVER25": 0.3013,
+     "UNDER25": 0.6987,
+     "BTTS_YES": 0.3028,
+     "BTTS_NO": 0.6972
     }
    },
    "pick": {
-    "selection": "1X",
-    "family": "double_chance",
-    "label": "Dupla chance: AIK Solna ou empate (1X)",
-    "model_prob": 0.8216,
-    "trend_alignment": 0.905,
-    "confidence": 67,
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Orlando Pirates",
+    "model_prob": 0.5921,
+    "trend_alignment": 0.895,
+    "confidence": 72,
     "eligible": true,
-    "odd": 1.38,
+    "odd": 1.39,
     "low_conviction": false
    },
    "alt_markets": [
     {
-     "selection": "HOME",
-     "family": "1x2",
-     "label": "Vitória do AIK Solna",
-     "model_prob": 0.6458,
-     "trend_alignment": 0.905,
-     "confidence": 62,
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Orlando Pirates ou empate (1X)",
+     "model_prob": 0.8653,
+     "trend_alignment": 0.895,
+     "confidence": 72,
      "eligible": true,
-     "odd": 2.21
+     "odd": 1.09
     },
     {
-     "selection": "OVER25",
+     "selection": "UNDER25",
      "family": "over_under",
-     "label": "Mais de 2.5 gols",
-     "model_prob": 0.7457,
-     "trend_alignment": 0.58,
-     "confidence": 52,
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.6987,
+     "trend_alignment": 0.657,
+     "confidence": 49,
      "eligible": true,
-     "odd": 1.77
+     "odd": 1.66
     },
     {
-     "selection": "BTTS_YES",
+     "selection": "BTTS_NO",
      "family": "btts",
-     "label": "Ambos os times marcam",
-     "model_prob": 0.6763,
-     "trend_alignment": 0.58,
-     "confidence": 43,
+     "label": "Ambos marcam: não",
+     "model_prob": 0.6972,
+     "trend_alignment": 0.657,
+     "confidence": 49,
      "eligible": true,
      "odd": null
     },
     {
      "selection": "AWAY",
      "family": "1x2",
-     "label": "Vitória do Mjällby AIF",
-     "model_prob": 0.1784,
+     "label": "Vitória do Durban City",
+     "model_prob": 0.1347,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 3.08
+     "odd": 7.55
     }
    ],
    "trends": [
     {
-     "label": "Perdeu 3 dos últimos 5",
-     "strength": 0.52,
+     "label": "Invicto há 7+ jogos",
+     "strength": 0.667,
      "favors": "HOME",
-     "team": "Mjällby AIF",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "losses"
+     "team": "Orlando Pirates",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
     },
     {
-     "label": "Sofreu gol em todos os últimos 5",
-     "strength": 0.4,
-     "favors": "OVER",
-     "team": "Mjällby AIF",
+     "label": "Venceu 5 dos últimos 7",
+     "strength": 0.607,
+     "favors": "HOME",
+     "team": "Orlando Pirates",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Não sofreu gol em 5 dos últimos 7",
+     "strength": 0.436,
+     "favors": "UNDER",
+     "team": "Orlando Pirates",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "clean_sheets"
+    },
+    {
+     "label": "Menos de 2.5 gols em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "UNDER",
+     "team": "Durban City",
      "side": "AWAY",
      "group": "geral",
-     "kind": "always_concede"
+     "kind": "under"
     },
     {
      "label": "Invicto em 4 dos últimos 5",
      "strength": 0.48,
-     "favors": "HOME",
-     "team": "AIK Solna",
-     "side": "HOME",
+     "favors": "AWAY",
+     "team": "Durban City",
+     "side": "AWAY",
      "group": "geral",
      "kind": "unbeaten"
     },
     {
-     "label": "Mais de 2.5 gols em 4 dos últimos 5",
-     "strength": 0.47,
-     "favors": "OVER",
-     "team": "AIK Solna",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "over"
-    },
-    {
-     "label": "AIK Solna é 7º · Mjällby AIF é 12º",
+     "label": "Orlando Pirates é 2º · Durban City é 9º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -443,8 +368,8 @@
      "kind": "positions"
     },
     {
-     "label": "AIK Solna está 5 posições à frente",
-     "strength": 0.357,
+     "label": "Orlando Pirates está 7 posições à frente",
+     "strength": 0.5,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -454,27 +379,328 @@
    ],
    "aligned_trends": [
     {
-     "label": "Perdeu 3 dos últimos 5",
-     "strength": 0.52,
+     "label": "Invicto há 7+ jogos",
+     "strength": 0.667,
      "favors": "HOME",
-     "team": "Mjällby AIF",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "losses"
+     "team": "Orlando Pirates",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
     },
     {
-     "label": "Invicto em 4 dos últimos 5",
-     "strength": 0.48,
+     "label": "Venceu 5 dos últimos 7",
+     "strength": 0.607,
      "favors": "HOME",
-     "team": "AIK Solna",
+     "team": "Orlando Pirates",
      "side": "HOME",
      "group": "geral",
-     "kind": "unbeaten"
+     "kind": "wins"
     },
     {
-     "label": "AIK Solna está 5 posições à frente",
-     "strength": 0.357,
+     "label": "Orlando Pirates está 7 posições à frente",
+     "strength": 0.5,
      "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 72,
+   "league": {
+    "key": "south_africa",
+    "name": "Premier League",
+    "country": "África do Sul"
+   },
+   "home_team": {
+    "id": 5450,
+    "name": "Orlando Pirates",
+    "position": 2,
+    "played": 5,
+    "points": 13.0,
+    "record": "4V 1E 0D",
+    "goals_for": 12,
+    "goals_against": 1,
+    "last5": "WDWWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": true,
+      "opponent": "La Cure Waves",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "La Cure Waves",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "W",
+      "score": "4-0",
+      "home": false,
+      "opponent": "Kruger United",
+      "date": "2026-09-01"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Sekhukhune United",
+      "date": "2026-08-25"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": false,
+      "opponent": "Chippa United",
+      "date": "2026-08-16"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 82528,
+    "name": "Durban City",
+    "position": 9,
+    "played": 5,
+    "points": 6.0,
+    "record": "1V 3E 1D",
+    "goals_for": 3,
+    "goals_against": 2,
+    "last5": "DWDDL",
+    "recent": [
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Stellenbosch FC",
+      "date": "2026-09-01"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "Kruger United",
+      "date": "2026-08-25"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Richards Bay",
+      "date": "2026-08-15"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Golden Arrows",
+      "date": "2026-08-12"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Sekhukhune United",
+      "date": "2026-08-01"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-17T14:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "3 casas",
+   "is_cup": false,
+   "result": "pending",
+   "clear": false,
+   "below_bar": true
+  },
+  {
+   "id": 4804677,
+   "s365_competition_id": 552,
+   "competition_name": "Premier League",
+   "start_time": "2026-09-17T17:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 8300,
+    "name": "ENPPI"
+   },
+   "away": {
+    "id": 22143,
+    "name": "Pyramids"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 0.88,
+    "lambda_away": 1.66,
+    "expected_goals": 2.54,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.2,
+     "DRAW": 0.2441,
+     "AWAY": 0.5559,
+     "1X": 0.4441,
+     "X2": 0.8,
+     "12": 0.7559,
+     "OVER25": 0.4667,
+     "UNDER25": 0.5333,
+     "BTTS_YES": 0.4751,
+     "BTTS_NO": 0.5249
+    }
+   },
+   "pick": {
+    "selection": "AWAY",
+    "family": "1x2",
+    "label": "Vitória do Pyramids",
+    "model_prob": 0.5559,
+    "trend_alignment": 1.0,
+    "confidence": 67,
+    "eligible": true,
+    "odd": 1.46,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "X2",
+     "family": "double_chance",
+     "label": "Dupla chance: Pyramids ou empate (X2)",
+     "model_prob": 0.8,
+     "trend_alignment": 1.0,
+     "confidence": 67,
+     "eligible": true,
+     "odd": 1.1
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.5333,
+     "trend_alignment": 0.052,
+     "confidence": 6,
+     "eligible": false,
+     "odd": 1.61
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5249,
+     "trend_alignment": 0.052,
+     "confidence": 5,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do ENPPI",
+     "model_prob": 0.2,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 6.95
+    }
+   ],
+   "trends": [
+    {
+     "label": "6 vitórias seguidas",
+     "strength": 1.0,
+     "favors": "AWAY",
+     "team": "Pyramids",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 6 dos últimos 6",
+     "strength": 0.75,
+     "favors": "AWAY",
+     "team": "Pyramids",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Não sofreu gol em 5 dos últimos 6",
+     "strength": 0.483,
+     "favors": "UNDER",
+     "team": "Pyramids",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "clean_sheets"
+    },
+    {
+     "label": "Só venceu 1 dos últimos 4",
+     "strength": 0.462,
+     "favors": "AWAY",
+     "team": "ENPPI",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "Mais de 2.5 gols em 3 dos últimos 4",
+     "strength": 0.45,
+     "favors": "OVER",
+     "team": "ENPPI",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "ENPPI é 14º · Pyramids é 4º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Pyramids está 10 posições à frente",
+     "strength": 0.714,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "6 vitórias seguidas",
+     "strength": 1.0,
+     "favors": "AWAY",
+     "team": "Pyramids",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 6 dos últimos 6",
+     "strength": 0.75,
+     "favors": "AWAY",
+     "team": "Pyramids",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Só venceu 1 dos últimos 4",
+     "strength": 0.462,
+     "favors": "AWAY",
+     "team": "ENPPI",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "Pyramids está 10 posições à frente",
+     "strength": 0.714,
+     "favors": "AWAY",
      "team": null,
      "side": null,
      "group": "confronto",
@@ -483,398 +709,100 @@
    ],
    "confidence": 67,
    "league": {
-    "key": "sweden",
-    "name": "Allsvenskan",
-    "country": "Suécia"
+    "key": "egypt",
+    "name": "Premier League",
+    "country": "Egito"
    },
    "home_team": {
-    "id": 1890,
-    "name": "AIK Solna",
-    "position": 7,
-    "played": 20,
-    "points": 32.0,
-    "record": "9V 5E 6D",
-    "goals_for": 29,
-    "goals_against": 31,
-    "last5": "LDWWW",
+    "id": 8300,
+    "name": "ENPPI",
+    "position": 14,
+    "played": 4,
+    "points": 4.0,
+    "record": "1V 1E 2D",
+    "goals_for": 5,
+    "goals_against": 7,
+    "last5": "WDLL",
     "recent": [
      {
-      "result": "L",
-      "score": "1-4",
+      "result": "W",
+      "score": "2-1",
       "home": true,
-      "opponent": "Västerås",
-      "date": "2026-09-12"
+      "opponent": "Zed FC",
+      "date": "2026-09-09"
      },
      {
       "result": "D",
       "score": "0-0",
       "home": false,
-      "opponent": "Malmö FF",
-      "date": "2026-09-07"
+      "opponent": "Ghazl El-Mehalla",
+      "date": "2026-09-01"
      },
      {
-      "result": "W",
-      "score": "3-2",
+      "result": "L",
+      "score": "1-3",
       "home": true,
-      "opponent": "Hammarby",
-      "date": "2026-08-30"
+      "opponent": "Wadi Degla",
+      "date": "2026-08-28"
      },
      {
-      "result": "W",
-      "score": "3-1",
+      "result": "L",
+      "score": "2-3",
       "home": false,
-      "opponent": "Djurgårdens IF",
-      "date": "2026-08-16"
-     },
-     {
-      "result": "W",
-      "score": "4-3",
-      "home": false,
-      "opponent": "Örgryte IS",
-      "date": "2026-08-08"
+      "opponent": "Al Ahly SC",
+      "date": "2026-08-23"
      }
     ]
    },
    "away_team": {
-    "id": 1906,
-    "name": "Mjällby AIF",
-    "position": 12,
-    "played": 20,
-    "points": 21.0,
-    "record": "5V 6E 9D",
-    "goals_for": 26,
-    "goals_against": 34,
-    "last5": "DLLLW",
-    "recent": [
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": false,
-      "opponent": "BK Häcken",
-      "date": "2026-09-11"
-     },
-     {
-      "result": "L",
-      "score": "1-4",
-      "home": true,
-      "opponent": "IFK Göteborg",
-      "date": "2026-09-07"
-     },
-     {
-      "result": "L",
-      "score": "0-2",
-      "home": true,
-      "opponent": "Djurgårdens IF",
-      "date": "2026-09-03"
-     },
-     {
-      "result": "L",
-      "score": "0-4",
-      "home": false,
-      "opponent": "Djurgårdens IF",
-      "date": "2026-08-31"
-     },
-     {
-      "result": "W",
-      "score": "4-3",
-      "home": true,
-      "opponent": "Sirius",
-      "date": "2026-08-15"
-     }
-    ]
-   },
-   "kickoff_local": "2026-09-16T14:00:00-03:00",
-   "has_odds": true,
-   "odds_bookmaker": "3 casas",
-   "is_cup": false,
-   "result": "hit",
-   "clear": true
-  },
-  {
-   "id": 4750855,
-   "s365_competition_id": 11,
-   "competition_name": "LaLiga",
-   "start_time": "2026-09-16T19:30:00+00:00",
-   "status_group": 2,
-   "round": "Round",
-   "home": {
-    "id": 132,
-    "name": "FC Barcelona"
-   },
-   "away": {
-    "id": 137,
-    "name": "Racing Santander"
-   },
-   "home_score": -1.0,
-   "away_score": -1.0,
-   "model": {
-    "lambda_home": 2.83,
-    "lambda_away": 1.03,
-    "expected_goals": 3.86,
-    "sample_factor": 1.0,
-    "probs": {
-     "HOME": 0.7445,
-     "DRAW": 0.1453,
-     "AWAY": 0.1102,
-     "1X": 0.8898,
-     "X2": 0.2555,
-     "12": 0.8547,
-     "OVER25": 0.7397,
-     "UNDER25": 0.2603,
-     "BTTS_YES": 0.6051,
-     "BTTS_NO": 0.3949
-    }
-   },
-   "pick": {
-    "selection": "HOME",
-    "family": "1x2",
-    "label": "Vitória do FC Barcelona",
-    "model_prob": 0.7445,
-    "trend_alignment": 1.0,
-    "confidence": 79,
-    "eligible": true,
-    "odd": 1.06,
-    "low_conviction": false
-   },
-   "alt_markets": [
-    {
-     "selection": "1X",
-     "family": "double_chance",
-     "label": "Dupla chance: FC Barcelona ou empate (1X)",
-     "model_prob": 0.8898,
-     "trend_alignment": 1.0,
-     "confidence": 79,
-     "eligible": true,
-     "odd": 1.01
-    },
-    {
-     "selection": "OVER25",
-     "family": "over_under",
-     "label": "Mais de 2.5 gols",
-     "model_prob": 0.7397,
-     "trend_alignment": 0.922,
-     "confidence": 63,
-     "eligible": true,
-     "odd": 2.28
-    },
-    {
-     "selection": "BTTS_YES",
-     "family": "btts",
-     "label": "Ambos os times marcam",
-     "model_prob": 0.6051,
-     "trend_alignment": 0.922,
-     "confidence": 46,
-     "eligible": true,
-     "odd": null
-    },
-    {
-     "selection": "AWAY",
-     "family": "1x2",
-     "label": "Vitória do Racing Santander",
-     "model_prob": 0.1102,
-     "trend_alignment": 0.0,
-     "confidence": 0,
-     "eligible": false,
-     "odd": 23.0
-    }
-   ],
-   "trends": [
-    {
-     "label": "6 vitórias seguidas",
-     "strength": 1.0,
-     "favors": "HOME",
-     "team": "FC Barcelona",
-     "side": "HOME",
-     "group": "sequencia",
-     "kind": "win_streak"
-    },
-    {
-     "label": "Venceu 6 dos últimos 6",
-     "strength": 0.75,
-     "favors": "HOME",
-     "team": "FC Barcelona",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "Mais de 2.5 gols em 5 dos últimos 6",
-     "strength": 0.483,
-     "favors": "OVER",
-     "team": "FC Barcelona",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "over"
-    },
-    {
-     "label": "Mais de 2.5 gols em 4 dos últimos 5",
-     "strength": 0.47,
-     "favors": "OVER",
-     "team": "Racing Santander",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "over"
-    },
-    {
-     "label": "Ambos marcaram em 4 dos últimos 5",
-     "strength": 0.43,
-     "favors": "BTTS_YES",
-     "team": "Racing Santander",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "btts"
-    },
-    {
-     "label": "FC Barcelona é 1º · Racing Santander é 10º",
-     "strength": 0.0,
-     "favors": null,
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "positions"
-    },
-    {
-     "label": "FC Barcelona está 9 posições à frente",
-     "strength": 0.643,
-     "favors": "HOME",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "aligned_trends": [
-    {
-     "label": "6 vitórias seguidas",
-     "strength": 1.0,
-     "favors": "HOME",
-     "team": "FC Barcelona",
-     "side": "HOME",
-     "group": "sequencia",
-     "kind": "win_streak"
-    },
-    {
-     "label": "Venceu 6 dos últimos 6",
-     "strength": 0.75,
-     "favors": "HOME",
-     "team": "FC Barcelona",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "FC Barcelona está 9 posições à frente",
-     "strength": 0.643,
-     "favors": "HOME",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "confidence": 79,
-   "league": {
-    "key": "laliga",
-    "name": "LaLiga",
-    "country": "Espanha"
-   },
-   "home_team": {
-    "id": 132,
-    "name": "FC Barcelona",
-    "position": 1,
-    "played": 5,
-    "points": 15.0,
-    "record": "5V 0E 0D",
-    "goals_for": 21,
-    "goals_against": 4,
+    "id": 22143,
+    "name": "Pyramids",
+    "position": 4,
+    "played": 4,
+    "points": 12.0,
+    "record": "4V 0E 0D",
+    "goals_for": 7,
+    "goals_against": 0,
     "last5": "WWWWW",
     "recent": [
      {
       "result": "W",
-      "score": "4-2",
-      "home": false,
-      "opponent": "Levante",
+      "score": "5-1",
+      "home": true,
+      "opponent": "Gor Mahia",
       "date": "2026-09-13"
      },
      {
       "result": "W",
-      "score": "5-1",
+      "score": "1-0",
       "home": true,
-      "opponent": "Feyenoord",
+      "opponent": "El Gounah",
       "date": "2026-09-09"
      },
      {
       "result": "W",
-      "score": "5-0",
+      "score": "2-0",
       "home": false,
-      "opponent": "Valencia",
+      "opponent": "Gor Mahia",
       "date": "2026-09-06"
      },
      {
       "result": "W",
-      "score": "5-2",
-      "home": true,
-      "opponent": "Rayo Vallecano",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Al Masry",
       "date": "2026-08-31"
      },
      {
       "result": "W",
       "score": "2-0",
       "home": true,
-      "opponent": "Athletic Bilbao",
+      "opponent": "Abo Qir Semad",
       "date": "2026-08-27"
      }
     ]
    },
-   "away_team": {
-    "id": 137,
-    "name": "Racing Santander",
-    "position": 10,
-    "played": 5,
-    "points": 7.0,
-    "record": "2V 1E 2D",
-    "goals_for": 9,
-    "goals_against": 9,
-    "last5": "WLWLD",
-    "recent": [
-     {
-      "result": "W",
-      "score": "2-1",
-      "home": true,
-      "opponent": "Alaves",
-      "date": "2026-09-12"
-     },
-     {
-      "result": "L",
-      "score": "2-3",
-      "home": false,
-      "opponent": "Rayo Vallecano",
-      "date": "2026-09-05"
-     },
-     {
-      "result": "W",
-      "score": "3-2",
-      "home": true,
-      "opponent": "Elche",
-      "date": "2026-08-28"
-     },
-     {
-      "result": "L",
-      "score": "0-1",
-      "home": false,
-      "opponent": "Getafe",
-      "date": "2026-08-23"
-     },
-     {
-      "result": "D",
-      "score": "2-2",
-      "home": true,
-      "opponent": "Villarreal",
-      "date": "2026-08-16"
-     }
-    ]
-   },
-   "kickoff_local": "2026-09-16T16:30:00-03:00",
+   "kickoff_local": "2026-09-17T14:00:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,

@@ -605,8 +605,8 @@
     "id": 137,
     "name": "Racing Santander"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 7.0,
+   "away_score": 2.0,
    "model": {
     "lambda_home": 2.83,
     "lambda_away": 1.03,
@@ -878,7 +878,7 @@
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": false,
    "below_bar": true
   }

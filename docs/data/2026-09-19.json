@@ -1,0 +1,1492 @@
+{
+ "date": "2026-09-19",
+ "generated_at": "2026-09-17T08:17:05.838333-03:00",
+ "version": "0.1.0",
+ "count": 5,
+ "clear_count": 5,
+ "day_total": 125,
+ "games": [
+  {
+   "id": 4740732,
+   "s365_competition_id": 98,
+   "competition_name": "Jupiler Pro League",
+   "start_time": "2026-09-19T16:15:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 1178,
+    "name": "Charleroi"
+   },
+   "away": {
+    "id": 1171,
+    "name": "Cercle Brugge"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.06,
+    "lambda_away": 0.75,
+    "expected_goals": 2.81,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.6776,
+     "DRAW": 0.1963,
+     "AWAY": 0.1261,
+     "1X": 0.8739,
+     "X2": 0.3224,
+     "12": 0.8037,
+     "OVER25": 0.5338,
+     "UNDER25": 0.4662,
+     "BTTS_YES": 0.4622,
+     "BTTS_NO": 0.5378
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Charleroi",
+    "model_prob": 0.6776,
+    "trend_alignment": 1.0,
+    "confidence": 77,
+    "eligible": true,
+    "odd": 1.7,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Charleroi ou empate (1X)",
+     "model_prob": 0.8739,
+     "trend_alignment": 1.0,
+     "confidence": 77,
+     "eligible": true,
+     "odd": 1.23
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5338,
+     "trend_alignment": 0.033,
+     "confidence": 6,
+     "eligible": false,
+     "odd": 1.56
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5378,
+     "trend_alignment": 0.02,
+     "confidence": 6,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.4662,
+     "trend_alignment": 0.02,
+     "confidence": 1,
+     "eligible": false,
+     "odd": 2.33
+    }
+   ],
+   "trends": [
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "HOME",
+     "team": "Charleroi",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Não sofreu gol em 3 dos últimos 5",
+     "strength": 0.39,
+     "favors": "UNDER",
+     "team": "Charleroi",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "clean_sheets"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Cercle Brugge",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Sofreu gol em todos os últimos 5",
+     "strength": 0.4,
+     "favors": "OVER",
+     "team": "Cercle Brugge",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "always_concede"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Cercle Brugge",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Charleroi é 3º · Cercle Brugge é 15º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Charleroi está 12 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "HOME",
+     "team": "Charleroi",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Cercle Brugge",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Cercle Brugge",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Charleroi está 12 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 77,
+   "league": {
+    "key": "belgium",
+    "name": "Jupiler Pro League",
+    "country": "Bélgica"
+   },
+   "home_team": {
+    "id": 1178,
+    "name": "Charleroi",
+    "position": 3,
+    "played": 6,
+    "points": 15.0,
+    "record": "5V 0E 1D",
+    "goals_for": 12,
+    "goals_against": 5,
+    "last5": "WLWWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Zulte Waregem",
+      "date": "2026-09-13"
+     },
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": true,
+      "opponent": "Union St. Gilloise",
+      "date": "2026-09-05"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": false,
+      "opponent": "KV Kortrijk",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "KV Mechelen",
+      "date": "2026-08-22"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Lommel United",
+      "date": "2026-08-16"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 1171,
+    "name": "Cercle Brugge",
+    "position": 15,
+    "played": 6,
+    "points": 3.0,
+    "record": "0V 3E 3D",
+    "goals_for": 6,
+    "goals_against": 11,
+    "last5": "DLLLD",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Oud-Heverlee Leuven",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": true,
+      "opponent": "KAA Gent",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Lommel United",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Club Brugge",
+      "date": "2026-08-23"
+     },
+     {
+      "result": "D",
+      "score": "3-3",
+      "home": true,
+      "opponent": "STVV",
+      "date": "2026-08-14"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-19T13:15:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "3 casas",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4741653,
+   "s365_competition_id": 61,
+   "competition_name": "Scottish Premiership",
+   "start_time": "2026-09-19T16:45:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 763,
+    "name": "Kilmarnock"
+   },
+   "away": {
+    "id": 759,
+    "name": "Hearts"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 0.87,
+    "lambda_away": 2.29,
+    "expected_goals": 3.15,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.1267,
+     "DRAW": 0.1797,
+     "AWAY": 0.6935,
+     "1X": 0.3065,
+     "X2": 0.8733,
+     "12": 0.8203,
+     "OVER25": 0.6102,
+     "UNDER25": 0.3898,
+     "BTTS_YES": 0.5206,
+     "BTTS_NO": 0.4794
+    }
+   },
+   "pick": {
+    "selection": "AWAY",
+    "family": "1x2",
+    "label": "Vitória do Hearts",
+    "model_prob": 0.6935,
+    "trend_alignment": 1.0,
+    "confidence": 77,
+    "eligible": true,
+    "odd": 1.61,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "X2",
+     "family": "double_chance",
+     "label": "Dupla chance: Hearts ou empate (X2)",
+     "model_prob": 0.8733,
+     "trend_alignment": 1.0,
+     "confidence": 77,
+     "eligible": true,
+     "odd": 1.19
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6102,
+     "trend_alignment": 0.133,
+     "confidence": 19,
+     "eligible": true,
+     "odd": 1.57
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5206,
+     "trend_alignment": 0.133,
+     "confidence": 7,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Kilmarnock",
+     "model_prob": 0.1267,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 4.75
+    }
+   ],
+   "trends": [
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "AWAY",
+     "team": "Hearts",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Mais de 2.5 gols em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "OVER",
+     "team": "Hearts",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Kilmarnock",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Ambos marcaram só 1x nos últimos 5",
+     "strength": 0.39,
+     "favors": "BTTS_NO",
+     "team": "Kilmarnock",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "no_btts"
+    },
+    {
+     "label": "Kilmarnock é 12º · Hearts é 3º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Hearts está 9 posições à frente",
+     "strength": 0.643,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "AWAY",
+     "team": "Hearts",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Kilmarnock",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Hearts está 9 posições à frente",
+     "strength": 0.643,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 77,
+   "league": {
+    "key": "scotland",
+    "name": "Scottish Premiership",
+    "country": "Escócia"
+   },
+   "home_team": {
+    "id": 763,
+    "name": "Kilmarnock",
+    "position": 12,
+    "played": 6,
+    "points": 4.0,
+    "record": "1V 1E 4D",
+    "goals_for": 5,
+    "goals_against": 14,
+    "last5": "WDLLL",
+    "recent": [
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Hibernian",
+      "date": "2026-09-15"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Aberdeen",
+      "date": "2026-09-05"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "St. Mirren",
+      "date": "2026-09-02"
+     },
+     {
+      "result": "L",
+      "score": "0-4",
+      "home": true,
+      "opponent": "Dundee United",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "L",
+      "score": "1-5",
+      "home": true,
+      "opponent": "Celtic",
+      "date": "2026-08-09"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 759,
+    "name": "Hearts",
+    "position": 3,
+    "played": 6,
+    "points": 12.0,
+    "record": "4V 0E 2D",
+    "goals_for": 13,
+    "goals_against": 7,
+    "last5": "LWWWW",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Falkirk",
+      "date": "2026-09-15"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Dundee",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": false,
+      "opponent": "Hibernian",
+      "date": "2026-09-03"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "St. Johnstone",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "W",
+      "score": "4-0",
+      "home": true,
+      "opponent": "Dundee United",
+      "date": "2026-08-09"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-19T13:45:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "3 casas",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4845511,
+   "s365_competition_id": 117,
+   "competition_name": "Chance Liga",
+   "start_time": "2026-09-19T13:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 25541,
+    "name": "Artis Brno"
+   },
+   "away": {
+    "id": 1794,
+    "name": "Slovan Liberec"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 0.8,
+    "lambda_away": 1.88,
+    "expected_goals": 2.68,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.1532,
+     "DRAW": 0.2173,
+     "AWAY": 0.6295,
+     "1X": 0.3705,
+     "X2": 0.8468,
+     "12": 0.7827,
+     "OVER25": 0.5023,
+     "UNDER25": 0.4977,
+     "BTTS_YES": 0.4672,
+     "BTTS_NO": 0.5328
+    }
+   },
+   "pick": {
+    "selection": "AWAY",
+    "family": "1x2",
+    "label": "Vitória do Slovan Liberec",
+    "model_prob": 0.6295,
+    "trend_alignment": 1.0,
+    "confidence": 73,
+    "eligible": true,
+    "odd": 1.57,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "X2",
+     "family": "double_chance",
+     "label": "Dupla chance: Slovan Liberec ou empate (X2)",
+     "model_prob": 0.8468,
+     "trend_alignment": 1.0,
+     "confidence": 73,
+     "eligible": true,
+     "odd": 1.17
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5023,
+     "trend_alignment": 0.306,
+     "confidence": 11,
+     "eligible": false,
+     "odd": 1.84
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.4672,
+     "trend_alignment": 0.306,
+     "confidence": 11,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5328,
+     "trend_alignment": 0.0,
+     "confidence": 4,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "4 vitórias seguidas",
+     "strength": 0.75,
+     "favors": "AWAY",
+     "team": "Slovan Liberec",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "AWAY",
+     "team": "Slovan Liberec",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Não sofreu gol em 3 dos últimos 5",
+     "strength": 0.39,
+     "favors": "UNDER",
+     "team": "Slovan Liberec",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "clean_sheets"
+    },
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "AWAY",
+     "team": "Artis Brno",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "Artis Brno",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Melhor defesa da liga (0.5 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "Slovan Liberec",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Pior defesa da liga (2.2 sofridos/jogo)",
+     "strength": 0.34,
+     "favors": "OVER",
+     "team": "Artis Brno",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_bottom"
+    },
+    {
+     "label": "Artis Brno é 14º · Slovan Liberec é 2º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Slovan Liberec está 12 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "4 vitórias seguidas",
+     "strength": 0.75,
+     "favors": "AWAY",
+     "team": "Slovan Liberec",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "AWAY",
+     "team": "Slovan Liberec",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "AWAY",
+     "team": "Artis Brno",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Melhor defesa da liga (0.5 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "Slovan Liberec",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Slovan Liberec está 12 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 73,
+   "league": {
+    "key": "czech",
+    "name": "Chance Liga",
+    "country": "Chéquia"
+   },
+   "home_team": {
+    "id": 25541,
+    "name": "Artis Brno",
+    "position": 14,
+    "played": 8,
+    "points": 4.0,
+    "record": "1V 1E 6D",
+    "goals_for": 7,
+    "goals_against": 18,
+    "last5": "LLWLL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Zbrojovka Brno",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": true,
+      "opponent": "Viktoria Plzen",
+      "date": "2026-09-05"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Pardubice",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "L",
+      "score": "0-4",
+      "home": true,
+      "opponent": "Sparta Praha",
+      "date": "2026-08-22"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Banik Ostrava",
+      "date": "2026-08-16"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 1794,
+    "name": "Slovan Liberec",
+    "position": 2,
+    "played": 8,
+    "points": 19.0,
+    "record": "6V 1E 1D",
+    "goals_for": 13,
+    "goals_against": 4,
+    "last5": "WWWWD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "Mlada Boleslav",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "FK Jablonec",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Hradec Kralove",
+      "date": "2026-08-30"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Zlin",
+      "date": "2026-08-22"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Slavia Praha",
+      "date": "2026-08-16"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-19T10:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "3 casas",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4746128,
+   "s365_competition_id": 1,
+   "competition_name": "Championship",
+   "start_time": "2026-09-19T14:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 18,
+    "name": "QPR"
+   },
+   "away": {
+    "id": 23,
+    "name": "Preston"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.49,
+    "lambda_away": 0.73,
+    "expected_goals": 2.22,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.5525,
+     "DRAW": 0.2633,
+     "AWAY": 0.1842,
+     "1X": 0.8158,
+     "X2": 0.4475,
+     "12": 0.7367,
+     "OVER25": 0.383,
+     "UNDER25": 0.617,
+     "BTTS_YES": 0.4024,
+     "BTTS_NO": 0.5976
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do QPR",
+    "model_prob": 0.5525,
+    "trend_alignment": 1.0,
+    "confidence": 69,
+    "eligible": true,
+    "odd": 1.68,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: QPR ou empate (1X)",
+     "model_prob": 0.8158,
+     "trend_alignment": 1.0,
+     "confidence": 69,
+     "eligible": true,
+     "odd": 1.19
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.617,
+     "trend_alignment": 0.0,
+     "confidence": 15,
+     "eligible": true,
+     "odd": 1.9
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5976,
+     "trend_alignment": 0.0,
+     "confidence": 13,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.383,
+     "trend_alignment": 0.267,
+     "confidence": 9,
+     "eligible": false,
+     "odd": 1.9
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "HOME",
+     "team": "Preston",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Sofreu gol em todos os últimos 5",
+     "strength": 0.4,
+     "favors": "OVER",
+     "team": "Preston",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "always_concede"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "QPR",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "QPR é 5º · Preston é 23º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "QPR está 18 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "HOME",
+     "team": "Preston",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "QPR",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "QPR está 18 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 69,
+   "league": {
+    "key": "championship",
+    "name": "Championship",
+    "country": "Inglaterra"
+   },
+   "home_team": {
+    "id": 18,
+    "name": "QPR",
+    "position": 5,
+    "played": 7,
+    "points": 12.0,
+    "record": "3V 3E 1D",
+    "goals_for": 8,
+    "goals_against": 5,
+    "last5": "DDLWW",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "West Brom",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Charlton",
+      "date": "2026-09-09"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Middlesbrough",
+      "date": "2026-09-05"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Cardiff",
+      "date": "2026-09-02"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Blackburn Rovers",
+      "date": "2026-08-29"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 23,
+    "name": "Preston",
+    "position": 23,
+    "played": 7,
+    "points": 3.0,
+    "record": "1V 0E 6D",
+    "goals_for": 6,
+    "goals_against": 13,
+    "last5": "LLWLL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Lincoln",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Watford FC",
+      "date": "2026-09-08"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Blackburn Rovers",
+      "date": "2026-09-05"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": true,
+      "opponent": "Bristol City",
+      "date": "2026-09-01"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Charlton",
+      "date": "2026-08-29"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-19T11:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "3 casas",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4757669,
+   "s365_competition_id": 26,
+   "competition_name": "Bundesliga 2",
+   "start_time": "2026-09-19T18:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 396,
+    "name": "Dynamo Dresden"
+   },
+   "away": {
+    "id": 342,
+    "name": "Hertha Berlin"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.39,
+    "lambda_away": 2.27,
+    "expected_goals": 3.66,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.2293,
+     "DRAW": 0.1986,
+     "AWAY": 0.5721,
+     "1X": 0.4279,
+     "X2": 0.7707,
+     "12": 0.8014,
+     "OVER25": 0.7083,
+     "UNDER25": 0.2917,
+     "BTTS_YES": 0.6742,
+     "BTTS_NO": 0.3258
+    }
+   },
+   "pick": {
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: Hertha Berlin ou empate (X2)",
+    "model_prob": 0.7707,
+    "trend_alignment": 1.0,
+    "confidence": 63,
+    "eligible": true,
+    "odd": 1.53,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Hertha Berlin",
+     "model_prob": 0.5721,
+     "trend_alignment": 1.0,
+     "confidence": 58,
+     "eligible": true,
+     "odd": 2.45
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.7083,
+     "trend_alignment": 0.627,
+     "confidence": 49,
+     "eligible": true,
+     "odd": 2.2
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.6742,
+     "trend_alignment": 0.627,
+     "confidence": 45,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Dynamo Dresden",
+     "model_prob": 0.2293,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 2.5
+    }
+   ],
+   "trends": [
+    {
+     "label": "5 vitórias seguidas",
+     "strength": 1.0,
+     "favors": "AWAY",
+     "team": "Hertha Berlin",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 5 dos últimos 5",
+     "strength": 0.75,
+     "favors": "AWAY",
+     "team": "Hertha Berlin",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "Hertha Berlin",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Dynamo Dresden",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "Dynamo Dresden",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Dynamo Dresden é 17º · Hertha Berlin é 1º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Hertha Berlin está 16 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "5 vitórias seguidas",
+     "strength": 1.0,
+     "favors": "AWAY",
+     "team": "Hertha Berlin",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 5 dos últimos 5",
+     "strength": 0.75,
+     "favors": "AWAY",
+     "team": "Hertha Berlin",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Dynamo Dresden",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Hertha Berlin está 16 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 63,
+   "league": {
+    "key": "bundesliga2",
+    "name": "2. Bundesliga",
+    "country": "Alemanha"
+   },
+   "home_team": {
+    "id": 396,
+    "name": "Dynamo Dresden",
+    "position": 17,
+    "played": 5,
+    "points": 4.0,
+    "record": "1V 1E 3D",
+    "goals_for": 7,
+    "goals_against": 12,
+    "last5": "DLLWL",
+    "recent": [
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "Eintracht Braunschweig",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "VfL Bochum",
+      "date": "2026-09-05"
+     },
+     {
+      "result": "L",
+      "score": "3-5",
+      "home": false,
+      "opponent": "FC Heidenheim",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "SV Darmstadt 98",
+      "date": "2026-08-16"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": false,
+      "opponent": "FC Nürnberg",
+      "date": "2026-08-09"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 342,
+    "name": "Hertha Berlin",
+    "position": 1,
+    "played": 5,
+    "points": 15.0,
+    "record": "5V 0E 0D",
+    "goals_for": 15,
+    "goals_against": 6,
+    "last5": "WWWWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": false,
+      "opponent": "Osnabrück",
+      "date": "2026-09-13"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "FC Magdeburg",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "W",
+      "score": "5-3",
+      "home": false,
+      "opponent": "Eintracht Braunschweig",
+      "date": "2026-08-28"
+     },
+     {
+      "result": "W",
+      "score": "4-1",
+      "home": true,
+      "opponent": "FC Heidenheim",
+      "date": "2026-08-15"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "VfL Bochum",
+      "date": "2026-08-07"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-19T15:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "3 casas",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  }
+ ]
+}

@@ -1,6 +1,6 @@
 {
  "date": "2026-09-18",
- "generated_at": "2026-09-16T17:14:03.037741-03:00",
+ "generated_at": "2026-09-17T08:17:04.503597-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -91,7 +91,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 21.38
+     "odd": 20.25
     }
    ],
    "trends": [
@@ -330,7 +330,7 @@
      "trend_alignment": 1.0,
      "confidence": 51,
      "eligible": true,
-     "odd": 1.65
+     "odd": 1.69
     },
     {
      "selection": "BTTS_NO",
@@ -350,7 +350,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 4.75
+     "odd": 4.95
     }
    ],
    "trends": [
@@ -657,7 +657,7 @@
      "trend_alignment": 0.533,
      "confidence": 35,
      "eligible": true,
-     "odd": 1.58
+     "odd": 1.6
     },
     {
      "selection": "BTTS_YES",
@@ -677,7 +677,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 4.46
+     "odd": 4.47
     }
    ],
    "trends": [
@@ -1248,7 +1248,7 @@
      "trend_alignment": 0.287,
      "confidence": 10,
      "eligible": false,
-     "odd": 2.1
+     "odd": 1.97
     },
     {
      "selection": "BTTS_YES",
@@ -1268,7 +1268,7 @@
      "trend_alignment": 0.0,
      "confidence": 9,
      "eligible": false,
-     "odd": 1.74
+     "odd": 1.87
     }
    ],
    "trends": [

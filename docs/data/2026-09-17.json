@@ -1,6 +1,6 @@
 {
  "date": "2026-09-17",
- "generated_at": "2026-09-16T17:14:01.043974-03:00",
+ "generated_at": "2026-09-17T08:17:03.243264-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 1,
@@ -49,7 +49,7 @@
     "trend_alignment": 0.809,
     "confidence": 21,
     "eligible": true,
-    "odd": 1.27,
+    "odd": 1.25,
     "low_conviction": true
    },
    "alt_markets": [
@@ -61,7 +61,7 @@
      "trend_alignment": 0.809,
      "confidence": 18,
      "eligible": false,
-     "odd": 1.81
+     "odd": 1.75
     },
     {
      "selection": "BTTS_YES",
@@ -81,7 +81,7 @@
      "trend_alignment": 0.0,
      "confidence": 1,
      "eligible": false,
-     "odd": 1.61
+     "odd": 2.31
     },
     {
      "selection": "AWAY",
@@ -91,7 +91,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 3.92
+     "odd": 4.1
     }
    ],
    "trends": [
@@ -105,7 +105,7 @@
      "kind": "win_streak"
     },
     {
-     "label": "Besiktas é 14º · Olympique de Marseille é 24º",
+     "label": "Besiktas é 12º · Olympique de Marseille é 22º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -152,7 +152,7 @@
    "home_team": {
     "id": 947,
     "name": "Besiktas",
-    "position": 14,
+    "position": 12,
     "played": 0,
     "points": 0,
     "record": "0V 0E 0D",
@@ -186,7 +186,7 @@
    "away_team": {
     "id": 469,
     "name": "Olympique de Marseille",
-    "position": 24,
+    "position": 22,
     "played": 0,
     "points": 0,
     "record": "0V 0E 0D",
@@ -267,7 +267,7 @@
     "trend_alignment": 0.895,
     "confidence": 72,
     "eligible": true,
-    "odd": 1.4,
+    "odd": 1.39,
     "low_conviction": false
    },
    "alt_markets": [
@@ -279,7 +279,7 @@
      "trend_alignment": 0.895,
      "confidence": 72,
      "eligible": true,
-     "odd": 1.1
+     "odd": 1.09
     },
     {
      "selection": "UNDER25",
@@ -289,7 +289,7 @@
      "trend_alignment": 0.657,
      "confidence": 49,
      "eligible": true,
-     "odd": 1.67
+     "odd": 1.66
     },
     {
      "selection": "BTTS_NO",
@@ -309,7 +309,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 7.35
+     "odd": 7.55
     }
    ],
    "trends": [
@@ -559,7 +559,7 @@
     "trend_alignment": 1.0,
     "confidence": 67,
     "eligible": true,
-    "odd": 1.48,
+    "odd": 1.46,
     "low_conviction": false
    },
    "alt_markets": [
@@ -571,7 +571,7 @@
      "trend_alignment": 1.0,
      "confidence": 67,
      "eligible": true,
-     "odd": 1.11
+     "odd": 1.1
     },
     {
      "selection": "UNDER25",
@@ -581,7 +581,7 @@
      "trend_alignment": 0.052,
      "confidence": 6,
      "eligible": false,
-     "odd": 1.6
+     "odd": 1.61
     },
     {
      "selection": "BTTS_NO",
@@ -601,7 +601,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 6.55
+     "odd": 6.95
     }
    ],
    "trends": [
