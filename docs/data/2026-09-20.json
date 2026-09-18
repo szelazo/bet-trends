@@ -1,6 +1,6 @@
 {
  "date": "2026-09-20",
- "generated_at": "2026-09-18T08:15:58.561950-03:00",
+ "generated_at": "2026-09-18T17:11:39.374724-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -49,7 +49,7 @@
     "trend_alignment": 1.0,
     "confidence": 82,
     "eligible": true,
-    "odd": 1.23,
+    "odd": 1.27,
     "low_conviction": false
    },
    "alt_markets": [
@@ -371,26 +371,26 @@
    "model": {
     "lambda_home": 2.6,
     "lambda_away": 0.9,
-    "expected_goals": 3.49,
+    "expected_goals": 3.5,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.7375,
-     "DRAW": 0.1552,
-     "AWAY": 0.1074,
-     "1X": 0.8926,
-     "X2": 0.2625,
-     "12": 0.8448,
-     "OVER25": 0.6777,
-     "UNDER25": 0.3223,
-     "BTTS_YES": 0.5487,
-     "BTTS_NO": 0.4513
+     "HOME": 0.7385,
+     "DRAW": 0.1547,
+     "AWAY": 0.1068,
+     "1X": 0.8932,
+     "X2": 0.2615,
+     "12": 0.8453,
+     "OVER25": 0.6783,
+     "UNDER25": 0.3217,
+     "BTTS_YES": 0.5483,
+     "BTTS_NO": 0.4517
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do AZ Alkmaar",
-    "model_prob": 0.7375,
+    "model_prob": 0.7385,
     "trend_alignment": 1.0,
     "confidence": 79,
     "eligible": true,
@@ -402,7 +402,7 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: AZ Alkmaar ou empate (1X)",
-     "model_prob": 0.8926,
+     "model_prob": 0.8932,
      "trend_alignment": 1.0,
      "confidence": 79,
      "eligible": true,
@@ -412,17 +412,17 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6777,
+     "model_prob": 0.6783,
      "trend_alignment": 0.0,
      "confidence": 23,
      "eligible": true,
-     "odd": 1.74
+     "odd": 1.8
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5487,
+     "model_prob": 0.5483,
      "trend_alignment": 0.0,
      "confidence": 6,
      "eligible": false,
@@ -432,11 +432,11 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Telstar",
-     "model_prob": 0.1074,
+     "model_prob": 0.1068,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 10.0
+     "odd": 9.8
     }
    ],
    "trends": [
@@ -694,7 +694,7 @@
     "trend_alignment": 1.0,
     "confidence": 78,
     "eligible": true,
-    "odd": 1.38,
+    "odd": 1.37,
     "low_conviction": false
    },
    "alt_markets": [
@@ -726,7 +726,7 @@
      "trend_alignment": 0.351,
      "confidence": 12,
      "eligible": false,
-     "odd": 1.78
+     "odd": 1.84
     },
     {
      "selection": "OVER25",
@@ -736,7 +736,7 @@
      "trend_alignment": 0.0,
      "confidence": 8,
      "eligible": false,
-     "odd": 1.92
+     "odd": 1.93
     }
    ],
    "trends": [
@@ -1051,7 +1051,7 @@
      "trend_alignment": 1.0,
      "confidence": 68,
      "eligible": true,
-     "odd": 2.12
+     "odd": 2.16
     },
     {
      "selection": "BTTS_NO",
@@ -1071,7 +1071,7 @@
      "trend_alignment": 0.613,
      "confidence": 26,
      "eligible": false,
-     "odd": 1.68
+     "odd": 1.62
     },
     {
      "selection": "AWAY",
@@ -1081,7 +1081,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 3.44
+     "odd": 3.43
     }
    ],
    "trends": [
@@ -1374,7 +1374,7 @@
      "trend_alignment": 0.0,
      "confidence": 4,
      "eligible": false,
-     "odd": 1.73
+     "odd": 1.75
     }
    ],
    "trends": [

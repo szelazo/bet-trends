@@ -1,6 +1,6 @@
 {
  "date": "2026-09-19",
- "generated_at": "2026-09-18T08:15:57.298613-03:00",
+ "generated_at": "2026-09-18T17:11:37.299605-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -25,31 +25,31 @@
    "away_score": -1.0,
    "model": {
     "lambda_home": 2.06,
-    "lambda_away": 0.75,
-    "expected_goals": 2.81,
+    "lambda_away": 0.76,
+    "expected_goals": 2.82,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.6776,
-     "DRAW": 0.1963,
-     "AWAY": 0.1261,
-     "1X": 0.8739,
-     "X2": 0.3224,
-     "12": 0.8037,
-     "OVER25": 0.5338,
-     "UNDER25": 0.4662,
-     "BTTS_YES": 0.4622,
-     "BTTS_NO": 0.5378
+     "HOME": 0.6783,
+     "DRAW": 0.1958,
+     "AWAY": 0.1259,
+     "1X": 0.8741,
+     "X2": 0.3217,
+     "12": 0.8042,
+     "OVER25": 0.5353,
+     "UNDER25": 0.4647,
+     "BTTS_YES": 0.463,
+     "BTTS_NO": 0.537
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Charleroi",
-    "model_prob": 0.6776,
+    "model_prob": 0.6783,
     "trend_alignment": 1.0,
     "confidence": 77,
     "eligible": true,
-    "odd": 1.72,
+    "odd": 1.75,
     "low_conviction": false
    },
    "alt_markets": [
@@ -57,27 +57,27 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Charleroi ou empate (1X)",
-     "model_prob": 0.8739,
+     "model_prob": 0.8741,
      "trend_alignment": 1.0,
      "confidence": 77,
      "eligible": true,
-     "odd": 1.23
+     "odd": 1.24
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.5338,
+     "model_prob": 0.5353,
      "trend_alignment": 0.033,
      "confidence": 6,
      "eligible": false,
-     "odd": 1.6
+     "odd": 1.59
     },
     {
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.5378,
+     "model_prob": 0.537,
      "trend_alignment": 0.02,
      "confidence": 6,
      "eligible": false,
@@ -87,11 +87,11 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.4662,
+     "model_prob": 0.4647,
      "trend_alignment": 0.02,
      "confidence": 1,
      "eligible": false,
-     "odd": 2.3
+     "odd": 2.28
     }
    ],
    "trends": [
@@ -349,7 +349,7 @@
     "trend_alignment": 1.0,
     "confidence": 77,
     "eligible": true,
-    "odd": 1.61,
+    "odd": 1.65,
     "low_conviction": false
    },
    "alt_markets": [
@@ -361,7 +361,7 @@
      "trend_alignment": 1.0,
      "confidence": 77,
      "eligible": true,
-     "odd": 1.19
+     "odd": 1.2
     },
     {
      "selection": "OVER25",
@@ -371,7 +371,7 @@
      "trend_alignment": 0.133,
      "confidence": 19,
      "eligible": true,
-     "odd": 1.57
+     "odd": 2.3
     },
     {
      "selection": "BTTS_YES",
@@ -631,7 +631,7 @@
     "trend_alignment": 1.0,
     "confidence": 73,
     "eligible": true,
-    "odd": 1.57,
+    "odd": 1.61,
     "low_conviction": false
    },
    "alt_markets": [
@@ -643,7 +643,7 @@
      "trend_alignment": 1.0,
      "confidence": 73,
      "eligible": true,
-     "odd": 1.17
+     "odd": 1.18
     },
     {
      "selection": "OVER25",
@@ -653,7 +653,7 @@
      "trend_alignment": 0.306,
      "confidence": 11,
      "eligible": false,
-     "odd": 1.84
+     "odd": 1.86
     },
     {
      "selection": "BTTS_YES",
@@ -934,31 +934,31 @@
    "away_score": -1.0,
    "model": {
     "lambda_home": 1.49,
-    "lambda_away": 0.73,
-    "expected_goals": 2.22,
+    "lambda_away": 0.74,
+    "expected_goals": 2.23,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.5525,
-     "DRAW": 0.2633,
-     "AWAY": 0.1842,
-     "1X": 0.8158,
-     "X2": 0.4475,
-     "12": 0.7367,
-     "OVER25": 0.383,
-     "UNDER25": 0.617,
-     "BTTS_YES": 0.4024,
-     "BTTS_NO": 0.5976
+     "HOME": 0.5531,
+     "DRAW": 0.2628,
+     "AWAY": 0.1841,
+     "1X": 0.8159,
+     "X2": 0.4469,
+     "12": 0.7372,
+     "OVER25": 0.3845,
+     "UNDER25": 0.6155,
+     "BTTS_YES": 0.4035,
+     "BTTS_NO": 0.5965
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do QPR",
-    "model_prob": 0.5525,
+    "model_prob": 0.5531,
     "trend_alignment": 1.0,
     "confidence": 69,
     "eligible": true,
-    "odd": 1.68,
+    "odd": 1.73,
     "low_conviction": false
    },
    "alt_markets": [
@@ -966,27 +966,27 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: QPR ou empate (1X)",
-     "model_prob": 0.8158,
+     "model_prob": 0.8159,
      "trend_alignment": 1.0,
      "confidence": 69,
      "eligible": true,
-     "odd": 1.19
+     "odd": 1.2
     },
     {
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.617,
+     "model_prob": 0.6155,
      "trend_alignment": 0.0,
      "confidence": 15,
      "eligible": true,
-     "odd": 1.98
+     "odd": 1.97
     },
     {
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.5976,
+     "model_prob": 0.5965,
      "trend_alignment": 0.0,
      "confidence": 13,
      "eligible": false,
@@ -996,11 +996,11 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.383,
+     "model_prob": 0.3845,
      "trend_alignment": 0.267,
      "confidence": 9,
      "eligible": false,
-     "odd": 1.79
+     "odd": 1.83
     }
    ],
    "trends": [
@@ -1032,7 +1032,7 @@
      "kind": "unbeaten"
     },
     {
-     "label": "QPR é 5º · Preston é 23º",
+     "label": "QPR é 6º · Preston é 23º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -1041,7 +1041,7 @@
      "kind": "positions"
     },
     {
-     "label": "QPR está 18 posições à frente",
+     "label": "QPR está 17 posições à frente",
      "strength": 0.8,
      "favors": "HOME",
      "team": null,
@@ -1070,7 +1070,7 @@
      "kind": "unbeaten"
     },
     {
-     "label": "QPR está 18 posições à frente",
+     "label": "QPR está 17 posições à frente",
      "strength": 0.8,
      "favors": "HOME",
      "team": null,
@@ -1088,7 +1088,7 @@
    "home_team": {
     "id": 18,
     "name": "QPR",
-    "position": 5,
+    "position": 6,
     "played": 7,
     "points": 12.0,
     "record": "3V 3E 1D",
@@ -1207,31 +1207,31 @@
    "away_score": -1.0,
    "model": {
     "lambda_home": 1.39,
-    "lambda_away": 2.27,
-    "expected_goals": 3.66,
+    "lambda_away": 2.26,
+    "expected_goals": 3.65,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.2293,
-     "DRAW": 0.1986,
-     "AWAY": 0.5721,
-     "1X": 0.4279,
-     "X2": 0.7707,
-     "12": 0.8014,
-     "OVER25": 0.7083,
-     "UNDER25": 0.2917,
-     "BTTS_YES": 0.6742,
-     "BTTS_NO": 0.3258
+     "HOME": 0.2296,
+     "DRAW": 0.199,
+     "AWAY": 0.5714,
+     "1X": 0.4286,
+     "X2": 0.7704,
+     "12": 0.801,
+     "OVER25": 0.7067,
+     "UNDER25": 0.2933,
+     "BTTS_YES": 0.673,
+     "BTTS_NO": 0.327
     }
    },
    "pick": {
     "selection": "X2",
     "family": "double_chance",
     "label": "Dupla chance: Hertha Berlin ou empate (X2)",
-    "model_prob": 0.7707,
+    "model_prob": 0.7704,
     "trend_alignment": 1.0,
     "confidence": 63,
     "eligible": true,
-    "odd": 1.47,
+    "odd": 1.48,
     "low_conviction": false
    },
    "alt_markets": [
@@ -1239,17 +1239,17 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Hertha Berlin",
-     "model_prob": 0.5721,
+     "model_prob": 0.5714,
      "trend_alignment": 1.0,
      "confidence": 58,
      "eligible": true,
-     "odd": 2.3
+     "odd": 2.33
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.7083,
+     "model_prob": 0.7067,
      "trend_alignment": 0.627,
      "confidence": 49,
      "eligible": true,
@@ -1259,9 +1259,9 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.6742,
+     "model_prob": 0.673,
      "trend_alignment": 0.627,
-     "confidence": 45,
+     "confidence": 44,
      "eligible": true,
      "odd": null
     },
@@ -1269,7 +1269,7 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Dynamo Dresden",
-     "model_prob": 0.2293,
+     "model_prob": 0.2296,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
@@ -1323,7 +1323,7 @@
      "kind": "over"
     },
     {
-     "label": "Dynamo Dresden é 17º · Hertha Berlin é 1º",
+     "label": "Dynamo Dresden é 16º · Hertha Berlin é 1º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -1332,7 +1332,7 @@
      "kind": "positions"
     },
     {
-     "label": "Hertha Berlin está 16 posições à frente",
+     "label": "Hertha Berlin está 15 posições à frente",
      "strength": 0.8,
      "favors": "AWAY",
      "team": null,
@@ -1370,7 +1370,7 @@
      "kind": "losses"
     },
     {
-     "label": "Hertha Berlin está 16 posições à frente",
+     "label": "Hertha Berlin está 15 posições à frente",
      "strength": 0.8,
      "favors": "AWAY",
      "team": null,
@@ -1388,7 +1388,7 @@
    "home_team": {
     "id": 396,
     "name": "Dynamo Dresden",
-    "position": 17,
+    "position": 16,
     "played": 5,
     "points": 4.0,
     "record": "1V 1E 3D",

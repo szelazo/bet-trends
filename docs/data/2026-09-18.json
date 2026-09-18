@@ -1,6 +1,6 @@
 {
  "date": "2026-09-18",
- "generated_at": "2026-09-18T08:15:56.039186-03:00",
+ "generated_at": "2026-09-18T17:11:34.971293-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -280,8 +280,8 @@
     "id": 2060,
     "name": "FC Arges Pitesti"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 3.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 1.13,
     "lambda_away": 0.55,
@@ -589,7 +589,7 @@
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -925,8 +925,8 @@
     "id": 454,
     "name": "SV Darmstadt 98"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 5.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 1.94,
     "lambda_away": 1.0,
@@ -1180,7 +1180,7 @@
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -1198,8 +1198,8 @@
     "id": 957,
     "name": "Konyaspor"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 0.0,
+   "away_score": 0.0,
    "model": {
     "lambda_home": 1.57,
     "lambda_away": 0.83,
@@ -1471,7 +1471,7 @@
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   }
  ]
