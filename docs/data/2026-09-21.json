@@ -1,6 +1,6 @@
 {
  "date": "2026-09-21",
- "generated_at": "2026-09-19T08:16:58.003053-03:00",
+ "generated_at": "2026-09-19T17:13:03.473664-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 2,
@@ -24,32 +24,32 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 2.39,
+    "lambda_home": 2.4,
     "lambda_away": 0.84,
-    "expected_goals": 3.23,
+    "expected_goals": 3.24,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.7164,
-     "DRAW": 0.1694,
-     "AWAY": 0.1143,
-     "1X": 0.8857,
-     "X2": 0.2836,
-     "12": 0.8306,
-     "OVER25": 0.6264,
-     "UNDER25": 0.3736,
-     "BTTS_YES": 0.5174,
-     "BTTS_NO": 0.4826
+     "HOME": 0.72,
+     "DRAW": 0.1677,
+     "AWAY": 0.1123,
+     "1X": 0.8877,
+     "X2": 0.28,
+     "12": 0.8323,
+     "OVER25": 0.6288,
+     "UNDER25": 0.3712,
+     "BTTS_YES": 0.5165,
+     "BTTS_NO": 0.4835
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Petrolul Ploiesti",
-    "model_prob": 0.7164,
+    "model_prob": 0.72,
     "trend_alignment": 1.0,
-    "confidence": 78,
+    "confidence": 79,
     "eligible": true,
-    "odd": 1.77,
+    "odd": 1.78,
     "low_conviction": false
    },
    "alt_markets": [
@@ -57,9 +57,9 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Petrolul Ploiesti ou empate (1X)",
-     "model_prob": 0.8857,
+     "model_prob": 0.8877,
      "trend_alignment": 1.0,
-     "confidence": 78,
+     "confidence": 79,
      "eligible": true,
      "odd": 1.21
     },
@@ -67,9 +67,9 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6264,
+     "model_prob": 0.6288,
      "trend_alignment": 0.227,
-     "confidence": 24,
+     "confidence": 25,
      "eligible": true,
      "odd": 1.98
     },
@@ -77,7 +77,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5174,
+     "model_prob": 0.5165,
      "trend_alignment": 0.227,
      "confidence": 10,
      "eligible": false,
@@ -87,11 +87,11 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Csíkszereda Miercurea Ciuc",
-     "model_prob": 0.1143,
+     "model_prob": 0.1123,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 4.41
+     "odd": 4.38
     }
    ],
    "trends": [
@@ -188,7 +188,7 @@
      "kind": "table_gap"
     }
    ],
-   "confidence": 78,
+   "confidence": 79,
    "league": {
     "key": "romania",
     "name": "Liga 1",
@@ -316,27 +316,27 @@
    "away_score": -1.0,
    "model": {
     "lambda_home": 0.82,
-    "lambda_away": 1.62,
-    "expected_goals": 2.44,
+    "lambda_away": 1.63,
+    "expected_goals": 2.45,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.1885,
-     "DRAW": 0.2475,
-     "AWAY": 0.5639,
-     "1X": 0.4361,
-     "X2": 0.8115,
-     "12": 0.7525,
-     "OVER25": 0.4404,
-     "UNDER25": 0.5596,
-     "BTTS_YES": 0.4484,
-     "BTTS_NO": 0.5516
+     "HOME": 0.1883,
+     "DRAW": 0.2466,
+     "AWAY": 0.5651,
+     "1X": 0.4349,
+     "X2": 0.8117,
+     "12": 0.7534,
+     "OVER25": 0.4436,
+     "UNDER25": 0.5564,
+     "BTTS_YES": 0.4506,
+     "BTTS_NO": 0.5494
     }
    },
    "pick": {
     "selection": "X2",
     "family": "double_chance",
     "label": "Dupla chance: Montevideo City Torque ou empate (X2)",
-    "model_prob": 0.8115,
+    "model_prob": 0.8117,
     "trend_alignment": 1.0,
     "confidence": 68,
     "eligible": true,
@@ -348,7 +348,7 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Montevideo City Torque",
-     "model_prob": 0.5639,
+     "model_prob": 0.5651,
      "trend_alignment": 1.0,
      "confidence": 57,
      "eligible": true,
@@ -358,7 +358,7 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.4404,
+     "model_prob": 0.4436,
      "trend_alignment": 0.291,
      "confidence": 10,
      "eligible": false,
@@ -368,7 +368,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.4484,
+     "model_prob": 0.4506,
      "trend_alignment": 0.291,
      "confidence": 10,
      "eligible": false,
@@ -378,9 +378,9 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.5596,
+     "model_prob": 0.5564,
      "trend_alignment": 0.0,
-     "confidence": 8,
+     "confidence": 7,
      "eligible": false,
      "odd": 1.7
     }
@@ -629,14 +629,14 @@
     "expected_goals": 2.17,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.325,
-     "DRAW": 0.293,
-     "AWAY": 0.3819,
-     "1X": 0.6181,
-     "X2": 0.675,
-     "12": 0.707,
-     "OVER25": 0.3695,
-     "UNDER25": 0.6305,
+     "HOME": 0.3238,
+     "DRAW": 0.2929,
+     "AWAY": 0.3834,
+     "1X": 0.6166,
+     "X2": 0.6762,
+     "12": 0.7071,
+     "OVER25": 0.3697,
+     "UNDER25": 0.6303,
      "BTTS_YES": 0.4376,
      "BTTS_NO": 0.5624
     }
@@ -645,11 +645,11 @@
     "selection": "X2",
     "family": "double_chance",
     "label": "Dupla chance: Atletico Tucuman ou empate (X2)",
-    "model_prob": 0.675,
+    "model_prob": 0.6762,
     "trend_alignment": 1.0,
     "confidence": 50,
     "eligible": true,
-    "odd": 1.34,
+    "odd": 1.36,
     "low_conviction": false
    },
    "alt_markets": [
@@ -657,17 +657,17 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Atletico Tucuman",
-     "model_prob": 0.3819,
+     "model_prob": 0.3834,
      "trend_alignment": 1.0,
      "confidence": 39,
      "eligible": false,
-     "odd": 2.41
+     "odd": 2.46
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.3695,
+     "model_prob": 0.3697,
      "trend_alignment": 0.54,
      "confidence": 19,
      "eligible": false,
@@ -687,11 +687,11 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.6305,
+     "model_prob": 0.6303,
      "trend_alignment": 0.0,
      "confidence": 17,
      "eligible": true,
-     "odd": 2.39
+     "odd": 2.38
     }
    ],
    "trends": [

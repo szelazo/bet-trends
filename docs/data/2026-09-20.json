@@ -1,6 +1,6 @@
 {
  "date": "2026-09-20",
- "generated_at": "2026-09-19T08:16:57.153332-03:00",
+ "generated_at": "2026-09-19T17:13:02.817045-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -42,26 +42,26 @@
     }
    },
    "pick": {
-    "selection": "HOME",
-    "family": "1x2",
-    "label": "Vitória do Toluca",
-    "model_prob": 0.7429,
+    "selection": "1X",
+    "family": "double_chance",
+    "label": "Dupla chance: Toluca ou empate (1X)",
+    "model_prob": 0.9129,
     "trend_alignment": 1.0,
     "confidence": 82,
     "eligible": true,
-    "odd": 1.25,
+    "odd": null,
     "low_conviction": false
    },
    "alt_markets": [
     {
-     "selection": "1X",
-     "family": "double_chance",
-     "label": "Dupla chance: Toluca ou empate (1X)",
-     "model_prob": 0.9129,
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Toluca",
+     "model_prob": 0.7429,
      "trend_alignment": 1.0,
-     "confidence": 82,
+     "confidence": 75,
      "eligible": true,
-     "odd": 1.08
+     "odd": null
     },
     {
      "selection": "BTTS_NO",
@@ -81,7 +81,7 @@
      "trend_alignment": 0.26,
      "confidence": 9,
      "eligible": false,
-     "odd": 1.82
+     "odd": null
     },
     {
      "selection": "OVER25",
@@ -91,7 +91,7 @@
      "trend_alignment": 0.0,
      "confidence": 5,
      "eligible": false,
-     "odd": 1.82
+     "odd": null
     }
    ],
    "trends": [
@@ -345,8 +345,8 @@
     ]
    },
    "kickoff_local": "2026-09-20T21:00:00-03:00",
-   "has_odds": true,
-   "odds_bookmaker": "3 casas",
+   "has_odds": false,
+   "odds_bookmaker": null,
    "is_cup": false,
    "result": "pending",
    "clear": true
@@ -369,60 +369,60 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 2.6,
-    "lambda_away": 0.9,
-    "expected_goals": 3.5,
+    "lambda_home": 2.63,
+    "lambda_away": 0.89,
+    "expected_goals": 3.51,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.7385,
-     "DRAW": 0.1547,
-     "AWAY": 0.1068,
-     "1X": 0.8932,
-     "X2": 0.2615,
-     "12": 0.8453,
-     "OVER25": 0.6783,
-     "UNDER25": 0.3217,
-     "BTTS_YES": 0.5483,
-     "BTTS_NO": 0.4517
+     "HOME": 0.7441,
+     "DRAW": 0.1522,
+     "AWAY": 0.1037,
+     "1X": 0.8963,
+     "X2": 0.2559,
+     "12": 0.8478,
+     "OVER25": 0.6813,
+     "UNDER25": 0.3187,
+     "BTTS_YES": 0.5462,
+     "BTTS_NO": 0.4538
     }
    },
    "pick": {
-    "selection": "HOME",
-    "family": "1x2",
-    "label": "Vitória do AZ Alkmaar",
-    "model_prob": 0.7385,
+    "selection": "1X",
+    "family": "double_chance",
+    "label": "Dupla chance: AZ Alkmaar ou empate (1X)",
+    "model_prob": 0.8963,
     "trend_alignment": 1.0,
-    "confidence": 79,
+    "confidence": 80,
     "eligible": true,
-    "odd": 1.25,
+    "odd": null,
     "low_conviction": false
    },
    "alt_markets": [
     {
-     "selection": "1X",
-     "family": "double_chance",
-     "label": "Dupla chance: AZ Alkmaar ou empate (1X)",
-     "model_prob": 0.8932,
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do AZ Alkmaar",
+     "model_prob": 0.7441,
      "trend_alignment": 1.0,
-     "confidence": 79,
+     "confidence": 75,
      "eligible": true,
-     "odd": 1.05
+     "odd": null
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6783,
+     "model_prob": 0.6813,
      "trend_alignment": 0.0,
-     "confidence": 23,
+     "confidence": 24,
      "eligible": true,
-     "odd": 1.74
+     "odd": null
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5483,
+     "model_prob": 0.5462,
      "trend_alignment": 0.0,
      "confidence": 6,
      "eligible": false,
@@ -432,11 +432,11 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Telstar",
-     "model_prob": 0.1068,
+     "model_prob": 0.1037,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 11.0
+     "odd": null
     }
    ],
    "trends": [
@@ -477,7 +477,7 @@
      "kind": "winless_streak"
     },
     {
-     "label": "AZ Alkmaar é 2º · Telstar é 13º",
+     "label": "AZ Alkmaar é 2º · Telstar é 12º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -486,8 +486,8 @@
      "kind": "positions"
     },
     {
-     "label": "AZ Alkmaar está 11 posições à frente",
-     "strength": 0.786,
+     "label": "AZ Alkmaar está 10 posições à frente",
+     "strength": 0.714,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -533,8 +533,8 @@
      "kind": "winless_streak"
     },
     {
-     "label": "AZ Alkmaar está 11 posições à frente",
-     "strength": 0.786,
+     "label": "AZ Alkmaar está 10 posições à frente",
+     "strength": 0.714,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -542,7 +542,7 @@
      "kind": "table_gap"
     }
    ],
-   "confidence": 79,
+   "confidence": 80,
    "league": {
     "key": "eredivisie",
     "name": "Eredivisie",
@@ -599,7 +599,7 @@
    "away_team": {
     "id": 719,
     "name": "Telstar",
-    "position": 13,
+    "position": 12,
     "played": 6,
     "points": 5.0,
     "record": "1V 2E 3D",
@@ -645,8 +645,8 @@
     ]
    },
    "kickoff_local": "2026-09-20T09:30:00-03:00",
-   "has_odds": true,
-   "odds_bookmaker": "3 casas",
+   "has_odds": false,
+   "odds_bookmaker": null,
    "is_cup": false,
    "result": "pending",
    "clear": true
@@ -675,15 +675,15 @@
     "sample_factor": 1.0,
     "probs": {
      "HOME": 0.1207,
-     "DRAW": 0.1872,
+     "DRAW": 0.1873,
      "AWAY": 0.692,
      "1X": 0.308,
      "X2": 0.8793,
-     "12": 0.8128,
-     "OVER25": 0.56,
-     "UNDER25": 0.44,
-     "BTTS_YES": 0.4751,
-     "BTTS_NO": 0.5249
+     "12": 0.8127,
+     "OVER25": 0.5599,
+     "UNDER25": 0.4401,
+     "BTTS_YES": 0.475,
+     "BTTS_NO": 0.525
     }
    },
    "pick": {
@@ -694,7 +694,7 @@
     "trend_alignment": 1.0,
     "confidence": 78,
     "eligible": true,
-    "odd": 1.37,
+    "odd": 1.39,
     "low_conviction": false
    },
    "alt_markets": [
@@ -712,7 +712,7 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.5249,
+     "model_prob": 0.525,
      "trend_alignment": 0.351,
      "confidence": 16,
      "eligible": false,
@@ -722,21 +722,21 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.44,
+     "model_prob": 0.4401,
      "trend_alignment": 0.351,
      "confidence": 12,
      "eligible": false,
-     "odd": 1.88
+     "odd": 1.9
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.56,
+     "model_prob": 0.5599,
      "trend_alignment": 0.0,
      "confidence": 8,
      "eligible": false,
-     "odd": 1.88
+     "odd": 1.9
     }
    ],
    "trends": [

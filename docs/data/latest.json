@@ -1,10 +1,10 @@
 {
  "date": "2026-09-19",
- "generated_at": "2026-09-19T08:16:55.882551-03:00",
+ "generated_at": "2026-09-19T17:13:01.177339-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
- "day_total": 117,
+ "day_total": 137,
  "games": [
   {
    "id": 4740732,
@@ -21,8 +21,8 @@
     "id": 1171,
     "name": "Cercle Brugge"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 3.0,
+   "away_score": 2.0,
    "model": {
     "lambda_home": 2.06,
     "lambda_away": 0.76,
@@ -303,7 +303,7 @@
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -321,8 +321,8 @@
     "id": 759,
     "name": "Hearts"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 1.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 0.87,
     "lambda_away": 2.29,
@@ -585,7 +585,7 @@
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
-   "result": "pending",
+   "result": "miss",
    "clear": true
   },
   {
@@ -603,8 +603,8 @@
     "id": 1794,
     "name": "Slovan Liberec"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 0.0,
+   "away_score": 0.0,
    "model": {
     "lambda_home": 0.8,
     "lambda_away": 1.88,
@@ -912,7 +912,7 @@
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
-   "result": "pending",
+   "result": "miss",
    "clear": true
   },
   {
@@ -930,8 +930,8 @@
     "id": 23,
     "name": "Preston"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 2.0,
    "model": {
     "lambda_home": 1.49,
     "lambda_away": 0.74,
@@ -1185,7 +1185,7 @@
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
-   "result": "pending",
+   "result": "miss",
    "clear": true
   },
   {
