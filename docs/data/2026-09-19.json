@@ -1,10 +1,10 @@
 {
  "date": "2026-09-19",
- "generated_at": "2026-09-18T17:11:37.299605-03:00",
+ "generated_at": "2026-09-19T08:16:55.882551-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
- "day_total": 121,
+ "day_total": 117,
  "games": [
   {
    "id": 4740732,
@@ -49,7 +49,7 @@
     "trend_alignment": 1.0,
     "confidence": 77,
     "eligible": true,
-    "odd": 1.75,
+    "odd": 1.62,
     "low_conviction": false
    },
    "alt_markets": [
@@ -61,7 +61,7 @@
      "trend_alignment": 1.0,
      "confidence": 77,
      "eligible": true,
-     "odd": 1.24
+     "odd": 1.19
     },
     {
      "selection": "OVER25",
@@ -71,7 +71,7 @@
      "trend_alignment": 0.033,
      "confidence": 6,
      "eligible": false,
-     "odd": 1.59
+     "odd": 1.64
     },
     {
      "selection": "BTTS_NO",
@@ -91,7 +91,7 @@
      "trend_alignment": 0.02,
      "confidence": 1,
      "eligible": false,
-     "odd": 2.28
+     "odd": 2.18
     }
    ],
    "trends": [
@@ -349,7 +349,7 @@
     "trend_alignment": 1.0,
     "confidence": 77,
     "eligible": true,
-    "odd": 1.65,
+    "odd": 1.69,
     "low_conviction": false
    },
    "alt_markets": [
@@ -361,7 +361,7 @@
      "trend_alignment": 1.0,
      "confidence": 77,
      "eligible": true,
-     "odd": 1.2
+     "odd": 1.21
     },
     {
      "selection": "OVER25",
@@ -371,7 +371,7 @@
      "trend_alignment": 0.133,
      "confidence": 19,
      "eligible": true,
-     "odd": 2.3
+     "odd": 1.63
     },
     {
      "selection": "BTTS_YES",
@@ -391,7 +391,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 4.75
+     "odd": 4.5
     }
    ],
    "trends": [
@@ -631,7 +631,7 @@
     "trend_alignment": 1.0,
     "confidence": 73,
     "eligible": true,
-    "odd": 1.61,
+    "odd": 1.57,
     "low_conviction": false
    },
    "alt_markets": [
@@ -643,7 +643,7 @@
      "trend_alignment": 1.0,
      "confidence": 73,
      "eligible": true,
-     "odd": 1.18
+     "odd": 1.17
     },
     {
      "selection": "OVER25",
@@ -653,7 +653,7 @@
      "trend_alignment": 0.306,
      "confidence": 11,
      "eligible": false,
-     "odd": 1.86
+     "odd": 1.79
     },
     {
      "selection": "BTTS_YES",
@@ -958,7 +958,7 @@
     "trend_alignment": 1.0,
     "confidence": 69,
     "eligible": true,
-    "odd": 1.73,
+    "odd": 1.71,
     "low_conviction": false
    },
    "alt_markets": [
@@ -970,7 +970,7 @@
      "trend_alignment": 1.0,
      "confidence": 69,
      "eligible": true,
-     "odd": 1.2
+     "odd": 1.21
     },
     {
      "selection": "UNDER25",
@@ -1206,32 +1206,32 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 1.39,
-    "lambda_away": 2.26,
-    "expected_goals": 3.65,
+    "lambda_home": 1.42,
+    "lambda_away": 2.33,
+    "expected_goals": 3.74,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.2296,
-     "DRAW": 0.199,
-     "AWAY": 0.5714,
-     "1X": 0.4286,
-     "X2": 0.7704,
-     "12": 0.801,
-     "OVER25": 0.7067,
-     "UNDER25": 0.2933,
-     "BTTS_YES": 0.673,
-     "BTTS_NO": 0.327
+     "HOME": 0.227,
+     "DRAW": 0.1953,
+     "AWAY": 0.5776,
+     "1X": 0.4224,
+     "X2": 0.773,
+     "12": 0.8047,
+     "OVER25": 0.7218,
+     "UNDER25": 0.2782,
+     "BTTS_YES": 0.6838,
+     "BTTS_NO": 0.3162
     }
    },
    "pick": {
     "selection": "X2",
     "family": "double_chance",
     "label": "Dupla chance: Hertha Berlin ou empate (X2)",
-    "model_prob": 0.7704,
+    "model_prob": 0.773,
     "trend_alignment": 1.0,
     "confidence": 63,
     "eligible": true,
-    "odd": 1.48,
+    "odd": 1.52,
     "low_conviction": false
    },
    "alt_markets": [
@@ -1239,29 +1239,29 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Hertha Berlin",
-     "model_prob": 0.5714,
+     "model_prob": 0.5776,
      "trend_alignment": 1.0,
      "confidence": 58,
      "eligible": true,
-     "odd": 2.33
+     "odd": 2.42
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.7067,
+     "model_prob": 0.7218,
      "trend_alignment": 0.627,
-     "confidence": 49,
+     "confidence": 51,
      "eligible": true,
-     "odd": 2.11
+     "odd": 2.2
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.673,
+     "model_prob": 0.6838,
      "trend_alignment": 0.627,
-     "confidence": 44,
+     "confidence": 46,
      "eligible": true,
      "odd": null
     },
@@ -1269,11 +1269,11 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Dynamo Dresden",
-     "model_prob": 0.2296,
+     "model_prob": 0.227,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 2.67
+     "odd": 2.55
     }
    ],
    "trends": [
@@ -1323,7 +1323,7 @@
      "kind": "over"
     },
     {
-     "label": "Dynamo Dresden é 16º · Hertha Berlin é 1º",
+     "label": "Dynamo Dresden é 17º · Hertha Berlin é 1º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -1332,7 +1332,7 @@
      "kind": "positions"
     },
     {
-     "label": "Hertha Berlin está 15 posições à frente",
+     "label": "Hertha Berlin está 16 posições à frente",
      "strength": 0.8,
      "favors": "AWAY",
      "team": null,
@@ -1370,7 +1370,7 @@
      "kind": "losses"
     },
     {
-     "label": "Hertha Berlin está 15 posições à frente",
+     "label": "Hertha Berlin está 16 posições à frente",
      "strength": 0.8,
      "favors": "AWAY",
      "team": null,
@@ -1388,7 +1388,7 @@
    "home_team": {
     "id": 396,
     "name": "Dynamo Dresden",
-    "position": 16,
+    "position": 17,
     "played": 5,
     "points": 4.0,
     "record": "1V 1E 3D",
