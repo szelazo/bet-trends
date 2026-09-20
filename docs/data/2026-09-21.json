@@ -1,6 +1,6 @@
 {
  "date": "2026-09-21",
- "generated_at": "2026-09-19T17:13:03.473664-03:00",
+ "generated_at": "2026-09-20T17:10:50.723490-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 2,
@@ -24,32 +24,32 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 2.4,
+    "lambda_home": 2.41,
     "lambda_away": 0.84,
     "expected_goals": 3.24,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.72,
-     "DRAW": 0.1677,
-     "AWAY": 0.1123,
-     "1X": 0.8877,
-     "X2": 0.28,
-     "12": 0.8323,
+     "HOME": 0.7203,
+     "DRAW": 0.1676,
+     "AWAY": 0.1121,
+     "1X": 0.8879,
+     "X2": 0.2797,
+     "12": 0.8324,
      "OVER25": 0.6288,
      "UNDER25": 0.3712,
-     "BTTS_YES": 0.5165,
-     "BTTS_NO": 0.4835
+     "BTTS_YES": 0.5163,
+     "BTTS_NO": 0.4837
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Petrolul Ploiesti",
-    "model_prob": 0.72,
+    "model_prob": 0.7203,
     "trend_alignment": 1.0,
     "confidence": 79,
     "eligible": true,
-    "odd": 1.78,
+    "odd": 1.71,
     "low_conviction": false
    },
    "alt_markets": [
@@ -57,7 +57,7 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Petrolul Ploiesti ou empate (1X)",
-     "model_prob": 0.8877,
+     "model_prob": 0.8879,
      "trend_alignment": 1.0,
      "confidence": 79,
      "eligible": true,
@@ -71,13 +71,13 @@
      "trend_alignment": 0.227,
      "confidence": 25,
      "eligible": true,
-     "odd": 1.98
+     "odd": 2.0
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5165,
+     "model_prob": 0.5163,
      "trend_alignment": 0.227,
      "confidence": 10,
      "eligible": false,
@@ -87,11 +87,11 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Csíkszereda Miercurea Ciuc",
-     "model_prob": 0.1123,
+     "model_prob": 0.1121,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 4.38
+     "odd": 4.36
     }
    ],
    "trends": [
@@ -326,10 +326,10 @@
      "1X": 0.4349,
      "X2": 0.8117,
      "12": 0.7534,
-     "OVER25": 0.4436,
-     "UNDER25": 0.5564,
-     "BTTS_YES": 0.4506,
-     "BTTS_NO": 0.5494
+     "OVER25": 0.4435,
+     "UNDER25": 0.5565,
+     "BTTS_YES": 0.4505,
+     "BTTS_NO": 0.5495
     }
    },
    "pick": {
@@ -340,7 +340,7 @@
     "trend_alignment": 1.0,
     "confidence": 68,
     "eligible": true,
-    "odd": 1.31,
+    "odd": 1.3,
     "low_conviction": false
    },
    "alt_markets": [
@@ -352,23 +352,23 @@
      "trend_alignment": 1.0,
      "confidence": 57,
      "eligible": true,
-     "odd": 2.07
+     "odd": 2.03
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.4436,
+     "model_prob": 0.4435,
      "trend_alignment": 0.291,
      "confidence": 10,
      "eligible": false,
-     "odd": 2.02
+     "odd": 2.03
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.4506,
+     "model_prob": 0.4505,
      "trend_alignment": 0.291,
      "confidence": 10,
      "eligible": false,
@@ -378,11 +378,11 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.5564,
+     "model_prob": 0.5565,
      "trend_alignment": 0.0,
      "confidence": 7,
      "eligible": false,
-     "odd": 1.7
+     "odd": 1.72
     }
    ],
    "trends": [
@@ -432,7 +432,7 @@
      "kind": "winless_streak"
     },
     {
-     "label": "Central Espanol é 13º · Montevideo City Torque é 1º",
+     "label": "Central Espanol é 14º · Montevideo City Torque é 1º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -441,7 +441,7 @@
      "kind": "positions"
     },
     {
-     "label": "Montevideo City Torque está 12 posições à frente",
+     "label": "Montevideo City Torque está 13 posições à frente",
      "strength": 0.8,
      "favors": "AWAY",
      "team": null,
@@ -488,7 +488,7 @@
      "kind": "winless_streak"
     },
     {
-     "label": "Montevideo City Torque está 12 posições à frente",
+     "label": "Montevideo City Torque está 13 posições à frente",
      "strength": 0.8,
      "favors": "AWAY",
      "team": null,
@@ -506,7 +506,7 @@
    "home_team": {
     "id": 10193,
     "name": "Central Espanol",
-    "position": 13,
+    "position": 14,
     "played": 6,
     "points": 5.0,
     "record": "1V 2E 3D",
@@ -601,7 +601,7 @@
    },
    "kickoff_local": "2026-09-21T19:30:00-03:00",
    "has_odds": true,
-   "odds_bookmaker": "2 casas",
+   "odds_bookmaker": "3 casas",
    "is_cup": false,
    "result": "pending",
    "clear": true
@@ -629,27 +629,27 @@
     "expected_goals": 2.17,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.3238,
+     "HOME": 0.3243,
      "DRAW": 0.2929,
-     "AWAY": 0.3834,
-     "1X": 0.6166,
-     "X2": 0.6762,
+     "AWAY": 0.3828,
+     "1X": 0.6172,
+     "X2": 0.6757,
      "12": 0.7071,
      "OVER25": 0.3697,
      "UNDER25": 0.6303,
-     "BTTS_YES": 0.4376,
-     "BTTS_NO": 0.5624
+     "BTTS_YES": 0.4377,
+     "BTTS_NO": 0.5623
     }
    },
    "pick": {
     "selection": "X2",
     "family": "double_chance",
     "label": "Dupla chance: Atletico Tucuman ou empate (X2)",
-    "model_prob": 0.6762,
+    "model_prob": 0.6757,
     "trend_alignment": 1.0,
     "confidence": 50,
     "eligible": true,
-    "odd": 1.36,
+    "odd": 1.34,
     "low_conviction": false
    },
    "alt_markets": [
@@ -657,11 +657,11 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Atletico Tucuman",
-     "model_prob": 0.3834,
+     "model_prob": 0.3828,
      "trend_alignment": 1.0,
      "confidence": 39,
      "eligible": false,
-     "odd": 2.46
+     "odd": 2.41
     },
     {
      "selection": "OVER25",
@@ -677,7 +677,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.4376,
+     "model_prob": 0.4377,
      "trend_alignment": 0.54,
      "confidence": 19,
      "eligible": false,
@@ -691,7 +691,7 @@
      "trend_alignment": 0.0,
      "confidence": 17,
      "eligible": true,
-     "odd": 2.38
+     "odd": 2.39
     }
    ],
    "trends": [
