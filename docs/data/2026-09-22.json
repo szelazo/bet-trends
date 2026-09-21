@@ -1,6 +1,6 @@
 {
  "date": "2026-09-22",
- "generated_at": "2026-09-21T08:18:00.385455-03:00",
+ "generated_at": "2026-09-21T17:11:11.608194-03:00",
  "version": "0.1.0",
  "count": 2,
  "clear_count": 0,
@@ -345,7 +345,7 @@
      "trend_alignment": 0.609,
      "confidence": 39,
      "eligible": true,
-     "odd": 1.65
+     "odd": 1.66
     },
     {
      "selection": "BTTS_YES",

@@ -1,6 +1,6 @@
 {
  "date": "2026-09-23",
- "generated_at": "2026-09-21T08:18:01.151778-03:00",
+ "generated_at": "2026-09-21T17:11:12.390648-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 1,
@@ -49,7 +49,7 @@
     "trend_alignment": 1.0,
     "confidence": 75,
     "eligible": true,
-    "odd": 1.69,
+    "odd": 1.65,
     "low_conviction": false
    },
    "alt_markets": [
@@ -61,7 +61,7 @@
      "trend_alignment": 1.0,
      "confidence": 75,
      "eligible": true,
-     "odd": 1.18
+     "odd": 1.16
     },
     {
      "selection": "OVER25",
@@ -81,7 +81,7 @@
      "trend_alignment": 0.587,
      "confidence": 28,
      "eligible": false,
-     "odd": 1.94
+     "odd": null
     },
     {
      "selection": "AWAY",
@@ -91,7 +91,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 5.05
+     "odd": 5.38
     }
    ],
    "trends": [
@@ -373,7 +373,7 @@
    },
    "kickoff_local": "2026-09-23T21:30:00-03:00",
    "has_odds": true,
-   "odds_bookmaker": "2 casas",
+   "odds_bookmaker": "3 casas",
    "is_cup": false,
    "result": "pending",
    "clear": true
@@ -421,7 +421,7 @@
     "trend_alignment": 0.321,
     "confidence": 42,
     "eligible": true,
-    "odd": 1.28,
+    "odd": 1.3,
     "low_conviction": false
    },
    "alt_markets": [
@@ -433,7 +433,7 @@
      "trend_alignment": 0.321,
      "confidence": 31,
      "eligible": true,
-     "odd": 1.87
+     "odd": 1.92
     },
     {
      "selection": "BTTS_YES",
@@ -453,7 +453,7 @@
      "trend_alignment": 0.553,
      "confidence": 19,
      "eligible": false,
-     "odd": 1.58
+     "odd": 1.57
     },
     {
      "selection": "UNDER25",
@@ -463,7 +463,7 @@
      "trend_alignment": 0.0,
      "confidence": 1,
      "eligible": false,
-     "odd": 2.37
+     "odd": 2.35
     }
    ],
    "trends": [
@@ -722,7 +722,7 @@
     "trend_alignment": 0.276,
     "confidence": 29,
     "eligible": true,
-    "odd": 1.44,
+    "odd": 1.38,
     "low_conviction": true
    },
    "alt_markets": [
@@ -754,7 +754,7 @@
      "trend_alignment": 0.276,
      "confidence": 22,
      "eligible": true,
-     "odd": 2.34
+     "odd": 2.15
     },
     {
      "selection": "HOME",
@@ -764,7 +764,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 2.75
+     "odd": 3.0
     }
    ],
    "trends": [

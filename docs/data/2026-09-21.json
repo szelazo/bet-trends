@@ -1,6 +1,6 @@
 {
  "date": "2026-09-21",
- "generated_at": "2026-09-21T08:17:59.880613-03:00",
+ "generated_at": "2026-09-21T17:11:11.089848-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 2,
@@ -21,8 +21,8 @@
     "id": 26249,
     "name": "Csíkszereda Miercurea Ciuc"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 0.0,
    "model": {
     "lambda_home": 2.41,
     "lambda_away": 0.84,
@@ -294,7 +294,7 @@
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -315,60 +315,60 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 0.82,
-    "lambda_away": 1.63,
-    "expected_goals": 2.45,
+    "lambda_home": 0.83,
+    "lambda_away": 1.64,
+    "expected_goals": 2.46,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.1883,
-     "DRAW": 0.2466,
-     "AWAY": 0.5651,
-     "1X": 0.4349,
-     "X2": 0.8117,
-     "12": 0.7534,
-     "OVER25": 0.4435,
-     "UNDER25": 0.5565,
-     "BTTS_YES": 0.4505,
-     "BTTS_NO": 0.5495
+     "HOME": 0.1881,
+     "DRAW": 0.2456,
+     "AWAY": 0.5663,
+     "1X": 0.4337,
+     "X2": 0.8119,
+     "12": 0.7544,
+     "OVER25": 0.4467,
+     "UNDER25": 0.5533,
+     "BTTS_YES": 0.4528,
+     "BTTS_NO": 0.5472
     }
    },
    "pick": {
-    "selection": "X2",
-    "family": "double_chance",
-    "label": "Dupla chance: Montevideo City Torque ou empate (X2)",
-    "model_prob": 0.8117,
+    "selection": "AWAY",
+    "family": "1x2",
+    "label": "Vitória do Montevideo City Torque",
+    "model_prob": 0.5663,
     "trend_alignment": 1.0,
     "confidence": 68,
     "eligible": true,
-    "odd": 1.3,
+    "odd": 1.84,
     "low_conviction": false
    },
    "alt_markets": [
     {
-     "selection": "AWAY",
-     "family": "1x2",
-     "label": "Vitória do Montevideo City Torque",
-     "model_prob": 0.5651,
+     "selection": "X2",
+     "family": "double_chance",
+     "label": "Dupla chance: Montevideo City Torque ou empate (X2)",
+     "model_prob": 0.8119,
      "trend_alignment": 1.0,
-     "confidence": 57,
+     "confidence": 68,
      "eligible": true,
-     "odd": 2.03
+     "odd": 1.24
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.4435,
+     "model_prob": 0.4467,
      "trend_alignment": 0.291,
      "confidence": 10,
      "eligible": false,
-     "odd": 2.03
+     "odd": 2.26
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.4505,
+     "model_prob": 0.4528,
      "trend_alignment": 0.291,
      "confidence": 10,
      "eligible": false,
@@ -378,11 +378,11 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.5565,
+     "model_prob": 0.5533,
      "trend_alignment": 0.0,
      "confidence": 7,
      "eligible": false,
-     "odd": 1.72
+     "odd": 1.62
     }
    ],
    "trends": [
@@ -432,7 +432,7 @@
      "kind": "winless_streak"
     },
     {
-     "label": "Central Espanol é 14º · Montevideo City Torque é 1º",
+     "label": "Central Espanol é 13º · Montevideo City Torque é 1º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -441,7 +441,7 @@
      "kind": "positions"
     },
     {
-     "label": "Montevideo City Torque está 13 posições à frente",
+     "label": "Montevideo City Torque está 12 posições à frente",
      "strength": 0.8,
      "favors": "AWAY",
      "team": null,
@@ -488,7 +488,7 @@
      "kind": "winless_streak"
     },
     {
-     "label": "Montevideo City Torque está 13 posições à frente",
+     "label": "Montevideo City Torque está 12 posições à frente",
      "strength": 0.8,
      "favors": "AWAY",
      "team": null,
@@ -506,7 +506,7 @@
    "home_team": {
     "id": 10193,
     "name": "Central Espanol",
-    "position": 14,
+    "position": 13,
     "played": 6,
     "points": 5.0,
     "record": "1V 2E 3D",
@@ -621,8 +621,8 @@
     "id": 6152,
     "name": "Atletico Tucuman"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 1.0,
+   "away_score": 0.0,
    "model": {
     "lambda_home": 1.03,
     "lambda_away": 1.14,
@@ -903,7 +903,7 @@
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
-   "result": "pending",
+   "result": "miss",
    "clear": false,
    "below_bar": true
   }
