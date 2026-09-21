@@ -1,6 +1,6 @@
 {
  "date": "2026-09-21",
- "generated_at": "2026-09-20T17:10:50.723490-03:00",
+ "generated_at": "2026-09-21T08:17:59.880613-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 2,
@@ -49,7 +49,7 @@
     "trend_alignment": 1.0,
     "confidence": 79,
     "eligible": true,
-    "odd": 1.71,
+    "odd": 1.54,
     "low_conviction": false
    },
    "alt_markets": [
@@ -61,7 +61,7 @@
      "trend_alignment": 1.0,
      "confidence": 79,
      "eligible": true,
-     "odd": 1.21
+     "odd": 1.15
     },
     {
      "selection": "OVER25",
@@ -71,7 +71,7 @@
      "trend_alignment": 0.227,
      "confidence": 25,
      "eligible": true,
-     "odd": 2.0
+     "odd": 1.85
     },
     {
      "selection": "BTTS_YES",
@@ -91,7 +91,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 4.36
+     "odd": 5.62
     }
    ],
    "trends": [
@@ -629,14 +629,14 @@
     "expected_goals": 2.17,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.3243,
-     "DRAW": 0.2929,
-     "AWAY": 0.3828,
-     "1X": 0.6172,
-     "X2": 0.6757,
-     "12": 0.7071,
-     "OVER25": 0.3697,
-     "UNDER25": 0.6303,
+     "HOME": 0.3271,
+     "DRAW": 0.2931,
+     "AWAY": 0.3798,
+     "1X": 0.6202,
+     "X2": 0.6729,
+     "12": 0.7069,
+     "OVER25": 0.3695,
+     "UNDER25": 0.6305,
      "BTTS_YES": 0.4377,
      "BTTS_NO": 0.5623
     }
@@ -645,7 +645,7 @@
     "selection": "X2",
     "family": "double_chance",
     "label": "Dupla chance: Atletico Tucuman ou empate (X2)",
-    "model_prob": 0.6757,
+    "model_prob": 0.6729,
     "trend_alignment": 1.0,
     "confidence": 50,
     "eligible": true,
@@ -657,21 +657,21 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Atletico Tucuman",
-     "model_prob": 0.3828,
+     "model_prob": 0.3798,
      "trend_alignment": 1.0,
      "confidence": 39,
      "eligible": false,
-     "odd": 2.41
+     "odd": 2.33
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.3697,
+     "model_prob": 0.3695,
      "trend_alignment": 0.54,
      "confidence": 19,
      "eligible": false,
-     "odd": 1.54
+     "odd": 1.51
     },
     {
      "selection": "BTTS_YES",
@@ -687,11 +687,11 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.6303,
+     "model_prob": 0.6305,
      "trend_alignment": 0.0,
      "confidence": 17,
      "eligible": true,
-     "odd": 2.39
+     "odd": 2.52
     }
    ],
    "trends": [

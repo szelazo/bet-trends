@@ -1,0 +1,957 @@
+{
+ "date": "2026-09-23",
+ "generated_at": "2026-09-21T08:18:01.151778-03:00",
+ "version": "0.1.0",
+ "count": 3,
+ "clear_count": 1,
+ "day_total": 9,
+ "games": [
+  {
+   "id": 4731980,
+   "s365_competition_id": 620,
+   "competition_name": "Liga BetPlay - Clausura",
+   "start_time": "2026-09-24T00:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 8645,
+    "name": "America de Cali"
+   },
+   "away": {
+    "id": 20841,
+    "name": "Águilas Doradas"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.33,
+    "lambda_away": 0.97,
+    "expected_goals": 3.3,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.6765,
+     "DRAW": 0.1814,
+     "AWAY": 0.142,
+     "1X": 0.858,
+     "X2": 0.3235,
+     "12": 0.8186,
+     "OVER25": 0.6397,
+     "UNDER25": 0.3603,
+     "BTTS_YES": 0.5604,
+     "BTTS_NO": 0.4396
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do America de Cali",
+    "model_prob": 0.6765,
+    "trend_alignment": 1.0,
+    "confidence": 75,
+    "eligible": true,
+    "odd": 1.69,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: America de Cali ou empate (1X)",
+     "model_prob": 0.858,
+     "trend_alignment": 1.0,
+     "confidence": 75,
+     "eligible": true,
+     "odd": 1.18
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6397,
+     "trend_alignment": 0.587,
+     "confidence": 39,
+     "eligible": true,
+     "odd": 1.99
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5604,
+     "trend_alignment": 0.587,
+     "confidence": 28,
+     "eligible": false,
+     "odd": 1.94
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Águilas Doradas",
+     "model_prob": 0.142,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 5.05
+    }
+   ],
+   "trends": [
+    {
+     "label": "Venceu 3 dos últimos 4 em casa",
+     "strength": 0.625,
+     "favors": "HOME",
+     "team": "America de Cali",
+     "side": "HOME",
+     "group": "casa_fora",
+     "kind": "wins"
+    },
+    {
+     "label": "Mais de 2.5 gols em 3 dos últimos 4 em casa",
+     "strength": 0.45,
+     "favors": "OVER",
+     "team": "America de Cali",
+     "side": "HOME",
+     "group": "casa_fora",
+     "kind": "over"
+    },
+    {
+     "label": "Não venceu nenhum dos últimos 5",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Águilas Doradas",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "Ambos marcaram em 4 dos últimos 5",
+     "strength": 0.43,
+     "favors": "BTTS_YES",
+     "team": "Águilas Doradas",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "btts"
+    },
+    {
+     "label": "Melhor defesa da liga (0.6 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "America de Cali",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 1 derrota(s) em 10 jogos no campeonato",
+     "strength": 0.42,
+     "favors": "HOME",
+     "team": "America de Cali",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "2º melhor ataque da liga (2.1 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "America de Cali",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Invicto em 5 dos últimos 6",
+     "strength": 0.492,
+     "favors": "HOME",
+     "team": "America de Cali",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Águilas Doradas",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "America de Cali é 1º · Águilas Doradas é 11º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "America de Cali está 10 posições à frente",
+     "strength": 0.714,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Venceu 3 dos últimos 4 em casa",
+     "strength": 0.625,
+     "favors": "HOME",
+     "team": "America de Cali",
+     "side": "HOME",
+     "group": "casa_fora",
+     "kind": "wins"
+    },
+    {
+     "label": "Não venceu nenhum dos últimos 5",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Águilas Doradas",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "Melhor defesa da liga (0.6 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "America de Cali",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 1 derrota(s) em 10 jogos no campeonato",
+     "strength": 0.42,
+     "favors": "HOME",
+     "team": "America de Cali",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "2º melhor ataque da liga (2.1 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "America de Cali",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Invicto em 5 dos últimos 6",
+     "strength": 0.492,
+     "favors": "HOME",
+     "team": "America de Cali",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Águilas Doradas",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "America de Cali está 10 posições à frente",
+     "strength": 0.714,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 75,
+   "league": {
+    "key": "co_primera",
+    "name": "Liga BetPlay",
+    "country": "Colômbia"
+   },
+   "home_team": {
+    "id": 8645,
+    "name": "America de Cali",
+    "position": 1,
+    "played": 10,
+    "points": 21.0,
+    "record": "6V 3E 1D",
+    "goals_for": 21,
+    "goals_against": 6,
+    "last5": "DLWWD",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Deportes Tolima",
+      "date": "2026-09-20"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Deportivo Pasto",
+      "date": "2026-09-15"
+     },
+     {
+      "result": "W",
+      "score": "4-1",
+      "home": true,
+      "opponent": "Deportivo Pereira",
+      "date": "2026-09-09"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "Alianza FC",
+      "date": "2026-09-03"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "Jaguares de Córdoba",
+      "date": "2026-08-29"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 20841,
+    "name": "Águilas Doradas",
+    "position": 11,
+    "played": 8,
+    "points": 11.0,
+    "record": "2V 5E 1D",
+    "goals_for": 12,
+    "goals_against": 12,
+    "last5": "DLDDD",
+    "recent": [
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "Deportivo Pereira",
+      "date": "2026-09-18"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Atletico Nacional",
+      "date": "2026-09-13"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "Internacional de Bogota",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "Boyaca Chico",
+      "date": "2026-08-30"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Millonarios",
+      "date": "2026-08-22"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-23T21:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "2 casas",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4621625,
+   "s365_competition_id": 104,
+   "competition_name": "MLS",
+   "start_time": "2026-09-24T01:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 1347,
+    "name": "Seattle Sounders"
+   },
+   "away": {
+    "id": 1344,
+    "name": "Real Salt Lake"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.68,
+    "lambda_away": 0.96,
+    "expected_goals": 2.65,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.5431,
+     "DRAW": 0.2417,
+     "AWAY": 0.2152,
+     "1X": 0.7848,
+     "X2": 0.4569,
+     "12": 0.7583,
+     "OVER25": 0.4932,
+     "UNDER25": 0.5068,
+     "BTTS_YES": 0.5035,
+     "BTTS_NO": 0.4965
+    }
+   },
+   "pick": {
+    "selection": "1X",
+    "family": "double_chance",
+    "label": "Dupla chance: Seattle Sounders ou empate (1X)",
+    "model_prob": 0.7848,
+    "trend_alignment": 0.321,
+    "confidence": 42,
+    "eligible": true,
+    "odd": 1.28,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Seattle Sounders",
+     "model_prob": 0.5431,
+     "trend_alignment": 0.321,
+     "confidence": 31,
+     "eligible": true,
+     "odd": 1.87
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5035,
+     "trend_alignment": 0.553,
+     "confidence": 20,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.4932,
+     "trend_alignment": 0.553,
+     "confidence": 19,
+     "eligible": false,
+     "odd": 1.58
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.5068,
+     "trend_alignment": 0.0,
+     "confidence": 1,
+     "eligible": false,
+     "odd": 2.37
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "HOME",
+     "team": "Real Salt Lake",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Sofreu gol em todos os últimos 5",
+     "strength": 0.4,
+     "favors": "OVER",
+     "team": "Real Salt Lake",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "always_concede"
+    },
+    {
+     "label": "Não venceu nenhum dos últimos 5",
+     "strength": 0.55,
+     "favors": "AWAY",
+     "team": "Seattle Sounders",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "Ambos marcaram em 4 dos últimos 5",
+     "strength": 0.43,
+     "favors": "BTTS_YES",
+     "team": "Seattle Sounders",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "btts"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Seattle Sounders",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Seattle Sounders",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Real Salt Lake",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Seattle Sounders é 13º · Real Salt Lake é 12º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "HOME",
+     "team": "Real Salt Lake",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Seattle Sounders",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Real Salt Lake",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    }
+   ],
+   "confidence": 42,
+   "league": {
+    "key": "mls",
+    "name": "MLS",
+    "country": "EUA/Canadá"
+   },
+   "home_team": {
+    "id": 1347,
+    "name": "Seattle Sounders",
+    "position": 13,
+    "played": 24,
+    "points": 29.0,
+    "record": "7V 8E 9D",
+    "goals_for": 28,
+    "goals_against": 33,
+    "last5": "DDDDD",
+    "recent": [
+     {
+      "result": "D",
+      "score": "3-3",
+      "home": false,
+      "opponent": "Colorado Rapids",
+      "date": "2026-09-20"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Los Angeles Galaxy",
+      "date": "2026-09-13"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "New York Red Bulls",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "Chicago Fire",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "FC Cincinnati",
+      "date": "2026-08-22"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 1344,
+    "name": "Real Salt Lake",
+    "position": 12,
+    "played": 25,
+    "points": 29.0,
+    "record": "8V 5E 12D",
+    "goals_for": 37,
+    "goals_against": 42,
+    "last5": "LLLDL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": true,
+      "opponent": "Vancouver Whitecaps",
+      "date": "2026-09-20"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": true,
+      "opponent": "New York City FC",
+      "date": "2026-09-13"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Houston Dynamo",
+      "date": "2026-09-10"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "Los Angeles FC",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Colorado Rapids",
+      "date": "2026-08-30"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-23T22:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "3 casas",
+   "is_cup": false,
+   "result": "pending",
+   "clear": false,
+   "below_bar": true
+  },
+  {
+   "id": 4760835,
+   "s365_competition_id": 583,
+   "competition_name": "Liga 1 - Clausura",
+   "start_time": "2026-09-23T20:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 57393,
+    "name": "ADT Tarma"
+   },
+   "away": {
+    "id": 8412,
+    "name": "Cienciano"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.37,
+    "lambda_away": 1.74,
+    "expected_goals": 3.11,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.3048,
+     "DRAW": 0.2339,
+     "AWAY": 0.4613,
+     "1X": 0.5387,
+     "X2": 0.6952,
+     "12": 0.7661,
+     "OVER25": 0.6015,
+     "UNDER25": 0.3985,
+     "BTTS_YES": 0.6156,
+     "BTTS_NO": 0.3844
+    }
+   },
+   "pick": {
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: Cienciano ou empate (X2)",
+    "model_prob": 0.6952,
+    "trend_alignment": 0.276,
+    "confidence": 29,
+    "eligible": true,
+    "odd": 1.44,
+    "low_conviction": true
+   },
+   "alt_markets": [
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.6156,
+     "trend_alignment": 0.567,
+     "confidence": 35,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6015,
+     "trend_alignment": 0.567,
+     "confidence": 33,
+     "eligible": true,
+     "odd": 1.73
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Cienciano",
+     "model_prob": 0.4613,
+     "trend_alignment": 0.276,
+     "confidence": 22,
+     "eligible": true,
+     "odd": 2.34
+    },
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do ADT Tarma",
+     "model_prob": 0.3048,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 2.75
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "AWAY",
+     "team": "ADT Tarma",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Sofreu gol em todos os últimos 5",
+     "strength": 0.4,
+     "favors": "OVER",
+     "team": "ADT Tarma",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "always_concede"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 4 fora de casa",
+     "strength": 0.588,
+     "favors": "HOME",
+     "team": "Cienciano",
+     "side": "AWAY",
+     "group": "casa_fora",
+     "kind": "losses"
+    },
+    {
+     "label": "Mais de 2.5 gols em 3 dos últimos 4 fora de casa",
+     "strength": 0.45,
+     "favors": "OVER",
+     "team": "Cienciano",
+     "side": "AWAY",
+     "group": "casa_fora",
+     "kind": "over"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "ADT Tarma",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "ADT Tarma é 17º · Cienciano é 14º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "AWAY",
+     "team": "ADT Tarma",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "ADT Tarma",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    }
+   ],
+   "confidence": 29,
+   "league": {
+    "key": "pe_liga1",
+    "name": "Liga 1",
+    "country": "Peru"
+   },
+   "home_team": {
+    "id": 57393,
+    "name": "ADT Tarma",
+    "position": 17,
+    "played": 9,
+    "points": 2.0,
+    "record": "0V 2E 7D",
+    "goals_for": 5,
+    "goals_against": 20,
+    "last5": "LLLLD",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Alianza Lima",
+      "date": "2026-09-19"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": false,
+      "opponent": "FBC Melgar",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": true,
+      "opponent": "Sport Huancayo",
+      "date": "2026-08-30"
+     },
+     {
+      "result": "L",
+      "score": "1-5",
+      "home": false,
+      "opponent": "Juan Pablo II College",
+      "date": "2026-08-22"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Alianza Atletico",
+      "date": "2026-08-15"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 8412,
+    "name": "Cienciano",
+    "position": 14,
+    "played": 8,
+    "points": 7.0,
+    "record": "2V 1E 5D",
+    "goals_for": 10,
+    "goals_against": 15,
+    "last5": "LWWLL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": false,
+      "opponent": "Montevideo City Torque",
+      "date": "2026-09-18"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Montevideo City Torque",
+      "date": "2026-09-11"
+     },
+     {
+      "result": "W",
+      "score": "5-2",
+      "home": false,
+      "opponent": "FC Cajamarca",
+      "date": "2026-09-04"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Cusco FC",
+      "date": "2026-08-31"
+     },
+     {
+      "result": "L",
+      "score": "1-5",
+      "home": false,
+      "opponent": "Sport Boys",
+      "date": "2026-08-23"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-23T17:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "3 casas",
+   "is_cup": false,
+   "result": "pending",
+   "clear": false,
+   "below_bar": true
+  }
+ ]
+}

@@ -1,6 +1,6 @@
 {
  "date": "2026-09-22",
- "generated_at": "2026-09-20T17:10:51.276423-03:00",
+ "generated_at": "2026-09-21T08:18:00.385455-03:00",
  "version": "0.1.0",
  "count": 2,
  "clear_count": 0,
@@ -24,28 +24,28 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 1.59,
+    "lambda_home": 1.6,
     "lambda_away": 1.2,
     "expected_goals": 2.8,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.4646,
-     "DRAW": 0.2475,
-     "AWAY": 0.2879,
-     "1X": 0.7121,
-     "X2": 0.5354,
-     "12": 0.7525,
-     "OVER25": 0.5297,
-     "UNDER25": 0.4703,
-     "BTTS_YES": 0.5575,
-     "BTTS_NO": 0.4425
+     "HOME": 0.465,
+     "DRAW": 0.2474,
+     "AWAY": 0.2876,
+     "1X": 0.7124,
+     "X2": 0.535,
+     "12": 0.7526,
+     "OVER25": 0.5302,
+     "UNDER25": 0.4698,
+     "BTTS_YES": 0.5578,
+     "BTTS_NO": 0.4422
     }
    },
    "pick": {
     "selection": "1X",
     "family": "double_chance",
     "label": "Dupla chance: Independiente Santa Fe ou empate (1X)",
-    "model_prob": 0.7121,
+    "model_prob": 0.7124,
     "trend_alignment": 1.0,
     "confidence": 55,
     "eligible": true,
@@ -57,7 +57,7 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Independiente Santa Fe",
-     "model_prob": 0.4646,
+     "model_prob": 0.465,
      "trend_alignment": 1.0,
      "confidence": 47,
      "eligible": true,
@@ -67,7 +67,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5575,
+     "model_prob": 0.5578,
      "trend_alignment": 0.3,
      "confidence": 18,
      "eligible": false,
@@ -77,21 +77,21 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.5297,
+     "model_prob": 0.5302,
      "trend_alignment": 0.3,
      "confidence": 14,
      "eligible": false,
-     "odd": 2.35
+     "odd": 2.48
     },
     {
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Deportivo Cali",
-     "model_prob": 0.2879,
+     "model_prob": 0.2876,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 3.55
+     "odd": 3.59
     }
    ],
    "trends": [
@@ -132,7 +132,7 @@
      "kind": "over"
     },
     {
-     "label": "Independiente Santa Fe é 4º · Deportivo Cali é 7º",
+     "label": "Independiente Santa Fe é 6º · Deportivo Cali é 8º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -179,7 +179,7 @@
    "home_team": {
     "id": 7644,
     "name": "Independiente Santa Fe",
-    "position": 4,
+    "position": 6,
     "played": 9,
     "points": 16.0,
     "record": "4V 4E 1D",
@@ -227,7 +227,7 @@
    "away_team": {
     "id": 8639,
     "name": "Deportivo Cali",
-    "position": 7,
+    "position": 8,
     "played": 9,
     "points": 15.0,
     "record": "4V 3E 2D",
@@ -298,32 +298,32 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 2.08,
+    "lambda_home": 2.07,
     "lambda_away": 1.19,
-    "expected_goals": 3.27,
+    "expected_goals": 3.26,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.579,
-     "DRAW": 0.2089,
-     "AWAY": 0.2122,
-     "1X": 0.7878,
-     "X2": 0.421,
-     "12": 0.7911,
-     "OVER25": 0.6348,
-     "UNDER25": 0.3652,
-     "BTTS_YES": 0.6089,
-     "BTTS_NO": 0.3911
+     "HOME": 0.5755,
+     "DRAW": 0.21,
+     "AWAY": 0.2145,
+     "1X": 0.7855,
+     "X2": 0.4245,
+     "12": 0.79,
+     "OVER25": 0.6326,
+     "UNDER25": 0.3674,
+     "BTTS_YES": 0.6084,
+     "BTTS_NO": 0.3916
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Independiente Medellin",
-    "model_prob": 0.579,
-    "trend_alignment": 0.217,
+    "model_prob": 0.5755,
+    "trend_alignment": 0.208,
     "confidence": 39,
     "eligible": true,
-    "odd": 1.34,
+    "odd": 1.33,
     "low_conviction": false
    },
    "alt_markets": [
@@ -331,8 +331,8 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Independiente Medellin ou empate (1X)",
-     "model_prob": 0.7878,
-     "trend_alignment": 0.217,
+     "model_prob": 0.7855,
+     "trend_alignment": 0.208,
      "confidence": 39,
      "eligible": true,
      "odd": 1.08
@@ -341,17 +341,17 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6348,
+     "model_prob": 0.6326,
      "trend_alignment": 0.609,
      "confidence": 39,
      "eligible": true,
-     "odd": 1.67
+     "odd": 1.65
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.6089,
+     "model_prob": 0.6084,
      "trend_alignment": 0.609,
      "confidence": 35,
      "eligible": true,
@@ -361,7 +361,7 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Jaguares de Córdoba",
-     "model_prob": 0.2122,
+     "model_prob": 0.2145,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
@@ -415,7 +415,7 @@
      "kind": "atk_rank"
     },
     {
-     "label": "Independiente Medellin é 5º · Jaguares de Córdoba é 18º",
+     "label": "Independiente Medellin é 7º · Jaguares de Córdoba é 18º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -424,8 +424,8 @@
      "kind": "positions"
     },
     {
-     "label": "Independiente Medellin está 13 posições à frente",
-     "strength": 0.8,
+     "label": "Independiente Medellin está 11 posições à frente",
+     "strength": 0.786,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -444,8 +444,8 @@
      "kind": "atk_rank"
     },
     {
-     "label": "Independiente Medellin está 13 posições à frente",
-     "strength": 0.8,
+     "label": "Independiente Medellin está 11 posições à frente",
+     "strength": 0.786,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -462,7 +462,7 @@
    "home_team": {
     "id": 8643,
     "name": "Independiente Medellin",
-    "position": 5,
+    "position": 7,
     "played": 8,
     "points": 16.0,
     "record": "5V 1E 2D",
