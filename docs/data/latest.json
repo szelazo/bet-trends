@@ -1,138 +1,421 @@
 {
- "date": "2026-09-21",
- "generated_at": "2026-09-21T17:11:11.089848-03:00",
+ "date": "2026-09-22",
+ "generated_at": "2026-09-22T08:16:28.709052-03:00",
  "version": "0.1.0",
- "count": 3,
- "clear_count": 2,
- "day_total": 8,
+ "count": 2,
+ "clear_count": 0,
+ "day_total": 16,
  "games": [
   {
-   "id": 4748439,
-   "s365_competition_id": 136,
-   "competition_name": "Liga 1",
-   "start_time": "2026-09-21T18:00:00+00:00",
+   "id": 4731984,
+   "s365_competition_id": 620,
+   "competition_name": "Liga BetPlay - Clausura",
+   "start_time": "2026-09-23T01:00:00+00:00",
    "status_group": 2,
    "round": "Round",
    "home": {
-    "id": 7707,
-    "name": "Petrolul Ploiesti"
+    "id": 7644,
+    "name": "Independiente Santa Fe"
    },
    "away": {
-    "id": 26249,
-    "name": "Csíkszereda Miercurea Ciuc"
+    "id": 8639,
+    "name": "Deportivo Cali"
    },
-   "home_score": 2.0,
-   "away_score": 0.0,
+   "home_score": -1.0,
+   "away_score": -1.0,
    "model": {
-    "lambda_home": 2.41,
-    "lambda_away": 0.84,
-    "expected_goals": 3.24,
+    "lambda_home": 1.6,
+    "lambda_away": 1.2,
+    "expected_goals": 2.8,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.7203,
-     "DRAW": 0.1676,
-     "AWAY": 0.1121,
-     "1X": 0.8879,
-     "X2": 0.2797,
-     "12": 0.8324,
-     "OVER25": 0.6288,
-     "UNDER25": 0.3712,
-     "BTTS_YES": 0.5163,
-     "BTTS_NO": 0.4837
+     "HOME": 0.465,
+     "DRAW": 0.2474,
+     "AWAY": 0.2876,
+     "1X": 0.7124,
+     "X2": 0.535,
+     "12": 0.7526,
+     "OVER25": 0.5302,
+     "UNDER25": 0.4698,
+     "BTTS_YES": 0.5578,
+     "BTTS_NO": 0.4422
+    }
+   },
+   "pick": {
+    "selection": "1X",
+    "family": "double_chance",
+    "label": "Dupla chance: Independiente Santa Fe ou empate (1X)",
+    "model_prob": 0.7124,
+    "trend_alignment": 1.0,
+    "confidence": 55,
+    "eligible": true,
+    "odd": 1.31,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Independiente Santa Fe",
+     "model_prob": 0.465,
+     "trend_alignment": 1.0,
+     "confidence": 47,
+     "eligible": true,
+     "odd": 2.15
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5578,
+     "trend_alignment": 0.3,
+     "confidence": 18,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5302,
+     "trend_alignment": 0.3,
+     "confidence": 14,
+     "eligible": false,
+     "odd": 2.28
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Deportivo Cali",
+     "model_prob": 0.2876,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 3.48
+    }
+   ],
+   "trends": [
+    {
+     "label": "Invicto em 4 dos últimos 4 em casa",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Independiente Santa Fe",
+     "side": "HOME",
+     "group": "casa_fora",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Invicto em 6 dos últimos 7",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Independiente Santa Fe",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Só venceu 1 dos últimos 4 fora de casa",
+     "strength": 0.462,
+     "favors": "HOME",
+     "team": "Deportivo Cali",
+     "side": "AWAY",
+     "group": "casa_fora",
+     "kind": "winless"
+    },
+    {
+     "label": "Mais de 2.5 gols em 3 dos últimos 4 fora de casa",
+     "strength": 0.45,
+     "favors": "OVER",
+     "team": "Deportivo Cali",
+     "side": "AWAY",
+     "group": "casa_fora",
+     "kind": "over"
+    },
+    {
+     "label": "Independiente Santa Fe é 6º · Deportivo Cali é 8º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Invicto em 4 dos últimos 4 em casa",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Independiente Santa Fe",
+     "side": "HOME",
+     "group": "casa_fora",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Invicto em 6 dos últimos 7",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Independiente Santa Fe",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Só venceu 1 dos últimos 4 fora de casa",
+     "strength": 0.462,
+     "favors": "HOME",
+     "team": "Deportivo Cali",
+     "side": "AWAY",
+     "group": "casa_fora",
+     "kind": "winless"
+    }
+   ],
+   "confidence": 55,
+   "league": {
+    "key": "co_primera",
+    "name": "Liga BetPlay",
+    "country": "Colômbia"
+   },
+   "home_team": {
+    "id": 7644,
+    "name": "Independiente Santa Fe",
+    "position": 6,
+    "played": 9,
+    "points": 16.0,
+    "record": "4V 4E 1D",
+    "goals_for": 16,
+    "goals_against": 10,
+    "last5": "WLWDD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "4-1",
+      "home": false,
+      "opponent": "Alianza FC",
+      "date": "2026-09-19"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Vasco da Gama",
+      "date": "2026-09-15"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Deportes Tolima",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Vasco da Gama",
+      "date": "2026-09-08"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "Fortaleza FC",
+      "date": "2026-09-05"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 8639,
+    "name": "Deportivo Cali",
+    "position": 8,
+    "played": 9,
+    "points": 15.0,
+    "record": "4V 3E 2D",
+    "goals_for": 14,
+    "goals_against": 8,
+    "last5": "WWDLD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "Cucuta Deportivo",
+      "date": "2026-09-19"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Once Caldas",
+      "date": "2026-09-13"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Millonarios",
+      "date": "2026-09-11"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": false,
+      "opponent": "Atletico Nacional",
+      "date": "2026-09-08"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Atlético Bucaramanga",
+      "date": "2026-08-31"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-22T22:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "3 casas",
+   "is_cup": false,
+   "result": "pending",
+   "clear": false,
+   "below_bar": true
+  },
+  {
+   "id": 4731996,
+   "s365_competition_id": 620,
+   "competition_name": "Liga BetPlay - Clausura",
+   "start_time": "2026-09-22T23:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 8643,
+    "name": "Independiente Medellin"
+   },
+   "away": {
+    "id": 10377,
+    "name": "Jaguares de Córdoba"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.07,
+    "lambda_away": 1.19,
+    "expected_goals": 3.26,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.5755,
+     "DRAW": 0.21,
+     "AWAY": 0.2145,
+     "1X": 0.7855,
+     "X2": 0.4245,
+     "12": 0.79,
+     "OVER25": 0.6326,
+     "UNDER25": 0.3674,
+     "BTTS_YES": 0.6084,
+     "BTTS_NO": 0.3916
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
-    "label": "Vitória do Petrolul Ploiesti",
-    "model_prob": 0.7203,
-    "trend_alignment": 1.0,
-    "confidence": 79,
+    "label": "Vitória do Independiente Medellin",
+    "model_prob": 0.5755,
+    "trend_alignment": 0.208,
+    "confidence": 39,
     "eligible": true,
-    "odd": 1.54,
+    "odd": 1.29,
     "low_conviction": false
    },
    "alt_markets": [
     {
      "selection": "1X",
      "family": "double_chance",
-     "label": "Dupla chance: Petrolul Ploiesti ou empate (1X)",
-     "model_prob": 0.8879,
-     "trend_alignment": 1.0,
-     "confidence": 79,
+     "label": "Dupla chance: Independiente Medellin ou empate (1X)",
+     "model_prob": 0.7855,
+     "trend_alignment": 0.208,
+     "confidence": 39,
      "eligible": true,
-     "odd": 1.15
+     "odd": 1.06
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6288,
-     "trend_alignment": 0.227,
-     "confidence": 25,
+     "model_prob": 0.6326,
+     "trend_alignment": 0.609,
+     "confidence": 39,
      "eligible": true,
-     "odd": 1.85
+     "odd": 1.62
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5163,
-     "trend_alignment": 0.227,
-     "confidence": 10,
-     "eligible": false,
+     "model_prob": 0.6084,
+     "trend_alignment": 0.609,
+     "confidence": 35,
+     "eligible": true,
      "odd": null
     },
     {
      "selection": "AWAY",
      "family": "1x2",
-     "label": "Vitória do Csíkszereda Miercurea Ciuc",
-     "model_prob": 0.1121,
+     "label": "Vitória do Jaguares de Córdoba",
+     "model_prob": 0.2145,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 5.62
+     "odd": 10.0
     }
    ],
    "trends": [
     {
-     "label": "Perdeu 4 dos últimos 5",
-     "strength": 0.61,
-     "favors": "HOME",
-     "team": "Csíkszereda Miercurea Ciuc",
+     "label": "Invicto em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "AWAY",
+     "team": "Jaguares de Córdoba",
      "side": "AWAY",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Invicto em 4 dos últimos 5",
-     "strength": 0.48,
-     "favors": "HOME",
-     "team": "Petrolul Ploiesti",
-     "side": "HOME",
      "group": "geral",
      "kind": "unbeaten"
     },
     {
-     "label": "Pior defesa da liga (2.3 sofridos/jogo)",
-     "strength": 0.34,
-     "favors": "OVER",
-     "team": "Csíkszereda Miercurea Ciuc",
+     "label": "Ambos marcaram em 4 dos últimos 5",
+     "strength": 0.43,
+     "favors": "BTTS_YES",
+     "team": "Jaguares de Córdoba",
      "side": "AWAY",
-     "group": "temporada",
-     "kind": "def_bottom"
+     "group": "geral",
+     "kind": "btts"
     },
     {
-     "label": "Não vence há 5+ jogos",
+     "label": "Mais de 2.5 gols em 5 dos últimos 6",
+     "strength": 0.483,
+     "favors": "OVER",
+     "team": "Independiente Medellin",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
      "strength": 0.333,
-     "favors": "HOME",
-     "team": "Csíkszereda Miercurea Ciuc",
+     "favors": "AWAY",
+     "team": "Jaguares de Córdoba",
      "side": "AWAY",
      "group": "sequencia",
-     "kind": "winless_streak"
+     "kind": "unbeaten_streak"
     },
     {
-     "label": "Petrolul Ploiesti é 4º · Csíkszereda Miercurea Ciuc é 16º",
+     "label": "3º melhor ataque da liga (1.9 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Independiente Medellin",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Independiente Medellin é 7º · Jaguares de Córdoba é 18º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -141,8 +424,8 @@
      "kind": "positions"
     },
     {
-     "label": "Petrolul Ploiesti está 12 posições à frente",
-     "strength": 0.8,
+     "label": "Independiente Medellin está 11 posições à frente",
+     "strength": 0.786,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -152,35 +435,17 @@
    ],
    "aligned_trends": [
     {
-     "label": "Perdeu 4 dos últimos 5",
-     "strength": 0.61,
+     "label": "3º melhor ataque da liga (1.9 marcados/jogo)",
+     "strength": 0.32,
      "favors": "HOME",
-     "team": "Csíkszereda Miercurea Ciuc",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Invicto em 4 dos últimos 5",
-     "strength": 0.48,
-     "favors": "HOME",
-     "team": "Petrolul Ploiesti",
+     "team": "Independiente Medellin",
      "side": "HOME",
-     "group": "geral",
-     "kind": "unbeaten"
+     "group": "temporada",
+     "kind": "atk_rank"
     },
     {
-     "label": "Não vence há 5+ jogos",
-     "strength": 0.333,
-     "favors": "HOME",
-     "team": "Csíkszereda Miercurea Ciuc",
-     "side": "AWAY",
-     "group": "sequencia",
-     "kind": "winless_streak"
-    },
-    {
-     "label": "Petrolul Ploiesti está 12 posições à frente",
-     "strength": 0.8,
+     "label": "Independiente Medellin está 11 posições à frente",
+     "strength": 0.786,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -188,722 +453,113 @@
      "kind": "table_gap"
     }
    ],
-   "confidence": 79,
+   "confidence": 39,
    "league": {
-    "key": "romania",
-    "name": "Liga 1",
-    "country": "Romênia"
+    "key": "co_primera",
+    "name": "Liga BetPlay",
+    "country": "Colômbia"
    },
    "home_team": {
-    "id": 7707,
-    "name": "Petrolul Ploiesti",
-    "position": 4,
-    "played": 9,
+    "id": 8643,
+    "name": "Independiente Medellin",
+    "position": 7,
+    "played": 8,
     "points": 16.0,
-    "record": "5V 1E 3D",
-    "goals_for": 11,
-    "goals_against": 12,
-    "last5": "DWWLW",
+    "record": "5V 1E 2D",
+    "goals_for": 15,
+    "goals_against": 10,
+    "last5": "DLWWW",
     "recent": [
      {
       "result": "D",
       "score": "2-2",
       "home": false,
-      "opponent": "FCSB",
-      "date": "2026-09-14"
-     },
-     {
-      "result": "W",
-      "score": "2-0",
-      "home": true,
-      "opponent": "Hunedoara",
-      "date": "2026-09-06"
-     },
-     {
-      "result": "W",
-      "score": "3-2",
-      "home": false,
-      "opponent": "Universitatea Cluj",
-      "date": "2026-08-28"
-     },
-     {
-      "result": "L",
-      "score": "0-2",
-      "home": true,
-      "opponent": "Rapid Bucuresti",
-      "date": "2026-08-21"
-     },
-     {
-      "result": "W",
-      "score": "2-1",
-      "home": false,
-      "opponent": "FC Voluntari",
-      "date": "2026-08-14"
-     }
-    ]
-   },
-   "away_team": {
-    "id": 26249,
-    "name": "Csíkszereda Miercurea Ciuc",
-    "position": 16,
-    "played": 9,
-    "points": 1.0,
-    "record": "0V 1E 8D",
-    "goals_for": 6,
-    "goals_against": 21,
-    "last5": "LLLLD",
-    "recent": [
-     {
-      "result": "L",
-      "score": "1-3",
-      "home": true,
-      "opponent": "Dinamo Bucuresti",
-      "date": "2026-09-11"
-     },
-     {
-      "result": "L",
-      "score": "1-5",
-      "home": false,
-      "opponent": "UTA Arad",
-      "date": "2026-09-05"
-     },
-     {
-      "result": "L",
-      "score": "2-3",
-      "home": true,
-      "opponent": "CFR Cluj",
-      "date": "2026-08-29"
-     },
-     {
-      "result": "L",
-      "score": "0-1",
-      "home": false,
-      "opponent": "FC Botosani",
-      "date": "2026-08-24"
-     },
-     {
-      "result": "D",
-      "score": "0-0",
-      "home": true,
-      "opponent": "Sepsi",
-      "date": "2026-08-15"
-     }
-    ]
-   },
-   "kickoff_local": "2026-09-21T15:00:00-03:00",
-   "has_odds": true,
-   "odds_bookmaker": "3 casas",
-   "is_cup": false,
-   "result": "hit",
-   "clear": true
-  },
-  {
-   "id": 4856753,
-   "s365_competition_id": 617,
-   "competition_name": "Uruguayan Championship - Clausura",
-   "start_time": "2026-09-21T22:30:00+00:00",
-   "status_group": 2,
-   "round": "Round",
-   "home": {
-    "id": 10193,
-    "name": "Central Espanol"
-   },
-   "away": {
-    "id": 12675,
-    "name": "Montevideo City Torque"
-   },
-   "home_score": -1.0,
-   "away_score": -1.0,
-   "model": {
-    "lambda_home": 0.83,
-    "lambda_away": 1.64,
-    "expected_goals": 2.46,
-    "sample_factor": 1.0,
-    "probs": {
-     "HOME": 0.1881,
-     "DRAW": 0.2456,
-     "AWAY": 0.5663,
-     "1X": 0.4337,
-     "X2": 0.8119,
-     "12": 0.7544,
-     "OVER25": 0.4467,
-     "UNDER25": 0.5533,
-     "BTTS_YES": 0.4528,
-     "BTTS_NO": 0.5472
-    }
-   },
-   "pick": {
-    "selection": "AWAY",
-    "family": "1x2",
-    "label": "Vitória do Montevideo City Torque",
-    "model_prob": 0.5663,
-    "trend_alignment": 1.0,
-    "confidence": 68,
-    "eligible": true,
-    "odd": 1.84,
-    "low_conviction": false
-   },
-   "alt_markets": [
-    {
-     "selection": "X2",
-     "family": "double_chance",
-     "label": "Dupla chance: Montevideo City Torque ou empate (X2)",
-     "model_prob": 0.8119,
-     "trend_alignment": 1.0,
-     "confidence": 68,
-     "eligible": true,
-     "odd": 1.24
-    },
-    {
-     "selection": "OVER25",
-     "family": "over_under",
-     "label": "Mais de 2.5 gols",
-     "model_prob": 0.4467,
-     "trend_alignment": 0.291,
-     "confidence": 10,
-     "eligible": false,
-     "odd": 2.26
-    },
-    {
-     "selection": "BTTS_YES",
-     "family": "btts",
-     "label": "Ambos os times marcam",
-     "model_prob": 0.4528,
-     "trend_alignment": 0.291,
-     "confidence": 10,
-     "eligible": false,
-     "odd": null
-    },
-    {
-     "selection": "UNDER25",
-     "family": "over_under",
-     "label": "Menos de 2.5 gols",
-     "model_prob": 0.5533,
-     "trend_alignment": 0.0,
-     "confidence": 7,
-     "eligible": false,
-     "odd": 1.62
-    }
-   ],
-   "trends": [
-    {
-     "label": "Venceu 6 dos últimos 7",
-     "strength": 0.679,
-     "favors": "AWAY",
-     "team": "Montevideo City Torque",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "Mais de 2.5 gols em 5 dos últimos 7",
-     "strength": 0.436,
-     "favors": "OVER",
-     "team": "Montevideo City Torque",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "over"
-    },
-    {
-     "label": "Perdeu 3 dos últimos 5",
-     "strength": 0.52,
-     "favors": "AWAY",
-     "team": "Central Espanol",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Não marcou em 3 dos últimos 5",
-     "strength": 0.38,
-     "favors": "AWAY",
-     "team": "Central Espanol",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "no_score"
-    },
-    {
-     "label": "Não vence há 5+ jogos",
-     "strength": 0.333,
-     "favors": "AWAY",
-     "team": "Central Espanol",
-     "side": "HOME",
-     "group": "sequencia",
-     "kind": "winless_streak"
-    },
-    {
-     "label": "Central Espanol é 13º · Montevideo City Torque é 1º",
-     "strength": 0.0,
-     "favors": null,
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "positions"
-    },
-    {
-     "label": "Montevideo City Torque está 12 posições à frente",
-     "strength": 0.8,
-     "favors": "AWAY",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "aligned_trends": [
-    {
-     "label": "Venceu 6 dos últimos 7",
-     "strength": 0.679,
-     "favors": "AWAY",
-     "team": "Montevideo City Torque",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "Perdeu 3 dos últimos 5",
-     "strength": 0.52,
-     "favors": "AWAY",
-     "team": "Central Espanol",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Não marcou em 3 dos últimos 5",
-     "strength": 0.38,
-     "favors": "AWAY",
-     "team": "Central Espanol",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "no_score"
-    },
-    {
-     "label": "Não vence há 5+ jogos",
-     "strength": 0.333,
-     "favors": "AWAY",
-     "team": "Central Espanol",
-     "side": "HOME",
-     "group": "sequencia",
-     "kind": "winless_streak"
-    },
-    {
-     "label": "Montevideo City Torque está 12 posições à frente",
-     "strength": 0.8,
-     "favors": "AWAY",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "confidence": 68,
-   "league": {
-    "key": "uy_primera",
-    "name": "Primera División",
-    "country": "Uruguai"
-   },
-   "home_team": {
-    "id": 10193,
-    "name": "Central Espanol",
-    "position": 13,
-    "played": 6,
-    "points": 5.0,
-    "record": "1V 2E 3D",
-    "goals_for": 3,
-    "goals_against": 7,
-    "last5": "DDLLL",
-    "recent": [
-     {
-      "result": "D",
-      "score": "0-0",
-      "home": false,
-      "opponent": "Cerro Largo",
-      "date": "2026-09-12"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": true,
-      "opponent": "Defensor Sporting",
-      "date": "2026-09-06"
-     },
-     {
-      "result": "L",
-      "score": "0-3",
-      "home": false,
-      "opponent": "Montevideo Wanderers",
-      "date": "2026-08-28"
-     },
-     {
-      "result": "L",
-      "score": "0-1",
-      "home": true,
-      "opponent": "Juventud",
-      "date": "2026-08-22"
+      "opponent": "Atlético Bucaramanga",
+      "date": "2026-09-18"
      },
      {
       "result": "L",
       "score": "1-2",
       "home": false,
-      "opponent": "Peñarol",
-      "date": "2026-08-16"
-     }
-    ]
-   },
-   "away_team": {
-    "id": 12675,
-    "name": "Montevideo City Torque",
-    "position": 1,
-    "played": 5,
-    "points": 15.0,
-    "record": "5V 0E 0D",
-    "goals_for": 14,
-    "goals_against": 4,
-    "last5": "WWLWW",
-    "recent": [
+      "opponent": "Boyaca Chico",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "W",
+      "score": "4-1",
+      "home": false,
+      "opponent": "Deportivo Pasto",
+      "date": "2026-09-10"
+     },
      {
       "result": "W",
       "score": "3-0",
-      "home": true,
-      "opponent": "Cienciano",
-      "date": "2026-09-18"
-     },
-     {
-      "result": "W",
-      "score": "3-1",
-      "home": true,
-      "opponent": "Liverpool Montevideo",
-      "date": "2026-09-14"
-     },
-     {
-      "result": "L",
-      "score": "0-2",
       "home": false,
-      "opponent": "Cienciano",
-      "date": "2026-09-11"
-     },
-     {
-      "result": "W",
-      "score": "2-1",
-      "home": true,
-      "opponent": "Cerro Largo",
+      "opponent": "Deportivo Pereira",
       "date": "2026-09-04"
      },
      {
       "result": "W",
-      "score": "3-1",
-      "home": false,
-      "opponent": "Defensor Sporting",
-      "date": "2026-08-29"
-     }
-    ]
-   },
-   "kickoff_local": "2026-09-21T19:30:00-03:00",
-   "has_odds": true,
-   "odds_bookmaker": "3 casas",
-   "is_cup": false,
-   "result": "pending",
-   "clear": true
-  },
-  {
-   "id": 4633291,
-   "s365_competition_id": 72,
-   "competition_name": "Liga Profesional - Clausura",
-   "start_time": "2026-09-21T17:30:00+00:00",
-   "status_group": 2,
-   "round": "Round",
-   "home": {
-    "id": 7223,
-    "name": "Aldosivi"
-   },
-   "away": {
-    "id": 6152,
-    "name": "Atletico Tucuman"
-   },
-   "home_score": 1.0,
-   "away_score": 0.0,
-   "model": {
-    "lambda_home": 1.03,
-    "lambda_away": 1.14,
-    "expected_goals": 2.17,
-    "sample_factor": 1.0,
-    "probs": {
-     "HOME": 0.3271,
-     "DRAW": 0.2931,
-     "AWAY": 0.3798,
-     "1X": 0.6202,
-     "X2": 0.6729,
-     "12": 0.7069,
-     "OVER25": 0.3695,
-     "UNDER25": 0.6305,
-     "BTTS_YES": 0.4377,
-     "BTTS_NO": 0.5623
-    }
-   },
-   "pick": {
-    "selection": "X2",
-    "family": "double_chance",
-    "label": "Dupla chance: Atletico Tucuman ou empate (X2)",
-    "model_prob": 0.6729,
-    "trend_alignment": 1.0,
-    "confidence": 50,
-    "eligible": true,
-    "odd": 1.34,
-    "low_conviction": false
-   },
-   "alt_markets": [
-    {
-     "selection": "AWAY",
-     "family": "1x2",
-     "label": "Vitória do Atletico Tucuman",
-     "model_prob": 0.3798,
-     "trend_alignment": 1.0,
-     "confidence": 39,
-     "eligible": false,
-     "odd": 2.33
-    },
-    {
-     "selection": "OVER25",
-     "family": "over_under",
-     "label": "Mais de 2.5 gols",
-     "model_prob": 0.3695,
-     "trend_alignment": 0.54,
-     "confidence": 19,
-     "eligible": false,
-     "odd": 1.51
-    },
-    {
-     "selection": "BTTS_YES",
-     "family": "btts",
-     "label": "Ambos os times marcam",
-     "model_prob": 0.4377,
-     "trend_alignment": 0.54,
-     "confidence": 19,
-     "eligible": false,
-     "odd": null
-    },
-    {
-     "selection": "UNDER25",
-     "family": "over_under",
-     "label": "Menos de 2.5 gols",
-     "model_prob": 0.6305,
-     "trend_alignment": 0.0,
-     "confidence": 17,
-     "eligible": true,
-     "odd": 2.52
-    }
-   ],
-   "trends": [
-    {
-     "label": "Perdeu 3 dos últimos 5",
-     "strength": 0.52,
-     "favors": "AWAY",
-     "team": "Aldosivi",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Mais de 2.5 gols em 4 dos últimos 5",
-     "strength": 0.47,
-     "favors": "OVER",
-     "team": "Aldosivi",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "over"
-    },
-    {
-     "label": "Melhor defesa da liga (0.6 sofridos/jogo)",
-     "strength": 0.5,
-     "favors": "AWAY",
-     "team": "Atletico Tucuman",
-     "side": "AWAY",
-     "group": "temporada",
-     "kind": "def_rank"
-    },
-    {
-     "label": "Invicto em 5 dos últimos 6",
-     "strength": 0.492,
-     "favors": "AWAY",
-     "team": "Atletico Tucuman",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "unbeaten"
-    },
-    {
-     "label": "Pior defesa da liga (1.8 sofridos/jogo)",
-     "strength": 0.34,
-     "favors": "OVER",
-     "team": "Aldosivi",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "def_bottom"
-    },
-    {
-     "label": "Aldosivi é 15º · Atletico Tucuman é 8º",
-     "strength": 0.0,
-     "favors": null,
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "positions"
-    },
-    {
-     "label": "Atletico Tucuman está 7 posições à frente",
-     "strength": 0.5,
-     "favors": "AWAY",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "aligned_trends": [
-    {
-     "label": "Perdeu 3 dos últimos 5",
-     "strength": 0.52,
-     "favors": "AWAY",
-     "team": "Aldosivi",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Melhor defesa da liga (0.6 sofridos/jogo)",
-     "strength": 0.5,
-     "favors": "AWAY",
-     "team": "Atletico Tucuman",
-     "side": "AWAY",
-     "group": "temporada",
-     "kind": "def_rank"
-    },
-    {
-     "label": "Invicto em 5 dos últimos 6",
-     "strength": 0.492,
-     "favors": "AWAY",
-     "team": "Atletico Tucuman",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "unbeaten"
-    },
-    {
-     "label": "Atletico Tucuman está 7 posições à frente",
-     "strength": 0.5,
-     "favors": "AWAY",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "confidence": 50,
-   "league": {
-    "key": "ar_primera",
-    "name": "Liga Profesional",
-    "country": "Argentina"
-   },
-   "home_team": {
-    "id": 7223,
-    "name": "Aldosivi",
-    "position": 15,
-    "played": 9,
-    "points": 5.0,
-    "record": "1V 2E 6D",
-    "goals_for": 11,
-    "goals_against": 16,
-    "last5": "LWLLD",
-    "recent": [
-     {
-      "result": "L",
-      "score": "3-4",
-      "home": false,
-      "opponent": "Independiente Rivadavia",
-      "date": "2026-09-12"
-     },
-     {
-      "result": "W",
-      "score": "3-1",
+      "score": "2-1",
       "home": true,
-      "opponent": "Banfield",
-      "date": "2026-09-05"
-     },
-     {
-      "result": "L",
-      "score": "1-2",
-      "home": false,
-      "opponent": "Argentinos Juniors",
+      "opponent": "Llaneros FC",
       "date": "2026-08-30"
-     },
-     {
-      "result": "L",
-      "score": "1-3",
-      "home": true,
-      "opponent": "Union Santa Fe",
-      "date": "2026-08-21"
-     },
-     {
-      "result": "D",
-      "score": "0-0",
-      "home": true,
-      "opponent": "Tigre",
-      "date": "2026-08-15"
      }
     ]
    },
    "away_team": {
-    "id": 6152,
-    "name": "Atletico Tucuman",
-    "position": 8,
-    "played": 9,
-    "points": 13.0,
-    "record": "3V 4E 2D",
-    "goals_for": 7,
-    "goals_against": 5,
-    "last5": "DLWDD",
+    "id": 10377,
+    "name": "Jaguares de Córdoba",
+    "position": 18,
+    "played": 8,
+    "points": 7.0,
+    "record": "1V 4E 3D",
+    "goals_for": 9,
+    "goals_against": 14,
+    "last5": "DDDWD",
     "recent": [
      {
       "result": "D",
-      "score": "1-1",
-      "home": false,
-      "opponent": "Independiente Rivadavia",
-      "date": "2026-09-16"
+      "score": "2-2",
+      "home": true,
+      "opponent": "Fortaleza FC",
+      "date": "2026-09-11"
      },
      {
-      "result": "L",
-      "score": "1-2",
+      "result": "D",
+      "score": "3-3",
+      "home": false,
+      "opponent": "Junior FC",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
       "home": true,
-      "opponent": "River Plate",
-      "date": "2026-09-12"
+      "opponent": "America de Cali",
+      "date": "2026-08-29"
      },
      {
       "result": "W",
-      "score": "2-1",
-      "home": false,
-      "opponent": "Racing Club",
-      "date": "2026-09-07"
+      "score": "1-0",
+      "home": true,
+      "opponent": "Boyaca Chico",
+      "date": "2026-08-21"
      },
      {
       "result": "D",
-      "score": "0-0",
+      "score": "1-1",
       "home": true,
-      "opponent": "Belgrano",
-      "date": "2026-08-30"
-     },
-     {
-      "result": "D",
-      "score": "0-0",
-      "home": true,
-      "opponent": "Instituto AC Cordoba",
-      "date": "2026-08-22"
+      "opponent": "Once Caldas",
+      "date": "2026-08-09"
      }
     ]
    },
-   "kickoff_local": "2026-09-21T14:30:00-03:00",
+   "kickoff_local": "2026-09-22T20:00:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
-   "result": "miss",
+   "result": "pending",
    "clear": false,
    "below_bar": true
   }
