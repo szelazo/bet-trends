@@ -1,6 +1,6 @@
 {
  "date": "2026-09-25",
- "generated_at": "2026-09-23T08:17:24.014415-03:00",
+ "generated_at": "2026-09-23T17:12:30.574628-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 1,
@@ -49,7 +49,7 @@
     "trend_alignment": 1.0,
     "confidence": 76,
     "eligible": true,
-    "odd": 1.5,
+    "odd": 1.46,
     "low_conviction": false
    },
    "alt_markets": [
@@ -61,7 +61,7 @@
      "trend_alignment": 1.0,
      "confidence": 76,
      "eligible": true,
-     "odd": 1.15
+     "odd": 1.14
     },
     {
      "selection": "OVER25",
@@ -91,7 +91,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 5.5
+     "odd": 5.77
     }
    ],
    "trends": [
@@ -340,7 +340,7 @@
     "trend_alignment": 0.905,
     "confidence": 71,
     "eligible": true,
-    "odd": 1.84,
+    "odd": 1.75,
     "low_conviction": false
    },
    "alt_markets": [
@@ -352,7 +352,7 @@
      "trend_alignment": 0.905,
      "confidence": 71,
      "eligible": true,
-     "odd": 1.24
+     "odd": 1.21
     },
     {
      "selection": "BTTS_NO",
@@ -372,7 +372,7 @@
      "trend_alignment": 0.313,
      "confidence": 19,
      "eligible": false,
-     "odd": 1.63
+     "odd": 1.6
     },
     {
      "selection": "AWAY",
@@ -382,7 +382,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 4.1
+     "odd": 4.35
     }
    ],
    "trends": [
@@ -619,7 +619,7 @@
    },
    "kickoff_local": "2026-09-25T19:00:00-03:00",
    "has_odds": true,
-   "odds_bookmaker": "2 casas",
+   "odds_bookmaker": "3 casas",
    "is_cup": false,
    "result": "pending",
    "clear": false,
@@ -710,7 +710,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 2.89
+     "odd": 2.9
     }
    ],
    "trends": [
