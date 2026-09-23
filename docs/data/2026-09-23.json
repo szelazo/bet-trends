@@ -1,6 +1,6 @@
 {
  "date": "2026-09-23",
- "generated_at": "2026-09-22T17:10:46.015486-03:00",
+ "generated_at": "2026-09-23T08:17:22.982314-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 1,
@@ -29,27 +29,27 @@
     "expected_goals": 3.3,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.6765,
-     "DRAW": 0.1814,
-     "AWAY": 0.142,
-     "1X": 0.858,
-     "X2": 0.3235,
-     "12": 0.8186,
-     "OVER25": 0.6397,
-     "UNDER25": 0.3603,
-     "BTTS_YES": 0.5604,
-     "BTTS_NO": 0.4396
+     "HOME": 0.6771,
+     "DRAW": 0.1811,
+     "AWAY": 0.1418,
+     "1X": 0.8582,
+     "X2": 0.3229,
+     "12": 0.8189,
+     "OVER25": 0.6408,
+     "UNDER25": 0.3592,
+     "BTTS_YES": 0.5611,
+     "BTTS_NO": 0.4389
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do America de Cali",
-    "model_prob": 0.6765,
+    "model_prob": 0.6771,
     "trend_alignment": 1.0,
     "confidence": 75,
     "eligible": true,
-    "odd": 1.64,
+    "odd": 1.62,
     "low_conviction": false
    },
    "alt_markets": [
@@ -57,27 +57,27 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: America de Cali ou empate (1X)",
-     "model_prob": 0.858,
+     "model_prob": 0.8582,
      "trend_alignment": 1.0,
      "confidence": 75,
      "eligible": true,
-     "odd": 1.14
+     "odd": 1.15
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6397,
+     "model_prob": 0.6408,
      "trend_alignment": 0.587,
      "confidence": 39,
      "eligible": true,
-     "odd": 2.01
+     "odd": 1.95
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5604,
+     "model_prob": 0.5611,
      "trend_alignment": 0.587,
      "confidence": 28,
      "eligible": false,
@@ -87,11 +87,11 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Águilas Doradas",
-     "model_prob": 0.142,
+     "model_prob": 0.1418,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 5.88
+     "odd": 5.78
     }
    ],
    "trends": [
@@ -421,7 +421,7 @@
     "trend_alignment": 0.321,
     "confidence": 42,
     "eligible": true,
-    "odd": 1.29,
+    "odd": 1.26,
     "low_conviction": false
    },
    "alt_markets": [
@@ -433,7 +433,7 @@
      "trend_alignment": 0.321,
      "confidence": 31,
      "eligible": true,
-     "odd": 1.88
+     "odd": 1.82
     },
     {
      "selection": "BTTS_YES",
@@ -453,7 +453,7 @@
      "trend_alignment": 0.553,
      "confidence": 19,
      "eligible": false,
-     "odd": 1.57
+     "odd": 2.25
     },
     {
      "selection": "UNDER25",
@@ -463,7 +463,7 @@
      "trend_alignment": 0.0,
      "confidence": 1,
      "eligible": false,
-     "odd": 2.35
+     "odd": 1.57
     }
    ],
    "trends": [
@@ -722,7 +722,7 @@
     "trend_alignment": 0.276,
     "confidence": 29,
     "eligible": true,
-    "odd": 1.39,
+    "odd": 1.36,
     "low_conviction": true
    },
    "alt_markets": [
@@ -754,7 +754,7 @@
      "trend_alignment": 0.276,
      "confidence": 22,
      "eligible": true,
-     "odd": 2.2
+     "odd": 2.09
     },
     {
      "selection": "HOME",
@@ -764,7 +764,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 3.0
+     "odd": 3.09
     }
    ],
    "trends": [

@@ -21,8 +21,8 @@
     "id": 8639,
     "name": "Deportivo Cali"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 0.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 1.6,
     "lambda_away": 1.2,
@@ -276,7 +276,7 @@
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
-   "result": "pending",
+   "result": "miss",
    "clear": false,
    "below_bar": true
   },
@@ -295,8 +295,8 @@
     "id": 10377,
     "name": "Jaguares de Córdoba"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 2.07,
     "lambda_away": 1.19,
@@ -559,7 +559,7 @@
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": false,
    "below_bar": true
   }

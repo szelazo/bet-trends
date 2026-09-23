@@ -1,6 +1,6 @@
 {
  "date": "2026-09-24",
- "generated_at": "2026-09-22T17:10:46.272455-03:00",
+ "generated_at": "2026-09-23T08:17:23.280089-03:00",
  "version": "0.1.0",
  "count": 1,
  "clear_count": 0,
@@ -26,19 +26,19 @@
    "model": {
     "lambda_home": 1.74,
     "lambda_away": 1.18,
-    "expected_goals": 2.91,
+    "expected_goals": 2.92,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.5055,
-     "DRAW": 0.2364,
+     "HOME": 0.5058,
+     "DRAW": 0.2362,
      "AWAY": 0.258,
      "1X": 0.742,
-     "X2": 0.4945,
-     "12": 0.7636,
-     "OVER25": 0.5574,
-     "UNDER25": 0.4426,
-     "BTTS_YES": 0.5699,
-     "BTTS_NO": 0.4301
+     "X2": 0.4942,
+     "12": 0.7638,
+     "OVER25": 0.5584,
+     "UNDER25": 0.4416,
+     "BTTS_YES": 0.5707,
+     "BTTS_NO": 0.4293
     }
    },
    "pick": {
@@ -57,31 +57,31 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5699,
+     "model_prob": 0.5707,
      "trend_alignment": 0.287,
      "confidence": 19,
      "eligible": false,
      "odd": null
     },
     {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5584,
+     "trend_alignment": 0.287,
+     "confidence": 18,
+     "eligible": false,
+     "odd": 1.85
+    },
+    {
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Atletico Nacional",
-     "model_prob": 0.5055,
+     "model_prob": 0.5058,
      "trend_alignment": 0.03,
      "confidence": 17,
      "eligible": true,
      "odd": 1.85
-    },
-    {
-     "selection": "OVER25",
-     "family": "over_under",
-     "label": "Mais de 2.5 gols",
-     "model_prob": 0.5574,
-     "trend_alignment": 0.287,
-     "confidence": 17,
-     "eligible": false,
-     "odd": 1.96
     },
     {
      "selection": "AWAY",
@@ -91,7 +91,7 @@
      "trend_alignment": 0.122,
      "confidence": 4,
      "eligible": false,
-     "odd": 4.2
+     "odd": 4.17
     }
    ],
    "trends": [
@@ -150,7 +150,7 @@
      "kind": "few_losses"
     },
     {
-     "label": "Atletico Nacional é 3º · Millonarios é 2º",
+     "label": "Atletico Nacional é 4º · Millonarios é 2º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -188,7 +188,7 @@
    "home_team": {
     "id": 8640,
     "name": "Atletico Nacional",
-    "position": 3,
+    "position": 4,
     "played": 8,
     "points": 18.0,
     "record": "6V 0E 2D",
