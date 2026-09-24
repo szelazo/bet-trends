@@ -1,0 +1,921 @@
+{
+ "date": "2026-09-26",
+ "generated_at": "2026-09-24T08:16:22.960082-03:00",
+ "version": "0.1.0",
+ "count": 3,
+ "clear_count": 1,
+ "day_total": 30,
+ "games": [
+  {
+   "id": 4861908,
+   "s365_competition_id": 617,
+   "competition_name": "Uruguayan Championship - Clausura",
+   "start_time": "2026-09-26T21:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 7766,
+    "name": "Peñarol"
+   },
+   "away": {
+    "id": 12673,
+    "name": "Boston River"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.16,
+    "lambda_away": 0.82,
+    "expected_goals": 2.98,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.6795,
+     "DRAW": 0.19,
+     "AWAY": 0.1305,
+     "1X": 0.8695,
+     "X2": 0.3205,
+     "12": 0.81,
+     "OVER25": 0.5719,
+     "UNDER25": 0.4281,
+     "BTTS_YES": 0.4958,
+     "BTTS_NO": 0.5042
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Peñarol",
+    "model_prob": 0.6795,
+    "trend_alignment": 1.0,
+    "confidence": 76,
+    "eligible": true,
+    "odd": 1.41,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Peñarol ou empate (1X)",
+     "model_prob": 0.8695,
+     "trend_alignment": 1.0,
+     "confidence": 76,
+     "eligible": true,
+     "odd": 1.11
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5719,
+     "trend_alignment": 0.287,
+     "confidence": 19,
+     "eligible": false,
+     "odd": 1.78
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.4958,
+     "trend_alignment": 0.287,
+     "confidence": 10,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5042,
+     "trend_alignment": 0.0,
+     "confidence": 1,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Boston River",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Ambos marcaram em 4 dos últimos 5",
+     "strength": 0.43,
+     "favors": "BTTS_YES",
+     "team": "Boston River",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "btts"
+    },
+    {
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Peñarol",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Peñarol",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Peñarol é 4º · Boston River é 11º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Peñarol está 7 posições à frente",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Boston River",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Peñarol",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Peñarol",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Peñarol está 7 posições à frente",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 76,
+   "league": {
+    "key": "uy_primera",
+    "name": "Primera División",
+    "country": "Uruguai"
+   },
+   "home_team": {
+    "id": 7766,
+    "name": "Peñarol",
+    "position": 4,
+    "played": 6,
+    "points": 12.0,
+    "record": "4V 1E 1D",
+    "goals_for": 11,
+    "goals_against": 4,
+    "last5": "WWWLD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Cerro",
+      "date": "2026-09-19"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": true,
+      "opponent": "Albion",
+      "date": "2026-09-13"
+     },
+     {
+      "result": "W",
+      "score": "4-0",
+      "home": false,
+      "opponent": "Danubio FC",
+      "date": "2026-09-05"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Nacional",
+      "date": "2026-08-30"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Deportivo Maldonado",
+      "date": "2026-08-22"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 12673,
+    "name": "Boston River",
+    "position": 11,
+    "played": 7,
+    "points": 8.0,
+    "record": "2V 2E 3D",
+    "goals_for": 9,
+    "goals_against": 10,
+    "last5": "LLLDW",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Progreso",
+      "date": "2026-09-19"
+     },
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": false,
+      "opponent": "Racing Club Montevideo",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Liverpool Montevideo",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Cerro",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": false,
+      "opponent": "Albion",
+      "date": "2026-08-21"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-26T18:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "3 casas",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4621329,
+   "s365_competition_id": 104,
+   "competition_name": "MLS",
+   "start_time": "2026-09-27T00:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 51126,
+    "name": "Nashville SC"
+   },
+   "away": {
+    "id": 1336,
+    "name": "Toronto FC"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.65,
+    "lambda_away": 0.97,
+    "expected_goals": 3.62,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.7321,
+     "DRAW": 0.1545,
+     "AWAY": 0.1134,
+     "1X": 0.8866,
+     "X2": 0.2679,
+     "12": 0.8455,
+     "OVER25": 0.6998,
+     "UNDER25": 0.3002,
+     "BTTS_YES": 0.5753,
+     "BTTS_NO": 0.4247
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Nashville SC",
+    "model_prob": 0.7321,
+    "trend_alignment": 1.0,
+    "confidence": 79,
+    "eligible": true,
+    "odd": 1.43,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Nashville SC ou empate (1X)",
+     "model_prob": 0.8866,
+     "trend_alignment": 1.0,
+     "confidence": 79,
+     "eligible": true,
+     "odd": 1.14
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6998,
+     "trend_alignment": 0.627,
+     "confidence": 48,
+     "eligible": true,
+     "odd": 2.21
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5753,
+     "trend_alignment": 0.627,
+     "confidence": 32,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Toronto FC",
+     "model_prob": 0.1134,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 5.77
+    }
+   ],
+   "trends": [
+    {
+     "label": "Melhor defesa da liga (0.8 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Nashville SC",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 3 derrota(s) em 26 jogos no campeonato",
+     "strength": 0.26,
+     "favors": "HOME",
+     "team": "Nashville SC",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Nashville SC",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "Nashville SC",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Só venceu 1 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Toronto FC",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "Toronto FC",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Nashville SC é 1º · Toronto FC é 12º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Nashville SC está 11 posições à frente",
+     "strength": 0.786,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Melhor defesa da liga (0.8 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Nashville SC",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 3 derrota(s) em 26 jogos no campeonato",
+     "strength": 0.26,
+     "favors": "HOME",
+     "team": "Nashville SC",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Nashville SC",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Só venceu 1 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Toronto FC",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "Nashville SC está 11 posições à frente",
+     "strength": 0.786,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 79,
+   "league": {
+    "key": "mls",
+    "name": "MLS",
+    "country": "EUA/Canadá"
+   },
+   "home_team": {
+    "id": 51126,
+    "name": "Nashville SC",
+    "position": 1,
+    "played": 26,
+    "points": 57.0,
+    "record": "17V 6E 3D",
+    "goals_for": 53,
+    "goals_against": 21,
+    "last5": "WDLDW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "Chicago Fire",
+      "date": "2026-09-20"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "Inter Miami",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Toronto FC",
+      "date": "2026-09-09"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "New York City FC",
+      "date": "2026-09-04"
+     },
+     {
+      "result": "W",
+      "score": "4-0",
+      "home": true,
+      "opponent": "FC Cincinnati",
+      "date": "2026-08-30"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 1336,
+    "name": "Toronto FC",
+    "position": 12,
+    "played": 26,
+    "points": 29.0,
+    "record": "6V 11E 9D",
+    "goals_for": 39,
+    "goals_against": 49,
+    "last5": "LLWDD",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": false,
+      "opponent": "St. Louis City SC",
+      "date": "2026-09-20"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": false,
+      "opponent": "Orlando City SC",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Nashville SC",
+      "date": "2026-09-09"
+     },
+     {
+      "result": "D",
+      "score": "4-4",
+      "home": true,
+      "opponent": "Chicago Fire",
+      "date": "2026-09-05"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "New York City FC",
+      "date": "2026-08-29"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-26T21:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "3 casas",
+   "is_cup": false,
+   "result": "pending",
+   "clear": false,
+   "below_bar": true
+  },
+  {
+   "id": 4621324,
+   "s365_competition_id": 104,
+   "competition_name": "MLS",
+   "start_time": "2026-09-27T02:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 8389,
+    "name": "Vancouver Whitecaps"
+   },
+   "away": {
+    "id": 1339,
+    "name": "DC United"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.1,
+    "lambda_away": 0.73,
+    "expected_goals": 2.83,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.6911,
+     "DRAW": 0.191,
+     "AWAY": 0.1179,
+     "1X": 0.8821,
+     "X2": 0.3089,
+     "12": 0.809,
+     "OVER25": 0.5364,
+     "UNDER25": 0.4636,
+     "BTTS_YES": 0.4538,
+     "BTTS_NO": 0.5462
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Vancouver Whitecaps",
+    "model_prob": 0.6911,
+    "trend_alignment": 1.0,
+    "confidence": 78,
+    "eligible": true,
+    "odd": 1.22,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Vancouver Whitecaps ou empate (1X)",
+     "model_prob": 0.8821,
+     "trend_alignment": 1.0,
+     "confidence": 78,
+     "eligible": true,
+     "odd": 1.07
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5364,
+     "trend_alignment": 0.133,
+     "confidence": 9,
+     "eligible": false,
+     "odd": 1.91
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5462,
+     "trend_alignment": 0.0,
+     "confidence": 6,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.4538,
+     "trend_alignment": 0.133,
+     "confidence": 5,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Mais de 2.5 gols em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "OVER",
+     "team": "Vancouver Whitecaps",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Não sofreu gol em 3 dos últimos 5",
+     "strength": 0.39,
+     "favors": "UNDER",
+     "team": "Vancouver Whitecaps",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "clean_sheets"
+    },
+    {
+     "label": "Só venceu 1 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "DC United",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "2ª melhor defesa da liga (0.9 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "HOME",
+     "team": "Vancouver Whitecaps",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "2º melhor ataque da liga (2.2 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Vancouver Whitecaps",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Vancouver Whitecaps é 1º · DC United é 11º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Vancouver Whitecaps está 10 posições à frente",
+     "strength": 0.714,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Só venceu 1 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "DC United",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "2ª melhor defesa da liga (0.9 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "HOME",
+     "team": "Vancouver Whitecaps",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "2º melhor ataque da liga (2.2 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Vancouver Whitecaps",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Vancouver Whitecaps está 10 posições à frente",
+     "strength": 0.714,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 78,
+   "league": {
+    "key": "mls",
+    "name": "MLS",
+    "country": "EUA/Canadá"
+   },
+   "home_team": {
+    "id": 8389,
+    "name": "Vancouver Whitecaps",
+    "position": 1,
+    "played": 25,
+    "points": 49.0,
+    "record": "15V 4E 6D",
+    "goals_for": 56,
+    "goals_against": 23,
+    "last5": "WLWLW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": false,
+      "opponent": "Real Salt Lake",
+      "date": "2026-09-20"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Austin FC",
+      "date": "2026-09-13"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "Los Angeles Galaxy",
+      "date": "2026-09-10"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": true,
+      "opponent": "St. Louis City SC",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": false,
+      "opponent": "Sporting KC",
+      "date": "2026-08-30"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 1339,
+    "name": "DC United",
+    "position": 11,
+    "played": 25,
+    "points": 29.0,
+    "record": "6V 11E 8D",
+    "goals_for": 31,
+    "goals_against": 39,
+    "last5": "LDWDL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Charlotte FC",
+      "date": "2026-09-19"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Atlanta United",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Columbus Crew",
+      "date": "2026-09-09"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Los Angeles FC",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": false,
+      "opponent": "Charlotte FC",
+      "date": "2026-08-22"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-26T23:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "3 casas",
+   "is_cup": false,
+   "result": "pending",
+   "clear": false,
+   "below_bar": true
+  }
+ ]
+}
