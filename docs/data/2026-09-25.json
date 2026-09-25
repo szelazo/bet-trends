@@ -1,6 +1,6 @@
 {
  "date": "2026-09-25",
- "generated_at": "2026-09-25T08:17:05.822227-03:00",
+ "generated_at": "2026-09-25T17:10:33.334535-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 1,
@@ -315,50 +315,50 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 1.72,
-    "lambda_away": 0.71,
-    "expected_goals": 2.43,
+    "lambda_home": 1.73,
+    "lambda_away": 0.7,
+    "expected_goals": 2.44,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.618,
-     "DRAW": 0.2326,
-     "AWAY": 0.1494,
-     "1X": 0.8506,
-     "X2": 0.382,
-     "12": 0.7674,
-     "OVER25": 0.4387,
-     "UNDER25": 0.5613,
-     "BTTS_YES": 0.4168,
-     "BTTS_NO": 0.5832
+     "HOME": 0.6212,
+     "DRAW": 0.2313,
+     "AWAY": 0.1475,
+     "1X": 0.8525,
+     "X2": 0.3788,
+     "12": 0.7687,
+     "OVER25": 0.4402,
+     "UNDER25": 0.5598,
+     "BTTS_YES": 0.4162,
+     "BTTS_NO": 0.5838
     }
    },
    "pick": {
-    "selection": "HOME",
-    "family": "1x2",
-    "label": "Vitória do Club Nacional",
-    "model_prob": 0.618,
-    "trend_alignment": 0.905,
-    "confidence": 71,
+    "selection": "1X",
+    "family": "double_chance",
+    "label": "Dupla chance: Club Nacional ou empate (1X)",
+    "model_prob": 0.8525,
+    "trend_alignment": 0.953,
+    "confidence": 72,
     "eligible": true,
-    "odd": 1.79,
+    "odd": 1.25,
     "low_conviction": false
    },
    "alt_markets": [
     {
-     "selection": "1X",
-     "family": "double_chance",
-     "label": "Dupla chance: Club Nacional ou empate (1X)",
-     "model_prob": 0.8506,
-     "trend_alignment": 0.905,
-     "confidence": 71,
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Club Nacional",
+     "model_prob": 0.6212,
+     "trend_alignment": 0.953,
+     "confidence": 61,
      "eligible": true,
-     "odd": 1.22
+     "odd": 1.89
     },
     {
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.5832,
+     "model_prob": 0.5838,
      "trend_alignment": 0.313,
      "confidence": 22,
      "eligible": false,
@@ -368,21 +368,21 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.5613,
+     "model_prob": 0.5598,
      "trend_alignment": 0.313,
      "confidence": 19,
      "eligible": false,
-     "odd": 1.65
+     "odd": 1.63
     },
     {
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Sportivo Ameliano",
-     "model_prob": 0.1494,
+     "model_prob": 0.1475,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 4.37
+     "odd": 3.97
     }
    ],
    "trends": [
@@ -450,7 +450,7 @@
      "kind": "few_losses"
     },
     {
-     "label": "Club Nacional é 3º · Sportivo Ameliano é 7º",
+     "label": "Club Nacional é 3º · Sportivo Ameliano é 8º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -459,8 +459,8 @@
      "kind": "positions"
     },
     {
-     "label": "Club Nacional está 4 posições à frente",
-     "strength": 0.286,
+     "label": "Club Nacional está 5 posições à frente",
+     "strength": 0.357,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -506,8 +506,8 @@
      "kind": "atk_rank"
     },
     {
-     "label": "Club Nacional está 4 posições à frente",
-     "strength": 0.286,
+     "label": "Club Nacional está 5 posições à frente",
+     "strength": 0.357,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -515,7 +515,7 @@
      "kind": "table_gap"
     }
    ],
-   "confidence": 71,
+   "confidence": 72,
    "league": {
     "key": "py_primera",
     "name": "Copa de Primera",
@@ -572,7 +572,7 @@
    "away_team": {
     "id": 56588,
     "name": "Sportivo Ameliano",
-    "position": 7,
+    "position": 8,
     "played": 11,
     "points": 17.0,
     "record": "4V 5E 2D",

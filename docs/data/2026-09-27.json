@@ -1,6 +1,6 @@
 {
  "date": "2026-09-27",
- "generated_at": "2026-09-25T08:17:07.240547-03:00",
+ "generated_at": "2026-09-25T17:10:34.880232-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 2,
@@ -49,7 +49,7 @@
     "trend_alignment": 1.0,
     "confidence": 79,
     "eligible": true,
-    "odd": 1.57,
+    "odd": 1.58,
     "low_conviction": false
    },
    "alt_markets": [
@@ -81,7 +81,7 @@
      "trend_alignment": 0.0,
      "confidence": 7,
      "eligible": false,
-     "odd": 1.6
+     "odd": 1.68
     },
     {
      "selection": "UNDER25",
@@ -91,7 +91,7 @@
      "trend_alignment": 0.109,
      "confidence": 4,
      "eligible": false,
-     "odd": 2.23
+     "odd": 2.2
     }
    ],
    "trends": [
@@ -331,7 +331,7 @@
     "trend_alignment": 1.0,
     "confidence": 71,
     "eligible": true,
-    "odd": 1.83,
+    "odd": 1.87,
     "low_conviction": false
    },
    "alt_markets": [
@@ -353,7 +353,7 @@
      "trend_alignment": 0.26,
      "confidence": 23,
      "eligible": true,
-     "odd": 1.68
+     "odd": 1.67
     },
     {
      "selection": "BTTS_NO",
@@ -373,7 +373,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 4.0
+     "odd": 4.05
     }
    ],
    "trends": [
@@ -620,14 +620,14 @@
     "expected_goals": 2.67,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.6346,
-     "DRAW": 0.2164,
-     "AWAY": 0.149,
-     "1X": 0.851,
-     "X2": 0.3654,
-     "12": 0.7836,
-     "OVER25": 0.4983,
-     "UNDER25": 0.5017,
+     "HOME": 0.6353,
+     "DRAW": 0.2161,
+     "AWAY": 0.1486,
+     "1X": 0.8514,
+     "X2": 0.3647,
+     "12": 0.7839,
+     "OVER25": 0.4987,
+     "UNDER25": 0.5013,
      "BTTS_YES": 0.4602,
      "BTTS_NO": 0.5398
     }
@@ -636,7 +636,7 @@
     "selection": "1X",
     "family": "double_chance",
     "label": "Dupla chance: Eibar ou empate (1X)",
-    "model_prob": 0.851,
+    "model_prob": 0.8514,
     "trend_alignment": 1.0,
     "confidence": 74,
     "eligible": true,
@@ -648,7 +648,7 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Eibar",
-     "model_prob": 0.6346,
+     "model_prob": 0.6353,
      "trend_alignment": 1.0,
      "confidence": 64,
      "eligible": true,
@@ -668,7 +668,7 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.5017,
+     "model_prob": 0.5013,
      "trend_alignment": 0.573,
      "confidence": 20,
      "eligible": false,
@@ -678,7 +678,7 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Las Palmas",
-     "model_prob": 0.149,
+     "model_prob": 0.1486,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
