@@ -1,5 +1,5 @@
 {
- "generated_for": "2026-09-24",
+ "generated_for": "2026-09-25",
  "since": "2026-09-03",
  "prelaunch": {
   "hits": 12,
@@ -18,10 +18,10 @@
   "total": 1
  },
  "week": {
-  "hits": 14,
+  "hits": 9,
   "misses": 4,
   "voids": 0,
-  "total": 18
+  "total": 13
  },
  "all_time": {
   "hits": 73,

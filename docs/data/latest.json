@@ -1,141 +1,751 @@
 {
- "date": "2026-09-24",
- "generated_at": "2026-09-24T17:12:52.153741-03:00",
+ "date": "2026-09-25",
+ "generated_at": "2026-09-25T08:17:05.822227-03:00",
  "version": "0.1.0",
- "count": 1,
- "clear_count": 0,
- "day_total": 1,
+ "count": 3,
+ "clear_count": 1,
+ "day_total": 7,
  "games": [
   {
-   "id": 4731986,
-   "s365_competition_id": 620,
-   "competition_name": "Liga BetPlay - Clausura",
-   "start_time": "2026-09-25T00:30:00+00:00",
+   "id": 4751238,
+   "s365_competition_id": 12,
+   "competition_name": "LaLiga 2",
+   "start_time": "2026-09-25T18:30:00+00:00",
    "status_group": 2,
    "round": "Round",
    "home": {
-    "id": 8640,
-    "name": "Atletico Nacional"
+    "id": 175,
+    "name": "Girona"
    },
    "away": {
-    "id": 8637,
-    "name": "Millonarios"
+    "id": 170,
+    "name": "Albacete"
    },
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 1.75,
-    "lambda_away": 1.18,
-    "expected_goals": 2.93,
+    "lambda_home": 2.28,
+    "lambda_away": 0.9,
+    "expected_goals": 3.18,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.5062,
-     "DRAW": 0.2359,
-     "AWAY": 0.2579,
-     "1X": 0.7421,
-     "X2": 0.4938,
-     "12": 0.7641,
-     "OVER25": 0.5598,
-     "UNDER25": 0.4402,
-     "BTTS_YES": 0.5717,
-     "BTTS_NO": 0.4283
+     "HOME": 0.6848,
+     "DRAW": 0.1821,
+     "AWAY": 0.1331,
+     "1X": 0.8669,
+     "X2": 0.3152,
+     "12": 0.8179,
+     "OVER25": 0.6151,
+     "UNDER25": 0.3849,
+     "BTTS_YES": 0.5318,
+     "BTTS_NO": 0.4682
     }
    },
    "pick": {
-    "selection": "1X",
-    "family": "double_chance",
-    "label": "Dupla chance: Atletico Nacional ou empate (1X)",
-    "model_prob": 0.7421,
-    "trend_alignment": 0.03,
-    "confidence": 27,
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Girona",
+    "model_prob": 0.6848,
+    "trend_alignment": 1.0,
+    "confidence": 76,
     "eligible": true,
-    "odd": 1.2,
-    "low_conviction": true
+    "odd": 1.55,
+    "low_conviction": false
    },
    "alt_markets": [
     {
-     "selection": "BTTS_YES",
-     "family": "btts",
-     "label": "Ambos os times marcam",
-     "model_prob": 0.5717,
-     "trend_alignment": 0.287,
-     "confidence": 19,
-     "eligible": false,
-     "odd": null
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Girona ou empate (1X)",
+     "model_prob": 0.8669,
+     "trend_alignment": 1.0,
+     "confidence": 76,
+     "eligible": true,
+     "odd": 1.15
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.5598,
-     "trend_alignment": 0.287,
-     "confidence": 18,
-     "eligible": false,
-     "odd": 1.73
+     "model_prob": 0.6151,
+     "trend_alignment": 0.867,
+     "confidence": 45,
+     "eligible": true,
+     "odd": 1.67
     },
     {
-     "selection": "HOME",
-     "family": "1x2",
-     "label": "Vitória do Atletico Nacional",
-     "model_prob": 0.5062,
-     "trend_alignment": 0.03,
-     "confidence": 17,
-     "eligible": true,
-     "odd": 1.71
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5318,
+     "trend_alignment": 0.867,
+     "confidence": 34,
+     "eligible": false,
+     "odd": null
     },
     {
      "selection": "AWAY",
      "family": "1x2",
-     "label": "Vitória do Millonarios",
-     "model_prob": 0.2579,
-     "trend_alignment": 0.122,
-     "confidence": 4,
+     "label": "Vitória do Albacete",
+     "model_prob": 0.1331,
+     "trend_alignment": 0.0,
+     "confidence": 0,
      "eligible": false,
-     "odd": 4.63
+     "odd": 5.71
     }
    ],
    "trends": [
     {
-     "label": "Venceu 5 dos últimos 6",
-     "strength": 0.667,
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
      "favors": "HOME",
-     "team": "Atletico Nacional",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "Invicto em 4 dos últimos 5",
-     "strength": 0.48,
-     "favors": "AWAY",
-     "team": "Millonarios",
+     "team": "Albacete",
      "side": "AWAY",
      "group": "geral",
-     "kind": "unbeaten"
+     "kind": "losses"
+    },
+    {
+     "label": "Sofreu gol em todos os últimos 5",
+     "strength": 0.4,
+     "favors": "OVER",
+     "team": "Albacete",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "always_concede"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "Girona",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "over"
     },
     {
      "label": "Ambos marcaram em 4 dos últimos 5",
      "strength": 0.43,
      "favors": "BTTS_YES",
-     "team": "Millonarios",
-     "side": "AWAY",
+     "team": "Girona",
+     "side": "HOME",
      "group": "geral",
      "kind": "btts"
     },
     {
-     "label": "Melhor ataque da liga (2.1 marcados/jogo)",
-     "strength": 0.44,
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
      "favors": "HOME",
-     "team": "Atletico Nacional",
+     "team": "Albacete",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Girona é 8º · Albacete é 21º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Girona está 13 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "HOME",
+     "team": "Albacete",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Albacete",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Girona está 13 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 76,
+   "league": {
+    "key": "laliga2",
+    "name": "LaLiga 2",
+    "country": "Espanha"
+   },
+   "home_team": {
+    "id": 175,
+    "name": "Girona",
+    "position": 8,
+    "played": 6,
+    "points": 10.0,
+    "record": "3V 1E 2D",
+    "goals_for": 12,
+    "goals_against": 8,
+    "last5": "WLWWL",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Cadiz CF",
+      "date": "2026-09-19"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Castellon",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "Sporting Gijon",
+      "date": "2026-09-05"
+     },
+     {
+      "result": "W",
+      "score": "5-2",
+      "home": true,
+      "opponent": "Las Palmas",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Cordoba",
+      "date": "2026-08-21"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 170,
+    "name": "Albacete",
+    "position": 21,
+    "played": 6,
+    "points": 1.0,
+    "record": "0V 1E 5D",
+    "goals_for": 4,
+    "goals_against": 10,
+    "last5": "LDLLL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Cordoba",
+      "date": "2026-09-18"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Granada",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Castellon",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Real Oviedo",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Real Sociedad B",
+      "date": "2026-08-22"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-25T15:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "3 casas",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4764197,
+   "s365_competition_id": 621,
+   "competition_name": "Copa de Primera - Clausura",
+   "start_time": "2026-09-25T22:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 1280,
+    "name": "Club Nacional"
+   },
+   "away": {
+    "id": 56588,
+    "name": "Sportivo Ameliano"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.72,
+    "lambda_away": 0.71,
+    "expected_goals": 2.43,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.618,
+     "DRAW": 0.2326,
+     "AWAY": 0.1494,
+     "1X": 0.8506,
+     "X2": 0.382,
+     "12": 0.7674,
+     "OVER25": 0.4387,
+     "UNDER25": 0.5613,
+     "BTTS_YES": 0.4168,
+     "BTTS_NO": 0.5832
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Club Nacional",
+    "model_prob": 0.618,
+    "trend_alignment": 0.905,
+    "confidence": 71,
+    "eligible": true,
+    "odd": 1.79,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Club Nacional ou empate (1X)",
+     "model_prob": 0.8506,
+     "trend_alignment": 0.905,
+     "confidence": 71,
+     "eligible": true,
+     "odd": 1.22
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5832,
+     "trend_alignment": 0.313,
+     "confidence": 22,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.5613,
+     "trend_alignment": 0.313,
+     "confidence": 19,
+     "eligible": false,
+     "odd": 1.65
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Sportivo Ameliano",
+     "model_prob": 0.1494,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 4.37
+    }
+   ],
+   "trends": [
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "HOME",
+     "team": "Club Nacional",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Não sofreu gol em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "UNDER",
+     "team": "Club Nacional",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "clean_sheets"
+    },
+    {
+     "label": "Melhor defesa da liga (0.5 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Club Nacional",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 2 derrota(s) em 11 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "HOME",
+     "team": "Club Nacional",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "3º melhor ataque da liga (1.6 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Club Nacional",
      "side": "HOME",
      "group": "temporada",
      "kind": "atk_rank"
     },
     {
-     "label": "2ª melhor defesa da liga (0.7 sofridos/jogo)",
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "AWAY",
+     "team": "Sportivo Ameliano",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Só 2 derrota(s) em 11 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "AWAY",
+     "team": "Sportivo Ameliano",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Club Nacional é 3º · Sportivo Ameliano é 7º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Club Nacional está 4 posições à frente",
+     "strength": 0.286,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "HOME",
+     "team": "Club Nacional",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Melhor defesa da liga (0.5 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Club Nacional",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 2 derrota(s) em 11 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "HOME",
+     "team": "Club Nacional",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "3º melhor ataque da liga (1.6 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Club Nacional",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Club Nacional está 4 posições à frente",
+     "strength": 0.286,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 71,
+   "league": {
+    "key": "py_primera",
+    "name": "Copa de Primera",
+    "country": "Paraguai"
+   },
+   "home_team": {
+    "id": 1280,
+    "name": "Club Nacional",
+    "position": 3,
+    "played": 11,
+    "points": 21.0,
+    "record": "6V 3E 2D",
+    "goals_for": 18,
+    "goals_against": 6,
+    "last5": "WWLWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "2 de Mayo",
+      "date": "2026-09-18"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Rubio Ñu",
+      "date": "2026-09-13"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Cerro Porteño",
+      "date": "2026-09-07"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "Libertad",
+      "date": "2026-09-02"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": false,
+      "opponent": "CS San Lorenzo",
+      "date": "2026-08-28"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 56588,
+    "name": "Sportivo Ameliano",
+    "position": 7,
+    "played": 11,
+    "points": 17.0,
+    "record": "4V 5E 2D",
+    "goals_for": 13,
+    "goals_against": 12,
+    "last5": "DWWLD",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Libertad",
+      "date": "2026-09-19"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "CS San Lorenzo",
+      "date": "2026-09-11"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Sportivo Luqueño",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": true,
+      "opponent": "Sportivo Trinidense",
+      "date": "2026-09-02"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Club Guarani",
+      "date": "2026-08-30"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-25T19:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "3 casas",
+   "is_cup": false,
+   "result": "pending",
+   "clear": false,
+   "below_bar": true
+  },
+  {
+   "id": 4764194,
+   "s365_competition_id": 621,
+   "competition_name": "Copa de Primera - Clausura",
+   "start_time": "2026-09-25T19:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 8778,
+    "name": "Sportivo Luqueño"
+   },
+   "away": {
+    "id": 7739,
+    "name": "Club Guarani"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 0.94,
+    "lambda_away": 1.29,
+    "expected_goals": 2.23,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.27,
+     "DRAW": 0.2831,
+     "AWAY": 0.4469,
+     "1X": 0.5531,
+     "X2": 0.73,
+     "12": 0.7169,
+     "OVER25": 0.385,
+     "UNDER25": 0.615,
+     "BTTS_YES": 0.441,
+     "BTTS_NO": 0.559
+    }
+   },
+   "pick": {
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: Club Guarani ou empate (X2)",
+    "model_prob": 0.73,
+    "trend_alignment": 1.0,
+    "confidence": 57,
+    "eligible": true,
+    "odd": 1.39,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Club Guarani",
+     "model_prob": 0.4469,
+     "trend_alignment": 1.0,
+     "confidence": 46,
+     "eligible": false,
+     "odd": 2.2
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.615,
+     "trend_alignment": 0.085,
+     "confidence": 18,
+     "eligible": true,
+     "odd": 1.7
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.559,
+     "trend_alignment": 0.085,
+     "confidence": 11,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Sportivo Luqueño",
+     "model_prob": 0.27,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 2.9
+    }
+   ],
+   "trends": [
+    {
+     "label": "Invicto em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "AWAY",
+     "team": "Club Guarani",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Menos de 2.5 gols em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "UNDER",
+     "team": "Club Guarani",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "under"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "Sportivo Luqueño",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "3ª melhor defesa da liga (0.8 sofridos/jogo)",
      "strength": 0.36,
      "favors": "AWAY",
-     "team": "Millonarios",
+     "team": "Club Guarani",
      "side": "AWAY",
      "group": "temporada",
      "kind": "def_rank"
@@ -144,13 +754,22 @@
      "label": "Só 2 derrota(s) em 11 jogos no campeonato",
      "strength": 0.34,
      "favors": "AWAY",
-     "team": "Millonarios",
+     "team": "Club Guarani",
      "side": "AWAY",
      "group": "temporada",
      "kind": "few_losses"
     },
     {
-     "label": "Atletico Nacional é 4º · Millonarios é 2º",
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Club Guarani",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Sportivo Luqueño é 9º · Club Guarani é 6º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -161,127 +780,145 @@
    ],
    "aligned_trends": [
     {
-     "label": "Venceu 5 dos últimos 6",
-     "strength": 0.667,
-     "favors": "HOME",
-     "team": "Atletico Nacional",
-     "side": "HOME",
+     "label": "Invicto em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "AWAY",
+     "team": "Club Guarani",
+     "side": "AWAY",
      "group": "geral",
-     "kind": "wins"
+     "kind": "unbeaten"
     },
     {
-     "label": "Melhor ataque da liga (2.1 marcados/jogo)",
-     "strength": 0.44,
-     "favors": "HOME",
-     "team": "Atletico Nacional",
-     "side": "HOME",
+     "label": "3ª melhor defesa da liga (0.8 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "AWAY",
+     "team": "Club Guarani",
+     "side": "AWAY",
      "group": "temporada",
-     "kind": "atk_rank"
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 2 derrota(s) em 11 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "AWAY",
+     "team": "Club Guarani",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Club Guarani",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
     }
    ],
-   "confidence": 27,
+   "confidence": 57,
    "league": {
-    "key": "co_primera",
-    "name": "Liga BetPlay",
-    "country": "Colômbia"
+    "key": "py_primera",
+    "name": "Copa de Primera",
+    "country": "Paraguai"
    },
    "home_team": {
-    "id": 8640,
-    "name": "Atletico Nacional",
-    "position": 4,
-    "played": 8,
-    "points": 18.0,
-    "record": "6V 0E 2D",
-    "goals_for": 17,
-    "goals_against": 8,
-    "last5": "LWWWW",
+    "id": 8778,
+    "name": "Sportivo Luqueño",
+    "position": 9,
+    "played": 11,
+    "points": 13.0,
+    "record": "4V 1E 6D",
+    "goals_for": 12,
+    "goals_against": 20,
+    "last5": "WLLDW",
     "recent": [
      {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Recoleta FC",
+      "date": "2026-09-20"
+     },
+     {
       "result": "L",
-      "score": "0-2",
+      "score": "0-3",
       "home": false,
-      "opponent": "Llaneros FC",
-      "date": "2026-09-21"
+      "opponent": "Olimpia",
+      "date": "2026-09-13"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Sportivo Ameliano",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "2 de Mayo",
+      "date": "2026-09-01"
      },
      {
       "result": "W",
-      "score": "3-2",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Rubio Ñu",
+      "date": "2026-08-28"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 7739,
+    "name": "Club Guarani",
+    "position": 6,
+    "played": 11,
+    "points": 17.0,
+    "record": "4V 5E 2D",
+    "goals_for": 12,
+    "goals_against": 9,
+    "last5": "WDWDD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "1-0",
       "home": false,
-      "opponent": "Internacional de Bogota",
-      "date": "2026-09-17"
+      "opponent": "Sportivo Trinidense",
+      "date": "2026-09-18"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Cerro Porteño",
+      "date": "2026-09-12"
      },
      {
       "result": "W",
       "score": "2-0",
       "home": true,
-      "opponent": "Águilas Doradas",
-      "date": "2026-09-13"
+      "opponent": "Recoleta FC",
+      "date": "2026-09-07"
      },
      {
-      "result": "W",
-      "score": "3-0",
-      "home": true,
-      "opponent": "Deportivo Cali",
-      "date": "2026-09-08"
-     },
-     {
-      "result": "W",
-      "score": "5-1",
+      "result": "D",
+      "score": "1-1",
       "home": false,
-      "opponent": "Alianza FC",
+      "opponent": "Olimpia",
+      "date": "2026-09-02"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Sportivo Ameliano",
       "date": "2026-08-30"
      }
     ]
    },
-   "away_team": {
-    "id": 8637,
-    "name": "Millonarios",
-    "position": 2,
-    "played": 11,
-    "points": 19.0,
-    "record": "5V 4E 2D",
-    "goals_for": 15,
-    "goals_against": 8,
-    "last5": "WWDDL",
-    "recent": [
-     {
-      "result": "W",
-      "score": "3-0",
-      "home": true,
-      "opponent": "Boyaca Chico",
-      "date": "2026-09-19"
-     },
-     {
-      "result": "W",
-      "score": "2-1",
-      "home": false,
-      "opponent": "Cucuta Deportivo",
-      "date": "2026-09-14"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": true,
-      "opponent": "Deportivo Cali",
-      "date": "2026-09-11"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": false,
-      "opponent": "Deportivo Pereira",
-      "date": "2026-09-06"
-     },
-     {
-      "result": "L",
-      "score": "2-3",
-      "home": false,
-      "opponent": "Independiente Santa Fe",
-      "date": "2026-09-03"
-     }
-    ]
-   },
-   "kickoff_local": "2026-09-24T21:30:00-03:00",
+   "kickoff_local": "2026-09-25T16:30:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
