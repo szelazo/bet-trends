@@ -1,0 +1,930 @@
+{
+ "date": "2026-09-28",
+ "generated_at": "2026-09-26T08:15:36.530805-03:00",
+ "version": "0.1.0",
+ "count": 3,
+ "clear_count": 1,
+ "day_total": 5,
+ "games": [
+  {
+   "id": 4735674,
+   "s365_competition_id": 141,
+   "competition_name": "Liga MX - Apertura",
+   "start_time": "2026-09-28T03:10:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 1263,
+    "name": "Necaxa"
+   },
+   "away": {
+    "id": 1255,
+    "name": "Club América"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.13,
+    "lambda_away": 1.98,
+    "expected_goals": 3.11,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.2137,
+     "DRAW": 0.2163,
+     "AWAY": 0.57,
+     "1X": 0.43,
+     "X2": 0.7863,
+     "12": 0.7837,
+     "OVER25": 0.6019,
+     "UNDER25": 0.3981,
+     "BTTS_YES": 0.5846,
+     "BTTS_NO": 0.4154
+    }
+   },
+   "pick": {
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: Club América ou empate (X2)",
+    "model_prob": 0.7863,
+    "trend_alignment": 1.0,
+    "confidence": 65,
+    "eligible": true,
+    "odd": null,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Club América",
+     "model_prob": 0.57,
+     "trend_alignment": 1.0,
+     "confidence": 58,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6019,
+     "trend_alignment": 0.827,
+     "confidence": 42,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5846,
+     "trend_alignment": 0.827,
+     "confidence": 40,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Necaxa",
+     "model_prob": 0.2137,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Necaxa",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Ambos marcaram em 4 dos últimos 5",
+     "strength": 0.43,
+     "favors": "BTTS_YES",
+     "team": "Necaxa",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "btts"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "AWAY",
+     "team": "Club América",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "Club América",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "3ª melhor defesa da liga (1.0 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "AWAY",
+     "team": "Club América",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "2º melhor ataque da liga (2.1 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "AWAY",
+     "team": "Club América",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Pior defesa da liga (1.8 sofridos/jogo)",
+     "strength": 0.34,
+     "favors": "OVER",
+     "team": "Necaxa",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_bottom"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Necaxa",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Necaxa é 15º · Club América é 3º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Club América está 12 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Necaxa",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "AWAY",
+     "team": "Club América",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "3ª melhor defesa da liga (1.0 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "AWAY",
+     "team": "Club América",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "2º melhor ataque da liga (2.1 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "AWAY",
+     "team": "Club América",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Necaxa",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Club América está 12 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 65,
+   "league": {
+    "key": "mx_ligamx",
+    "name": "Liga MX",
+    "country": "México"
+   },
+   "home_team": {
+    "id": 1263,
+    "name": "Necaxa",
+    "position": 15,
+    "played": 9,
+    "points": 8.0,
+    "record": "2V 2E 5D",
+    "goals_for": 10,
+    "goals_against": 16,
+    "last5": "LLDLD",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": false,
+      "opponent": "Atlético San Luis",
+      "date": "2026-09-19"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Puebla",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Tigres UANL",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": true,
+      "opponent": "Cruz Azul",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Pumas UNAM",
+      "date": "2026-08-24"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 1255,
+    "name": "Club América",
+    "position": 3,
+    "played": 8,
+    "points": 17.0,
+    "record": "5V 2E 1D",
+    "goals_for": 17,
+    "goals_against": 8,
+    "last5": "DLWWW",
+    "recent": [
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "Chivas",
+      "date": "2026-09-20"
+     },
+     {
+      "result": "L",
+      "score": "3-4",
+      "home": false,
+      "opponent": "Cruz Azul",
+      "date": "2026-09-13"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Puebla",
+      "date": "2026-08-30"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "FC Juarez",
+      "date": "2026-08-22"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "Atlético San Luis",
+      "date": "2026-08-16"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-28T00:10:00-03:00",
+   "has_odds": false,
+   "odds_bookmaker": null,
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4751240,
+   "s365_competition_id": 12,
+   "competition_name": "LaLiga 2",
+   "start_time": "2026-09-28T18:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 9242,
+    "name": "CD Leganés"
+   },
+   "away": {
+    "id": 157,
+    "name": "Castellon"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 0.85,
+    "lambda_away": 1.27,
+    "expected_goals": 2.12,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.2484,
+     "DRAW": 0.2885,
+     "AWAY": 0.4631,
+     "1X": 0.5369,
+     "X2": 0.7516,
+     "12": 0.7115,
+     "OVER25": 0.3571,
+     "UNDER25": 0.6429,
+     "BTTS_YES": 0.4126,
+     "BTTS_NO": 0.5874
+    }
+   },
+   "pick": {
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: Castellon ou empate (X2)",
+    "model_prob": 0.7516,
+    "trend_alignment": 0.979,
+    "confidence": 60,
+    "eligible": true,
+    "odd": 1.44,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Castellon",
+     "model_prob": 0.4631,
+     "trend_alignment": 0.979,
+     "confidence": 46,
+     "eligible": true,
+     "odd": 2.33
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.6429,
+     "trend_alignment": 0.573,
+     "confidence": 39,
+     "eligible": true,
+     "odd": 1.88
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5874,
+     "trend_alignment": 0.573,
+     "confidence": 31,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do CD Leganés",
+     "model_prob": 0.2484,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 2.77
+    }
+   ],
+   "trends": [
+    {
+     "label": "4 vitórias seguidas",
+     "strength": 0.75,
+     "favors": "AWAY",
+     "team": "Castellon",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "AWAY",
+     "team": "Castellon",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Não sofreu gol em 3 dos últimos 5",
+     "strength": 0.39,
+     "favors": "UNDER",
+     "team": "Castellon",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "clean_sheets"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "CD Leganés",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Menos de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "UNDER",
+     "team": "CD Leganés",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "under"
+    },
+    {
+     "label": "CD Leganés é 8º · Castellon é 1º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Castellon está 7 posições à frente",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "4 vitórias seguidas",
+     "strength": 0.75,
+     "favors": "AWAY",
+     "team": "Castellon",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "AWAY",
+     "team": "Castellon",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Castellon está 7 posições à frente",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 60,
+   "league": {
+    "key": "laliga2",
+    "name": "LaLiga 2",
+    "country": "Espanha"
+   },
+   "home_team": {
+    "id": 9242,
+    "name": "CD Leganés",
+    "position": 8,
+    "played": 6,
+    "points": 11.0,
+    "record": "3V 2E 1D",
+    "goals_for": 6,
+    "goals_against": 5,
+    "last5": "WLDWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": true,
+      "opponent": "Granada",
+      "date": "2026-09-20"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Tenerife",
+      "date": "2026-09-13"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Las Palmas",
+      "date": "2026-09-04"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "CD Eldense",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Real Oviedo",
+      "date": "2026-08-22"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 157,
+    "name": "Castellon",
+    "position": 1,
+    "played": 6,
+    "points": 16.0,
+    "record": "5V 1E 0D",
+    "goals_for": 12,
+    "goals_against": 2,
+    "last5": "WWWWD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "5-0",
+      "home": true,
+      "opponent": "Tenerife",
+      "date": "2026-09-19"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Girona",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Albacete",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Celta Vigo B",
+      "date": "2026-08-31"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Sabadell",
+      "date": "2026-08-23"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-28T15:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "3 casas",
+   "is_cup": false,
+   "result": "pending",
+   "clear": false,
+   "below_bar": true
+  },
+  {
+   "id": 4861904,
+   "s365_competition_id": 617,
+   "competition_name": "Uruguayan Championship - Clausura",
+   "start_time": "2026-09-28T23:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 8614,
+    "name": "Montevideo Wanderers"
+   },
+   "away": {
+    "id": 51522,
+    "name": "Albion"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.82,
+    "lambda_away": 0.99,
+    "expected_goals": 2.81,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.5697,
+     "DRAW": 0.2282,
+     "AWAY": 0.2021,
+     "1X": 0.7979,
+     "X2": 0.4303,
+     "12": 0.7718,
+     "OVER25": 0.5334,
+     "UNDER25": 0.4666,
+     "BTTS_YES": 0.5265,
+     "BTTS_NO": 0.4735
+    }
+   },
+   "pick": {
+    "selection": "1X",
+    "family": "double_chance",
+    "label": "Dupla chance: Montevideo Wanderers ou empate (1X)",
+    "model_prob": 0.7979,
+    "trend_alignment": 0.734,
+    "confidence": 58,
+    "eligible": true,
+    "odd": null,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Montevideo Wanderers",
+     "model_prob": 0.5697,
+     "trend_alignment": 0.734,
+     "confidence": 48,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5334,
+     "trend_alignment": 0.267,
+     "confidence": 14,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5265,
+     "trend_alignment": 0.267,
+     "confidence": 13,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Albion",
+     "model_prob": 0.2021,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 5 dos últimos 5",
+     "strength": 0.7,
+     "favors": "HOME",
+     "team": "Albion",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Sofreu gol em todos os últimos 5",
+     "strength": 0.4,
+     "favors": "OVER",
+     "team": "Albion",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "always_concede"
+    },
+    {
+     "label": "Só venceu 1 dos últimos 5",
+     "strength": 0.48,
+     "favors": "AWAY",
+     "team": "Montevideo Wanderers",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Albion",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Montevideo Wanderers é 9º · Albion é 16º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Montevideo Wanderers está 7 posições à frente",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 5 dos últimos 5",
+     "strength": 0.7,
+     "favors": "HOME",
+     "team": "Albion",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Albion",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Montevideo Wanderers está 7 posições à frente",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 58,
+   "league": {
+    "key": "uy_primera",
+    "name": "Primera División",
+    "country": "Uruguai"
+   },
+   "home_team": {
+    "id": 8614,
+    "name": "Montevideo Wanderers",
+    "position": 9,
+    "played": 7,
+    "points": 9.0,
+    "record": "2V 3E 2D",
+    "goals_for": 8,
+    "goals_against": 10,
+    "last5": "DDLWL",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Danubio FC",
+      "date": "2026-09-20"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Nacional",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Deportivo Maldonado",
+      "date": "2026-09-05"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "Central Espanol",
+      "date": "2026-08-28"
+     },
+     {
+      "result": "L",
+      "score": "1-5",
+      "home": false,
+      "opponent": "Montevideo City Torque",
+      "date": "2026-08-23"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 51522,
+    "name": "Albion",
+    "position": 16,
+    "played": 7,
+    "points": 0,
+    "record": "0V 0E 7D",
+    "goals_for": 5,
+    "goals_against": 14,
+    "last5": "LLLLL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": true,
+      "opponent": "Juventud",
+      "date": "2026-09-20"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": false,
+      "opponent": "Peñarol",
+      "date": "2026-09-13"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Progreso",
+      "date": "2026-09-07"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Racing Club Montevideo",
+      "date": "2026-08-31"
+     },
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": true,
+      "opponent": "Boston River",
+      "date": "2026-08-21"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-28T20:00:00-03:00",
+   "has_odds": false,
+   "odds_bookmaker": null,
+   "is_cup": false,
+   "result": "pending",
+   "clear": false,
+   "below_bar": true
+  }
+ ]
+}

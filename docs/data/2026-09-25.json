@@ -21,8 +21,8 @@
     "id": 170,
     "name": "Albacete"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 0.0,
    "model": {
     "lambda_home": 2.28,
     "lambda_away": 0.9,
@@ -294,7 +294,7 @@
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -312,8 +312,8 @@
     "id": 56588,
     "name": "Sportivo Ameliano"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 1.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 1.73,
     "lambda_away": 0.7,
@@ -621,7 +621,7 @@
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": false,
    "below_bar": true
   },
@@ -640,8 +640,8 @@
     "id": 7739,
     "name": "Club Guarani"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 0.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 0.94,
     "lambda_away": 1.29,
@@ -922,7 +922,7 @@
    "has_odds": true,
    "odds_bookmaker": "3 casas",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": false,
    "below_bar": true
   }

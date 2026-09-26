@@ -1,6 +1,6 @@
 {
  "date": "2026-09-26",
- "generated_at": "2026-09-25T17:10:34.112298-03:00",
+ "generated_at": "2026-09-26T08:15:34.967779-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 1,
@@ -49,7 +49,7 @@
     "trend_alignment": 1.0,
     "confidence": 76,
     "eligible": true,
-    "odd": 1.44,
+    "odd": 1.43,
     "low_conviction": false
    },
    "alt_markets": [
@@ -61,7 +61,7 @@
      "trend_alignment": 1.0,
      "confidence": 76,
      "eligible": true,
-     "odd": 1.12
+     "odd": 1.13
     },
     {
      "selection": "OVER25",
@@ -71,7 +71,7 @@
      "trend_alignment": 0.287,
      "confidence": 19,
      "eligible": false,
-     "odd": 1.85
+     "odd": 1.86
     },
     {
      "selection": "BTTS_YES",
@@ -333,26 +333,26 @@
     }
    },
    "pick": {
-    "selection": "HOME",
-    "family": "1x2",
-    "label": "Vitória do Nashville SC",
-    "model_prob": 0.7321,
+    "selection": "1X",
+    "family": "double_chance",
+    "label": "Dupla chance: Nashville SC ou empate (1X)",
+    "model_prob": 0.8866,
     "trend_alignment": 1.0,
     "confidence": 79,
     "eligible": true,
-    "odd": 1.43,
+    "odd": null,
     "low_conviction": false
    },
    "alt_markets": [
     {
-     "selection": "1X",
-     "family": "double_chance",
-     "label": "Dupla chance: Nashville SC ou empate (1X)",
-     "model_prob": 0.8866,
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Nashville SC",
+     "model_prob": 0.7321,
      "trend_alignment": 1.0,
-     "confidence": 79,
+     "confidence": 74,
      "eligible": true,
-     "odd": 1.13
+     "odd": null
     },
     {
      "selection": "OVER25",
@@ -362,7 +362,7 @@
      "trend_alignment": 0.627,
      "confidence": 48,
      "eligible": true,
-     "odd": 2.21
+     "odd": null
     },
     {
      "selection": "BTTS_YES",
@@ -382,7 +382,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 6.25
+     "odd": null
     }
    ],
    "trends": [
@@ -609,8 +609,8 @@
     ]
    },
    "kickoff_local": "2026-09-26T21:30:00-03:00",
-   "has_odds": true,
-   "odds_bookmaker": "3 casas",
+   "has_odds": false,
+   "odds_bookmaker": null,
    "is_cup": false,
    "result": "pending",
    "clear": false,
@@ -652,26 +652,26 @@
     }
    },
    "pick": {
-    "selection": "HOME",
-    "family": "1x2",
-    "label": "Vitória do Vancouver Whitecaps",
-    "model_prob": 0.6911,
+    "selection": "1X",
+    "family": "double_chance",
+    "label": "Dupla chance: Vancouver Whitecaps ou empate (1X)",
+    "model_prob": 0.8821,
     "trend_alignment": 1.0,
     "confidence": 78,
     "eligible": true,
-    "odd": 1.25,
+    "odd": null,
     "low_conviction": false
    },
    "alt_markets": [
     {
-     "selection": "1X",
-     "family": "double_chance",
-     "label": "Dupla chance: Vancouver Whitecaps ou empate (1X)",
-     "model_prob": 0.8821,
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Vancouver Whitecaps",
+     "model_prob": 0.6911,
      "trend_alignment": 1.0,
-     "confidence": 78,
+     "confidence": 70,
      "eligible": true,
-     "odd": 1.07
+     "odd": null
     },
     {
      "selection": "OVER25",
@@ -681,7 +681,7 @@
      "trend_alignment": 0.133,
      "confidence": 9,
      "eligible": false,
-     "odd": 2.0
+     "odd": null
     },
     {
      "selection": "BTTS_NO",
@@ -910,8 +910,8 @@
     ]
    },
    "kickoff_local": "2026-09-26T23:30:00-03:00",
-   "has_odds": true,
-   "odds_bookmaker": "3 casas",
+   "has_odds": false,
+   "odds_bookmaker": null,
    "is_cup": false,
    "result": "pending",
    "clear": false,

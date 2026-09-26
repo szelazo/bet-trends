@@ -1,6 +1,6 @@
 {
  "date": "2026-09-27",
- "generated_at": "2026-09-25T17:10:34.880232-03:00",
+ "generated_at": "2026-09-26T08:15:35.682917-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 2,
@@ -24,50 +24,50 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 2.16,
-    "lambda_away": 0.73,
-    "expected_goals": 2.89,
+    "lambda_home": 2.14,
+    "lambda_away": 0.74,
+    "expected_goals": 2.88,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.7026,
-     "DRAW": 0.1847,
-     "AWAY": 0.1127,
-     "1X": 0.8873,
-     "X2": 0.2974,
-     "12": 0.8153,
-     "OVER25": 0.5505,
-     "UNDER25": 0.4495,
-     "BTTS_YES": 0.4574,
-     "BTTS_NO": 0.5426
+     "HOME": 0.6978,
+     "DRAW": 0.1868,
+     "AWAY": 0.1154,
+     "1X": 0.8846,
+     "X2": 0.3022,
+     "12": 0.8132,
+     "OVER25": 0.5482,
+     "UNDER25": 0.4518,
+     "BTTS_YES": 0.4593,
+     "BTTS_NO": 0.5407
     }
    },
    "pick": {
-    "selection": "HOME",
-    "family": "1x2",
-    "label": "Vitória do Leon",
-    "model_prob": 0.7026,
+    "selection": "1X",
+    "family": "double_chance",
+    "label": "Dupla chance: Leon ou empate (1X)",
+    "model_prob": 0.8846,
     "trend_alignment": 1.0,
-    "confidence": 79,
+    "confidence": 78,
     "eligible": true,
-    "odd": 1.58,
+    "odd": null,
     "low_conviction": false
    },
    "alt_markets": [
     {
-     "selection": "1X",
-     "family": "double_chance",
-     "label": "Dupla chance: Leon ou empate (1X)",
-     "model_prob": 0.8873,
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Leon",
+     "model_prob": 0.6978,
      "trend_alignment": 1.0,
-     "confidence": 79,
+     "confidence": 70,
      "eligible": true,
-     "odd": 1.16
+     "odd": null
     },
     {
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.5426,
+     "model_prob": 0.5407,
      "trend_alignment": 0.109,
      "confidence": 9,
      "eligible": false,
@@ -77,21 +77,21 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.5505,
+     "model_prob": 0.5482,
      "trend_alignment": 0.0,
-     "confidence": 7,
+     "confidence": 6,
      "eligible": false,
-     "odd": 1.68
+     "odd": null
     },
     {
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.4495,
+     "model_prob": 0.4518,
      "trend_alignment": 0.109,
      "confidence": 4,
      "eligible": false,
-     "odd": 2.2
+     "odd": null
     }
    ],
    "trends": [
@@ -132,7 +132,7 @@
      "kind": "def_bottom"
     },
     {
-     "label": "Leon é 6º · FC Juarez é 18º",
+     "label": "Leon é 7º · FC Juarez é 18º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -141,8 +141,8 @@
      "kind": "positions"
     },
     {
-     "label": "Leon está 12 posições à frente",
-     "strength": 0.8,
+     "label": "Leon está 11 posições à frente",
+     "strength": 0.786,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -170,8 +170,8 @@
      "kind": "unbeaten"
     },
     {
-     "label": "Leon está 12 posições à frente",
-     "strength": 0.8,
+     "label": "Leon está 11 posições à frente",
+     "strength": 0.786,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -179,7 +179,7 @@
      "kind": "table_gap"
     }
    ],
-   "confidence": 79,
+   "confidence": 78,
    "league": {
     "key": "mx_ligamx",
     "name": "Liga MX",
@@ -188,7 +188,7 @@
    "home_team": {
     "id": 9339,
     "name": "Leon",
-    "position": 6,
+    "position": 7,
     "played": 9,
     "points": 14.0,
     "record": "4V 2E 3D",
@@ -282,8 +282,8 @@
     ]
    },
    "kickoff_local": "2026-09-27T22:00:00-03:00",
-   "has_odds": true,
-   "odds_bookmaker": "3 casas",
+   "has_odds": false,
+   "odds_bookmaker": null,
    "is_cup": false,
    "result": "pending",
    "clear": true
@@ -324,26 +324,26 @@
     }
    },
    "pick": {
-    "selection": "AWAY",
-    "family": "1x2",
-    "label": "Vitória do Liverpool Montevideo",
-    "model_prob": 0.5735,
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: Liverpool Montevideo ou empate (X2)",
+    "model_prob": 0.829,
     "trend_alignment": 1.0,
     "confidence": 71,
     "eligible": true,
-    "odd": 1.87,
+    "odd": null,
     "low_conviction": false
    },
    "alt_markets": [
     {
-     "selection": "X2",
-     "family": "double_chance",
-     "label": "Dupla chance: Liverpool Montevideo ou empate (X2)",
-     "model_prob": 0.829,
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Liverpool Montevideo",
+     "model_prob": 0.5735,
      "trend_alignment": 1.0,
-     "confidence": 71,
+     "confidence": 58,
      "eligible": true,
-     "odd": 1.24
+     "odd": null
     },
     {
      "selection": "UNDER25",
@@ -353,7 +353,7 @@
      "trend_alignment": 0.26,
      "confidence": 23,
      "eligible": true,
-     "odd": 1.67
+     "odd": null
     },
     {
      "selection": "BTTS_NO",
@@ -373,7 +373,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 4.05
+     "odd": null
     }
    ],
    "trends": [
@@ -591,8 +591,8 @@
     ]
    },
    "kickoff_local": "2026-09-27T11:00:00-03:00",
-   "has_odds": true,
-   "odds_bookmaker": "3 casas",
+   "has_odds": false,
+   "odds_bookmaker": null,
    "is_cup": false,
    "result": "pending",
    "clear": true
@@ -640,7 +640,7 @@
     "trend_alignment": 1.0,
     "confidence": 74,
     "eligible": true,
-    "odd": 1.25,
+    "odd": null,
     "low_conviction": false
    },
    "alt_markets": [
@@ -652,7 +652,7 @@
      "trend_alignment": 1.0,
      "confidence": 64,
      "eligible": true,
-     "odd": 1.92
+     "odd": null
     },
     {
      "selection": "BTTS_NO",
@@ -672,7 +672,7 @@
      "trend_alignment": 0.573,
      "confidence": 20,
      "eligible": false,
-     "odd": 1.86
+     "odd": null
     },
     {
      "selection": "AWAY",
@@ -682,7 +682,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 4.0
+     "odd": null
     }
    ],
    "trends": [
@@ -873,8 +873,8 @@
     ]
    },
    "kickoff_local": "2026-09-27T13:30:00-03:00",
-   "has_odds": true,
-   "odds_bookmaker": "3 casas",
+   "has_odds": false,
+   "odds_bookmaker": null,
    "is_cup": false,
    "result": "pending",
    "clear": false,
