@@ -1,6 +1,6 @@
 {
  "date": "2026-09-26",
- "generated_at": "2026-09-26T08:15:34.967779-03:00",
+ "generated_at": "2026-09-26T17:11:05.516001-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 1,
@@ -24,28 +24,28 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 2.16,
+    "lambda_home": 2.15,
     "lambda_away": 0.82,
     "expected_goals": 2.98,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.6795,
-     "DRAW": 0.19,
-     "AWAY": 0.1305,
-     "1X": 0.8695,
-     "X2": 0.3205,
-     "12": 0.81,
-     "OVER25": 0.5719,
-     "UNDER25": 0.4281,
-     "BTTS_YES": 0.4958,
-     "BTTS_NO": 0.5042
+     "HOME": 0.6793,
+     "DRAW": 0.1901,
+     "AWAY": 0.1306,
+     "1X": 0.8694,
+     "X2": 0.3207,
+     "12": 0.8099,
+     "OVER25": 0.5713,
+     "UNDER25": 0.4287,
+     "BTTS_YES": 0.4955,
+     "BTTS_NO": 0.5045
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Peñarol",
-    "model_prob": 0.6795,
+    "model_prob": 0.6793,
     "trend_alignment": 1.0,
     "confidence": 76,
     "eligible": true,
@@ -57,7 +57,7 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Peñarol ou empate (1X)",
-     "model_prob": 0.8695,
+     "model_prob": 0.8694,
      "trend_alignment": 1.0,
      "confidence": 76,
      "eligible": true,
@@ -67,17 +67,17 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.5719,
+     "model_prob": 0.5713,
      "trend_alignment": 0.287,
      "confidence": 19,
      "eligible": false,
-     "odd": 1.86
+     "odd": 1.91
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.4958,
+     "model_prob": 0.4955,
      "trend_alignment": 0.287,
      "confidence": 10,
      "eligible": false,
@@ -87,7 +87,7 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.5042,
+     "model_prob": 0.5045,
      "trend_alignment": 0.0,
      "confidence": 1,
      "eligible": false,
@@ -132,7 +132,7 @@
      "kind": "unbeaten"
     },
     {
-     "label": "Peñarol é 4º · Boston River é 11º",
+     "label": "Peñarol é 5º · Boston River é 11º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -141,8 +141,8 @@
      "kind": "positions"
     },
     {
-     "label": "Peñarol está 7 posições à frente",
-     "strength": 0.5,
+     "label": "Peñarol está 6 posições à frente",
+     "strength": 0.429,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -179,8 +179,8 @@
      "kind": "unbeaten"
     },
     {
-     "label": "Peñarol está 7 posições à frente",
-     "strength": 0.5,
+     "label": "Peñarol está 6 posições à frente",
+     "strength": 0.429,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -197,7 +197,7 @@
    "home_team": {
     "id": 7766,
     "name": "Peñarol",
-    "position": 4,
+    "position": 5,
     "played": 6,
     "points": 12.0,
     "record": "4V 1E 1D",
@@ -292,7 +292,7 @@
    },
    "kickoff_local": "2026-09-26T18:30:00-03:00",
    "has_odds": true,
-   "odds_bookmaker": "3 casas",
+   "odds_bookmaker": "365Scores",
    "is_cup": false,
    "result": "pending",
    "clear": true
@@ -333,26 +333,26 @@
     }
    },
    "pick": {
-    "selection": "1X",
-    "family": "double_chance",
-    "label": "Dupla chance: Nashville SC ou empate (1X)",
-    "model_prob": 0.8866,
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Nashville SC",
+    "model_prob": 0.7321,
     "trend_alignment": 1.0,
     "confidence": 79,
     "eligible": true,
-    "odd": null,
+    "odd": 1.37,
     "low_conviction": false
    },
    "alt_markets": [
     {
-     "selection": "HOME",
-     "family": "1x2",
-     "label": "Vitória do Nashville SC",
-     "model_prob": 0.7321,
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Nashville SC ou empate (1X)",
+     "model_prob": 0.8866,
      "trend_alignment": 1.0,
-     "confidence": 74,
+     "confidence": 79,
      "eligible": true,
-     "odd": null
+     "odd": 1.1
     },
     {
      "selection": "OVER25",
@@ -362,7 +362,7 @@
      "trend_alignment": 0.627,
      "confidence": 48,
      "eligible": true,
-     "odd": null
+     "odd": 2.11
     },
     {
      "selection": "BTTS_YES",
@@ -382,7 +382,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": null
+     "odd": 7.5
     }
    ],
    "trends": [
@@ -609,8 +609,8 @@
     ]
    },
    "kickoff_local": "2026-09-26T21:30:00-03:00",
-   "has_odds": false,
-   "odds_bookmaker": null,
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
    "is_cup": false,
    "result": "pending",
    "clear": false,
@@ -652,26 +652,26 @@
     }
    },
    "pick": {
-    "selection": "1X",
-    "family": "double_chance",
-    "label": "Dupla chance: Vancouver Whitecaps ou empate (1X)",
-    "model_prob": 0.8821,
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Vancouver Whitecaps",
+    "model_prob": 0.6911,
     "trend_alignment": 1.0,
     "confidence": 78,
     "eligible": true,
-    "odd": null,
+    "odd": 1.21,
     "low_conviction": false
    },
    "alt_markets": [
     {
-     "selection": "HOME",
-     "family": "1x2",
-     "label": "Vitória do Vancouver Whitecaps",
-     "model_prob": 0.6911,
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Vancouver Whitecaps ou empate (1X)",
+     "model_prob": 0.8821,
      "trend_alignment": 1.0,
-     "confidence": 70,
+     "confidence": 78,
      "eligible": true,
-     "odd": null
+     "odd": 1.07
     },
     {
      "selection": "OVER25",
@@ -681,7 +681,7 @@
      "trend_alignment": 0.133,
      "confidence": 9,
      "eligible": false,
-     "odd": null
+     "odd": 1.84
     },
     {
      "selection": "BTTS_NO",
@@ -910,8 +910,8 @@
     ]
    },
    "kickoff_local": "2026-09-26T23:30:00-03:00",
-   "has_odds": false,
-   "odds_bookmaker": null,
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
    "is_cup": false,
    "result": "pending",
    "clear": false,

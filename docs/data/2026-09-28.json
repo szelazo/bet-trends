@@ -1,6 +1,6 @@
 {
  "date": "2026-09-28",
- "generated_at": "2026-09-26T08:15:36.530805-03:00",
+ "generated_at": "2026-09-26T17:11:07.654736-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 1,
@@ -42,26 +42,26 @@
     }
    },
    "pick": {
-    "selection": "X2",
-    "family": "double_chance",
-    "label": "Dupla chance: Club América ou empate (X2)",
-    "model_prob": 0.7863,
+    "selection": "AWAY",
+    "family": "1x2",
+    "label": "Vitória do Club América",
+    "model_prob": 0.57,
     "trend_alignment": 1.0,
     "confidence": 65,
     "eligible": true,
-    "odd": null,
+    "odd": 1.85,
     "low_conviction": false
    },
    "alt_markets": [
     {
-     "selection": "AWAY",
-     "family": "1x2",
-     "label": "Vitória do Club América",
-     "model_prob": 0.57,
+     "selection": "X2",
+     "family": "double_chance",
+     "label": "Dupla chance: Club América ou empate (X2)",
+     "model_prob": 0.7863,
      "trend_alignment": 1.0,
-     "confidence": 58,
+     "confidence": 65,
      "eligible": true,
-     "odd": null
+     "odd": 1.24
     },
     {
      "selection": "OVER25",
@@ -71,7 +71,7 @@
      "trend_alignment": 0.827,
      "confidence": 42,
      "eligible": true,
-     "odd": null
+     "odd": 1.69
     },
     {
      "selection": "BTTS_YES",
@@ -91,7 +91,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": null
+     "odd": 4.07
     }
    ],
    "trends": [
@@ -345,8 +345,8 @@
     ]
    },
    "kickoff_local": "2026-09-28T00:10:00-03:00",
-   "has_odds": false,
-   "odds_bookmaker": null,
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
    "is_cup": false,
    "result": "pending",
    "clear": true
@@ -369,32 +369,32 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 0.85,
+    "lambda_home": 0.86,
     "lambda_away": 1.27,
     "expected_goals": 2.12,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.2484,
-     "DRAW": 0.2885,
-     "AWAY": 0.4631,
-     "1X": 0.5369,
-     "X2": 0.7516,
-     "12": 0.7115,
-     "OVER25": 0.3571,
-     "UNDER25": 0.6429,
-     "BTTS_YES": 0.4126,
-     "BTTS_NO": 0.5874
+     "HOME": 0.2513,
+     "DRAW": 0.2894,
+     "AWAY": 0.4593,
+     "1X": 0.5407,
+     "X2": 0.7487,
+     "12": 0.7106,
+     "OVER25": 0.356,
+     "UNDER25": 0.644,
+     "BTTS_YES": 0.4127,
+     "BTTS_NO": 0.5873
     }
    },
    "pick": {
     "selection": "X2",
     "family": "double_chance",
     "label": "Dupla chance: Castellon ou empate (X2)",
-    "model_prob": 0.7516,
+    "model_prob": 0.7487,
     "trend_alignment": 0.979,
-    "confidence": 60,
+    "confidence": 59,
     "eligible": true,
-    "odd": 1.44,
+    "odd": 1.39,
     "low_conviction": false
    },
    "alt_markets": [
@@ -402,17 +402,17 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Castellon",
-     "model_prob": 0.4631,
+     "model_prob": 0.4593,
      "trend_alignment": 0.979,
      "confidence": 46,
-     "eligible": true,
-     "odd": 2.33
+     "eligible": false,
+     "odd": 2.24
     },
     {
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.6429,
+     "model_prob": 0.644,
      "trend_alignment": 0.573,
      "confidence": 39,
      "eligible": true,
@@ -422,7 +422,7 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.5874,
+     "model_prob": 0.5873,
      "trend_alignment": 0.573,
      "confidence": 31,
      "eligible": false,
@@ -432,11 +432,11 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do CD Leganés",
-     "model_prob": 0.2484,
+     "model_prob": 0.2513,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 2.77
+     "odd": 2.99
     }
    ],
    "trends": [
@@ -533,7 +533,7 @@
      "kind": "table_gap"
     }
    ],
-   "confidence": 60,
+   "confidence": 59,
    "league": {
     "key": "laliga2",
     "name": "LaLiga 2",
@@ -637,7 +637,7 @@
    },
    "kickoff_local": "2026-09-28T15:30:00-03:00",
    "has_odds": true,
-   "odds_bookmaker": "3 casas",
+   "odds_bookmaker": "365Scores",
    "is_cup": false,
    "result": "pending",
    "clear": false,
@@ -666,27 +666,27 @@
     "expected_goals": 2.81,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.5697,
-     "DRAW": 0.2282,
-     "AWAY": 0.2021,
-     "1X": 0.7979,
-     "X2": 0.4303,
-     "12": 0.7718,
-     "OVER25": 0.5334,
-     "UNDER25": 0.4666,
-     "BTTS_YES": 0.5265,
-     "BTTS_NO": 0.4735
+     "HOME": 0.5695,
+     "DRAW": 0.2283,
+     "AWAY": 0.2022,
+     "1X": 0.7978,
+     "X2": 0.4305,
+     "12": 0.7717,
+     "OVER25": 0.5329,
+     "UNDER25": 0.4671,
+     "BTTS_YES": 0.5261,
+     "BTTS_NO": 0.4739
     }
    },
    "pick": {
     "selection": "1X",
     "family": "double_chance",
     "label": "Dupla chance: Montevideo Wanderers ou empate (1X)",
-    "model_prob": 0.7979,
-    "trend_alignment": 0.734,
-    "confidence": 58,
+    "model_prob": 0.7978,
+    "trend_alignment": 0.687,
+    "confidence": 56,
     "eligible": true,
-    "odd": null,
+    "odd": 1.43,
     "low_conviction": false
    },
    "alt_markets": [
@@ -694,27 +694,27 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Montevideo Wanderers",
-     "model_prob": 0.5697,
-     "trend_alignment": 0.734,
-     "confidence": 48,
+     "model_prob": 0.5695,
+     "trend_alignment": 0.687,
+     "confidence": 47,
      "eligible": true,
-     "odd": null
+     "odd": 2.39
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.5334,
+     "model_prob": 0.5329,
      "trend_alignment": 0.267,
      "confidence": 14,
      "eligible": false,
-     "odd": null
+     "odd": 2.02
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5265,
+     "model_prob": 0.5261,
      "trend_alignment": 0.267,
      "confidence": 13,
      "eligible": false,
@@ -724,11 +724,11 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Albion",
-     "model_prob": 0.2021,
+     "model_prob": 0.2022,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": null
+     "odd": 2.72
     }
    ],
    "trends": [
@@ -769,7 +769,7 @@
      "kind": "winless_streak"
     },
     {
-     "label": "Montevideo Wanderers é 9º · Albion é 16º",
+     "label": "Montevideo Wanderers é 10º · Albion é 16º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -778,8 +778,8 @@
      "kind": "positions"
     },
     {
-     "label": "Montevideo Wanderers está 7 posições à frente",
-     "strength": 0.5,
+     "label": "Montevideo Wanderers está 6 posições à frente",
+     "strength": 0.429,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -807,8 +807,8 @@
      "kind": "winless_streak"
     },
     {
-     "label": "Montevideo Wanderers está 7 posições à frente",
-     "strength": 0.5,
+     "label": "Montevideo Wanderers está 6 posições à frente",
+     "strength": 0.429,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -816,7 +816,7 @@
      "kind": "table_gap"
     }
    ],
-   "confidence": 58,
+   "confidence": 56,
    "league": {
     "key": "uy_primera",
     "name": "Primera División",
@@ -825,7 +825,7 @@
    "home_team": {
     "id": 8614,
     "name": "Montevideo Wanderers",
-    "position": 9,
+    "position": 10,
     "played": 7,
     "points": 9.0,
     "record": "2V 3E 2D",
@@ -919,8 +919,8 @@
     ]
    },
    "kickoff_local": "2026-09-28T20:00:00-03:00",
-   "has_odds": false,
-   "odds_bookmaker": null,
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
    "is_cup": false,
    "result": "pending",
    "clear": false,
