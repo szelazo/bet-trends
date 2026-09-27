@@ -1,6 +1,6 @@
 {
  "date": "2026-09-27",
- "generated_at": "2026-09-27T08:17:35.968230-03:00",
+ "generated_at": "2026-09-27T17:11:23.117917-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 3,
@@ -25,31 +25,31 @@
    "away_score": -1.0,
    "model": {
     "lambda_home": 2.14,
-    "lambda_away": 0.73,
-    "expected_goals": 2.88,
+    "lambda_away": 0.74,
+    "expected_goals": 2.87,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.6991,
-     "DRAW": 0.1862,
-     "AWAY": 0.1146,
-     "1X": 0.8854,
-     "X2": 0.3009,
-     "12": 0.8138,
-     "OVER25": 0.5488,
-     "UNDER25": 0.4512,
-     "BTTS_YES": 0.4588,
-     "BTTS_NO": 0.5412
+     "HOME": 0.6974,
+     "DRAW": 0.187,
+     "AWAY": 0.1156,
+     "1X": 0.8844,
+     "X2": 0.3026,
+     "12": 0.813,
+     "OVER25": 0.5479,
+     "UNDER25": 0.4521,
+     "BTTS_YES": 0.4595,
+     "BTTS_NO": 0.5405
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Leon",
-    "model_prob": 0.6991,
+    "model_prob": 0.6974,
     "trend_alignment": 1.0,
     "confidence": 78,
     "eligible": true,
-    "odd": 1.5,
+    "odd": 1.52,
     "low_conviction": false
    },
    "alt_markets": [
@@ -57,7 +57,7 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Leon ou empate (1X)",
-     "model_prob": 0.8854,
+     "model_prob": 0.8844,
      "trend_alignment": 1.0,
      "confidence": 78,
      "eligible": true,
@@ -67,7 +67,7 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.5412,
+     "model_prob": 0.5405,
      "trend_alignment": 0.109,
      "confidence": 9,
      "eligible": false,
@@ -77,21 +77,21 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.5488,
+     "model_prob": 0.5479,
      "trend_alignment": 0.0,
      "confidence": 6,
      "eligible": false,
-     "odd": 1.61
+     "odd": 1.66
     },
     {
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.4512,
+     "model_prob": 0.4521,
      "trend_alignment": 0.109,
      "confidence": 4,
      "eligible": false,
-     "odd": 2.31
+     "odd": 2.21
     }
    ],
    "trends": [
@@ -331,7 +331,7 @@
     "trend_alignment": 1.0,
     "confidence": 74,
     "eligible": true,
-    "odd": 1.79,
+    "odd": 1.66,
     "low_conviction": false
    },
    "alt_markets": [
@@ -343,7 +343,7 @@
      "trend_alignment": 1.0,
      "confidence": 74,
      "eligible": true,
-     "odd": 1.2
+     "odd": 1.17
     },
     {
      "selection": "OVER25",
@@ -353,7 +353,7 @@
      "trend_alignment": 0.467,
      "confidence": 17,
      "eligible": false,
-     "odd": 2.21
+     "odd": 2.11
     },
     {
      "selection": "BTTS_YES",
@@ -657,8 +657,8 @@
     "id": 8358,
     "name": "Liverpool Montevideo"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 1.0,
+   "away_score": 2.0,
    "model": {
     "lambda_home": 0.71,
     "lambda_away": 1.54,
@@ -948,7 +948,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   }
  ]
