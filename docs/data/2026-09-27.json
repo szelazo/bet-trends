@@ -1,9 +1,9 @@
 {
  "date": "2026-09-27",
- "generated_at": "2026-09-26T17:11:06.512019-03:00",
+ "generated_at": "2026-09-27T08:17:35.968230-03:00",
  "version": "0.1.0",
  "count": 3,
- "clear_count": 2,
+ "clear_count": 3,
  "day_total": 17,
  "games": [
   {
@@ -25,27 +25,27 @@
    "away_score": -1.0,
    "model": {
     "lambda_home": 2.14,
-    "lambda_away": 0.74,
+    "lambda_away": 0.73,
     "expected_goals": 2.88,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.6978,
-     "DRAW": 0.1868,
-     "AWAY": 0.1154,
-     "1X": 0.8846,
-     "X2": 0.3022,
-     "12": 0.8132,
-     "OVER25": 0.5482,
-     "UNDER25": 0.4518,
-     "BTTS_YES": 0.4593,
-     "BTTS_NO": 0.5407
+     "HOME": 0.6991,
+     "DRAW": 0.1862,
+     "AWAY": 0.1146,
+     "1X": 0.8854,
+     "X2": 0.3009,
+     "12": 0.8138,
+     "OVER25": 0.5488,
+     "UNDER25": 0.4512,
+     "BTTS_YES": 0.4588,
+     "BTTS_NO": 0.5412
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Leon",
-    "model_prob": 0.6978,
+    "model_prob": 0.6991,
     "trend_alignment": 1.0,
     "confidence": 78,
     "eligible": true,
@@ -57,7 +57,7 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Leon ou empate (1X)",
-     "model_prob": 0.8846,
+     "model_prob": 0.8854,
      "trend_alignment": 1.0,
      "confidence": 78,
      "eligible": true,
@@ -67,7 +67,7 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.5407,
+     "model_prob": 0.5412,
      "trend_alignment": 0.109,
      "confidence": 9,
      "eligible": false,
@@ -77,21 +77,21 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.5482,
+     "model_prob": 0.5488,
      "trend_alignment": 0.0,
      "confidence": 6,
      "eligible": false,
-     "odd": 1.62
+     "odd": 1.61
     },
     {
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.4518,
+     "model_prob": 0.4512,
      "trend_alignment": 0.109,
      "confidence": 4,
      "eligible": false,
-     "odd": 2.26
+     "odd": 2.31
     }
    ],
    "trends": [
@@ -289,6 +289,360 @@
    "clear": true
   },
   {
+   "id": 4732070,
+   "s365_competition_id": 620,
+   "competition_name": "Liga BetPlay - Clausura",
+   "start_time": "2026-09-28T01:10:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 8639,
+    "name": "Deportivo Cali"
+   },
+   "away": {
+    "id": 20841,
+    "name": "Águilas Doradas"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.91,
+    "lambda_away": 0.79,
+    "expected_goals": 2.7,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.6378,
+     "DRAW": 0.2139,
+     "AWAY": 0.1483,
+     "1X": 0.8517,
+     "X2": 0.3622,
+     "12": 0.7861,
+     "OVER25": 0.5073,
+     "UNDER25": 0.4927,
+     "BTTS_YES": 0.4664,
+     "BTTS_NO": 0.5336
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Deportivo Cali",
+    "model_prob": 0.6378,
+    "trend_alignment": 1.0,
+    "confidence": 74,
+    "eligible": true,
+    "odd": 1.79,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Deportivo Cali ou empate (1X)",
+     "model_prob": 0.8517,
+     "trend_alignment": 1.0,
+     "confidence": 74,
+     "eligible": true,
+     "odd": 1.2
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5073,
+     "trend_alignment": 0.467,
+     "confidence": 17,
+     "eligible": false,
+     "odd": 2.21
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.4664,
+     "trend_alignment": 0.467,
+     "confidence": 16,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5336,
+     "trend_alignment": 0.0,
+     "confidence": 4,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Invicto em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Deportivo Cali",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Marcou em todos os últimos 5",
+     "strength": 0.3,
+     "favors": "OVER",
+     "team": "Deportivo Cali",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "always_score"
+    },
+    {
+     "label": "Não venceu nenhum dos últimos 5",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Águilas Doradas",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "Sofreu gol em todos os últimos 5",
+     "strength": 0.4,
+     "favors": "OVER",
+     "team": "Águilas Doradas",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "always_concede"
+    },
+    {
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Deportivo Cali",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "3ª melhor defesa da liga (0.8 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "HOME",
+     "team": "Deportivo Cali",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 2 derrota(s) em 10 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "HOME",
+     "team": "Deportivo Cali",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Águilas Doradas",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Deportivo Cali é 6º · Águilas Doradas é 13º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Deportivo Cali está 7 posições à frente",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Invicto em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Deportivo Cali",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Não venceu nenhum dos últimos 5",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Águilas Doradas",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Deportivo Cali",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "3ª melhor defesa da liga (0.8 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "HOME",
+     "team": "Deportivo Cali",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 2 derrota(s) em 10 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "HOME",
+     "team": "Deportivo Cali",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Águilas Doradas",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Deportivo Cali está 7 posições à frente",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 74,
+   "league": {
+    "key": "co_primera",
+    "name": "Liga BetPlay",
+    "country": "Colômbia"
+   },
+   "home_team": {
+    "id": 8639,
+    "name": "Deportivo Cali",
+    "position": 6,
+    "played": 10,
+    "points": 18.0,
+    "record": "5V 3E 2D",
+    "goals_for": 15,
+    "goals_against": 8,
+    "last5": "WWWDD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Independiente Santa Fe",
+      "date": "2026-09-23"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "Cucuta Deportivo",
+      "date": "2026-09-19"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Once Caldas",
+      "date": "2026-09-13"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Millonarios",
+      "date": "2026-09-11"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Atlético Bucaramanga",
+      "date": "2026-08-31"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 20841,
+    "name": "Águilas Doradas",
+    "position": 13,
+    "played": 9,
+    "points": 11.0,
+    "record": "2V 5E 2D",
+    "goals_for": 12,
+    "goals_against": 13,
+    "last5": "LDLDD",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "America de Cali",
+      "date": "2026-09-24"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "Deportivo Pereira",
+      "date": "2026-09-18"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Atletico Nacional",
+      "date": "2026-09-13"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "Internacional de Bogota",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "Boyaca Chico",
+      "date": "2026-08-30"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-27T22:10:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
    "id": 4861902,
    "s365_competition_id": 617,
    "competition_name": "Uruguayan Championship - Clausura",
@@ -311,14 +665,14 @@
     "expected_goals": 2.26,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.1713,
-     "DRAW": 0.2557,
-     "AWAY": 0.573,
-     "1X": 0.427,
-     "X2": 0.8287,
-     "12": 0.7443,
-     "OVER25": 0.3923,
-     "UNDER25": 0.6077,
+     "HOME": 0.1716,
+     "DRAW": 0.2559,
+     "AWAY": 0.5725,
+     "1X": 0.4275,
+     "X2": 0.8284,
+     "12": 0.7441,
+     "OVER25": 0.3921,
+     "UNDER25": 0.6079,
      "BTTS_YES": 0.4006,
      "BTTS_NO": 0.5994
     }
@@ -327,7 +681,7 @@
     "selection": "AWAY",
     "family": "1x2",
     "label": "Vitória do Liverpool Montevideo",
-    "model_prob": 0.573,
+    "model_prob": 0.5725,
     "trend_alignment": 1.0,
     "confidence": 71,
     "eligible": true,
@@ -339,7 +693,7 @@
      "selection": "X2",
      "family": "double_chance",
      "label": "Dupla chance: Liverpool Montevideo ou empate (X2)",
-     "model_prob": 0.8287,
+     "model_prob": 0.8284,
      "trend_alignment": 1.0,
      "confidence": 71,
      "eligible": true,
@@ -349,7 +703,7 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.6077,
+     "model_prob": 0.6079,
      "trend_alignment": 0.26,
      "confidence": 23,
      "eligible": true,
@@ -369,7 +723,7 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Central Espanol",
-     "model_prob": 0.1713,
+     "model_prob": 0.1716,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
@@ -423,7 +777,7 @@
      "kind": "winless_streak"
     },
     {
-     "label": "Central Espanol é 14º · Liverpool Montevideo é 2º",
+     "label": "Central Espanol é 14º · Liverpool Montevideo é 3º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -432,8 +786,8 @@
      "kind": "positions"
     },
     {
-     "label": "Liverpool Montevideo está 12 posições à frente",
-     "strength": 0.8,
+     "label": "Liverpool Montevideo está 11 posições à frente",
+     "strength": 0.786,
      "favors": "AWAY",
      "team": null,
      "side": null,
@@ -479,8 +833,8 @@
      "kind": "winless_streak"
     },
     {
-     "label": "Liverpool Montevideo está 12 posições à frente",
-     "strength": 0.8,
+     "label": "Liverpool Montevideo está 11 posições à frente",
+     "strength": 0.786,
      "favors": "AWAY",
      "team": null,
      "side": null,
@@ -545,7 +899,7 @@
    "away_team": {
     "id": 8358,
     "name": "Liverpool Montevideo",
-    "position": 2,
+    "position": 3,
     "played": 7,
     "points": 14.0,
     "record": "4V 2E 1D",
@@ -596,289 +950,6 @@
    "is_cup": false,
    "result": "pending",
    "clear": true
-  },
-  {
-   "id": 4751237,
-   "s365_competition_id": 12,
-   "competition_name": "LaLiga 2",
-   "start_time": "2026-09-27T16:30:00+00:00",
-   "status_group": 2,
-   "round": "Round",
-   "home": {
-    "id": 164,
-    "name": "Eibar"
-   },
-   "away": {
-    "id": 167,
-    "name": "Las Palmas"
-   },
-   "home_score": -1.0,
-   "away_score": -1.0,
-   "model": {
-    "lambda_home": 1.87,
-    "lambda_away": 0.79,
-    "expected_goals": 2.66,
-    "sample_factor": 1.0,
-    "probs": {
-     "HOME": 0.6311,
-     "DRAW": 0.2179,
-     "AWAY": 0.151,
-     "1X": 0.849,
-     "X2": 0.3689,
-     "12": 0.7821,
-     "OVER25": 0.4962,
-     "UNDER25": 0.5038,
-     "BTTS_YES": 0.4606,
-     "BTTS_NO": 0.5394
-    }
-   },
-   "pick": {
-    "selection": "1X",
-    "family": "double_chance",
-    "label": "Dupla chance: Eibar ou empate (1X)",
-    "model_prob": 0.849,
-    "trend_alignment": 1.0,
-    "confidence": 73,
-    "eligible": true,
-    "odd": 1.25,
-    "low_conviction": false
-   },
-   "alt_markets": [
-    {
-     "selection": "HOME",
-     "family": "1x2",
-     "label": "Vitória do Eibar",
-     "model_prob": 0.6311,
-     "trend_alignment": 1.0,
-     "confidence": 64,
-     "eligible": true,
-     "odd": 1.9
-    },
-    {
-     "selection": "BTTS_NO",
-     "family": "btts",
-     "label": "Ambos marcam: não",
-     "model_prob": 0.5394,
-     "trend_alignment": 0.573,
-     "confidence": 25,
-     "eligible": false,
-     "odd": null
-    },
-    {
-     "selection": "UNDER25",
-     "family": "over_under",
-     "label": "Menos de 2.5 gols",
-     "model_prob": 0.5038,
-     "trend_alignment": 0.573,
-     "confidence": 21,
-     "eligible": false,
-     "odd": 1.83
-    },
-    {
-     "selection": "AWAY",
-     "family": "1x2",
-     "label": "Vitória do Las Palmas",
-     "model_prob": 0.151,
-     "trend_alignment": 0.0,
-     "confidence": 0,
-     "eligible": false,
-     "odd": 3.98
-    }
-   ],
-   "trends": [
-    {
-     "label": "5 vitórias seguidas",
-     "strength": 1.0,
-     "favors": "HOME",
-     "team": "Eibar",
-     "side": "HOME",
-     "group": "sequencia",
-     "kind": "win_streak"
-    },
-    {
-     "label": "Venceu 5 dos últimos 5",
-     "strength": 0.75,
-     "favors": "HOME",
-     "team": "Eibar",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "Não sofreu gol em 4 dos últimos 5",
-     "strength": 0.47,
-     "favors": "UNDER",
-     "team": "Eibar",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "clean_sheets"
-    },
-    {
-     "label": "Não sofreu gol em 3 dos últimos 5",
-     "strength": 0.39,
-     "favors": "UNDER",
-     "team": "Las Palmas",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "clean_sheets"
-    },
-    {
-     "label": "Eibar é 2º · Las Palmas é 11º",
-     "strength": 0.0,
-     "favors": null,
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "positions"
-    },
-    {
-     "label": "Eibar está 9 posições à frente",
-     "strength": 0.643,
-     "favors": "HOME",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "aligned_trends": [
-    {
-     "label": "5 vitórias seguidas",
-     "strength": 1.0,
-     "favors": "HOME",
-     "team": "Eibar",
-     "side": "HOME",
-     "group": "sequencia",
-     "kind": "win_streak"
-    },
-    {
-     "label": "Venceu 5 dos últimos 5",
-     "strength": 0.75,
-     "favors": "HOME",
-     "team": "Eibar",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "Eibar está 9 posições à frente",
-     "strength": 0.643,
-     "favors": "HOME",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "confidence": 73,
-   "league": {
-    "key": "laliga2",
-    "name": "LaLiga 2",
-    "country": "Espanha"
-   },
-   "home_team": {
-    "id": 164,
-    "name": "Eibar",
-    "position": 2,
-    "played": 6,
-    "points": 15.0,
-    "record": "5V 0E 1D",
-    "goals_for": 12,
-    "goals_against": 4,
-    "last5": "WWWWW",
-    "recent": [
-     {
-      "result": "W",
-      "score": "2-1",
-      "home": false,
-      "opponent": "CD Eldense",
-      "date": "2026-09-19"
-     },
-     {
-      "result": "W",
-      "score": "4-0",
-      "home": false,
-      "opponent": "Celta Vigo B",
-      "date": "2026-09-14"
-     },
-     {
-      "result": "W",
-      "score": "3-0",
-      "home": true,
-      "opponent": "Granada",
-      "date": "2026-09-06"
-     },
-     {
-      "result": "W",
-      "score": "1-0",
-      "home": false,
-      "opponent": "Andorra CF",
-      "date": "2026-08-30"
-     },
-     {
-      "result": "W",
-      "score": "1-0",
-      "home": true,
-      "opponent": "Real Valladolid",
-      "date": "2026-08-23"
-     }
-    ]
-   },
-   "away_team": {
-    "id": 167,
-    "name": "Las Palmas",
-    "position": 11,
-    "played": 6,
-    "points": 10.0,
-    "record": "3V 1E 2D",
-    "goals_for": 8,
-    "goals_against": 8,
-    "last5": "LWDLW",
-    "recent": [
-     {
-      "result": "L",
-      "score": "1-2",
-      "home": true,
-      "opponent": "Burgos CF",
-      "date": "2026-09-20"
-     },
-     {
-      "result": "W",
-      "score": "1-0",
-      "home": false,
-      "opponent": "Cadiz CF",
-      "date": "2026-09-12"
-     },
-     {
-      "result": "D",
-      "score": "0-0",
-      "home": true,
-      "opponent": "CD Leganés",
-      "date": "2026-09-04"
-     },
-     {
-      "result": "L",
-      "score": "2-5",
-      "home": false,
-      "opponent": "Girona",
-      "date": "2026-08-29"
-     },
-     {
-      "result": "W",
-      "score": "2-0",
-      "home": false,
-      "opponent": "AD Ceuta FC",
-      "date": "2026-08-22"
-     }
-    ]
-   },
-   "kickoff_local": "2026-09-27T13:30:00-03:00",
-   "has_odds": true,
-   "odds_bookmaker": "365Scores",
-   "is_cup": false,
-   "result": "pending",
-   "clear": false,
-   "below_bar": true
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "date": "2026-09-28",
- "generated_at": "2026-09-26T17:11:07.654736-03:00",
+ "generated_at": "2026-09-27T08:17:36.592584-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 1,
@@ -24,50 +24,50 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 1.13,
-    "lambda_away": 1.98,
-    "expected_goals": 3.11,
+    "lambda_home": 1.14,
+    "lambda_away": 1.99,
+    "expected_goals": 3.12,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.2137,
-     "DRAW": 0.2163,
-     "AWAY": 0.57,
-     "1X": 0.43,
-     "X2": 0.7863,
-     "12": 0.7837,
-     "OVER25": 0.6019,
-     "UNDER25": 0.3981,
-     "BTTS_YES": 0.5846,
-     "BTTS_NO": 0.4154
+     "HOME": 0.2134,
+     "DRAW": 0.2159,
+     "AWAY": 0.5707,
+     "1X": 0.4293,
+     "X2": 0.7866,
+     "12": 0.7841,
+     "OVER25": 0.6031,
+     "UNDER25": 0.3969,
+     "BTTS_YES": 0.5854,
+     "BTTS_NO": 0.4146
     }
    },
    "pick": {
-    "selection": "AWAY",
-    "family": "1x2",
-    "label": "Vitória do Club América",
-    "model_prob": 0.57,
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: Club América ou empate (X2)",
+    "model_prob": 0.7866,
     "trend_alignment": 1.0,
     "confidence": 65,
     "eligible": true,
-    "odd": 1.85,
+    "odd": 1.26,
     "low_conviction": false
    },
    "alt_markets": [
     {
-     "selection": "X2",
-     "family": "double_chance",
-     "label": "Dupla chance: Club América ou empate (X2)",
-     "model_prob": 0.7863,
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Club América",
+     "model_prob": 0.5707,
      "trend_alignment": 1.0,
-     "confidence": 65,
+     "confidence": 58,
      "eligible": true,
-     "odd": 1.24
+     "odd": 1.9
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6019,
+     "model_prob": 0.6031,
      "trend_alignment": 0.827,
      "confidence": 42,
      "eligible": true,
@@ -77,7 +77,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5846,
+     "model_prob": 0.5854,
      "trend_alignment": 0.827,
      "confidence": 40,
      "eligible": false,
@@ -87,11 +87,11 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Necaxa",
-     "model_prob": 0.2137,
+     "model_prob": 0.2134,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 4.07
+     "odd": 3.87
     }
    ],
    "trends": [
@@ -168,7 +168,7 @@
      "kind": "winless_streak"
     },
     {
-     "label": "Necaxa é 15º · Club América é 3º",
+     "label": "Necaxa é 17º · Club América é 3º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -177,7 +177,7 @@
      "kind": "positions"
     },
     {
-     "label": "Club América está 12 posições à frente",
+     "label": "Club América está 14 posições à frente",
      "strength": 0.8,
      "favors": "AWAY",
      "team": null,
@@ -233,7 +233,7 @@
      "kind": "winless_streak"
     },
     {
-     "label": "Club América está 12 posições à frente",
+     "label": "Club América está 14 posições à frente",
      "strength": 0.8,
      "favors": "AWAY",
      "team": null,
@@ -251,7 +251,7 @@
    "home_team": {
     "id": 1263,
     "name": "Necaxa",
-    "position": 15,
+    "position": 17,
     "played": 9,
     "points": 8.0,
     "record": "2V 2E 5D",
@@ -394,7 +394,7 @@
     "trend_alignment": 0.979,
     "confidence": 59,
     "eligible": true,
-    "odd": 1.39,
+    "odd": 1.37,
     "low_conviction": false
    },
    "alt_markets": [
@@ -406,7 +406,7 @@
      "trend_alignment": 0.979,
      "confidence": 46,
      "eligible": false,
-     "odd": 2.24
+     "odd": 2.19
     },
     {
      "selection": "UNDER25",
@@ -436,7 +436,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 2.99
+     "odd": 3.09
     }
    ],
    "trends": [
@@ -666,23 +666,23 @@
     "expected_goals": 2.81,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.5695,
-     "DRAW": 0.2283,
-     "AWAY": 0.2022,
-     "1X": 0.7978,
-     "X2": 0.4305,
-     "12": 0.7717,
-     "OVER25": 0.5329,
-     "UNDER25": 0.4671,
-     "BTTS_YES": 0.5261,
-     "BTTS_NO": 0.4739
+     "HOME": 0.5693,
+     "DRAW": 0.2284,
+     "AWAY": 0.2023,
+     "1X": 0.7977,
+     "X2": 0.4307,
+     "12": 0.7716,
+     "OVER25": 0.5324,
+     "UNDER25": 0.4676,
+     "BTTS_YES": 0.5258,
+     "BTTS_NO": 0.4742
     }
    },
    "pick": {
     "selection": "1X",
     "family": "double_chance",
     "label": "Dupla chance: Montevideo Wanderers ou empate (1X)",
-    "model_prob": 0.7978,
+    "model_prob": 0.7977,
     "trend_alignment": 0.687,
     "confidence": 56,
     "eligible": true,
@@ -694,7 +694,7 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Montevideo Wanderers",
-     "model_prob": 0.5695,
+     "model_prob": 0.5693,
      "trend_alignment": 0.687,
      "confidence": 47,
      "eligible": true,
@@ -704,7 +704,7 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.5329,
+     "model_prob": 0.5324,
      "trend_alignment": 0.267,
      "confidence": 14,
      "eligible": false,
@@ -714,7 +714,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5261,
+     "model_prob": 0.5258,
      "trend_alignment": 0.267,
      "confidence": 13,
      "eligible": false,
@@ -724,7 +724,7 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Albion",
-     "model_prob": 0.2022,
+     "model_prob": 0.2023,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
