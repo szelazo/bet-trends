@@ -1,6 +1,6 @@
 {
  "date": "2026-09-29",
- "generated_at": "2026-09-27T17:11:45.229607-03:00",
+ "generated_at": "2026-09-28T08:17:06.971406-03:00",
  "version": "0.1.0",
  "count": 2,
  "clear_count": 0,
@@ -29,23 +29,23 @@
     "expected_goals": 2.54,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.2303,
-     "DRAW": 0.2523,
-     "AWAY": 0.5174,
-     "1X": 0.4826,
-     "X2": 0.7697,
-     "12": 0.7477,
-     "OVER25": 0.4671,
-     "UNDER25": 0.5329,
-     "BTTS_YES": 0.4908,
-     "BTTS_NO": 0.5092
+     "HOME": 0.2305,
+     "DRAW": 0.2525,
+     "AWAY": 0.517,
+     "1X": 0.483,
+     "X2": 0.7695,
+     "12": 0.7475,
+     "OVER25": 0.4663,
+     "UNDER25": 0.5337,
+     "BTTS_YES": 0.4903,
+     "BTTS_NO": 0.5097
     }
    },
    "pick": {
     "selection": "X2",
     "family": "double_chance",
     "label": "Dupla chance: Independiente Santa Fe ou empate (X2)",
-    "model_prob": 0.7697,
+    "model_prob": 0.7695,
     "trend_alignment": 1.0,
     "confidence": 63,
     "eligible": true,
@@ -57,27 +57,27 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Independiente Santa Fe",
-     "model_prob": 0.5174,
+     "model_prob": 0.517,
      "trend_alignment": 1.0,
      "confidence": 52,
      "eligible": true,
-     "odd": 1.92
+     "odd": 1.87
     },
     {
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.5329,
+     "model_prob": 0.5337,
      "trend_alignment": 0.0,
      "confidence": 4,
      "eligible": false,
-     "odd": 1.69
+     "odd": 1.72
     },
     {
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.5092,
+     "model_prob": 0.5097,
      "trend_alignment": 0.0,
      "confidence": 1,
      "eligible": false,
@@ -87,16 +87,16 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Deportivo Pereira",
-     "model_prob": 0.2303,
+     "model_prob": 0.2305,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 4.24
+     "odd": 4.37
     }
    ],
    "trends": [
     {
-     "label": "Não venceu nenhum dos últimos 6",
+     "label": "Não venceu nenhum dos últimos 5",
      "strength": 0.55,
      "favors": "AWAY",
      "team": "Deportivo Pereira",
@@ -123,15 +123,6 @@
      "kind": "no_score"
     },
     {
-     "label": "Não vence há 6+ jogos",
-     "strength": 0.5,
-     "favors": "AWAY",
-     "team": "Deportivo Pereira",
-     "side": "HOME",
-     "group": "sequencia",
-     "kind": "winless_streak"
-    },
-    {
      "label": "Só 2 derrota(s) em 10 jogos no campeonato",
      "strength": 0.34,
      "favors": "AWAY",
@@ -141,7 +132,16 @@
      "kind": "few_losses"
     },
     {
-     "label": "Deportivo Pereira é 17º · Independiente Santa Fe é 8º",
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Deportivo Pereira",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Deportivo Pereira é 18º · Independiente Santa Fe é 8º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -150,8 +150,8 @@
      "kind": "positions"
     },
     {
-     "label": "Independiente Santa Fe está 9 posições à frente",
-     "strength": 0.643,
+     "label": "Independiente Santa Fe está 10 posições à frente",
+     "strength": 0.714,
      "favors": "AWAY",
      "team": null,
      "side": null,
@@ -161,7 +161,7 @@
    ],
    "aligned_trends": [
     {
-     "label": "Não venceu nenhum dos últimos 6",
+     "label": "Não venceu nenhum dos últimos 5",
      "strength": 0.55,
      "favors": "AWAY",
      "team": "Deportivo Pereira",
@@ -188,15 +188,6 @@
      "kind": "no_score"
     },
     {
-     "label": "Não vence há 6+ jogos",
-     "strength": 0.5,
-     "favors": "AWAY",
-     "team": "Deportivo Pereira",
-     "side": "HOME",
-     "group": "sequencia",
-     "kind": "winless_streak"
-    },
-    {
      "label": "Só 2 derrota(s) em 10 jogos no campeonato",
      "strength": 0.34,
      "favors": "AWAY",
@@ -206,8 +197,17 @@
      "kind": "few_losses"
     },
     {
-     "label": "Independiente Santa Fe está 9 posições à frente",
-     "strength": 0.643,
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Deportivo Pereira",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Independiente Santa Fe está 10 posições à frente",
+     "strength": 0.714,
      "favors": "AWAY",
      "team": null,
      "side": null,
@@ -224,13 +224,13 @@
    "home_team": {
     "id": 8638,
     "name": "Deportivo Pereira",
-    "position": 17,
+    "position": 18,
     "played": 9,
     "points": 8.0,
     "record": "1V 5E 3D",
     "goals_for": 6,
     "goals_against": 11,
-    "last5": "DDLLD",
+    "last5": "DDLDL",
     "recent": [
      {
       "result": "D",
@@ -254,18 +254,18 @@
       "date": "2026-09-13"
      },
      {
-      "result": "L",
-      "score": "1-4",
-      "home": false,
-      "opponent": "America de Cali",
-      "date": "2026-09-09"
-     },
-     {
       "result": "D",
       "score": "1-1",
       "home": true,
       "opponent": "Millonarios",
       "date": "2026-09-06"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": true,
+      "opponent": "Independiente Medellin",
+      "date": "2026-09-04"
      }
     ]
    },
@@ -343,21 +343,21 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 1.24,
+    "lambda_home": 1.23,
     "lambda_away": 1.27,
     "expected_goals": 2.51,
     "sample_factor": 1.0,
     "probs": {
      "HOME": 0.3563,
-     "DRAW": 0.2694,
-     "AWAY": 0.3743,
-     "1X": 0.6257,
+     "DRAW": 0.2696,
+     "AWAY": 0.3741,
+     "1X": 0.6259,
      "X2": 0.6437,
-     "12": 0.7306,
-     "OVER25": 0.4586,
-     "UNDER25": 0.5414,
-     "BTTS_YES": 0.5109,
-     "BTTS_NO": 0.4891
+     "12": 0.7304,
+     "OVER25": 0.4578,
+     "UNDER25": 0.5422,
+     "BTTS_YES": 0.5102,
+     "BTTS_NO": 0.4898
     }
    },
    "pick": {
@@ -368,7 +368,7 @@
     "trend_alignment": 1.0,
     "confidence": 46,
     "eligible": true,
-    "odd": 1.61,
+    "odd": 1.65,
     "low_conviction": false
    },
    "alt_markets": [
@@ -376,19 +376,19 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Millonarios",
-     "model_prob": 0.3743,
+     "model_prob": 0.3741,
      "trend_alignment": 1.0,
      "confidence": 38,
      "eligible": false,
-     "odd": 3.02
+     "odd": 3.22
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5109,
-     "trend_alignment": 0.609,
-     "confidence": 23,
+     "model_prob": 0.5102,
+     "trend_alignment": 0.6,
+     "confidence": 22,
      "eligible": false,
      "odd": null
     },
@@ -396,21 +396,21 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.4586,
-     "trend_alignment": 0.609,
+     "model_prob": 0.4578,
+     "trend_alignment": 0.6,
      "confidence": 21,
      "eligible": false,
-     "odd": 1.96
+     "odd": 1.92
     },
     {
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Independiente Medellin ou empate (1X)",
-     "model_prob": 0.6257,
+     "model_prob": 0.6259,
      "trend_alignment": 0.0,
      "confidence": 10,
      "eligible": true,
-     "odd": 1.39
+     "odd": 1.36
     }
    ],
    "trends": [
@@ -433,8 +433,8 @@
      "kind": "btts"
     },
     {
-     "label": "Mais de 2.5 gols em 5 dos últimos 6",
-     "strength": 0.483,
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
      "favors": "OVER",
      "team": "Independiente Medellin",
      "side": "HOME",
@@ -442,7 +442,7 @@
      "kind": "over"
     },
     {
-     "label": "2ª melhor defesa da liga (0.8 sofridos/jogo)",
+     "label": "3ª melhor defesa da liga (0.8 sofridos/jogo)",
      "strength": 0.36,
      "favors": "AWAY",
      "team": "Millonarios",
@@ -469,7 +469,7 @@
      "kind": "unbeaten_streak"
     },
     {
-     "label": "Independiente Medellin é 5º · Millonarios é 3º",
+     "label": "Independiente Medellin é 6º · Millonarios é 4º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -489,7 +489,7 @@
      "kind": "unbeaten"
     },
     {
-     "label": "2ª melhor defesa da liga (0.8 sofridos/jogo)",
+     "label": "3ª melhor defesa da liga (0.8 sofridos/jogo)",
      "strength": 0.36,
      "favors": "AWAY",
      "team": "Millonarios",
@@ -525,7 +525,7 @@
    "home_team": {
     "id": 8643,
     "name": "Independiente Medellin",
-    "position": 5,
+    "position": 6,
     "played": 10,
     "points": 19.0,
     "record": "6V 1E 3D",
@@ -563,17 +563,17 @@
      },
      {
       "result": "W",
-      "score": "4-1",
+      "score": "3-0",
       "home": false,
-      "opponent": "Deportivo Pasto",
-      "date": "2026-09-10"
+      "opponent": "Deportivo Pereira",
+      "date": "2026-09-04"
      }
     ]
    },
    "away_team": {
     "id": 8637,
     "name": "Millonarios",
-    "position": 3,
+    "position": 4,
     "played": 12,
     "points": 20.0,
     "record": "5V 5E 2D",

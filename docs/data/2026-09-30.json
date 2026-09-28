@@ -1,0 +1,832 @@
+{
+ "date": "2026-09-30",
+ "generated_at": "2026-09-28T08:17:07.736430-03:00",
+ "version": "0.1.0",
+ "count": 3,
+ "clear_count": 0,
+ "day_total": 4,
+ "games": [
+  {
+   "id": 4760824,
+   "s365_competition_id": 583,
+   "competition_name": "Liga 1 - Clausura",
+   "start_time": "2026-09-30T20:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 8412,
+    "name": "Cienciano"
+   },
+   "away": {
+    "id": 23055,
+    "name": "Los Chankas"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.49,
+    "lambda_away": 1.22,
+    "expected_goals": 3.7,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.6506,
+     "DRAW": 0.1789,
+     "AWAY": 0.1705,
+     "1X": 0.8295,
+     "X2": 0.3494,
+     "12": 0.8211,
+     "OVER25": 0.7145,
+     "UNDER25": 0.2855,
+     "BTTS_YES": 0.645,
+     "BTTS_NO": 0.355
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Cienciano",
+    "model_prob": 0.6506,
+    "trend_alignment": 0.689,
+    "confidence": 61,
+    "eligible": true,
+    "odd": 1.45,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Cienciano ou empate (1X)",
+     "model_prob": 0.8295,
+     "trend_alignment": 0.689,
+     "confidence": 61,
+     "eligible": true,
+     "odd": 1.13
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.7145,
+     "trend_alignment": 0.884,
+     "confidence": 59,
+     "eligible": true,
+     "odd": 2.26
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.645,
+     "trend_alignment": 0.884,
+     "confidence": 50,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Los Chankas",
+     "model_prob": 0.1705,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 6.25
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 5 dos últimos 5",
+     "strength": 0.7,
+     "favors": "HOME",
+     "team": "Los Chankas",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Mais de 2.5 gols em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "OVER",
+     "team": "Los Chankas",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Mais de 2.5 gols em 5 dos últimos 7",
+     "strength": 0.436,
+     "favors": "OVER",
+     "team": "Cienciano",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Pior defesa da liga (2.6 sofridos/jogo)",
+     "strength": 0.34,
+     "favors": "OVER",
+     "team": "Los Chankas",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_bottom"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Los Chankas",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Cienciano é 14º · Los Chankas é 16º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 5 dos últimos 5",
+     "strength": 0.7,
+     "favors": "HOME",
+     "team": "Los Chankas",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Los Chankas",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    }
+   ],
+   "confidence": 61,
+   "league": {
+    "key": "pe_liga1",
+    "name": "Liga 1",
+    "country": "Peru"
+   },
+   "home_team": {
+    "id": 8412,
+    "name": "Cienciano",
+    "position": 14,
+    "played": 9,
+    "points": 7.0,
+    "record": "2V 1E 6D",
+    "goals_for": 11,
+    "goals_against": 17,
+    "last5": "LLWWL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "ADT Tarma",
+      "date": "2026-09-23"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": false,
+      "opponent": "Montevideo City Torque",
+      "date": "2026-09-18"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Montevideo City Torque",
+      "date": "2026-09-11"
+     },
+     {
+      "result": "W",
+      "score": "5-2",
+      "home": false,
+      "opponent": "FC Cajamarca",
+      "date": "2026-09-04"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Cusco FC",
+      "date": "2026-08-31"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 23055,
+    "name": "Los Chankas",
+    "position": 16,
+    "played": 9,
+    "points": 7.0,
+    "record": "2V 1E 6D",
+    "goals_for": 10,
+    "goals_against": 23,
+    "last5": "LLLLL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "FC Cajamarca",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "L",
+      "score": "0-5",
+      "home": false,
+      "opponent": "Sporting Cristal",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "L",
+      "score": "3-4",
+      "home": true,
+      "opponent": "Juan Pablo II College",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": false,
+      "opponent": "Universitario",
+      "date": "2026-08-23"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": true,
+      "opponent": "FBC Melgar",
+      "date": "2026-08-15"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-30T17:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": false,
+   "below_bar": true
+  },
+  {
+   "id": 4732077,
+   "s365_competition_id": 620,
+   "competition_name": "Liga BetPlay - Clausura",
+   "start_time": "2026-10-01T01:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 8640,
+    "name": "Atletico Nacional"
+   },
+   "away": {
+    "id": 7204,
+    "name": "Junior FC"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.1,
+    "lambda_away": 1.27,
+    "expected_goals": 3.37,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.5641,
+     "DRAW": 0.2088,
+     "AWAY": 0.2271,
+     "1X": 0.7729,
+     "X2": 0.4359,
+     "12": 0.7912,
+     "OVER25": 0.6548,
+     "UNDER25": 0.3452,
+     "BTTS_YES": 0.6316,
+     "BTTS_NO": 0.3684
+    }
+   },
+   "pick": {
+    "selection": "1X",
+    "family": "double_chance",
+    "label": "Dupla chance: Atletico Nacional ou empate (1X)",
+    "model_prob": 0.7729,
+    "trend_alignment": 0.769,
+    "confidence": 56,
+    "eligible": true,
+    "odd": null,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Atletico Nacional",
+     "model_prob": 0.5641,
+     "trend_alignment": 0.769,
+     "confidence": 49,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6548,
+     "trend_alignment": 0.0,
+     "confidence": 20,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.6316,
+     "trend_alignment": 0.0,
+     "confidence": 17,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Junior FC",
+     "model_prob": 0.2271,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Atletico Nacional",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "AWAY",
+     "team": "Junior FC",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "2º melhor ataque da liga (2.0 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Atletico Nacional",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Atletico Nacional é 5º · Junior FC é 16º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Atletico Nacional está 11 posições à frente",
+     "strength": 0.786,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Atletico Nacional",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "2º melhor ataque da liga (2.0 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Atletico Nacional",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Atletico Nacional está 11 posições à frente",
+     "strength": 0.786,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 56,
+   "league": {
+    "key": "co_primera",
+    "name": "Liga BetPlay",
+    "country": "Colômbia"
+   },
+   "home_team": {
+    "id": 8640,
+    "name": "Atletico Nacional",
+    "position": 5,
+    "played": 9,
+    "points": 19.0,
+    "record": "6V 1E 2D",
+    "goals_for": 18,
+    "goals_against": 9,
+    "last5": "DLWWW",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Millonarios",
+      "date": "2026-09-25"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Llaneros FC",
+      "date": "2026-09-21"
+     },
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": false,
+      "opponent": "Internacional de Bogota",
+      "date": "2026-09-17"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Águilas Doradas",
+      "date": "2026-09-13"
+     },
+     {
+      "result": "W",
+      "score": "5-1",
+      "home": false,
+      "opponent": "Alianza FC",
+      "date": "2026-08-30"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 7204,
+    "name": "Junior FC",
+    "position": 16,
+    "played": 9,
+    "points": 9.0,
+    "record": "2V 3E 4D",
+    "goals_for": 14,
+    "goals_against": 14,
+    "last5": "WWLDD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Independiente Medellin",
+      "date": "2026-09-27"
+     },
+     {
+      "result": "W",
+      "score": "4-1",
+      "home": false,
+      "opponent": "Fortaleza FC",
+      "date": "2026-09-20"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Alianza FC",
+      "date": "2026-09-13"
+     },
+     {
+      "result": "D",
+      "score": "3-3",
+      "home": true,
+      "opponent": "Jaguares de Córdoba",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Independiente Santa Fe",
+      "date": "2026-08-29"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-30T22:00:00-03:00",
+   "has_odds": false,
+   "odds_bookmaker": null,
+   "is_cup": false,
+   "result": "pending",
+   "clear": false,
+   "below_bar": true
+  },
+  {
+   "id": 4621334,
+   "s365_competition_id": 104,
+   "competition_name": "MLS",
+   "start_time": "2026-09-30T23:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 1338,
+    "name": "New York Red Bulls"
+   },
+   "away": {
+    "id": 24474,
+    "name": "St. Louis City SC"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.26,
+    "lambda_away": 1.74,
+    "expected_goals": 3.0,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.2786,
+     "DRAW": 0.2358,
+     "AWAY": 0.4856,
+     "1X": 0.5144,
+     "X2": 0.7214,
+     "12": 0.7642,
+     "OVER25": 0.5763,
+     "UNDER25": 0.4237,
+     "BTTS_YES": 0.5905,
+     "BTTS_NO": 0.4095
+    }
+   },
+   "pick": {
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: St. Louis City SC ou empate (X2)",
+    "model_prob": 0.7214,
+    "trend_alignment": 0.589,
+    "confidence": 43,
+    "eligible": true,
+    "odd": 1.3,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do St. Louis City SC",
+     "model_prob": 0.4856,
+     "trend_alignment": 0.589,
+     "confidence": 35,
+     "eligible": true,
+     "odd": 1.78
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5905,
+     "trend_alignment": 0.0,
+     "confidence": 12,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5763,
+     "trend_alignment": 0.0,
+     "confidence": 10,
+     "eligible": false,
+     "odd": 2.01
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.4237,
+     "trend_alignment": 0.243,
+     "confidence": 9,
+     "eligible": false,
+     "odd": 1.74
+    }
+   ],
+   "trends": [
+    {
+     "label": "Invicto em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "AWAY",
+     "team": "St. Louis City SC",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Mais de 2.5 gols em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "OVER",
+     "team": "St. Louis City SC",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Menos de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "UNDER",
+     "team": "New York Red Bulls",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "under"
+    },
+    {
+     "label": "Não sofreu gol em 3 dos últimos 5",
+     "strength": 0.39,
+     "favors": "UNDER",
+     "team": "New York Red Bulls",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "clean_sheets"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "St. Louis City SC",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "New York Red Bulls é 8º · St. Louis City SC é 5º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Invicto em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "AWAY",
+     "team": "St. Louis City SC",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "St. Louis City SC",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    }
+   ],
+   "confidence": 43,
+   "league": {
+    "key": "mls",
+    "name": "MLS",
+    "country": "EUA/Canadá"
+   },
+   "home_team": {
+    "id": 1338,
+    "name": "New York Red Bulls",
+    "position": 8,
+    "played": 26,
+    "points": 33.0,
+    "record": "9V 6E 11D",
+    "goals_for": 34,
+    "goals_against": 48,
+    "last5": "WWLDL",
+    "recent": [
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "New York City FC",
+      "date": "2026-09-18"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Columbus Crew",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Los Angeles FC",
+      "date": "2026-09-10"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Seattle Sounders",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": true,
+      "opponent": "Philadelphia Union",
+      "date": "2026-08-29"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 24474,
+    "name": "St. Louis City SC",
+    "position": 5,
+    "played": 26,
+    "points": 44.0,
+    "record": "12V 8E 6D",
+    "goals_for": 45,
+    "goals_against": 36,
+    "last5": "WWDWD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": true,
+      "opponent": "Toronto FC",
+      "date": "2026-09-20"
+     },
+     {
+      "result": "W",
+      "score": "4-2",
+      "home": true,
+      "opponent": "Minnesota United",
+      "date": "2026-09-13"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "Portland Timbers",
+      "date": "2026-09-10"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": false,
+      "opponent": "Vancouver Whitecaps",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "D",
+      "score": "3-3",
+      "home": true,
+      "opponent": "FC Dallas",
+      "date": "2026-08-30"
+     }
+    ]
+   },
+   "kickoff_local": "2026-09-30T20:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": false,
+   "below_bar": true
+  }
+ ]
+}
