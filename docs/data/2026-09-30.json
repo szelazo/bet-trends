@@ -1,6 +1,6 @@
 {
  "date": "2026-09-30",
- "generated_at": "2026-09-28T08:17:07.736430-03:00",
+ "generated_at": "2026-09-28T17:10:13.970071-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 0,
@@ -49,7 +49,7 @@
     "trend_alignment": 0.689,
     "confidence": 61,
     "eligible": true,
-    "odd": 1.45,
+    "odd": 1.34,
     "low_conviction": false
    },
    "alt_markets": [
@@ -61,7 +61,7 @@
      "trend_alignment": 0.689,
      "confidence": 61,
      "eligible": true,
-     "odd": 1.13
+     "odd": 1.08
     },
     {
      "selection": "OVER25",
@@ -71,7 +71,7 @@
      "trend_alignment": 0.884,
      "confidence": 59,
      "eligible": true,
-     "odd": 2.26
+     "odd": 2.21
     },
     {
      "selection": "BTTS_YES",
@@ -91,7 +91,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 6.25
+     "odd": 8.0
     }
    ],
    "trends": [
@@ -316,26 +316,26 @@
     }
    },
    "pick": {
-    "selection": "1X",
-    "family": "double_chance",
-    "label": "Dupla chance: Atletico Nacional ou empate (1X)",
-    "model_prob": 0.7729,
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Atletico Nacional",
+    "model_prob": 0.5641,
     "trend_alignment": 0.769,
     "confidence": 56,
     "eligible": true,
-    "odd": null,
+    "odd": 1.49,
     "low_conviction": false
    },
    "alt_markets": [
     {
-     "selection": "HOME",
-     "family": "1x2",
-     "label": "Vitória do Atletico Nacional",
-     "model_prob": 0.5641,
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Atletico Nacional ou empate (1X)",
+     "model_prob": 0.7729,
      "trend_alignment": 0.769,
-     "confidence": 49,
+     "confidence": 56,
      "eligible": true,
-     "odd": null
+     "odd": 1.14
     },
     {
      "selection": "OVER25",
@@ -345,7 +345,7 @@
      "trend_alignment": 0.0,
      "confidence": 20,
      "eligible": true,
-     "odd": null
+     "odd": 1.66
     },
     {
      "selection": "BTTS_YES",
@@ -365,7 +365,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": null
+     "odd": 5.72
     }
    ],
    "trends": [
@@ -547,8 +547,8 @@
     ]
    },
    "kickoff_local": "2026-09-30T22:00:00-03:00",
-   "has_odds": false,
-   "odds_bookmaker": null,
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
    "is_cup": false,
    "result": "pending",
    "clear": false,
@@ -597,7 +597,7 @@
     "trend_alignment": 0.589,
     "confidence": 43,
     "eligible": true,
-    "odd": 1.3,
+    "odd": 1.33,
     "low_conviction": false
    },
    "alt_markets": [
@@ -609,7 +609,7 @@
      "trend_alignment": 0.589,
      "confidence": 35,
      "eligible": true,
-     "odd": 1.78
+     "odd": 1.84
     },
     {
      "selection": "BTTS_YES",
