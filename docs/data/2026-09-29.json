@@ -1,6 +1,6 @@
 {
  "date": "2026-09-29",
- "generated_at": "2026-09-28T17:10:13.224232-03:00",
+ "generated_at": "2026-09-29T08:17:41.586633-03:00",
  "version": "0.1.0",
  "count": 2,
  "clear_count": 0,
@@ -61,7 +61,7 @@
      "trend_alignment": 1.0,
      "confidence": 52,
      "eligible": true,
-     "odd": 1.87
+     "odd": 1.92
     },
     {
      "selection": "UNDER25",
@@ -71,7 +71,7 @@
      "trend_alignment": 0.0,
      "confidence": 4,
      "eligible": false,
-     "odd": 1.72
+     "odd": 1.69
     },
     {
      "selection": "BTTS_NO",
@@ -400,7 +400,7 @@
      "trend_alignment": 0.6,
      "confidence": 21,
      "eligible": false,
-     "odd": 1.92
+     "odd": 1.96
     },
     {
      "selection": "1X",
