@@ -1,8 +1,8 @@
 {
  "date": "2026-10-01",
- "generated_at": "2026-09-29T17:12:30.170233-03:00",
+ "generated_at": "2026-09-30T08:17:13.714206-03:00",
  "version": "0.1.0",
- "count": 2,
+ "count": 3,
  "clear_count": 0,
  "day_total": 3,
  "games": [
@@ -91,7 +91,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 5.48
+     "odd": 5.73
     }
    ],
    "trends": [
@@ -308,6 +308,271 @@
    "below_bar": true
   },
   {
+   "id": 4827801,
+   "s365_competition_id": 640,
+   "competition_name": "Copa Argentina - Quarter Finals",
+   "start_time": "2026-10-02T00:15:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 7207,
+    "name": "Platense"
+   },
+   "away": {
+    "id": 867,
+    "name": "Estudiantes de La Plata"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.08,
+    "lambda_away": 0.91,
+    "expected_goals": 1.99,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.3922,
+     "DRAW": 0.3075,
+     "AWAY": 0.3003,
+     "1X": 0.6997,
+     "X2": 0.6078,
+     "12": 0.6925,
+     "OVER25": 0.3215,
+     "UNDER25": 0.6785,
+     "BTTS_YES": 0.3951,
+     "BTTS_NO": 0.6049
+    }
+   },
+   "pick": {
+    "selection": "1X",
+    "family": "double_chance",
+    "label": "Dupla chance: Platense ou empate (1X)",
+    "model_prob": 0.6997,
+    "trend_alignment": 0.625,
+    "confidence": 41,
+    "eligible": true,
+    "odd": 1.69,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Platense",
+     "model_prob": 0.3922,
+     "trend_alignment": 0.625,
+     "confidence": 27,
+     "eligible": false,
+     "odd": 3.76
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.6785,
+     "trend_alignment": 0.06,
+     "confidence": 25,
+     "eligible": true,
+     "odd": 2.23
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.6049,
+     "trend_alignment": 0.06,
+     "confidence": 16,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "X2",
+     "family": "double_chance",
+     "label": "Dupla chance: Estudiantes de La Plata ou empate (X2)",
+     "model_prob": 0.6078,
+     "trend_alignment": 0.0,
+     "confidence": 8,
+     "eligible": false,
+     "odd": 1.29
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 3 dos últimos 4 fora de casa",
+     "strength": 0.588,
+     "favors": "HOME",
+     "team": "Estudiantes de La Plata",
+     "side": "AWAY",
+     "group": "casa_fora",
+     "kind": "losses"
+    },
+    {
+     "label": "Menos de 2.5 gols em 3 dos últimos 4 fora de casa",
+     "strength": 0.45,
+     "favors": "UNDER",
+     "team": "Estudiantes de La Plata",
+     "side": "AWAY",
+     "group": "casa_fora",
+     "kind": "under"
+    },
+    {
+     "label": "Sofreu gol em todos os últimos 6",
+     "strength": 0.4,
+     "favors": "OVER",
+     "team": "Platense",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "always_concede"
+    },
+    {
+     "label": "Não marcou em 3 dos últimos 6",
+     "strength": 0.35,
+     "favors": "HOME",
+     "team": "Estudiantes de La Plata",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "no_score"
+    },
+    {
+     "label": "Platense é 13º · Estudiantes de La Plata é 11º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 3 dos últimos 4 fora de casa",
+     "strength": 0.588,
+     "favors": "HOME",
+     "team": "Estudiantes de La Plata",
+     "side": "AWAY",
+     "group": "casa_fora",
+     "kind": "losses"
+    },
+    {
+     "label": "Não marcou em 3 dos últimos 6",
+     "strength": 0.35,
+     "favors": "HOME",
+     "team": "Estudiantes de La Plata",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "no_score"
+    }
+   ],
+   "confidence": 41,
+   "league": {
+    "key": "copa_ar",
+    "name": "Copa Argentina",
+    "country": "Argentina"
+   },
+   "home_team": {
+    "id": 7207,
+    "name": "Platense",
+    "position": 13,
+    "played": 10,
+    "points": 9.0,
+    "record": "2V 3E 5D",
+    "goals_for": 9,
+    "goals_against": 15,
+    "last5": "LWLDL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Newell's Old Boys",
+      "date": "2026-09-20"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Fluminense",
+      "date": "2026-09-15"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Estudiantes de La Plata",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Riestra",
+      "date": "2026-09-04"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Defensa Y Justicia",
+      "date": "2026-08-31"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 867,
+    "name": "Estudiantes de La Plata",
+    "position": 11,
+    "played": 10,
+    "points": 10.0,
+    "record": "3V 1E 6D",
+    "goals_for": 10,
+    "goals_against": 11,
+    "last5": "LWWLD",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Lanus",
+      "date": "2026-09-22"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Corinthians",
+      "date": "2026-09-17"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Platense",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Velez Sarsfield",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Newell's Old Boys",
+      "date": "2026-08-31"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-01T21:15:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": true,
+   "result": "pending",
+   "clear": false,
+   "below_bar": true
+  },
+  {
    "id": 4731929,
    "s365_competition_id": 620,
    "competition_name": "Liga BetPlay - Clausura",
@@ -325,32 +590,32 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 1.55,
+    "lambda_home": 1.54,
     "lambda_away": 1.07,
     "expected_goals": 2.62,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.4822,
-     "DRAW": 0.2541,
-     "AWAY": 0.2636,
-     "1X": 0.7364,
-     "X2": 0.5178,
-     "12": 0.7459,
-     "OVER25": 0.4867,
-     "UNDER25": 0.5133,
-     "BTTS_YES": 0.5181,
-     "BTTS_NO": 0.4819
+     "HOME": 0.4819,
+     "DRAW": 0.2544,
+     "AWAY": 0.2637,
+     "1X": 0.7363,
+     "X2": 0.5181,
+     "12": 0.7456,
+     "OVER25": 0.4854,
+     "UNDER25": 0.5146,
+     "BTTS_YES": 0.5171,
+     "BTTS_NO": 0.4829
     }
    },
    "pick": {
     "selection": "1X",
     "family": "double_chance",
     "label": "Dupla chance: Internacional de Bogota ou empate (1X)",
-    "model_prob": 0.7364,
+    "model_prob": 0.7363,
     "trend_alignment": 0.119,
     "confidence": 29,
     "eligible": true,
-    "odd": 1.51,
+    "odd": 1.5,
     "low_conviction": true
    },
    "alt_markets": [
@@ -358,17 +623,17 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Internacional de Bogota",
-     "model_prob": 0.4822,
+     "model_prob": 0.4819,
      "trend_alignment": 0.119,
      "confidence": 18,
      "eligible": true,
-     "odd": 2.69
+     "odd": 2.79
     },
     {
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.5133,
+     "model_prob": 0.5146,
      "trend_alignment": 0.0,
      "confidence": 2,
      "eligible": false,
@@ -378,7 +643,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5181,
+     "model_prob": 0.5171,
      "trend_alignment": 0.0,
      "confidence": 2,
      "eligible": false,
@@ -388,11 +653,11 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Once Caldas",
-     "model_prob": 0.2636,
+     "model_prob": 0.2637,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 2.54
+     "odd": 2.59
     }
    ],
    "trends": [

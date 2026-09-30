@@ -1,6 +1,6 @@
 {
  "date": "2026-09-30",
- "generated_at": "2026-09-29T17:12:29.635457-03:00",
+ "generated_at": "2026-09-30T08:17:12.933808-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 0,
@@ -29,27 +29,27 @@
     "expected_goals": 3.37,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.5641,
-     "DRAW": 0.2088,
-     "AWAY": 0.2271,
-     "1X": 0.7729,
-     "X2": 0.4359,
-     "12": 0.7912,
-     "OVER25": 0.6548,
-     "UNDER25": 0.3452,
-     "BTTS_YES": 0.6316,
-     "BTTS_NO": 0.3684
+     "HOME": 0.5637,
+     "DRAW": 0.2091,
+     "AWAY": 0.2272,
+     "1X": 0.7728,
+     "X2": 0.4363,
+     "12": 0.7909,
+     "OVER25": 0.6534,
+     "UNDER25": 0.3466,
+     "BTTS_YES": 0.6306,
+     "BTTS_NO": 0.3694
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Atletico Nacional",
-    "model_prob": 0.5641,
-    "trend_alignment": 0.769,
-    "confidence": 56,
+    "model_prob": 0.5637,
+    "trend_alignment": 0.721,
+    "confidence": 54,
     "eligible": true,
-    "odd": 1.52,
+    "odd": 1.44,
     "low_conviction": false
    },
    "alt_markets": [
@@ -57,27 +57,27 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Atletico Nacional ou empate (1X)",
-     "model_prob": 0.7729,
-     "trend_alignment": 0.769,
-     "confidence": 56,
+     "model_prob": 0.7728,
+     "trend_alignment": 0.721,
+     "confidence": 54,
      "eligible": true,
-     "odd": 1.15
+     "odd": 1.13
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6548,
+     "model_prob": 0.6534,
      "trend_alignment": 0.0,
      "confidence": 20,
      "eligible": true,
-     "odd": 1.66
+     "odd": 1.6
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.6316,
+     "model_prob": 0.6306,
      "trend_alignment": 0.0,
      "confidence": 17,
      "eligible": true,
@@ -87,11 +87,11 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Junior FC",
-     "model_prob": 0.2271,
+     "model_prob": 0.2272,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 5.72
+     "odd": 6.25
     }
    ],
    "trends": [
@@ -123,7 +123,7 @@
      "kind": "atk_rank"
     },
     {
-     "label": "Atletico Nacional é 5º · Junior FC é 16º",
+     "label": "Atletico Nacional é 6º · Junior FC é 16º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -132,8 +132,8 @@
      "kind": "positions"
     },
     {
-     "label": "Atletico Nacional está 11 posições à frente",
-     "strength": 0.786,
+     "label": "Atletico Nacional está 10 posições à frente",
+     "strength": 0.714,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -161,8 +161,8 @@
      "kind": "atk_rank"
     },
     {
-     "label": "Atletico Nacional está 11 posições à frente",
-     "strength": 0.786,
+     "label": "Atletico Nacional está 10 posições à frente",
+     "strength": 0.714,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -170,7 +170,7 @@
      "kind": "table_gap"
     }
    ],
-   "confidence": 56,
+   "confidence": 54,
    "league": {
     "key": "co_primera",
     "name": "Liga BetPlay",
@@ -179,7 +179,7 @@
    "home_team": {
     "id": 8640,
     "name": "Atletico Nacional",
-    "position": 5,
+    "position": 6,
     "played": 9,
     "points": 19.0,
     "record": "6V 1E 2D",
@@ -323,7 +323,7 @@
     "trend_alignment": 0.359,
     "confidence": 50,
     "eligible": true,
-    "odd": 1.41,
+    "odd": 1.46,
     "low_conviction": false
    },
    "alt_markets": [
@@ -355,7 +355,7 @@
      "trend_alignment": 0.359,
      "confidence": 50,
      "eligible": true,
-     "odd": 1.13
+     "odd": 1.14
     },
     {
      "selection": "AWAY",
@@ -365,7 +365,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 6.25
+     "odd": 5.78
     }
    ],
    "trends": [
@@ -638,7 +638,7 @@
      "trend_alignment": 0.0,
      "confidence": 10,
      "eligible": false,
-     "odd": 2.01
+     "odd": 2.11
     },
     {
      "selection": "UNDER25",
@@ -648,7 +648,7 @@
      "trend_alignment": 0.243,
      "confidence": 9,
      "eligible": false,
-     "odd": 1.74
+     "odd": 1.68
     }
    ],
    "trends": [
