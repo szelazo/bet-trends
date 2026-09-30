@@ -1,6 +1,6 @@
 {
  "date": "2026-10-02",
- "generated_at": "2026-09-30T08:17:14.428708-03:00",
+ "generated_at": "2026-09-30T17:13:37.126734-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 1,
@@ -49,7 +49,7 @@
     "trend_alignment": 1.0,
     "confidence": 60,
     "eligible": true,
-    "odd": 1.5,
+    "odd": 1.49,
     "low_conviction": false
    },
    "alt_markets": [
@@ -61,7 +61,7 @@
      "trend_alignment": 0.627,
      "confidence": 57,
      "eligible": true,
-     "odd": 1.66
+     "odd": 1.61
     },
     {
      "selection": "BTTS_NO",
