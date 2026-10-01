@@ -1,6 +1,6 @@
 {
  "date": "2026-10-03",
- "generated_at": "2026-10-01T08:17:56.085940-03:00",
+ "generated_at": "2026-10-01T17:12:18.249140-03:00",
  "version": "0.1.0",
  "count": 4,
  "clear_count": 4,
@@ -61,7 +61,7 @@
      "trend_alignment": 1.0,
      "confidence": 81,
      "eligible": true,
-     "odd": 1.17
+     "odd": 1.19
     },
     {
      "selection": "BTTS_NO",
@@ -81,7 +81,7 @@
      "trend_alignment": 0.463,
      "confidence": 28,
      "eligible": false,
-     "odd": 1.7
+     "odd": 1.85
     },
     {
      "selection": "AWAY",
@@ -91,7 +91,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 4.97
+     "odd": 4.73
     }
    ],
    "trends": [
@@ -319,7 +319,7 @@
    "id": 4764203,
    "s365_competition_id": 621,
    "competition_name": "Copa de Primera - Clausura",
-   "start_time": "2026-10-03T19:30:00+00:00",
+   "start_time": "2026-10-03T20:00:00+00:00",
    "status_group": 2,
    "round": "Round",
    "home": {
@@ -680,7 +680,7 @@
      }
     ]
    },
-   "kickoff_local": "2026-10-03T16:30:00-03:00",
+   "kickoff_local": "2026-10-03T17:00:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
@@ -730,7 +730,7 @@
     "trend_alignment": 1.0,
     "confidence": 76,
     "eligible": true,
-    "odd": 1.44,
+    "odd": 1.45,
     "low_conviction": false
    },
    "alt_markets": [
