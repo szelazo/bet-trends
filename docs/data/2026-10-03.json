@@ -1,0 +1,1282 @@
+{
+ "date": "2026-10-03",
+ "generated_at": "2026-10-01T08:17:56.085940-03:00",
+ "version": "0.1.0",
+ "count": 4,
+ "clear_count": 4,
+ "day_total": 18,
+ "games": [
+  {
+   "id": 4862070,
+   "s365_competition_id": 617,
+   "competition_name": "Uruguayan Championship - Clausura",
+   "start_time": "2026-10-03T21:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 14062,
+    "name": "Deportivo Maldonado"
+   },
+   "away": {
+    "id": 10193,
+    "name": "Central Espanol"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.83,
+    "lambda_away": 0.5,
+    "expected_goals": 2.33,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.6972,
+     "DRAW": 0.2089,
+     "AWAY": 0.0939,
+     "1X": 0.9061,
+     "X2": 0.3028,
+     "12": 0.7911,
+     "OVER25": 0.4122,
+     "UNDER25": 0.5878,
+     "BTTS_YES": 0.3308,
+     "BTTS_NO": 0.6692
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Deportivo Maldonado",
+    "model_prob": 0.6972,
+    "trend_alignment": 1.0,
+    "confidence": 81,
+    "eligible": true,
+    "odd": 1.61,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Deportivo Maldonado ou empate (1X)",
+     "model_prob": 0.9061,
+     "trend_alignment": 1.0,
+     "confidence": 81,
+     "eligible": true,
+     "odd": 1.17
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.6692,
+     "trend_alignment": 0.463,
+     "confidence": 38,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.5878,
+     "trend_alignment": 0.463,
+     "confidence": 28,
+     "eligible": false,
+     "odd": 1.7
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Central Espanol",
+     "model_prob": 0.0939,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 4.97
+    }
+   ],
+   "trends": [
+    {
+     "label": "Menos de 2.5 gols em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "UNDER",
+     "team": "Deportivo Maldonado",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "under"
+    },
+    {
+     "label": "Ambos marcaram só 0x nos últimos 5",
+     "strength": 0.45,
+     "favors": "BTTS_NO",
+     "team": "Deportivo Maldonado",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "no_btts"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Central Espanol",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "2ª melhor defesa da liga (0.6 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "HOME",
+     "team": "Deportivo Maldonado",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Pior defesa da liga (1.6 sofridos/jogo)",
+     "strength": 0.34,
+     "favors": "OVER",
+     "team": "Central Espanol",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_bottom"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Central Espanol",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Deportivo Maldonado é 4º · Central Espanol é 14º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Deportivo Maldonado está 10 posições à frente",
+     "strength": 0.714,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Central Espanol",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "2ª melhor defesa da liga (0.6 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "HOME",
+     "team": "Deportivo Maldonado",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Central Espanol",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Deportivo Maldonado está 10 posições à frente",
+     "strength": 0.714,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 81,
+   "league": {
+    "key": "uy_primera",
+    "name": "Primera División",
+    "country": "Uruguai"
+   },
+   "home_team": {
+    "id": 14062,
+    "name": "Deportivo Maldonado",
+    "position": 4,
+    "played": 8,
+    "points": 14.0,
+    "record": "4V 2E 2D",
+    "goals_for": 10,
+    "goals_against": 5,
+    "last5": "WWLWL",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "Montevideo City Torque",
+      "date": "2026-09-27"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Cerro Largo",
+      "date": "2026-09-19"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Defensor Sporting",
+      "date": "2026-09-13"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Montevideo Wanderers",
+      "date": "2026-09-05"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Juventud",
+      "date": "2026-08-29"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 10193,
+    "name": "Central Espanol",
+    "position": 14,
+    "played": 8,
+    "points": 5.0,
+    "record": "1V 2E 5D",
+    "goals_for": 5,
+    "goals_against": 13,
+    "last5": "LLDDL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Liverpool Montevideo",
+      "date": "2026-09-27"
+     },
+     {
+      "result": "L",
+      "score": "1-4",
+      "home": true,
+      "opponent": "Montevideo City Torque",
+      "date": "2026-09-21"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Cerro Largo",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Defensor Sporting",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": false,
+      "opponent": "Montevideo Wanderers",
+      "date": "2026-08-28"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-03T18:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4764203,
+   "s365_competition_id": 621,
+   "competition_name": "Copa de Primera - Clausura",
+   "start_time": "2026-10-03T19:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 7739,
+    "name": "Club Guarani"
+   },
+   "away": {
+    "id": 14634,
+    "name": "CS San Lorenzo"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.71,
+    "lambda_away": 0.53,
+    "expected_goals": 2.24,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.6632,
+     "DRAW": 0.2271,
+     "AWAY": 0.1098,
+     "1X": 0.8902,
+     "X2": 0.3368,
+     "12": 0.7729,
+     "OVER25": 0.3879,
+     "UNDER25": 0.6121,
+     "BTTS_YES": 0.3367,
+     "BTTS_NO": 0.6633
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Club Guarani",
+    "model_prob": 0.6632,
+    "trend_alignment": 1.0,
+    "confidence": 79,
+    "eligible": true,
+    "odd": 1.5,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Club Guarani ou empate (1X)",
+     "model_prob": 0.8902,
+     "trend_alignment": 1.0,
+     "confidence": 79,
+     "eligible": true,
+     "odd": 1.15
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.6633,
+     "trend_alignment": 0.163,
+     "confidence": 27,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.6121,
+     "trend_alignment": 0.163,
+     "confidence": 20,
+     "eligible": true,
+     "odd": 1.84
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do CS San Lorenzo",
+     "model_prob": 0.1098,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 5.49
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "HOME",
+     "team": "CS San Lorenzo",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Não marcou em 3 dos últimos 5",
+     "strength": 0.38,
+     "favors": "HOME",
+     "team": "CS San Lorenzo",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "no_score"
+    },
+    {
+     "label": "Invicto em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Club Guarani",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Menos de 2.5 gols em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "UNDER",
+     "team": "Club Guarani",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "under"
+    },
+    {
+     "label": "3ª melhor defesa da liga (0.8 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "HOME",
+     "team": "Club Guarani",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 2 derrota(s) em 12 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "HOME",
+     "team": "Club Guarani",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Pior defesa da liga (1.8 sofridos/jogo)",
+     "strength": 0.34,
+     "favors": "OVER",
+     "team": "CS San Lorenzo",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_bottom"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Club Guarani",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "CS San Lorenzo",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Club Guarani é 5º · CS San Lorenzo é 12º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Club Guarani está 7 posições à frente",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "HOME",
+     "team": "CS San Lorenzo",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Não marcou em 3 dos últimos 5",
+     "strength": 0.38,
+     "favors": "HOME",
+     "team": "CS San Lorenzo",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "no_score"
+    },
+    {
+     "label": "Invicto em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Club Guarani",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "3ª melhor defesa da liga (0.8 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "HOME",
+     "team": "Club Guarani",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 2 derrota(s) em 12 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "HOME",
+     "team": "Club Guarani",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Club Guarani",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "CS San Lorenzo",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Club Guarani está 7 posições à frente",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 79,
+   "league": {
+    "key": "py_primera",
+    "name": "Copa de Primera",
+    "country": "Paraguai"
+   },
+   "home_team": {
+    "id": 7739,
+    "name": "Club Guarani",
+    "position": 5,
+    "played": 12,
+    "points": 20.0,
+    "record": "5V 5E 2D",
+    "goals_for": 13,
+    "goals_against": 9,
+    "last5": "WWDWD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Sportivo Luqueño",
+      "date": "2026-09-25"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Sportivo Trinidense",
+      "date": "2026-09-18"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Cerro Porteño",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Recoleta FC",
+      "date": "2026-09-07"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Olimpia",
+      "date": "2026-09-02"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 14634,
+    "name": "CS San Lorenzo",
+    "position": 12,
+    "played": 12,
+    "points": 2.0,
+    "record": "0V 2E 10D",
+    "goals_for": 3,
+    "goals_against": 21,
+    "last5": "DLLLL",
+    "recent": [
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Recoleta FC",
+      "date": "2026-09-28"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": true,
+      "opponent": "Olimpia",
+      "date": "2026-09-20"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Sportivo Ameliano",
+      "date": "2026-09-11"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "2 de Mayo",
+      "date": "2026-09-05"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": false,
+      "opponent": "Rubio Ñu",
+      "date": "2026-09-01"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-03T16:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4751245,
+   "s365_competition_id": 12,
+   "competition_name": "LaLiga 2",
+   "start_time": "2026-10-03T12:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 170,
+    "name": "Albacete"
+   },
+   "away": {
+    "id": 164,
+    "name": "Eibar"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 0.71,
+    "lambda_away": 1.89,
+    "expected_goals": 2.6,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.1341,
+     "DRAW": 0.2133,
+     "AWAY": 0.6526,
+     "1X": 0.3474,
+     "X2": 0.8659,
+     "12": 0.7867,
+     "OVER25": 0.4819,
+     "UNDER25": 0.5181,
+     "BTTS_YES": 0.4331,
+     "BTTS_NO": 0.5669
+    }
+   },
+   "pick": {
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: Eibar ou empate (X2)",
+    "model_prob": 0.8659,
+    "trend_alignment": 1.0,
+    "confidence": 76,
+    "eligible": true,
+    "odd": 1.44,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Eibar",
+     "model_prob": 0.6526,
+     "trend_alignment": 1.0,
+     "confidence": 66,
+     "eligible": true,
+     "odd": 2.37
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5669,
+     "trend_alignment": 0.031,
+     "confidence": 10,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.5181,
+     "trend_alignment": 0.031,
+     "confidence": 3,
+     "eligible": false,
+     "odd": 1.86
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.4819,
+     "trend_alignment": 0.031,
+     "confidence": 1,
+     "eligible": false,
+     "odd": 1.96
+    }
+   ],
+   "trends": [
+    {
+     "label": "5 vitórias seguidas",
+     "strength": 1.0,
+     "favors": "AWAY",
+     "team": "Eibar",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 5 dos últimos 5",
+     "strength": 0.75,
+     "favors": "AWAY",
+     "team": "Eibar",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "Eibar",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "AWAY",
+     "team": "Albacete",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Menos de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "UNDER",
+     "team": "Albacete",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "under"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Albacete",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Albacete é 22º · Eibar é 2º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Eibar está 20 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "5 vitórias seguidas",
+     "strength": 1.0,
+     "favors": "AWAY",
+     "team": "Eibar",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 5 dos últimos 5",
+     "strength": 0.75,
+     "favors": "AWAY",
+     "team": "Eibar",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "AWAY",
+     "team": "Albacete",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Albacete",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Eibar está 20 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 76,
+   "league": {
+    "key": "laliga2",
+    "name": "LaLiga 2",
+    "country": "Espanha"
+   },
+   "home_team": {
+    "id": 170,
+    "name": "Albacete",
+    "position": 22,
+    "played": 7,
+    "points": 1.0,
+    "record": "0V 1E 6D",
+    "goals_for": 4,
+    "goals_against": 12,
+    "last5": "LLDLL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Girona",
+      "date": "2026-09-25"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Cordoba",
+      "date": "2026-09-18"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Granada",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Castellon",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Real Oviedo",
+      "date": "2026-08-29"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 164,
+    "name": "Eibar",
+    "position": 2,
+    "played": 7,
+    "points": 18.0,
+    "record": "6V 0E 1D",
+    "goals_for": 15,
+    "goals_against": 6,
+    "last5": "WWWWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": true,
+      "opponent": "Las Palmas",
+      "date": "2026-09-27"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "CD Eldense",
+      "date": "2026-09-19"
+     },
+     {
+      "result": "W",
+      "score": "4-0",
+      "home": false,
+      "opponent": "Celta Vigo B",
+      "date": "2026-09-14"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "Granada",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Andorra CF",
+      "date": "2026-08-30"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-03T09:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4751254,
+   "s365_competition_id": 12,
+   "competition_name": "LaLiga 2",
+   "start_time": "2026-10-03T16:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 6160,
+    "name": "Sabadell"
+   },
+   "away": {
+    "id": 9256,
+    "name": "Andorra CF"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.0,
+    "lambda_away": 1.02,
+    "expected_goals": 3.02,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.5996,
+     "DRAW": 0.2126,
+     "AWAY": 0.1878,
+     "1X": 0.8122,
+     "X2": 0.4004,
+     "12": 0.7874,
+     "OVER25": 0.5813,
+     "UNDER25": 0.4187,
+     "BTTS_YES": 0.5536,
+     "BTTS_NO": 0.4464
+    }
+   },
+   "pick": {
+    "selection": "1X",
+    "family": "double_chance",
+    "label": "Dupla chance: Sabadell ou empate (1X)",
+    "model_prob": 0.8122,
+    "trend_alignment": 1.0,
+    "confidence": 68,
+    "eligible": true,
+    "odd": 1.3,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Sabadell",
+     "model_prob": 0.5996,
+     "trend_alignment": 1.0,
+     "confidence": 61,
+     "eligible": true,
+     "odd": 1.99
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5813,
+     "trend_alignment": 0.267,
+     "confidence": 20,
+     "eligible": false,
+     "odd": 2.09
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5536,
+     "trend_alignment": 0.267,
+     "confidence": 16,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Andorra CF",
+     "model_prob": 0.1878,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 3.57
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "HOME",
+     "team": "Andorra CF",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Sofreu gol em todos os últimos 5",
+     "strength": 0.4,
+     "favors": "OVER",
+     "team": "Andorra CF",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "always_concede"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Sabadell",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Sabadell é 7º · Andorra CF é 17º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Sabadell está 10 posições à frente",
+     "strength": 0.714,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "HOME",
+     "team": "Andorra CF",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Sabadell",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Sabadell está 10 posições à frente",
+     "strength": 0.714,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 68,
+   "league": {
+    "key": "laliga2",
+    "name": "LaLiga 2",
+    "country": "Espanha"
+   },
+   "home_team": {
+    "id": 6160,
+    "name": "Sabadell",
+    "position": 7,
+    "played": 7,
+    "points": 12.0,
+    "record": "3V 3E 1D",
+    "goals_for": 8,
+    "goals_against": 6,
+    "last5": "DWLWW",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Celta Vigo B",
+      "date": "2026-09-26"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": true,
+      "opponent": "Real Oviedo",
+      "date": "2026-09-20"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Mallorca",
+      "date": "2026-09-13"
+     },
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": true,
+      "opponent": "Cordoba",
+      "date": "2026-09-07"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Almeria",
+      "date": "2026-08-29"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 9256,
+    "name": "Andorra CF",
+    "position": 17,
+    "played": 7,
+    "points": 6.0,
+    "record": "2V 0E 5D",
+    "goals_for": 12,
+    "goals_against": 15,
+    "last5": "WLLLL",
+    "recent": [
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": false,
+      "opponent": "Granada",
+      "date": "2026-09-26"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": true,
+      "opponent": "Sporting Gijon",
+      "date": "2026-09-19"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": true,
+      "opponent": "Real Sociedad B",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Real Valladolid",
+      "date": "2026-09-05"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Eibar",
+      "date": "2026-08-30"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-03T13:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  }
+ ]
+}

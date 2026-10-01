@@ -21,8 +21,8 @@
     "id": 7204,
     "name": "Junior FC"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 3.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 2.1,
     "lambda_away": 1.27,
@@ -276,7 +276,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": false,
    "below_bar": true
   },
@@ -295,8 +295,8 @@
     "id": 23055,
     "name": "Los Chankas"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 1.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 2.49,
     "lambda_away": 1.22,
@@ -559,7 +559,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "miss",
    "clear": false,
    "below_bar": true
   },
@@ -578,8 +578,8 @@
     "id": 24474,
     "name": "St. Louis City SC"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 0.0,
+   "away_score": 3.0,
    "model": {
     "lambda_home": 1.26,
     "lambda_away": 1.74,
@@ -833,7 +833,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": false,
    "below_bar": true
   }

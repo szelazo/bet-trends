@@ -1,6 +1,6 @@
 {
  "date": "2026-10-02",
- "generated_at": "2026-09-30T17:13:37.126734-03:00",
+ "generated_at": "2026-10-01T08:17:55.115942-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 1,
@@ -49,7 +49,7 @@
     "trend_alignment": 1.0,
     "confidence": 60,
     "eligible": true,
-    "odd": 1.49,
+    "odd": 1.46,
     "low_conviction": false
    },
    "alt_markets": [
@@ -61,7 +61,7 @@
      "trend_alignment": 0.627,
      "confidence": 57,
      "eligible": true,
-     "odd": 1.61
+     "odd": 2.52
     },
     {
      "selection": "BTTS_NO",
@@ -81,7 +81,7 @@
      "trend_alignment": 1.0,
      "confidence": 41,
      "eligible": false,
-     "odd": 2.64
+     "odd": 2.74
     },
     {
      "selection": "1X",
@@ -91,7 +91,7 @@
      "trend_alignment": 0.0,
      "confidence": 6,
      "eligible": false,
-     "odd": 1.47
+     "odd": 1.46
     }
    ],
    "trends": [
@@ -307,27 +307,27 @@
    "away_score": -1.0,
    "model": {
     "lambda_home": 2.21,
-    "lambda_away": 0.72,
-    "expected_goals": 2.94,
+    "lambda_away": 0.73,
+    "expected_goals": 2.93,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.7135,
-     "DRAW": 0.1789,
-     "AWAY": 0.1076,
-     "1X": 0.8924,
-     "X2": 0.2865,
-     "12": 0.8211,
-     "OVER25": 0.5624,
-     "UNDER25": 0.4376,
-     "BTTS_YES": 0.4591,
-     "BTTS_NO": 0.5409
+     "HOME": 0.7125,
+     "DRAW": 0.1794,
+     "AWAY": 0.1082,
+     "1X": 0.8918,
+     "X2": 0.2875,
+     "12": 0.8206,
+     "OVER25": 0.5617,
+     "UNDER25": 0.4383,
+     "BTTS_YES": 0.4594,
+     "BTTS_NO": 0.5406
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Deportivo Cali",
-    "model_prob": 0.7135,
+    "model_prob": 0.7125,
     "trend_alignment": 1.0,
     "confidence": 79,
     "eligible": true,
@@ -339,17 +339,17 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Deportivo Cali ou empate (1X)",
-     "model_prob": 0.8924,
+     "model_prob": 0.8918,
      "trend_alignment": 1.0,
      "confidence": 79,
      "eligible": true,
-     "odd": 1.12
+     "odd": 1.11
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.5624,
+     "model_prob": 0.5617,
      "trend_alignment": 0.306,
      "confidence": 19,
      "eligible": false,
@@ -359,7 +359,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.4591,
+     "model_prob": 0.4594,
      "trend_alignment": 0.306,
      "confidence": 11,
      "eligible": false,
@@ -369,7 +369,7 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.5409,
+     "model_prob": 0.5406,
      "trend_alignment": 0.0,
      "confidence": 5,
      "eligible": false,
@@ -441,7 +441,7 @@
      "kind": "def_bottom"
     },
     {
-     "label": "Deportivo Cali é 2º · Alianza FC é 15º",
+     "label": "Deportivo Cali é 3º · Alianza FC é 15º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -450,7 +450,7 @@
      "kind": "positions"
     },
     {
-     "label": "Deportivo Cali está 13 posições à frente",
+     "label": "Deportivo Cali está 12 posições à frente",
      "strength": 0.8,
      "favors": "HOME",
      "team": null,
@@ -497,7 +497,7 @@
      "kind": "few_losses"
     },
     {
-     "label": "Deportivo Cali está 13 posições à frente",
+     "label": "Deportivo Cali está 12 posições à frente",
      "strength": 0.8,
      "favors": "HOME",
      "team": null,
@@ -515,7 +515,7 @@
    "home_team": {
     "id": 8639,
     "name": "Deportivo Cali",
-    "position": 2,
+    "position": 3,
     "played": 11,
     "points": 21.0,
     "record": "6V 3E 2D",
@@ -659,7 +659,7 @@
     "trend_alignment": 1.0,
     "confidence": 61,
     "eligible": true,
-    "odd": 1.12,
+    "odd": 1.11,
     "low_conviction": false
    },
    "alt_markets": [
@@ -671,7 +671,7 @@
      "trend_alignment": 1.0,
      "confidence": 55,
      "eligible": true,
-     "odd": 1.52
+     "odd": 1.54
     },
     {
      "selection": "OVER25",
@@ -701,7 +701,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 6.5
+     "odd": 7.0
     }
    ],
    "trends": [
