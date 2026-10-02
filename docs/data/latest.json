@@ -1,147 +1,138 @@
 {
- "date": "2026-10-01",
- "generated_at": "2026-10-01T17:12:16.485715-03:00",
+ "date": "2026-10-02",
+ "generated_at": "2026-10-02T08:17:04.942556-03:00",
  "version": "0.1.0",
  "count": 3,
- "clear_count": 0,
- "day_total": 3,
+ "clear_count": 1,
+ "day_total": 7,
  "games": [
   {
-   "id": 4621369,
-   "s365_competition_id": 104,
-   "competition_name": "MLS",
-   "start_time": "2026-10-02T01:30:00+00:00",
+   "id": 4751250,
+   "s365_competition_id": 12,
+   "competition_name": "LaLiga 2",
+   "start_time": "2026-10-02T18:30:00+00:00",
    "status_group": 2,
    "round": "Round",
    "home": {
-    "id": 1347,
-    "name": "Seattle Sounders"
+    "id": 18086,
+    "name": "CD Eldense"
    },
    "away": {
-    "id": 1335,
-    "name": "Sporting KC"
+    "id": 193,
+    "name": "Real Oviedo"
    },
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 2.35,
-    "lambda_away": 1.14,
-    "expected_goals": 3.49,
+    "lambda_home": 0.69,
+    "lambda_away": 0.96,
+    "expected_goals": 1.66,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.6418,
-     "DRAW": 0.1866,
-     "AWAY": 0.1716,
-     "1X": 0.8284,
-     "X2": 0.3582,
-     "12": 0.8134,
-     "OVER25": 0.6774,
-     "UNDER25": 0.3226,
-     "BTTS_YES": 0.6161,
-     "BTTS_NO": 0.3839
+     "HOME": 0.2539,
+     "DRAW": 0.3409,
+     "AWAY": 0.4051,
+     "1X": 0.5949,
+     "X2": 0.7461,
+     "12": 0.6591,
+     "OVER25": 0.2318,
+     "UNDER25": 0.7682,
+     "BTTS_YES": 0.3098,
+     "BTTS_NO": 0.6902
     }
    },
    "pick": {
-    "selection": "HOME",
-    "family": "1x2",
-    "label": "Vitória do Seattle Sounders",
-    "model_prob": 0.6418,
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: Real Oviedo ou empate (X2)",
+    "model_prob": 0.7461,
     "trend_alignment": 1.0,
-    "confidence": 71,
+    "confidence": 60,
     "eligible": true,
-    "odd": 1.48,
+    "odd": 1.53,
     "low_conviction": false
    },
    "alt_markets": [
     {
-     "selection": "1X",
-     "family": "double_chance",
-     "label": "Dupla chance: Seattle Sounders ou empate (1X)",
-     "model_prob": 0.8284,
-     "trend_alignment": 1.0,
-     "confidence": 71,
-     "eligible": true,
-     "odd": 1.15
-    },
-    {
-     "selection": "OVER25",
+     "selection": "UNDER25",
      "family": "over_under",
-     "label": "Mais de 2.5 gols",
-     "model_prob": 0.6774,
-     "trend_alignment": 0.54,
-     "confidence": 42,
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.7682,
+     "trend_alignment": 0.627,
+     "confidence": 57,
      "eligible": true,
-     "odd": 1.82
+     "odd": 2.52
     },
     {
-     "selection": "BTTS_YES",
+     "selection": "BTTS_NO",
      "family": "btts",
-     "label": "Ambos os times marcam",
-     "model_prob": 0.6161,
-     "trend_alignment": 0.54,
-     "confidence": 34,
+     "label": "Ambos marcam: não",
+     "model_prob": 0.6902,
+     "trend_alignment": 0.627,
+     "confidence": 47,
      "eligible": true,
      "odd": null
     },
     {
      "selection": "AWAY",
      "family": "1x2",
-     "label": "Vitória do Sporting KC",
-     "model_prob": 0.1716,
-     "trend_alignment": 0.0,
-     "confidence": 0,
+     "label": "Vitória do Real Oviedo",
+     "model_prob": 0.4051,
+     "trend_alignment": 1.0,
+     "confidence": 41,
      "eligible": false,
-     "odd": 5.48
+     "odd": 2.99
+    },
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: CD Eldense ou empate (1X)",
+     "model_prob": 0.5949,
+     "trend_alignment": 0.0,
+     "confidence": 6,
+     "eligible": false,
+     "odd": 1.4
     }
    ],
    "trends": [
     {
-     "label": "Invicto em 5 dos últimos 5",
-     "strength": 0.55,
-     "favors": "HOME",
-     "team": "Seattle Sounders",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "unbeaten"
-    },
-    {
      "label": "Perdeu 3 dos últimos 5",
      "strength": 0.52,
-     "favors": "HOME",
-     "team": "Sporting KC",
-     "side": "AWAY",
+     "favors": "AWAY",
+     "team": "CD Eldense",
+     "side": "HOME",
      "group": "geral",
      "kind": "losses"
     },
     {
-     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "label": "Menos de 2.5 gols em 4 dos últimos 5",
      "strength": 0.47,
-     "favors": "OVER",
-     "team": "Sporting KC",
+     "favors": "UNDER",
+     "team": "CD Eldense",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "under"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "AWAY",
+     "team": "Real Oviedo",
      "side": "AWAY",
      "group": "geral",
-     "kind": "over"
+     "kind": "unbeaten"
     },
     {
-     "label": "Pior defesa da liga (2.4 sofridos/jogo)",
-     "strength": 0.34,
-     "favors": "OVER",
-     "team": "Sporting KC",
+     "label": "Não sofreu gol em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "UNDER",
+     "team": "Real Oviedo",
      "side": "AWAY",
-     "group": "temporada",
-     "kind": "def_bottom"
+     "group": "geral",
+     "kind": "clean_sheets"
     },
     {
-     "label": "Invicto há 5+ jogos",
-     "strength": 0.333,
-     "favors": "HOME",
-     "team": "Seattle Sounders",
-     "side": "HOME",
-     "group": "sequencia",
-     "kind": "unbeaten_streak"
-    },
-    {
-     "label": "Seattle Sounders é 9º · Sporting KC é 15º",
+     "label": "CD Eldense é 19º · Real Oviedo é 8º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -150,8 +141,317 @@
      "kind": "positions"
     },
     {
-     "label": "Seattle Sounders está 6 posições à frente",
-     "strength": 0.429,
+     "label": "Real Oviedo está 11 posições à frente",
+     "strength": 0.786,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "CD Eldense",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "AWAY",
+     "team": "Real Oviedo",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Real Oviedo está 11 posições à frente",
+     "strength": 0.786,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 60,
+   "league": {
+    "key": "laliga2",
+    "name": "LaLiga 2",
+    "country": "Espanha"
+   },
+   "home_team": {
+    "id": 18086,
+    "name": "CD Eldense",
+    "position": 19,
+    "played": 7,
+    "points": 5.0,
+    "record": "1V 2E 4D",
+    "goals_for": 4,
+    "goals_against": 9,
+    "last5": "LLWDL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Burgos CF",
+      "date": "2026-09-27"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Eibar",
+      "date": "2026-09-19"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Sporting Gijon",
+      "date": "2026-09-13"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Mallorca",
+      "date": "2026-09-05"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "CD Leganés",
+      "date": "2026-08-29"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 193,
+    "name": "Real Oviedo",
+    "position": 8,
+    "played": 7,
+    "points": 11.0,
+    "record": "3V 2E 2D",
+    "goals_for": 7,
+    "goals_against": 4,
+    "last5": "WLWDW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Sporting Gijon",
+      "date": "2026-09-27"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": false,
+      "opponent": "Sabadell",
+      "date": "2026-09-20"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": false,
+      "opponent": "Real Valladolid",
+      "date": "2026-09-13"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Burgos CF",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Albacete",
+      "date": "2026-08-29"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-02T15:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4731968,
+   "s365_competition_id": 620,
+   "competition_name": "Liga BetPlay - Clausura",
+   "start_time": "2026-10-03T00:45:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 8639,
+    "name": "Deportivo Cali"
+   },
+   "away": {
+    "id": 10209,
+    "name": "Alianza FC"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.21,
+    "lambda_away": 0.73,
+    "expected_goals": 2.93,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.7125,
+     "DRAW": 0.1794,
+     "AWAY": 0.1082,
+     "1X": 0.8918,
+     "X2": 0.2875,
+     "12": 0.8206,
+     "OVER25": 0.5617,
+     "UNDER25": 0.4383,
+     "BTTS_YES": 0.4594,
+     "BTTS_NO": 0.5406
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Deportivo Cali",
+    "model_prob": 0.7125,
+    "trend_alignment": 1.0,
+    "confidence": 79,
+    "eligible": true,
+    "odd": 1.53,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Deportivo Cali ou empate (1X)",
+     "model_prob": 0.8918,
+     "trend_alignment": 1.0,
+     "confidence": 79,
+     "eligible": true,
+     "odd": 1.11
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5617,
+     "trend_alignment": 0.306,
+     "confidence": 19,
+     "eligible": false,
+     "odd": 2.05
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.4594,
+     "trend_alignment": 0.306,
+     "confidence": 11,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5406,
+     "trend_alignment": 0.0,
+     "confidence": 5,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "4 vitórias seguidas",
+     "strength": 0.75,
+     "favors": "HOME",
+     "team": "Deportivo Cali",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "HOME",
+     "team": "Deportivo Cali",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Não sofreu gol em 3 dos últimos 5",
+     "strength": 0.39,
+     "favors": "UNDER",
+     "team": "Deportivo Cali",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "clean_sheets"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "Alianza FC",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "2ª melhor defesa da liga (0.7 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "HOME",
+     "team": "Deportivo Cali",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 2 derrota(s) em 11 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "HOME",
+     "team": "Deportivo Cali",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Pior defesa da liga (1.9 sofridos/jogo)",
+     "strength": 0.34,
+     "favors": "OVER",
+     "team": "Alianza FC",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_bottom"
+    },
+    {
+     "label": "Deportivo Cali é 3º · Alianza FC é 15º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Deportivo Cali está 12 posições à frente",
+     "strength": 0.8,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -161,35 +461,44 @@
    ],
    "aligned_trends": [
     {
-     "label": "Invicto em 5 dos últimos 5",
-     "strength": 0.55,
+     "label": "4 vitórias seguidas",
+     "strength": 0.75,
      "favors": "HOME",
-     "team": "Seattle Sounders",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "unbeaten"
-    },
-    {
-     "label": "Perdeu 3 dos últimos 5",
-     "strength": 0.52,
-     "favors": "HOME",
-     "team": "Sporting KC",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Invicto há 5+ jogos",
-     "strength": 0.333,
-     "favors": "HOME",
-     "team": "Seattle Sounders",
+     "team": "Deportivo Cali",
      "side": "HOME",
      "group": "sequencia",
-     "kind": "unbeaten_streak"
+     "kind": "win_streak"
     },
     {
-     "label": "Seattle Sounders está 6 posições à frente",
-     "strength": 0.429,
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "HOME",
+     "team": "Deportivo Cali",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "2ª melhor defesa da liga (0.7 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "HOME",
+     "team": "Deportivo Cali",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 2 derrota(s) em 11 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "HOME",
+     "team": "Deportivo Cali",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Deportivo Cali está 12 posições à frente",
+     "strength": 0.8,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -197,109 +506,109 @@
      "kind": "table_gap"
     }
    ],
-   "confidence": 71,
+   "confidence": 79,
    "league": {
-    "key": "mls",
-    "name": "MLS",
-    "country": "EUA/Canadá"
+    "key": "co_primera",
+    "name": "Liga BetPlay",
+    "country": "Colômbia"
    },
    "home_team": {
-    "id": 1347,
-    "name": "Seattle Sounders",
-    "position": 9,
-    "played": 26,
-    "points": 35.0,
-    "record": "9V 8E 9D",
-    "goals_for": 33,
-    "goals_against": 34,
-    "last5": "WWDDD",
+    "id": 8639,
+    "name": "Deportivo Cali",
+    "position": 3,
+    "played": 11,
+    "points": 21.0,
+    "record": "6V 3E 2D",
+    "goals_for": 17,
+    "goals_against": 8,
+    "last5": "WWWWD",
     "recent": [
-     {
-      "result": "W",
-      "score": "3-1",
-      "home": true,
-      "opponent": "Minnesota United",
-      "date": "2026-09-27"
-     },
      {
       "result": "W",
       "score": "2-0",
       "home": true,
-      "opponent": "Real Salt Lake",
-      "date": "2026-09-24"
+      "opponent": "Águilas Doradas",
+      "date": "2026-09-28"
      },
      {
-      "result": "D",
-      "score": "3-3",
+      "result": "W",
+      "score": "1-0",
       "home": false,
-      "opponent": "Colorado Rapids",
-      "date": "2026-09-20"
+      "opponent": "Independiente Santa Fe",
+      "date": "2026-09-23"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "Cucuta Deportivo",
+      "date": "2026-09-19"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Once Caldas",
+      "date": "2026-09-13"
      },
      {
       "result": "D",
       "score": "1-1",
       "home": false,
-      "opponent": "Los Angeles Galaxy",
-      "date": "2026-09-13"
-     },
-     {
-      "result": "D",
-      "score": "0-0",
-      "home": true,
-      "opponent": "New York Red Bulls",
-      "date": "2026-09-06"
+      "opponent": "Millonarios",
+      "date": "2026-09-11"
      }
     ]
    },
    "away_team": {
-    "id": 1335,
-    "name": "Sporting KC",
+    "id": 10209,
+    "name": "Alianza FC",
     "position": 15,
-    "played": 26,
-    "points": 21.0,
-    "record": "6V 3E 17D",
-    "goals_for": 31,
-    "goals_against": 63,
-    "last5": "WLWLL",
+    "played": 11,
+    "points": 11.0,
+    "record": "3V 2E 6D",
+    "goals_for": 11,
+    "goals_against": 21,
+    "last5": "WLWWL",
     "recent": [
      {
       "result": "W",
-      "score": "2-0",
+      "score": "2-1",
       "home": false,
-      "opponent": "Houston Dynamo",
+      "opponent": "Jaguares de Córdoba",
       "date": "2026-09-27"
      },
      {
       "result": "L",
-      "score": "3-4",
+      "score": "1-4",
       "home": true,
-      "opponent": "Philadelphia Union",
-      "date": "2026-09-20"
+      "opponent": "Independiente Santa Fe",
+      "date": "2026-09-19"
      },
      {
       "result": "W",
-      "score": "3-1",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Boyaca Chico",
+      "date": "2026-09-16"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
       "home": true,
-      "opponent": "Los Angeles FC",
+      "opponent": "Junior FC",
       "date": "2026-09-13"
      },
      {
       "result": "L",
-      "score": "3-4",
-      "home": false,
-      "opponent": "FC Dallas",
-      "date": "2026-09-06"
-     },
-     {
-      "result": "L",
       "score": "0-3",
-      "home": true,
-      "opponent": "Vancouver Whitecaps",
-      "date": "2026-08-30"
+      "home": false,
+      "opponent": "America de Cali",
+      "date": "2026-09-03"
      }
     ]
    },
-   "kickoff_local": "2026-10-01T22:30:00-03:00",
+   "kickoff_local": "2026-10-02T21:45:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
@@ -308,501 +617,317 @@
    "below_bar": true
   },
   {
-   "id": 4827801,
-   "s365_competition_id": 640,
-   "competition_name": "Copa Argentina - Quarter Finals",
-   "start_time": "2026-10-02T00:15:00+00:00",
+   "id": 4633285,
+   "s365_competition_id": 72,
+   "competition_name": "Liga Profesional - Clausura",
+   "start_time": "2026-10-03T00:30:00+00:00",
    "status_group": 2,
    "round": "Round",
    "home": {
-    "id": 7207,
-    "name": "Platense"
+    "id": 866,
+    "name": "Boca Juniors"
    },
    "away": {
-    "id": 867,
-    "name": "Estudiantes de La Plata"
+    "id": 7206,
+    "name": "Union Santa Fe"
    },
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 1.08,
-    "lambda_away": 0.91,
-    "expected_goals": 1.99,
+    "lambda_home": 2.06,
+    "lambda_away": 1.33,
+    "expected_goals": 3.39,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.3922,
-     "DRAW": 0.3075,
-     "AWAY": 0.3003,
-     "1X": 0.6997,
-     "X2": 0.6078,
-     "12": 0.6925,
-     "OVER25": 0.3215,
-     "UNDER25": 0.6785,
-     "BTTS_YES": 0.3951,
-     "BTTS_NO": 0.6049
+     "HOME": 0.543,
+     "DRAW": 0.2122,
+     "AWAY": 0.2448,
+     "1X": 0.7552,
+     "X2": 0.457,
+     "12": 0.7878,
+     "OVER25": 0.6588,
+     "UNDER25": 0.3412,
+     "BTTS_YES": 0.6422,
+     "BTTS_NO": 0.3578
     }
    },
    "pick": {
     "selection": "1X",
     "family": "double_chance",
-    "label": "Dupla chance: Platense ou empate (1X)",
-    "model_prob": 0.6997,
-    "trend_alignment": 0.625,
-    "confidence": 41,
+    "label": "Dupla chance: Boca Juniors ou empate (1X)",
+    "model_prob": 0.7552,
+    "trend_alignment": 1.0,
+    "confidence": 61,
     "eligible": true,
-    "odd": 1.6,
+    "odd": 1.11,
     "low_conviction": false
    },
    "alt_markets": [
     {
      "selection": "HOME",
      "family": "1x2",
-     "label": "Vitória do Platense",
-     "model_prob": 0.3922,
-     "trend_alignment": 0.625,
-     "confidence": 27,
-     "eligible": false,
-     "odd": 3.61
+     "label": "Vitória do Boca Juniors",
+     "model_prob": 0.543,
+     "trend_alignment": 1.0,
+     "confidence": 55,
+     "eligible": true,
+     "odd": 1.54
     },
     {
-     "selection": "UNDER25",
+     "selection": "OVER25",
      "family": "over_under",
-     "label": "Menos de 2.5 gols",
-     "model_prob": 0.6785,
-     "trend_alignment": 0.06,
-     "confidence": 25,
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6588,
+     "trend_alignment": 0.967,
+     "confidence": 54,
      "eligible": true,
-     "odd": 2.08
-    },
-    {
-     "selection": "BTTS_NO",
-     "family": "btts",
-     "label": "Ambos marcam: não",
-     "model_prob": 0.6049,
-     "trend_alignment": 0.06,
-     "confidence": 16,
-     "eligible": true,
-     "odd": null
-    },
-    {
-     "selection": "X2",
-     "family": "double_chance",
-     "label": "Dupla chance: Estudiantes de La Plata ou empate (X2)",
-     "model_prob": 0.6078,
-     "trend_alignment": 0.0,
-     "confidence": 8,
-     "eligible": false,
-     "odd": 1.3
-    }
-   ],
-   "trends": [
-    {
-     "label": "Perdeu 3 dos últimos 4 fora de casa",
-     "strength": 0.588,
-     "favors": "HOME",
-     "team": "Estudiantes de La Plata",
-     "side": "AWAY",
-     "group": "casa_fora",
-     "kind": "losses"
-    },
-    {
-     "label": "Menos de 2.5 gols em 3 dos últimos 4 fora de casa",
-     "strength": 0.45,
-     "favors": "UNDER",
-     "team": "Estudiantes de La Plata",
-     "side": "AWAY",
-     "group": "casa_fora",
-     "kind": "under"
-    },
-    {
-     "label": "Sofreu gol em todos os últimos 6",
-     "strength": 0.4,
-     "favors": "OVER",
-     "team": "Platense",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "always_concede"
-    },
-    {
-     "label": "Não marcou em 3 dos últimos 6",
-     "strength": 0.35,
-     "favors": "HOME",
-     "team": "Estudiantes de La Plata",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "no_score"
-    },
-    {
-     "label": "Platense é 13º · Estudiantes de La Plata é 11º",
-     "strength": 0.0,
-     "favors": null,
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "positions"
-    }
-   ],
-   "aligned_trends": [
-    {
-     "label": "Perdeu 3 dos últimos 4 fora de casa",
-     "strength": 0.588,
-     "favors": "HOME",
-     "team": "Estudiantes de La Plata",
-     "side": "AWAY",
-     "group": "casa_fora",
-     "kind": "losses"
-    },
-    {
-     "label": "Não marcou em 3 dos últimos 6",
-     "strength": 0.35,
-     "favors": "HOME",
-     "team": "Estudiantes de La Plata",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "no_score"
-    }
-   ],
-   "confidence": 41,
-   "league": {
-    "key": "copa_ar",
-    "name": "Copa Argentina",
-    "country": "Argentina"
-   },
-   "home_team": {
-    "id": 7207,
-    "name": "Platense",
-    "position": 13,
-    "played": 10,
-    "points": 9.0,
-    "record": "2V 3E 5D",
-    "goals_for": 9,
-    "goals_against": 15,
-    "last5": "LWLDL",
-    "recent": [
-     {
-      "result": "L",
-      "score": "0-1",
-      "home": true,
-      "opponent": "Newell's Old Boys",
-      "date": "2026-09-20"
-     },
-     {
-      "result": "W",
-      "score": "2-1",
-      "home": true,
-      "opponent": "Fluminense",
-      "date": "2026-09-15"
-     },
-     {
-      "result": "L",
-      "score": "1-2",
-      "home": false,
-      "opponent": "Estudiantes de La Plata",
-      "date": "2026-09-12"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": true,
-      "opponent": "Riestra",
-      "date": "2026-09-04"
-     },
-     {
-      "result": "L",
-      "score": "0-1",
-      "home": false,
-      "opponent": "Defensa Y Justicia",
-      "date": "2026-08-31"
-     }
-    ]
-   },
-   "away_team": {
-    "id": 867,
-    "name": "Estudiantes de La Plata",
-    "position": 11,
-    "played": 10,
-    "points": 10.0,
-    "record": "3V 1E 6D",
-    "goals_for": 10,
-    "goals_against": 11,
-    "last5": "LWWLD",
-    "recent": [
-     {
-      "result": "L",
-      "score": "1-2",
-      "home": false,
-      "opponent": "Lanus",
-      "date": "2026-09-22"
-     },
-     {
-      "result": "W",
-      "score": "1-0",
-      "home": false,
-      "opponent": "Corinthians",
-      "date": "2026-09-17"
-     },
-     {
-      "result": "W",
-      "score": "2-1",
-      "home": true,
-      "opponent": "Platense",
-      "date": "2026-09-12"
-     },
-     {
-      "result": "L",
-      "score": "0-1",
-      "home": false,
-      "opponent": "Velez Sarsfield",
-      "date": "2026-09-06"
-     },
-     {
-      "result": "D",
-      "score": "0-0",
-      "home": true,
-      "opponent": "Newell's Old Boys",
-      "date": "2026-08-31"
-     }
-    ]
-   },
-   "kickoff_local": "2026-10-01T21:15:00-03:00",
-   "has_odds": true,
-   "odds_bookmaker": "365Scores",
-   "is_cup": true,
-   "result": "pending",
-   "clear": false,
-   "below_bar": true
-  },
-  {
-   "id": 4731929,
-   "s365_competition_id": 620,
-   "competition_name": "Liga BetPlay - Clausura",
-   "start_time": "2026-10-02T01:00:00+00:00",
-   "status_group": 2,
-   "round": "Round",
-   "home": {
-    "id": 8542,
-    "name": "Internacional de Bogota"
-   },
-   "away": {
-    "id": 7289,
-    "name": "Once Caldas"
-   },
-   "home_score": -1.0,
-   "away_score": -1.0,
-   "model": {
-    "lambda_home": 1.54,
-    "lambda_away": 1.07,
-    "expected_goals": 2.61,
-    "sample_factor": 1.0,
-    "probs": {
-     "HOME": 0.4816,
-     "DRAW": 0.2547,
-     "AWAY": 0.2637,
-     "1X": 0.7363,
-     "X2": 0.5184,
-     "12": 0.7453,
-     "OVER25": 0.4843,
-     "UNDER25": 0.5157,
-     "BTTS_YES": 0.5163,
-     "BTTS_NO": 0.4837
-    }
-   },
-   "pick": {
-    "selection": "1X",
-    "family": "double_chance",
-    "label": "Dupla chance: Internacional de Bogota ou empate (1X)",
-    "model_prob": 0.7363,
-    "trend_alignment": 0.119,
-    "confidence": 29,
-    "eligible": true,
-    "odd": 1.53,
-    "low_conviction": true
-   },
-   "alt_markets": [
-    {
-     "selection": "HOME",
-     "family": "1x2",
-     "label": "Vitória do Internacional de Bogota",
-     "model_prob": 0.4816,
-     "trend_alignment": 0.119,
-     "confidence": 18,
-     "eligible": true,
-     "odd": 2.86
-    },
-    {
-     "selection": "UNDER25",
-     "family": "over_under",
-     "label": "Menos de 2.5 gols",
-     "model_prob": 0.5157,
-     "trend_alignment": 0.0,
-     "confidence": 2,
-     "eligible": false,
-     "odd": 1.78
+     "odd": 2.11
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5163,
-     "trend_alignment": 0.0,
-     "confidence": 2,
-     "eligible": false,
+     "model_prob": 0.6422,
+     "trend_alignment": 0.967,
+     "confidence": 52,
+     "eligible": true,
      "odd": null
     },
     {
      "selection": "AWAY",
      "family": "1x2",
-     "label": "Vitória do Once Caldas",
-     "model_prob": 0.2637,
+     "label": "Vitória do Union Santa Fe",
+     "model_prob": 0.2448,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 2.49
+     "odd": 7.0
     }
    ],
    "trends": [
     {
-     "label": "Perdeu 4 dos últimos 5",
-     "strength": 0.61,
+     "label": "Invicto há 7+ jogos",
+     "strength": 0.667,
      "favors": "HOME",
-     "team": "Once Caldas",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "losses"
+     "team": "Boca Juniors",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
     },
     {
-     "label": "Só venceu 1 dos últimos 5",
-     "strength": 0.48,
-     "favors": "AWAY",
-     "team": "Internacional de Bogota",
+     "label": "Invicto em 7 dos últimos 7",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Boca Juniors",
      "side": "HOME",
      "group": "geral",
-     "kind": "winless"
+     "kind": "unbeaten"
     },
     {
-     "label": "Internacional de Bogota é 11º · Once Caldas é 10º",
+     "label": "Ambos marcaram em 5 dos últimos 7",
+     "strength": 0.4,
+     "favors": "BTTS_YES",
+     "team": "Boca Juniors",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "btts"
+    },
+    {
+     "label": "Mais de 2.5 gols em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "OVER",
+     "team": "Union Santa Fe",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Ambos marcaram em 5 dos últimos 5",
+     "strength": 0.5,
+     "favors": "BTTS_YES",
+     "team": "Union Santa Fe",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "btts"
+    },
+    {
+     "label": "Melhor ataque da liga (1.7 marcados/jogo)",
+     "strength": 0.44,
+     "favors": "AWAY",
+     "team": "Union Santa Fe",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Só 1 derrota(s) em 10 jogos no campeonato",
+     "strength": 0.42,
+     "favors": "HOME",
+     "team": "Boca Juniors",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Boca Juniors é 5º · Union Santa Fe é 9º",
      "strength": 0.0,
      "favors": null,
      "team": null,
      "side": null,
      "group": "confronto",
      "kind": "positions"
+    },
+    {
+     "label": "Boca Juniors está 4 posições à frente",
+     "strength": 0.286,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
     }
    ],
    "aligned_trends": [
     {
-     "label": "Perdeu 4 dos últimos 5",
-     "strength": 0.61,
+     "label": "Invicto há 7+ jogos",
+     "strength": 0.667,
      "favors": "HOME",
-     "team": "Once Caldas",
-     "side": "AWAY",
+     "team": "Boca Juniors",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Invicto em 7 dos últimos 7",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Boca Juniors",
+     "side": "HOME",
      "group": "geral",
-     "kind": "losses"
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Só 1 derrota(s) em 10 jogos no campeonato",
+     "strength": 0.42,
+     "favors": "HOME",
+     "team": "Boca Juniors",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Boca Juniors está 4 posições à frente",
+     "strength": 0.286,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
     }
    ],
-   "confidence": 29,
+   "confidence": 61,
    "league": {
-    "key": "co_primera",
-    "name": "Liga BetPlay",
-    "country": "Colômbia"
+    "key": "ar_primera",
+    "name": "Liga Profesional",
+    "country": "Argentina"
    },
    "home_team": {
-    "id": 8542,
-    "name": "Internacional de Bogota",
-    "position": 11,
-    "played": 12,
-    "points": 12.0,
-    "record": "2V 6E 4D",
-    "goals_for": 13,
-    "goals_against": 17,
-    "last5": "DLLWD",
+    "id": 866,
+    "name": "Boca Juniors",
+    "position": 5,
+    "played": 10,
+    "points": 17.0,
+    "record": "4V 5E 1D",
+    "goals_for": 14,
+    "goals_against": 11,
+    "last5": "WWDWD",
     "recent": [
-     {
-      "result": "D",
-      "score": "0-0",
-      "home": false,
-      "opponent": "Deportivo Pereira",
-      "date": "2026-09-26"
-     },
-     {
-      "result": "L",
-      "score": "0-2",
-      "home": false,
-      "opponent": "Atlético Bucaramanga",
-      "date": "2026-09-20"
-     },
-     {
-      "result": "L",
-      "score": "2-3",
-      "home": true,
-      "opponent": "Atletico Nacional",
-      "date": "2026-09-17"
-     },
      {
       "result": "W",
       "score": "3-2",
+      "home": false,
+      "opponent": "Racing Club",
+      "date": "2026-09-27"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "San Lorenzo",
+      "date": "2026-09-20"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "São Paulo",
+      "date": "2026-09-16"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
       "home": true,
-      "opponent": "Llaneros FC",
+      "opponent": "Central Córdoba SdE",
       "date": "2026-09-12"
      },
      {
       "result": "D",
       "score": "2-2",
-      "home": true,
-      "opponent": "Águilas Doradas",
-      "date": "2026-09-06"
-     }
-    ]
-   },
-   "away_team": {
-    "id": 7289,
-    "name": "Once Caldas",
-    "position": 10,
-    "played": 11,
-    "points": 12.0,
-    "record": "3V 3E 5D",
-    "goals_for": 14,
-    "goals_against": 15,
-    "last5": "LLWLL",
-    "recent": [
-     {
-      "result": "L",
-      "score": "1-3",
-      "home": true,
-      "opponent": "Atlético Bucaramanga",
-      "date": "2026-09-26"
-     },
-     {
-      "result": "L",
-      "score": "0-1",
       "home": false,
-      "opponent": "Deportivo Pasto",
-      "date": "2026-09-20"
-     },
-     {
-      "result": "W",
-      "score": "1-0",
-      "home": true,
-      "opponent": "Deportes Tolima",
-      "date": "2026-09-16"
-     },
-     {
-      "result": "L",
-      "score": "1-2",
-      "home": true,
-      "opponent": "Deportivo Cali",
-      "date": "2026-09-13"
-     },
-     {
-      "result": "L",
-      "score": "0-2",
-      "home": false,
-      "opponent": "Boyaca Chico",
+      "opponent": "Gimnasia Mendoza",
       "date": "2026-09-05"
      }
     ]
    },
-   "kickoff_local": "2026-10-01T22:00:00-03:00",
+   "away_team": {
+    "id": 7206,
+    "name": "Union Santa Fe",
+    "position": 9,
+    "played": 10,
+    "points": 13.0,
+    "record": "4V 1E 5D",
+    "goals_for": 17,
+    "goals_against": 16,
+    "last5": "LLWWW",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Independiente",
+      "date": "2026-09-19"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Talleres Cordoba",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": true,
+      "opponent": "Instituto AC Cordoba",
+      "date": "2026-09-08"
+     },
+     {
+      "result": "W",
+      "score": "4-1",
+      "home": true,
+      "opponent": "Sarmiento Junin",
+      "date": "2026-08-28"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": false,
+      "opponent": "Aldosivi",
+      "date": "2026-08-21"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-02T21:30:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,

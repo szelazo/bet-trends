@@ -1,6 +1,6 @@
 {
  "date": "2026-10-03",
- "generated_at": "2026-10-01T17:12:18.249140-03:00",
+ "generated_at": "2026-10-02T08:17:05.717844-03:00",
  "version": "0.1.0",
  "count": 4,
  "clear_count": 4,
@@ -49,7 +49,7 @@
     "trend_alignment": 1.0,
     "confidence": 81,
     "eligible": true,
-    "odd": 1.61,
+    "odd": 1.59,
     "low_conviction": false
    },
    "alt_markets": [
@@ -81,7 +81,7 @@
      "trend_alignment": 0.463,
      "confidence": 28,
      "eligible": false,
-     "odd": 1.85
+     "odd": 1.75
     },
     {
      "selection": "AWAY",
@@ -730,7 +730,7 @@
     "trend_alignment": 1.0,
     "confidence": 76,
     "eligible": true,
-    "odd": 1.45,
+    "odd": 1.47,
     "low_conviction": false
    },
    "alt_markets": [
@@ -742,7 +742,7 @@
      "trend_alignment": 1.0,
      "confidence": 66,
      "eligible": true,
-     "odd": 2.37
+     "odd": 2.52
     },
     {
      "selection": "BTTS_NO",

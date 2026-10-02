@@ -21,8 +21,8 @@
     "id": 1335,
     "name": "Sporting KC"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 2.35,
     "lambda_away": 1.14,
@@ -303,7 +303,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": false,
    "below_bar": true
   },
@@ -322,8 +322,8 @@
     "id": 867,
     "name": "Estudiantes de La Plata"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 1.0,
+   "away_score": 0.0,
    "model": {
     "lambda_home": 1.08,
     "lambda_away": 0.91,
@@ -568,7 +568,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": true,
-   "result": "pending",
+   "result": "hit",
    "clear": false,
    "below_bar": true
   },
@@ -806,7 +806,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": false,
    "below_bar": true
   }
