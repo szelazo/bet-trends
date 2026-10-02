@@ -1,6 +1,6 @@
 {
  "date": "2026-10-03",
- "generated_at": "2026-10-02T08:17:05.717844-03:00",
+ "generated_at": "2026-10-02T17:10:42.354733-03:00",
  "version": "0.1.0",
  "count": 4,
  "clear_count": 4,
@@ -710,27 +710,27 @@
     "expected_goals": 2.6,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.1341,
-     "DRAW": 0.2133,
-     "AWAY": 0.6526,
-     "1X": 0.3474,
-     "X2": 0.8659,
-     "12": 0.7867,
-     "OVER25": 0.4819,
-     "UNDER25": 0.5181,
-     "BTTS_YES": 0.4331,
-     "BTTS_NO": 0.5669
+     "HOME": 0.1344,
+     "DRAW": 0.2136,
+     "AWAY": 0.652,
+     "1X": 0.348,
+     "X2": 0.8656,
+     "12": 0.7864,
+     "OVER25": 0.4815,
+     "UNDER25": 0.5185,
+     "BTTS_YES": 0.4332,
+     "BTTS_NO": 0.5668
     }
    },
    "pick": {
     "selection": "X2",
     "family": "double_chance",
     "label": "Dupla chance: Eibar ou empate (X2)",
-    "model_prob": 0.8659,
+    "model_prob": 0.8656,
     "trend_alignment": 1.0,
     "confidence": 76,
     "eligible": true,
-    "odd": 1.47,
+    "odd": 1.48,
     "low_conviction": false
    },
    "alt_markets": [
@@ -738,17 +738,17 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Eibar",
-     "model_prob": 0.6526,
+     "model_prob": 0.652,
      "trend_alignment": 1.0,
      "confidence": 66,
      "eligible": true,
-     "odd": 2.52
+     "odd": 2.47
     },
     {
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.5669,
+     "model_prob": 0.5668,
      "trend_alignment": 0.031,
      "confidence": 10,
      "eligible": false,
@@ -758,7 +758,7 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.5181,
+     "model_prob": 0.5185,
      "trend_alignment": 0.031,
      "confidence": 3,
      "eligible": false,
@@ -768,7 +768,7 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.4819,
+     "model_prob": 0.4815,
      "trend_alignment": 0.031,
      "confidence": 1,
      "eligible": false,
@@ -1028,27 +1028,27 @@
     "expected_goals": 3.02,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.5996,
-     "DRAW": 0.2126,
-     "AWAY": 0.1878,
-     "1X": 0.8122,
-     "X2": 0.4004,
-     "12": 0.7874,
-     "OVER25": 0.5813,
-     "UNDER25": 0.4187,
-     "BTTS_YES": 0.5536,
-     "BTTS_NO": 0.4464
+     "HOME": 0.5994,
+     "DRAW": 0.2127,
+     "AWAY": 0.1879,
+     "1X": 0.8121,
+     "X2": 0.4006,
+     "12": 0.7873,
+     "OVER25": 0.5808,
+     "UNDER25": 0.4192,
+     "BTTS_YES": 0.5532,
+     "BTTS_NO": 0.4468
     }
    },
    "pick": {
     "selection": "1X",
     "family": "double_chance",
     "label": "Dupla chance: Sabadell ou empate (1X)",
-    "model_prob": 0.8122,
+    "model_prob": 0.8121,
     "trend_alignment": 1.0,
     "confidence": 68,
     "eligible": true,
-    "odd": 1.3,
+    "odd": 1.28,
     "low_conviction": false
    },
    "alt_markets": [
@@ -1056,7 +1056,7 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Sabadell",
-     "model_prob": 0.5996,
+     "model_prob": 0.5994,
      "trend_alignment": 1.0,
      "confidence": 61,
      "eligible": true,
@@ -1066,17 +1066,17 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.5813,
+     "model_prob": 0.5808,
      "trend_alignment": 0.267,
      "confidence": 20,
      "eligible": false,
-     "odd": 2.09
+     "odd": 2.06
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5536,
+     "model_prob": 0.5532,
      "trend_alignment": 0.267,
      "confidence": 16,
      "eligible": false,
@@ -1086,11 +1086,11 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Andorra CF",
-     "model_prob": 0.1878,
+     "model_prob": 0.1879,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 3.57
+     "odd": 3.72
     }
    ],
    "trends": [
@@ -1122,7 +1122,7 @@
      "kind": "unbeaten"
     },
     {
-     "label": "Sabadell é 7º · Andorra CF é 17º",
+     "label": "Sabadell é 7º · Andorra CF é 18º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -1131,8 +1131,8 @@
      "kind": "positions"
     },
     {
-     "label": "Sabadell está 10 posições à frente",
-     "strength": 0.714,
+     "label": "Sabadell está 11 posições à frente",
+     "strength": 0.786,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -1160,8 +1160,8 @@
      "kind": "unbeaten"
     },
     {
-     "label": "Sabadell está 10 posições à frente",
-     "strength": 0.714,
+     "label": "Sabadell está 11 posições à frente",
+     "strength": 0.786,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -1226,7 +1226,7 @@
    "away_team": {
     "id": 9256,
     "name": "Andorra CF",
-    "position": 17,
+    "position": 18,
     "played": 7,
     "points": 6.0,
     "record": "2V 0E 5D",
