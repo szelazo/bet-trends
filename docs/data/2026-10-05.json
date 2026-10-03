@@ -1,0 +1,877 @@
+{
+ "date": "2026-10-05",
+ "generated_at": "2026-10-03T10:26:33.096227-03:00",
+ "version": "0.1.0",
+ "count": 3,
+ "clear_count": 0,
+ "day_total": 9,
+ "games": [
+  {
+   "id": 4633280,
+   "s365_competition_id": 72,
+   "competition_name": "Liga Profesional - Clausura",
+   "start_time": "2026-10-05T22:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 872,
+    "name": "Velez Sarsfield"
+   },
+   "away": {
+    "id": 7207,
+    "name": "Platense"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.79,
+    "lambda_away": 0.8,
+    "expected_goals": 2.58,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.6095,
+     "DRAW": 0.2278,
+     "AWAY": 0.1627,
+     "1X": 0.8373,
+     "X2": 0.3905,
+     "12": 0.7722,
+     "OVER25": 0.4774,
+     "UNDER25": 0.5226,
+     "BTTS_YES": 0.457,
+     "BTTS_NO": 0.543
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Velez Sarsfield",
+    "model_prob": 0.6095,
+    "trend_alignment": 1.0,
+    "confidence": 72,
+    "eligible": true,
+    "odd": 1.88,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Velez Sarsfield ou empate (1X)",
+     "model_prob": 0.8373,
+     "trend_alignment": 1.0,
+     "confidence": 72,
+     "eligible": true,
+     "odd": 1.18
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.4774,
+     "trend_alignment": 0.287,
+     "confidence": 10,
+     "eligible": false,
+     "odd": 1.62
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.457,
+     "trend_alignment": 0.287,
+     "confidence": 10,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.543,
+     "trend_alignment": 0.0,
+     "confidence": 6,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Invicto em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Velez Sarsfield",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Ambos marcaram em 4 dos últimos 5",
+     "strength": 0.43,
+     "favors": "BTTS_YES",
+     "team": "Velez Sarsfield",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "btts"
+    },
+    {
+     "label": "Só 0 derrota(s) em 10 jogos no campeonato",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Velez Sarsfield",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Velez Sarsfield",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Velez Sarsfield é 3º · Platense é 13º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Velez Sarsfield está 10 posições à frente",
+     "strength": 0.714,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Invicto em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Velez Sarsfield",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Só 0 derrota(s) em 10 jogos no campeonato",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Velez Sarsfield",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Velez Sarsfield",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Velez Sarsfield está 10 posições à frente",
+     "strength": 0.714,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 72,
+   "league": {
+    "key": "ar_primera",
+    "name": "Liga Profesional",
+    "country": "Argentina"
+   },
+   "home_team": {
+    "id": 872,
+    "name": "Velez Sarsfield",
+    "position": 3,
+    "played": 10,
+    "points": 20.0,
+    "record": "5V 5E 0D",
+    "goals_for": 15,
+    "goals_against": 9,
+    "last5": "WDWDD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": true,
+      "opponent": "Tigre",
+      "date": "2026-09-21"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Newell's Old Boys",
+      "date": "2026-09-11"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Estudiantes de La Plata",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Riestra",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "River Plate",
+      "date": "2026-08-23"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 7207,
+    "name": "Platense",
+    "position": 13,
+    "played": 10,
+    "points": 9.0,
+    "record": "2V 3E 5D",
+    "goals_for": 9,
+    "goals_against": 15,
+    "last5": "WLWLD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Estudiantes de La Plata",
+      "date": "2026-10-02"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Newell's Old Boys",
+      "date": "2026-09-20"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Fluminense",
+      "date": "2026-09-15"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Estudiantes de La Plata",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Riestra",
+      "date": "2026-09-04"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-05T19:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": false,
+   "below_bar": true
+  },
+  {
+   "id": 4764204,
+   "s365_competition_id": 621,
+   "competition_name": "Copa de Primera - Clausura",
+   "start_time": "2026-10-05T20:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 14640,
+    "name": "Sportivo Trinidense"
+   },
+   "away": {
+    "id": 8778,
+    "name": "Sportivo Luqueño"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.19,
+    "lambda_away": 0.75,
+    "expected_goals": 2.95,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.703,
+     "DRAW": 0.1826,
+     "AWAY": 0.1144,
+     "1X": 0.8856,
+     "X2": 0.297,
+     "12": 0.8174,
+     "OVER25": 0.5645,
+     "UNDER25": 0.4355,
+     "BTTS_YES": 0.4703,
+     "BTTS_NO": 0.5297
+    }
+   },
+   "pick": {
+    "selection": "1X",
+    "family": "double_chance",
+    "label": "Dupla chance: Sportivo Trinidense ou empate (1X)",
+    "model_prob": 0.8856,
+    "trend_alignment": 0.56,
+    "confidence": 64,
+    "eligible": true,
+    "odd": 1.25,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Sportivo Trinidense",
+     "model_prob": 0.703,
+     "trend_alignment": 0.56,
+     "confidence": 55,
+     "eligible": true,
+     "odd": 1.79
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5645,
+     "trend_alignment": 0.313,
+     "confidence": 19,
+     "eligible": false,
+     "odd": 2.09
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.4703,
+     "trend_alignment": 0.313,
+     "confidence": 11,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5297,
+     "trend_alignment": 0.0,
+     "confidence": 4,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Sportivo Luqueño",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "Sportivo Trinidense",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "2º melhor ataque da liga (1.7 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Sportivo Trinidense",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Sportivo Trinidense é 6º · Sportivo Luqueño é 9º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Sportivo Luqueño",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "2º melhor ataque da liga (1.7 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Sportivo Trinidense",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    }
+   ],
+   "confidence": 64,
+   "league": {
+    "key": "py_primera",
+    "name": "Copa de Primera",
+    "country": "Paraguai"
+   },
+   "home_team": {
+    "id": 14640,
+    "name": "Sportivo Trinidense",
+    "position": 6,
+    "played": 12,
+    "points": 20.0,
+    "record": "6V 2E 4D",
+    "goals_for": 20,
+    "goals_against": 11,
+    "last5": "WLWLW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Cerro Porteño",
+      "date": "2026-09-26"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Club Guarani",
+      "date": "2026-09-18"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": false,
+      "opponent": "Recoleta FC",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Olimpia",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": false,
+      "opponent": "Sportivo Ameliano",
+      "date": "2026-09-02"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 8778,
+    "name": "Sportivo Luqueño",
+    "position": 9,
+    "played": 12,
+    "points": 13.0,
+    "record": "4V 1E 7D",
+    "goals_for": 12,
+    "goals_against": 21,
+    "last5": "LWLLD",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Club Guarani",
+      "date": "2026-09-25"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Recoleta FC",
+      "date": "2026-09-20"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": false,
+      "opponent": "Olimpia",
+      "date": "2026-09-13"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Sportivo Ameliano",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "2 de Mayo",
+      "date": "2026-09-01"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-05T17:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": false,
+   "below_bar": true
+  },
+  {
+   "id": 4633274,
+   "s365_competition_id": 72,
+   "competition_name": "Liga Profesional - Clausura",
+   "start_time": "2026-10-06T00:15:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 878,
+    "name": "Banfield"
+   },
+   "away": {
+    "id": 875,
+    "name": "Rosario Central"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.18,
+    "lambda_away": 1.45,
+    "expected_goals": 2.63,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.3091,
+     "DRAW": 0.2593,
+     "AWAY": 0.4316,
+     "1X": 0.5684,
+     "X2": 0.6909,
+     "12": 0.7407,
+     "OVER25": 0.4896,
+     "UNDER25": 0.5104,
+     "BTTS_YES": 0.5309,
+     "BTTS_NO": 0.4691
+    }
+   },
+   "pick": {
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: Rosario Central ou empate (X2)",
+    "model_prob": 0.6909,
+    "trend_alignment": 1.0,
+    "confidence": 52,
+    "eligible": true,
+    "odd": 1.25,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Rosario Central",
+     "model_prob": 0.4316,
+     "trend_alignment": 1.0,
+     "confidence": 44,
+     "eligible": false,
+     "odd": 1.94
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5309,
+     "trend_alignment": 0.533,
+     "confidence": 23,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.4896,
+     "trend_alignment": 0.533,
+     "confidence": 19,
+     "eligible": false,
+     "odd": 2.21
+    },
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Banfield ou empate (1X)",
+     "model_prob": 0.5684,
+     "trend_alignment": 0.0,
+     "confidence": 3,
+     "eligible": false,
+     "odd": 1.82
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Banfield",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Ambos marcaram em 5 dos últimos 5",
+     "strength": 0.5,
+     "favors": "BTTS_YES",
+     "team": "Banfield",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "btts"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "AWAY",
+     "team": "Rosario Central",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Marcou em todos os últimos 5",
+     "strength": 0.3,
+     "favors": "OVER",
+     "team": "Rosario Central",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "always_score"
+    },
+    {
+     "label": "Só 2 derrota(s) em 10 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "AWAY",
+     "team": "Rosario Central",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Banfield",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Banfield é 12º · Rosario Central é 2º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Rosario Central está 10 posições à frente",
+     "strength": 0.714,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Banfield",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "AWAY",
+     "team": "Rosario Central",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Só 2 derrota(s) em 10 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "AWAY",
+     "team": "Rosario Central",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Banfield",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Rosario Central está 10 posições à frente",
+     "strength": 0.714,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 52,
+   "league": {
+    "key": "ar_primera",
+    "name": "Liga Profesional",
+    "country": "Argentina"
+   },
+   "home_team": {
+    "id": 878,
+    "name": "Banfield",
+    "position": 12,
+    "played": 10,
+    "points": 9.0,
+    "record": "2V 3E 5D",
+    "goals_for": 11,
+    "goals_against": 16,
+    "last5": "DDLLL",
+    "recent": [
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "Gimnasia La Plata",
+      "date": "2026-09-19"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Barracas Central",
+      "date": "2026-09-14"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": false,
+      "opponent": "Aldosivi",
+      "date": "2026-09-05"
+     },
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": true,
+      "opponent": "River Plate",
+      "date": "2026-08-30"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Newell's Old Boys",
+      "date": "2026-08-23"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 875,
+    "name": "Rosario Central",
+    "position": 2,
+    "played": 10,
+    "points": 18.0,
+    "record": "5V 3E 2D",
+    "goals_for": 11,
+    "goals_against": 8,
+    "last5": "WWDLD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Argentinos Juniors",
+      "date": "2026-09-20"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Tigre",
+      "date": "2026-09-13"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Newell's Old Boys",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Gimnasia La Plata",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "Talleres Cordoba",
+      "date": "2026-08-25"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-05T21:15:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": false,
+   "below_bar": true
+  }
+ ]
+}

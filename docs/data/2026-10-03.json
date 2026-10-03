@@ -1,6 +1,6 @@
 {
  "date": "2026-10-03",
- "generated_at": "2026-10-02T17:10:42.354733-03:00",
+ "generated_at": "2026-10-03T10:26:31.593826-03:00",
  "version": "0.1.0",
  "count": 4,
  "clear_count": 4,
@@ -49,7 +49,7 @@
     "trend_alignment": 1.0,
     "confidence": 81,
     "eligible": true,
-    "odd": 1.59,
+    "odd": 1.56,
     "low_conviction": false
    },
    "alt_markets": [
@@ -81,7 +81,7 @@
      "trend_alignment": 0.463,
      "confidence": 28,
      "eligible": false,
-     "odd": 1.75
+     "odd": 1.95
     },
     {
      "selection": "AWAY",
@@ -358,7 +358,7 @@
     "trend_alignment": 1.0,
     "confidence": 79,
     "eligible": true,
-    "odd": 1.5,
+    "odd": 1.42,
     "low_conviction": false
    },
    "alt_markets": [
@@ -370,7 +370,7 @@
      "trend_alignment": 1.0,
      "confidence": 79,
      "eligible": true,
-     "odd": 1.15
+     "odd": 1.13
     },
     {
      "selection": "BTTS_NO",
@@ -400,7 +400,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 5.49
+     "odd": 6.0
     }
    ],
    "trends": [
@@ -1023,60 +1023,60 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 2.0,
+    "lambda_home": 1.99,
     "lambda_away": 1.02,
-    "expected_goals": 3.02,
+    "expected_goals": 3.01,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.5994,
-     "DRAW": 0.2127,
-     "AWAY": 0.1879,
-     "1X": 0.8121,
-     "X2": 0.4006,
-     "12": 0.7873,
-     "OVER25": 0.5808,
-     "UNDER25": 0.4192,
-     "BTTS_YES": 0.5532,
-     "BTTS_NO": 0.4468
+     "HOME": 0.5988,
+     "DRAW": 0.2132,
+     "AWAY": 0.1881,
+     "1X": 0.8119,
+     "X2": 0.4012,
+     "12": 0.7868,
+     "OVER25": 0.5791,
+     "UNDER25": 0.4209,
+     "BTTS_YES": 0.5521,
+     "BTTS_NO": 0.4479
     }
    },
    "pick": {
-    "selection": "1X",
-    "family": "double_chance",
-    "label": "Dupla chance: Sabadell ou empate (1X)",
-    "model_prob": 0.8121,
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Sabadell",
+    "model_prob": 0.5988,
     "trend_alignment": 1.0,
     "confidence": 68,
     "eligible": true,
-    "odd": 1.28,
+    "odd": 1.9,
     "low_conviction": false
    },
    "alt_markets": [
     {
-     "selection": "HOME",
-     "family": "1x2",
-     "label": "Vitória do Sabadell",
-     "model_prob": 0.5994,
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Sabadell ou empate (1X)",
+     "model_prob": 0.8119,
      "trend_alignment": 1.0,
-     "confidence": 61,
+     "confidence": 68,
      "eligible": true,
-     "odd": 1.99
+     "odd": 1.23
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.5808,
+     "model_prob": 0.5791,
      "trend_alignment": 0.267,
      "confidence": 20,
      "eligible": false,
-     "odd": 2.06
+     "odd": 2.24
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5532,
+     "model_prob": 0.5521,
      "trend_alignment": 0.267,
      "confidence": 16,
      "eligible": false,
@@ -1086,11 +1086,11 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Andorra CF",
-     "model_prob": 0.1879,
+     "model_prob": 0.1881,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 3.72
+     "odd": 4.3
     }
    ],
    "trends": [
