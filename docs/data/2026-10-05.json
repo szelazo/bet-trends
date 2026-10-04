@@ -1,6 +1,6 @@
 {
  "date": "2026-10-05",
- "generated_at": "2026-10-03T23:37:18.644673-03:00",
+ "generated_at": "2026-10-04T14:52:45.669859-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 0,
@@ -26,26 +26,26 @@
    "model": {
     "lambda_home": 1.79,
     "lambda_away": 0.8,
-    "expected_goals": 2.58,
+    "expected_goals": 2.59,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.6091,
-     "DRAW": 0.2281,
-     "AWAY": 0.1628,
-     "1X": 0.8372,
-     "X2": 0.3909,
-     "12": 0.7719,
-     "OVER25": 0.4766,
-     "UNDER25": 0.5234,
-     "BTTS_YES": 0.4565,
-     "BTTS_NO": 0.5435
+     "HOME": 0.6097,
+     "DRAW": 0.2276,
+     "AWAY": 0.1627,
+     "1X": 0.8373,
+     "X2": 0.3903,
+     "12": 0.7724,
+     "OVER25": 0.478,
+     "UNDER25": 0.522,
+     "BTTS_YES": 0.4574,
+     "BTTS_NO": 0.5426
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Velez Sarsfield",
-    "model_prob": 0.6091,
+    "model_prob": 0.6097,
     "trend_alignment": 1.0,
     "confidence": 72,
     "eligible": true,
@@ -57,7 +57,7 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Velez Sarsfield ou empate (1X)",
-     "model_prob": 0.8372,
+     "model_prob": 0.8373,
      "trend_alignment": 1.0,
      "confidence": 72,
      "eligible": true,
@@ -67,7 +67,7 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.4766,
+     "model_prob": 0.478,
      "trend_alignment": 0.287,
      "confidence": 10,
      "eligible": false,
@@ -77,7 +77,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.4565,
+     "model_prob": 0.4574,
      "trend_alignment": 0.287,
      "confidence": 10,
      "eligible": false,
@@ -87,7 +87,7 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.5435,
+     "model_prob": 0.5426,
      "trend_alignment": 0.0,
      "confidence": 6,
      "eligible": false,
@@ -251,7 +251,7 @@
     "record": "2V 3E 5D",
     "goals_for": 9,
     "goals_against": 15,
-    "last5": "WLWLD",
+    "last5": "WLLDL",
     "recent": [
      {
       "result": "W",
@@ -268,13 +268,6 @@
       "date": "2026-09-20"
      },
      {
-      "result": "W",
-      "score": "2-1",
-      "home": true,
-      "opponent": "Fluminense",
-      "date": "2026-09-15"
-     },
-     {
       "result": "L",
       "score": "1-2",
       "home": false,
@@ -287,6 +280,13 @@
       "home": true,
       "opponent": "Riestra",
       "date": "2026-09-04"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Defensa Y Justicia",
+      "date": "2026-08-31"
      }
     ]
    },
@@ -564,47 +564,47 @@
    "below_bar": true
   },
   {
-   "id": 4633274,
-   "s365_competition_id": 72,
-   "competition_name": "Liga Profesional - Clausura",
-   "start_time": "2026-10-06T00:15:00+00:00",
+   "id": 4764202,
+   "s365_competition_id": 621,
+   "competition_name": "Copa de Primera - Clausura",
+   "start_time": "2026-10-05T13:00:00+00:00",
    "status_group": 2,
    "round": "Round",
    "home": {
-    "id": 878,
-    "name": "Banfield"
+    "id": 53209,
+    "name": "Recoleta FC"
    },
    "away": {
-    "id": 875,
-    "name": "Rosario Central"
+    "id": 1286,
+    "name": "Libertad"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 1.0,
+   "away_score": 1.0,
    "model": {
-    "lambda_home": 1.18,
-    "lambda_away": 1.45,
-    "expected_goals": 2.63,
+    "lambda_home": 1.02,
+    "lambda_away": 1.69,
+    "expected_goals": 2.71,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.3091,
-     "DRAW": 0.2593,
-     "AWAY": 0.4316,
-     "1X": 0.5684,
-     "X2": 0.6909,
-     "12": 0.7407,
-     "OVER25": 0.4896,
-     "UNDER25": 0.5104,
-     "BTTS_YES": 0.5309,
-     "BTTS_NO": 0.4691
+     "HOME": 0.2279,
+     "DRAW": 0.2411,
+     "AWAY": 0.531,
+     "1X": 0.469,
+     "X2": 0.7721,
+     "12": 0.7589,
+     "OVER25": 0.5093,
+     "UNDER25": 0.4907,
+     "BTTS_YES": 0.5217,
+     "BTTS_NO": 0.4783
     }
    },
    "pick": {
     "selection": "X2",
     "family": "double_chance",
-    "label": "Dupla chance: Rosario Central ou empate (X2)",
-    "model_prob": 0.6909,
+    "label": "Dupla chance: Libertad ou empate (X2)",
+    "model_prob": 0.7721,
     "trend_alignment": 1.0,
-    "confidence": 52,
+    "confidence": 63,
     "eligible": true,
     "odd": 1.25,
     "low_conviction": false
@@ -613,20 +613,20 @@
     {
      "selection": "AWAY",
      "family": "1x2",
-     "label": "Vitória do Rosario Central",
-     "model_prob": 0.4316,
+     "label": "Vitória do Libertad",
+     "model_prob": 0.531,
      "trend_alignment": 1.0,
-     "confidence": 44,
-     "eligible": false,
-     "odd": 1.94
+     "confidence": 54,
+     "eligible": true,
+     "odd": 2.37
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5309,
-     "trend_alignment": 0.533,
-     "confidence": 23,
+     "model_prob": 0.5217,
+     "trend_alignment": 0.227,
+     "confidence": 11,
      "eligible": false,
      "odd": null
     },
@@ -634,80 +634,71 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.4896,
-     "trend_alignment": 0.533,
-     "confidence": 19,
+     "model_prob": 0.5093,
+     "trend_alignment": 0.227,
+     "confidence": 9,
      "eligible": false,
-     "odd": 2.21
+     "odd": 1.25
     },
     {
-     "selection": "1X",
-     "family": "double_chance",
-     "label": "Dupla chance: Banfield ou empate (1X)",
-     "model_prob": 0.5684,
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Recoleta FC",
+     "model_prob": 0.2279,
      "trend_alignment": 0.0,
-     "confidence": 3,
+     "confidence": 0,
      "eligible": false,
-     "odd": 1.82
+     "odd": 3.99
     }
    ],
    "trends": [
     {
-     "label": "Perdeu 3 dos últimos 5",
-     "strength": 0.52,
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
      "favors": "AWAY",
-     "team": "Banfield",
+     "team": "Recoleta FC",
      "side": "HOME",
      "group": "geral",
      "kind": "losses"
     },
     {
-     "label": "Ambos marcaram em 5 dos últimos 5",
-     "strength": 0.5,
-     "favors": "BTTS_YES",
-     "team": "Banfield",
+     "label": "Não marcou em 3 dos últimos 5",
+     "strength": 0.38,
+     "favors": "AWAY",
+     "team": "Recoleta FC",
      "side": "HOME",
      "group": "geral",
-     "kind": "btts"
+     "kind": "no_score"
     },
     {
-     "label": "Invicto em 4 dos últimos 5",
-     "strength": 0.48,
-     "favors": "AWAY",
-     "team": "Rosario Central",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "unbeaten"
-    },
-    {
-     "label": "Marcou em todos os últimos 5",
-     "strength": 0.3,
-     "favors": "OVER",
-     "team": "Rosario Central",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "always_score"
-    },
-    {
-     "label": "Só 2 derrota(s) em 10 jogos no campeonato",
+     "label": "Pior defesa da liga (2.0 sofridos/jogo)",
      "strength": 0.34,
-     "favors": "AWAY",
-     "team": "Rosario Central",
-     "side": "AWAY",
+     "favors": "OVER",
+     "team": "Recoleta FC",
+     "side": "HOME",
      "group": "temporada",
-     "kind": "few_losses"
+     "kind": "def_bottom"
     },
     {
      "label": "Não vence há 5+ jogos",
      "strength": 0.333,
      "favors": "AWAY",
-     "team": "Banfield",
+     "team": "Recoleta FC",
      "side": "HOME",
      "group": "sequencia",
      "kind": "winless_streak"
     },
     {
-     "label": "Banfield é 12º · Rosario Central é 2º",
+     "label": "3º melhor ataque da liga (1.6 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "AWAY",
+     "team": "Libertad",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Recoleta FC é 11º · Libertad é 2º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -716,8 +707,8 @@
      "kind": "positions"
     },
     {
-     "label": "Rosario Central está 10 posições à frente",
-     "strength": 0.714,
+     "label": "Libertad está 9 posições à frente",
+     "strength": 0.643,
      "favors": "AWAY",
      "team": null,
      "side": null,
@@ -727,44 +718,44 @@
    ],
    "aligned_trends": [
     {
-     "label": "Perdeu 3 dos últimos 5",
-     "strength": 0.52,
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
      "favors": "AWAY",
-     "team": "Banfield",
+     "team": "Recoleta FC",
      "side": "HOME",
      "group": "geral",
      "kind": "losses"
     },
     {
-     "label": "Invicto em 4 dos últimos 5",
-     "strength": 0.48,
+     "label": "Não marcou em 3 dos últimos 5",
+     "strength": 0.38,
      "favors": "AWAY",
-     "team": "Rosario Central",
-     "side": "AWAY",
+     "team": "Recoleta FC",
+     "side": "HOME",
      "group": "geral",
-     "kind": "unbeaten"
-    },
-    {
-     "label": "Só 2 derrota(s) em 10 jogos no campeonato",
-     "strength": 0.34,
-     "favors": "AWAY",
-     "team": "Rosario Central",
-     "side": "AWAY",
-     "group": "temporada",
-     "kind": "few_losses"
+     "kind": "no_score"
     },
     {
      "label": "Não vence há 5+ jogos",
      "strength": 0.333,
      "favors": "AWAY",
-     "team": "Banfield",
+     "team": "Recoleta FC",
      "side": "HOME",
      "group": "sequencia",
      "kind": "winless_streak"
     },
     {
-     "label": "Rosario Central está 10 posições à frente",
-     "strength": 0.714,
+     "label": "3º melhor ataque da liga (1.6 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "AWAY",
+     "team": "Libertad",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Libertad está 9 posições à frente",
+     "strength": 0.643,
      "favors": "AWAY",
      "team": null,
      "side": null,
@@ -772,109 +763,109 @@
      "kind": "table_gap"
     }
    ],
-   "confidence": 52,
+   "confidence": 63,
    "league": {
-    "key": "ar_primera",
-    "name": "Liga Profesional",
-    "country": "Argentina"
+    "key": "py_primera",
+    "name": "Copa de Primera",
+    "country": "Paraguai"
    },
    "home_team": {
-    "id": 878,
-    "name": "Banfield",
-    "position": 12,
-    "played": 10,
-    "points": 9.0,
-    "record": "2V 3E 5D",
-    "goals_for": 11,
-    "goals_against": 16,
-    "last5": "DDLLL",
+    "id": 53209,
+    "name": "Recoleta FC",
+    "position": 11,
+    "played": 12,
+    "points": 8.0,
+    "record": "2V 2E 8D",
+    "goals_for": 13,
+    "goals_against": 24,
+    "last5": "DLLLL",
     "recent": [
      {
       "result": "D",
-      "score": "2-2",
+      "score": "0-0",
       "home": false,
-      "opponent": "Gimnasia La Plata",
-      "date": "2026-09-19"
+      "opponent": "CS San Lorenzo",
+      "date": "2026-09-28"
      },
      {
-      "result": "D",
-      "score": "1-1",
-      "home": true,
-      "opponent": "Barracas Central",
-      "date": "2026-09-14"
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Sportivo Luqueño",
+      "date": "2026-09-20"
      },
      {
       "result": "L",
       "score": "1-3",
-      "home": false,
-      "opponent": "Aldosivi",
-      "date": "2026-09-05"
-     },
-     {
-      "result": "L",
-      "score": "2-3",
       "home": true,
-      "opponent": "River Plate",
-      "date": "2026-08-30"
+      "opponent": "Sportivo Trinidense",
+      "date": "2026-09-12"
      },
      {
       "result": "L",
-      "score": "1-2",
+      "score": "0-2",
       "home": false,
-      "opponent": "Newell's Old Boys",
-      "date": "2026-08-23"
+      "opponent": "Club Guarani",
+      "date": "2026-09-07"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": true,
+      "opponent": "Cerro Porteño",
+      "date": "2026-09-03"
      }
     ]
    },
    "away_team": {
-    "id": 875,
-    "name": "Rosario Central",
+    "id": 1286,
+    "name": "Libertad",
     "position": 2,
-    "played": 10,
-    "points": 18.0,
-    "record": "5V 3E 2D",
-    "goals_for": 11,
-    "goals_against": 8,
-    "last5": "WWDLD",
+    "played": 12,
+    "points": 23.0,
+    "record": "7V 2E 3D",
+    "goals_for": 19,
+    "goals_against": 13,
+    "last5": "LDWWL",
     "recent": [
      {
-      "result": "W",
-      "score": "1-0",
+      "result": "L",
+      "score": "0-1",
       "home": true,
-      "opponent": "Argentinos Juniors",
-      "date": "2026-09-20"
-     },
-     {
-      "result": "W",
-      "score": "1-0",
-      "home": false,
-      "opponent": "Tigre",
-      "date": "2026-09-13"
+      "opponent": "Olimpia",
+      "date": "2026-09-28"
      },
      {
       "result": "D",
       "score": "1-1",
       "home": true,
-      "opponent": "Newell's Old Boys",
+      "opponent": "Sportivo Ameliano",
+      "date": "2026-09-19"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "2 de Mayo",
+      "date": "2026-09-11"
+     },
+     {
+      "result": "W",
+      "score": "4-2",
+      "home": true,
+      "opponent": "Rubio Ñu",
       "date": "2026-09-06"
      },
      {
       "result": "L",
-      "score": "1-2",
-      "home": true,
-      "opponent": "Gimnasia La Plata",
-      "date": "2026-08-29"
-     },
-     {
-      "result": "D",
-      "score": "2-2",
+      "score": "0-3",
       "home": false,
-      "opponent": "Talleres Cordoba",
-      "date": "2026-08-25"
+      "opponent": "Club Nacional",
+      "date": "2026-09-02"
      }
     ]
    },
-   "kickoff_local": "2026-10-05T21:15:00-03:00",
+   "kickoff_local": "2026-10-05T10:00:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
