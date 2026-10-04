@@ -1,6 +1,6 @@
 {
  "date": "2026-10-05",
- "generated_at": "2026-10-04T14:52:45.669859-03:00",
+ "generated_at": "2026-10-04T19:47:10.210607-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 0,
@@ -29,23 +29,23 @@
     "expected_goals": 2.59,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.6097,
-     "DRAW": 0.2276,
-     "AWAY": 0.1627,
-     "1X": 0.8373,
-     "X2": 0.3903,
-     "12": 0.7724,
-     "OVER25": 0.478,
-     "UNDER25": 0.522,
-     "BTTS_YES": 0.4574,
-     "BTTS_NO": 0.5426
+     "HOME": 0.6101,
+     "DRAW": 0.2273,
+     "AWAY": 0.1625,
+     "1X": 0.8375,
+     "X2": 0.3899,
+     "12": 0.7727,
+     "OVER25": 0.4789,
+     "UNDER25": 0.5211,
+     "BTTS_YES": 0.458,
+     "BTTS_NO": 0.542
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Velez Sarsfield",
-    "model_prob": 0.6097,
+    "model_prob": 0.6101,
     "trend_alignment": 1.0,
     "confidence": 72,
     "eligible": true,
@@ -57,7 +57,7 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Velez Sarsfield ou empate (1X)",
-     "model_prob": 0.8373,
+     "model_prob": 0.8375,
      "trend_alignment": 1.0,
      "confidence": 72,
      "eligible": true,
@@ -67,17 +67,17 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.478,
+     "model_prob": 0.4789,
      "trend_alignment": 0.287,
      "confidence": 10,
      "eligible": false,
-     "odd": 1.62
+     "odd": 1.58
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.4574,
+     "model_prob": 0.458,
      "trend_alignment": 0.287,
      "confidence": 10,
      "eligible": false,
@@ -87,9 +87,9 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.5426,
+     "model_prob": 0.542,
      "trend_alignment": 0.0,
-     "confidence": 6,
+     "confidence": 5,
      "eligible": false,
      "odd": null
     }
@@ -363,7 +363,7 @@
      "trend_alignment": 0.54,
      "confidence": 27,
      "eligible": false,
-     "odd": 2.01
+     "odd": 1.96
     },
     {
      "selection": "BTTS_YES",

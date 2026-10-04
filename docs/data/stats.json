@@ -7,26 +7,26 @@
  },
  "today": {
   "hits": 0,
-  "misses": 0,
+  "misses": 2,
   "voids": 0,
-  "total": 0
+  "total": 2
  },
  "last3": {
   "hits": 2,
-  "misses": 3,
+  "misses": 5,
   "voids": 0,
-  "total": 5
+  "total": 7
  },
  "week": {
   "hits": 3,
-  "misses": 3,
+  "misses": 5,
   "voids": 0,
-  "total": 6
+  "total": 8
  },
  "all_time": {
   "hits": 81,
-  "misses": 20,
+  "misses": 22,
   "voids": 1,
-  "total": 101
+  "total": 103
  }
 }

@@ -1,6 +1,6 @@
 {
  "date": "2026-10-04",
- "generated_at": "2026-10-04T14:52:44.920007-03:00",
+ "generated_at": "2026-10-04T19:47:09.455448-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 2,
@@ -21,8 +21,8 @@
     "id": 6144,
     "name": "AD Ceuta FC"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 1.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 2.9,
     "lambda_away": 0.68,
@@ -303,7 +303,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "miss",
    "clear": true
   },
   {
@@ -321,8 +321,8 @@
     "id": 9256,
     "name": "Andorra CF"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 0.0,
+   "away_score": 0.0,
    "model": {
     "lambda_home": 1.96,
     "lambda_away": 1.01,
@@ -576,7 +576,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "miss",
    "clear": true
   },
   {
@@ -594,8 +594,8 @@
     "id": 7223,
     "name": "Aldosivi"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 1.0,
+   "away_score": 0.0,
    "model": {
     "lambda_home": 1.73,
     "lambda_away": 0.97,
@@ -894,7 +894,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": false,
    "below_bar": true
   }
