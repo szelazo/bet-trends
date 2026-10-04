@@ -1,6 +1,6 @@
 {
  "date": "2026-10-04",
- "generated_at": "2026-10-03T10:26:32.327604-03:00",
+ "generated_at": "2026-10-03T23:37:18.130309-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 1,
@@ -25,31 +25,31 @@
    "away_score": -1.0,
    "model": {
     "lambda_home": 2.9,
-    "lambda_away": 0.67,
-    "expected_goals": 3.57,
+    "lambda_away": 0.68,
+    "expected_goals": 3.58,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.8243,
-     "DRAW": 0.1166,
-     "AWAY": 0.0591,
-     "1X": 0.9409,
-     "X2": 0.1757,
-     "12": 0.8834,
-     "OVER25": 0.6918,
-     "UNDER25": 0.3082,
-     "BTTS_YES": 0.4635,
-     "BTTS_NO": 0.5365
+     "HOME": 0.8234,
+     "DRAW": 0.117,
+     "AWAY": 0.0596,
+     "1X": 0.9404,
+     "X2": 0.1766,
+     "12": 0.883,
+     "OVER25": 0.6926,
+     "UNDER25": 0.3074,
+     "BTTS_YES": 0.4656,
+     "BTTS_NO": 0.5344
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Castellon",
-    "model_prob": 0.8243,
+    "model_prob": 0.8234,
     "trend_alignment": 1.0,
     "confidence": 86,
     "eligible": true,
-    "odd": 1.22,
+    "odd": 1.19,
     "low_conviction": false
    },
    "alt_markets": [
@@ -57,7 +57,7 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Castellon ou empate (1X)",
-     "model_prob": 0.9409,
+     "model_prob": 0.9404,
      "trend_alignment": 1.0,
      "confidence": 86,
      "eligible": true,
@@ -67,17 +67,17 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6918,
+     "model_prob": 0.6926,
      "trend_alignment": 0.033,
      "confidence": 26,
      "eligible": true,
-     "odd": 1.9
+     "odd": 1.83
     },
     {
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.5365,
+     "model_prob": 0.5344,
      "trend_alignment": 0.02,
      "confidence": 5,
      "eligible": false,
@@ -87,11 +87,11 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.3082,
+     "model_prob": 0.3074,
      "trend_alignment": 0.02,
      "confidence": 1,
      "eligible": false,
-     "odd": 1.8
+     "odd": 1.83
     }
    ],
    "trends": [
@@ -141,7 +141,7 @@
      "kind": "always_concede"
     },
     {
-     "label": "Castellon é 1º · AD Ceuta FC é 21º",
+     "label": "Castellon é 2º · AD Ceuta FC é 21º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -150,7 +150,7 @@
      "kind": "positions"
     },
     {
-     "label": "Castellon está 20 posições à frente",
+     "label": "Castellon está 19 posições à frente",
      "strength": 0.8,
      "favors": "HOME",
      "team": null,
@@ -188,7 +188,7 @@
      "kind": "losses"
     },
     {
-     "label": "Castellon está 20 posições à frente",
+     "label": "Castellon está 19 posições à frente",
      "strength": 0.8,
      "favors": "HOME",
      "team": null,
@@ -206,7 +206,7 @@
    "home_team": {
     "id": 157,
     "name": "Castellon",
-    "position": 1,
+    "position": 2,
     "played": 7,
     "points": 19.0,
     "record": "6V 1E 0D",
@@ -324,28 +324,28 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 2.25,
-    "lambda_away": 1.14,
-    "expected_goals": 3.39,
+    "lambda_home": 2.26,
+    "lambda_away": 1.15,
+    "expected_goals": 3.41,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.6236,
-     "DRAW": 0.1943,
-     "AWAY": 0.1821,
-     "1X": 0.8179,
-     "X2": 0.3764,
-     "12": 0.8057,
-     "OVER25": 0.6587,
-     "UNDER25": 0.3413,
-     "BTTS_YES": 0.609,
-     "BTTS_NO": 0.391
+     "HOME": 0.6246,
+     "DRAW": 0.1936,
+     "AWAY": 0.1818,
+     "1X": 0.8182,
+     "X2": 0.3754,
+     "12": 0.8064,
+     "OVER25": 0.6613,
+     "UNDER25": 0.3387,
+     "BTTS_YES": 0.6108,
+     "BTTS_NO": 0.3892
     }
    },
    "pick": {
     "selection": "1X",
     "family": "double_chance",
     "label": "Dupla chance: Atlético Bucaramanga ou empate (1X)",
-    "model_prob": 0.8179,
+    "model_prob": 0.8182,
     "trend_alignment": 1.0,
     "confidence": 69,
     "eligible": true,
@@ -357,7 +357,7 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Atlético Bucaramanga",
-     "model_prob": 0.6236,
+     "model_prob": 0.6246,
      "trend_alignment": 1.0,
      "confidence": 63,
      "eligible": true,
@@ -367,17 +367,17 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6587,
+     "model_prob": 0.6613,
      "trend_alignment": 0.287,
      "confidence": 31,
      "eligible": true,
-     "odd": 2.04
+     "odd": 1.99
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.609,
+     "model_prob": 0.6108,
      "trend_alignment": 0.287,
      "confidence": 24,
      "eligible": true,
@@ -387,7 +387,7 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Junior FC",
-     "model_prob": 0.1821,
+     "model_prob": 0.1818,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
@@ -618,26 +618,26 @@
    "model": {
     "lambda_home": 1.73,
     "lambda_away": 0.97,
-    "expected_goals": 2.71,
+    "expected_goals": 2.7,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.5519,
-     "DRAW": 0.237,
+     "HOME": 0.5516,
+     "DRAW": 0.2372,
      "AWAY": 0.2112,
      "1X": 0.7888,
-     "X2": 0.4481,
-     "12": 0.763,
-     "OVER25": 0.5078,
-     "UNDER25": 0.4922,
-     "BTTS_YES": 0.5123,
-     "BTTS_NO": 0.4877
+     "X2": 0.4484,
+     "12": 0.7628,
+     "OVER25": 0.507,
+     "UNDER25": 0.493,
+     "BTTS_YES": 0.5118,
+     "BTTS_NO": 0.4882
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Huracan",
-    "model_prob": 0.5519,
+    "model_prob": 0.5516,
     "trend_alignment": 1.0,
     "confidence": 65,
     "eligible": true,
@@ -659,7 +659,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5123,
+     "model_prob": 0.5118,
      "trend_alignment": 0.6,
      "confidence": 23,
      "eligible": false,
@@ -669,7 +669,7 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.5078,
+     "model_prob": 0.507,
      "trend_alignment": 0.6,
      "confidence": 22,
      "eligible": false,
