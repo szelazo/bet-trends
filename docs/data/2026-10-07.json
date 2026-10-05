@@ -1,0 +1,805 @@
+{
+ "date": "2026-10-07",
+ "generated_at": "2026-10-05T16:34:51.114430-03:00",
+ "version": "0.1.0",
+ "count": 3,
+ "clear_count": 0,
+ "day_total": 6,
+ "games": [
+  {
+   "id": 4632660,
+   "s365_competition_id": 113,
+   "competition_name": "Brasileirão Série A",
+   "start_time": "2026-10-07T22:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 1219,
+    "name": "Internacional"
+   },
+   "away": {
+    "id": 1267,
+    "name": "Corinthians"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.47,
+    "lambda_away": 0.95,
+    "expected_goals": 2.42,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.4919,
+     "DRAW": 0.2636,
+     "AWAY": 0.2445,
+     "1X": 0.7555,
+     "X2": 0.5081,
+     "12": 0.7364,
+     "OVER25": 0.4367,
+     "UNDER25": 0.5633,
+     "BTTS_YES": 0.4734,
+     "BTTS_NO": 0.5266
+    }
+   },
+   "pick": {
+    "selection": "1X",
+    "family": "double_chance",
+    "label": "Dupla chance: Internacional ou empate (1X)",
+    "model_prob": 0.7555,
+    "trend_alignment": 0.205,
+    "confidence": 35,
+    "eligible": true,
+    "odd": 1.36,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Internacional",
+     "model_prob": 0.4919,
+     "trend_alignment": 0.205,
+     "confidence": 22,
+     "eligible": true,
+     "odd": 2.3
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.4367,
+     "trend_alignment": 0.313,
+     "confidence": 11,
+     "eligible": false,
+     "odd": 2.16
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.4734,
+     "trend_alignment": 0.313,
+     "confidence": 11,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.5633,
+     "trend_alignment": 0.0,
+     "confidence": 8,
+     "eligible": false,
+     "odd": 1.67
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 5 dos últimos 5",
+     "strength": 0.7,
+     "favors": "HOME",
+     "team": "Corinthians",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "Corinthians",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Internacional",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Corinthians",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Internacional é 18º · Corinthians é 14º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Corinthians está 4 posições à frente",
+     "strength": 0.286,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 5 dos últimos 5",
+     "strength": 0.7,
+     "favors": "HOME",
+     "team": "Corinthians",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Corinthians",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    }
+   ],
+   "confidence": 35,
+   "league": {
+    "key": "br_serie_a",
+    "name": "Brasileirão Série A",
+    "country": "Brasil"
+   },
+   "home_team": {
+    "id": 1219,
+    "name": "Internacional",
+    "position": 18,
+    "played": 28,
+    "points": 28.0,
+    "record": "6V 10E 12D",
+    "goals_for": 30,
+    "goals_against": 36,
+    "last5": "LWLLD",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "São Paulo",
+      "date": "2026-09-20"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Chapecoense",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": true,
+      "opponent": "Santos",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": false,
+      "opponent": "Bahia",
+      "date": "2026-08-30"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Atlético Mineiro",
+      "date": "2026-08-22"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 1267,
+    "name": "Corinthians",
+    "position": 14,
+    "played": 28,
+    "points": 32.0,
+    "record": "8V 8E 12D",
+    "goals_for": 29,
+    "goals_against": 32,
+    "last5": "LLLLL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": true,
+      "opponent": "Fluminense",
+      "date": "2026-09-20"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Flamengo",
+      "date": "2026-09-13"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Chapecoense",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Santos",
+      "date": "2026-08-30"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Coritiba",
+      "date": "2026-08-23"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-07T19:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": false,
+   "below_bar": true
+  },
+  {
+   "id": 4632661,
+   "s365_competition_id": 113,
+   "competition_name": "Brasileirão Série A",
+   "start_time": "2026-10-08T00:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 1213,
+    "name": "Cruzeiro"
+   },
+   "away": {
+    "id": 1225,
+    "name": "São Paulo"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.57,
+    "lambda_away": 1.18,
+    "expected_goals": 2.75,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.4614,
+     "DRAW": 0.2502,
+     "AWAY": 0.2885,
+     "1X": 0.7115,
+     "X2": 0.5386,
+     "12": 0.7498,
+     "OVER25": 0.5186,
+     "UNDER25": 0.4814,
+     "BTTS_YES": 0.5491,
+     "BTTS_NO": 0.4509
+    }
+   },
+   "pick": {
+    "selection": "1X",
+    "family": "double_chance",
+    "label": "Dupla chance: Cruzeiro ou empate (1X)",
+    "model_prob": 0.7115,
+    "trend_alignment": 0.191,
+    "confidence": 28,
+    "eligible": true,
+    "odd": 1.24,
+    "low_conviction": true
+   },
+   "alt_markets": [
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5491,
+     "trend_alignment": 0.7,
+     "confidence": 31,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5186,
+     "trend_alignment": 0.7,
+     "confidence": 27,
+     "eligible": false,
+     "odd": 1.97
+    },
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Cruzeiro",
+     "model_prob": 0.4614,
+     "trend_alignment": 0.191,
+     "confidence": 19,
+     "eligible": true,
+     "odd": 1.79
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do São Paulo",
+     "model_prob": 0.2885,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 4.16
+    }
+   ],
+   "trends": [
+    {
+     "label": "Mais de 2.5 gols em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "OVER",
+     "team": "Cruzeiro",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Ambos marcaram em 5 dos últimos 5",
+     "strength": 0.5,
+     "favors": "BTTS_YES",
+     "team": "Cruzeiro",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "btts"
+    },
+    {
+     "label": "Cruzeiro é 6º · São Paulo é 10º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Cruzeiro está 4 posições à frente",
+     "strength": 0.286,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Cruzeiro está 4 posições à frente",
+     "strength": 0.286,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 28,
+   "league": {
+    "key": "br_serie_a",
+    "name": "Brasileirão Série A",
+    "country": "Brasil"
+   },
+   "home_team": {
+    "id": 1213,
+    "name": "Cruzeiro",
+    "position": 6,
+    "played": 28,
+    "points": 45.0,
+    "record": "13V 6E 9D",
+    "goals_for": 42,
+    "goals_against": 40,
+    "last5": "WLWLW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": false,
+      "opponent": "Vitoria",
+      "date": "2026-09-20"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Santos",
+      "date": "2026-09-13"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": true,
+      "opponent": "Athletico Paranaense",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": false,
+      "opponent": "Vasco da Gama",
+      "date": "2026-08-30"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Flamengo",
+      "date": "2026-08-22"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 1225,
+    "name": "São Paulo",
+    "position": 10,
+    "played": 28,
+    "points": 36.0,
+    "record": "10V 6E 12D",
+    "goals_for": 33,
+    "goals_against": 32,
+    "last5": "LWLWW",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Santos",
+      "date": "2026-10-02"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Internacional",
+      "date": "2026-09-20"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Palmeiras",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Atlético Mineiro",
+      "date": "2026-09-05"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "RB Bragantino",
+      "date": "2026-08-29"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-07T21:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": false,
+   "below_bar": true
+  },
+  {
+   "id": 4632666,
+   "s365_competition_id": 113,
+   "competition_name": "Brasileirão Série A",
+   "start_time": "2026-10-07T23:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 1211,
+    "name": "Botafogo"
+   },
+   "away": {
+    "id": 1227,
+    "name": "Vasco da Gama"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.47,
+    "lambda_away": 1.61,
+    "expected_goals": 3.08,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.3513,
+     "DRAW": 0.2388,
+     "AWAY": 0.4099,
+     "1X": 0.5901,
+     "X2": 0.6487,
+     "12": 0.7612,
+     "OVER25": 0.5946,
+     "UNDER25": 0.4054,
+     "BTTS_YES": 0.6163,
+     "BTTS_NO": 0.3837
+    }
+   },
+   "pick": {
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: Vasco da Gama ou empate (X2)",
+    "model_prob": 0.6487,
+    "trend_alignment": 0.402,
+    "confidence": 27,
+    "eligible": true,
+    "odd": 1.47,
+    "low_conviction": true
+   },
+   "alt_markets": [
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.6163,
+     "trend_alignment": 0.54,
+     "confidence": 34,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5946,
+     "trend_alignment": 0.54,
+     "confidence": 31,
+     "eligible": false,
+     "odd": 1.75
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Vasco da Gama",
+     "model_prob": 0.4099,
+     "trend_alignment": 0.402,
+     "confidence": 21,
+     "eligible": false,
+     "odd": 2.43
+    },
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Botafogo ou empate (1X)",
+     "model_prob": 0.5901,
+     "trend_alignment": 0.0,
+     "confidence": 5,
+     "eligible": false,
+     "odd": 1.55
+    }
+   ],
+   "trends": [
+    {
+     "label": "Só venceu 1 dos últimos 5",
+     "strength": 0.48,
+     "favors": "AWAY",
+     "team": "Botafogo",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "Não marcou em 3 dos últimos 5",
+     "strength": 0.38,
+     "favors": "AWAY",
+     "team": "Botafogo",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "no_score"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "Vasco da Gama",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Pior defesa da liga (1.6 sofridos/jogo)",
+     "strength": 0.34,
+     "favors": "OVER",
+     "team": "Botafogo",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_bottom"
+    },
+    {
+     "label": "Botafogo é 12º · Vasco da Gama é 16º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Botafogo está 4 posições à frente",
+     "strength": 0.286,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Só venceu 1 dos últimos 5",
+     "strength": 0.48,
+     "favors": "AWAY",
+     "team": "Botafogo",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "Não marcou em 3 dos últimos 5",
+     "strength": 0.38,
+     "favors": "AWAY",
+     "team": "Botafogo",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "no_score"
+    }
+   ],
+   "confidence": 27,
+   "league": {
+    "key": "br_serie_a",
+    "name": "Brasileirão Série A",
+    "country": "Brasil"
+   },
+   "home_team": {
+    "id": 1211,
+    "name": "Botafogo",
+    "position": 12,
+    "played": 28,
+    "points": 35.0,
+    "record": "9V 8E 11D",
+    "goals_for": 41,
+    "goals_against": 45,
+    "last5": "LWDDL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Mirassol",
+      "date": "2026-09-19"
+     },
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": true,
+      "opponent": "Gremio",
+      "date": "2026-09-16"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "RB Bragantino",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Palmeiras",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": false,
+      "opponent": "Flamengo",
+      "date": "2026-08-30"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 1227,
+    "name": "Vasco da Gama",
+    "position": 16,
+    "played": 27,
+    "points": 31.0,
+    "record": "8V 7E 12D",
+    "goals_for": 34,
+    "goals_against": 41,
+    "last5": "WWLWL",
+    "recent": [
+     {
+      "result": "W",
+      "score": "5-0",
+      "home": true,
+      "opponent": "Coritiba",
+      "date": "2026-09-19"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Gremio",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Fluminense",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": true,
+      "opponent": "Cruzeiro",
+      "date": "2026-08-30"
+     },
+     {
+      "result": "L",
+      "score": "1-4",
+      "home": false,
+      "opponent": "Palmeiras",
+      "date": "2026-08-23"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-07T20:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": false,
+   "below_bar": true
+  }
+ ]
+}

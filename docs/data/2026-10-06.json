@@ -1,6 +1,6 @@
 {
  "date": "2026-10-06",
- "generated_at": "2026-10-04T19:47:10.962717-03:00",
+ "generated_at": "2026-10-05T16:34:50.376470-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 0,
@@ -29,23 +29,23 @@
     "expected_goals": 2.75,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.5316,
-     "DRAW": 0.239,
-     "AWAY": 0.2294,
-     "1X": 0.7706,
-     "X2": 0.4684,
-     "12": 0.761,
-     "OVER25": 0.5197,
-     "UNDER25": 0.4803,
-     "BTTS_YES": 0.5302,
-     "BTTS_NO": 0.4698
+     "HOME": 0.5314,
+     "DRAW": 0.2391,
+     "AWAY": 0.2295,
+     "1X": 0.7705,
+     "X2": 0.4686,
+     "12": 0.7609,
+     "OVER25": 0.5189,
+     "UNDER25": 0.4811,
+     "BTTS_YES": 0.5297,
+     "BTTS_NO": 0.4703
     }
    },
    "pick": {
     "selection": "1X",
     "family": "double_chance",
     "label": "Dupla chance: Sportivo Ameliano ou empate (1X)",
-    "model_prob": 0.7706,
+    "model_prob": 0.7705,
     "trend_alignment": 0.893,
     "confidence": 59,
     "eligible": true,
@@ -57,7 +57,7 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Sportivo Ameliano",
-     "model_prob": 0.5316,
+     "model_prob": 0.5314,
      "trend_alignment": 0.893,
      "confidence": 50,
      "eligible": true,
@@ -67,7 +67,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5302,
+     "model_prob": 0.5297,
      "trend_alignment": 0.493,
      "confidence": 21,
      "eligible": false,
@@ -77,17 +77,17 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.5197,
+     "model_prob": 0.5189,
      "trend_alignment": 0.493,
      "confidence": 20,
      "eligible": false,
-     "odd": 2.11
+     "odd": 2.08
     },
     {
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Rubio Ñu",
-     "model_prob": 0.2294,
+     "model_prob": 0.2295,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
@@ -293,7 +293,7 @@
    "id": 4621506,
    "s365_competition_id": 104,
    "competition_name": "MLS",
-   "start_time": "2026-10-06T17:00:00+00:00",
+   "start_time": "2026-10-07T00:30:00+00:00",
    "status_group": 2,
    "round": "Round",
    "home": {
@@ -332,7 +332,7 @@
     "trend_alignment": 0.964,
     "confidence": 50,
     "eligible": true,
-    "odd": 1.47,
+    "odd": 1.48,
     "low_conviction": false
    },
    "alt_markets": [
@@ -354,7 +354,7 @@
      "trend_alignment": 0.567,
      "confidence": 41,
      "eligible": true,
-     "odd": 2.1
+     "odd": 2.0
     },
     {
      "selection": "BTTS_YES",
@@ -582,7 +582,7 @@
      }
     ]
    },
-   "kickoff_local": "2026-10-06T14:00:00-03:00",
+   "kickoff_local": "2026-10-06T21:30:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
@@ -613,16 +613,16 @@
     "expected_goals": 2.21,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.4572,
-     "DRAW": 0.2831,
+     "HOME": 0.4573,
+     "DRAW": 0.283,
      "AWAY": 0.2597,
      "1X": 0.7403,
-     "X2": 0.5428,
-     "12": 0.7169,
-     "OVER25": 0.3797,
-     "UNDER25": 0.6203,
-     "BTTS_YES": 0.4341,
-     "BTTS_NO": 0.5659
+     "X2": 0.5427,
+     "12": 0.717,
+     "OVER25": 0.3803,
+     "UNDER25": 0.6197,
+     "BTTS_YES": 0.4345,
+     "BTTS_NO": 0.5655
     }
    },
    "pick": {
@@ -641,7 +641,7 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Olimpia",
-     "model_prob": 0.4572,
+     "model_prob": 0.4573,
      "trend_alignment": 0.675,
      "confidence": 35,
      "eligible": false,
@@ -651,7 +651,7 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.6203,
+     "model_prob": 0.6197,
      "trend_alignment": 0.52,
      "confidence": 34,
      "eligible": true,
@@ -661,7 +661,7 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.5659,
+     "model_prob": 0.5655,
      "trend_alignment": 0.52,
      "confidence": 27,
      "eligible": false,
@@ -761,7 +761,7 @@
      "kind": "def_rank"
     },
     {
-     "label": "Olimpia é 1º · Club Nacional é 3º",
+     "label": "Olimpia é 2º · Club Nacional é 3º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -817,7 +817,7 @@
    "home_team": {
     "id": 8548,
     "name": "Olimpia",
-    "position": 1,
+    "position": 2,
     "played": 12,
     "points": 25.0,
     "record": "8V 1E 3D",

@@ -1,6 +1,6 @@
 {
  "date": "2026-10-05",
- "generated_at": "2026-10-04T19:47:10.210607-03:00",
+ "generated_at": "2026-10-05T16:34:49.634863-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 0,
@@ -26,30 +26,30 @@
    "model": {
     "lambda_home": 1.79,
     "lambda_away": 0.8,
-    "expected_goals": 2.59,
+    "expected_goals": 2.58,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.6101,
-     "DRAW": 0.2273,
-     "AWAY": 0.1625,
-     "1X": 0.8375,
-     "X2": 0.3899,
-     "12": 0.7727,
-     "OVER25": 0.4789,
-     "UNDER25": 0.5211,
-     "BTTS_YES": 0.458,
-     "BTTS_NO": 0.542
+     "HOME": 0.6094,
+     "DRAW": 0.2279,
+     "AWAY": 0.1628,
+     "1X": 0.8372,
+     "X2": 0.3906,
+     "12": 0.7721,
+     "OVER25": 0.4772,
+     "UNDER25": 0.5228,
+     "BTTS_YES": 0.4569,
+     "BTTS_NO": 0.5431
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Velez Sarsfield",
-    "model_prob": 0.6101,
+    "model_prob": 0.6094,
     "trend_alignment": 1.0,
     "confidence": 72,
     "eligible": true,
-    "odd": 1.88,
+    "odd": 1.82,
     "low_conviction": false
    },
    "alt_markets": [
@@ -57,7 +57,7 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Velez Sarsfield ou empate (1X)",
-     "model_prob": 0.8375,
+     "model_prob": 0.8372,
      "trend_alignment": 1.0,
      "confidence": 72,
      "eligible": true,
@@ -67,17 +67,17 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.4789,
+     "model_prob": 0.4772,
      "trend_alignment": 0.287,
      "confidence": 10,
      "eligible": false,
-     "odd": 1.58
+     "odd": 1.54
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.458,
+     "model_prob": 0.4569,
      "trend_alignment": 0.287,
      "confidence": 10,
      "eligible": false,
@@ -87,9 +87,9 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.542,
+     "model_prob": 0.5431,
      "trend_alignment": 0.0,
-     "confidence": 5,
+     "confidence": 6,
      "eligible": false,
      "odd": null
     }
@@ -316,60 +316,60 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 2.2,
+    "lambda_home": 2.19,
     "lambda_away": 0.75,
     "expected_goals": 2.95,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.7033,
-     "DRAW": 0.1824,
-     "AWAY": 0.1143,
-     "1X": 0.8857,
-     "X2": 0.2967,
-     "12": 0.8176,
-     "OVER25": 0.5652,
-     "UNDER25": 0.4348,
-     "BTTS_YES": 0.4706,
-     "BTTS_NO": 0.5294
+     "HOME": 0.7029,
+     "DRAW": 0.1826,
+     "AWAY": 0.1145,
+     "1X": 0.8855,
+     "X2": 0.2971,
+     "12": 0.8174,
+     "OVER25": 0.5644,
+     "UNDER25": 0.4356,
+     "BTTS_YES": 0.4702,
+     "BTTS_NO": 0.5298
     }
    },
    "pick": {
-    "selection": "1X",
-    "family": "double_chance",
-    "label": "Dupla chance: Sportivo Trinidense ou empate (1X)",
-    "model_prob": 0.8857,
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Sportivo Trinidense",
+    "model_prob": 0.7029,
     "trend_alignment": 0.56,
     "confidence": 64,
     "eligible": true,
-    "odd": 1.25,
+    "odd": 1.74,
     "low_conviction": false
    },
    "alt_markets": [
     {
-     "selection": "HOME",
-     "family": "1x2",
-     "label": "Vitória do Sportivo Trinidense",
-     "model_prob": 0.7033,
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Sportivo Trinidense ou empate (1X)",
+     "model_prob": 0.8855,
      "trend_alignment": 0.56,
-     "confidence": 55,
+     "confidence": 64,
      "eligible": true,
-     "odd": 1.79
+     "odd": 1.23
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.5652,
+     "model_prob": 0.5644,
      "trend_alignment": 0.54,
      "confidence": 27,
      "eligible": false,
-     "odd": 1.96
+     "odd": 2.01
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.4706,
+     "model_prob": 0.4702,
      "trend_alignment": 0.54,
      "confidence": 19,
      "eligible": false,
@@ -379,7 +379,7 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.5294,
+     "model_prob": 0.5298,
      "trend_alignment": 0.0,
      "confidence": 4,
      "eligible": false,
@@ -579,7 +579,7 @@
     "name": "Libertad"
    },
    "home_score": 1.0,
-   "away_score": 1.0,
+   "away_score": 2.0,
    "model": {
     "lambda_home": 1.02,
     "lambda_away": 1.69,
@@ -869,7 +869,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": false,
    "below_bar": true
   }
