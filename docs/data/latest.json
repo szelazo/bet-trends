@@ -1,6 +1,6 @@
 {
  "date": "2026-10-05",
- "generated_at": "2026-10-05T16:34:49.634863-03:00",
+ "generated_at": "2026-10-05T22:08:34.808353-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 0,
@@ -21,8 +21,8 @@
     "id": 7207,
     "name": "Platense"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 2.0,
    "model": {
     "lambda_home": 1.79,
     "lambda_away": 0.8,
@@ -294,7 +294,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "miss",
    "clear": false,
    "below_bar": true
   },
@@ -313,8 +313,8 @@
     "id": 8778,
     "name": "Sportivo Luqueño"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 3.0,
+   "away_score": 2.0,
    "model": {
     "lambda_home": 2.19,
     "lambda_away": 0.75,
@@ -559,7 +559,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": false,
    "below_bar": true
   },
