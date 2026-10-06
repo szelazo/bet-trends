@@ -1,6 +1,6 @@
 {
  "date": "2026-10-06",
- "generated_at": "2026-10-06T14:07:16.901467-03:00",
+ "generated_at": "2026-10-06T20:35:40.458029-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 0,
@@ -21,8 +21,8 @@
     "id": 8774,
     "name": "Rubio Ñu"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 1.0,
+   "away_score": 2.0,
    "model": {
     "lambda_home": 1.71,
     "lambda_away": 1.04,
@@ -285,7 +285,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "miss",
    "clear": false,
    "below_bar": true
   },
@@ -332,7 +332,7 @@
     "trend_alignment": 0.964,
     "confidence": 50,
     "eligible": true,
-    "odd": 1.43,
+    "odd": 1.45,
     "low_conviction": false
    },
    "alt_markets": [
@@ -344,7 +344,7 @@
      "trend_alignment": 0.964,
      "confidence": 46,
      "eligible": true,
-     "odd": 2.14
+     "odd": 2.18
     },
     {
      "selection": "OVER25",
@@ -354,7 +354,7 @@
      "trend_alignment": 0.567,
      "confidence": 41,
      "eligible": true,
-     "odd": 1.83
+     "odd": 1.91
     },
     {
      "selection": "BTTS_YES",
@@ -374,7 +374,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 2.88
+     "odd": 2.78
     }
    ],
    "trends": [
