@@ -304,8 +304,8 @@
     "id": 8389,
     "name": "Vancouver Whitecaps"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 3.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 1.52,
     "lambda_away": 1.9,
@@ -586,7 +586,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "miss",
    "clear": false,
    "below_bar": true
   },
@@ -605,8 +605,8 @@
     "id": 1280,
     "name": "Club Nacional"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 1.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 1.31,
     "lambda_away": 0.91,
@@ -914,7 +914,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": false,
    "below_bar": true
   }
