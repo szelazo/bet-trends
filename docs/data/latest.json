@@ -1,6 +1,6 @@
 {
  "date": "2026-10-07",
- "generated_at": "2026-10-07T14:44:35.730146-03:00",
+ "generated_at": "2026-10-07T21:03:48.127687-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 0,
@@ -299,31 +299,31 @@
    "away_score": -1.0,
    "model": {
     "lambda_home": 1.57,
-    "lambda_away": 1.18,
-    "expected_goals": 2.75,
+    "lambda_away": 1.19,
+    "expected_goals": 2.77,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.4614,
-     "DRAW": 0.2502,
-     "AWAY": 0.2885,
-     "1X": 0.7115,
-     "X2": 0.5386,
-     "12": 0.7498,
-     "OVER25": 0.5186,
-     "UNDER25": 0.4814,
-     "BTTS_YES": 0.5491,
-     "BTTS_NO": 0.4509
+     "HOME": 0.462,
+     "DRAW": 0.2494,
+     "AWAY": 0.2886,
+     "1X": 0.7114,
+     "X2": 0.538,
+     "12": 0.7506,
+     "OVER25": 0.5222,
+     "UNDER25": 0.4778,
+     "BTTS_YES": 0.5519,
+     "BTTS_NO": 0.4481
     }
    },
    "pick": {
     "selection": "1X",
     "family": "double_chance",
     "label": "Dupla chance: Cruzeiro ou empate (1X)",
-    "model_prob": 0.7115,
-    "trend_alignment": 0.191,
-    "confidence": 28,
+    "model_prob": 0.7114,
+    "trend_alignment": 0.238,
+    "confidence": 30,
     "eligible": true,
-    "odd": 1.2,
+    "odd": 1.23,
     "low_conviction": true
    },
    "alt_markets": [
@@ -331,7 +331,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5491,
+     "model_prob": 0.5519,
      "trend_alignment": 0.7,
      "confidence": 31,
      "eligible": false,
@@ -341,7 +341,7 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.5186,
+     "model_prob": 0.5222,
      "trend_alignment": 0.7,
      "confidence": 27,
      "eligible": false,
@@ -351,21 +351,21 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Cruzeiro",
-     "model_prob": 0.4614,
-     "trend_alignment": 0.191,
-     "confidence": 19,
+     "model_prob": 0.462,
+     "trend_alignment": 0.238,
+     "confidence": 20,
      "eligible": true,
-     "odd": 1.69
+     "odd": 1.83
     },
     {
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do São Paulo",
-     "model_prob": 0.2885,
+     "model_prob": 0.2886,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 4.71
+     "odd": 4.29
     }
    ],
    "trends": [
@@ -388,7 +388,7 @@
      "kind": "btts"
     },
     {
-     "label": "Cruzeiro é 6º · São Paulo é 10º",
+     "label": "Cruzeiro é 6º · São Paulo é 11º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -397,8 +397,8 @@
      "kind": "positions"
     },
     {
-     "label": "Cruzeiro está 4 posições à frente",
-     "strength": 0.286,
+     "label": "Cruzeiro está 5 posições à frente",
+     "strength": 0.357,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -408,8 +408,8 @@
    ],
    "aligned_trends": [
     {
-     "label": "Cruzeiro está 4 posições à frente",
-     "strength": 0.286,
+     "label": "Cruzeiro está 5 posições à frente",
+     "strength": 0.357,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -417,7 +417,7 @@
      "kind": "table_gap"
     }
    ],
-   "confidence": 28,
+   "confidence": 30,
    "league": {
     "key": "br_serie_a",
     "name": "Brasileirão Série A",
@@ -474,7 +474,7 @@
    "away_team": {
     "id": 1225,
     "name": "São Paulo",
-    "position": 10,
+    "position": 11,
     "played": 28,
     "points": 36.0,
     "record": "10V 6E 12D",
