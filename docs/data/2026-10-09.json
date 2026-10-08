@@ -1,6 +1,6 @@
 {
  "date": "2026-10-09",
- "generated_at": "2026-10-07T21:03:50.154062-03:00",
+ "generated_at": "2026-10-08T14:49:01.572835-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -388,29 +388,29 @@
    "away_score": -1.0,
    "model": {
     "lambda_home": 1.06,
-    "lambda_away": 1.77,
+    "lambda_away": 1.79,
     "expected_goals": 2.84,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.2263,
-     "DRAW": 0.2335,
-     "AWAY": 0.5402,
-     "1X": 0.4598,
-     "X2": 0.7737,
-     "12": 0.7665,
-     "OVER25": 0.5398,
-     "UNDER25": 0.4602,
-     "BTTS_YES": 0.5439,
-     "BTTS_NO": 0.4561
+     "HOME": 0.2224,
+     "DRAW": 0.2322,
+     "AWAY": 0.5454,
+     "1X": 0.4546,
+     "X2": 0.7776,
+     "12": 0.7678,
+     "OVER25": 0.5409,
+     "UNDER25": 0.4591,
+     "BTTS_YES": 0.5429,
+     "BTTS_NO": 0.4571
     }
    },
    "pick": {
     "selection": "X2",
     "family": "double_chance",
     "label": "Dupla chance: Al Rayyan ou empate (X2)",
-    "model_prob": 0.7737,
+    "model_prob": 0.7776,
     "trend_alignment": 1.0,
-    "confidence": 63,
+    "confidence": 64,
     "eligible": true,
     "odd": 1.2,
     "low_conviction": false
@@ -420,7 +420,7 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Al Rayyan",
-     "model_prob": 0.5402,
+     "model_prob": 0.5454,
      "trend_alignment": 1.0,
      "confidence": 55,
      "eligible": true,
@@ -430,7 +430,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5439,
+     "model_prob": 0.5429,
      "trend_alignment": 0.0,
      "confidence": 6,
      "eligible": false,
@@ -440,7 +440,7 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.5398,
+     "model_prob": 0.5409,
      "trend_alignment": 0.0,
      "confidence": 5,
      "eligible": false,
@@ -450,7 +450,7 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Qatar SC",
-     "model_prob": 0.2263,
+     "model_prob": 0.2224,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
@@ -542,7 +542,7 @@
      "kind": "table_gap"
     }
    ],
-   "confidence": 63,
+   "confidence": 64,
    "league": {
     "key": "qatar",
     "name": "Qatar Stars League",
@@ -998,7 +998,7 @@
     "trend_alignment": 1.0,
     "confidence": 50,
     "eligible": true,
-    "odd": 1.57,
+    "odd": 1.58,
     "low_conviction": false
    },
    "alt_markets": [
@@ -1040,7 +1040,7 @@
      "trend_alignment": 0.0,
      "confidence": 2,
      "eligible": false,
-     "odd": 1.47
+     "odd": 1.46
     }
    ],
    "trends": [

@@ -21,8 +21,8 @@
     "id": 1267,
     "name": "Corinthians"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 1.47,
     "lambda_away": 0.95,
@@ -276,7 +276,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": false,
    "below_bar": true
   },
@@ -295,8 +295,8 @@
     "id": 1225,
     "name": "São Paulo"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 0.0,
    "model": {
     "lambda_home": 1.57,
     "lambda_away": 1.19,
@@ -523,7 +523,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": false,
    "below_bar": true
   },
@@ -542,8 +542,8 @@
     "id": 1227,
     "name": "Vasco da Gama"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 1.0,
+   "away_score": 2.0,
    "model": {
     "lambda_home": 1.47,
     "lambda_away": 1.61,
@@ -797,7 +797,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": false,
    "below_bar": true
   }
