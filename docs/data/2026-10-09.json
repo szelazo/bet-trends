@@ -1,6 +1,6 @@
 {
  "date": "2026-10-09",
- "generated_at": "2026-10-08T21:09:53.681317-03:00",
+ "generated_at": "2026-10-09T14:24:20.575697-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -384,8 +384,8 @@
     "id": 7077,
     "name": "Al Rayyan"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 0.0,
+   "away_score": 3.0,
    "model": {
     "lambda_home": 1.07,
     "lambda_away": 1.76,
@@ -634,7 +634,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -680,7 +680,7 @@
     "trend_alignment": 1.0,
     "confidence": 63,
     "eligible": true,
-    "odd": 1.35,
+    "odd": 1.39,
     "low_conviction": false
    },
    "alt_markets": [
@@ -712,7 +712,7 @@
      "trend_alignment": 1.0,
      "confidence": 40,
      "eligible": false,
-     "odd": 2.19
+     "odd": 2.29
     },
     {
      "selection": "X2",
@@ -722,7 +722,7 @@
      "trend_alignment": 0.0,
      "confidence": 8,
      "eligible": false,
-     "odd": 1.62
+     "odd": 1.56
     }
    ],
    "trends": [
@@ -998,7 +998,7 @@
     "trend_alignment": 1.0,
     "confidence": 50,
     "eligible": true,
-    "odd": 1.6,
+    "odd": 1.51,
     "low_conviction": false
    },
    "alt_markets": [
@@ -1010,7 +1010,7 @@
      "trend_alignment": 1.0,
      "confidence": 44,
      "eligible": false,
-     "odd": 2.78
+     "odd": 2.53
     },
     {
      "selection": "BTTS_YES",
@@ -1030,7 +1030,7 @@
      "trend_alignment": 0.079,
      "confidence": 11,
      "eligible": false,
-     "odd": 2.2
+     "odd": 2.3
     },
     {
      "selection": "1X",
@@ -1040,7 +1040,7 @@
      "trend_alignment": 0.0,
      "confidence": 2,
      "eligible": false,
-     "odd": 1.45
+     "odd": 1.53
     }
    ],
    "trends": [

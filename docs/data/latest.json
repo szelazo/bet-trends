@@ -1,192 +1,183 @@
 {
- "date": "2026-10-08",
- "generated_at": "2026-10-08T21:09:52.469857-03:00",
+ "date": "2026-10-09",
+ "generated_at": "2026-10-09T14:24:20.575697-03:00",
  "version": "0.1.0",
- "count": 3,
- "clear_count": 1,
- "day_total": 11,
+ "count": 5,
+ "clear_count": 5,
+ "day_total": 46,
  "games": [
   {
-   "id": 4731966,
-   "s365_competition_id": 620,
-   "competition_name": "Liga BetPlay - Clausura",
-   "start_time": "2026-10-09T01:10:00+00:00",
+   "id": 4743886,
+   "s365_competition_id": 117,
+   "competition_name": "Chance Liga",
+   "start_time": "2026-10-09T16:00:00+00:00",
    "status_group": 2,
    "round": "Round",
    "home": {
-    "id": 9844,
-    "name": "Fortaleza FC"
+    "id": 1795,
+    "name": "Zlin"
    },
    "away": {
-    "id": 8637,
-    "name": "Millonarios"
+    "id": 1789,
+    "name": "Slavia Praha"
    },
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 1.13,
-    "lambda_away": 1.61,
-    "expected_goals": 2.75,
+    "lambda_home": 0.88,
+    "lambda_away": 2.39,
+    "expected_goals": 3.27,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.2671,
-     "DRAW": 0.2473,
-     "AWAY": 0.4857,
-     "1X": 0.5143,
-     "X2": 0.7329,
-     "12": 0.7527,
-     "OVER25": 0.5173,
-     "UNDER25": 0.4827,
-     "BTTS_YES": 0.5425,
-     "BTTS_NO": 0.4575
+     "HOME": 0.1205,
+     "DRAW": 0.1713,
+     "AWAY": 0.7082,
+     "1X": 0.2918,
+     "X2": 0.8795,
+     "12": 0.8287,
+     "OVER25": 0.6347,
+     "UNDER25": 0.3653,
+     "BTTS_YES": 0.532,
+     "BTTS_NO": 0.468
     }
    },
    "pick": {
-    "selection": "X2",
-    "family": "double_chance",
-    "label": "Dupla chance: Millonarios ou empate (X2)",
-    "model_prob": 0.7329,
+    "selection": "AWAY",
+    "family": "1x2",
+    "label": "Vitória do Slavia Praha",
+    "model_prob": 0.7082,
     "trend_alignment": 1.0,
-    "confidence": 58,
+    "confidence": 78,
     "eligible": true,
-    "odd": 1.21,
+    "odd": 1.28,
     "low_conviction": false
    },
    "alt_markets": [
     {
-     "selection": "AWAY",
-     "family": "1x2",
-     "label": "Vitória do Millonarios",
-     "model_prob": 0.4857,
+     "selection": "X2",
+     "family": "double_chance",
+     "label": "Dupla chance: Slavia Praha ou empate (X2)",
+     "model_prob": 0.8795,
      "trend_alignment": 1.0,
-     "confidence": 49,
+     "confidence": 78,
      "eligible": true,
-     "odd": 1.86
-    },
-    {
-     "selection": "BTTS_YES",
-     "family": "btts",
-     "label": "Ambos os times marcam",
-     "model_prob": 0.5425,
-     "trend_alignment": 0.941,
-     "confidence": 38,
-     "eligible": false,
-     "odd": null
+     "odd": 1.06
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.5173,
-     "trend_alignment": 0.941,
-     "confidence": 35,
+     "model_prob": 0.6347,
+     "trend_alignment": 0.827,
+     "confidence": 46,
+     "eligible": true,
+     "odd": 1.58
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.532,
+     "trend_alignment": 0.827,
+     "confidence": 33,
      "eligible": false,
-     "odd": 2.19
+     "odd": null
     },
     {
      "selection": "HOME",
      "family": "1x2",
-     "label": "Vitória do Fortaleza FC",
-     "model_prob": 0.2671,
+     "label": "Vitória do Zlin",
+     "model_prob": 0.1205,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 4.53
+     "odd": 10.0
     }
    ],
    "trends": [
     {
-     "label": "Não venceu nenhum dos últimos 5",
-     "strength": 0.55,
+     "label": "4 vitórias seguidas",
+     "strength": 0.75,
      "favors": "AWAY",
-     "team": "Fortaleza FC",
-     "side": "HOME",
+     "team": "Slavia Praha",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "AWAY",
+     "team": "Slavia Praha",
+     "side": "AWAY",
      "group": "geral",
-     "kind": "winless"
+     "kind": "wins"
     },
     {
      "label": "Mais de 2.5 gols em 4 dos últimos 5",
      "strength": 0.47,
      "favors": "OVER",
-     "team": "Fortaleza FC",
-     "side": "HOME",
+     "team": "Slavia Praha",
+     "side": "AWAY",
      "group": "geral",
      "kind": "over"
     },
     {
-     "label": "Invicto em 6 dos últimos 6",
-     "strength": 0.55,
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
      "favors": "AWAY",
-     "team": "Millonarios",
-     "side": "AWAY",
+     "team": "Zlin",
+     "side": "HOME",
      "group": "geral",
-     "kind": "unbeaten"
+     "kind": "losses"
     },
     {
-     "label": "Ambos marcaram em 5 dos últimos 6",
-     "strength": 0.442,
+     "label": "Ambos marcaram em 4 dos últimos 5",
+     "strength": 0.43,
      "favors": "BTTS_YES",
-     "team": "Millonarios",
-     "side": "AWAY",
+     "team": "Zlin",
+     "side": "HOME",
      "group": "geral",
      "kind": "btts"
     },
     {
-     "label": "Invicto em 4 dos últimos 4 fora de casa",
-     "strength": 0.55,
+     "label": "Melhor ataque da liga (2.8 marcados/jogo)",
+     "strength": 0.44,
      "favors": "AWAY",
-     "team": "Millonarios",
+     "team": "Slavia Praha",
      "side": "AWAY",
-     "group": "casa_fora",
-     "kind": "unbeaten"
+     "group": "temporada",
+     "kind": "atk_rank"
     },
     {
-     "label": "Ambos marcaram em 4 dos últimos 4 fora de casa",
-     "strength": 0.5,
-     "favors": "BTTS_YES",
-     "team": "Millonarios",
-     "side": "AWAY",
-     "group": "casa_fora",
-     "kind": "btts"
-    },
-    {
-     "label": "Invicto há 6+ jogos",
-     "strength": 0.5,
-     "favors": "AWAY",
-     "team": "Millonarios",
-     "side": "AWAY",
-     "group": "sequencia",
-     "kind": "unbeaten_streak"
-    },
-    {
-     "label": "3ª melhor defesa da liga (0.8 sofridos/jogo)",
+     "label": "2ª melhor defesa da liga (0.7 sofridos/jogo)",
      "strength": 0.36,
      "favors": "AWAY",
-     "team": "Millonarios",
+     "team": "Slavia Praha",
      "side": "AWAY",
      "group": "temporada",
      "kind": "def_rank"
     },
     {
-     "label": "Só 2 derrota(s) em 13 jogos no campeonato",
+     "label": "Pior defesa da liga (2.1 sofridos/jogo)",
      "strength": 0.34,
-     "favors": "AWAY",
-     "team": "Millonarios",
-     "side": "AWAY",
+     "favors": "OVER",
+     "team": "Zlin",
+     "side": "HOME",
      "group": "temporada",
-     "kind": "few_losses"
+     "kind": "def_bottom"
     },
     {
      "label": "Não vence há 5+ jogos",
      "strength": 0.333,
      "favors": "AWAY",
-     "team": "Fortaleza FC",
+     "team": "Zlin",
      "side": "HOME",
      "group": "sequencia",
      "kind": "winless_streak"
     },
     {
-     "label": "Fortaleza FC é 16º · Millonarios é 6º",
+     "label": "Zlin é 16º · Slavia Praha é 1º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -195,8 +186,8 @@
      "kind": "positions"
     },
     {
-     "label": "Millonarios está 10 posições à frente",
-     "strength": 0.714,
+     "label": "Slavia Praha está 15 posições à frente",
+     "strength": 0.8,
      "favors": "AWAY",
      "team": null,
      "side": null,
@@ -206,71 +197,62 @@
    ],
    "aligned_trends": [
     {
-     "label": "Não venceu nenhum dos últimos 5",
-     "strength": 0.55,
+     "label": "4 vitórias seguidas",
+     "strength": 0.75,
      "favors": "AWAY",
-     "team": "Fortaleza FC",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "winless"
-    },
-    {
-     "label": "Invicto em 6 dos últimos 6",
-     "strength": 0.55,
-     "favors": "AWAY",
-     "team": "Millonarios",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "unbeaten"
-    },
-    {
-     "label": "Invicto em 4 dos últimos 4 fora de casa",
-     "strength": 0.55,
-     "favors": "AWAY",
-     "team": "Millonarios",
-     "side": "AWAY",
-     "group": "casa_fora",
-     "kind": "unbeaten"
-    },
-    {
-     "label": "Invicto há 6+ jogos",
-     "strength": 0.5,
-     "favors": "AWAY",
-     "team": "Millonarios",
+     "team": "Slavia Praha",
      "side": "AWAY",
      "group": "sequencia",
-     "kind": "unbeaten_streak"
+     "kind": "win_streak"
     },
     {
-     "label": "3ª melhor defesa da liga (0.8 sofridos/jogo)",
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "AWAY",
+     "team": "Slavia Praha",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "AWAY",
+     "team": "Zlin",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Melhor ataque da liga (2.8 marcados/jogo)",
+     "strength": 0.44,
+     "favors": "AWAY",
+     "team": "Slavia Praha",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "2ª melhor defesa da liga (0.7 sofridos/jogo)",
      "strength": 0.36,
      "favors": "AWAY",
-     "team": "Millonarios",
+     "team": "Slavia Praha",
      "side": "AWAY",
      "group": "temporada",
      "kind": "def_rank"
     },
     {
-     "label": "Só 2 derrota(s) em 13 jogos no campeonato",
-     "strength": 0.34,
-     "favors": "AWAY",
-     "team": "Millonarios",
-     "side": "AWAY",
-     "group": "temporada",
-     "kind": "few_losses"
-    },
-    {
      "label": "Não vence há 5+ jogos",
      "strength": 0.333,
      "favors": "AWAY",
-     "team": "Fortaleza FC",
+     "team": "Zlin",
      "side": "HOME",
      "group": "sequencia",
      "kind": "winless_streak"
     },
     {
-     "label": "Millonarios está 10 posições à frente",
-     "strength": 0.714,
+     "label": "Slavia Praha está 15 posições à frente",
+     "strength": 0.8,
      "favors": "AWAY",
      "team": null,
      "side": null,
@@ -278,109 +260,109 @@
      "kind": "table_gap"
     }
    ],
-   "confidence": 58,
+   "confidence": 78,
    "league": {
-    "key": "co_primera",
-    "name": "Liga BetPlay",
-    "country": "Colômbia"
+    "key": "czech",
+    "name": "Chance Liga",
+    "country": "Chéquia"
    },
    "home_team": {
-    "id": 9844,
-    "name": "Fortaleza FC",
+    "id": 1795,
+    "name": "Zlin",
     "position": 16,
-    "played": 12,
-    "points": 10.0,
-    "record": "1V 7E 4D",
-    "goals_for": 13,
-    "goals_against": 18,
-    "last5": "DDLDD",
+    "played": 9,
+    "points": 1.0,
+    "record": "0V 1E 8D",
+    "goals_for": 8,
+    "goals_against": 19,
+    "last5": "DLLLL",
     "recent": [
      {
       "result": "D",
-      "score": "0-0",
+      "score": "1-1",
       "home": false,
-      "opponent": "Deportivo Pasto",
-      "date": "2026-10-04"
-     },
-     {
-      "result": "D",
-      "score": "2-2",
-      "home": true,
-      "opponent": "Deportes Tolima",
-      "date": "2026-09-27"
-     },
-     {
-      "result": "L",
-      "score": "1-4",
-      "home": true,
-      "opponent": "Junior FC",
+      "opponent": "FK Jablonec",
       "date": "2026-09-20"
      },
      {
-      "result": "D",
-      "score": "2-2",
-      "home": false,
-      "opponent": "Jaguares de Córdoba",
-      "date": "2026-09-11"
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Hradec Kralove",
+      "date": "2026-09-13"
      },
      {
-      "result": "D",
-      "score": "2-2",
+      "result": "L",
+      "score": "1-3",
+      "home": true,
+      "opponent": "Teplice",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "L",
+      "score": "2-3",
       "home": false,
-      "opponent": "Independiente Santa Fe",
-      "date": "2026-09-05"
+      "opponent": "Zbrojovka Brno",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Slovan Liberec",
+      "date": "2026-08-22"
      }
     ]
    },
    "away_team": {
-    "id": 8637,
-    "name": "Millonarios",
-    "position": 6,
-    "played": 13,
-    "points": 21.0,
-    "record": "5V 6E 2D",
-    "goals_for": 18,
-    "goals_against": 11,
-    "last5": "DDDWW",
+    "id": 1789,
+    "name": "Slavia Praha",
+    "position": 1,
+    "played": 9,
+    "points": 23.0,
+    "record": "7V 2E 0D",
+    "goals_for": 25,
+    "goals_against": 6,
+    "last5": "WWWWD",
     "recent": [
      {
-      "result": "D",
-      "score": "1-1",
-      "home": false,
-      "opponent": "Barranquilla FC",
-      "date": "2026-10-03"
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Viktoria Plzen",
+      "date": "2026-09-20"
      },
      {
-      "result": "D",
-      "score": "2-2",
+      "result": "W",
+      "score": "2-0",
       "home": false,
-      "opponent": "Independiente Medellin",
-      "date": "2026-09-30"
+      "opponent": "Teplice",
+      "date": "2026-09-13"
      },
      {
-      "result": "D",
-      "score": "1-1",
-      "home": false,
-      "opponent": "Atletico Nacional",
-      "date": "2026-09-25"
+      "result": "W",
+      "score": "4-0",
+      "home": true,
+      "opponent": "Zbrojovka Brno",
+      "date": "2026-09-05"
      },
      {
       "result": "W",
       "score": "3-0",
-      "home": true,
-      "opponent": "Boyaca Chico",
-      "date": "2026-09-19"
+      "home": false,
+      "opponent": "Sparta Praha",
+      "date": "2026-08-30"
      },
      {
-      "result": "W",
-      "score": "2-1",
-      "home": false,
-      "opponent": "Cucuta Deportivo",
-      "date": "2026-09-14"
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "Bohemians Praha",
+      "date": "2026-08-22"
      }
     ]
    },
-   "kickoff_local": "2026-10-08T22:10:00-03:00",
+   "kickoff_local": "2026-10-09T13:00:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
@@ -388,150 +370,123 @@
    "clear": true
   },
   {
-   "id": 4760812,
-   "s365_competition_id": 583,
-   "competition_name": "Liga 1 - Clausura",
-   "start_time": "2026-10-08T20:30:00+00:00",
+   "id": 4779034,
+   "s365_competition_id": 408,
+   "competition_name": "Doha Bank Stars League",
+   "start_time": "2026-10-09T14:45:00+00:00",
    "status_group": 2,
    "round": "Round",
    "home": {
-    "id": 50540,
-    "name": "Grau"
+    "id": 7086,
+    "name": "Qatar SC"
    },
    "away": {
-    "id": 23055,
-    "name": "Los Chankas"
+    "id": 7077,
+    "name": "Al Rayyan"
    },
    "home_score": 0.0,
-   "away_score": 0.0,
+   "away_score": 3.0,
    "model": {
-    "lambda_home": 2.75,
-    "lambda_away": 1.08,
-    "expected_goals": 3.83,
+    "lambda_home": 1.07,
+    "lambda_away": 1.76,
+    "expected_goals": 2.83,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.7241,
-     "DRAW": 0.1531,
-     "AWAY": 0.1228,
-     "1X": 0.8772,
-     "X2": 0.2759,
-     "12": 0.8469,
-     "OVER25": 0.7359,
-     "UNDER25": 0.2641,
-     "BTTS_YES": 0.6179,
-     "BTTS_NO": 0.3821
+     "HOME": 0.2308,
+     "DRAW": 0.2348,
+     "AWAY": 0.5343,
+     "1X": 0.4657,
+     "X2": 0.7692,
+     "12": 0.7652,
+     "OVER25": 0.5386,
+     "UNDER25": 0.4614,
+     "BTTS_YES": 0.5452,
+     "BTTS_NO": 0.4548
     }
    },
    "pick": {
-    "selection": "HOME",
-    "family": "1x2",
-    "label": "Vitória do Grau",
-    "model_prob": 0.7241,
-    "trend_alignment": 0.819,
-    "confidence": 71,
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: Al Rayyan ou empate (X2)",
+    "model_prob": 0.7692,
+    "trend_alignment": 1.0,
+    "confidence": 63,
     "eligible": true,
-    "odd": 1.61,
+    "odd": 1.17,
     "low_conviction": false
    },
    "alt_markets": [
     {
-     "selection": "1X",
-     "family": "double_chance",
-     "label": "Dupla chance: Grau ou empate (1X)",
-     "model_prob": 0.8772,
-     "trend_alignment": 0.819,
-     "confidence": 71,
-     "eligible": true,
-     "odd": 1.18
-    },
-    {
-     "selection": "OVER25",
-     "family": "over_under",
-     "label": "Mais de 2.5 gols",
-     "model_prob": 0.7359,
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Al Rayyan",
+     "model_prob": 0.5343,
      "trend_alignment": 1.0,
-     "confidence": 66,
+     "confidence": 54,
      "eligible": true,
-     "odd": 1.74
+     "odd": 1.47
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.6179,
-     "trend_alignment": 1.0,
-     "confidence": 50,
-     "eligible": true,
+     "model_prob": 0.5452,
+     "trend_alignment": 0.0,
+     "confidence": 6,
+     "eligible": false,
      "odd": null
     },
     {
-     "selection": "AWAY",
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5386,
+     "trend_alignment": 0.0,
+     "confidence": 5,
+     "eligible": false,
+     "odd": 2.1
+    },
+    {
+     "selection": "HOME",
      "family": "1x2",
-     "label": "Vitória do Los Chankas",
-     "model_prob": 0.1228,
+     "label": "Vitória do Qatar SC",
+     "model_prob": 0.2308,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 4.97
+     "odd": 4.96
     }
    ],
    "trends": [
     {
-     "label": "Perdeu 4 dos últimos 5",
-     "strength": 0.61,
-     "favors": "HOME",
-     "team": "Los Chankas",
+     "label": "Venceu 3 dos últimos 4",
+     "strength": 0.625,
+     "favors": "AWAY",
+     "team": "Al Rayyan",
      "side": "AWAY",
      "group": "geral",
-     "kind": "losses"
+     "kind": "wins"
     },
     {
-     "label": "Mais de 2.5 gols em 4 dos últimos 5",
-     "strength": 0.47,
-     "favors": "OVER",
-     "team": "Los Chankas",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "over"
-    },
-    {
-     "label": "Mais de 2.5 gols em 4 dos últimos 5",
-     "strength": 0.47,
-     "favors": "OVER",
-     "team": "Grau",
+     "label": "Não venceu nenhum dos últimos 4",
+     "strength": 0.55,
+     "favors": "AWAY",
+     "team": "Qatar SC",
      "side": "HOME",
      "group": "geral",
-     "kind": "over"
+     "kind": "winless"
     },
     {
-     "label": "Ambos marcaram em 4 dos últimos 5",
-     "strength": 0.43,
-     "favors": "BTTS_YES",
-     "team": "Grau",
+     "label": "Não marcou em 2 dos últimos 4",
+     "strength": 0.35,
+     "favors": "AWAY",
+     "team": "Qatar SC",
      "side": "HOME",
      "group": "geral",
-     "kind": "btts"
+     "kind": "no_score"
     },
     {
-     "label": "Pior defesa da liga (2.4 sofridos/jogo)",
-     "strength": 0.34,
-     "favors": "OVER",
-     "team": "Los Chankas",
-     "side": "AWAY",
-     "group": "temporada",
-     "kind": "def_bottom"
-    },
-    {
-     "label": "Não vence há 5+ jogos",
-     "strength": 0.333,
-     "favors": "HOME",
-     "team": "Los Chankas",
-     "side": "AWAY",
-     "group": "sequencia",
-     "kind": "winless_streak"
-    },
-    {
-     "label": "Grau é 11º · Los Chankas é 15º",
+     "label": "Qatar SC é 11º · Al Rayyan é 2º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -540,9 +495,9 @@
      "kind": "positions"
     },
     {
-     "label": "Grau está 4 posições à frente",
-     "strength": 0.286,
-     "favors": "HOME",
+     "label": "Al Rayyan está 9 posições à frente",
+     "strength": 0.643,
+     "favors": "AWAY",
      "team": null,
      "side": null,
      "group": "confronto",
@@ -551,237 +506,249 @@
    ],
    "aligned_trends": [
     {
-     "label": "Perdeu 4 dos últimos 5",
-     "strength": 0.61,
-     "favors": "HOME",
-     "team": "Los Chankas",
+     "label": "Venceu 3 dos últimos 4",
+     "strength": 0.625,
+     "favors": "AWAY",
+     "team": "Al Rayyan",
      "side": "AWAY",
      "group": "geral",
-     "kind": "losses"
+     "kind": "wins"
     },
     {
-     "label": "Não vence há 5+ jogos",
-     "strength": 0.333,
-     "favors": "HOME",
-     "team": "Los Chankas",
-     "side": "AWAY",
-     "group": "sequencia",
-     "kind": "winless_streak"
+     "label": "Não venceu nenhum dos últimos 4",
+     "strength": 0.55,
+     "favors": "AWAY",
+     "team": "Qatar SC",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "winless"
     },
     {
-     "label": "Grau está 4 posições à frente",
-     "strength": 0.286,
-     "favors": "HOME",
+     "label": "Não marcou em 2 dos últimos 4",
+     "strength": 0.35,
+     "favors": "AWAY",
+     "team": "Qatar SC",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "no_score"
+    },
+    {
+     "label": "Al Rayyan está 9 posições à frente",
+     "strength": 0.643,
+     "favors": "AWAY",
      "team": null,
      "side": null,
      "group": "confronto",
      "kind": "table_gap"
     }
    ],
-   "confidence": 71,
+   "confidence": 63,
    "league": {
-    "key": "pe_liga1",
-    "name": "Liga 1",
-    "country": "Peru"
+    "key": "qatar",
+    "name": "Qatar Stars League",
+    "country": "Catar"
    },
    "home_team": {
-    "id": 50540,
-    "name": "Grau",
+    "id": 7086,
+    "name": "Qatar SC",
     "position": 11,
-    "played": 10,
-    "points": 16.0,
-    "record": "5V 1E 4D",
-    "goals_for": 14,
-    "goals_against": 13,
-    "last5": "LWLWW",
+    "played": 4,
+    "points": 2.0,
+    "record": "0V 2E 2D",
+    "goals_for": 4,
+    "goals_against": 9,
+    "last5": "DLLD",
     "recent": [
      {
-      "result": "L",
-      "score": "1-3",
+      "result": "D",
+      "score": "0-0",
       "home": false,
-      "opponent": "Sporting Cristal",
-      "date": "2026-09-19"
+      "opponent": "Al Arabi Doha",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Al-Ahli Doha",
+      "date": "2026-09-03"
+     },
+     {
+      "result": "L",
+      "score": "2-6",
+      "home": true,
+      "opponent": "Al Sadd",
+      "date": "2026-08-28"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "Al Wakrah",
+      "date": "2026-08-20"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 7077,
+    "name": "Al Rayyan",
+    "position": 2,
+    "played": 4,
+    "points": 10.0,
+    "record": "3V 1E 0D",
+    "goals_for": 7,
+    "goals_against": 2,
+    "last5": "WDWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "Al-Ahli Doha",
+      "date": "2026-09-11"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Al Duhail",
+      "date": "2026-09-05"
      },
      {
       "result": "W",
-      "score": "3-1",
-      "home": true,
-      "opponent": "Alianza Atletico",
-      "date": "2026-09-13"
-     },
-     {
-      "result": "L",
-      "score": "2-4",
+      "score": "2-1",
       "home": false,
-      "opponent": "Deportivo Garcilaso",
-      "date": "2026-09-06"
+      "opponent": "Al Wakrah",
+      "date": "2026-08-27"
      },
      {
       "result": "W",
       "score": "1-0",
       "home": true,
-      "opponent": "FBC Melgar",
-      "date": "2026-09-01"
-     },
-     {
-      "result": "W",
-      "score": "3-1",
-      "home": false,
-      "opponent": "FC Cajamarca",
-      "date": "2026-08-21"
+      "opponent": "Lusail Sports Club",
+      "date": "2026-08-20"
      }
     ]
    },
-   "away_team": {
-    "id": 23055,
-    "name": "Los Chankas",
-    "position": 15,
-    "played": 10,
-    "points": 8.0,
-    "record": "2V 2E 6D",
-    "goals_for": 11,
-    "goals_against": 24,
-    "last5": "DLLLL",
-    "recent": [
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": false,
-      "opponent": "Cienciano",
-      "date": "2026-09-30"
-     },
-     {
-      "result": "L",
-      "score": "1-2",
-      "home": true,
-      "opponent": "FC Cajamarca",
-      "date": "2026-09-12"
-     },
-     {
-      "result": "L",
-      "score": "0-5",
-      "home": false,
-      "opponent": "Sporting Cristal",
-      "date": "2026-09-06"
-     },
-     {
-      "result": "L",
-      "score": "3-4",
-      "home": true,
-      "opponent": "Juan Pablo II College",
-      "date": "2026-08-29"
-     },
-     {
-      "result": "L",
-      "score": "0-3",
-      "home": false,
-      "opponent": "Universitario",
-      "date": "2026-08-23"
-     }
-    ]
-   },
-   "kickoff_local": "2026-10-08T17:30:00-03:00",
+   "kickoff_local": "2026-10-09T11:45:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "miss",
-   "clear": false,
-   "below_bar": true
+   "result": "hit",
+   "clear": true
   },
   {
-   "id": 4732018,
-   "s365_competition_id": 620,
-   "competition_name": "Liga BetPlay - Clausura",
-   "start_time": "2026-10-08T23:05:00+00:00",
+   "id": 4735533,
+   "s365_competition_id": 36,
+   "competition_name": "Ligue 2",
+   "start_time": "2026-10-09T18:00:00+00:00",
    "status_group": 2,
    "round": "Round",
    "home": {
-    "id": 8640,
-    "name": "Atletico Nacional"
+    "id": 483,
+    "name": "Sochaux"
    },
    "away": {
-    "id": 7635,
-    "name": "Deportes Tolima"
+    "id": 500,
+    "name": "Boulogne"
    },
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 1.67,
-    "lambda_away": 0.83,
-    "expected_goals": 2.5,
+    "lambda_home": 0.82,
+    "lambda_away": 0.56,
+    "expected_goals": 1.38,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.5733,
-     "DRAW": 0.2419,
-     "AWAY": 0.1847,
-     "1X": 0.8153,
-     "X2": 0.4267,
-     "12": 0.7581,
-     "OVER25": 0.4559,
-     "UNDER25": 0.5441,
-     "BTTS_YES": 0.4575,
-     "BTTS_NO": 0.5425
+     "HOME": 0.3892,
+     "DRAW": 0.3811,
+     "AWAY": 0.2297,
+     "1X": 0.7703,
+     "X2": 0.6108,
+     "12": 0.6189,
+     "OVER25": 0.1613,
+     "UNDER25": 0.8387,
+     "BTTS_YES": 0.2392,
+     "BTTS_NO": 0.7608
     }
    },
    "pick": {
-    "selection": "HOME",
-    "family": "1x2",
-    "label": "Vitória do Atletico Nacional",
-    "model_prob": 0.5733,
+    "selection": "1X",
+    "family": "double_chance",
+    "label": "Dupla chance: Sochaux ou empate (1X)",
+    "model_prob": 0.7703,
     "trend_alignment": 1.0,
-    "confidence": 69,
+    "confidence": 63,
     "eligible": true,
-    "odd": 1.65,
+    "odd": 1.39,
     "low_conviction": false
    },
    "alt_markets": [
     {
-     "selection": "1X",
-     "family": "double_chance",
-     "label": "Dupla chance: Atletico Nacional ou empate (1X)",
-     "model_prob": 0.8153,
-     "trend_alignment": 1.0,
-     "confidence": 69,
-     "eligible": true,
-     "odd": 1.16
-    },
-    {
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.5441,
-     "trend_alignment": 0.313,
-     "confidence": 17,
-     "eligible": false,
-     "odd": 1.93
+     "model_prob": 0.8387,
+     "trend_alignment": 0.68,
+     "confidence": 68,
+     "eligible": true,
+     "odd": 1.61
     },
     {
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.5425,
-     "trend_alignment": 0.313,
-     "confidence": 16,
-     "eligible": false,
+     "model_prob": 0.7608,
+     "trend_alignment": 0.68,
+     "confidence": 58,
+     "eligible": true,
      "odd": null
     },
     {
-     "selection": "AWAY",
+     "selection": "HOME",
      "family": "1x2",
-     "label": "Vitória do Deportes Tolima",
-     "model_prob": 0.1847,
-     "trend_alignment": 0.0,
-     "confidence": 0,
+     "label": "Vitória do Sochaux",
+     "model_prob": 0.3892,
+     "trend_alignment": 1.0,
+     "confidence": 40,
      "eligible": false,
-     "odd": 5.49
+     "odd": 2.29
+    },
+    {
+     "selection": "X2",
+     "family": "double_chance",
+     "label": "Dupla chance: Boulogne ou empate (X2)",
+     "model_prob": 0.6108,
+     "trend_alignment": 0.0,
+     "confidence": 8,
+     "eligible": false,
+     "odd": 1.56
     }
    ],
    "trends": [
     {
+     "label": "Invicto em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Sochaux",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Menos de 2.5 gols em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "UNDER",
+     "team": "Sochaux",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "under"
+    },
+    {
      "label": "Não venceu nenhum dos últimos 5",
      "strength": 0.55,
      "favors": "HOME",
-     "team": "Deportes Tolima",
+     "team": "Boulogne",
      "side": "AWAY",
      "group": "geral",
      "kind": "winless"
@@ -790,49 +757,31 @@
      "label": "Menos de 2.5 gols em 4 dos últimos 5",
      "strength": 0.47,
      "favors": "UNDER",
-     "team": "Deportes Tolima",
+     "team": "Boulogne",
      "side": "AWAY",
      "group": "geral",
      "kind": "under"
     },
     {
-     "label": "Invicto em 4 dos últimos 5",
-     "strength": 0.48,
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
      "favors": "HOME",
-     "team": "Atletico Nacional",
+     "team": "Sochaux",
      "side": "HOME",
-     "group": "geral",
-     "kind": "unbeaten"
-    },
-    {
-     "label": "Melhor ataque da liga (2.1 marcados/jogo)",
-     "strength": 0.44,
-     "favors": "HOME",
-     "team": "Atletico Nacional",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "atk_rank"
-    },
-    {
-     "label": "Só 2 derrota(s) em 10 jogos no campeonato",
-     "strength": 0.34,
-     "favors": "HOME",
-     "team": "Atletico Nacional",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "few_losses"
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
     },
     {
      "label": "Não vence há 5+ jogos",
      "strength": 0.333,
      "favors": "HOME",
-     "team": "Deportes Tolima",
+     "team": "Boulogne",
      "side": "AWAY",
      "group": "sequencia",
      "kind": "winless_streak"
     },
     {
-     "label": "Atletico Nacional é 4º · Deportes Tolima é 8º",
+     "label": "Sochaux é 8º · Boulogne é 17º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -841,8 +790,8 @@
      "kind": "positions"
     },
     {
-     "label": "Atletico Nacional está 4 posições à frente",
-     "strength": 0.286,
+     "label": "Sochaux está 9 posições à frente",
+     "strength": 0.643,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -852,53 +801,44 @@
    ],
    "aligned_trends": [
     {
-     "label": "Não venceu nenhum dos últimos 5",
+     "label": "Invicto em 5 dos últimos 5",
      "strength": 0.55,
      "favors": "HOME",
-     "team": "Deportes Tolima",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "winless"
-    },
-    {
-     "label": "Invicto em 4 dos últimos 5",
-     "strength": 0.48,
-     "favors": "HOME",
-     "team": "Atletico Nacional",
+     "team": "Sochaux",
      "side": "HOME",
      "group": "geral",
      "kind": "unbeaten"
     },
     {
-     "label": "Melhor ataque da liga (2.1 marcados/jogo)",
-     "strength": 0.44,
+     "label": "Não venceu nenhum dos últimos 5",
+     "strength": 0.55,
      "favors": "HOME",
-     "team": "Atletico Nacional",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "atk_rank"
+     "team": "Boulogne",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "winless"
     },
     {
-     "label": "Só 2 derrota(s) em 10 jogos no campeonato",
-     "strength": 0.34,
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
      "favors": "HOME",
-     "team": "Atletico Nacional",
+     "team": "Sochaux",
      "side": "HOME",
-     "group": "temporada",
-     "kind": "few_losses"
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
     },
     {
      "label": "Não vence há 5+ jogos",
      "strength": 0.333,
      "favors": "HOME",
-     "team": "Deportes Tolima",
+     "team": "Boulogne",
      "side": "AWAY",
      "group": "sequencia",
      "kind": "winless_streak"
     },
     {
-     "label": "Atletico Nacional está 4 posições à frente",
-     "strength": 0.286,
+     "label": "Sochaux está 9 posições à frente",
+     "strength": 0.643,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -906,115 +846,678 @@
      "kind": "table_gap"
     }
    ],
-   "confidence": 69,
+   "confidence": 63,
    "league": {
-    "key": "co_primera",
-    "name": "Liga BetPlay",
-    "country": "Colômbia"
+    "key": "ligue2",
+    "name": "Ligue 2",
+    "country": "França"
    },
    "home_team": {
-    "id": 8640,
-    "name": "Atletico Nacional",
-    "position": 4,
-    "played": 10,
-    "points": 22.0,
-    "record": "7V 1E 2D",
-    "goals_for": 21,
-    "goals_against": 10,
-    "last5": "WDLWW",
+    "id": 483,
+    "name": "Sochaux",
+    "position": 8,
+    "played": 7,
+    "points": 10.0,
+    "record": "2V 4E 1D",
+    "goals_for": 4,
+    "goals_against": 5,
+    "last5": "DWDDW",
     "recent": [
      {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Laval",
+      "date": "2026-09-18"
+     },
+     {
       "result": "W",
-      "score": "3-1",
+      "score": "1-0",
       "home": true,
-      "opponent": "Junior FC",
-      "date": "2026-10-01"
+      "opponent": "Nantes",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Pau FC",
+      "date": "2026-09-04"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Clermont Foot",
+      "date": "2026-08-28"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Guingamp",
+      "date": "2026-08-21"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 500,
+    "name": "Boulogne",
+    "position": 17,
+    "played": 7,
+    "points": 5.0,
+    "record": "0V 5E 2D",
+    "goals_for": 3,
+    "goals_against": 5,
+    "last5": "LDDDD",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Nantes",
+      "date": "2026-09-19"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Clermont Foot",
+      "date": "2026-09-11"
      },
      {
       "result": "D",
       "score": "1-1",
       "home": true,
-      "opponent": "Millonarios",
-      "date": "2026-09-25"
+      "opponent": "Dijon",
+      "date": "2026-09-04"
      },
-     {
-      "result": "L",
-      "score": "0-2",
-      "home": false,
-      "opponent": "Llaneros FC",
-      "date": "2026-09-21"
-     },
-     {
-      "result": "W",
-      "score": "3-2",
-      "home": false,
-      "opponent": "Internacional de Bogota",
-      "date": "2026-09-17"
-     },
-     {
-      "result": "W",
-      "score": "2-0",
-      "home": true,
-      "opponent": "Águilas Doradas",
-      "date": "2026-09-13"
-     }
-    ]
-   },
-   "away_team": {
-    "id": 7635,
-    "name": "Deportes Tolima",
-    "position": 8,
-    "played": 12,
-    "points": 19.0,
-    "record": "5V 4E 3D",
-    "goals_for": 15,
-    "goals_against": 13,
-    "last5": "DDDLL",
-    "recent": [
      {
       "result": "D",
       "score": "0-0",
+      "home": false,
+      "opponent": "Montpellier",
+      "date": "2026-08-28"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
       "home": true,
-      "opponent": "Boyaca Chico",
-      "date": "2026-10-03"
+      "opponent": "Red Star FC93",
+      "date": "2026-08-21"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-09T15:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4735252,
+   "s365_competition_id": 35,
+   "competition_name": "Ligue 1",
+   "start_time": "2026-10-09T18:45:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 481,
+    "name": "Lens"
+   },
+   "away": {
+    "id": 465,
+    "name": "Lyon"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.35,
+    "lambda_away": 1.6,
+    "expected_goals": 2.96,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.3229,
+     "DRAW": 0.2429,
+     "AWAY": 0.4342,
+     "1X": 0.5658,
+     "X2": 0.6771,
+     "12": 0.7571,
+     "OVER25": 0.5671,
+     "UNDER25": 0.4329,
+     "BTTS_YES": 0.5924,
+     "BTTS_NO": 0.4076
+    }
+   },
+   "pick": {
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: Lyon ou empate (X2)",
+    "model_prob": 0.6771,
+    "trend_alignment": 1.0,
+    "confidence": 50,
+    "eligible": true,
+    "odd": 1.51,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Lyon",
+     "model_prob": 0.4342,
+     "trend_alignment": 1.0,
+     "confidence": 44,
+     "eligible": false,
+     "odd": 2.53
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5924,
+     "trend_alignment": 0.079,
+     "confidence": 15,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5671,
+     "trend_alignment": 0.079,
+     "confidence": 11,
+     "eligible": false,
+     "odd": 2.3
+    },
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Lens ou empate (1X)",
+     "model_prob": 0.5658,
+     "trend_alignment": 0.0,
+     "confidence": 2,
+     "eligible": false,
+     "odd": 1.53
+    }
+   ],
+   "trends": [
+    {
+     "label": "Invicto em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "AWAY",
+     "team": "Lyon",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Não sofreu gol em 3 dos últimos 5",
+     "strength": 0.39,
+     "favors": "UNDER",
+     "team": "Lyon",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "clean_sheets"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Lens",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "Lens",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Lyon",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Lens é 15º · Lyon é 2º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Lyon está 13 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Invicto em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "AWAY",
+     "team": "Lyon",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Lens",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Lyon",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Lyon está 13 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 50,
+   "league": {
+    "key": "ligue1",
+    "name": "Ligue 1",
+    "country": "França"
+   },
+   "home_team": {
+    "id": 481,
+    "name": "Lens",
+    "position": 15,
+    "played": 5,
+    "points": 4.0,
+    "record": "1V 1E 3D",
+    "goals_for": 9,
+    "goals_against": 9,
+    "last5": "LDLLW",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Monaco",
+      "date": "2026-09-18"
      },
      {
       "result": "D",
       "score": "2-2",
       "home": false,
-      "opponent": "Fortaleza FC",
-      "date": "2026-09-27"
+      "opponent": "Le Mans",
+      "date": "2026-09-13"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Lorient",
+      "date": "2026-09-05"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Strasbourg",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "W",
+      "score": "5-2",
+      "home": true,
+      "opponent": "Auxerre",
+      "date": "2026-08-22"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 465,
+    "name": "Lyon",
+    "position": 2,
+    "played": 5,
+    "points": 11.0,
+    "record": "3V 2E 0D",
+    "goals_for": 10,
+    "goals_against": 2,
+    "last5": "WDWDW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "4-0",
+      "home": true,
+      "opponent": "Rennes",
+      "date": "2026-09-19"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Paris FC",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": true,
+      "opponent": "Auxerre",
+      "date": "2026-09-04"
      },
      {
       "result": "D",
       "score": "1-1",
       "home": true,
-      "opponent": "America de Cali",
-      "date": "2026-09-20"
+      "opponent": "Le Havre",
+      "date": "2026-08-29"
      },
      {
-      "result": "L",
-      "score": "0-1",
+      "result": "W",
+      "score": "2-0",
       "home": false,
-      "opponent": "Once Caldas",
-      "date": "2026-09-16"
-     },
-     {
-      "result": "L",
-      "score": "0-1",
-      "home": false,
-      "opponent": "Independiente Santa Fe",
-      "date": "2026-09-12"
+      "opponent": "Toulouse",
+      "date": "2026-08-22"
      }
     ]
    },
-   "kickoff_local": "2026-10-08T20:05:00-03:00",
+   "kickoff_local": "2026-10-09T15:45:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
    "result": "pending",
-   "clear": false,
-   "below_bar": true
+   "clear": true
+  },
+  {
+   "id": 4766954,
+   "s365_competition_id": 81,
+   "competition_name": "1. Lig",
+   "start_time": "2026-10-09T17:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 12306,
+    "name": "Ümraniyespor"
+   },
+   "away": {
+    "id": 1002,
+    "name": "Sariyer"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.05,
+    "lambda_away": 1.12,
+    "expected_goals": 2.16,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.3345,
+     "DRAW": 0.294,
+     "AWAY": 0.3715,
+     "1X": 0.6285,
+     "X2": 0.6655,
+     "12": 0.706,
+     "OVER25": 0.3675,
+     "UNDER25": 0.6325,
+     "BTTS_YES": 0.4365,
+     "BTTS_NO": 0.5635
+    }
+   },
+   "pick": {
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: Sariyer ou empate (X2)",
+    "model_prob": 0.6655,
+    "trend_alignment": 1.0,
+    "confidence": 49,
+    "eligible": true,
+    "odd": 1.53,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Sariyer",
+     "model_prob": 0.3715,
+     "trend_alignment": 1.0,
+     "confidence": 38,
+     "eligible": false,
+     "odd": 2.6
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.6325,
+     "trend_alignment": 0.0,
+     "confidence": 17,
+     "eligible": true,
+     "odd": 1.69
+    },
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Ümraniyespor ou empate (1X)",
+     "model_prob": 0.6285,
+     "trend_alignment": 0.0,
+     "confidence": 11,
+     "eligible": true,
+     "odd": 1.46
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5635,
+     "trend_alignment": 0.0,
+     "confidence": 8,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Ümraniyespor",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "AWAY",
+     "team": "Sariyer",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Ümraniyespor é 16º · Sariyer é 5º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Sariyer está 11 posições à frente",
+     "strength": 0.786,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Ümraniyespor",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "AWAY",
+     "team": "Sariyer",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Sariyer está 11 posições à frente",
+     "strength": 0.786,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 49,
+   "league": {
+    "key": "turkey2",
+    "name": "1. Lig",
+    "country": "Turquia"
+   },
+   "home_team": {
+    "id": 12306,
+    "name": "Ümraniyespor",
+    "position": 16,
+    "played": 8,
+    "points": 6.0,
+    "record": "1V 3E 4D",
+    "goals_for": 6,
+    "goals_against": 9,
+    "last5": "WLLLD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Bandırmaspor",
+      "date": "2026-09-18"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Antalyaspor",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Pendikspor",
+      "date": "2026-09-05"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Muglaspor",
+      "date": "2026-09-01"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "Keciorengucu",
+      "date": "2026-08-28"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 1002,
+    "name": "Sariyer",
+    "position": 5,
+    "played": 8,
+    "points": 14.0,
+    "record": "4V 2E 2D",
+    "goals_for": 11,
+    "goals_against": 9,
+    "last5": "WDLWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Boluspor",
+      "date": "2026-09-19"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Bandırmaspor",
+      "date": "2026-09-11"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": false,
+      "opponent": "Keciorengucu",
+      "date": "2026-09-05"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Pendikspor",
+      "date": "2026-09-01"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Antalyaspor",
+      "date": "2026-08-28"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-09T14:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
   }
  ]
 }

@@ -1,0 +1,1645 @@
+{
+ "date": "2026-10-11",
+ "generated_at": "2026-10-09T14:24:43.858286-03:00",
+ "version": "0.1.0",
+ "count": 5,
+ "clear_count": 5,
+ "day_total": 110,
+ "games": [
+  {
+   "id": 4740722,
+   "s365_competition_id": 98,
+   "competition_name": "Jupiler Pro League",
+   "start_time": "2026-10-11T14:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 1204,
+    "name": "Union St. Gilloise"
+   },
+   "away": {
+    "id": 1189,
+    "name": "Oud-Heverlee Leuven"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.58,
+    "lambda_away": 0.63,
+    "expected_goals": 3.21,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.7923,
+     "DRAW": 0.1385,
+     "AWAY": 0.0692,
+     "1X": 0.9308,
+     "X2": 0.2077,
+     "12": 0.8615,
+     "OVER25": 0.6217,
+     "UNDER25": 0.3783,
+     "BTTS_YES": 0.433,
+     "BTTS_NO": 0.567
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Union St. Gilloise",
+    "model_prob": 0.7923,
+    "trend_alignment": 1.0,
+    "confidence": 85,
+    "eligible": true,
+    "odd": 1.24,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Union St. Gilloise ou empate (1X)",
+     "model_prob": 0.9308,
+     "trend_alignment": 1.0,
+     "confidence": 85,
+     "eligible": true,
+     "odd": 1.07
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.567,
+     "trend_alignment": 0.313,
+     "confidence": 20,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6217,
+     "trend_alignment": 0.0,
+     "confidence": 16,
+     "eligible": true,
+     "odd": 2.12
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.3783,
+     "trend_alignment": 0.313,
+     "confidence": 11,
+     "eligible": false,
+     "odd": 1.68
+    }
+   ],
+   "trends": [
+    {
+     "label": "5 vitórias seguidas",
+     "strength": 1.0,
+     "favors": "HOME",
+     "team": "Union St. Gilloise",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 5 dos últimos 5",
+     "strength": 0.75,
+     "favors": "HOME",
+     "team": "Union St. Gilloise",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Não sofreu gol em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "UNDER",
+     "team": "Union St. Gilloise",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "clean_sheets"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Oud-Heverlee Leuven",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Union St. Gilloise é 1º · Oud-Heverlee Leuven é 15º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Union St. Gilloise está 14 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "5 vitórias seguidas",
+     "strength": 1.0,
+     "favors": "HOME",
+     "team": "Union St. Gilloise",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 5 dos últimos 5",
+     "strength": 0.75,
+     "favors": "HOME",
+     "team": "Union St. Gilloise",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Oud-Heverlee Leuven",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Union St. Gilloise está 14 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 85,
+   "league": {
+    "key": "belgium",
+    "name": "Jupiler Pro League",
+    "country": "Bélgica"
+   },
+   "home_team": {
+    "id": 1204,
+    "name": "Union St. Gilloise",
+    "position": 1,
+    "played": 7,
+    "points": 19.0,
+    "record": "6V 1E 0D",
+    "goals_for": 21,
+    "goals_against": 3,
+    "last5": "WWWWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "Royal Antwerp FC",
+      "date": "2026-09-20"
+     },
+     {
+      "result": "W",
+      "score": "5-0",
+      "home": true,
+      "opponent": "Lommel United",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": false,
+      "opponent": "Charleroi",
+      "date": "2026-09-05"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": false,
+      "opponent": "STVV",
+      "date": "2026-09-02"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "Anderlecht",
+      "date": "2026-08-30"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 1189,
+    "name": "Oud-Heverlee Leuven",
+    "position": 15,
+    "played": 7,
+    "points": 4.0,
+    "record": "1V 1E 5D",
+    "goals_for": 5,
+    "goals_against": 13,
+    "last5": "WDLLL",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "La Louvière Centre",
+      "date": "2026-09-19"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Cercle Brugge",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": false,
+      "opponent": "SK Beveren",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "KAA Gent",
+      "date": "2026-09-03"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Standard de Liège",
+      "date": "2026-08-29"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-11T11:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4751255,
+   "s365_competition_id": 12,
+   "competition_name": "LaLiga 2",
+   "start_time": "2026-10-11T14:15:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 138,
+    "name": "Almeria"
+   },
+   "away": {
+    "id": 9242,
+    "name": "CD Leganés"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.22,
+    "lambda_away": 0.57,
+    "expected_goals": 2.8,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.751,
+     "DRAW": 0.1679,
+     "AWAY": 0.0811,
+     "1X": 0.9189,
+     "X2": 0.249,
+     "12": 0.8321,
+     "OVER25": 0.5291,
+     "UNDER25": 0.4709,
+     "BTTS_YES": 0.3897,
+     "BTTS_NO": 0.6103
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Almeria",
+    "model_prob": 0.751,
+    "trend_alignment": 1.0,
+    "confidence": 83,
+    "eligible": true,
+    "odd": 1.62,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Almeria ou empate (1X)",
+     "model_prob": 0.9189,
+     "trend_alignment": 1.0,
+     "confidence": 83,
+     "eligible": true,
+     "odd": 1.17
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.6103,
+     "trend_alignment": 0.26,
+     "confidence": 23,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.4709,
+     "trend_alignment": 0.26,
+     "confidence": 9,
+     "eligible": false,
+     "odd": 2.06
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5291,
+     "trend_alignment": 0.0,
+     "confidence": 4,
+     "eligible": false,
+     "odd": 1.75
+    }
+   ],
+   "trends": [
+    {
+     "label": "5 vitórias seguidas",
+     "strength": 1.0,
+     "favors": "HOME",
+     "team": "Almeria",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 5 dos últimos 5",
+     "strength": 0.75,
+     "favors": "HOME",
+     "team": "Almeria",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Não sofreu gol em 3 dos últimos 5",
+     "strength": 0.39,
+     "favors": "UNDER",
+     "team": "Almeria",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "clean_sheets"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "CD Leganés",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Não marcou em 4 dos últimos 5",
+     "strength": 0.44,
+     "favors": "HOME",
+     "team": "CD Leganés",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "no_score"
+    },
+    {
+     "label": "3ª melhor defesa da liga (0.6 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "HOME",
+     "team": "Almeria",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Almeria é 3º · CD Leganés é 13º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Almeria está 10 posições à frente",
+     "strength": 0.714,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "5 vitórias seguidas",
+     "strength": 1.0,
+     "favors": "HOME",
+     "team": "Almeria",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 5 dos últimos 5",
+     "strength": 0.75,
+     "favors": "HOME",
+     "team": "Almeria",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "CD Leganés",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Não marcou em 4 dos últimos 5",
+     "strength": 0.44,
+     "favors": "HOME",
+     "team": "CD Leganés",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "no_score"
+    },
+    {
+     "label": "3ª melhor defesa da liga (0.6 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "HOME",
+     "team": "Almeria",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Almeria está 10 posições à frente",
+     "strength": 0.714,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 83,
+   "league": {
+    "key": "laliga2",
+    "name": "LaLiga 2",
+    "country": "Espanha"
+   },
+   "home_team": {
+    "id": 138,
+    "name": "Almeria",
+    "position": 3,
+    "played": 8,
+    "points": 18.0,
+    "record": "6V 0E 2D",
+    "goals_for": 13,
+    "goals_against": 5,
+    "last5": "WWWWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Burgos CF",
+      "date": "2026-10-03"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Mallorca",
+      "date": "2026-09-27"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Celta Vigo B",
+      "date": "2026-09-20"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "Cordoba",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": true,
+      "opponent": "Cadiz CF",
+      "date": "2026-09-06"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 9242,
+    "name": "CD Leganés",
+    "position": 13,
+    "played": 8,
+    "points": 11.0,
+    "record": "3V 2E 3D",
+    "goals_for": 6,
+    "goals_against": 11,
+    "last5": "LLWLD",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-4",
+      "home": false,
+      "opponent": "Cadiz CF",
+      "date": "2026-10-03"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": true,
+      "opponent": "Castellon",
+      "date": "2026-09-28"
+     },
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": true,
+      "opponent": "Granada",
+      "date": "2026-09-20"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Tenerife",
+      "date": "2026-09-13"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Las Palmas",
+      "date": "2026-09-04"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-11T11:15:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4748431,
+   "s365_competition_id": 136,
+   "competition_name": "Liga 1",
+   "start_time": "2026-10-11T15:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 26249,
+    "name": "Csíkszereda Miercurea Ciuc"
+   },
+   "away": {
+    "id": 2048,
+    "name": "CS Universitatea Craiova"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 0.74,
+    "lambda_away": 2.66,
+    "expected_goals": 3.41,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.0798,
+     "DRAW": 0.1395,
+     "AWAY": 0.7807,
+     "1X": 0.2193,
+     "X2": 0.9202,
+     "12": 0.8605,
+     "OVER25": 0.6609,
+     "UNDER25": 0.3391,
+     "BTTS_YES": 0.4875,
+     "BTTS_NO": 0.5125
+    }
+   },
+   "pick": {
+    "selection": "AWAY",
+    "family": "1x2",
+    "label": "Vitória do CS Universitatea Craiova",
+    "model_prob": 0.7807,
+    "trend_alignment": 1.0,
+    "confidence": 83,
+    "eligible": true,
+    "odd": 1.29,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "X2",
+     "family": "double_chance",
+     "label": "Dupla chance: CS Universitatea Craiova ou empate (X2)",
+     "model_prob": 0.9202,
+     "trend_alignment": 1.0,
+     "confidence": 83,
+     "eligible": true,
+     "odd": 1.08
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6609,
+     "trend_alignment": 0.259,
+     "confidence": 30,
+     "eligible": true,
+     "odd": 1.61
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.4875,
+     "trend_alignment": 0.259,
+     "confidence": 9,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5125,
+     "trend_alignment": 0.0,
+     "confidence": 2,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 5 dos últimos 5",
+     "strength": 0.7,
+     "favors": "AWAY",
+     "team": "Csíkszereda Miercurea Ciuc",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Sofreu gol em todos os últimos 5",
+     "strength": 0.4,
+     "favors": "OVER",
+     "team": "Csíkszereda Miercurea Ciuc",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "always_concede"
+    },
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "AWAY",
+     "team": "CS Universitatea Craiova",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Não sofreu gol em 3 dos últimos 5",
+     "strength": 0.39,
+     "favors": "UNDER",
+     "team": "CS Universitatea Craiova",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "clean_sheets"
+    },
+    {
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "CS Universitatea Craiova",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Melhor ataque da liga (2.4 marcados/jogo)",
+     "strength": 0.44,
+     "favors": "AWAY",
+     "team": "CS Universitatea Craiova",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "3ª melhor defesa da liga (0.9 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "AWAY",
+     "team": "CS Universitatea Craiova",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 2 derrota(s) em 10 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "AWAY",
+     "team": "CS Universitatea Craiova",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Pior defesa da liga (2.3 sofridos/jogo)",
+     "strength": 0.34,
+     "favors": "OVER",
+     "team": "Csíkszereda Miercurea Ciuc",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_bottom"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Csíkszereda Miercurea Ciuc",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Csíkszereda Miercurea Ciuc é 16º · CS Universitatea Craiova é 3º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "CS Universitatea Craiova está 13 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 5 dos últimos 5",
+     "strength": 0.7,
+     "favors": "AWAY",
+     "team": "Csíkszereda Miercurea Ciuc",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "AWAY",
+     "team": "CS Universitatea Craiova",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "CS Universitatea Craiova",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Melhor ataque da liga (2.4 marcados/jogo)",
+     "strength": 0.44,
+     "favors": "AWAY",
+     "team": "CS Universitatea Craiova",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "3ª melhor defesa da liga (0.9 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "AWAY",
+     "team": "CS Universitatea Craiova",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 2 derrota(s) em 10 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "AWAY",
+     "team": "CS Universitatea Craiova",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Csíkszereda Miercurea Ciuc",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "CS Universitatea Craiova está 13 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 83,
+   "league": {
+    "key": "romania",
+    "name": "Liga 1",
+    "country": "Romênia"
+   },
+   "home_team": {
+    "id": 26249,
+    "name": "Csíkszereda Miercurea Ciuc",
+    "position": 16,
+    "played": 10,
+    "points": 1.0,
+    "record": "0V 1E 9D",
+    "goals_for": 6,
+    "goals_against": 23,
+    "last5": "LLLLL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Petrolul Ploiesti",
+      "date": "2026-09-21"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": true,
+      "opponent": "Dinamo Bucuresti",
+      "date": "2026-09-11"
+     },
+     {
+      "result": "L",
+      "score": "1-5",
+      "home": false,
+      "opponent": "UTA Arad",
+      "date": "2026-09-05"
+     },
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": true,
+      "opponent": "CFR Cluj",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "FC Botosani",
+      "date": "2026-08-24"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 2048,
+    "name": "CS Universitatea Craiova",
+    "position": 3,
+    "played": 10,
+    "points": 20.0,
+    "record": "6V 2E 2D",
+    "goals_for": 24,
+    "goals_against": 9,
+    "last5": "WWWDW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "5-0",
+      "home": true,
+      "opponent": "FCSB",
+      "date": "2026-09-19"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Hunedoara",
+      "date": "2026-09-13"
+     },
+     {
+      "result": "W",
+      "score": "4-0",
+      "home": true,
+      "opponent": "Universitatea Cluj",
+      "date": "2026-09-07"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Rapid Bucuresti",
+      "date": "2026-08-31"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": true,
+      "opponent": "FC Voluntari",
+      "date": "2026-08-23"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-11T12:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4636000,
+   "s365_competition_id": 122,
+   "competition_name": "Allsvenskan",
+   "start_time": "2026-10-11T14:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 1903,
+    "name": "BK Häcken"
+   },
+   "away": {
+    "id": 1908,
+    "name": "Örgryte IS"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.54,
+    "lambda_away": 0.8,
+    "expected_goals": 3.34,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.7499,
+     "DRAW": 0.1538,
+     "AWAY": 0.0963,
+     "1X": 0.9037,
+     "X2": 0.2501,
+     "12": 0.8462,
+     "OVER25": 0.6479,
+     "UNDER25": 0.3521,
+     "BTTS_YES": 0.5074,
+     "BTTS_NO": 0.4926
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do BK Häcken",
+    "model_prob": 0.7499,
+    "trend_alignment": 1.0,
+    "confidence": 81,
+    "eligible": true,
+    "odd": 1.27,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: BK Häcken ou empate (1X)",
+     "model_prob": 0.9037,
+     "trend_alignment": 1.0,
+     "confidence": 81,
+     "eligible": true,
+     "odd": 1.08
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6479,
+     "trend_alignment": 0.279,
+     "confidence": 29,
+     "eligible": true,
+     "odd": 1.82
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5074,
+     "trend_alignment": 0.279,
+     "confidence": 11,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Örgryte IS",
+     "model_prob": 0.0963,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 8.0
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Örgryte IS",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Ambos marcaram em 4 dos últimos 5",
+     "strength": 0.43,
+     "favors": "BTTS_YES",
+     "team": "Örgryte IS",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "btts"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "BK Häcken",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Não sofreu gol em 3 dos últimos 5",
+     "strength": 0.39,
+     "favors": "UNDER",
+     "team": "BK Häcken",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "clean_sheets"
+    },
+    {
+     "label": "Pior defesa da liga (2.2 sofridos/jogo)",
+     "strength": 0.34,
+     "favors": "OVER",
+     "team": "Örgryte IS",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_bottom"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Örgryte IS",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "BK Häcken é 5º · Örgryte IS é 15º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "BK Häcken está 10 posições à frente",
+     "strength": 0.714,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Örgryte IS",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "BK Häcken",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Örgryte IS",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "BK Häcken está 10 posições à frente",
+     "strength": 0.714,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 81,
+   "league": {
+    "key": "sweden",
+    "name": "Allsvenskan",
+    "country": "Suécia"
+   },
+   "home_team": {
+    "id": 1903,
+    "name": "BK Häcken",
+    "position": 5,
+    "played": 22,
+    "points": 36.0,
+    "record": "9V 9E 4D",
+    "goals_for": 39,
+    "goals_against": 30,
+    "last5": "WDDLW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "5-0",
+      "home": false,
+      "opponent": "Kalmar FF",
+      "date": "2026-09-20"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Mjällby AIF",
+      "date": "2026-09-11"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Gais",
+      "date": "2026-09-05"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": true,
+      "opponent": "Västerås",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": false,
+      "opponent": "Sirius",
+      "date": "2026-08-21"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 1908,
+    "name": "Örgryte IS",
+    "position": 15,
+    "played": 22,
+    "points": 15.0,
+    "record": "3V 6E 13D",
+    "goals_for": 25,
+    "goals_against": 49,
+    "last5": "LLDLD",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Sirius",
+      "date": "2026-09-19"
+     },
+     {
+      "result": "L",
+      "score": "1-4",
+      "home": false,
+      "opponent": "Malmö FF",
+      "date": "2026-09-13"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Hammarby",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "IFK Göteborg",
+      "date": "2026-08-30"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Halmstad",
+      "date": "2026-08-22"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-11T11:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4743890,
+   "s365_competition_id": 117,
+   "competition_name": "Chance Liga",
+   "start_time": "2026-10-11T11:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 1794,
+    "name": "Slovan Liberec"
+   },
+   "away": {
+    "id": 1807,
+    "name": "Slovacko"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.81,
+    "lambda_away": 0.61,
+    "expected_goals": 2.42,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.6624,
+     "DRAW": 0.2183,
+     "AWAY": 0.1193,
+     "1X": 0.8807,
+     "X2": 0.3376,
+     "12": 0.7817,
+     "OVER25": 0.4345,
+     "UNDER25": 0.5655,
+     "BTTS_YES": 0.3817,
+     "BTTS_NO": 0.6183
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Slovan Liberec",
+    "model_prob": 0.6624,
+    "trend_alignment": 1.0,
+    "confidence": 78,
+    "eligible": true,
+    "odd": 1.47,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Slovan Liberec ou empate (1X)",
+     "model_prob": 0.8807,
+     "trend_alignment": 1.0,
+     "confidence": 78,
+     "eligible": true,
+     "odd": 1.13
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.6183,
+     "trend_alignment": 0.313,
+     "confidence": 26,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.5655,
+     "trend_alignment": 0.313,
+     "confidence": 19,
+     "eligible": false,
+     "odd": 1.98
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Slovacko",
+     "model_prob": 0.1193,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 6.0
+    }
+   ],
+   "trends": [
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "HOME",
+     "team": "Slovan Liberec",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Não sofreu gol em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "UNDER",
+     "team": "Slovan Liberec",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "clean_sheets"
+    },
+    {
+     "label": "Não venceu nenhum dos últimos 5",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Slovacko",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "Melhor defesa da liga (0.4 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Slovan Liberec",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Slovan Liberec",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Slovacko",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Slovan Liberec é 2º · Slovacko é 15º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Slovan Liberec está 13 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "HOME",
+     "team": "Slovan Liberec",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Não venceu nenhum dos últimos 5",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Slovacko",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "Melhor defesa da liga (0.4 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Slovan Liberec",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Slovan Liberec",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Slovacko",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Slovan Liberec está 13 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 78,
+   "league": {
+    "key": "czech",
+    "name": "Chance Liga",
+    "country": "Chéquia"
+   },
+   "home_team": {
+    "id": 1794,
+    "name": "Slovan Liberec",
+    "position": 2,
+    "played": 9,
+    "points": 20.0,
+    "record": "6V 2E 1D",
+    "goals_for": 13,
+    "goals_against": 4,
+    "last5": "DWWWW",
+    "recent": [
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Artis Brno",
+      "date": "2026-09-19"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "Mlada Boleslav",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "FK Jablonec",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Hradec Kralove",
+      "date": "2026-08-30"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Zlin",
+      "date": "2026-08-22"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 1807,
+    "name": "Slovacko",
+    "position": 15,
+    "played": 9,
+    "points": 4.0,
+    "record": "0V 4E 5D",
+    "goals_for": 7,
+    "goals_against": 16,
+    "last5": "DLDDL",
+    "recent": [
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "Banik Ostrava",
+      "date": "2026-09-19"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Bohemians Praha",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Pardubice",
+      "date": "2026-09-05"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Viktoria Plzen",
+      "date": "2026-08-30"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Mlada Boleslav",
+      "date": "2026-08-22"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-11T08:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  }
+ ]
+}
