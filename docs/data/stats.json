@@ -1,5 +1,5 @@
 {
- "generated_for": "2026-10-09",
+ "generated_for": "2026-10-10",
  "since": "2026-09-03",
  "prelaunch": {
   "hits": 12,
@@ -12,21 +12,21 @@
   "total": 5
  },
  "last3": {
-  "hits": 5,
-  "misses": 1,
+  "hits": 9,
+  "misses": 2,
   "voids": 0,
-  "total": 6
+  "total": 11
  },
  "week": {
-  "hits": 7,
-  "misses": 5,
+  "hits": 9,
+  "misses": 4,
   "voids": 0,
-  "total": 12
+  "total": 13
  },
  "all_time": {
-  "hits": 86,
-  "misses": 23,
+  "hits": 90,
+  "misses": 24,
   "voids": 1,
-  "total": 109
+  "total": 114
  }
 }
