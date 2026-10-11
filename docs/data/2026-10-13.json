@@ -1,6 +1,6 @@
 {
  "date": "2026-10-13",
- "generated_at": "2026-10-11T13:38:06.845884-03:00",
+ "generated_at": "2026-10-11T20:28:49.544808-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 3,
@@ -35,8 +35,8 @@
      "1X": 0.8341,
      "X2": 0.4654,
      "12": 0.7005,
-     "OVER25": 0.2723,
-     "UNDER25": 0.7277,
+     "OVER25": 0.2724,
+     "UNDER25": 0.7276,
      "BTTS_YES": 0.3058,
      "BTTS_NO": 0.6942
     }
@@ -67,7 +67,7 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.7277,
+     "model_prob": 0.7276,
      "trend_alignment": 0.627,
      "confidence": 52,
      "eligible": true,

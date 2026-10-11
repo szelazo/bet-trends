@@ -1,6 +1,6 @@
 {
  "date": "2026-10-11",
- "generated_at": "2026-10-11T13:38:05.239024-03:00",
+ "generated_at": "2026-10-11T20:28:47.474394-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -639,8 +639,8 @@
     "id": 2048,
     "name": "CS Universitatea Craiova"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 0.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 0.73,
     "lambda_away": 2.63,
@@ -1002,7 +1002,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
