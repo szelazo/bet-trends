@@ -1,0 +1,946 @@
+{
+ "date": "2026-10-13",
+ "generated_at": "2026-10-11T13:38:06.845884-03:00",
+ "version": "0.1.0",
+ "count": 3,
+ "clear_count": 3,
+ "day_total": 31,
+ "games": [
+  {
+   "id": 4804691,
+   "s365_competition_id": 552,
+   "competition_name": "Premier League",
+   "start_time": "2026-10-13T17:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 8312,
+    "name": "Al Ittehad"
+   },
+   "away": {
+    "id": 8308,
+    "name": "El Gounah"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.25,
+    "lambda_away": 0.56,
+    "expected_goals": 1.81,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.5346,
+     "DRAW": 0.2995,
+     "AWAY": 0.1659,
+     "1X": 0.8341,
+     "X2": 0.4654,
+     "12": 0.7005,
+     "OVER25": 0.2723,
+     "UNDER25": 0.7277,
+     "BTTS_YES": 0.3058,
+     "BTTS_NO": 0.6942
+    }
+   },
+   "pick": {
+    "selection": "1X",
+    "family": "double_chance",
+    "label": "Dupla chance: Al Ittehad ou empate (1X)",
+    "model_prob": 0.8341,
+    "trend_alignment": 1.0,
+    "confidence": 71,
+    "eligible": true,
+    "odd": 1.27,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Al Ittehad",
+     "model_prob": 0.5346,
+     "trend_alignment": 1.0,
+     "confidence": 54,
+     "eligible": true,
+     "odd": 2.08
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.7277,
+     "trend_alignment": 0.627,
+     "confidence": 52,
+     "eligible": true,
+     "odd": 2.09
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.6942,
+     "trend_alignment": 0.627,
+     "confidence": 47,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do El Gounah",
+     "model_prob": 0.1659,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 3.67
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "El Gounah",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Menos de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "UNDER",
+     "team": "El Gounah",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "under"
+    },
+    {
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Al Ittehad",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Al Ittehad",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Não sofreu gol em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "UNDER",
+     "team": "Al Ittehad",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "clean_sheets"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "El Gounah",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Al Ittehad é 6º · El Gounah é 18º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Al Ittehad está 12 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "El Gounah",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Al Ittehad",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Al Ittehad",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "El Gounah",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Al Ittehad está 12 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 71,
+   "league": {
+    "key": "egypt",
+    "name": "Premier League",
+    "country": "Egito"
+   },
+   "home_team": {
+    "id": 8312,
+    "name": "Al Ittehad",
+    "position": 6,
+    "played": 5,
+    "points": 10.0,
+    "record": "3V 1E 1D",
+    "goals_for": 6,
+    "goals_against": 3,
+    "last5": "WWWLD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "Al Masry",
+      "date": "2026-09-15"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Petrol Asyut",
+      "date": "2026-09-07"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "Abo Qir Semad",
+      "date": "2026-09-02"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": true,
+      "opponent": "Ceramica Cleopatra",
+      "date": "2026-08-28"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Zamalek SC",
+      "date": "2026-08-21"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 8308,
+    "name": "El Gounah",
+    "position": 18,
+    "played": 5,
+    "points": 2.0,
+    "record": "0V 2E 3D",
+    "goals_for": 3,
+    "goals_against": 6,
+    "last5": "LLLDD",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Petrojet",
+      "date": "2026-09-16"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Pyramids",
+      "date": "2026-09-09"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Al Mokawloon Al Arab",
+      "date": "2026-09-02"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "El Qanah FC",
+      "date": "2026-08-28"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Modern Sport FC",
+      "date": "2026-08-23"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-13T14:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4795403,
+   "s365_competition_id": 414,
+   "competition_name": "Premier League",
+   "start_time": "2026-10-13T17:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 49250,
+    "name": "Richards Bay"
+   },
+   "away": {
+    "id": 7277,
+    "name": "Mamelodi Sundowns"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.1,
+    "lambda_away": 2.27,
+    "expected_goals": 3.37,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.1717,
+     "DRAW": 0.1915,
+     "AWAY": 0.6368,
+     "1X": 0.3632,
+     "X2": 0.8283,
+     "12": 0.8085,
+     "OVER25": 0.6533,
+     "UNDER25": 0.3467,
+     "BTTS_YES": 0.5973,
+     "BTTS_NO": 0.4027
+    }
+   },
+   "pick": {
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: Mamelodi Sundowns ou empate (X2)",
+    "model_prob": 0.8283,
+    "trend_alignment": 1.0,
+    "confidence": 71,
+    "eligible": true,
+    "odd": null,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Mamelodi Sundowns",
+     "model_prob": 0.6368,
+     "trend_alignment": 1.0,
+     "confidence": 64,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6533,
+     "trend_alignment": 0.533,
+     "confidence": 39,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5973,
+     "trend_alignment": 0.533,
+     "confidence": 31,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Richards Bay",
+     "model_prob": 0.1717,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "AWAY",
+     "team": "Mamelodi Sundowns",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Marcou em todos os últimos 5",
+     "strength": 0.3,
+     "favors": "OVER",
+     "team": "Mamelodi Sundowns",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "always_score"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Richards Bay",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Ambos marcaram em 5 dos últimos 5",
+     "strength": 0.5,
+     "favors": "BTTS_YES",
+     "team": "Richards Bay",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "btts"
+    },
+    {
+     "label": "Melhor ataque da liga (2.4 marcados/jogo)",
+     "strength": 0.44,
+     "favors": "AWAY",
+     "team": "Mamelodi Sundowns",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Richards Bay",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Mamelodi Sundowns",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Richards Bay é 14º · Mamelodi Sundowns é 1º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Mamelodi Sundowns está 13 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "AWAY",
+     "team": "Mamelodi Sundowns",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Richards Bay",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Melhor ataque da liga (2.4 marcados/jogo)",
+     "strength": 0.44,
+     "favors": "AWAY",
+     "team": "Mamelodi Sundowns",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Richards Bay",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Mamelodi Sundowns",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Mamelodi Sundowns está 13 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 71,
+   "league": {
+    "key": "south_africa",
+    "name": "Premier League",
+    "country": "África do Sul"
+   },
+   "home_team": {
+    "id": 49250,
+    "name": "Richards Bay",
+    "position": 14,
+    "played": 7,
+    "points": 3.0,
+    "record": "0V 3E 4D",
+    "goals_for": 9,
+    "goals_against": 16,
+    "last5": "LLLDD",
+    "recent": [
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": true,
+      "opponent": "Sekhukhune United",
+      "date": "2026-09-19"
+     },
+     {
+      "result": "L",
+      "score": "1-5",
+      "home": false,
+      "opponent": "Milford",
+      "date": "2026-09-13"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "AmaZulu",
+      "date": "2026-09-04"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "Kaizer Chiefs",
+      "date": "2026-08-26"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Durban City",
+      "date": "2026-08-15"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 7277,
+    "name": "Mamelodi Sundowns",
+    "position": 1,
+    "played": 8,
+    "points": 20.0,
+    "record": "6V 2E 0D",
+    "goals_for": 19,
+    "goals_against": 7,
+    "last5": "DWWWW",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Chippa United",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "Siwelele",
+      "date": "2026-09-09"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Golden Arrows",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Milford",
+      "date": "2026-09-02"
+     },
+     {
+      "result": "W",
+      "score": "5-2",
+      "home": true,
+      "opponent": "AmaZulu",
+      "date": "2026-08-26"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-13T14:30:00-03:00",
+   "has_odds": false,
+   "odds_bookmaker": null,
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4746112,
+   "s365_competition_id": 1,
+   "competition_name": "Championship",
+   "start_time": "2026-10-13T19:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 1,
+    "name": "Birmingham"
+   },
+   "away": {
+    "id": 23,
+    "name": "Preston"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.77,
+    "lambda_away": 0.93,
+    "expected_goals": 2.7,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.5702,
+     "DRAW": 0.2329,
+     "AWAY": 0.1969,
+     "1X": 0.8031,
+     "X2": 0.4298,
+     "12": 0.7671,
+     "OVER25": 0.5069,
+     "UNDER25": 0.4931,
+     "BTTS_YES": 0.5035,
+     "BTTS_NO": 0.4965
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Birmingham",
+    "model_prob": 0.5702,
+    "trend_alignment": 1.0,
+    "confidence": 67,
+    "eligible": true,
+    "odd": 1.58,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Birmingham ou empate (1X)",
+     "model_prob": 0.8031,
+     "trend_alignment": 1.0,
+     "confidence": 67,
+     "eligible": true,
+     "odd": 1.15
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5069,
+     "trend_alignment": 0.58,
+     "confidence": 21,
+     "eligible": false,
+     "odd": 1.74
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5035,
+     "trend_alignment": 0.58,
+     "confidence": 21,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Preston",
+     "model_prob": 0.1969,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 5.54
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Preston",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Sofreu gol em todos os últimos 5",
+     "strength": 0.4,
+     "favors": "OVER",
+     "team": "Preston",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "always_concede"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Birmingham",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "Birmingham",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Birmingham é 7º · Preston é 24º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Birmingham está 17 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Preston",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Birmingham",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Birmingham está 17 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 67,
+   "league": {
+    "key": "championship",
+    "name": "Championship",
+    "country": "Inglaterra"
+   },
+   "home_team": {
+    "id": 1,
+    "name": "Birmingham",
+    "position": 7,
+    "played": 9,
+    "points": 14.0,
+    "record": "3V 5E 1D",
+    "goals_for": 13,
+    "goals_against": 11,
+    "last5": "WDWLD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "West Brom",
+      "date": "2026-10-10"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "Middlesbrough",
+      "date": "2026-09-19"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Derby",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Norwich",
+      "date": "2026-09-09"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "Wolves",
+      "date": "2026-09-06"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 23,
+    "name": "Preston",
+    "position": 24,
+    "played": 9,
+    "points": 4.0,
+    "record": "1V 1E 7D",
+    "goals_for": 8,
+    "goals_against": 16,
+    "last5": "LDLLW",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Millwall",
+      "date": "2026-10-10"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "QPR",
+      "date": "2026-09-19"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Lincoln",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Watford FC",
+      "date": "2026-09-08"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Blackburn Rovers",
+      "date": "2026-09-05"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-13T16:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  }
+ ]
+}

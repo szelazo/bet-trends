@@ -1,9 +1,9 @@
 {
  "date": "2026-10-12",
- "generated_at": "2026-10-10T20:19:24.144232-03:00",
+ "generated_at": "2026-10-11T13:38:06.061333-03:00",
  "version": "0.1.0",
- "count": 3,
- "clear_count": 3,
+ "count": 4,
+ "clear_count": 4,
  "day_total": 32,
  "games": [
   {
@@ -29,23 +29,23 @@
     "expected_goals": 2.52,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.7116,
-     "DRAW": 0.1944,
-     "AWAY": 0.0939,
-     "1X": 0.9061,
-     "X2": 0.2884,
-     "12": 0.8056,
-     "OVER25": 0.4619,
-     "UNDER25": 0.5381,
-     "BTTS_YES": 0.3652,
-     "BTTS_NO": 0.6348
+     "HOME": 0.7106,
+     "DRAW": 0.195,
+     "AWAY": 0.0944,
+     "1X": 0.9056,
+     "X2": 0.2894,
+     "12": 0.805,
+     "OVER25": 0.4612,
+     "UNDER25": 0.5388,
+     "BTTS_YES": 0.3655,
+     "BTTS_NO": 0.6345
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Club Nacional",
-    "model_prob": 0.7116,
+    "model_prob": 0.7106,
     "trend_alignment": 1.0,
     "confidence": 81,
     "eligible": true,
@@ -57,7 +57,7 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Club Nacional ou empate (1X)",
-     "model_prob": 0.9061,
+     "model_prob": 0.9056,
      "trend_alignment": 1.0,
      "confidence": 81,
      "eligible": true,
@@ -67,7 +67,7 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.6348,
+     "model_prob": 0.6345,
      "trend_alignment": 0.109,
      "confidence": 21,
      "eligible": true,
@@ -77,7 +77,7 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.5381,
+     "model_prob": 0.5388,
      "trend_alignment": 0.109,
      "confidence": 9,
      "eligible": false,
@@ -87,7 +87,7 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Recoleta FC",
-     "model_prob": 0.0939,
+     "model_prob": 0.0944,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
@@ -378,28 +378,28 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 2.47,
+    "lambda_home": 2.46,
     "lambda_away": 0.87,
-    "expected_goals": 3.34,
+    "expected_goals": 3.33,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.7243,
-     "DRAW": 0.1637,
-     "AWAY": 0.1121,
-     "1X": 0.8879,
-     "X2": 0.2757,
-     "12": 0.8363,
-     "OVER25": 0.6484,
-     "UNDER25": 0.3516,
-     "BTTS_YES": 0.5317,
-     "BTTS_NO": 0.4683
+     "HOME": 0.7212,
+     "DRAW": 0.1651,
+     "AWAY": 0.1137,
+     "1X": 0.8863,
+     "X2": 0.2788,
+     "12": 0.8349,
+     "OVER25": 0.6459,
+     "UNDER25": 0.3541,
+     "BTTS_YES": 0.532,
+     "BTTS_NO": 0.468
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do PAOK",
-    "model_prob": 0.7243,
+    "model_prob": 0.7212,
     "trend_alignment": 1.0,
     "confidence": 79,
     "eligible": true,
@@ -411,7 +411,7 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: PAOK ou empate (1X)",
-     "model_prob": 0.8879,
+     "model_prob": 0.8863,
      "trend_alignment": 1.0,
      "confidence": 79,
      "eligible": true,
@@ -421,9 +421,9 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6484,
+     "model_prob": 0.6459,
      "trend_alignment": 0.58,
-     "confidence": 40,
+     "confidence": 39,
      "eligible": true,
      "odd": 2.18
     },
@@ -431,7 +431,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5317,
+     "model_prob": 0.532,
      "trend_alignment": 0.58,
      "confidence": 24,
      "eligible": false,
@@ -441,7 +441,7 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Kalamata",
-     "model_prob": 0.1121,
+     "model_prob": 0.1137,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
@@ -671,8 +671,8 @@
      "1X": 0.8125,
      "X2": 0.419,
      "12": 0.7685,
-     "OVER25": 0.4997,
-     "UNDER25": 0.5003,
+     "OVER25": 0.4998,
+     "UNDER25": 0.5002,
      "BTTS_YES": 0.4921,
      "BTTS_NO": 0.5079
     }
@@ -713,7 +713,7 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.4997,
+     "model_prob": 0.4998,
      "trend_alignment": 0.031,
      "confidence": 1,
      "eligible": false,
@@ -723,7 +723,7 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.5003,
+     "model_prob": 0.5002,
      "trend_alignment": 0.031,
      "confidence": 1,
      "eligible": false,
@@ -918,6 +918,306 @@
     ]
    },
    "kickoff_local": "2026-10-12T11:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4632652,
+   "s365_competition_id": 113,
+   "competition_name": "Brasileirão Série A",
+   "start_time": "2026-10-13T00:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 1273,
+    "name": "RB Bragantino"
+   },
+   "away": {
+    "id": 1213,
+    "name": "Cruzeiro"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.35,
+    "lambda_away": 1.44,
+    "expected_goals": 2.79,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.3519,
+     "DRAW": 0.2532,
+     "AWAY": 0.3949,
+     "1X": 0.6051,
+     "X2": 0.6481,
+     "12": 0.7468,
+     "OVER25": 0.5275,
+     "UNDER25": 0.4725,
+     "BTTS_YES": 0.5647,
+     "BTTS_NO": 0.4353
+    }
+   },
+   "pick": {
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: Cruzeiro ou empate (X2)",
+    "model_prob": 0.6481,
+    "trend_alignment": 0.639,
+    "confidence": 34,
+    "eligible": true,
+    "odd": 1.66,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5647,
+     "trend_alignment": 0.887,
+     "confidence": 39,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5275,
+     "trend_alignment": 0.887,
+     "confidence": 35,
+     "eligible": false,
+     "odd": 1.71
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Cruzeiro",
+     "model_prob": 0.3949,
+     "trend_alignment": 0.639,
+     "confidence": 28,
+     "eligible": false,
+     "odd": 3.11
+    },
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: RB Bragantino ou empate (1X)",
+     "model_prob": 0.6051,
+     "trend_alignment": 0.0,
+     "confidence": 7,
+     "eligible": false,
+     "odd": 1.38
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "RB Bragantino",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Ambos marcaram em 4 dos últimos 5",
+     "strength": 0.43,
+     "favors": "BTTS_YES",
+     "team": "RB Bragantino",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "btts"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "Cruzeiro",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Ambos marcaram em 4 dos últimos 5",
+     "strength": 0.43,
+     "favors": "BTTS_YES",
+     "team": "Cruzeiro",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "btts"
+    },
+    {
+     "label": "3ª melhor defesa da liga (1.1 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "HOME",
+     "team": "RB Bragantino",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "RB Bragantino",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "RB Bragantino é 11º · Cruzeiro é 5º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Cruzeiro está 6 posições à frente",
+     "strength": 0.429,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "RB Bragantino",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "RB Bragantino",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Cruzeiro está 6 posições à frente",
+     "strength": 0.429,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 34,
+   "league": {
+    "key": "br_serie_a",
+    "name": "Brasileirão Série A",
+    "country": "Brasil"
+   },
+   "home_team": {
+    "id": 1273,
+    "name": "RB Bragantino",
+    "position": 11,
+    "played": 29,
+    "points": 37.0,
+    "record": "10V 7E 12D",
+    "goals_for": 34,
+    "goals_against": 33,
+    "last5": "DLLDL",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Mirassol",
+      "date": "2026-10-07"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Atlético Mineiro",
+      "date": "2026-10-03"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Flamengo",
+      "date": "2026-09-20"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Botafogo",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": true,
+      "opponent": "Bahia",
+      "date": "2026-09-05"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 1213,
+    "name": "Cruzeiro",
+    "position": 5,
+    "played": 29,
+    "points": 48.0,
+    "record": "14V 6E 9D",
+    "goals_for": 44,
+    "goals_against": 40,
+    "last5": "WWLWL",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "São Paulo",
+      "date": "2026-10-08"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": false,
+      "opponent": "Vitoria",
+      "date": "2026-09-20"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Santos",
+      "date": "2026-09-13"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": true,
+      "opponent": "Athletico Paranaense",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": false,
+      "opponent": "Vasco da Gama",
+      "date": "2026-08-30"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-12T21:00:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
