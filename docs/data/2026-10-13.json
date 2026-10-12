@@ -1,6 +1,6 @@
 {
  "date": "2026-10-13",
- "generated_at": "2026-10-11T20:28:49.544808-03:00",
+ "generated_at": "2026-10-12T17:13:52.017350-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 3,
@@ -24,28 +24,28 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 1.25,
-    "lambda_away": 0.56,
-    "expected_goals": 1.81,
+    "lambda_home": 1.24,
+    "lambda_away": 0.55,
+    "expected_goals": 1.79,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.5346,
-     "DRAW": 0.2995,
-     "AWAY": 0.1659,
-     "1X": 0.8341,
-     "X2": 0.4654,
-     "12": 0.7005,
-     "OVER25": 0.2724,
-     "UNDER25": 0.7276,
-     "BTTS_YES": 0.3058,
-     "BTTS_NO": 0.6942
+     "HOME": 0.531,
+     "DRAW": 0.3024,
+     "AWAY": 0.1666,
+     "1X": 0.8334,
+     "X2": 0.469,
+     "12": 0.6976,
+     "OVER25": 0.2669,
+     "UNDER25": 0.7331,
+     "BTTS_YES": 0.3021,
+     "BTTS_NO": 0.6979
     }
    },
    "pick": {
     "selection": "1X",
     "family": "double_chance",
     "label": "Dupla chance: Al Ittehad ou empate (1X)",
-    "model_prob": 0.8341,
+    "model_prob": 0.8334,
     "trend_alignment": 1.0,
     "confidence": 71,
     "eligible": true,
@@ -57,7 +57,7 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Al Ittehad",
-     "model_prob": 0.5346,
+     "model_prob": 0.531,
      "trend_alignment": 1.0,
      "confidence": 54,
      "eligible": true,
@@ -67,7 +67,7 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.7276,
+     "model_prob": 0.7331,
      "trend_alignment": 0.627,
      "confidence": 52,
      "eligible": true,
@@ -77,9 +77,9 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.6942,
+     "model_prob": 0.6979,
      "trend_alignment": 0.627,
-     "confidence": 47,
+     "confidence": 48,
      "eligible": true,
      "odd": null
     },
@@ -87,7 +87,7 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do El Gounah",
-     "model_prob": 0.1659,
+     "model_prob": 0.1666,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
@@ -360,26 +360,26 @@
     }
    },
    "pick": {
-    "selection": "X2",
-    "family": "double_chance",
-    "label": "Dupla chance: Mamelodi Sundowns ou empate (X2)",
-    "model_prob": 0.8283,
+    "selection": "AWAY",
+    "family": "1x2",
+    "label": "Vitória do Mamelodi Sundowns",
+    "model_prob": 0.6368,
     "trend_alignment": 1.0,
     "confidence": 71,
     "eligible": true,
-    "odd": null,
+    "odd": 1.26,
     "low_conviction": false
    },
    "alt_markets": [
     {
-     "selection": "AWAY",
-     "family": "1x2",
-     "label": "Vitória do Mamelodi Sundowns",
-     "model_prob": 0.6368,
+     "selection": "X2",
+     "family": "double_chance",
+     "label": "Dupla chance: Mamelodi Sundowns ou empate (X2)",
+     "model_prob": 0.8283,
      "trend_alignment": 1.0,
-     "confidence": 64,
+     "confidence": 71,
      "eligible": true,
-     "odd": null
+     "odd": 1.09
     },
     {
      "selection": "OVER25",
@@ -389,7 +389,7 @@
      "trend_alignment": 0.533,
      "confidence": 39,
      "eligible": true,
-     "odd": null
+     "odd": 1.96
     },
     {
      "selection": "BTTS_YES",
@@ -399,7 +399,7 @@
      "trend_alignment": 0.533,
      "confidence": 31,
      "eligible": false,
-     "odd": null
+     "odd": 3.02
     },
     {
      "selection": "HOME",
@@ -409,7 +409,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": null
+     "odd": 7.5
     }
    ],
    "trends": [
@@ -654,8 +654,8 @@
     ]
    },
    "kickoff_local": "2026-10-13T14:30:00-03:00",
-   "has_odds": false,
-   "odds_bookmaker": null,
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
    "is_cup": false,
    "result": "pending",
    "clear": true

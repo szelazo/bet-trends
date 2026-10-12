@@ -1,5 +1,5 @@
 {
- "last_run": "2026-09-28",
+ "last_run": "2026-10-12",
  "disabled_leagues": {},
  "clear_edge_overrides": {},
  "log": [
@@ -11,6 +11,12 @@
   },
   {
    "date": "2026-09-28",
+   "changes": [
+    "nada a ajustar — dentro do esperado"
+   ]
+  },
+  {
+   "date": "2026-10-12",
    "changes": [
     "nada a ajustar — dentro do esperado"
    ]

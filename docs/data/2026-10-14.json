@@ -1,0 +1,894 @@
+{
+ "date": "2026-10-14",
+ "generated_at": "2026-10-12T17:13:52.726842-03:00",
+ "version": "0.1.0",
+ "count": 3,
+ "clear_count": 1,
+ "day_total": 39,
+ "games": [
+  {
+   "id": 4732034,
+   "s365_competition_id": 620,
+   "competition_name": "Liga BetPlay - Clausura",
+   "start_time": "2026-10-14T23:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 7644,
+    "name": "Independiente Santa Fe"
+   },
+   "away": {
+    "id": 10377,
+    "name": "Jaguares de Córdoba"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.21,
+    "lambda_away": 0.84,
+    "expected_goals": 3.05,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.6872,
+     "DRAW": 0.185,
+     "AWAY": 0.1277,
+     "1X": 0.8723,
+     "X2": 0.3128,
+     "12": 0.815,
+     "OVER25": 0.5878,
+     "UNDER25": 0.4122,
+     "BTTS_YES": 0.5047,
+     "BTTS_NO": 0.4953
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Independiente Santa Fe",
+    "model_prob": 0.6872,
+    "trend_alignment": 1.0,
+    "confidence": 77,
+    "eligible": true,
+    "odd": 1.37,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Independiente Santa Fe ou empate (1X)",
+     "model_prob": 0.8723,
+     "trend_alignment": 1.0,
+     "confidence": 77,
+     "eligible": true,
+     "odd": 1.07
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5878,
+     "trend_alignment": 0.54,
+     "confidence": 30,
+     "eligible": false,
+     "odd": 1.79
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5047,
+     "trend_alignment": 0.54,
+     "confidence": 20,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Jaguares de Córdoba",
+     "model_prob": 0.1277,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 9.0
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Jaguares de Córdoba",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "Jaguares de Córdoba",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Invicto em 6 dos últimos 7",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Independiente Santa Fe",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Só 2 derrota(s) em 12 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "HOME",
+     "team": "Independiente Santa Fe",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Pior defesa da liga (1.8 sofridos/jogo)",
+     "strength": 0.34,
+     "favors": "OVER",
+     "team": "Jaguares de Córdoba",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_bottom"
+    },
+    {
+     "label": "Independiente Santa Fe é 7º · Jaguares de Córdoba é 18º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Independiente Santa Fe está 11 posições à frente",
+     "strength": 0.786,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Jaguares de Córdoba",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto em 6 dos últimos 7",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Independiente Santa Fe",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Só 2 derrota(s) em 12 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "HOME",
+     "team": "Independiente Santa Fe",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Independiente Santa Fe está 11 posições à frente",
+     "strength": 0.786,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 77,
+   "league": {
+    "key": "co_primera",
+    "name": "Liga BetPlay",
+    "country": "Colômbia"
+   },
+   "home_team": {
+    "id": 7644,
+    "name": "Independiente Santa Fe",
+    "position": 7,
+    "played": 12,
+    "points": 22.0,
+    "record": "6V 4E 2D",
+    "goals_for": 19,
+    "goals_against": 12,
+    "last5": "DWWDL",
+    "recent": [
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "Fortaleza FC",
+      "date": "2026-10-11"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Independiente Medellin",
+      "date": "2026-10-06"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Deportivo Pereira",
+      "date": "2026-09-29"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Union Magdalena",
+      "date": "2026-09-25"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Deportivo Cali",
+      "date": "2026-09-23"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 10377,
+    "name": "Jaguares de Córdoba",
+    "position": 18,
+    "played": 12,
+    "points": 10.0,
+    "record": "2V 4E 6D",
+    "goals_for": 14,
+    "goals_against": 22,
+    "last5": "WLLLD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": true,
+      "opponent": "Deportes Tolima",
+      "date": "2026-10-11"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Águilas Doradas",
+      "date": "2026-10-03"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Alianza FC",
+      "date": "2026-09-27"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Independiente Medellin",
+      "date": "2026-09-22"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "Fortaleza FC",
+      "date": "2026-09-11"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-14T20:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4621299,
+   "s365_competition_id": 104,
+   "competition_name": "MLS",
+   "start_time": "2026-10-15T00:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 51126,
+    "name": "Nashville SC"
+   },
+   "away": {
+    "id": 1335,
+    "name": "Sporting KC"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.69,
+    "lambda_away": 1.07,
+    "expected_goals": 3.76,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.7172,
+     "DRAW": 0.1569,
+     "AWAY": 0.1259,
+     "1X": 0.8741,
+     "X2": 0.2828,
+     "12": 0.8431,
+     "OVER25": 0.7239,
+     "UNDER25": 0.2761,
+     "BTTS_YES": 0.6112,
+     "BTTS_NO": 0.3888
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Nashville SC",
+    "model_prob": 0.7172,
+    "trend_alignment": 1.0,
+    "confidence": 77,
+    "eligible": true,
+    "odd": 1.18,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Nashville SC ou empate (1X)",
+     "model_prob": 0.8741,
+     "trend_alignment": 1.0,
+     "confidence": 77,
+     "eligible": true,
+     "odd": 1.05
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.7239,
+     "trend_alignment": 0.843,
+     "confidence": 59,
+     "eligible": true,
+     "odd": 1.73
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.6112,
+     "trend_alignment": 0.843,
+     "confidence": 44,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Sporting KC",
+     "model_prob": 0.1259,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 11.0
+    }
+   ],
+   "trends": [
+    {
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Nashville SC",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Melhor defesa da liga (0.8 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Nashville SC",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 3 derrota(s) em 28 jogos no campeonato",
+     "strength": 0.26,
+     "favors": "HOME",
+     "team": "Nashville SC",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Invicto em 5 dos últimos 6",
+     "strength": 0.492,
+     "favors": "HOME",
+     "team": "Nashville SC",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Mais de 2.5 gols em 5 dos últimos 6",
+     "strength": 0.483,
+     "favors": "OVER",
+     "team": "Sporting KC",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Ambos marcaram em 5 dos últimos 6",
+     "strength": 0.442,
+     "favors": "BTTS_YES",
+     "team": "Sporting KC",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "btts"
+    },
+    {
+     "label": "Pior defesa da liga (2.4 sofridos/jogo)",
+     "strength": 0.34,
+     "favors": "OVER",
+     "team": "Sporting KC",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_bottom"
+    },
+    {
+     "label": "Nashville SC é 1º · Sporting KC é 15º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Nashville SC está 14 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Nashville SC",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Melhor defesa da liga (0.8 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Nashville SC",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 3 derrota(s) em 28 jogos no campeonato",
+     "strength": 0.26,
+     "favors": "HOME",
+     "team": "Nashville SC",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Invicto em 5 dos últimos 6",
+     "strength": 0.492,
+     "favors": "HOME",
+     "team": "Nashville SC",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Nashville SC está 14 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 77,
+   "league": {
+    "key": "mls",
+    "name": "MLS",
+    "country": "EUA/Canadá"
+   },
+   "home_team": {
+    "id": 51126,
+    "name": "Nashville SC",
+    "position": 1,
+    "played": 28,
+    "points": 63.0,
+    "record": "19V 6E 3D",
+    "goals_for": 59,
+    "goals_against": 22,
+    "last5": "WWWDL",
+    "recent": [
+     {
+      "result": "W",
+      "score": "4-1",
+      "home": false,
+      "opponent": "Austin FC",
+      "date": "2026-10-11"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Toronto FC",
+      "date": "2026-09-27"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "Chicago Fire",
+      "date": "2026-09-20"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "Inter Miami",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Toronto FC",
+      "date": "2026-09-09"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 1335,
+    "name": "Sporting KC",
+    "position": 15,
+    "played": 28,
+    "points": 22.0,
+    "record": "6V 4E 18D",
+    "goals_for": 35,
+    "goals_against": 68,
+    "last5": "DLWLW",
+    "recent": [
+     {
+      "result": "D",
+      "score": "3-3",
+      "home": true,
+      "opponent": "Portland Timbers",
+      "date": "2026-10-11"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Seattle Sounders",
+      "date": "2026-10-02"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "Houston Dynamo",
+      "date": "2026-09-27"
+     },
+     {
+      "result": "L",
+      "score": "3-4",
+      "home": true,
+      "opponent": "Philadelphia Union",
+      "date": "2026-09-20"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": true,
+      "opponent": "Los Angeles FC",
+      "date": "2026-09-13"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-14T21:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": false,
+   "below_bar": true
+  },
+  {
+   "id": 4871494,
+   "s365_competition_id": 616,
+   "competition_name": "Copa Colombia - Quarter Finals",
+   "start_time": "2026-10-15T01:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 8640,
+    "name": "Atletico Nacional"
+   },
+   "away": {
+    "id": 8643,
+    "name": "Independiente Medellin"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.26,
+    "lambda_away": 0.87,
+    "expected_goals": 3.13,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.688,
+     "DRAW": 0.1823,
+     "AWAY": 0.1297,
+     "1X": 0.8703,
+     "X2": 0.312,
+     "12": 0.8177,
+     "OVER25": 0.6056,
+     "UNDER25": 0.3944,
+     "BTTS_YES": 0.5206,
+     "BTTS_NO": 0.4794
+    }
+   },
+   "pick": {
+    "selection": "1X",
+    "family": "double_chance",
+    "label": "Dupla chance: Atletico Nacional ou empate (1X)",
+    "model_prob": 0.8703,
+    "trend_alignment": 0.667,
+    "confidence": 65,
+    "eligible": true,
+    "odd": null,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Atletico Nacional",
+     "model_prob": 0.688,
+     "trend_alignment": 0.667,
+     "confidence": 58,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6056,
+     "trend_alignment": 0.267,
+     "confidence": 23,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5206,
+     "trend_alignment": 0.267,
+     "confidence": 12,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Independiente Medellin",
+     "model_prob": 0.1297,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5 fora de casa",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Independiente Medellin",
+     "side": "AWAY",
+     "group": "casa_fora",
+     "kind": "losses"
+    },
+    {
+     "label": "Sofreu gol em todos os últimos 5 fora de casa",
+     "strength": 0.4,
+     "favors": "OVER",
+     "team": "Independiente Medellin",
+     "side": "AWAY",
+     "group": "casa_fora",
+     "kind": "always_concede"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Atletico Nacional",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Atletico Nacional é 3º · Independiente Medellin é 3º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5 fora de casa",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Independiente Medellin",
+     "side": "AWAY",
+     "group": "casa_fora",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Atletico Nacional",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    }
+   ],
+   "confidence": 65,
+   "league": {
+    "key": "copa_co",
+    "name": "Copa Colombia",
+    "country": "Colômbia"
+   },
+   "home_team": {
+    "id": 8640,
+    "name": "Atletico Nacional",
+    "position": 3,
+    "played": 11,
+    "points": 23.0,
+    "record": "7V 2E 2D",
+    "goals_for": 21,
+    "goals_against": 10,
+    "last5": "DWDLW",
+    "recent": [
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Deportes Tolima",
+      "date": "2026-10-08"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": true,
+      "opponent": "Junior FC",
+      "date": "2026-10-01"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Millonarios",
+      "date": "2026-09-25"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Llaneros FC",
+      "date": "2026-09-21"
+     },
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": false,
+      "opponent": "Internacional de Bogota",
+      "date": "2026-09-17"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 8643,
+    "name": "Independiente Medellin",
+    "position": 3,
+    "played": 6,
+    "points": 7.0,
+    "record": "2V 1E 3D",
+    "goals_for": 6,
+    "goals_against": 11,
+    "last5": "WLDLL",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "America de Cali",
+      "date": "2026-10-12"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Independiente Santa Fe",
+      "date": "2026-10-06"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "Millonarios",
+      "date": "2026-09-30"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Junior FC",
+      "date": "2026-09-27"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Estudiantes de La Plata",
+      "date": "2026-05-27"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-14T22:30:00-03:00",
+   "has_odds": false,
+   "odds_bookmaker": null,
+   "is_cup": true,
+   "result": "pending",
+   "clear": false,
+   "below_bar": true
+  }
+ ]
+}
