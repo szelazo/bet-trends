@@ -1,6 +1,6 @@
 {
  "date": "2026-10-14",
- "generated_at": "2026-10-12T17:13:52.726842-03:00",
+ "generated_at": "2026-10-12T22:50:39.895961-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 1,
@@ -324,30 +324,30 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 2.69,
+    "lambda_home": 2.9,
     "lambda_away": 1.07,
-    "expected_goals": 3.76,
+    "expected_goals": 3.97,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.7172,
-     "DRAW": 0.1569,
-     "AWAY": 0.1259,
-     "1X": 0.8741,
-     "X2": 0.2828,
-     "12": 0.8431,
-     "OVER25": 0.7239,
-     "UNDER25": 0.2761,
-     "BTTS_YES": 0.6112,
-     "BTTS_NO": 0.3888
+     "HOME": 0.7478,
+     "DRAW": 0.1422,
+     "AWAY": 0.11,
+     "1X": 0.89,
+     "X2": 0.2522,
+     "12": 0.8578,
+     "OVER25": 0.7561,
+     "UNDER25": 0.2439,
+     "BTTS_YES": 0.6194,
+     "BTTS_NO": 0.3806
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Nashville SC",
-    "model_prob": 0.7172,
+    "model_prob": 0.7478,
     "trend_alignment": 1.0,
-    "confidence": 77,
+    "confidence": 79,
     "eligible": true,
     "odd": 1.18,
     "low_conviction": false
@@ -357,9 +357,9 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Nashville SC ou empate (1X)",
-     "model_prob": 0.8741,
+     "model_prob": 0.89,
      "trend_alignment": 1.0,
-     "confidence": 77,
+     "confidence": 79,
      "eligible": true,
      "odd": 1.05
     },
@@ -367,9 +367,9 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.7239,
-     "trend_alignment": 0.843,
-     "confidence": 59,
+     "model_prob": 0.7561,
+     "trend_alignment": 1.0,
+     "confidence": 68,
      "eligible": true,
      "odd": 1.73
     },
@@ -377,9 +377,9 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.6112,
-     "trend_alignment": 0.843,
-     "confidence": 44,
+     "model_prob": 0.6194,
+     "trend_alignment": 1.0,
+     "confidence": 51,
      "eligible": true,
      "odd": null
     },
@@ -387,7 +387,7 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Sporting KC",
-     "model_prob": 0.1259,
+     "model_prob": 0.11,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
@@ -423,8 +423,8 @@
      "kind": "few_losses"
     },
     {
-     "label": "Invicto em 5 dos últimos 6",
-     "strength": 0.492,
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
      "favors": "HOME",
      "team": "Nashville SC",
      "side": "HOME",
@@ -432,8 +432,17 @@
      "kind": "unbeaten"
     },
     {
-     "label": "Mais de 2.5 gols em 5 dos últimos 6",
-     "strength": 0.483,
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "Nashville SC",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
      "favors": "OVER",
      "team": "Sporting KC",
      "side": "AWAY",
@@ -441,8 +450,8 @@
      "kind": "over"
     },
     {
-     "label": "Ambos marcaram em 5 dos últimos 6",
-     "strength": 0.442,
+     "label": "Ambos marcaram em 4 dos últimos 5",
+     "strength": 0.43,
      "favors": "BTTS_YES",
      "team": "Sporting KC",
      "side": "AWAY",
@@ -506,8 +515,8 @@
      "kind": "few_losses"
     },
     {
-     "label": "Invicto em 5 dos últimos 6",
-     "strength": 0.492,
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
      "favors": "HOME",
      "team": "Nashville SC",
      "side": "HOME",
@@ -524,7 +533,7 @@
      "kind": "table_gap"
     }
    ],
-   "confidence": 77,
+   "confidence": 79,
    "league": {
     "key": "mls",
     "name": "MLS",

@@ -1,6 +1,6 @@
 {
  "date": "2026-10-12",
- "generated_at": "2026-10-12T17:13:51.208130-03:00",
+ "generated_at": "2026-10-12T22:50:38.380934-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -21,8 +21,8 @@
     "id": 53209,
     "name": "Recoleta FC"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 1.0,
+   "away_score": 0.0,
    "model": {
     "lambda_home": 1.98,
     "lambda_away": 0.55,
@@ -357,7 +357,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -657,8 +657,8 @@
     "id": 1244,
     "name": "Nublense"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 6.0,
+   "away_score": 0.0,
    "model": {
     "lambda_home": 2.14,
     "lambda_away": 0.82,
@@ -930,7 +930,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
