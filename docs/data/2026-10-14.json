@@ -1,6 +1,6 @@
 {
  "date": "2026-10-14",
- "generated_at": "2026-10-12T22:50:39.895961-03:00",
+ "generated_at": "2026-10-13T15:05:41.119577-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 1,
@@ -71,7 +71,7 @@
      "trend_alignment": 0.54,
      "confidence": 30,
      "eligible": false,
-     "odd": 1.79
+     "odd": 1.74
     },
     {
      "selection": "BTTS_YES",
@@ -679,26 +679,26 @@
     }
    },
    "pick": {
-    "selection": "1X",
-    "family": "double_chance",
-    "label": "Dupla chance: Atletico Nacional ou empate (1X)",
-    "model_prob": 0.8703,
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Atletico Nacional",
+    "model_prob": 0.688,
     "trend_alignment": 0.667,
     "confidence": 65,
     "eligible": true,
-    "odd": null,
+    "odd": 1.76,
     "low_conviction": false
    },
    "alt_markets": [
     {
-     "selection": "HOME",
-     "family": "1x2",
-     "label": "Vitória do Atletico Nacional",
-     "model_prob": 0.688,
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Atletico Nacional ou empate (1X)",
+     "model_prob": 0.8703,
      "trend_alignment": 0.667,
-     "confidence": 58,
+     "confidence": 65,
      "eligible": true,
-     "odd": null
+     "odd": 1.21
     },
     {
      "selection": "OVER25",
@@ -708,7 +708,7 @@
      "trend_alignment": 0.267,
      "confidence": 23,
      "eligible": true,
-     "odd": null
+     "odd": 1.81
     },
     {
      "selection": "BTTS_YES",
@@ -728,7 +728,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": null
+     "odd": 4.52
     }
    ],
    "trends": [
@@ -892,8 +892,8 @@
     ]
    },
    "kickoff_local": "2026-10-14T22:30:00-03:00",
-   "has_odds": false,
-   "odds_bookmaker": null,
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
    "is_cup": true,
    "result": "pending",
    "clear": false,

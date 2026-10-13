@@ -1,1024 +1,97 @@
 {
- "date": "2026-10-12",
- "generated_at": "2026-10-12T22:50:38.380934-03:00",
+ "date": "2026-10-13",
+ "generated_at": "2026-10-13T15:05:40.355334-03:00",
  "version": "0.1.0",
- "count": 5,
- "clear_count": 5,
- "day_total": 32,
+ "count": 3,
+ "clear_count": 3,
+ "day_total": 31,
  "games": [
   {
-   "id": 4764208,
-   "s365_competition_id": 621,
-   "competition_name": "Copa de Primera - Clausura",
-   "start_time": "2026-10-12T22:20:00+00:00",
-   "status_group": 2,
-   "round": "Round",
-   "home": {
-    "id": 1280,
-    "name": "Club Nacional"
-   },
-   "away": {
-    "id": 53209,
-    "name": "Recoleta FC"
-   },
-   "home_score": 1.0,
-   "away_score": 0.0,
-   "model": {
-    "lambda_home": 1.98,
-    "lambda_away": 0.55,
-    "expected_goals": 2.53,
-    "sample_factor": 1.0,
-    "probs": {
-     "HOME": 0.7142,
-     "DRAW": 0.1931,
-     "AWAY": 0.0927,
-     "1X": 0.9073,
-     "X2": 0.2858,
-     "12": 0.8069,
-     "OVER25": 0.4638,
-     "UNDER25": 0.5362,
-     "BTTS_YES": 0.3646,
-     "BTTS_NO": 0.6354
-    }
-   },
-   "pick": {
-    "selection": "HOME",
-    "family": "1x2",
-    "label": "Vitória do Club Nacional",
-    "model_prob": 0.7142,
-    "trend_alignment": 1.0,
-    "confidence": 81,
-    "eligible": true,
-    "odd": 1.68,
-    "low_conviction": false
-   },
-   "alt_markets": [
-    {
-     "selection": "1X",
-     "family": "double_chance",
-     "label": "Dupla chance: Club Nacional ou empate (1X)",
-     "model_prob": 0.9073,
-     "trend_alignment": 1.0,
-     "confidence": 81,
-     "eligible": true,
-     "odd": 1.2
-    },
-    {
-     "selection": "BTTS_NO",
-     "family": "btts",
-     "label": "Ambos marcam: não",
-     "model_prob": 0.6354,
-     "trend_alignment": 0.109,
-     "confidence": 21,
-     "eligible": true,
-     "odd": null
-    },
-    {
-     "selection": "UNDER25",
-     "family": "over_under",
-     "label": "Menos de 2.5 gols",
-     "model_prob": 0.5362,
-     "trend_alignment": 0.109,
-     "confidence": 9,
-     "eligible": false,
-     "odd": 1.96
-    },
-    {
-     "selection": "AWAY",
-     "family": "1x2",
-     "label": "Vitória do Recoleta FC",
-     "model_prob": 0.0927,
-     "trend_alignment": 0.0,
-     "confidence": 0,
-     "eligible": false,
-     "odd": 4.52
-    }
-   ],
-   "trends": [
-    {
-     "label": "Perdeu 4 dos últimos 5",
-     "strength": 0.61,
-     "favors": "HOME",
-     "team": "Recoleta FC",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Não marcou em 3 dos últimos 5",
-     "strength": 0.38,
-     "favors": "HOME",
-     "team": "Recoleta FC",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "no_score"
-    },
-    {
-     "label": "Melhor defesa da liga (0.6 sofridos/jogo)",
-     "strength": 0.5,
-     "favors": "HOME",
-     "team": "Club Nacional",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "def_rank"
-    },
-    {
-     "label": "Só 2 derrota(s) em 13 jogos no campeonato",
-     "strength": 0.34,
-     "favors": "HOME",
-     "team": "Club Nacional",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "few_losses"
-    },
-    {
-     "label": "Invicto em 4 dos últimos 5",
-     "strength": 0.48,
-     "favors": "HOME",
-     "team": "Club Nacional",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "unbeaten"
-    },
-    {
-     "label": "Menos de 2.5 gols em 4 dos últimos 5",
-     "strength": 0.47,
-     "favors": "UNDER",
-     "team": "Club Nacional",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "under"
-    },
-    {
-     "label": "Pior defesa da liga (2.0 sofridos/jogo)",
-     "strength": 0.34,
-     "favors": "OVER",
-     "team": "Recoleta FC",
-     "side": "AWAY",
-     "group": "temporada",
-     "kind": "def_bottom"
-    },
-    {
-     "label": "Não vence há 5+ jogos",
-     "strength": 0.333,
-     "favors": "HOME",
-     "team": "Recoleta FC",
-     "side": "AWAY",
-     "group": "sequencia",
-     "kind": "winless_streak"
-    },
-    {
-     "label": "Club Nacional é 5º · Recoleta FC é 11º",
-     "strength": 0.0,
-     "favors": null,
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "positions"
-    },
-    {
-     "label": "Club Nacional está 6 posições à frente",
-     "strength": 0.429,
-     "favors": "HOME",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "aligned_trends": [
-    {
-     "label": "Perdeu 4 dos últimos 5",
-     "strength": 0.61,
-     "favors": "HOME",
-     "team": "Recoleta FC",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Não marcou em 3 dos últimos 5",
-     "strength": 0.38,
-     "favors": "HOME",
-     "team": "Recoleta FC",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "no_score"
-    },
-    {
-     "label": "Melhor defesa da liga (0.6 sofridos/jogo)",
-     "strength": 0.5,
-     "favors": "HOME",
-     "team": "Club Nacional",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "def_rank"
-    },
-    {
-     "label": "Só 2 derrota(s) em 13 jogos no campeonato",
-     "strength": 0.34,
-     "favors": "HOME",
-     "team": "Club Nacional",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "few_losses"
-    },
-    {
-     "label": "Invicto em 4 dos últimos 5",
-     "strength": 0.48,
-     "favors": "HOME",
-     "team": "Club Nacional",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "unbeaten"
-    },
-    {
-     "label": "Não vence há 5+ jogos",
-     "strength": 0.333,
-     "favors": "HOME",
-     "team": "Recoleta FC",
-     "side": "AWAY",
-     "group": "sequencia",
-     "kind": "winless_streak"
-    },
-    {
-     "label": "Club Nacional está 6 posições à frente",
-     "strength": 0.429,
-     "favors": "HOME",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "confidence": 81,
-   "league": {
-    "key": "py_primera",
-    "name": "Copa de Primera",
-    "country": "Paraguai"
-   },
-   "home_team": {
-    "id": 1280,
-    "name": "Club Nacional",
-    "position": 5,
-    "played": 13,
-    "points": 23.0,
-    "record": "6V 5E 2D",
-    "goals_for": 20,
-    "goals_against": 8,
-    "last5": "DDWWL",
-    "recent": [
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": false,
-      "opponent": "Olimpia",
-      "date": "2026-10-06"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": true,
-      "opponent": "Sportivo Ameliano",
-      "date": "2026-09-25"
-     },
-     {
-      "result": "W",
-      "score": "3-0",
-      "home": true,
-      "opponent": "2 de Mayo",
-      "date": "2026-09-18"
-     },
-     {
-      "result": "W",
-      "score": "1-0",
-      "home": false,
-      "opponent": "Rubio Ñu",
-      "date": "2026-09-13"
-     },
-     {
-      "result": "L",
-      "score": "0-1",
-      "home": false,
-      "opponent": "Cerro Porteño",
-      "date": "2026-09-07"
-     }
-    ]
-   },
-   "away_team": {
-    "id": 53209,
-    "name": "Recoleta FC",
-    "position": 11,
-    "played": 13,
-    "points": 8.0,
-    "record": "2V 2E 9D",
-    "goals_for": 14,
-    "goals_against": 26,
-    "last5": "LDLLL",
-    "recent": [
-     {
-      "result": "L",
-      "score": "1-2",
-      "home": true,
-      "opponent": "Libertad",
-      "date": "2026-10-05"
-     },
-     {
-      "result": "D",
-      "score": "0-0",
-      "home": false,
-      "opponent": "CS San Lorenzo",
-      "date": "2026-09-28"
-     },
-     {
-      "result": "L",
-      "score": "0-1",
-      "home": false,
-      "opponent": "Sportivo Luqueño",
-      "date": "2026-09-20"
-     },
-     {
-      "result": "L",
-      "score": "1-3",
-      "home": true,
-      "opponent": "Sportivo Trinidense",
-      "date": "2026-09-12"
-     },
-     {
-      "result": "L",
-      "score": "0-2",
-      "home": false,
-      "opponent": "Club Guarani",
-      "date": "2026-09-07"
-     }
-    ]
-   },
-   "kickoff_local": "2026-10-12T19:20:00-03:00",
-   "has_odds": true,
-   "odds_bookmaker": "365Scores",
-   "is_cup": false,
-   "result": "hit",
-   "clear": true
-  },
-  {
-   "id": 4776091,
-   "s365_competition_id": 84,
-   "competition_name": "Super League",
-   "start_time": "2026-10-12T15:00:00+00:00",
-   "status_group": 2,
-   "round": "Round",
-   "home": {
-    "id": 1029,
-    "name": "PAOK"
-   },
-   "away": {
-    "id": 1066,
-    "name": "Kalamata"
-   },
-   "home_score": 1.0,
-   "away_score": 3.0,
-   "model": {
-    "lambda_home": 2.47,
-    "lambda_away": 0.87,
-    "expected_goals": 3.34,
-    "sample_factor": 1.0,
-    "probs": {
-     "HOME": 0.724,
-     "DRAW": 0.1638,
-     "AWAY": 0.1122,
-     "1X": 0.8878,
-     "X2": 0.276,
-     "12": 0.8362,
-     "OVER25": 0.6482,
-     "UNDER25": 0.3518,
-     "BTTS_YES": 0.5317,
-     "BTTS_NO": 0.4683
-    }
-   },
-   "pick": {
-    "selection": "HOME",
-    "family": "1x2",
-    "label": "Vitória do PAOK",
-    "model_prob": 0.724,
-    "trend_alignment": 1.0,
-    "confidence": 79,
-    "eligible": true,
-    "odd": 1.17,
-    "low_conviction": false
-   },
-   "alt_markets": [
-    {
-     "selection": "1X",
-     "family": "double_chance",
-     "label": "Dupla chance: PAOK ou empate (1X)",
-     "model_prob": 0.8878,
-     "trend_alignment": 1.0,
-     "confidence": 79,
-     "eligible": true,
-     "odd": 1.04
-    },
-    {
-     "selection": "OVER25",
-     "family": "over_under",
-     "label": "Mais de 2.5 gols",
-     "model_prob": 0.6482,
-     "trend_alignment": 0.58,
-     "confidence": 40,
-     "eligible": true,
-     "odd": 2.18
-    },
-    {
-     "selection": "BTTS_YES",
-     "family": "btts",
-     "label": "Ambos os times marcam",
-     "model_prob": 0.5317,
-     "trend_alignment": 0.58,
-     "confidence": 24,
-     "eligible": false,
-     "odd": null
-    },
-    {
-     "selection": "AWAY",
-     "family": "1x2",
-     "label": "Vitória do Kalamata",
-     "model_prob": 0.1122,
-     "trend_alignment": 0.0,
-     "confidence": 0,
-     "eligible": false,
-     "odd": 12.0
-    }
-   ],
-   "trends": [
-    {
-     "label": "Venceu 4 dos últimos 5",
-     "strength": 0.65,
-     "favors": "HOME",
-     "team": "PAOK",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "Mais de 2.5 gols em 4 dos últimos 5",
-     "strength": 0.47,
-     "favors": "OVER",
-     "team": "PAOK",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "over"
-    },
-    {
-     "label": "Perdeu 3 dos últimos 5",
-     "strength": 0.52,
-     "favors": "HOME",
-     "team": "Kalamata",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Sofreu gol em todos os últimos 5",
-     "strength": 0.4,
-     "favors": "OVER",
-     "team": "Kalamata",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "always_concede"
-    },
-    {
-     "label": "PAOK é 4º · Kalamata é 11º",
-     "strength": 0.0,
-     "favors": null,
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "positions"
-    },
-    {
-     "label": "PAOK está 7 posições à frente",
-     "strength": 0.5,
-     "favors": "HOME",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "aligned_trends": [
-    {
-     "label": "Venceu 4 dos últimos 5",
-     "strength": 0.65,
-     "favors": "HOME",
-     "team": "PAOK",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "Perdeu 3 dos últimos 5",
-     "strength": 0.52,
-     "favors": "HOME",
-     "team": "Kalamata",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "PAOK está 7 posições à frente",
-     "strength": 0.5,
-     "favors": "HOME",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "confidence": 79,
-   "league": {
-    "key": "greece",
-    "name": "Super League",
-    "country": "Grécia"
-   },
-   "home_team": {
-    "id": 1029,
-    "name": "PAOK",
-    "position": 4,
-    "played": 5,
-    "points": 12.0,
-    "record": "4V 0E 1D",
-    "goals_for": 12,
-    "goals_against": 5,
-    "last5": "WWLWW",
-    "recent": [
-     {
-      "result": "W",
-      "score": "3-1",
-      "home": false,
-      "opponent": "Panetolikos",
-      "date": "2026-09-20"
-     },
-     {
-      "result": "W",
-      "score": "2-0",
-      "home": true,
-      "opponent": "Aris Salonica",
-      "date": "2026-09-13"
-     },
-     {
-      "result": "L",
-      "score": "1-3",
-      "home": false,
-      "opponent": "Panathinaikos",
-      "date": "2026-09-06"
-     },
-     {
-      "result": "W",
-      "score": "2-1",
-      "home": false,
-      "opponent": "Atromitos Athinon",
-      "date": "2026-08-30"
-     },
-     {
-      "result": "W",
-      "score": "4-0",
-      "home": true,
-      "opponent": "Levadiakos",
-      "date": "2026-08-23"
-     }
-    ]
-   },
-   "away_team": {
-    "id": 1066,
-    "name": "Kalamata",
-    "position": 11,
-    "played": 5,
-    "points": 4.0,
-    "record": "1V 1E 3D",
-    "goals_for": 6,
-    "goals_against": 8,
-    "last5": "LWDLL",
-    "recent": [
-     {
-      "result": "L",
-      "score": "0-1",
-      "home": true,
-      "opponent": "Panathinaikos",
-      "date": "2026-09-20"
-     },
-     {
-      "result": "W",
-      "score": "3-1",
-      "home": true,
-      "opponent": "Volos NFC",
-      "date": "2026-09-13"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": false,
-      "opponent": "Atromitos Athinon",
-      "date": "2026-09-06"
-     },
-     {
-      "result": "L",
-      "score": "0-2",
-      "home": false,
-      "opponent": "Panetolikos",
-      "date": "2026-08-29"
-     },
-     {
-      "result": "L",
-      "score": "2-3",
-      "home": true,
-      "opponent": "Aris Salonica",
-      "date": "2026-08-22"
-     }
-    ]
-   },
-   "kickoff_local": "2026-10-12T12:00:00-03:00",
-   "has_odds": true,
-   "odds_bookmaker": "365Scores",
-   "is_cup": false,
-   "result": "miss",
-   "clear": true
-  },
-  {
-   "id": 4650579,
-   "s365_competition_id": 135,
-   "competition_name": "First Division",
-   "start_time": "2026-10-12T20:00:00+00:00",
-   "status_group": 2,
-   "round": "Round",
-   "home": {
-    "id": 8541,
-    "name": "Universidad de Chile"
-   },
-   "away": {
-    "id": 1244,
-    "name": "Nublense"
-   },
-   "home_score": 6.0,
-   "away_score": 0.0,
-   "model": {
-    "lambda_home": 2.14,
-    "lambda_away": 0.82,
-    "expected_goals": 2.96,
-    "sample_factor": 1.0,
-    "probs": {
-     "HOME": 0.6769,
-     "DRAW": 0.1916,
-     "AWAY": 0.1315,
-     "1X": 0.8685,
-     "X2": 0.3231,
-     "12": 0.8084,
-     "OVER25": 0.5669,
-     "UNDER25": 0.4331,
-     "BTTS_YES": 0.4933,
-     "BTTS_NO": 0.5067
-    }
-   },
-   "pick": {
-    "selection": "HOME",
-    "family": "1x2",
-    "label": "Vitória do Universidad de Chile",
-    "model_prob": 0.6769,
-    "trend_alignment": 1.0,
-    "confidence": 76,
-    "eligible": true,
-    "odd": 1.51,
-    "low_conviction": false
-   },
-   "alt_markets": [
-    {
-     "selection": "1X",
-     "family": "double_chance",
-     "label": "Dupla chance: Universidad de Chile ou empate (1X)",
-     "model_prob": 0.8685,
-     "trend_alignment": 1.0,
-     "confidence": 76,
-     "eligible": true,
-     "odd": 1.13
-    },
-    {
-     "selection": "OVER25",
-     "family": "over_under",
-     "label": "Mais de 2.5 gols",
-     "model_prob": 0.5669,
-     "trend_alignment": 0.92,
-     "confidence": 41,
-     "eligible": false,
-     "odd": 1.73
-    },
-    {
-     "selection": "BTTS_YES",
-     "family": "btts",
-     "label": "Ambos os times marcam",
-     "model_prob": 0.4933,
-     "trend_alignment": 0.92,
-     "confidence": 32,
-     "eligible": false,
-     "odd": null
-    },
-    {
-     "selection": "BTTS_NO",
-     "family": "btts",
-     "label": "Ambos marcam: não",
-     "model_prob": 0.5067,
-     "trend_alignment": 0.0,
-     "confidence": 1,
-     "eligible": false,
-     "odd": null
-    }
-   ],
-   "trends": [
-    {
-     "label": "Perdeu 4 dos últimos 5",
-     "strength": 0.61,
-     "favors": "HOME",
-     "team": "Nublense",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Sofreu gol em todos os últimos 5",
-     "strength": 0.4,
-     "favors": "OVER",
-     "team": "Nublense",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "always_concede"
-    },
-    {
-     "label": "Mais de 2.5 gols em 5 dos últimos 5",
-     "strength": 0.55,
-     "favors": "OVER",
-     "team": "Universidad de Chile",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "over"
-    },
-    {
-     "label": "Ambos marcaram em 4 dos últimos 5",
-     "strength": 0.43,
-     "favors": "BTTS_YES",
-     "team": "Universidad de Chile",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "btts"
-    },
-    {
-     "label": "Melhor defesa da liga (0.8 sofridos/jogo)",
-     "strength": 0.5,
-     "favors": "HOME",
-     "team": "Universidad de Chile",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "def_rank"
-    },
-    {
-     "label": "Universidad de Chile é 3º · Nublense é 10º",
-     "strength": 0.0,
-     "favors": null,
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "positions"
-    },
-    {
-     "label": "Universidad de Chile está 7 posições à frente",
-     "strength": 0.5,
-     "favors": "HOME",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "aligned_trends": [
-    {
-     "label": "Perdeu 4 dos últimos 5",
-     "strength": 0.61,
-     "favors": "HOME",
-     "team": "Nublense",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Melhor defesa da liga (0.8 sofridos/jogo)",
-     "strength": 0.5,
-     "favors": "HOME",
-     "team": "Universidad de Chile",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "def_rank"
-    },
-    {
-     "label": "Universidad de Chile está 7 posições à frente",
-     "strength": 0.5,
-     "favors": "HOME",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "confidence": 76,
-   "league": {
-    "key": "cl_primera",
-    "name": "Primera División",
-    "country": "Chile"
-   },
-   "home_team": {
-    "id": 8541,
-    "name": "Universidad de Chile",
-    "position": 3,
-    "played": 23,
-    "points": 42.0,
-    "record": "12V 6E 5D",
-    "goals_for": 35,
-    "goals_against": 19,
-    "last5": "WWLLW",
-    "recent": [
-     {
-      "result": "W",
-      "score": "3-0",
-      "home": false,
-      "opponent": "Deportes La Serena",
-      "date": "2026-09-13"
-     },
-     {
-      "result": "W",
-      "score": "4-2",
-      "home": true,
-      "opponent": "Coquimbo Unido",
-      "date": "2026-09-06"
-     },
-     {
-      "result": "L",
-      "score": "1-2",
-      "home": false,
-      "opponent": "U. De Concepción",
-      "date": "2026-08-30"
-     },
-     {
-      "result": "L",
-      "score": "1-2",
-      "home": true,
-      "opponent": "Colo Colo",
-      "date": "2026-08-23"
-     },
-     {
-      "result": "W",
-      "score": "3-1",
-      "home": false,
-      "opponent": "Deportes Limache",
-      "date": "2026-08-15"
-     }
-    ]
-   },
-   "away_team": {
-    "id": 1244,
-    "name": "Nublense",
-    "position": 10,
-    "played": 23,
-    "points": 32.0,
-    "record": "8V 8E 7D",
-    "goals_for": 28,
-    "goals_against": 31,
-    "last5": "LLLLW",
-    "recent": [
-     {
-      "result": "L",
-      "score": "1-3",
-      "home": true,
-      "opponent": "Everton De Vina",
-      "date": "2026-09-12"
-     },
-     {
-      "result": "L",
-      "score": "1-2",
-      "home": false,
-      "opponent": "Deportes La Serena",
-      "date": "2026-09-06"
-     },
-     {
-      "result": "L",
-      "score": "0-2",
-      "home": false,
-      "opponent": "Deportes Limache",
-      "date": "2026-09-03"
-     },
-     {
-      "result": "L",
-      "score": "0-1",
-      "home": true,
-      "opponent": "Deportes Concepcion",
-      "date": "2026-08-30"
-     },
-     {
-      "result": "W",
-      "score": "2-1",
-      "home": false,
-      "opponent": "Universidad Catolica",
-      "date": "2026-08-23"
-     }
-    ]
-   },
-   "kickoff_local": "2026-10-12T17:00:00-03:00",
-   "has_odds": true,
-   "odds_bookmaker": "365Scores",
-   "is_cup": false,
-   "result": "hit",
-   "clear": true
-  },
-  {
-   "id": 4804686,
+   "id": 4804691,
    "s365_competition_id": 552,
    "competition_name": "Premier League",
-   "start_time": "2026-10-12T14:00:00+00:00",
+   "start_time": "2026-10-13T17:00:00+00:00",
    "status_group": 2,
    "round": "Round",
    "home": {
-    "id": 50877,
-    "name": "Modern Sport FC"
+    "id": 8312,
+    "name": "Al Ittehad"
    },
    "away": {
-    "id": 8300,
-    "name": "ENPPI"
+    "id": 8308,
+    "name": "El Gounah"
    },
-   "home_score": 3.0,
-   "away_score": 2.0,
+   "home_score": -1.0,
+   "away_score": -1.0,
    "model": {
-    "lambda_home": 1.78,
-    "lambda_away": 0.9,
-    "expected_goals": 2.67,
+    "lambda_home": 1.24,
+    "lambda_away": 0.55,
+    "expected_goals": 1.79,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.5811,
-     "DRAW": 0.2314,
-     "AWAY": 0.1875,
-     "1X": 0.8125,
-     "X2": 0.4189,
-     "12": 0.7686,
-     "OVER25": 0.4999,
-     "UNDER25": 0.5001,
-     "BTTS_YES": 0.4922,
-     "BTTS_NO": 0.5078
+     "HOME": 0.531,
+     "DRAW": 0.3024,
+     "AWAY": 0.1666,
+     "1X": 0.8334,
+     "X2": 0.469,
+     "12": 0.6976,
+     "OVER25": 0.2669,
+     "UNDER25": 0.7331,
+     "BTTS_YES": 0.3021,
+     "BTTS_NO": 0.6979
     }
    },
    "pick": {
     "selection": "1X",
     "family": "double_chance",
-    "label": "Dupla chance: Modern Sport FC ou empate (1X)",
-    "model_prob": 0.8125,
+    "label": "Dupla chance: Al Ittehad ou empate (1X)",
+    "model_prob": 0.8334,
     "trend_alignment": 1.0,
-    "confidence": 69,
+    "confidence": 71,
     "eligible": true,
-    "odd": 1.27,
+    "odd": 1.25,
     "low_conviction": false
    },
    "alt_markets": [
     {
      "selection": "HOME",
      "family": "1x2",
-     "label": "Vitória do Modern Sport FC",
-     "model_prob": 0.5811,
+     "label": "Vitória do Al Ittehad",
+     "model_prob": 0.531,
      "trend_alignment": 1.0,
-     "confidence": 59,
+     "confidence": 54,
      "eligible": true,
-     "odd": 2.08
-    },
-    {
-     "selection": "BTTS_NO",
-     "family": "btts",
-     "label": "Ambos marcam: não",
-     "model_prob": 0.5078,
-     "trend_alignment": 0.031,
-     "confidence": 2,
-     "eligible": false,
-     "odd": null
-    },
-    {
-     "selection": "OVER25",
-     "family": "over_under",
-     "label": "Mais de 2.5 gols",
-     "model_prob": 0.4999,
-     "trend_alignment": 0.031,
-     "confidence": 1,
-     "eligible": false,
-     "odd": 1.55
+     "odd": 2.03
     },
     {
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.5001,
-     "trend_alignment": 0.031,
-     "confidence": 1,
+     "model_prob": 0.7331,
+     "trend_alignment": 0.627,
+     "confidence": 52,
+     "eligible": true,
+     "odd": 2.09
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.6979,
+     "trend_alignment": 0.627,
+     "confidence": 48,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do El Gounah",
+     "model_prob": 0.1666,
+     "trend_alignment": 0.0,
+     "confidence": 0,
      "eligible": false,
-     "odd": 2.4
+     "odd": 3.77
     }
    ],
    "trends": [
@@ -1026,40 +99,58 @@
      "label": "Perdeu 3 dos últimos 5",
      "strength": 0.52,
      "favors": "HOME",
-     "team": "ENPPI",
+     "team": "El Gounah",
      "side": "AWAY",
      "group": "geral",
      "kind": "losses"
     },
     {
-     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "label": "Menos de 2.5 gols em 4 dos últimos 5",
      "strength": 0.47,
-     "favors": "OVER",
-     "team": "ENPPI",
+     "favors": "UNDER",
+     "team": "El Gounah",
      "side": "AWAY",
      "group": "geral",
-     "kind": "over"
+     "kind": "under"
+    },
+    {
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Al Ittehad",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
     },
     {
      "label": "Invicto em 4 dos últimos 5",
      "strength": 0.48,
      "favors": "HOME",
-     "team": "Modern Sport FC",
+     "team": "Al Ittehad",
      "side": "HOME",
      "group": "geral",
      "kind": "unbeaten"
     },
     {
-     "label": "Menos de 2.5 gols em 4 dos últimos 5",
+     "label": "Não sofreu gol em 4 dos últimos 5",
      "strength": 0.47,
      "favors": "UNDER",
-     "team": "Modern Sport FC",
+     "team": "Al Ittehad",
      "side": "HOME",
      "group": "geral",
-     "kind": "under"
+     "kind": "clean_sheets"
     },
     {
-     "label": "Modern Sport FC é 5º · ENPPI é 15º",
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "El Gounah",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Al Ittehad é 6º · El Gounah é 18º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -1068,8 +159,8 @@
      "kind": "positions"
     },
     {
-     "label": "Modern Sport FC está 10 posições à frente",
-     "strength": 0.714,
+     "label": "Al Ittehad está 12 posições à frente",
+     "strength": 0.8,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -1082,23 +173,41 @@
      "label": "Perdeu 3 dos últimos 5",
      "strength": 0.52,
      "favors": "HOME",
-     "team": "ENPPI",
+     "team": "El Gounah",
      "side": "AWAY",
      "group": "geral",
      "kind": "losses"
     },
     {
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Al Ittehad",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
      "label": "Invicto em 4 dos últimos 5",
      "strength": 0.48,
      "favors": "HOME",
-     "team": "Modern Sport FC",
+     "team": "Al Ittehad",
      "side": "HOME",
      "group": "geral",
      "kind": "unbeaten"
     },
     {
-     "label": "Modern Sport FC está 10 posições à frente",
-     "strength": 0.714,
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "El Gounah",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Al Ittehad está 12 posições à frente",
+     "strength": 0.8,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -1106,260 +215,269 @@
      "kind": "table_gap"
     }
    ],
-   "confidence": 69,
+   "confidence": 71,
    "league": {
     "key": "egypt",
     "name": "Premier League",
     "country": "Egito"
    },
    "home_team": {
-    "id": 50877,
-    "name": "Modern Sport FC",
-    "position": 5,
+    "id": 8312,
+    "name": "Al Ittehad",
+    "position": 6,
     "played": 5,
     "points": 10.0,
     "record": "3V 1E 1D",
-    "goals_for": 7,
-    "goals_against": 4,
-    "last5": "WWLWD",
+    "goals_for": 6,
+    "goals_against": 3,
+    "last5": "WWWLD",
     "recent": [
      {
       "result": "W",
       "score": "2-0",
       "home": false,
-      "opponent": "Petrol Asyut",
+      "opponent": "Al Masry",
       "date": "2026-09-15"
      },
      {
       "result": "W",
-      "score": "2-1",
+      "score": "1-0",
       "home": true,
-      "opponent": "Wadi Degla",
-      "date": "2026-09-09"
-     },
-     {
-      "result": "L",
-      "score": "0-2",
-      "home": false,
-      "opponent": "Ceramica Cleopatra",
-      "date": "2026-09-02"
+      "opponent": "Petrol Asyut",
+      "date": "2026-09-07"
      },
      {
       "result": "W",
       "score": "2-0",
-      "home": true,
-      "opponent": "Ghazl El-Mehalla",
-      "date": "2026-08-27"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
       "home": false,
-      "opponent": "El Gounah",
-      "date": "2026-08-23"
-     }
-    ]
-   },
-   "away_team": {
-    "id": 8300,
-    "name": "ENPPI",
-    "position": 15,
-    "played": 5,
-    "points": 4.0,
-    "record": "1V 1E 3D",
-    "goals_for": 6,
-    "goals_against": 9,
-    "last5": "LWDLL",
-    "recent": [
-     {
-      "result": "L",
-      "score": "1-2",
-      "home": true,
-      "opponent": "Pyramids",
-      "date": "2026-09-17"
-     },
-     {
-      "result": "W",
-      "score": "2-1",
-      "home": true,
-      "opponent": "Zed FC",
-      "date": "2026-09-09"
-     },
-     {
-      "result": "D",
-      "score": "0-0",
-      "home": false,
-      "opponent": "Ghazl El-Mehalla",
-      "date": "2026-09-01"
+      "opponent": "Abo Qir Semad",
+      "date": "2026-09-02"
      },
      {
       "result": "L",
       "score": "1-3",
       "home": true,
-      "opponent": "Wadi Degla",
+      "opponent": "Ceramica Cleopatra",
       "date": "2026-08-28"
      },
      {
-      "result": "L",
-      "score": "2-3",
+      "result": "D",
+      "score": "0-0",
       "home": false,
-      "opponent": "Al Ahly SC",
+      "opponent": "Zamalek SC",
+      "date": "2026-08-21"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 8308,
+    "name": "El Gounah",
+    "position": 18,
+    "played": 5,
+    "points": 2.0,
+    "record": "0V 2E 3D",
+    "goals_for": 3,
+    "goals_against": 6,
+    "last5": "LLLDD",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Petrojet",
+      "date": "2026-09-16"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Pyramids",
+      "date": "2026-09-09"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Al Mokawloon Al Arab",
+      "date": "2026-09-02"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "El Qanah FC",
+      "date": "2026-08-28"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Modern Sport FC",
       "date": "2026-08-23"
      }
     ]
    },
-   "kickoff_local": "2026-10-12T11:00:00-03:00",
+   "kickoff_local": "2026-10-13T14:00:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "hit",
+   "result": "pending",
    "clear": true
   },
   {
-   "id": 4632652,
-   "s365_competition_id": 113,
-   "competition_name": "Brasileirão Série A",
-   "start_time": "2026-10-13T00:00:00+00:00",
+   "id": 4795403,
+   "s365_competition_id": 414,
+   "competition_name": "Premier League",
+   "start_time": "2026-10-13T17:30:00+00:00",
    "status_group": 2,
    "round": "Round",
    "home": {
-    "id": 1273,
-    "name": "RB Bragantino"
+    "id": 49250,
+    "name": "Richards Bay"
    },
    "away": {
-    "id": 1213,
-    "name": "Cruzeiro"
+    "id": 7277,
+    "name": "Mamelodi Sundowns"
    },
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 1.35,
-    "lambda_away": 1.44,
-    "expected_goals": 2.79,
+    "lambda_home": 1.1,
+    "lambda_away": 2.27,
+    "expected_goals": 3.37,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.352,
-     "DRAW": 0.253,
-     "AWAY": 0.3951,
-     "1X": 0.6049,
-     "X2": 0.648,
-     "12": 0.747,
-     "OVER25": 0.5283,
-     "UNDER25": 0.4717,
-     "BTTS_YES": 0.5653,
-     "BTTS_NO": 0.4347
+     "HOME": 0.1717,
+     "DRAW": 0.1915,
+     "AWAY": 0.6368,
+     "1X": 0.3632,
+     "X2": 0.8283,
+     "12": 0.8085,
+     "OVER25": 0.6533,
+     "UNDER25": 0.3467,
+     "BTTS_YES": 0.5973,
+     "BTTS_NO": 0.4027
     }
    },
    "pick": {
-    "selection": "X2",
-    "family": "double_chance",
-    "label": "Dupla chance: Cruzeiro ou empate (X2)",
-    "model_prob": 0.648,
-    "trend_alignment": 0.591,
-    "confidence": 33,
+    "selection": "AWAY",
+    "family": "1x2",
+    "label": "Vitória do Mamelodi Sundowns",
+    "model_prob": 0.6368,
+    "trend_alignment": 1.0,
+    "confidence": 71,
     "eligible": true,
-    "odd": 1.74,
+    "odd": 1.26,
     "low_conviction": false
    },
    "alt_markets": [
     {
-     "selection": "BTTS_YES",
-     "family": "btts",
-     "label": "Ambos os times marcam",
-     "model_prob": 0.5653,
-     "trend_alignment": 0.887,
-     "confidence": 40,
-     "eligible": false,
-     "odd": null
+     "selection": "X2",
+     "family": "double_chance",
+     "label": "Dupla chance: Mamelodi Sundowns ou empate (X2)",
+     "model_prob": 0.8283,
+     "trend_alignment": 1.0,
+     "confidence": 71,
+     "eligible": true,
+     "odd": 1.09
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.5283,
-     "trend_alignment": 0.887,
-     "confidence": 35,
-     "eligible": false,
-     "odd": 1.63
+     "model_prob": 0.6533,
+     "trend_alignment": 0.533,
+     "confidence": 39,
+     "eligible": true,
+     "odd": 1.96
     },
     {
-     "selection": "AWAY",
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5973,
+     "trend_alignment": 0.533,
+     "confidence": 31,
+     "eligible": false,
+     "odd": 3.02
+    },
+    {
+     "selection": "HOME",
      "family": "1x2",
-     "label": "Vitória do Cruzeiro",
-     "model_prob": 0.3951,
-     "trend_alignment": 0.591,
-     "confidence": 26,
-     "eligible": false,
-     "odd": 3.31
-    },
-    {
-     "selection": "1X",
-     "family": "double_chance",
-     "label": "Dupla chance: RB Bragantino ou empate (1X)",
-     "model_prob": 0.6049,
+     "label": "Vitória do Richards Bay",
+     "model_prob": 0.1717,
      "trend_alignment": 0.0,
-     "confidence": 7,
+     "confidence": 0,
      "eligible": false,
-     "odd": 1.34
+     "odd": 7.5
     }
    ],
    "trends": [
     {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "AWAY",
+     "team": "Mamelodi Sundowns",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Marcou em todos os últimos 5",
+     "strength": 0.3,
+     "favors": "OVER",
+     "team": "Mamelodi Sundowns",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "always_score"
+    },
+    {
      "label": "Perdeu 3 dos últimos 5",
      "strength": 0.52,
      "favors": "AWAY",
-     "team": "RB Bragantino",
+     "team": "Richards Bay",
      "side": "HOME",
      "group": "geral",
      "kind": "losses"
     },
     {
-     "label": "Ambos marcaram em 4 dos últimos 5",
-     "strength": 0.43,
+     "label": "Ambos marcaram em 5 dos últimos 5",
+     "strength": 0.5,
      "favors": "BTTS_YES",
-     "team": "RB Bragantino",
+     "team": "Richards Bay",
      "side": "HOME",
      "group": "geral",
      "kind": "btts"
     },
     {
-     "label": "Mais de 2.5 gols em 4 dos últimos 5",
-     "strength": 0.47,
-     "favors": "OVER",
-     "team": "Cruzeiro",
+     "label": "Melhor ataque da liga (2.4 marcados/jogo)",
+     "strength": 0.44,
+     "favors": "AWAY",
+     "team": "Mamelodi Sundowns",
      "side": "AWAY",
-     "group": "geral",
-     "kind": "over"
-    },
-    {
-     "label": "Ambos marcaram em 4 dos últimos 5",
-     "strength": 0.43,
-     "favors": "BTTS_YES",
-     "team": "Cruzeiro",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "btts"
-    },
-    {
-     "label": "3ª melhor defesa da liga (1.1 sofridos/jogo)",
-     "strength": 0.36,
-     "favors": "HOME",
-     "team": "RB Bragantino",
-     "side": "HOME",
      "group": "temporada",
-     "kind": "def_rank"
+     "kind": "atk_rank"
     },
     {
      "label": "Não vence há 5+ jogos",
      "strength": 0.333,
      "favors": "AWAY",
-     "team": "RB Bragantino",
+     "team": "Richards Bay",
      "side": "HOME",
      "group": "sequencia",
      "kind": "winless_streak"
     },
     {
-     "label": "RB Bragantino é 11º · Cruzeiro é 6º",
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Mamelodi Sundowns",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Richards Bay é 14º · Mamelodi Sundowns é 1º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -1368,9 +486,318 @@
      "kind": "positions"
     },
     {
-     "label": "Cruzeiro está 5 posições à frente",
-     "strength": 0.357,
+     "label": "Mamelodi Sundowns está 13 posições à frente",
+     "strength": 0.8,
      "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "AWAY",
+     "team": "Mamelodi Sundowns",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Richards Bay",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Melhor ataque da liga (2.4 marcados/jogo)",
+     "strength": 0.44,
+     "favors": "AWAY",
+     "team": "Mamelodi Sundowns",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Richards Bay",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Mamelodi Sundowns",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Mamelodi Sundowns está 13 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 71,
+   "league": {
+    "key": "south_africa",
+    "name": "Premier League",
+    "country": "África do Sul"
+   },
+   "home_team": {
+    "id": 49250,
+    "name": "Richards Bay",
+    "position": 14,
+    "played": 7,
+    "points": 3.0,
+    "record": "0V 3E 4D",
+    "goals_for": 9,
+    "goals_against": 16,
+    "last5": "LLLDD",
+    "recent": [
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": true,
+      "opponent": "Sekhukhune United",
+      "date": "2026-09-19"
+     },
+     {
+      "result": "L",
+      "score": "1-5",
+      "home": false,
+      "opponent": "Milford",
+      "date": "2026-09-13"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "AmaZulu",
+      "date": "2026-09-04"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "Kaizer Chiefs",
+      "date": "2026-08-26"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Durban City",
+      "date": "2026-08-15"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 7277,
+    "name": "Mamelodi Sundowns",
+    "position": 1,
+    "played": 8,
+    "points": 20.0,
+    "record": "6V 2E 0D",
+    "goals_for": 19,
+    "goals_against": 7,
+    "last5": "DWWWW",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Chippa United",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "Siwelele",
+      "date": "2026-09-09"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Golden Arrows",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Milford",
+      "date": "2026-09-02"
+     },
+     {
+      "result": "W",
+      "score": "5-2",
+      "home": true,
+      "opponent": "AmaZulu",
+      "date": "2026-08-26"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-13T14:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4746112,
+   "s365_competition_id": 1,
+   "competition_name": "Championship",
+   "start_time": "2026-10-13T19:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 1,
+    "name": "Birmingham"
+   },
+   "away": {
+    "id": 23,
+    "name": "Preston"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.77,
+    "lambda_away": 0.93,
+    "expected_goals": 2.7,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.5702,
+     "DRAW": 0.2329,
+     "AWAY": 0.1969,
+     "1X": 0.8031,
+     "X2": 0.4298,
+     "12": 0.7671,
+     "OVER25": 0.5069,
+     "UNDER25": 0.4931,
+     "BTTS_YES": 0.5035,
+     "BTTS_NO": 0.4965
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Birmingham",
+    "model_prob": 0.5702,
+    "trend_alignment": 1.0,
+    "confidence": 67,
+    "eligible": true,
+    "odd": 1.46,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Birmingham ou empate (1X)",
+     "model_prob": 0.8031,
+     "trend_alignment": 1.0,
+     "confidence": 67,
+     "eligible": true,
+     "odd": 1.12
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5069,
+     "trend_alignment": 0.58,
+     "confidence": 21,
+     "eligible": false,
+     "odd": 1.74
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5035,
+     "trend_alignment": 0.58,
+     "confidence": 21,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Preston",
+     "model_prob": 0.1969,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 6.5
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Preston",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Sofreu gol em todos os últimos 5",
+     "strength": 0.4,
+     "favors": "OVER",
+     "team": "Preston",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "always_concede"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Birmingham",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "Birmingham",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Birmingham é 7º · Preston é 24º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Birmingham está 17 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
      "team": null,
      "side": null,
      "group": "confronto",
@@ -1381,134 +808,134 @@
     {
      "label": "Perdeu 3 dos últimos 5",
      "strength": 0.52,
-     "favors": "AWAY",
-     "team": "RB Bragantino",
-     "side": "HOME",
+     "favors": "HOME",
+     "team": "Preston",
+     "side": "AWAY",
      "group": "geral",
      "kind": "losses"
     },
     {
-     "label": "Não vence há 5+ jogos",
-     "strength": 0.333,
-     "favors": "AWAY",
-     "team": "RB Bragantino",
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Birmingham",
      "side": "HOME",
-     "group": "sequencia",
-     "kind": "winless_streak"
+     "group": "geral",
+     "kind": "unbeaten"
     },
     {
-     "label": "Cruzeiro está 5 posições à frente",
-     "strength": 0.357,
-     "favors": "AWAY",
+     "label": "Birmingham está 17 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
      "team": null,
      "side": null,
      "group": "confronto",
      "kind": "table_gap"
     }
    ],
-   "confidence": 33,
+   "confidence": 67,
    "league": {
-    "key": "br_serie_a",
-    "name": "Brasileirão Série A",
-    "country": "Brasil"
+    "key": "championship",
+    "name": "Championship",
+    "country": "Inglaterra"
    },
    "home_team": {
-    "id": 1273,
-    "name": "RB Bragantino",
-    "position": 11,
-    "played": 29,
-    "points": 37.0,
-    "record": "10V 7E 12D",
-    "goals_for": 34,
-    "goals_against": 33,
-    "last5": "DLLDL",
+    "id": 1,
+    "name": "Birmingham",
+    "position": 7,
+    "played": 9,
+    "points": 14.0,
+    "record": "3V 5E 1D",
+    "goals_for": 13,
+    "goals_against": 11,
+    "last5": "WDWLD",
     "recent": [
      {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "West Brom",
+      "date": "2026-10-10"
+     },
+     {
       "result": "D",
-      "score": "1-1",
+      "score": "2-2",
       "home": true,
-      "opponent": "Mirassol",
-      "date": "2026-10-07"
+      "opponent": "Middlesbrough",
+      "date": "2026-09-19"
      },
      {
-      "result": "L",
-      "score": "0-1",
+      "result": "W",
+      "score": "2-1",
       "home": false,
-      "opponent": "Atlético Mineiro",
-      "date": "2026-10-03"
-     },
-     {
-      "result": "L",
-      "score": "1-2",
-      "home": false,
-      "opponent": "Flamengo",
-      "date": "2026-09-20"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": false,
-      "opponent": "Botafogo",
+      "opponent": "Derby",
       "date": "2026-09-12"
      },
      {
       "result": "L",
-      "score": "2-3",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Norwich",
+      "date": "2026-09-09"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
       "home": true,
-      "opponent": "Bahia",
-      "date": "2026-09-05"
+      "opponent": "Wolves",
+      "date": "2026-09-06"
      }
     ]
    },
    "away_team": {
-    "id": 1213,
-    "name": "Cruzeiro",
-    "position": 6,
-    "played": 29,
-    "points": 48.0,
-    "record": "14V 6E 9D",
-    "goals_for": 44,
-    "goals_against": 40,
-    "last5": "WWLWL",
+    "id": 23,
+    "name": "Preston",
+    "position": 24,
+    "played": 9,
+    "points": 4.0,
+    "record": "1V 1E 7D",
+    "goals_for": 8,
+    "goals_against": 16,
+    "last5": "LDLLW",
     "recent": [
      {
-      "result": "W",
-      "score": "2-0",
+      "result": "L",
+      "score": "0-1",
       "home": true,
-      "opponent": "São Paulo",
-      "date": "2026-10-08"
+      "opponent": "Millwall",
+      "date": "2026-10-10"
      },
      {
-      "result": "W",
-      "score": "3-1",
+      "result": "D",
+      "score": "2-2",
       "home": false,
-      "opponent": "Vitoria",
-      "date": "2026-09-20"
+      "opponent": "QPR",
+      "date": "2026-09-19"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Lincoln",
+      "date": "2026-09-12"
      },
      {
       "result": "L",
       "score": "1-2",
       "home": false,
-      "opponent": "Santos",
-      "date": "2026-09-13"
+      "opponent": "Watford FC",
+      "date": "2026-09-08"
      },
      {
       "result": "W",
-      "score": "3-1",
+      "score": "2-1",
       "home": true,
-      "opponent": "Athletico Paranaense",
-      "date": "2026-09-06"
-     },
-     {
-      "result": "L",
-      "score": "1-3",
-      "home": false,
-      "opponent": "Vasco da Gama",
-      "date": "2026-08-30"
+      "opponent": "Blackburn Rovers",
+      "date": "2026-09-05"
      }
     ]
    },
-   "kickoff_local": "2026-10-12T21:00:00-03:00",
+   "kickoff_local": "2026-10-13T16:00:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,

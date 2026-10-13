@@ -1230,8 +1230,8 @@
     "id": 1213,
     "name": "Cruzeiro"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 4.0,
+   "away_score": 2.0,
    "model": {
     "lambda_home": 1.35,
     "lambda_away": 1.44,
@@ -1512,7 +1512,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "miss",
    "clear": true
   }
  ]
