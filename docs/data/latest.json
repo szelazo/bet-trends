@@ -1,6 +1,6 @@
 {
  "date": "2026-10-14",
- "generated_at": "2026-10-14T12:47:06.564735-03:00",
+ "generated_at": "2026-10-14T19:59:54.323738-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 1,
@@ -303,7 +303,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "miss",
    "clear": true
   },
   {
@@ -349,7 +349,7 @@
     "trend_alignment": 1.0,
     "confidence": 79,
     "eligible": true,
-    "odd": 1.18,
+    "odd": 1.21,
     "low_conviction": false
    },
    "alt_markets": [
@@ -361,7 +361,7 @@
      "trend_alignment": 1.0,
      "confidence": 79,
      "eligible": true,
-     "odd": 1.05
+     "odd": 1.06
     },
     {
      "selection": "OVER25",
@@ -371,7 +371,7 @@
      "trend_alignment": 1.0,
      "confidence": 68,
      "eligible": true,
-     "odd": 1.73
+     "odd": 1.8
     },
     {
      "selection": "BTTS_YES",
@@ -391,7 +391,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 11.0
+     "odd": 10.0
     }
    ],
    "trends": [

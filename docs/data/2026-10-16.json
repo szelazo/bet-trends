@@ -1,10 +1,10 @@
 {
  "date": "2026-10-16",
- "generated_at": "2026-10-14T12:47:08.314701-03:00",
+ "generated_at": "2026-10-14T19:59:56.111778-03:00",
  "version": "0.1.0",
  "count": 4,
  "clear_count": 4,
- "day_total": 44,
+ "day_total": 43,
  "games": [
   {
    "id": 4789459,
@@ -71,7 +71,7 @@
      "trend_alignment": 0.313,
      "confidence": 31,
      "eligible": true,
-     "odd": 1.8
+     "odd": 1.84
     },
     {
      "selection": "BTTS_YES",
