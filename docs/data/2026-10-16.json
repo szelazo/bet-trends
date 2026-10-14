@@ -1,0 +1,1246 @@
+{
+ "date": "2026-10-16",
+ "generated_at": "2026-10-14T12:47:08.314701-03:00",
+ "version": "0.1.0",
+ "count": 4,
+ "clear_count": 4,
+ "day_total": 44,
+ "games": [
+  {
+   "id": 4789459,
+   "s365_competition_id": 649,
+   "competition_name": "Saudi League",
+   "start_time": "2026-10-16T13:15:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 8947,
+    "name": "Qadisiya"
+   },
+   "away": {
+    "id": 14898,
+    "name": "Abha Club"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.6,
+    "lambda_away": 0.76,
+    "expected_goals": 3.36,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.7687,
+     "DRAW": 0.1456,
+     "AWAY": 0.0857,
+     "1X": 0.9143,
+     "X2": 0.2313,
+     "12": 0.8544,
+     "OVER25": 0.6519,
+     "UNDER25": 0.3481,
+     "BTTS_YES": 0.4918,
+     "BTTS_NO": 0.5082
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Qadisiya",
+    "model_prob": 0.7687,
+    "trend_alignment": 1.0,
+    "confidence": 82,
+    "eligible": true,
+    "odd": 1.13,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Qadisiya ou empate (1X)",
+     "model_prob": 0.9143,
+     "trend_alignment": 1.0,
+     "confidence": 82,
+     "eligible": true,
+     "odd": 1.02
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6519,
+     "trend_alignment": 0.313,
+     "confidence": 31,
+     "eligible": true,
+     "odd": 1.8
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.4918,
+     "trend_alignment": 0.313,
+     "confidence": 11,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5082,
+     "trend_alignment": 0.0,
+     "confidence": 1,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "HOME",
+     "team": "Qadisiya",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "Qadisiya",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Não venceu nenhum dos últimos 6",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Abha Club",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "Não vence há 6+ jogos",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Abha Club",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Qadisiya",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "2º melhor ataque da liga (2.6 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Qadisiya",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Qadisiya é 2º · Abha Club é 18º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Qadisiya está 16 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "HOME",
+     "team": "Qadisiya",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Não venceu nenhum dos últimos 6",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Abha Club",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "Não vence há 6+ jogos",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Abha Club",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Qadisiya",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "2º melhor ataque da liga (2.6 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Qadisiya",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Qadisiya está 16 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 82,
+   "league": {
+    "key": "saudi",
+    "name": "Saudi Pro League",
+    "country": "Arábia Saudita"
+   },
+   "home_team": {
+    "id": 8947,
+    "name": "Qadisiya",
+    "position": 2,
+    "played": 8,
+    "points": 19.0,
+    "record": "6V 1E 1D",
+    "goals_for": 21,
+    "goals_against": 8,
+    "last5": "WDWWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "5-0",
+      "home": false,
+      "opponent": "Al-Kholood",
+      "date": "2026-10-09"
+     },
+     {
+      "result": "D",
+      "score": "3-3",
+      "home": true,
+      "opponent": "Al Ettifaq",
+      "date": "2026-09-11"
+     },
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": true,
+      "opponent": "Al Ahli Jeddah",
+      "date": "2026-09-08"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "Diriyah",
+      "date": "2026-09-03"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": true,
+      "opponent": "Al Faysaly",
+      "date": "2026-08-30"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 14898,
+    "name": "Abha Club",
+    "position": 18,
+    "played": 7,
+    "points": 2.0,
+    "record": "0V 2E 5D",
+    "goals_for": 5,
+    "goals_against": 13,
+    "last5": "DDLLL",
+    "recent": [
+     {
+      "result": "D",
+      "score": "-1--1",
+      "home": true,
+      "opponent": "Al Faysaly",
+      "date": "2026-10-11"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Diriyah",
+      "date": "2026-09-13"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Al Nassr FC Riyadh",
+      "date": "2026-09-09"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Al Ettifaq",
+      "date": "2026-09-04"
+     },
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": false,
+      "opponent": "Al Feiha",
+      "date": "2026-08-28"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-16T10:15:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4851245,
+   "s365_competition_id": 549,
+   "competition_name": "UAE Pro League",
+   "start_time": "2026-10-16T15:45:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 8345,
+    "name": "Baniyas"
+   },
+   "away": {
+    "id": 8346,
+    "name": "Al Wasl"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.1,
+    "lambda_away": 2.19,
+    "expected_goals": 3.29,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.182,
+     "DRAW": 0.1985,
+     "AWAY": 0.6195,
+     "1X": 0.3805,
+     "X2": 0.818,
+     "12": 0.8015,
+     "OVER25": 0.6381,
+     "UNDER25": 0.3619,
+     "BTTS_YES": 0.593,
+     "BTTS_NO": 0.407
+    }
+   },
+   "pick": {
+    "selection": "AWAY",
+    "family": "1x2",
+    "label": "Vitória do Al Wasl",
+    "model_prob": 0.6195,
+    "trend_alignment": 1.0,
+    "confidence": 69,
+    "eligible": true,
+    "odd": 1.46,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "X2",
+     "family": "double_chance",
+     "label": "Dupla chance: Al Wasl ou empate (X2)",
+     "model_prob": 0.818,
+     "trend_alignment": 1.0,
+     "confidence": 69,
+     "eligible": true,
+     "odd": 1.16
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6381,
+     "trend_alignment": 0.313,
+     "confidence": 29,
+     "eligible": true,
+     "odd": 2.09
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.593,
+     "trend_alignment": 0.313,
+     "confidence": 23,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Baniyas",
+     "model_prob": 0.182,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 5.3
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "AWAY",
+     "team": "Baniyas",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "AWAY",
+     "team": "Al Wasl",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "Al Wasl",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Baniyas",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Baniyas é 14º · Al Wasl é 4º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Al Wasl está 10 posições à frente",
+     "strength": 0.714,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "AWAY",
+     "team": "Baniyas",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "AWAY",
+     "team": "Al Wasl",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Baniyas",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Al Wasl está 10 posições à frente",
+     "strength": 0.714,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 69,
+   "league": {
+    "key": "uae",
+    "name": "UAE Pro League",
+    "country": "Emirados Árabes"
+   },
+   "home_team": {
+    "id": 8345,
+    "name": "Baniyas",
+    "position": 14,
+    "played": 5,
+    "points": 1.0,
+    "record": "0V 1E 4D",
+    "goals_for": 5,
+    "goals_against": 10,
+    "last5": "DLLLL",
+    "recent": [
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Khor Fakkan",
+      "date": "2026-09-11"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Hatta Club",
+      "date": "2026-09-05"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Al-Wahda",
+      "date": "2026-08-30"
+     },
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": true,
+      "opponent": "Dubai United",
+      "date": "2026-08-23"
+     },
+     {
+      "result": "L",
+      "score": "2-4",
+      "home": true,
+      "opponent": "Al Ain",
+      "date": "2026-08-16"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 8346,
+    "name": "Al Wasl",
+    "position": 4,
+    "played": 5,
+    "points": 10.0,
+    "record": "3V 1E 1D",
+    "goals_for": 15,
+    "goals_against": 6,
+    "last5": "DWLWW",
+    "recent": [
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "Al Ain",
+      "date": "2026-09-10"
+     },
+     {
+      "result": "W",
+      "score": "5-2",
+      "home": true,
+      "opponent": "Khor Fakkan",
+      "date": "2026-09-04"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Shabab Al Ahly",
+      "date": "2026-08-28"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": false,
+      "opponent": "Kalba",
+      "date": "2026-08-21"
+     },
+     {
+      "result": "W",
+      "score": "5-1",
+      "home": true,
+      "opponent": "Dubai United",
+      "date": "2026-08-15"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-16T12:45:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4757650,
+   "s365_competition_id": 26,
+   "competition_name": "Bundesliga 2",
+   "start_time": "2026-10-16T16:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 430,
+    "name": "Holstein Kiel"
+   },
+   "away": {
+    "id": 342,
+    "name": "Hertha Berlin"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.11,
+    "lambda_away": 1.79,
+    "expected_goals": 2.9,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.2341,
+     "DRAW": 0.2322,
+     "AWAY": 0.5337,
+     "1X": 0.4663,
+     "X2": 0.7659,
+     "12": 0.7678,
+     "OVER25": 0.5534,
+     "UNDER25": 0.4466,
+     "BTTS_YES": 0.5577,
+     "BTTS_NO": 0.4423
+    }
+   },
+   "pick": {
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: Hertha Berlin ou empate (X2)",
+    "model_prob": 0.7659,
+    "trend_alignment": 1.0,
+    "confidence": 62,
+    "eligible": true,
+    "odd": 1.44,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Hertha Berlin",
+     "model_prob": 0.5337,
+     "trend_alignment": 1.0,
+     "confidence": 54,
+     "eligible": true,
+     "odd": 2.22
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5534,
+     "trend_alignment": 0.085,
+     "confidence": 10,
+     "eligible": false,
+     "odd": 2.02
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5577,
+     "trend_alignment": 0.085,
+     "confidence": 10,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Holstein Kiel",
+     "model_prob": 0.2341,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 2.82
+    }
+   ],
+   "trends": [
+    {
+     "label": "5 vitórias seguidas",
+     "strength": 1.0,
+     "favors": "AWAY",
+     "team": "Hertha Berlin",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 5 dos últimos 5",
+     "strength": 0.75,
+     "favors": "AWAY",
+     "team": "Hertha Berlin",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Mais de 2.5 gols em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "OVER",
+     "team": "Hertha Berlin",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Holstein Kiel",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Menos de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "UNDER",
+     "team": "Holstein Kiel",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "under"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Holstein Kiel",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Holstein Kiel é 18º · Hertha Berlin é 1º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Hertha Berlin está 17 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "5 vitórias seguidas",
+     "strength": 1.0,
+     "favors": "AWAY",
+     "team": "Hertha Berlin",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 5 dos últimos 5",
+     "strength": 0.75,
+     "favors": "AWAY",
+     "team": "Hertha Berlin",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Holstein Kiel",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Holstein Kiel",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Hertha Berlin está 17 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 62,
+   "league": {
+    "key": "bundesliga2",
+    "name": "2. Bundesliga",
+    "country": "Alemanha"
+   },
+   "home_team": {
+    "id": 430,
+    "name": "Holstein Kiel",
+    "position": 18,
+    "played": 7,
+    "points": 4.0,
+    "record": "0V 4E 3D",
+    "goals_for": 7,
+    "goals_against": 11,
+    "last5": "LDLDL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Eintracht Braunschweig",
+      "date": "2026-10-09"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Osnabrück",
+      "date": "2026-09-19"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "FC Heidenheim",
+      "date": "2026-09-13"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "FC Nürnberg",
+      "date": "2026-09-05"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "FC Magdeburg",
+      "date": "2026-08-30"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 342,
+    "name": "Hertha Berlin",
+    "position": 1,
+    "played": 7,
+    "points": 21.0,
+    "record": "7V 0E 0D",
+    "goals_for": 19,
+    "goals_against": 8,
+    "last5": "WWWWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Greuther Fürth",
+      "date": "2026-10-11"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Dynamo Dresden",
+      "date": "2026-09-19"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": false,
+      "opponent": "Osnabrück",
+      "date": "2026-09-13"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "FC Magdeburg",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "W",
+      "score": "5-3",
+      "home": false,
+      "opponent": "Eintracht Braunschweig",
+      "date": "2026-08-28"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-16T13:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4736373,
+   "s365_competition_id": 153,
+   "competition_name": "Ekstraklasa",
+   "start_time": "2026-10-16T18:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 2222,
+    "name": "Widzew Lodz"
+   },
+   "away": {
+    "id": 2208,
+    "name": "Wisla Krakow"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.27,
+    "lambda_away": 1.38,
+    "expected_goals": 2.65,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.3436,
+     "DRAW": 0.2604,
+     "AWAY": 0.396,
+     "1X": 0.604,
+     "X2": 0.6564,
+     "12": 0.7396,
+     "OVER25": 0.4946,
+     "UNDER25": 0.5054,
+     "BTTS_YES": 0.5386,
+     "BTTS_NO": 0.4614
+    }
+   },
+   "pick": {
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: Wisla Krakow ou empate (X2)",
+    "model_prob": 0.6564,
+    "trend_alignment": 1.0,
+    "confidence": 47,
+    "eligible": true,
+    "odd": 1.64,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Wisla Krakow",
+     "model_prob": 0.396,
+     "trend_alignment": 1.0,
+     "confidence": 41,
+     "eligible": false,
+     "odd": 2.9
+    },
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Widzew Lodz ou empate (1X)",
+     "model_prob": 0.604,
+     "trend_alignment": 0.0,
+     "confidence": 7,
+     "eligible": false,
+     "odd": 1.4
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5386,
+     "trend_alignment": 0.005,
+     "confidence": 5,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.5054,
+     "trend_alignment": 0.055,
+     "confidence": 3,
+     "eligible": false,
+     "odd": 2.17
+    }
+   ],
+   "trends": [
+    {
+     "label": "Não venceu nenhum dos últimos 5",
+     "strength": 0.55,
+     "favors": "AWAY",
+     "team": "Widzew Lodz",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "Ambos marcaram em 4 dos últimos 5",
+     "strength": 0.43,
+     "favors": "BTTS_YES",
+     "team": "Widzew Lodz",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "btts"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "AWAY",
+     "team": "Wisla Krakow",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Menos de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "UNDER",
+     "team": "Wisla Krakow",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "under"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Widzew Lodz",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Widzew Lodz é 13º · Wisla Krakow é 6º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Wisla Krakow está 7 posições à frente",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Não venceu nenhum dos últimos 5",
+     "strength": 0.55,
+     "favors": "AWAY",
+     "team": "Widzew Lodz",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "AWAY",
+     "team": "Wisla Krakow",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Widzew Lodz",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Wisla Krakow está 7 posições à frente",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 47,
+   "league": {
+    "key": "poland",
+    "name": "Ekstraklasa",
+    "country": "Polônia"
+   },
+   "home_team": {
+    "id": 2222,
+    "name": "Widzew Lodz",
+    "position": 13,
+    "played": 10,
+    "points": 9.0,
+    "record": "1V 6E 3D",
+    "goals_for": 14,
+    "goals_against": 15,
+    "last5": "LDDDL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Piast Gliwice",
+      "date": "2026-10-11"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "Wieczysta Krakow",
+      "date": "2026-09-18"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Legia Warszawa",
+      "date": "2026-09-13"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Radomiak Radom",
+      "date": "2026-09-05"
+     },
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": true,
+      "opponent": "Lech Poznan",
+      "date": "2026-08-30"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 2208,
+    "name": "Wisla Krakow",
+    "position": 6,
+    "played": 10,
+    "points": 17.0,
+    "record": "5V 2E 3D",
+    "goals_for": 17,
+    "goals_against": 14,
+    "last5": "LWWDW",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Legia Warszawa",
+      "date": "2026-10-11"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Slask Wroclaw",
+      "date": "2026-09-18"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Jagiellonia",
+      "date": "2026-09-11"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Korona Kielce",
+      "date": "2026-09-05"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Wieczysta Krakow",
+      "date": "2026-08-29"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-16T15:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  }
+ ]
+}

@@ -1,6 +1,6 @@
 {
  "date": "2026-10-14",
- "generated_at": "2026-10-13T20:37:22.719122-03:00",
+ "generated_at": "2026-10-14T12:47:06.564735-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 1,
@@ -26,30 +26,30 @@
    "model": {
     "lambda_home": 2.22,
     "lambda_away": 0.84,
-    "expected_goals": 3.06,
+    "expected_goals": 3.05,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.6881,
-     "DRAW": 0.1844,
-     "AWAY": 0.1274,
-     "1X": 0.8726,
-     "X2": 0.3119,
-     "12": 0.8156,
-     "OVER25": 0.5898,
-     "UNDER25": 0.4102,
-     "BTTS_YES": 0.5059,
-     "BTTS_NO": 0.4941
+     "HOME": 0.6874,
+     "DRAW": 0.1849,
+     "AWAY": 0.1277,
+     "1X": 0.8723,
+     "X2": 0.3126,
+     "12": 0.8151,
+     "OVER25": 0.5883,
+     "UNDER25": 0.4117,
+     "BTTS_YES": 0.505,
+     "BTTS_NO": 0.495
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Independiente Santa Fe",
-    "model_prob": 0.6881,
+    "model_prob": 0.6874,
     "trend_alignment": 1.0,
     "confidence": 77,
     "eligible": true,
-    "odd": 1.33,
+    "odd": 1.39,
     "low_conviction": false
    },
    "alt_markets": [
@@ -57,27 +57,27 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Independiente Santa Fe ou empate (1X)",
-     "model_prob": 0.8726,
+     "model_prob": 0.8723,
      "trend_alignment": 1.0,
      "confidence": 77,
      "eligible": true,
-     "odd": 1.06
+     "odd": 1.08
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.5898,
+     "model_prob": 0.5883,
      "trend_alignment": 0.54,
-     "confidence": 31,
+     "confidence": 30,
      "eligible": false,
-     "odd": 1.74
+     "odd": 1.72
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5059,
+     "model_prob": 0.505,
      "trend_alignment": 0.54,
      "confidence": 20,
      "eligible": false,
@@ -87,11 +87,11 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Jaguares de Córdoba",
-     "model_prob": 0.1274,
+     "model_prob": 0.1277,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 10.0
+     "odd": 8.5
     }
    ],
    "trends": [
@@ -114,8 +114,8 @@
      "kind": "over"
     },
     {
-     "label": "Invicto em 6 dos últimos 7",
-     "strength": 0.5,
+     "label": "Invicto em 5 dos últimos 6",
+     "strength": 0.492,
      "favors": "HOME",
      "team": "Independiente Santa Fe",
      "side": "HOME",
@@ -170,8 +170,8 @@
      "kind": "losses"
     },
     {
-     "label": "Invicto em 6 dos últimos 7",
-     "strength": 0.5,
+     "label": "Invicto em 5 dos últimos 6",
+     "strength": 0.492,
      "favors": "HOME",
      "team": "Independiente Santa Fe",
      "side": "HOME",
@@ -212,7 +212,7 @@
     "record": "6V 4E 2D",
     "goals_for": 19,
     "goals_against": 12,
-    "last5": "DWWDL",
+    "last5": "DWWLW",
     "recent": [
      {
       "result": "D",
@@ -236,18 +236,18 @@
       "date": "2026-09-29"
      },
      {
-      "result": "D",
-      "score": "1-1",
-      "home": false,
-      "opponent": "Union Magdalena",
-      "date": "2026-09-25"
-     },
-     {
       "result": "L",
       "score": "0-1",
       "home": true,
       "opponent": "Deportivo Cali",
       "date": "2026-09-23"
+     },
+     {
+      "result": "W",
+      "score": "4-1",
+      "home": false,
+      "opponent": "Alianza FC",
+      "date": "2026-09-19"
      }
     ]
    },
@@ -661,32 +661,32 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 2.27,
+    "lambda_home": 2.26,
     "lambda_away": 0.87,
-    "expected_goals": 3.14,
+    "expected_goals": 3.13,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.6885,
-     "DRAW": 0.182,
-     "AWAY": 0.1295,
-     "1X": 0.8705,
-     "X2": 0.3115,
-     "12": 0.818,
-     "OVER25": 0.6065,
-     "UNDER25": 0.3935,
-     "BTTS_YES": 0.5211,
-     "BTTS_NO": 0.4789
+     "HOME": 0.6881,
+     "DRAW": 0.1822,
+     "AWAY": 0.1297,
+     "1X": 0.8703,
+     "X2": 0.3119,
+     "12": 0.8178,
+     "OVER25": 0.6059,
+     "UNDER25": 0.3941,
+     "BTTS_YES": 0.5207,
+     "BTTS_NO": 0.4793
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Atletico Nacional",
-    "model_prob": 0.6885,
+    "model_prob": 0.6881,
     "trend_alignment": 0.667,
     "confidence": 65,
     "eligible": true,
-    "odd": 1.76,
+    "odd": 1.74,
     "low_conviction": false
    },
    "alt_markets": [
@@ -694,17 +694,17 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Atletico Nacional ou empate (1X)",
-     "model_prob": 0.8705,
+     "model_prob": 0.8703,
      "trend_alignment": 0.667,
      "confidence": 65,
      "eligible": true,
-     "odd": 1.2
+     "odd": 1.18
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6065,
+     "model_prob": 0.6059,
      "trend_alignment": 0.267,
      "confidence": 23,
      "eligible": true,
@@ -714,7 +714,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5211,
+     "model_prob": 0.5207,
      "trend_alignment": 0.267,
      "confidence": 12,
      "eligible": false,
@@ -724,11 +724,11 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Independiente Medellin",
-     "model_prob": 0.1295,
+     "model_prob": 0.1297,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 4.77
+     "odd": 5.02
     }
    ],
    "trends": [

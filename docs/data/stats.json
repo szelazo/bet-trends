@@ -1,21 +1,21 @@
 {
- "generated_for": "2026-10-13",
+ "generated_for": "2026-10-14",
  "since": "2026-09-03",
  "prelaunch": {
   "hits": 12,
   "total": 12
  },
  "today": {
-  "hits": 3,
+  "hits": 0,
   "misses": 0,
   "voids": 0,
-  "total": 3
+  "total": 0
  },
  "last3": {
-  "hits": 9,
-  "misses": 4,
+  "hits": 6,
+  "misses": 2,
   "voids": 0,
-  "total": 13
+  "total": 8
  },
  "week": {
   "hits": 18,
