@@ -1,6 +1,6 @@
 {
  "date": "2026-10-15",
- "generated_at": "2026-10-15T12:33:43.343505-03:00",
+ "generated_at": "2026-10-15T19:54:58.881992-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 0,
@@ -21,8 +21,8 @@
     "id": 8942,
     "name": "Al Fateh"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 3.0,
    "model": {
     "lambda_home": 1.5,
     "lambda_away": 0.76,
@@ -321,7 +321,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "miss",
    "clear": false,
    "below_bar": true
   },
@@ -340,8 +340,8 @@
     "id": 20733,
     "name": "Al Feiha"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 0.0,
    "model": {
     "lambda_home": 1.14,
     "lambda_away": 1.28,
@@ -595,7 +595,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "miss",
    "clear": false,
    "below_bar": true
   },
@@ -614,8 +614,8 @@
     "id": 1796,
     "name": "Viktoria Plzen"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 1.52,
     "lambda_away": 0.97,
@@ -775,7 +775,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": false,
    "below_bar": true
   }

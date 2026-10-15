@@ -1,6 +1,6 @@
 {
  "date": "2026-10-16",
- "generated_at": "2026-10-15T12:33:44.341134-03:00",
+ "generated_at": "2026-10-15T19:54:59.889306-03:00",
  "version": "0.1.0",
  "count": 4,
  "clear_count": 4,
@@ -24,21 +24,21 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 2.6,
-    "lambda_away": 0.75,
-    "expected_goals": 3.35,
+    "lambda_home": 2.62,
+    "lambda_away": 0.76,
+    "expected_goals": 3.37,
     "sample_factor": 1.0,
     "probs": {
      "HOME": 0.7713,
-     "DRAW": 0.1447,
-     "AWAY": 0.084,
-     "1X": 0.916,
+     "DRAW": 0.1442,
+     "AWAY": 0.0845,
+     "1X": 0.9155,
      "X2": 0.2287,
-     "12": 0.8553,
-     "OVER25": 0.65,
-     "UNDER25": 0.35,
-     "BTTS_YES": 0.4871,
-     "BTTS_NO": 0.5129
+     "12": 0.8558,
+     "OVER25": 0.6548,
+     "UNDER25": 0.3452,
+     "BTTS_YES": 0.4919,
+     "BTTS_NO": 0.5081
     }
    },
    "pick": {
@@ -57,7 +57,7 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Qadisiya ou empate (1X)",
-     "model_prob": 0.916,
+     "model_prob": 0.9155,
      "trend_alignment": 1.0,
      "confidence": 83,
      "eligible": true,
@@ -67,9 +67,9 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.65,
+     "model_prob": 0.6548,
      "trend_alignment": 0.313,
-     "confidence": 30,
+     "confidence": 31,
      "eligible": true,
      "odd": 1.8
     },
@@ -77,7 +77,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.4871,
+     "model_prob": 0.4919,
      "trend_alignment": 0.313,
      "confidence": 11,
      "eligible": false,
@@ -87,9 +87,9 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.5129,
+     "model_prob": 0.5081,
      "trend_alignment": 0.0,
-     "confidence": 2,
+     "confidence": 1,
      "eligible": false,
      "odd": null
     }
