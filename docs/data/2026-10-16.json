@@ -1,10 +1,10 @@
 {
  "date": "2026-10-16",
- "generated_at": "2026-10-14T19:59:56.111778-03:00",
+ "generated_at": "2026-10-15T12:33:44.341134-03:00",
  "version": "0.1.0",
  "count": 4,
  "clear_count": 4,
- "day_total": 43,
+ "day_total": 42,
  "games": [
   {
    "id": 4789459,
@@ -25,29 +25,29 @@
    "away_score": -1.0,
    "model": {
     "lambda_home": 2.6,
-    "lambda_away": 0.76,
-    "expected_goals": 3.36,
+    "lambda_away": 0.75,
+    "expected_goals": 3.35,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.7687,
-     "DRAW": 0.1456,
-     "AWAY": 0.0857,
-     "1X": 0.9143,
-     "X2": 0.2313,
-     "12": 0.8544,
-     "OVER25": 0.6519,
-     "UNDER25": 0.3481,
-     "BTTS_YES": 0.4918,
-     "BTTS_NO": 0.5082
+     "HOME": 0.7713,
+     "DRAW": 0.1447,
+     "AWAY": 0.084,
+     "1X": 0.916,
+     "X2": 0.2287,
+     "12": 0.8553,
+     "OVER25": 0.65,
+     "UNDER25": 0.35,
+     "BTTS_YES": 0.4871,
+     "BTTS_NO": 0.5129
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Qadisiya",
-    "model_prob": 0.7687,
+    "model_prob": 0.7713,
     "trend_alignment": 1.0,
-    "confidence": 82,
+    "confidence": 83,
     "eligible": true,
     "odd": 1.13,
     "low_conviction": false
@@ -57,9 +57,9 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Qadisiya ou empate (1X)",
-     "model_prob": 0.9143,
+     "model_prob": 0.916,
      "trend_alignment": 1.0,
-     "confidence": 82,
+     "confidence": 83,
      "eligible": true,
      "odd": 1.02
     },
@@ -67,17 +67,17 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6519,
+     "model_prob": 0.65,
      "trend_alignment": 0.313,
-     "confidence": 31,
+     "confidence": 30,
      "eligible": true,
-     "odd": 1.84
+     "odd": 1.8
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.4918,
+     "model_prob": 0.4871,
      "trend_alignment": 0.313,
      "confidence": 11,
      "eligible": false,
@@ -87,9 +87,9 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.5082,
+     "model_prob": 0.5129,
      "trend_alignment": 0.0,
-     "confidence": 1,
+     "confidence": 2,
      "eligible": false,
      "odd": null
     }
@@ -224,7 +224,7 @@
      "kind": "table_gap"
     }
    ],
-   "confidence": 82,
+   "confidence": 83,
    "league": {
     "key": "saudi",
     "name": "Saudi Pro League",
