@@ -1,0 +1,1618 @@
+{
+ "date": "2026-10-18",
+ "generated_at": "2026-10-16T12:20:26.145258-03:00",
+ "version": "0.1.0",
+ "count": 5,
+ "clear_count": 5,
+ "day_total": 114,
+ "games": [
+  {
+   "id": 4766939,
+   "s365_competition_id": 81,
+   "competition_name": "1. Lig",
+   "start_time": "2026-10-18T10:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 72152,
+    "name": "Igdir Fk"
+   },
+   "away": {
+    "id": 988,
+    "name": "Boluspor"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.29,
+    "lambda_away": 0.6,
+    "expected_goals": 2.88,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.757,
+     "DRAW": 0.1626,
+     "AWAY": 0.0804,
+     "1X": 0.9196,
+     "X2": 0.243,
+     "12": 0.8374,
+     "OVER25": 0.5502,
+     "UNDER25": 0.4498,
+     "BTTS_YES": 0.4036,
+     "BTTS_NO": 0.5964
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Igdir Fk",
+    "model_prob": 0.757,
+    "trend_alignment": 1.0,
+    "confidence": 83,
+    "eligible": true,
+    "odd": 1.17,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Igdir Fk ou empate (1X)",
+     "model_prob": 0.9196,
+     "trend_alignment": 1.0,
+     "confidence": 83,
+     "eligible": true,
+     "odd": 1.04
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5502,
+     "trend_alignment": 0.227,
+     "confidence": 14,
+     "eligible": false,
+     "odd": 2.1
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5964,
+     "trend_alignment": 0.0,
+     "confidence": 13,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.4036,
+     "trend_alignment": 0.227,
+     "confidence": 8,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Invicto em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Igdir Fk",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Perdeu 4 dos últimos 6",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Boluspor",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Não marcou em 3 dos últimos 6",
+     "strength": 0.35,
+     "favors": "HOME",
+     "team": "Boluspor",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "no_score"
+    },
+    {
+     "label": "Só 2 derrota(s) em 10 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "HOME",
+     "team": "Igdir Fk",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Pior defesa da liga (2.3 sofridos/jogo)",
+     "strength": 0.34,
+     "favors": "OVER",
+     "team": "Boluspor",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_bottom"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Igdir Fk",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Igdir Fk é 3º · Boluspor é 20º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Igdir Fk está 17 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Invicto em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Igdir Fk",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Perdeu 4 dos últimos 6",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Boluspor",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Não marcou em 3 dos últimos 6",
+     "strength": 0.35,
+     "favors": "HOME",
+     "team": "Boluspor",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "no_score"
+    },
+    {
+     "label": "Só 2 derrota(s) em 10 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "HOME",
+     "team": "Igdir Fk",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Igdir Fk",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Igdir Fk está 17 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 83,
+   "league": {
+    "key": "turkey2",
+    "name": "1. Lig",
+    "country": "Turquia"
+   },
+   "home_team": {
+    "id": 72152,
+    "name": "Igdir Fk",
+    "position": 3,
+    "played": 10,
+    "points": 20.0,
+    "record": "6V 2E 2D",
+    "goals_for": 14,
+    "goals_against": 8,
+    "last5": "DWDWW",
+    "recent": [
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Keciorengucu",
+      "date": "2026-10-14"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Batman Petrolspor",
+      "date": "2026-10-10"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "Muglaspor",
+      "date": "2026-09-18"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Mardin 1969",
+      "date": "2026-09-13"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Istanbulspor AS",
+      "date": "2026-09-07"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 988,
+    "name": "Boluspor",
+    "position": 20,
+    "played": 9,
+    "points": 1.0,
+    "record": "0V 1E 8D",
+    "goals_for": 3,
+    "goals_against": 21,
+    "last5": "WLLDL",
+    "recent": [
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Ümraniyespor",
+      "date": "2026-10-14"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Antalyaspor",
+      "date": "2026-10-10"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Sariyer",
+      "date": "2026-09-19"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Pendikspor",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "L",
+      "score": "0-6",
+      "home": false,
+      "opponent": "Bandırmaspor",
+      "date": "2026-09-05"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-18T07:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4747954,
+   "s365_competition_id": 111,
+   "competition_name": "Bundesliga",
+   "start_time": "2026-10-18T12:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 1739,
+    "name": "Red Bull Salzburg"
+   },
+   "away": {
+    "id": 1745,
+    "name": "SCR Altach"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.42,
+    "lambda_away": 0.72,
+    "expected_goals": 3.15,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.7494,
+     "DRAW": 0.1587,
+     "AWAY": 0.092,
+     "1X": 0.908,
+     "X2": 0.2506,
+     "12": 0.8413,
+     "OVER25": 0.6085,
+     "UNDER25": 0.3915,
+     "BTTS_YES": 0.469,
+     "BTTS_NO": 0.531
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Red Bull Salzburg",
+    "model_prob": 0.7494,
+    "trend_alignment": 1.0,
+    "confidence": 82,
+    "eligible": true,
+    "odd": 1.41,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Red Bull Salzburg ou empate (1X)",
+     "model_prob": 0.908,
+     "trend_alignment": 1.0,
+     "confidence": 82,
+     "eligible": true,
+     "odd": 1.11
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6085,
+     "trend_alignment": 0.68,
+     "confidence": 38,
+     "eligible": true,
+     "odd": 2.19
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.469,
+     "trend_alignment": 0.68,
+     "confidence": 24,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.531,
+     "trend_alignment": 0.0,
+     "confidence": 4,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Venceu 3 dos últimos 4 em casa",
+     "strength": 0.625,
+     "favors": "HOME",
+     "team": "Red Bull Salzburg",
+     "side": "HOME",
+     "group": "casa_fora",
+     "kind": "wins"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 4 em casa",
+     "strength": 0.55,
+     "favors": "OVER",
+     "team": "Red Bull Salzburg",
+     "side": "HOME",
+     "group": "casa_fora",
+     "kind": "over"
+    },
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "HOME",
+     "team": "SCR Altach",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "SCR Altach",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Melhor defesa da liga (0.5 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Red Bull Salzburg",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "3º melhor ataque da liga (2.2 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Red Bull Salzburg",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Invicto em 5 dos últimos 6",
+     "strength": 0.492,
+     "favors": "HOME",
+     "team": "Red Bull Salzburg",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Red Bull Salzburg é 2º · SCR Altach é 11º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Red Bull Salzburg está 9 posições à frente",
+     "strength": 0.643,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Venceu 3 dos últimos 4 em casa",
+     "strength": 0.625,
+     "favors": "HOME",
+     "team": "Red Bull Salzburg",
+     "side": "HOME",
+     "group": "casa_fora",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "HOME",
+     "team": "SCR Altach",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Melhor defesa da liga (0.5 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Red Bull Salzburg",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "3º melhor ataque da liga (2.2 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Red Bull Salzburg",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Invicto em 5 dos últimos 6",
+     "strength": 0.492,
+     "favors": "HOME",
+     "team": "Red Bull Salzburg",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Red Bull Salzburg está 9 posições à frente",
+     "strength": 0.643,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 82,
+   "league": {
+    "key": "austria",
+    "name": "Bundesliga",
+    "country": "Áustria"
+   },
+   "home_team": {
+    "id": 1739,
+    "name": "Red Bull Salzburg",
+    "position": 2,
+    "played": 8,
+    "points": 18.0,
+    "record": "5V 3E 0D",
+    "goals_for": 18,
+    "goals_against": 4,
+    "last5": "LDWDW",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-4",
+      "home": true,
+      "opponent": "AC Milan",
+      "date": "2026-10-15"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Grazer AK",
+      "date": "2026-10-10"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "Sturm Graz",
+      "date": "2026-09-20"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Ried",
+      "date": "2026-09-11"
+     },
+     {
+      "result": "W",
+      "score": "5-1",
+      "home": true,
+      "opponent": "Rapid Vienna",
+      "date": "2026-09-02"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 1745,
+    "name": "SCR Altach",
+    "position": 11,
+    "played": 8,
+    "points": 6.0,
+    "record": "2V 0E 6D",
+    "goals_for": 8,
+    "goals_against": 12,
+    "last5": "WLLLL",
+    "recent": [
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "Wolfsberger AC",
+      "date": "2026-10-11"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Austria Lustenau",
+      "date": "2026-09-19"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Grazer AK",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": false,
+      "opponent": "LASK Linz",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "TSV Hartberg",
+      "date": "2026-08-22"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-18T09:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4760803,
+   "s365_competition_id": 583,
+   "competition_name": "Liga 1 - Clausura",
+   "start_time": "2026-10-18T16:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 8420,
+    "name": "Sporting Cristal"
+   },
+   "away": {
+    "id": 20210,
+    "name": "Comerciantes Unidos"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.37,
+    "lambda_away": 0.89,
+    "expected_goals": 3.26,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.7025,
+     "DRAW": 0.1737,
+     "AWAY": 0.1237,
+     "1X": 0.8763,
+     "X2": 0.2975,
+     "12": 0.8263,
+     "OVER25": 0.6314,
+     "UNDER25": 0.3686,
+     "BTTS_YES": 0.5335,
+     "BTTS_NO": 0.4665
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Sporting Cristal",
+    "model_prob": 0.7025,
+    "trend_alignment": 1.0,
+    "confidence": 77,
+    "eligible": true,
+    "odd": 1.27,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Sporting Cristal ou empate (1X)",
+     "model_prob": 0.8763,
+     "trend_alignment": 1.0,
+     "confidence": 77,
+     "eligible": true,
+     "odd": 1.06
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6314,
+     "trend_alignment": 0.287,
+     "confidence": 27,
+     "eligible": true,
+     "odd": 2.18
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5335,
+     "trend_alignment": 0.287,
+     "confidence": 14,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Comerciantes Unidos",
+     "model_prob": 0.1237,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 10.0
+    }
+   ],
+   "trends": [
+    {
+     "label": "4 vitórias seguidas",
+     "strength": 0.75,
+     "favors": "HOME",
+     "team": "Sporting Cristal",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "HOME",
+     "team": "Sporting Cristal",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Comerciantes Unidos",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Ambos marcaram em 4 dos últimos 5",
+     "strength": 0.43,
+     "favors": "BTTS_YES",
+     "team": "Comerciantes Unidos",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "btts"
+    },
+    {
+     "label": "2ª melhor defesa da liga (0.9 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "HOME",
+     "team": "Sporting Cristal",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "2º melhor ataque da liga (1.9 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Sporting Cristal",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Comerciantes Unidos",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Sporting Cristal é 1º · Comerciantes Unidos é 14º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Sporting Cristal está 13 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "4 vitórias seguidas",
+     "strength": 0.75,
+     "favors": "HOME",
+     "team": "Sporting Cristal",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "HOME",
+     "team": "Sporting Cristal",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Comerciantes Unidos",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "2ª melhor defesa da liga (0.9 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "HOME",
+     "team": "Sporting Cristal",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "2º melhor ataque da liga (1.9 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Sporting Cristal",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Comerciantes Unidos",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Sporting Cristal está 13 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 77,
+   "league": {
+    "key": "pe_liga1",
+    "name": "Liga 1",
+    "country": "Peru"
+   },
+   "home_team": {
+    "id": 8420,
+    "name": "Sporting Cristal",
+    "position": 1,
+    "played": 11,
+    "points": 22.0,
+    "record": "7V 1E 3D",
+    "goals_for": 21,
+    "goals_against": 10,
+    "last5": "WWWWL",
+    "recent": [
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "UTC",
+      "date": "2026-10-11"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": true,
+      "opponent": "Grau",
+      "date": "2026-09-19"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Deportivo Moquegua",
+      "date": "2026-09-13"
+     },
+     {
+      "result": "W",
+      "score": "5-0",
+      "home": true,
+      "opponent": "Los Chankas",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Sport Boys",
+      "date": "2026-08-30"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 20210,
+    "name": "Comerciantes Unidos",
+    "position": 14,
+    "played": 11,
+    "points": 10.0,
+    "record": "2V 4E 5D",
+    "goals_for": 18,
+    "goals_against": 19,
+    "last5": "DLLDL",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Juan Pablo II College",
+      "date": "2026-10-10"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Alianza Atletico",
+      "date": "2026-09-18"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Sport Huancayo",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "Universitario",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": true,
+      "opponent": "FC Cajamarca",
+      "date": "2026-08-28"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-18T13:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4735657,
+   "s365_competition_id": 141,
+   "competition_name": "Liga MX - Apertura",
+   "start_time": "2026-10-18T03:10:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 1261,
+    "name": "Cruz Azul"
+   },
+   "away": {
+    "id": 25149,
+    "name": "FC Juarez"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.51,
+    "lambda_away": 1.12,
+    "expected_goals": 3.63,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.6747,
+     "DRAW": 0.1735,
+     "AWAY": 0.1518,
+     "1X": 0.8482,
+     "X2": 0.3253,
+     "12": 0.8265,
+     "OVER25": 0.7029,
+     "UNDER25": 0.2971,
+     "BTTS_YES": 0.6202,
+     "BTTS_NO": 0.3798
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Cruz Azul",
+    "model_prob": 0.6747,
+    "trend_alignment": 1.0,
+    "confidence": 73,
+    "eligible": true,
+    "odd": 1.33,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Cruz Azul ou empate (1X)",
+     "model_prob": 0.8482,
+     "trend_alignment": 1.0,
+     "confidence": 73,
+     "eligible": true,
+     "odd": 1.07
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.7029,
+     "trend_alignment": 0.453,
+     "confidence": 42,
+     "eligible": true,
+     "odd": 2.23
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.6202,
+     "trend_alignment": 0.453,
+     "confidence": 31,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do FC Juarez",
+     "model_prob": 0.1518,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 9.0
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "FC Juarez",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Cruz Azul",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Pior defesa da liga (1.9 sofridos/jogo)",
+     "strength": 0.34,
+     "favors": "OVER",
+     "team": "Cruz Azul",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_bottom"
+    },
+    {
+     "label": "3º melhor ataque da liga (2.0 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Cruz Azul",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Pior defesa da liga (2.4 sofridos/jogo)",
+     "strength": 0.34,
+     "favors": "OVER",
+     "team": "FC Juarez",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_bottom"
+    },
+    {
+     "label": "Cruz Azul é 7º · FC Juarez é 18º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Cruz Azul está 11 posições à frente",
+     "strength": 0.786,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "FC Juarez",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Cruz Azul",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "3º melhor ataque da liga (2.0 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Cruz Azul",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Cruz Azul está 11 posições à frente",
+     "strength": 0.786,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 73,
+   "league": {
+    "key": "mx_ligamx",
+    "name": "Liga MX",
+    "country": "México"
+   },
+   "home_team": {
+    "id": 1261,
+    "name": "Cruz Azul",
+    "position": 7,
+    "played": 11,
+    "points": 17.0,
+    "record": "5V 2E 4D",
+    "goals_for": 22,
+    "goals_against": 21,
+    "last5": "DDLWW",
+    "recent": [
+     {
+      "result": "D",
+      "score": "3-3",
+      "home": false,
+      "opponent": "Pumas UNAM",
+      "date": "2026-10-12"
+     },
+     {
+      "result": "D",
+      "score": "3-3",
+      "home": true,
+      "opponent": "Toluca",
+      "date": "2026-09-26"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Monterrey",
+      "date": "2026-09-20"
+     },
+     {
+      "result": "W",
+      "score": "4-3",
+      "home": true,
+      "opponent": "Club América",
+      "date": "2026-09-13"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Santos Laguna",
+      "date": "2026-09-06"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 25149,
+    "name": "FC Juarez",
+    "position": 18,
+    "played": 11,
+    "points": 4.0,
+    "record": "1V 1E 9D",
+    "goals_for": 8,
+    "goals_against": 26,
+    "last5": "DLWLL",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Club Tijuana",
+      "date": "2026-10-10"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Leon",
+      "date": "2026-09-28"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Tigres UANL",
+      "date": "2026-09-19"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Santos Laguna",
+      "date": "2026-09-14"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": true,
+      "opponent": "Pachuca",
+      "date": "2026-09-05"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-18T00:10:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4851241,
+   "s365_competition_id": 549,
+   "competition_name": "UAE Pro League",
+   "start_time": "2026-10-18T13:05:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 8355,
+    "name": "Kalba"
+   },
+   "away": {
+    "id": 8344,
+    "name": "Jazira Abu Dhabi"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.06,
+    "lambda_away": 2.15,
+    "expected_goals": 3.21,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.1768,
+     "DRAW": 0.1997,
+     "AWAY": 0.6234,
+     "1X": 0.3766,
+     "X2": 0.8232,
+     "12": 0.8003,
+     "OVER25": 0.6228,
+     "UNDER25": 0.3772,
+     "BTTS_YES": 0.5775,
+     "BTTS_NO": 0.4225
+    }
+   },
+   "pick": {
+    "selection": "AWAY",
+    "family": "1x2",
+    "label": "Vitória do Jazira Abu Dhabi",
+    "model_prob": 0.6234,
+    "trend_alignment": 1.0,
+    "confidence": 70,
+    "eligible": true,
+    "odd": 1.52,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "X2",
+     "family": "double_chance",
+     "label": "Dupla chance: Jazira Abu Dhabi ou empate (X2)",
+     "model_prob": 0.8232,
+     "trend_alignment": 1.0,
+     "confidence": 70,
+     "eligible": true,
+     "odd": 1.18
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6228,
+     "trend_alignment": 0.079,
+     "confidence": 19,
+     "eligible": true,
+     "odd": 1.57
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5775,
+     "trend_alignment": 0.079,
+     "confidence": 13,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Kalba",
+     "model_prob": 0.1768,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 4.8
+    }
+   ],
+   "trends": [
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "AWAY",
+     "team": "Jazira Abu Dhabi",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Não sofreu gol em 3 dos últimos 5",
+     "strength": 0.39,
+     "favors": "UNDER",
+     "team": "Jazira Abu Dhabi",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "clean_sheets"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Kalba",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "Kalba",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Jazira Abu Dhabi",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Kalba é 12º · Jazira Abu Dhabi é 1º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Jazira Abu Dhabi está 11 posições à frente",
+     "strength": 0.786,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "AWAY",
+     "team": "Jazira Abu Dhabi",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Kalba",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Jazira Abu Dhabi",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Jazira Abu Dhabi está 11 posições à frente",
+     "strength": 0.786,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 70,
+   "league": {
+    "key": "uae",
+    "name": "UAE Pro League",
+    "country": "Emirados Árabes"
+   },
+   "home_team": {
+    "id": 8355,
+    "name": "Kalba",
+    "position": 12,
+    "played": 5,
+    "points": 4.0,
+    "record": "1V 1E 3D",
+    "goals_for": 6,
+    "goals_against": 13,
+    "last5": "WLLLD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": false,
+      "opponent": "Ajman Club",
+      "date": "2026-09-11"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": true,
+      "opponent": "Al Ain",
+      "date": "2026-09-04"
+     },
+     {
+      "result": "L",
+      "score": "1-4",
+      "home": false,
+      "opponent": "Dubai United",
+      "date": "2026-08-28"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": true,
+      "opponent": "Al Wasl",
+      "date": "2026-08-21"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "Al Nasr Dubai",
+      "date": "2026-08-14"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 8344,
+    "name": "Jazira Abu Dhabi",
+    "position": 1,
+    "played": 5,
+    "points": 13.0,
+    "record": "4V 1E 0D",
+    "goals_for": 11,
+    "goals_against": 2,
+    "last5": "DWWWW",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Al Nasr Dubai",
+      "date": "2026-09-10"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": false,
+      "opponent": "Shabab Al Ahly",
+      "date": "2026-09-05"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "Ajman Club",
+      "date": "2026-08-29"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "Sharjah SC",
+      "date": "2026-08-23"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "Hatta Club",
+      "date": "2026-08-16"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-18T10:05:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  }
+ ]
+}

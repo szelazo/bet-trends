@@ -1,6 +1,6 @@
 {
  "date": "2026-10-16",
- "generated_at": "2026-10-15T19:54:59.889306-03:00",
+ "generated_at": "2026-10-16T12:20:23.638705-03:00",
  "version": "0.1.0",
  "count": 4,
  "clear_count": 4,
@@ -21,8 +21,8 @@
     "id": 14898,
     "name": "Abha Club"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 2.62,
     "lambda_away": 0.76,
@@ -330,7 +330,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -352,31 +352,31 @@
    "away_score": -1.0,
    "model": {
     "lambda_home": 1.1,
-    "lambda_away": 2.19,
-    "expected_goals": 3.29,
+    "lambda_away": 2.17,
+    "expected_goals": 3.26,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.182,
-     "DRAW": 0.1985,
-     "AWAY": 0.6195,
-     "1X": 0.3805,
-     "X2": 0.818,
-     "12": 0.8015,
-     "OVER25": 0.6381,
-     "UNDER25": 0.3619,
-     "BTTS_YES": 0.593,
-     "BTTS_NO": 0.407
+     "HOME": 0.1832,
+     "DRAW": 0.1999,
+     "AWAY": 0.6169,
+     "1X": 0.3831,
+     "X2": 0.8168,
+     "12": 0.8001,
+     "OVER25": 0.633,
+     "UNDER25": 0.367,
+     "BTTS_YES": 0.5899,
+     "BTTS_NO": 0.4101
     }
    },
    "pick": {
     "selection": "AWAY",
     "family": "1x2",
     "label": "Vitória do Al Wasl",
-    "model_prob": 0.6195,
+    "model_prob": 0.6169,
     "trend_alignment": 1.0,
     "confidence": 69,
     "eligible": true,
-    "odd": 1.46,
+    "odd": 1.43,
     "low_conviction": false
    },
    "alt_markets": [
@@ -384,7 +384,7 @@
      "selection": "X2",
      "family": "double_chance",
      "label": "Dupla chance: Al Wasl ou empate (X2)",
-     "model_prob": 0.818,
+     "model_prob": 0.8168,
      "trend_alignment": 1.0,
      "confidence": 69,
      "eligible": true,
@@ -394,17 +394,17 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6381,
+     "model_prob": 0.633,
      "trend_alignment": 0.313,
-     "confidence": 29,
+     "confidence": 28,
      "eligible": true,
-     "odd": 2.09
+     "odd": 1.99
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.593,
+     "model_prob": 0.5899,
      "trend_alignment": 0.313,
      "confidence": 23,
      "eligible": false,
@@ -414,7 +414,7 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Baniyas",
-     "model_prob": 0.182,
+     "model_prob": 0.1832,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
@@ -667,7 +667,7 @@
     "trend_alignment": 1.0,
     "confidence": 62,
     "eligible": true,
-    "odd": 1.44,
+    "odd": 1.51,
     "low_conviction": false
    },
    "alt_markets": [
@@ -679,7 +679,7 @@
      "trend_alignment": 1.0,
      "confidence": 54,
      "eligible": true,
-     "odd": 2.22
+     "odd": 2.37
     },
     {
      "selection": "OVER25",
@@ -689,7 +689,7 @@
      "trend_alignment": 0.085,
      "confidence": 10,
      "eligible": false,
-     "odd": 2.02
+     "odd": 1.85
     },
     {
      "selection": "BTTS_YES",
@@ -709,7 +709,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 2.82
+     "odd": 2.57
     }
    ],
    "trends": [
@@ -985,7 +985,7 @@
     "trend_alignment": 1.0,
     "confidence": 47,
     "eligible": true,
-    "odd": 1.64,
+    "odd": 1.6,
     "low_conviction": false
    },
    "alt_markets": [
@@ -997,7 +997,7 @@
      "trend_alignment": 1.0,
      "confidence": 41,
      "eligible": false,
-     "odd": 2.9
+     "odd": 2.8
     },
     {
      "selection": "1X",
@@ -1007,7 +1007,7 @@
      "trend_alignment": 0.0,
      "confidence": 7,
      "eligible": false,
-     "odd": 1.4
+     "odd": 1.43
     },
     {
      "selection": "BTTS_YES",

@@ -1,10 +1,10 @@
 {
  "date": "2026-10-17",
- "generated_at": "2026-10-15T19:55:01.134411-03:00",
+ "generated_at": "2026-10-16T12:20:24.868601-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
- "day_total": 114,
+ "day_total": 113,
  "games": [
   {
    "id": 4732673,
@@ -49,7 +49,7 @@
     "trend_alignment": 1.0,
     "confidence": 80,
     "eligible": true,
-    "odd": 1.46,
+    "odd": 1.55,
     "low_conviction": false
    },
    "alt_markets": [
@@ -61,7 +61,7 @@
      "trend_alignment": 1.0,
      "confidence": 80,
      "eligible": true,
-     "odd": 1.11
+     "odd": 1.13
     },
     {
      "selection": "OVER25",
@@ -71,7 +71,7 @@
      "trend_alignment": 0.287,
      "confidence": 18,
      "eligible": false,
-     "odd": 1.73
+     "odd": 1.81
     },
     {
      "selection": "BTTS_YES",
@@ -922,7 +922,7 @@
     "trend_alignment": 1.0,
     "confidence": 74,
     "eligible": true,
-    "odd": 1.56,
+    "odd": 1.59,
     "low_conviction": false
    },
    "alt_markets": [
@@ -934,7 +934,7 @@
      "trend_alignment": 1.0,
      "confidence": 74,
      "eligible": true,
-     "odd": 1.16
+     "odd": 1.17
     },
     {
      "selection": "OVER25",
@@ -964,7 +964,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 5.48
+     "odd": 5.23
     }
    ],
    "trends": [
@@ -1188,26 +1188,26 @@
     }
    },
    "pick": {
-    "selection": "1X",
-    "family": "double_chance",
-    "label": "Dupla chance: Sekhukhune United ou empate (1X)",
-    "model_prob": 0.8545,
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Sekhukhune United",
+    "model_prob": 0.6231,
     "trend_alignment": 1.0,
     "confidence": 74,
     "eligible": true,
-    "odd": null,
+    "odd": 1.72,
     "low_conviction": false
    },
    "alt_markets": [
     {
-     "selection": "HOME",
-     "family": "1x2",
-     "label": "Vitória do Sekhukhune United",
-     "model_prob": 0.6231,
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Sekhukhune United ou empate (1X)",
+     "model_prob": 0.8545,
      "trend_alignment": 1.0,
-     "confidence": 63,
+     "confidence": 74,
      "eligible": true,
-     "odd": null
+     "odd": 1.2
     },
     {
      "selection": "BTTS_NO",
@@ -1217,7 +1217,7 @@
      "trend_alignment": 0.073,
      "confidence": 14,
      "eligible": false,
-     "odd": null
+     "odd": 1.54
     },
     {
      "selection": "UNDER25",
@@ -1227,7 +1227,7 @@
      "trend_alignment": 0.073,
      "confidence": 11,
      "eligible": false,
-     "odd": null
+     "odd": 1.54
     },
     {
      "selection": "AWAY",
@@ -1237,7 +1237,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": null
+     "odd": 4.5
     }
    ],
    "trends": [
@@ -1446,8 +1446,8 @@
     ]
    },
    "kickoff_local": "2026-10-17T13:00:00-03:00",
-   "has_odds": false,
-   "odds_bookmaker": null,
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
    "is_cup": false,
    "result": "pending",
    "clear": true
