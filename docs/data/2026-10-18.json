@@ -1,6 +1,6 @@
 {
  "date": "2026-10-18",
- "generated_at": "2026-10-16T12:20:26.145258-03:00",
+ "generated_at": "2026-10-16T19:35:13.334974-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -353,30 +353,30 @@
    "model": {
     "lambda_home": 2.42,
     "lambda_away": 0.72,
-    "expected_goals": 3.15,
+    "expected_goals": 3.14,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.7494,
-     "DRAW": 0.1587,
-     "AWAY": 0.092,
-     "1X": 0.908,
-     "X2": 0.2506,
-     "12": 0.8413,
-     "OVER25": 0.6085,
-     "UNDER25": 0.3915,
-     "BTTS_YES": 0.469,
-     "BTTS_NO": 0.531
+     "HOME": 0.748,
+     "DRAW": 0.1593,
+     "AWAY": 0.0927,
+     "1X": 0.9073,
+     "X2": 0.252,
+     "12": 0.8407,
+     "OVER25": 0.6076,
+     "UNDER25": 0.3924,
+     "BTTS_YES": 0.4696,
+     "BTTS_NO": 0.5304
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Red Bull Salzburg",
-    "model_prob": 0.7494,
+    "model_prob": 0.748,
     "trend_alignment": 1.0,
-    "confidence": 82,
+    "confidence": 81,
     "eligible": true,
-    "odd": 1.41,
+    "odd": 1.38,
     "low_conviction": false
    },
    "alt_markets": [
@@ -384,9 +384,9 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Red Bull Salzburg ou empate (1X)",
-     "model_prob": 0.908,
+     "model_prob": 0.9073,
      "trend_alignment": 1.0,
-     "confidence": 82,
+     "confidence": 81,
      "eligible": true,
      "odd": 1.11
     },
@@ -394,7 +394,7 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6085,
+     "model_prob": 0.6076,
      "trend_alignment": 0.68,
      "confidence": 38,
      "eligible": true,
@@ -404,7 +404,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.469,
+     "model_prob": 0.4696,
      "trend_alignment": 0.68,
      "confidence": 24,
      "eligible": false,
@@ -414,7 +414,7 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.531,
+     "model_prob": 0.5304,
      "trend_alignment": 0.0,
      "confidence": 4,
      "eligible": false,
@@ -560,7 +560,7 @@
      "kind": "table_gap"
     }
    ],
-   "confidence": 82,
+   "confidence": 81,
    "league": {
     "key": "austria",
     "name": "Bundesliga",
@@ -692,12 +692,12 @@
     "expected_goals": 3.26,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.7025,
-     "DRAW": 0.1737,
-     "AWAY": 0.1237,
-     "1X": 0.8763,
-     "X2": 0.2975,
-     "12": 0.8263,
+     "HOME": 0.7024,
+     "DRAW": 0.1738,
+     "AWAY": 0.1238,
+     "1X": 0.8762,
+     "X2": 0.2976,
+     "12": 0.8262,
      "OVER25": 0.6314,
      "UNDER25": 0.3686,
      "BTTS_YES": 0.5335,
@@ -708,7 +708,7 @@
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Sporting Cristal",
-    "model_prob": 0.7025,
+    "model_prob": 0.7024,
     "trend_alignment": 1.0,
     "confidence": 77,
     "eligible": true,
@@ -720,7 +720,7 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Sporting Cristal ou empate (1X)",
-     "model_prob": 0.8763,
+     "model_prob": 0.8762,
      "trend_alignment": 1.0,
      "confidence": 77,
      "eligible": true,
@@ -750,7 +750,7 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Comerciantes Unidos",
-     "model_prob": 0.1237,
+     "model_prob": 0.1238,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
@@ -822,7 +822,7 @@
      "kind": "winless_streak"
     },
     {
-     "label": "Sporting Cristal é 1º · Comerciantes Unidos é 14º",
+     "label": "Sporting Cristal é 2º · Comerciantes Unidos é 15º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -914,7 +914,7 @@
    "home_team": {
     "id": 8420,
     "name": "Sporting Cristal",
-    "position": 1,
+    "position": 2,
     "played": 11,
     "points": 22.0,
     "record": "7V 1E 3D",
@@ -962,7 +962,7 @@
    "away_team": {
     "id": 20210,
     "name": "Comerciantes Unidos",
-    "position": 14,
+    "position": 15,
     "played": 11,
     "points": 10.0,
     "record": "2V 4E 5D",
@@ -1315,117 +1315,99 @@
    "clear": true
   },
   {
-   "id": 4851241,
-   "s365_competition_id": 549,
-   "competition_name": "UAE Pro League",
-   "start_time": "2026-10-18T13:05:00+00:00",
+   "id": 4743877,
+   "s365_competition_id": 117,
+   "competition_name": "Chance Liga",
+   "start_time": "2026-10-18T13:00:00+00:00",
    "status_group": 2,
    "round": "Round",
    "home": {
-    "id": 8355,
-    "name": "Kalba"
+    "id": 1790,
+    "name": "Banik Ostrava"
    },
    "away": {
-    "id": 8344,
-    "name": "Jazira Abu Dhabi"
+    "id": 1788,
+    "name": "Sparta Praha"
    },
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 1.06,
-    "lambda_away": 2.15,
-    "expected_goals": 3.21,
+    "lambda_home": 0.94,
+    "lambda_away": 1.94,
+    "expected_goals": 2.89,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.1768,
-     "DRAW": 0.1997,
-     "AWAY": 0.6234,
-     "1X": 0.3766,
-     "X2": 0.8232,
-     "12": 0.8003,
-     "OVER25": 0.6228,
-     "UNDER25": 0.3772,
-     "BTTS_YES": 0.5775,
-     "BTTS_NO": 0.4225
+     "HOME": 0.1773,
+     "DRAW": 0.2155,
+     "AWAY": 0.6072,
+     "1X": 0.3928,
+     "X2": 0.8227,
+     "12": 0.7845,
+     "OVER25": 0.5512,
+     "UNDER25": 0.4488,
+     "BTTS_YES": 0.5234,
+     "BTTS_NO": 0.4766
     }
    },
    "pick": {
     "selection": "AWAY",
     "family": "1x2",
-    "label": "Vitória do Jazira Abu Dhabi",
-    "model_prob": 0.6234,
+    "label": "Vitória do Sparta Praha",
+    "model_prob": 0.6072,
     "trend_alignment": 1.0,
     "confidence": 70,
     "eligible": true,
-    "odd": 1.52,
+    "odd": 1.71,
     "low_conviction": false
    },
    "alt_markets": [
     {
      "selection": "X2",
      "family": "double_chance",
-     "label": "Dupla chance: Jazira Abu Dhabi ou empate (X2)",
-     "model_prob": 0.8232,
+     "label": "Dupla chance: Sparta Praha ou empate (X2)",
+     "model_prob": 0.8227,
      "trend_alignment": 1.0,
      "confidence": 70,
      "eligible": true,
-     "odd": 1.18
+     "odd": 1.24
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6228,
-     "trend_alignment": 0.079,
-     "confidence": 19,
-     "eligible": true,
-     "odd": 1.57
+     "model_prob": 0.5512,
+     "trend_alignment": 0.54,
+     "confidence": 26,
+     "eligible": false,
+     "odd": 1.61
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5775,
-     "trend_alignment": 0.079,
-     "confidence": 13,
+     "model_prob": 0.5234,
+     "trend_alignment": 0.54,
+     "confidence": 22,
      "eligible": false,
      "odd": null
     },
     {
      "selection": "HOME",
      "family": "1x2",
-     "label": "Vitória do Kalba",
-     "model_prob": 0.1768,
+     "label": "Vitória do Banik Ostrava",
+     "model_prob": 0.1773,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 4.8
+     "odd": 4.02
     }
    ],
    "trends": [
     {
-     "label": "Venceu 4 dos últimos 5",
-     "strength": 0.65,
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
      "favors": "AWAY",
-     "team": "Jazira Abu Dhabi",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "Não sofreu gol em 3 dos últimos 5",
-     "strength": 0.39,
-     "favors": "UNDER",
-     "team": "Jazira Abu Dhabi",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "clean_sheets"
-    },
-    {
-     "label": "Perdeu 3 dos últimos 5",
-     "strength": 0.52,
-     "favors": "AWAY",
-     "team": "Kalba",
+     "team": "Banik Ostrava",
      "side": "HOME",
      "group": "geral",
      "kind": "losses"
@@ -1434,22 +1416,40 @@
      "label": "Mais de 2.5 gols em 4 dos últimos 5",
      "strength": 0.47,
      "favors": "OVER",
-     "team": "Kalba",
+     "team": "Banik Ostrava",
      "side": "HOME",
      "group": "geral",
      "kind": "over"
     },
     {
-     "label": "Invicto há 5+ jogos",
-     "strength": 0.333,
-     "favors": "AWAY",
-     "team": "Jazira Abu Dhabi",
-     "side": "AWAY",
-     "group": "sequencia",
-     "kind": "unbeaten_streak"
+     "label": "Pior defesa da liga (1.8 sofridos/jogo)",
+     "strength": 0.34,
+     "favors": "OVER",
+     "team": "Banik Ostrava",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_bottom"
     },
     {
-     "label": "Kalba é 12º · Jazira Abu Dhabi é 1º",
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Banik Ostrava",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "2º melhor ataque da liga (2.0 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "AWAY",
+     "team": "Sparta Praha",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Banik Ostrava é 12º · Sparta Praha é 3º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -1458,8 +1458,8 @@
      "kind": "positions"
     },
     {
-     "label": "Jazira Abu Dhabi está 11 posições à frente",
-     "strength": 0.786,
+     "label": "Sparta Praha está 9 posições à frente",
+     "strength": 0.643,
      "favors": "AWAY",
      "team": null,
      "side": null,
@@ -1469,35 +1469,35 @@
    ],
    "aligned_trends": [
     {
-     "label": "Venceu 4 dos últimos 5",
-     "strength": 0.65,
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
      "favors": "AWAY",
-     "team": "Jazira Abu Dhabi",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "Perdeu 3 dos últimos 5",
-     "strength": 0.52,
-     "favors": "AWAY",
-     "team": "Kalba",
+     "team": "Banik Ostrava",
      "side": "HOME",
      "group": "geral",
      "kind": "losses"
     },
     {
-     "label": "Invicto há 5+ jogos",
+     "label": "Não vence há 5+ jogos",
      "strength": 0.333,
      "favors": "AWAY",
-     "team": "Jazira Abu Dhabi",
-     "side": "AWAY",
+     "team": "Banik Ostrava",
+     "side": "HOME",
      "group": "sequencia",
-     "kind": "unbeaten_streak"
+     "kind": "winless_streak"
     },
     {
-     "label": "Jazira Abu Dhabi está 11 posições à frente",
-     "strength": 0.786,
+     "label": "2º melhor ataque da liga (2.0 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "AWAY",
+     "team": "Sparta Praha",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Sparta Praha está 9 posições à frente",
+     "strength": 0.643,
      "favors": "AWAY",
      "team": null,
      "side": null,
@@ -1507,107 +1507,107 @@
    ],
    "confidence": 70,
    "league": {
-    "key": "uae",
-    "name": "UAE Pro League",
-    "country": "Emirados Árabes"
+    "key": "czech",
+    "name": "Chance Liga",
+    "country": "Chéquia"
    },
    "home_team": {
-    "id": 8355,
-    "name": "Kalba",
+    "id": 1790,
+    "name": "Banik Ostrava",
     "position": 12,
-    "played": 5,
-    "points": 4.0,
-    "record": "1V 1E 3D",
-    "goals_for": 6,
-    "goals_against": 13,
-    "last5": "WLLLD",
+    "played": 10,
+    "points": 10.0,
+    "record": "3V 1E 6D",
+    "goals_for": 7,
+    "goals_against": 18,
+    "last5": "LDLLL",
     "recent": [
      {
-      "result": "W",
-      "score": "3-2",
+      "result": "L",
+      "score": "0-1",
       "home": false,
-      "opponent": "Ajman Club",
-      "date": "2026-09-11"
-     },
-     {
-      "result": "L",
-      "score": "0-2",
-      "home": true,
-      "opponent": "Al Ain",
-      "date": "2026-09-04"
-     },
-     {
-      "result": "L",
-      "score": "1-4",
-      "home": false,
-      "opponent": "Dubai United",
-      "date": "2026-08-28"
-     },
-     {
-      "result": "L",
-      "score": "0-3",
-      "home": true,
-      "opponent": "Al Wasl",
-      "date": "2026-08-21"
+      "opponent": "Bohemians Praha",
+      "date": "2026-10-10"
      },
      {
       "result": "D",
       "score": "2-2",
       "home": false,
-      "opponent": "Al Nasr Dubai",
-      "date": "2026-08-14"
+      "opponent": "Slovacko",
+      "date": "2026-09-19"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Pardubice",
+      "date": "2026-09-13"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": false,
+      "opponent": "FK Jablonec",
+      "date": "2026-09-09"
+     },
+     {
+      "result": "L",
+      "score": "0-4",
+      "home": false,
+      "opponent": "Mlada Boleslav",
+      "date": "2026-09-06"
      }
     ]
    },
    "away_team": {
-    "id": 8344,
-    "name": "Jazira Abu Dhabi",
-    "position": 1,
-    "played": 5,
-    "points": 13.0,
-    "record": "4V 1E 0D",
-    "goals_for": 11,
-    "goals_against": 2,
-    "last5": "DWWWW",
+    "id": 1788,
+    "name": "Sparta Praha",
+    "position": 3,
+    "played": 10,
+    "points": 18.0,
+    "record": "6V 0E 4D",
+    "goals_for": 20,
+    "goals_against": 12,
+    "last5": "DWWWL",
     "recent": [
      {
       "result": "D",
       "score": "1-1",
       "home": true,
-      "opponent": "Al Nasr Dubai",
-      "date": "2026-09-10"
+      "opponent": "Lillestrom",
+      "date": "2026-10-15"
      },
      {
       "result": "W",
-      "score": "3-1",
-      "home": false,
-      "opponent": "Shabab Al Ahly",
-      "date": "2026-09-05"
+      "score": "2-0",
+      "home": true,
+      "opponent": "Pardubice",
+      "date": "2026-10-11"
      },
      {
       "result": "W",
       "score": "3-0",
+      "home": false,
+      "opponent": "Sigma Olomouc",
+      "date": "2026-09-20"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
       "home": true,
-      "opponent": "Ajman Club",
-      "date": "2026-08-29"
+      "opponent": "FK Jablonec",
+      "date": "2026-09-12"
      },
      {
-      "result": "W",
-      "score": "2-0",
+      "result": "L",
+      "score": "1-2",
       "home": false,
-      "opponent": "Sharjah SC",
-      "date": "2026-08-23"
-     },
-     {
-      "result": "W",
-      "score": "2-0",
-      "home": false,
-      "opponent": "Hatta Club",
-      "date": "2026-08-16"
+      "opponent": "Hradec Kralove",
+      "date": "2026-09-06"
      }
     ]
    },
-   "kickoff_local": "2026-10-18T10:05:00-03:00",
+   "kickoff_local": "2026-10-18T10:00:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
