@@ -1,10 +1,10 @@
 {
  "date": "2026-10-17",
- "generated_at": "2026-10-16T19:35:12.075552-03:00",
+ "generated_at": "2026-10-17T18:59:26.229584-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
- "day_total": 110,
+ "day_total": 134,
  "games": [
   {
    "id": 4732673,
@@ -21,8 +21,8 @@
     "id": 231,
     "name": "Genoa"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 0.0,
    "model": {
     "lambda_home": 2.22,
     "lambda_away": 0.7,
@@ -276,7 +276,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -294,8 +294,8 @@
     "id": 261,
     "name": "Vicenza"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 2.0,
    "model": {
     "lambda_home": 2.09,
     "lambda_away": 0.69,
@@ -594,7 +594,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -612,8 +612,8 @@
     "id": 170,
     "name": "Albacete"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 2.12,
     "lambda_away": 0.72,
@@ -876,7 +876,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -894,8 +894,8 @@
     "id": 341,
     "name": "Borussia Dortmund"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 0.0,
+   "away_score": 0.0,
    "model": {
     "lambda_home": 1.05,
     "lambda_away": 2.45,
@@ -1149,7 +1149,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "miss",
    "clear": true
   },
   {
@@ -1167,8 +1167,8 @@
     "id": 51137,
     "name": "Marumo Gallants"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 1.73,
     "lambda_away": 0.69,
@@ -1449,7 +1449,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   }
  ]

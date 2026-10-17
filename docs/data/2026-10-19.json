@@ -1,0 +1,1501 @@
+{
+ "date": "2026-10-19",
+ "generated_at": "2026-10-17T18:59:28.732950-03:00",
+ "version": "0.1.0",
+ "count": 5,
+ "clear_count": 5,
+ "day_total": 32,
+ "games": [
+  {
+   "id": 4748417,
+   "s365_competition_id": 136,
+   "competition_name": "Liga 1",
+   "start_time": "2026-10-19T15:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 2057,
+    "name": "Universitatea Cluj"
+   },
+   "away": {
+    "id": 2060,
+    "name": "FC Arges Pitesti"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.87,
+    "lambda_away": 0.98,
+    "expected_goals": 2.85,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.5825,
+     "DRAW": 0.2236,
+     "AWAY": 0.1938,
+     "1X": 0.8062,
+     "X2": 0.4175,
+     "12": 0.7764,
+     "OVER25": 0.5413,
+     "UNDER25": 0.4587,
+     "BTTS_YES": 0.5274,
+     "BTTS_NO": 0.4726
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Universitatea Cluj",
+    "model_prob": 0.5825,
+    "trend_alignment": 1.0,
+    "confidence": 68,
+    "eligible": true,
+    "odd": 1.74,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Universitatea Cluj ou empate (1X)",
+     "model_prob": 0.8062,
+     "trend_alignment": 1.0,
+     "confidence": 68,
+     "eligible": true,
+     "odd": 1.21
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5413,
+     "trend_alignment": 0.258,
+     "confidence": 14,
+     "eligible": false,
+     "odd": 2.06
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5274,
+     "trend_alignment": 0.258,
+     "confidence": 13,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do FC Arges Pitesti",
+     "model_prob": 0.1938,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 4.36
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "HOME",
+     "team": "FC Arges Pitesti",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Menos de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "UNDER",
+     "team": "FC Arges Pitesti",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "under"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "Universitatea Cluj",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Pior defesa da liga (1.6 sofridos/jogo)",
+     "strength": 0.34,
+     "favors": "OVER",
+     "team": "Universitatea Cluj",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_bottom"
+    },
+    {
+     "label": "3º melhor ataque da liga (1.8 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Universitatea Cluj",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "FC Arges Pitesti",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Universitatea Cluj é 5º · FC Arges Pitesti é 14º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Universitatea Cluj está 9 posições à frente",
+     "strength": 0.643,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "HOME",
+     "team": "FC Arges Pitesti",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "3º melhor ataque da liga (1.8 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Universitatea Cluj",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "FC Arges Pitesti",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Universitatea Cluj está 9 posições à frente",
+     "strength": 0.643,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 68,
+   "league": {
+    "key": "romania",
+    "name": "Liga 1",
+    "country": "Romênia"
+   },
+   "home_team": {
+    "id": 2057,
+    "name": "Universitatea Cluj",
+    "position": 5,
+    "played": 11,
+    "points": 18.0,
+    "record": "6V 0E 5D",
+    "goals_for": 20,
+    "goals_against": 18,
+    "last5": "LWWWL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "3-4",
+      "home": true,
+      "opponent": "Rapid Bucuresti",
+      "date": "2026-10-12"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": false,
+      "opponent": "CFR Cluj",
+      "date": "2026-10-08"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "FC Voluntari",
+      "date": "2026-09-20"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "Otelul Galati",
+      "date": "2026-09-14"
+     },
+     {
+      "result": "L",
+      "score": "0-4",
+      "home": false,
+      "opponent": "CS Universitatea Craiova",
+      "date": "2026-09-07"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 2060,
+    "name": "FC Arges Pitesti",
+    "position": 14,
+    "played": 11,
+    "points": 11.0,
+    "record": "3V 2E 6D",
+    "goals_for": 6,
+    "goals_against": 11,
+    "last5": "LLDLL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "CFR Cluj",
+      "date": "2026-10-12"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": false,
+      "opponent": "Rapid Bucuresti",
+      "date": "2026-09-18"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "FC Botosani",
+      "date": "2026-09-13"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "FC Voluntari",
+      "date": "2026-09-07"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Sepsi",
+      "date": "2026-08-29"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-19T12:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4789452,
+   "s365_competition_id": 649,
+   "competition_name": "Saudi League",
+   "start_time": "2026-10-19T15:05:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 20733,
+    "name": "Al Feiha"
+   },
+   "away": {
+    "id": 8946,
+    "name": "Al Ahli Jeddah"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.13,
+    "lambda_away": 1.93,
+    "expected_goals": 3.05,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.2188,
+     "DRAW": 0.2205,
+     "AWAY": 0.5607,
+     "1X": 0.4393,
+     "X2": 0.7812,
+     "12": 0.7795,
+     "OVER25": 0.5886,
+     "UNDER25": 0.4114,
+     "BTTS_YES": 0.5772,
+     "BTTS_NO": 0.4228
+    }
+   },
+   "pick": {
+    "selection": "AWAY",
+    "family": "1x2",
+    "label": "Vitória do Al Ahli Jeddah",
+    "model_prob": 0.5607,
+    "trend_alignment": 1.0,
+    "confidence": 64,
+    "eligible": true,
+    "odd": 1.34,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "X2",
+     "family": "double_chance",
+     "label": "Dupla chance: Al Ahli Jeddah ou empate (X2)",
+     "model_prob": 0.7812,
+     "trend_alignment": 1.0,
+     "confidence": 64,
+     "eligible": true,
+     "odd": 1.1
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5886,
+     "trend_alignment": 0.322,
+     "confidence": 23,
+     "eligible": false,
+     "odd": 2.26
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5772,
+     "trend_alignment": 0.322,
+     "confidence": 21,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Al Feiha",
+     "model_prob": 0.2188,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 7.0
+    }
+   ],
+   "trends": [
+    {
+     "label": "Não venceu nenhum dos últimos 5",
+     "strength": 0.55,
+     "favors": "AWAY",
+     "team": "Al Feiha",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "Mais de 2.5 gols em 5 dos últimos 6",
+     "strength": 0.483,
+     "favors": "OVER",
+     "team": "Al Ahli Jeddah",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Al Feiha",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "3º melhor ataque da liga (2.5 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "AWAY",
+     "team": "Al Ahli Jeddah",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Al Feiha é 14º · Al Ahli Jeddah é 6º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Al Ahli Jeddah está 8 posições à frente",
+     "strength": 0.571,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Não venceu nenhum dos últimos 5",
+     "strength": 0.55,
+     "favors": "AWAY",
+     "team": "Al Feiha",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Al Feiha",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "3º melhor ataque da liga (2.5 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "AWAY",
+     "team": "Al Ahli Jeddah",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Al Ahli Jeddah está 8 posições à frente",
+     "strength": 0.571,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 64,
+   "league": {
+    "key": "saudi",
+    "name": "Saudi Pro League",
+    "country": "Arábia Saudita"
+   },
+   "home_team": {
+    "id": 20733,
+    "name": "Al Feiha",
+    "position": 14,
+    "played": 9,
+    "points": 7.0,
+    "record": "1V 4E 4D",
+    "goals_for": 8,
+    "goals_against": 14,
+    "last5": "LDDLD",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Al Khaleej Club",
+      "date": "2026-10-15"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Al Riyadh SC",
+      "date": "2026-10-11"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Al Shabab Riyadh",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Ittihad Jeddah",
+      "date": "2026-09-08"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "Al-Kholood",
+      "date": "2026-09-03"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 8946,
+    "name": "Al Ahli Jeddah",
+    "position": 6,
+    "played": 8,
+    "points": 15.0,
+    "record": "5V 0E 3D",
+    "goals_for": 20,
+    "goals_against": 10,
+    "last5": "DWWLW",
+    "recent": [
+     {
+      "result": "D",
+      "score": "-1--1",
+      "home": true,
+      "opponent": "Al Nassr FC Riyadh",
+      "date": "2026-10-15"
+     },
+     {
+      "result": "W",
+      "score": "4-0",
+      "home": false,
+      "opponent": "Al Fateh",
+      "date": "2026-10-09"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": true,
+      "opponent": "Al Hazm",
+      "date": "2026-09-11"
+     },
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": false,
+      "opponent": "Qadisiya",
+      "date": "2026-09-08"
+     },
+     {
+      "result": "W",
+      "score": "5-0",
+      "home": true,
+      "opponent": "Al Riyadh SC",
+      "date": "2026-09-04"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-19T12:05:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4735524,
+   "s365_competition_id": 36,
+   "competition_name": "Ligue 2",
+   "start_time": "2026-10-19T18:45:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 530,
+    "name": "Rodez"
+   },
+   "away": {
+    "id": 491,
+    "name": "Montpellier"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.11,
+    "lambda_away": 1.43,
+    "expected_goals": 2.53,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.2919,
+     "DRAW": 0.2637,
+     "AWAY": 0.4444,
+     "1X": 0.5556,
+     "X2": 0.7081,
+     "12": 0.7363,
+     "OVER25": 0.465,
+     "UNDER25": 0.535,
+     "BTTS_YES": 0.5087,
+     "BTTS_NO": 0.4913
+    }
+   },
+   "pick": {
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: Montpellier ou empate (X2)",
+    "model_prob": 0.7081,
+    "trend_alignment": 1.0,
+    "confidence": 54,
+    "eligible": true,
+    "odd": 1.45,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Montpellier",
+     "model_prob": 0.4444,
+     "trend_alignment": 1.0,
+     "confidence": 45,
+     "eligible": false,
+     "odd": 2.24
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5087,
+     "trend_alignment": 0.211,
+     "confidence": 9,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.465,
+     "trend_alignment": 0.211,
+     "confidence": 7,
+     "eligible": false,
+     "odd": 1.64
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.535,
+     "trend_alignment": 0.0,
+     "confidence": 5,
+     "eligible": false,
+     "odd": 2.18
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "AWAY",
+     "team": "Rodez",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Sofreu gol em todos os últimos 5",
+     "strength": 0.4,
+     "favors": "OVER",
+     "team": "Rodez",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "always_concede"
+    },
+    {
+     "label": "Melhor defesa da liga (0.6 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "Montpellier",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "AWAY",
+     "team": "Montpellier",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Menos de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "UNDER",
+     "team": "Montpellier",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "under"
+    },
+    {
+     "label": "Pior defesa da liga (2.2 sofridos/jogo)",
+     "strength": 0.34,
+     "favors": "OVER",
+     "team": "Rodez",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_bottom"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Rodez",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Rodez é 17º · Montpellier é 5º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Montpellier está 12 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "AWAY",
+     "team": "Rodez",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Melhor defesa da liga (0.6 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "Montpellier",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "AWAY",
+     "team": "Montpellier",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Rodez",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Montpellier está 12 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 54,
+   "league": {
+    "key": "ligue2",
+    "name": "Ligue 2",
+    "country": "França"
+   },
+   "home_team": {
+    "id": 530,
+    "name": "Rodez",
+    "position": 17,
+    "played": 8,
+    "points": 7.0,
+    "record": "2V 1E 5D",
+    "goals_for": 14,
+    "goals_against": 18,
+    "last5": "LLLLD",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Saint-Étienne",
+      "date": "2026-10-10"
+     },
+     {
+      "result": "L",
+      "score": "3-4",
+      "home": true,
+      "opponent": "Nancy",
+      "date": "2026-09-18"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Grenoble",
+      "date": "2026-09-11"
+     },
+     {
+      "result": "L",
+      "score": "1-4",
+      "home": false,
+      "opponent": "Metz",
+      "date": "2026-09-05"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "Pau FC",
+      "date": "2026-08-28"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 491,
+    "name": "Montpellier",
+    "position": 5,
+    "played": 8,
+    "points": 15.0,
+    "record": "4V 3E 1D",
+    "goals_for": 8,
+    "goals_against": 5,
+    "last5": "WDWLD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Grenoble",
+      "date": "2026-10-09"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Reims",
+      "date": "2026-09-18"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Pau FC",
+      "date": "2026-09-11"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": false,
+      "opponent": "Saint-Étienne",
+      "date": "2026-09-05"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Boulogne",
+      "date": "2026-08-28"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-19T15:45:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4732675,
+   "s365_competition_id": 17,
+   "competition_name": "Serie A",
+   "start_time": "2026-10-19T16:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 293,
+    "name": "Monza"
+   },
+   "away": {
+    "id": 243,
+    "name": "Cagliari"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.2,
+    "lambda_away": 1.37,
+    "expected_goals": 2.56,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.3272,
+     "DRAW": 0.2649,
+     "AWAY": 0.4078,
+     "1X": 0.5922,
+     "X2": 0.6728,
+     "12": 0.7351,
+     "OVER25": 0.4724,
+     "UNDER25": 0.5276,
+     "BTTS_YES": 0.5199,
+     "BTTS_NO": 0.4801
+    }
+   },
+   "pick": {
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: Cagliari ou empate (X2)",
+    "model_prob": 0.6728,
+    "trend_alignment": 1.0,
+    "confidence": 50,
+    "eligible": true,
+    "odd": 1.59,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Cagliari",
+     "model_prob": 0.4078,
+     "trend_alignment": 1.0,
+     "confidence": 42,
+     "eligible": false,
+     "odd": 3.11
+    },
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Monza ou empate (1X)",
+     "model_prob": 0.5922,
+     "trend_alignment": 0.0,
+     "confidence": 6,
+     "eligible": false,
+     "odd": 1.38
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.5276,
+     "trend_alignment": 0.013,
+     "confidence": 4,
+     "eligible": false,
+     "odd": 1.73
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5199,
+     "trend_alignment": 0.051,
+     "confidence": 4,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Monza",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Ambos marcaram em 5 dos últimos 5",
+     "strength": 0.5,
+     "favors": "BTTS_YES",
+     "team": "Monza",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "btts"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "AWAY",
+     "team": "Cagliari",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Menos de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "UNDER",
+     "team": "Cagliari",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "under"
+    },
+    {
+     "label": "Monza é 16º · Cagliari é 4º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Cagliari está 12 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Monza",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "AWAY",
+     "team": "Cagliari",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Cagliari está 12 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 50,
+   "league": {
+    "key": "serie_a_ita",
+    "name": "Serie A",
+    "country": "Itália"
+   },
+   "home_team": {
+    "id": 293,
+    "name": "Monza",
+    "position": 16,
+    "played": 6,
+    "points": 4.0,
+    "record": "1V 1E 4D",
+    "goals_for": 9,
+    "goals_against": 15,
+    "last5": "LWLDL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": false,
+      "opponent": "Lazio",
+      "date": "2026-10-11"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Sassuolo",
+      "date": "2026-09-18"
+     },
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": false,
+      "opponent": "Lecce",
+      "date": "2026-09-13"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Parma",
+      "date": "2026-09-06"
+     },
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": true,
+      "opponent": "Udinese",
+      "date": "2026-08-29"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 243,
+    "name": "Cagliari",
+    "position": 4,
+    "played": 6,
+    "points": 13.0,
+    "record": "4V 1E 1D",
+    "goals_for": 6,
+    "goals_against": 3,
+    "last5": "DWWWL",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Juventus",
+      "date": "2026-10-11"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Udinese",
+      "date": "2026-09-19"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Atalanta",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Lecce",
+      "date": "2026-09-07"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Inter Milan",
+      "date": "2026-08-30"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-19T13:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4804702,
+   "s365_competition_id": 552,
+   "competition_name": "Premier League",
+   "start_time": "2026-10-19T17:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 8300,
+    "name": "ENPPI"
+   },
+   "away": {
+    "id": 8310,
+    "name": "Al Mokawloon Al Arab"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.24,
+    "lambda_away": 1.34,
+    "expected_goals": 2.59,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.3445,
+     "DRAW": 0.2642,
+     "AWAY": 0.3913,
+     "1X": 0.6087,
+     "X2": 0.6555,
+     "12": 0.7358,
+     "OVER25": 0.4786,
+     "UNDER25": 0.5214,
+     "BTTS_YES": 0.5262,
+     "BTTS_NO": 0.4738
+    }
+   },
+   "pick": {
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: Al Mokawloon Al Arab ou empate (X2)",
+    "model_prob": 0.6555,
+    "trend_alignment": 1.0,
+    "confidence": 47,
+    "eligible": true,
+    "odd": 1.48,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Al Mokawloon Al Arab",
+     "model_prob": 0.3913,
+     "trend_alignment": 1.0,
+     "confidence": 40,
+     "eligible": false,
+     "odd": 2.89
+    },
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: ENPPI ou empate (1X)",
+     "model_prob": 0.6087,
+     "trend_alignment": 0.0,
+     "confidence": 8,
+     "eligible": false,
+     "odd": 1.41
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.5214,
+     "trend_alignment": 0.031,
+     "confidence": 4,
+     "eligible": false,
+     "odd": 2.48
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5262,
+     "trend_alignment": 0.031,
+     "confidence": 4,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "ENPPI",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "ENPPI",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "AWAY",
+     "team": "Al Mokawloon Al Arab",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Menos de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "UNDER",
+     "team": "Al Mokawloon Al Arab",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "under"
+    },
+    {
+     "label": "ENPPI é 17º · Al Mokawloon Al Arab é 8º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Al Mokawloon Al Arab está 9 posições à frente",
+     "strength": 0.643,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "ENPPI",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "AWAY",
+     "team": "Al Mokawloon Al Arab",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Al Mokawloon Al Arab está 9 posições à frente",
+     "strength": 0.643,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 47,
+   "league": {
+    "key": "egypt",
+    "name": "Premier League",
+    "country": "Egito"
+   },
+   "home_team": {
+    "id": 8300,
+    "name": "ENPPI",
+    "position": 17,
+    "played": 6,
+    "points": 4.0,
+    "record": "1V 1E 4D",
+    "goals_for": 8,
+    "goals_against": 12,
+    "last5": "LLWDL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": false,
+      "opponent": "Modern Sport FC",
+      "date": "2026-10-12"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Pyramids",
+      "date": "2026-09-17"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Zed FC",
+      "date": "2026-09-09"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Ghazl El-Mehalla",
+      "date": "2026-09-01"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": true,
+      "opponent": "Wadi Degla",
+      "date": "2026-08-28"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 8310,
+    "name": "Al Mokawloon Al Arab",
+    "position": 8,
+    "played": 6,
+    "points": 8.0,
+    "record": "2V 2E 2D",
+    "goals_for": 7,
+    "goals_against": 6,
+    "last5": "DWDWL",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Zed FC",
+      "date": "2026-10-12"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "Wadi Degla",
+      "date": "2026-09-15"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Al Ahly SC",
+      "date": "2026-09-09"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "El Gounah",
+      "date": "2026-09-02"
+     },
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": true,
+      "opponent": "Al Masry",
+      "date": "2026-08-27"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-19T14:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  }
+ ]
+}

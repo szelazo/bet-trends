@@ -1,6 +1,6 @@
 {
  "date": "2026-10-18",
- "generated_at": "2026-10-16T19:35:13.334974-03:00",
+ "generated_at": "2026-10-17T18:59:27.493937-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -26,17 +26,17 @@
    "model": {
     "lambda_home": 2.29,
     "lambda_away": 0.6,
-    "expected_goals": 2.88,
+    "expected_goals": 2.89,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.757,
-     "DRAW": 0.1626,
-     "AWAY": 0.0804,
-     "1X": 0.9196,
-     "X2": 0.243,
-     "12": 0.8374,
-     "OVER25": 0.5502,
-     "UNDER25": 0.4498,
+     "HOME": 0.7572,
+     "DRAW": 0.1625,
+     "AWAY": 0.0803,
+     "1X": 0.9197,
+     "X2": 0.2428,
+     "12": 0.8375,
+     "OVER25": 0.5503,
+     "UNDER25": 0.4497,
      "BTTS_YES": 0.4036,
      "BTTS_NO": 0.5964
     }
@@ -45,7 +45,7 @@
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Igdir Fk",
-    "model_prob": 0.757,
+    "model_prob": 0.7572,
     "trend_alignment": 1.0,
     "confidence": 83,
     "eligible": true,
@@ -57,7 +57,7 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Igdir Fk ou empate (1X)",
-     "model_prob": 0.9196,
+     "model_prob": 0.9197,
      "trend_alignment": 1.0,
      "confidence": 83,
      "eligible": true,
@@ -67,11 +67,11 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.5502,
+     "model_prob": 0.5503,
      "trend_alignment": 0.227,
      "confidence": 14,
      "eligible": false,
-     "odd": 2.1
+     "odd": 2.25
     },
     {
      "selection": "BTTS_NO",
@@ -351,32 +351,32 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 2.42,
-    "lambda_away": 0.72,
-    "expected_goals": 3.14,
+    "lambda_home": 2.4,
+    "lambda_away": 0.73,
+    "expected_goals": 3.13,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.748,
-     "DRAW": 0.1593,
-     "AWAY": 0.0927,
-     "1X": 0.9073,
-     "X2": 0.252,
-     "12": 0.8407,
-     "OVER25": 0.6076,
-     "UNDER25": 0.3924,
-     "BTTS_YES": 0.4696,
-     "BTTS_NO": 0.5304
+     "HOME": 0.7442,
+     "DRAW": 0.1612,
+     "AWAY": 0.0946,
+     "1X": 0.9054,
+     "X2": 0.2558,
+     "12": 0.8388,
+     "OVER25": 0.6053,
+     "UNDER25": 0.3947,
+     "BTTS_YES": 0.4712,
+     "BTTS_NO": 0.5288
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Red Bull Salzburg",
-    "model_prob": 0.748,
+    "model_prob": 0.7442,
     "trend_alignment": 1.0,
     "confidence": 81,
     "eligible": true,
-    "odd": 1.38,
+    "odd": 1.41,
     "low_conviction": false
    },
    "alt_markets": [
@@ -384,7 +384,7 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Red Bull Salzburg ou empate (1X)",
-     "model_prob": 0.9073,
+     "model_prob": 0.9054,
      "trend_alignment": 1.0,
      "confidence": 81,
      "eligible": true,
@@ -394,9 +394,9 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6076,
+     "model_prob": 0.6053,
      "trend_alignment": 0.68,
-     "confidence": 38,
+     "confidence": 37,
      "eligible": true,
      "odd": 2.19
     },
@@ -404,7 +404,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.4696,
+     "model_prob": 0.4712,
      "trend_alignment": 0.68,
      "confidence": 24,
      "eligible": false,
@@ -414,7 +414,7 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.5304,
+     "model_prob": 0.5288,
      "trend_alignment": 0.0,
      "confidence": 4,
      "eligible": false,
@@ -486,7 +486,7 @@
      "kind": "unbeaten"
     },
     {
-     "label": "Red Bull Salzburg é 2º · SCR Altach é 11º",
+     "label": "Red Bull Salzburg é 3º · SCR Altach é 11º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -495,8 +495,8 @@
      "kind": "positions"
     },
     {
-     "label": "Red Bull Salzburg está 9 posições à frente",
-     "strength": 0.643,
+     "label": "Red Bull Salzburg está 8 posições à frente",
+     "strength": 0.571,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -551,8 +551,8 @@
      "kind": "unbeaten"
     },
     {
-     "label": "Red Bull Salzburg está 9 posições à frente",
-     "strength": 0.643,
+     "label": "Red Bull Salzburg está 8 posições à frente",
+     "strength": 0.571,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -569,7 +569,7 @@
    "home_team": {
     "id": 1739,
     "name": "Red Bull Salzburg",
-    "position": 2,
+    "position": 3,
     "played": 8,
     "points": 18.0,
     "record": "5V 3E 0D",
@@ -692,23 +692,23 @@
     "expected_goals": 3.26,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.7024,
-     "DRAW": 0.1738,
-     "AWAY": 0.1238,
-     "1X": 0.8762,
-     "X2": 0.2976,
-     "12": 0.8262,
-     "OVER25": 0.6314,
-     "UNDER25": 0.3686,
-     "BTTS_YES": 0.5335,
-     "BTTS_NO": 0.4665
+     "HOME": 0.7031,
+     "DRAW": 0.1735,
+     "AWAY": 0.1234,
+     "1X": 0.8766,
+     "X2": 0.2969,
+     "12": 0.8265,
+     "OVER25": 0.6318,
+     "UNDER25": 0.3682,
+     "BTTS_YES": 0.5333,
+     "BTTS_NO": 0.4667
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Sporting Cristal",
-    "model_prob": 0.7024,
+    "model_prob": 0.7031,
     "trend_alignment": 1.0,
     "confidence": 77,
     "eligible": true,
@@ -720,7 +720,7 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Sporting Cristal ou empate (1X)",
-     "model_prob": 0.8762,
+     "model_prob": 0.8766,
      "trend_alignment": 1.0,
      "confidence": 77,
      "eligible": true,
@@ -730,7 +730,7 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6314,
+     "model_prob": 0.6318,
      "trend_alignment": 0.287,
      "confidence": 27,
      "eligible": true,
@@ -740,7 +740,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5335,
+     "model_prob": 0.5333,
      "trend_alignment": 0.287,
      "confidence": 14,
      "eligible": false,
@@ -750,7 +750,7 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Comerciantes Unidos",
-     "model_prob": 0.1238,
+     "model_prob": 0.1234,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
@@ -804,7 +804,7 @@
      "kind": "def_rank"
     },
     {
-     "label": "2º melhor ataque da liga (1.9 marcados/jogo)",
+     "label": "3º melhor ataque da liga (1.9 marcados/jogo)",
      "strength": 0.32,
      "favors": "HOME",
      "team": "Sporting Cristal",
@@ -878,7 +878,7 @@
      "kind": "def_rank"
     },
     {
-     "label": "2º melhor ataque da liga (1.9 marcados/jogo)",
+     "label": "3º melhor ataque da liga (1.9 marcados/jogo)",
      "strength": 0.32,
      "favors": "HOME",
      "team": "Sporting Cristal",
@@ -1032,32 +1032,32 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 2.51,
-    "lambda_away": 1.12,
-    "expected_goals": 3.63,
+    "lambda_home": 2.52,
+    "lambda_away": 1.13,
+    "expected_goals": 3.65,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.6747,
-     "DRAW": 0.1735,
-     "AWAY": 0.1518,
-     "1X": 0.8482,
-     "X2": 0.3253,
-     "12": 0.8265,
-     "OVER25": 0.7029,
-     "UNDER25": 0.2971,
-     "BTTS_YES": 0.6202,
-     "BTTS_NO": 0.3798
+     "HOME": 0.6761,
+     "DRAW": 0.1726,
+     "AWAY": 0.1513,
+     "1X": 0.8487,
+     "X2": 0.3239,
+     "12": 0.8274,
+     "OVER25": 0.7059,
+     "UNDER25": 0.2941,
+     "BTTS_YES": 0.6222,
+     "BTTS_NO": 0.3778
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Cruz Azul",
-    "model_prob": 0.6747,
+    "model_prob": 0.6761,
     "trend_alignment": 1.0,
     "confidence": 73,
     "eligible": true,
-    "odd": 1.33,
+    "odd": 1.27,
     "low_conviction": false
    },
    "alt_markets": [
@@ -1065,29 +1065,29 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Cruz Azul ou empate (1X)",
-     "model_prob": 0.8482,
+     "model_prob": 0.8487,
      "trend_alignment": 1.0,
      "confidence": 73,
      "eligible": true,
-     "odd": 1.07
+     "odd": 1.06
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.7029,
+     "model_prob": 0.7059,
      "trend_alignment": 0.453,
-     "confidence": 42,
+     "confidence": 43,
      "eligible": true,
-     "odd": 2.23
+     "odd": 2.18
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.6202,
+     "model_prob": 0.6222,
      "trend_alignment": 0.453,
-     "confidence": 31,
+     "confidence": 32,
      "eligible": true,
      "odd": null
     },
@@ -1095,11 +1095,11 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do FC Juarez",
-     "model_prob": 0.1518,
+     "model_prob": 0.1513,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 9.0
+     "odd": 10.0
     }
    ],
    "trends": [
@@ -1332,32 +1332,32 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 0.94,
-    "lambda_away": 1.94,
-    "expected_goals": 2.89,
+    "lambda_home": 0.93,
+    "lambda_away": 1.96,
+    "expected_goals": 2.9,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.1773,
-     "DRAW": 0.2155,
-     "AWAY": 0.6072,
-     "1X": 0.3928,
-     "X2": 0.8227,
-     "12": 0.7845,
-     "OVER25": 0.5512,
-     "UNDER25": 0.4488,
-     "BTTS_YES": 0.5234,
-     "BTTS_NO": 0.4766
+     "HOME": 0.1729,
+     "DRAW": 0.2133,
+     "AWAY": 0.6138,
+     "1X": 0.3862,
+     "X2": 0.8271,
+     "12": 0.7867,
+     "OVER25": 0.5537,
+     "UNDER25": 0.4463,
+     "BTTS_YES": 0.5221,
+     "BTTS_NO": 0.4779
     }
    },
    "pick": {
     "selection": "AWAY",
     "family": "1x2",
     "label": "Vitória do Sparta Praha",
-    "model_prob": 0.6072,
+    "model_prob": 0.6138,
     "trend_alignment": 1.0,
-    "confidence": 70,
+    "confidence": 71,
     "eligible": true,
-    "odd": 1.71,
+    "odd": 1.68,
     "low_conviction": false
    },
    "alt_markets": [
@@ -1365,17 +1365,17 @@
      "selection": "X2",
      "family": "double_chance",
      "label": "Dupla chance: Sparta Praha ou empate (X2)",
-     "model_prob": 0.8227,
+     "model_prob": 0.8271,
      "trend_alignment": 1.0,
-     "confidence": 70,
+     "confidence": 71,
      "eligible": true,
-     "odd": 1.24
+     "odd": 1.23
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.5512,
+     "model_prob": 0.5537,
      "trend_alignment": 0.54,
      "confidence": 26,
      "eligible": false,
@@ -1385,7 +1385,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5234,
+     "model_prob": 0.5221,
      "trend_alignment": 0.54,
      "confidence": 22,
      "eligible": false,
@@ -1395,11 +1395,11 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Banik Ostrava",
-     "model_prob": 0.1773,
+     "model_prob": 0.1729,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 4.02
+     "odd": 4.22
     }
    ],
    "trends": [
@@ -1449,7 +1449,7 @@
      "kind": "atk_rank"
     },
     {
-     "label": "Banik Ostrava é 12º · Sparta Praha é 3º",
+     "label": "Banik Ostrava é 13º · Sparta Praha é 5º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -1458,8 +1458,8 @@
      "kind": "positions"
     },
     {
-     "label": "Sparta Praha está 9 posições à frente",
-     "strength": 0.643,
+     "label": "Sparta Praha está 8 posições à frente",
+     "strength": 0.571,
      "favors": "AWAY",
      "team": null,
      "side": null,
@@ -1496,8 +1496,8 @@
      "kind": "atk_rank"
     },
     {
-     "label": "Sparta Praha está 9 posições à frente",
-     "strength": 0.643,
+     "label": "Sparta Praha está 8 posições à frente",
+     "strength": 0.571,
      "favors": "AWAY",
      "team": null,
      "side": null,
@@ -1505,7 +1505,7 @@
      "kind": "table_gap"
     }
    ],
-   "confidence": 70,
+   "confidence": 71,
    "league": {
     "key": "czech",
     "name": "Chance Liga",
@@ -1514,7 +1514,7 @@
    "home_team": {
     "id": 1790,
     "name": "Banik Ostrava",
-    "position": 12,
+    "position": 13,
     "played": 10,
     "points": 10.0,
     "record": "3V 1E 6D",
@@ -1562,7 +1562,7 @@
    "away_team": {
     "id": 1788,
     "name": "Sparta Praha",
-    "position": 3,
+    "position": 5,
     "played": 10,
     "points": 18.0,
     "record": "6V 0E 4D",
