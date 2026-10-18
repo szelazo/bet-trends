@@ -1,0 +1,937 @@
+{
+ "date": "2026-10-20",
+ "generated_at": "2026-10-18T11:27:50.278730-03:00",
+ "version": "0.1.0",
+ "count": 3,
+ "clear_count": 3,
+ "day_total": 26,
+ "games": [
+  {
+   "id": 4789448,
+   "s365_competition_id": 649,
+   "competition_name": "Saudi League",
+   "start_time": "2026-10-20T15:10:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 8941,
+    "name": "Al Taawoun"
+   },
+   "away": {
+    "id": 8947,
+    "name": "Qadisiya"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 0.96,
+    "lambda_away": 2.36,
+    "expected_goals": 3.32,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.137,
+     "DRAW": 0.1782,
+     "AWAY": 0.6848,
+     "1X": 0.3152,
+     "X2": 0.863,
+     "12": 0.8218,
+     "OVER25": 0.6434,
+     "UNDER25": 0.3566,
+     "BTTS_YES": 0.558,
+     "BTTS_NO": 0.442
+    }
+   },
+   "pick": {
+    "selection": "AWAY",
+    "family": "1x2",
+    "label": "Vitória do Qadisiya",
+    "model_prob": 0.6848,
+    "trend_alignment": 1.0,
+    "confidence": 75,
+    "eligible": true,
+    "odd": 1.48,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "X2",
+     "family": "double_chance",
+     "label": "Dupla chance: Qadisiya ou empate (X2)",
+     "model_prob": 0.863,
+     "trend_alignment": 1.0,
+     "confidence": 75,
+     "eligible": true,
+     "odd": 1.19
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6434,
+     "trend_alignment": 0.313,
+     "confidence": 30,
+     "eligible": true,
+     "odd": 2.0
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.558,
+     "trend_alignment": 0.313,
+     "confidence": 19,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Al Taawoun",
+     "model_prob": 0.137,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 4.75
+    }
+   ],
+   "trends": [
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "AWAY",
+     "team": "Qadisiya",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "Qadisiya",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Al Taawoun",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Não marcou em 4 dos últimos 5",
+     "strength": 0.44,
+     "favors": "AWAY",
+     "team": "Al Taawoun",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "no_score"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Al Taawoun",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Qadisiya",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "2º melhor ataque da liga (2.6 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "AWAY",
+     "team": "Qadisiya",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Al Taawoun é 17º · Qadisiya é 1º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Qadisiya está 16 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "AWAY",
+     "team": "Qadisiya",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Al Taawoun",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Não marcou em 4 dos últimos 5",
+     "strength": 0.44,
+     "favors": "AWAY",
+     "team": "Al Taawoun",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "no_score"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Al Taawoun",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Qadisiya",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "2º melhor ataque da liga (2.6 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "AWAY",
+     "team": "Qadisiya",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Qadisiya está 16 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 75,
+   "league": {
+    "key": "saudi",
+    "name": "Saudi Pro League",
+    "country": "Arábia Saudita"
+   },
+   "home_team": {
+    "id": 8941,
+    "name": "Al Taawoun",
+    "position": 17,
+    "played": 9,
+    "points": 4.0,
+    "record": "0V 4E 5D",
+    "goals_for": 4,
+    "goals_against": 16,
+    "last5": "DLLLD",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Diriyah",
+      "date": "2026-10-17"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": false,
+      "opponent": "Al Shabab Riyadh",
+      "date": "2026-10-11"
+     },
+     {
+      "result": "L",
+      "score": "0-6",
+      "home": true,
+      "opponent": "Al Hilal Riyadh",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Al Hazm",
+      "date": "2026-09-08"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Al Fateh",
+      "date": "2026-09-05"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 8947,
+    "name": "Qadisiya",
+    "position": 1,
+    "played": 9,
+    "points": 22.0,
+    "record": "7V 1E 1D",
+    "goals_for": 23,
+    "goals_against": 9,
+    "last5": "WWDWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Abha Club",
+      "date": "2026-10-16"
+     },
+     {
+      "result": "W",
+      "score": "5-0",
+      "home": false,
+      "opponent": "Al-Kholood",
+      "date": "2026-10-09"
+     },
+     {
+      "result": "D",
+      "score": "3-3",
+      "home": true,
+      "opponent": "Al Ettifaq",
+      "date": "2026-09-11"
+     },
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": true,
+      "opponent": "Al Ahli Jeddah",
+      "date": "2026-09-08"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "Diriyah",
+      "date": "2026-09-03"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-20T12:10:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4804711,
+   "s365_competition_id": 552,
+   "competition_name": "Premier League",
+   "start_time": "2026-10-20T17:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 8306,
+    "name": "El Geish"
+   },
+   "away": {
+    "id": 22143,
+    "name": "Pyramids"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 0.71,
+    "lambda_away": 1.74,
+    "expected_goals": 2.45,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.1476,
+     "DRAW": 0.2303,
+     "AWAY": 0.6221,
+     "1X": 0.3779,
+     "X2": 0.8524,
+     "12": 0.7697,
+     "OVER25": 0.4437,
+     "UNDER25": 0.5563,
+     "BTTS_YES": 0.4188,
+     "BTTS_NO": 0.5812
+    }
+   },
+   "pick": {
+    "selection": "AWAY",
+    "family": "1x2",
+    "label": "Vitória do Pyramids",
+    "model_prob": 0.6221,
+    "trend_alignment": 1.0,
+    "confidence": 74,
+    "eligible": true,
+    "odd": 1.52,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "X2",
+     "family": "double_chance",
+     "label": "Dupla chance: Pyramids ou empate (X2)",
+     "model_prob": 0.8524,
+     "trend_alignment": 1.0,
+     "confidence": 74,
+     "eligible": true,
+     "odd": 1.13
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5812,
+     "trend_alignment": 0.038,
+     "confidence": 12,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.5563,
+     "trend_alignment": 0.038,
+     "confidence": 9,
+     "eligible": false,
+     "odd": 1.67
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.4437,
+     "trend_alignment": 0.016,
+     "confidence": 1,
+     "eligible": false,
+     "odd": 2.15
+    }
+   ],
+   "trends": [
+    {
+     "label": "6 vitórias seguidas",
+     "strength": 1.0,
+     "favors": "AWAY",
+     "team": "Pyramids",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 6 dos últimos 6",
+     "strength": 0.75,
+     "favors": "AWAY",
+     "team": "Pyramids",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Não sofreu gol em 4 dos últimos 6",
+     "strength": 0.417,
+     "favors": "UNDER",
+     "team": "Pyramids",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "clean_sheets"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "El Geish",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Sofreu gol em todos os últimos 5",
+     "strength": 0.4,
+     "favors": "OVER",
+     "team": "El Geish",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "always_concede"
+    },
+    {
+     "label": "El Geish é 14º · Pyramids é 1º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Pyramids está 13 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "6 vitórias seguidas",
+     "strength": 1.0,
+     "favors": "AWAY",
+     "team": "Pyramids",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 6 dos últimos 6",
+     "strength": 0.75,
+     "favors": "AWAY",
+     "team": "Pyramids",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "El Geish",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Pyramids está 13 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 74,
+   "league": {
+    "key": "egypt",
+    "name": "Premier League",
+    "country": "Egito"
+   },
+   "home_team": {
+    "id": 8306,
+    "name": "El Geish",
+    "position": 14,
+    "played": 6,
+    "points": 7.0,
+    "record": "2V 1E 3D",
+    "goals_for": 5,
+    "goals_against": 8,
+    "last5": "LLDLW",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": false,
+      "opponent": "National Bank Of Egypt",
+      "date": "2026-10-13"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Smouha",
+      "date": "2026-09-14"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "El Qanah FC",
+      "date": "2026-09-07"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Zed FC",
+      "date": "2026-09-01"
+     },
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": false,
+      "opponent": "Petrojet",
+      "date": "2026-08-26"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 22143,
+    "name": "Pyramids",
+    "position": 1,
+    "played": 6,
+    "points": 18.0,
+    "record": "6V 0E 0D",
+    "goals_for": 13,
+    "goals_against": 2,
+    "last5": "WWWWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Merriekh bentiu",
+      "date": "2026-10-16"
+     },
+     {
+      "result": "W",
+      "score": "4-1",
+      "home": true,
+      "opponent": "Ceramica Cleopatra",
+      "date": "2026-10-12"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "ENPPI",
+      "date": "2026-09-17"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "El Gounah",
+      "date": "2026-09-09"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Al Masry",
+      "date": "2026-08-31"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-20T14:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4804707,
+   "s365_competition_id": 552,
+   "competition_name": "Premier League",
+   "start_time": "2026-10-20T14:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 12254,
+    "name": "Petrol Asyut"
+   },
+   "away": {
+    "id": 8201,
+    "name": "Zamalek SC"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 0.61,
+    "lambda_away": 1.14,
+    "expected_goals": 1.76,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.1982,
+     "DRAW": 0.3169,
+     "AWAY": 0.4849,
+     "1X": 0.5151,
+     "X2": 0.8018,
+     "12": 0.6831,
+     "OVER25": 0.2576,
+     "UNDER25": 0.7424,
+     "BTTS_YES": 0.3124,
+     "BTTS_NO": 0.6876
+    }
+   },
+   "pick": {
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: Zamalek SC ou empate (X2)",
+    "model_prob": 0.8018,
+    "trend_alignment": 1.0,
+    "confidence": 67,
+    "eligible": true,
+    "odd": 1.08,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.7424,
+     "trend_alignment": 0.591,
+     "confidence": 52,
+     "eligible": true,
+     "odd": 1.64
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Zamalek SC",
+     "model_prob": 0.4849,
+     "trend_alignment": 1.0,
+     "confidence": 49,
+     "eligible": true,
+     "odd": 1.39
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.6876,
+     "trend_alignment": 0.591,
+     "confidence": 45,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Petrol Asyut",
+     "model_prob": 0.1982,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 8.0
+    }
+   ],
+   "trends": [
+    {
+     "label": "Venceu 5 dos últimos 6",
+     "strength": 0.667,
+     "favors": "AWAY",
+     "team": "Zamalek SC",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Não sofreu gol em 4 dos últimos 6",
+     "strength": 0.417,
+     "favors": "UNDER",
+     "team": "Zamalek SC",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "clean_sheets"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Petrol Asyut",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Menos de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "UNDER",
+     "team": "Petrol Asyut",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "under"
+    },
+    {
+     "label": "Petrol Asyut é 16º · Zamalek SC é 3º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Zamalek SC está 13 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Venceu 5 dos últimos 6",
+     "strength": 0.667,
+     "favors": "AWAY",
+     "team": "Zamalek SC",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Petrol Asyut",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Zamalek SC está 13 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 67,
+   "league": {
+    "key": "egypt",
+    "name": "Premier League",
+    "country": "Egito"
+   },
+   "home_team": {
+    "id": 12254,
+    "name": "Petrol Asyut",
+    "position": 16,
+    "played": 6,
+    "points": 5.0,
+    "record": "1V 2E 3D",
+    "goals_for": 3,
+    "goals_against": 6,
+    "last5": "WLLLD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Abo Qir Semad",
+      "date": "2026-10-13"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": true,
+      "opponent": "Modern Sport FC",
+      "date": "2026-09-15"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Al Ittehad",
+      "date": "2026-09-07"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "National Bank Of Egypt",
+      "date": "2026-08-31"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Smouha",
+      "date": "2026-08-26"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 8201,
+    "name": "Zamalek SC",
+    "position": 3,
+    "played": 6,
+    "points": 13.0,
+    "record": "4V 1E 1D",
+    "goals_for": 8,
+    "goals_against": 3,
+    "last5": "WLWWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Armée Patriotique Rwandaise FC",
+      "date": "2026-10-16"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": true,
+      "opponent": "Al Ahly SC",
+      "date": "2026-10-11"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Ghazl El-Mehalla",
+      "date": "2026-09-16"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Abo Qir Semad",
+      "date": "2026-09-08"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Petrojet",
+      "date": "2026-08-31"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-20T11:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  }
+ ]
+}

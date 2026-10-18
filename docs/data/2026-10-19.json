@@ -1,6 +1,6 @@
 {
  "date": "2026-10-19",
- "generated_at": "2026-10-17T18:59:28.732950-03:00",
+ "generated_at": "2026-10-18T11:27:28.613775-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -71,7 +71,7 @@
      "trend_alignment": 0.258,
      "confidence": 14,
      "eligible": false,
-     "odd": 2.06
+     "odd": 2.01
     },
     {
      "selection": "BTTS_YES",
@@ -681,7 +681,7 @@
      "trend_alignment": 0.211,
      "confidence": 7,
      "eligible": false,
-     "odd": 1.64
+     "odd": 1.65
     },
     {
      "selection": "UNDER25",
@@ -691,7 +691,7 @@
      "trend_alignment": 0.0,
      "confidence": 5,
      "eligible": false,
-     "odd": 2.18
+     "odd": 2.13
     }
    ],
    "trends": [
@@ -952,29 +952,29 @@
    "away_score": -1.0,
    "model": {
     "lambda_home": 1.2,
-    "lambda_away": 1.37,
+    "lambda_away": 1.36,
     "expected_goals": 2.56,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.3272,
-     "DRAW": 0.2649,
-     "AWAY": 0.4078,
-     "1X": 0.5922,
-     "X2": 0.6728,
-     "12": 0.7351,
-     "OVER25": 0.4724,
-     "UNDER25": 0.5276,
-     "BTTS_YES": 0.5199,
-     "BTTS_NO": 0.4801
+     "HOME": 0.3285,
+     "DRAW": 0.265,
+     "AWAY": 0.4065,
+     "1X": 0.5935,
+     "X2": 0.6715,
+     "12": 0.735,
+     "OVER25": 0.4725,
+     "UNDER25": 0.5275,
+     "BTTS_YES": 0.5201,
+     "BTTS_NO": 0.4799
     }
    },
    "pick": {
     "selection": "X2",
     "family": "double_chance",
     "label": "Dupla chance: Cagliari ou empate (X2)",
-    "model_prob": 0.6728,
+    "model_prob": 0.6715,
     "trend_alignment": 1.0,
-    "confidence": 50,
+    "confidence": 49,
     "eligible": true,
     "odd": 1.59,
     "low_conviction": false
@@ -984,7 +984,7 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Cagliari",
-     "model_prob": 0.4078,
+     "model_prob": 0.4065,
      "trend_alignment": 1.0,
      "confidence": 42,
      "eligible": false,
@@ -994,7 +994,7 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Monza ou empate (1X)",
-     "model_prob": 0.5922,
+     "model_prob": 0.5935,
      "trend_alignment": 0.0,
      "confidence": 6,
      "eligible": false,
@@ -1004,7 +1004,7 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.5276,
+     "model_prob": 0.5275,
      "trend_alignment": 0.013,
      "confidence": 4,
      "eligible": false,
@@ -1014,7 +1014,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5199,
+     "model_prob": 0.5201,
      "trend_alignment": 0.051,
      "confidence": 4,
      "eligible": false,
@@ -1059,7 +1059,7 @@
      "kind": "under"
     },
     {
-     "label": "Monza é 16º · Cagliari é 4º",
+     "label": "Monza é 16º · Cagliari é 6º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -1068,8 +1068,8 @@
      "kind": "positions"
     },
     {
-     "label": "Cagliari está 12 posições à frente",
-     "strength": 0.8,
+     "label": "Cagliari está 10 posições à frente",
+     "strength": 0.714,
      "favors": "AWAY",
      "team": null,
      "side": null,
@@ -1097,8 +1097,8 @@
      "kind": "unbeaten"
     },
     {
-     "label": "Cagliari está 12 posições à frente",
-     "strength": 0.8,
+     "label": "Cagliari está 10 posições à frente",
+     "strength": 0.714,
      "favors": "AWAY",
      "team": null,
      "side": null,
@@ -1106,7 +1106,7 @@
      "kind": "table_gap"
     }
    ],
-   "confidence": 50,
+   "confidence": 49,
    "league": {
     "key": "serie_a_ita",
     "name": "Serie A",
@@ -1163,7 +1163,7 @@
    "away_team": {
     "id": 243,
     "name": "Cagliari",
-    "position": 4,
+    "position": 6,
     "played": 6,
     "points": 13.0,
     "record": "4V 1E 1D",
