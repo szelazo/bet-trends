@@ -1,6 +1,6 @@
 {
  "date": "2026-10-20",
- "generated_at": "2026-10-19T14:24:35.133219-03:00",
+ "generated_at": "2026-10-19T20:20:58.862408-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 3,
@@ -24,32 +24,32 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 0.97,
+    "lambda_home": 0.96,
     "lambda_away": 2.37,
-    "expected_goals": 3.34,
+    "expected_goals": 3.33,
     "sample_factor": 1.0,
     "probs": {
      "HOME": 0.137,
-     "DRAW": 0.1774,
-     "AWAY": 0.6856,
-     "1X": 0.3144,
+     "DRAW": 0.1775,
+     "AWAY": 0.6855,
+     "1X": 0.3145,
      "X2": 0.863,
-     "12": 0.8226,
-     "OVER25": 0.6477,
-     "UNDER25": 0.3523,
-     "BTTS_YES": 0.5614,
-     "BTTS_NO": 0.4386
+     "12": 0.8225,
+     "OVER25": 0.6469,
+     "UNDER25": 0.3531,
+     "BTTS_YES": 0.5608,
+     "BTTS_NO": 0.4392
     }
    },
    "pick": {
     "selection": "AWAY",
     "family": "1x2",
     "label": "Vitória do Qadisiya",
-    "model_prob": 0.6856,
+    "model_prob": 0.6855,
     "trend_alignment": 1.0,
     "confidence": 75,
     "eligible": true,
-    "odd": 1.42,
+    "odd": 1.44,
     "low_conviction": false
    },
    "alt_markets": [
@@ -67,7 +67,7 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6477,
+     "model_prob": 0.6469,
      "trend_alignment": 0.313,
      "confidence": 30,
      "eligible": true,
@@ -77,7 +77,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5614,
+     "model_prob": 0.5608,
      "trend_alignment": 0.313,
      "confidence": 19,
      "eligible": false,
@@ -159,7 +159,7 @@
      "kind": "atk_rank"
     },
     {
-     "label": "Al Taawoun é 17º · Qadisiya é 1º",
+     "label": "Al Taawoun é 17º · Qadisiya é 2º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -168,7 +168,7 @@
      "kind": "positions"
     },
     {
-     "label": "Qadisiya está 16 posições à frente",
+     "label": "Qadisiya está 15 posições à frente",
      "strength": 0.8,
      "favors": "AWAY",
      "team": null,
@@ -233,7 +233,7 @@
      "kind": "atk_rank"
     },
     {
-     "label": "Qadisiya está 16 posições à frente",
+     "label": "Qadisiya está 15 posições à frente",
      "strength": 0.8,
      "favors": "AWAY",
      "team": null,
@@ -299,7 +299,7 @@
    "away_team": {
     "id": 8947,
     "name": "Qadisiya",
-    "position": 1,
+    "position": 2,
     "played": 9,
     "points": 22.0,
     "record": "7V 1E 1D",
@@ -369,28 +369,28 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 0.7,
+    "lambda_home": 0.71,
     "lambda_away": 1.74,
-    "expected_goals": 2.44,
+    "expected_goals": 2.45,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.1465,
-     "DRAW": 0.2307,
-     "AWAY": 0.6228,
-     "1X": 0.3772,
-     "X2": 0.8535,
-     "12": 0.7693,
-     "OVER25": 0.4404,
-     "UNDER25": 0.5596,
-     "BTTS_YES": 0.4154,
-     "BTTS_NO": 0.5846
+     "HOME": 0.148,
+     "DRAW": 0.2306,
+     "AWAY": 0.6215,
+     "1X": 0.3785,
+     "X2": 0.852,
+     "12": 0.7694,
+     "OVER25": 0.4434,
+     "UNDER25": 0.5566,
+     "BTTS_YES": 0.419,
+     "BTTS_NO": 0.581
     }
    },
    "pick": {
     "selection": "AWAY",
     "family": "1x2",
     "label": "Vitória do Pyramids",
-    "model_prob": 0.6228,
+    "model_prob": 0.6215,
     "trend_alignment": 1.0,
     "confidence": 74,
     "eligible": true,
@@ -402,7 +402,7 @@
      "selection": "X2",
      "family": "double_chance",
      "label": "Dupla chance: Pyramids ou empate (X2)",
-     "model_prob": 0.8535,
+     "model_prob": 0.852,
      "trend_alignment": 1.0,
      "confidence": 74,
      "eligible": true,
@@ -412,7 +412,7 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.5846,
+     "model_prob": 0.581,
      "trend_alignment": 0.038,
      "confidence": 12,
      "eligible": false,
@@ -422,7 +422,7 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.5596,
+     "model_prob": 0.5566,
      "trend_alignment": 0.038,
      "confidence": 9,
      "eligible": false,
@@ -432,7 +432,7 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.4404,
+     "model_prob": 0.4434,
      "trend_alignment": 0.016,
      "confidence": 1,
      "eligible": false,
@@ -486,7 +486,7 @@
      "kind": "always_concede"
     },
     {
-     "label": "El Geish é 14º · Pyramids é 1º",
+     "label": "El Geish é 13º · Pyramids é 1º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -495,7 +495,7 @@
      "kind": "positions"
     },
     {
-     "label": "Pyramids está 13 posições à frente",
+     "label": "Pyramids está 12 posições à frente",
      "strength": 0.8,
      "favors": "AWAY",
      "team": null,
@@ -533,7 +533,7 @@
      "kind": "losses"
     },
     {
-     "label": "Pyramids está 13 posições à frente",
+     "label": "Pyramids está 12 posições à frente",
      "strength": 0.8,
      "favors": "AWAY",
      "team": null,
@@ -551,7 +551,7 @@
    "home_team": {
     "id": 8306,
     "name": "El Geish",
-    "position": 14,
+    "position": 13,
     "played": 6,
     "points": 7.0,
     "record": "2V 1E 3D",
@@ -669,30 +669,30 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 0.6,
-    "lambda_away": 1.15,
-    "expected_goals": 1.75,
+    "lambda_home": 0.62,
+    "lambda_away": 1.14,
+    "expected_goals": 1.76,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.1919,
-     "DRAW": 0.3161,
-     "AWAY": 0.492,
-     "1X": 0.508,
-     "X2": 0.8081,
-     "12": 0.6839,
-     "OVER25": 0.2555,
-     "UNDER25": 0.7445,
-     "BTTS_YES": 0.3077,
-     "BTTS_NO": 0.6923
+     "HOME": 0.1988,
+     "DRAW": 0.317,
+     "AWAY": 0.4843,
+     "1X": 0.5157,
+     "X2": 0.8012,
+     "12": 0.683,
+     "OVER25": 0.2578,
+     "UNDER25": 0.7422,
+     "BTTS_YES": 0.3129,
+     "BTTS_NO": 0.6871
     }
    },
    "pick": {
     "selection": "X2",
     "family": "double_chance",
     "label": "Dupla chance: Zamalek SC ou empate (X2)",
-    "model_prob": 0.8081,
+    "model_prob": 0.8012,
     "trend_alignment": 1.0,
-    "confidence": 68,
+    "confidence": 67,
     "eligible": true,
     "odd": 1.08,
     "low_conviction": false
@@ -702,7 +702,7 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.7445,
+     "model_prob": 0.7422,
      "trend_alignment": 0.591,
      "confidence": 52,
      "eligible": true,
@@ -712,9 +712,9 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Zamalek SC",
-     "model_prob": 0.492,
+     "model_prob": 0.4843,
      "trend_alignment": 1.0,
-     "confidence": 50,
+     "confidence": 49,
      "eligible": true,
      "odd": 1.39
     },
@@ -722,9 +722,9 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.6923,
+     "model_prob": 0.6871,
      "trend_alignment": 0.591,
-     "confidence": 46,
+     "confidence": 45,
      "eligible": true,
      "odd": null
     },
@@ -732,7 +732,7 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Petrol Asyut",
-     "model_prob": 0.1919,
+     "model_prob": 0.1988,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
@@ -824,7 +824,7 @@
      "kind": "table_gap"
     }
    ],
-   "confidence": 68,
+   "confidence": 67,
    "league": {
     "key": "egypt",
     "name": "Premier League",
