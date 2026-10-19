@@ -1,0 +1,1225 @@
+{
+ "date": "2026-10-21",
+ "generated_at": "2026-10-19T14:24:36.126469-03:00",
+ "version": "0.1.0",
+ "count": 4,
+ "clear_count": 4,
+ "day_total": 25,
+ "games": [
+  {
+   "id": 4804720,
+   "s365_competition_id": 552,
+   "competition_name": "Premier League",
+   "start_time": "2026-10-21T17:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 8200,
+    "name": "Al Ahly SC"
+   },
+   "away": {
+    "id": 12252,
+    "name": "El Qanah FC"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.58,
+    "lambda_away": 0.6,
+    "expected_goals": 2.18,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.613,
+     "DRAW": 0.2485,
+     "AWAY": 0.1384,
+     "1X": 0.8616,
+     "X2": 0.387,
+     "12": 0.7515,
+     "OVER25": 0.3708,
+     "UNDER25": 0.6292,
+     "BTTS_YES": 0.3569,
+     "BTTS_NO": 0.6431
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Al Ahly SC",
+    "model_prob": 0.613,
+    "trend_alignment": 1.0,
+    "confidence": 75,
+    "eligible": true,
+    "odd": 1.26,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Al Ahly SC ou empate (1X)",
+     "model_prob": 0.8616,
+     "trend_alignment": 1.0,
+     "confidence": 75,
+     "eligible": true,
+     "odd": 1.06
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.6431,
+     "trend_alignment": 0.68,
+     "confidence": 42,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.6292,
+     "trend_alignment": 0.68,
+     "confidence": 41,
+     "eligible": true,
+     "odd": 2.1
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do El Qanah FC",
+     "model_prob": 0.1384,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 10.0
+    }
+   ],
+   "trends": [
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "HOME",
+     "team": "Al Ahly SC",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Menos de 2.5 gols em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "UNDER",
+     "team": "Al Ahly SC",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "under"
+    },
+    {
+     "label": "Não venceu nenhum dos últimos 5",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "El Qanah FC",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "Menos de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "UNDER",
+     "team": "El Qanah FC",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "under"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Al Ahly SC",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "El Qanah FC",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Al Ahly SC é 2º · El Qanah FC é 13º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Al Ahly SC está 11 posições à frente",
+     "strength": 0.786,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "HOME",
+     "team": "Al Ahly SC",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Não venceu nenhum dos últimos 5",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "El Qanah FC",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Al Ahly SC",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "El Qanah FC",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Al Ahly SC está 11 posições à frente",
+     "strength": 0.786,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 75,
+   "league": {
+    "key": "egypt",
+    "name": "Premier League",
+    "country": "Egito"
+   },
+   "home_team": {
+    "id": 8200,
+    "name": "Al Ahly SC",
+    "position": 2,
+    "played": 6,
+    "points": 16.0,
+    "record": "5V 1E 0D",
+    "goals_for": 11,
+    "goals_against": 3,
+    "last5": "WWDWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "Zamalek SC",
+      "date": "2026-10-11"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Abo Qir Semad",
+      "date": "2026-09-15"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Al Mokawloon Al Arab",
+      "date": "2026-09-09"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Smouha",
+      "date": "2026-09-03"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "Zed FC",
+      "date": "2026-08-28"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 12252,
+    "name": "El Qanah FC",
+    "position": 13,
+    "played": 6,
+    "points": 7.0,
+    "record": "1V 4E 1D",
+    "goals_for": 6,
+    "goals_against": 6,
+    "last5": "DLDDD",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Al Masry",
+      "date": "2026-10-11"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Zed FC",
+      "date": "2026-09-17"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "El Geish",
+      "date": "2026-09-07"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Wadi Degla",
+      "date": "2026-09-01"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "El Gounah",
+      "date": "2026-08-28"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-21T14:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4804717,
+   "s365_competition_id": 552,
+   "competition_name": "Premier League",
+   "start_time": "2026-10-21T14:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 8610,
+    "name": "Ghazl El-Mehalla"
+   },
+   "away": {
+    "id": 8312,
+    "name": "Al Ittehad"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 0.73,
+    "lambda_away": 1.29,
+    "expected_goals": 2.02,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.2109,
+     "DRAW": 0.2906,
+     "AWAY": 0.4985,
+     "1X": 0.5015,
+     "X2": 0.7891,
+     "12": 0.7094,
+     "OVER25": 0.3276,
+     "UNDER25": 0.6724,
+     "BTTS_YES": 0.3745,
+     "BTTS_NO": 0.6255
+    }
+   },
+   "pick": {
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: Al Ittehad ou empate (X2)",
+    "model_prob": 0.7891,
+    "trend_alignment": 1.0,
+    "confidence": 65,
+    "eligible": true,
+    "odd": 1.44,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Al Ittehad",
+     "model_prob": 0.4985,
+     "trend_alignment": 1.0,
+     "confidence": 51,
+     "eligible": true,
+     "odd": 2.69
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.6724,
+     "trend_alignment": 0.573,
+     "confidence": 42,
+     "eligible": true,
+     "odd": 2.02
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.6255,
+     "trend_alignment": 0.573,
+     "confidence": 36,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Ghazl El-Mehalla",
+     "model_prob": 0.2109,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 2.69
+    }
+   ],
+   "trends": [
+    {
+     "label": "4 vitórias seguidas",
+     "strength": 0.75,
+     "favors": "AWAY",
+     "team": "Al Ittehad",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "AWAY",
+     "team": "Al Ittehad",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Não sofreu gol em 3 dos últimos 5",
+     "strength": 0.39,
+     "favors": "UNDER",
+     "team": "Al Ittehad",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "clean_sheets"
+    },
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "AWAY",
+     "team": "Ghazl El-Mehalla",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Menos de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "UNDER",
+     "team": "Ghazl El-Mehalla",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "under"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Ghazl El-Mehalla",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Ghazl El-Mehalla é 20º · Al Ittehad é 5º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Al Ittehad está 15 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "4 vitórias seguidas",
+     "strength": 0.75,
+     "favors": "AWAY",
+     "team": "Al Ittehad",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "AWAY",
+     "team": "Al Ittehad",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "AWAY",
+     "team": "Ghazl El-Mehalla",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Ghazl El-Mehalla",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Al Ittehad está 15 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 65,
+   "league": {
+    "key": "egypt",
+    "name": "Premier League",
+    "country": "Egito"
+   },
+   "home_team": {
+    "id": 8610,
+    "name": "Ghazl El-Mehalla",
+    "position": 20,
+    "played": 6,
+    "points": 1.0,
+    "record": "0V 1E 5D",
+    "goals_for": 1,
+    "goals_against": 10,
+    "last5": "LLLDL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Smouha",
+      "date": "2026-10-12"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Zamalek SC",
+      "date": "2026-09-16"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": false,
+      "opponent": "National Bank Of Egypt",
+      "date": "2026-09-07"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "ENPPI",
+      "date": "2026-09-01"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Modern Sport FC",
+      "date": "2026-08-27"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 8312,
+    "name": "Al Ittehad",
+    "position": 5,
+    "played": 6,
+    "points": 13.0,
+    "record": "4V 1E 1D",
+    "goals_for": 8,
+    "goals_against": 4,
+    "last5": "WWWWL",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "El Gounah",
+      "date": "2026-10-13"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "Al Masry",
+      "date": "2026-09-15"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Petrol Asyut",
+      "date": "2026-09-07"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "Abo Qir Semad",
+      "date": "2026-09-02"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": true,
+      "opponent": "Ceramica Cleopatra",
+      "date": "2026-08-28"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-21T11:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4732012,
+   "s365_competition_id": 620,
+   "competition_name": "Liga BetPlay - Clausura",
+   "start_time": "2026-10-21T23:15:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 10378,
+    "name": "Llaneros FC"
+   },
+   "away": {
+    "id": 8639,
+    "name": "Deportivo Cali"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 0.9,
+    "lambda_away": 1.05,
+    "expected_goals": 1.95,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.306,
+     "DRAW": 0.3122,
+     "AWAY": 0.3818,
+     "1X": 0.6182,
+     "X2": 0.694,
+     "12": 0.6878,
+     "OVER25": 0.3097,
+     "UNDER25": 0.6903,
+     "BTTS_YES": 0.3858,
+     "BTTS_NO": 0.6142
+    }
+   },
+   "pick": {
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: Deportivo Cali ou empate (X2)",
+    "model_prob": 0.694,
+    "trend_alignment": 1.0,
+    "confidence": 52,
+    "eligible": true,
+    "odd": 1.46,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Deportivo Cali",
+     "model_prob": 0.3818,
+     "trend_alignment": 1.0,
+     "confidence": 39,
+     "eligible": false,
+     "odd": 2.61
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.6903,
+     "trend_alignment": 0.313,
+     "confidence": 36,
+     "eligible": true,
+     "odd": 1.58
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.6142,
+     "trend_alignment": 0.313,
+     "confidence": 26,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Llaneros FC ou empate (1X)",
+     "model_prob": 0.6182,
+     "trend_alignment": 0.0,
+     "confidence": 9,
+     "eligible": false,
+     "odd": 1.49
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 4 dos últimos 6",
+     "strength": 0.55,
+     "favors": "AWAY",
+     "team": "Llaneros FC",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "AWAY",
+     "team": "Deportivo Cali",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Não sofreu gol em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "UNDER",
+     "team": "Deportivo Cali",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "clean_sheets"
+    },
+    {
+     "label": "Melhor defesa da liga (0.6 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "Deportivo Cali",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 2 derrota(s) em 14 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "AWAY",
+     "team": "Deportivo Cali",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Deportivo Cali",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Llaneros FC é 12º · Deportivo Cali é 3º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Deportivo Cali está 9 posições à frente",
+     "strength": 0.643,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 4 dos últimos 6",
+     "strength": 0.55,
+     "favors": "AWAY",
+     "team": "Llaneros FC",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "AWAY",
+     "team": "Deportivo Cali",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Melhor defesa da liga (0.6 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "Deportivo Cali",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 2 derrota(s) em 14 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "AWAY",
+     "team": "Deportivo Cali",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Deportivo Cali",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Deportivo Cali está 9 posições à frente",
+     "strength": 0.643,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 52,
+   "league": {
+    "key": "co_primera",
+    "name": "Liga BetPlay",
+    "country": "Colômbia"
+   },
+   "home_team": {
+    "id": 10378,
+    "name": "Llaneros FC",
+    "position": 12,
+    "played": 14,
+    "points": 17.0,
+    "record": "5V 2E 7D",
+    "goals_for": 16,
+    "goals_against": 17,
+    "last5": "WLLLL",
+    "recent": [
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Independiente Santa Fe",
+      "date": "2026-10-18"
+     },
+     {
+      "result": "L",
+      "score": "1-4",
+      "home": false,
+      "opponent": "Internacional de Bogota",
+      "date": "2026-10-15"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Once Caldas",
+      "date": "2026-10-10"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "America de Cali",
+      "date": "2026-10-05"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Cucuta Deportivo",
+      "date": "2026-09-26"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 8639,
+    "name": "Deportivo Cali",
+    "position": 3,
+    "played": 14,
+    "points": 26.0,
+    "record": "7V 5E 2D",
+    "goals_for": 20,
+    "goals_against": 9,
+    "last5": "DDWWW",
+    "recent": [
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Junior FC",
+      "date": "2026-10-19"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Deportivo Pereira",
+      "date": "2026-10-10"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": true,
+      "opponent": "Alianza FC",
+      "date": "2026-10-03"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Águilas Doradas",
+      "date": "2026-09-28"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Independiente Santa Fe",
+      "date": "2026-09-23"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-21T20:15:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4828456,
+   "s365_competition_id": 572,
+   "competition_name": "UEFA Champions League",
+   "start_time": "2026-10-21T19:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 890,
+    "name": "Sporting CP"
+   },
+   "away": {
+    "id": 1743,
+    "name": "LASK Linz"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.9,
+    "lambda_away": 1.1,
+    "expected_goals": 4.0,
+    "sample_factor": 0.45,
+    "probs": {
+     "HOME": 0.7403,
+     "DRAW": 0.1443,
+     "AWAY": 0.1154,
+     "1X": 0.8846,
+     "X2": 0.2597,
+     "12": 0.8557,
+     "OVER25": 0.7617,
+     "UNDER25": 0.2383,
+     "BTTS_YES": 0.6315,
+     "BTTS_NO": 0.3685
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Sporting CP",
+    "model_prob": 0.7403,
+    "trend_alignment": 1.0,
+    "confidence": 35,
+    "eligible": true,
+    "odd": 1.23,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Sporting CP ou empate (1X)",
+     "model_prob": 0.8846,
+     "trend_alignment": 1.0,
+     "confidence": 35,
+     "eligible": true,
+     "odd": 1.05
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.7617,
+     "trend_alignment": 0.0,
+     "confidence": 15,
+     "eligible": true,
+     "odd": 1.79
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.6315,
+     "trend_alignment": 0.0,
+     "confidence": 8,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.2383,
+     "trend_alignment": 0.25,
+     "confidence": 4,
+     "eligible": false,
+     "odd": 1.99
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 3 dos últimos 4",
+     "strength": 0.588,
+     "favors": "HOME",
+     "team": "LASK Linz",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Ambos marcaram só 1x nos últimos 4",
+     "strength": 0.375,
+     "favors": "BTTS_NO",
+     "team": "LASK Linz",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "no_btts"
+    },
+    {
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Sporting CP",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Sporting CP é 6º · LASK Linz é 33º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Sporting CP está 27 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 3 dos últimos 4",
+     "strength": 0.588,
+     "favors": "HOME",
+     "team": "LASK Linz",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Sporting CP",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Sporting CP está 27 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 35,
+   "league": {
+    "key": "ucl",
+    "name": "UEFA Champions League",
+    "country": "Europa"
+   },
+   "home_team": {
+    "id": 890,
+    "name": "Sporting CP",
+    "position": 6,
+    "played": 2,
+    "points": 6.0,
+    "record": "2V 0E 0D",
+    "goals_for": 5,
+    "goals_against": 1,
+    "last5": "WWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "Lens",
+      "date": "2026-10-13"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": false,
+      "opponent": "SC Braga",
+      "date": "2026-10-09"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": true,
+      "opponent": "Galatasaray",
+      "date": "2026-09-09"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 1743,
+    "name": "LASK Linz",
+    "position": 33,
+    "played": 2,
+    "points": 0,
+    "record": "0V 0E 2D",
+    "goals_for": 3,
+    "goals_against": 7,
+    "last5": "WLLL",
+    "recent": [
+     {
+      "result": "W",
+      "score": "4-0",
+      "home": false,
+      "opponent": "Austria Lustenau",
+      "date": "2026-10-17"
+     },
+     {
+      "result": "L",
+      "score": "3-6",
+      "home": true,
+      "opponent": "Liverpool",
+      "date": "2026-10-14"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": true,
+      "opponent": "Rapid Vienna",
+      "date": "2026-10-11"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "AEK Athens",
+      "date": "2026-09-08"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-21T16:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  }
+ ]
+}

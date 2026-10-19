@@ -1,6 +1,6 @@
 {
  "date": "2026-10-19",
- "generated_at": "2026-10-18T19:15:04.266173-03:00",
+ "generated_at": "2026-10-19T14:24:34.386006-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -21,8 +21,8 @@
     "id": 2060,
     "name": "FC Arges Pitesti"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 2.0,
    "model": {
     "lambda_home": 1.87,
     "lambda_away": 0.97,
@@ -312,7 +312,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "miss",
    "clear": true
   },
   {
@@ -330,8 +330,8 @@
     "id": 8946,
     "name": "Al Ahli Jeddah"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 3.0,
    "model": {
     "lambda_home": 1.12,
     "lambda_away": 1.94,
@@ -603,7 +603,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -649,7 +649,7 @@
     "trend_alignment": 1.0,
     "confidence": 54,
     "eligible": true,
-    "odd": 1.42,
+    "odd": 1.39,
     "low_conviction": false
    },
    "alt_markets": [
@@ -661,7 +661,7 @@
      "trend_alignment": 1.0,
      "confidence": 45,
      "eligible": false,
-     "odd": 2.18
+     "odd": 2.09
     },
     {
      "selection": "BTTS_YES",
@@ -681,7 +681,7 @@
      "trend_alignment": 0.211,
      "confidence": 7,
      "eligible": false,
-     "odd": 1.65
+     "odd": 1.59
     },
     {
      "selection": "UNDER25",
@@ -691,7 +691,7 @@
      "trend_alignment": 0.0,
      "confidence": 5,
      "eligible": false,
-     "odd": 2.13
+     "odd": 2.28
     }
    ],
    "trends": [

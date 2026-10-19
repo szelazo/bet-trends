@@ -1,6 +1,6 @@
 {
  "date": "2026-10-20",
- "generated_at": "2026-10-18T19:15:05.020657-03:00",
+ "generated_at": "2026-10-19T14:24:35.133219-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 3,
@@ -24,32 +24,32 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 0.96,
-    "lambda_away": 2.36,
-    "expected_goals": 3.33,
+    "lambda_home": 0.97,
+    "lambda_away": 2.37,
+    "expected_goals": 3.34,
     "sample_factor": 1.0,
     "probs": {
      "HOME": 0.137,
-     "DRAW": 0.1778,
-     "AWAY": 0.6852,
-     "1X": 0.3148,
+     "DRAW": 0.1774,
+     "AWAY": 0.6856,
+     "1X": 0.3144,
      "X2": 0.863,
-     "12": 0.8222,
-     "OVER25": 0.6456,
-     "UNDER25": 0.3544,
-     "BTTS_YES": 0.5597,
-     "BTTS_NO": 0.4403
+     "12": 0.8226,
+     "OVER25": 0.6477,
+     "UNDER25": 0.3523,
+     "BTTS_YES": 0.5614,
+     "BTTS_NO": 0.4386
     }
    },
    "pick": {
     "selection": "AWAY",
     "family": "1x2",
     "label": "Vitória do Qadisiya",
-    "model_prob": 0.6852,
+    "model_prob": 0.6856,
     "trend_alignment": 1.0,
     "confidence": 75,
     "eligible": true,
-    "odd": 1.48,
+    "odd": 1.42,
     "low_conviction": false
    },
    "alt_markets": [
@@ -61,13 +61,13 @@
      "trend_alignment": 1.0,
      "confidence": 75,
      "eligible": true,
-     "odd": 1.19
+     "odd": 1.17
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6456,
+     "model_prob": 0.6477,
      "trend_alignment": 0.313,
      "confidence": 30,
      "eligible": true,
@@ -77,7 +77,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5597,
+     "model_prob": 0.5614,
      "trend_alignment": 0.313,
      "confidence": 19,
      "eligible": false,
@@ -91,7 +91,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 4.75
+     "odd": 5.0
     }
    ],
    "trends": [
@@ -369,32 +369,32 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 0.71,
+    "lambda_home": 0.7,
     "lambda_away": 1.74,
-    "expected_goals": 2.45,
+    "expected_goals": 2.44,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.1476,
-     "DRAW": 0.2303,
-     "AWAY": 0.6221,
-     "1X": 0.3779,
-     "X2": 0.8524,
-     "12": 0.7697,
-     "OVER25": 0.4437,
-     "UNDER25": 0.5563,
-     "BTTS_YES": 0.4188,
-     "BTTS_NO": 0.5812
+     "HOME": 0.1465,
+     "DRAW": 0.2307,
+     "AWAY": 0.6228,
+     "1X": 0.3772,
+     "X2": 0.8535,
+     "12": 0.7693,
+     "OVER25": 0.4404,
+     "UNDER25": 0.5596,
+     "BTTS_YES": 0.4154,
+     "BTTS_NO": 0.5846
     }
    },
    "pick": {
     "selection": "AWAY",
     "family": "1x2",
     "label": "Vitória do Pyramids",
-    "model_prob": 0.6221,
+    "model_prob": 0.6228,
     "trend_alignment": 1.0,
     "confidence": 74,
     "eligible": true,
-    "odd": 1.52,
+    "odd": 1.47,
     "low_conviction": false
    },
    "alt_markets": [
@@ -402,17 +402,17 @@
      "selection": "X2",
      "family": "double_chance",
      "label": "Dupla chance: Pyramids ou empate (X2)",
-     "model_prob": 0.8524,
+     "model_prob": 0.8535,
      "trend_alignment": 1.0,
      "confidence": 74,
      "eligible": true,
-     "odd": 1.13
+     "odd": 1.12
     },
     {
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.5812,
+     "model_prob": 0.5846,
      "trend_alignment": 0.038,
      "confidence": 12,
      "eligible": false,
@@ -422,7 +422,7 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.5563,
+     "model_prob": 0.5596,
      "trend_alignment": 0.038,
      "confidence": 9,
      "eligible": false,
@@ -432,7 +432,7 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.4437,
+     "model_prob": 0.4404,
      "trend_alignment": 0.016,
      "confidence": 1,
      "eligible": false,
@@ -669,30 +669,30 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 0.61,
-    "lambda_away": 1.14,
-    "expected_goals": 1.76,
+    "lambda_home": 0.6,
+    "lambda_away": 1.15,
+    "expected_goals": 1.75,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.1982,
-     "DRAW": 0.3169,
-     "AWAY": 0.4849,
-     "1X": 0.5151,
-     "X2": 0.8018,
-     "12": 0.6831,
-     "OVER25": 0.2576,
-     "UNDER25": 0.7424,
-     "BTTS_YES": 0.3124,
-     "BTTS_NO": 0.6876
+     "HOME": 0.1919,
+     "DRAW": 0.3161,
+     "AWAY": 0.492,
+     "1X": 0.508,
+     "X2": 0.8081,
+     "12": 0.6839,
+     "OVER25": 0.2555,
+     "UNDER25": 0.7445,
+     "BTTS_YES": 0.3077,
+     "BTTS_NO": 0.6923
     }
    },
    "pick": {
     "selection": "X2",
     "family": "double_chance",
     "label": "Dupla chance: Zamalek SC ou empate (X2)",
-    "model_prob": 0.8018,
+    "model_prob": 0.8081,
     "trend_alignment": 1.0,
-    "confidence": 67,
+    "confidence": 68,
     "eligible": true,
     "odd": 1.08,
     "low_conviction": false
@@ -702,7 +702,7 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.7424,
+     "model_prob": 0.7445,
      "trend_alignment": 0.591,
      "confidence": 52,
      "eligible": true,
@@ -712,9 +712,9 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Zamalek SC",
-     "model_prob": 0.4849,
+     "model_prob": 0.492,
      "trend_alignment": 1.0,
-     "confidence": 49,
+     "confidence": 50,
      "eligible": true,
      "odd": 1.39
     },
@@ -722,9 +722,9 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.6876,
+     "model_prob": 0.6923,
      "trend_alignment": 0.591,
-     "confidence": 45,
+     "confidence": 46,
      "eligible": true,
      "odd": null
     },
@@ -732,7 +732,7 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Petrol Asyut",
-     "model_prob": 0.1982,
+     "model_prob": 0.1919,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
@@ -824,7 +824,7 @@
      "kind": "table_gap"
     }
    ],
-   "confidence": 67,
+   "confidence": 68,
    "league": {
     "key": "egypt",
     "name": "Premier League",
