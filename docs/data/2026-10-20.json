@@ -1,6 +1,6 @@
 {
  "date": "2026-10-20",
- "generated_at": "2026-10-19T20:20:58.862408-03:00",
+ "generated_at": "2026-10-20T12:36:27.294699-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 3,
@@ -374,27 +374,27 @@
     "expected_goals": 2.45,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.148,
-     "DRAW": 0.2306,
-     "AWAY": 0.6215,
-     "1X": 0.3785,
-     "X2": 0.852,
-     "12": 0.7694,
-     "OVER25": 0.4434,
-     "UNDER25": 0.5566,
-     "BTTS_YES": 0.419,
-     "BTTS_NO": 0.581
+     "HOME": 0.1475,
+     "DRAW": 0.2303,
+     "AWAY": 0.6222,
+     "1X": 0.3778,
+     "X2": 0.8525,
+     "12": 0.7697,
+     "OVER25": 0.4437,
+     "UNDER25": 0.5563,
+     "BTTS_YES": 0.4188,
+     "BTTS_NO": 0.5812
     }
    },
    "pick": {
     "selection": "AWAY",
     "family": "1x2",
     "label": "Vitória do Pyramids",
-    "model_prob": 0.6215,
+    "model_prob": 0.6222,
     "trend_alignment": 1.0,
     "confidence": 74,
     "eligible": true,
-    "odd": 1.47,
+    "odd": 1.44,
     "low_conviction": false
    },
    "alt_markets": [
@@ -402,17 +402,17 @@
      "selection": "X2",
      "family": "double_chance",
      "label": "Dupla chance: Pyramids ou empate (X2)",
-     "model_prob": 0.852,
+     "model_prob": 0.8525,
      "trend_alignment": 1.0,
      "confidence": 74,
      "eligible": true,
-     "odd": 1.12
+     "odd": 1.1
     },
     {
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.581,
+     "model_prob": 0.5812,
      "trend_alignment": 0.038,
      "confidence": 12,
      "eligible": false,
@@ -422,21 +422,21 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.5566,
+     "model_prob": 0.5563,
      "trend_alignment": 0.038,
      "confidence": 9,
      "eligible": false,
-     "odd": 1.67
+     "odd": 1.7
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.4434,
+     "model_prob": 0.4437,
      "trend_alignment": 0.016,
      "confidence": 1,
      "eligible": false,
-     "odd": 2.15
+     "odd": 2.1
     }
    ],
    "trends": [
@@ -486,7 +486,7 @@
      "kind": "always_concede"
     },
     {
-     "label": "El Geish é 13º · Pyramids é 1º",
+     "label": "El Geish é 14º · Pyramids é 1º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -495,7 +495,7 @@
      "kind": "positions"
     },
     {
-     "label": "Pyramids está 12 posições à frente",
+     "label": "Pyramids está 13 posições à frente",
      "strength": 0.8,
      "favors": "AWAY",
      "team": null,
@@ -533,7 +533,7 @@
      "kind": "losses"
     },
     {
-     "label": "Pyramids está 12 posições à frente",
+     "label": "Pyramids está 13 posições à frente",
      "strength": 0.8,
      "favors": "AWAY",
      "team": null,
@@ -551,7 +551,7 @@
    "home_team": {
     "id": 8306,
     "name": "El Geish",
-    "position": 13,
+    "position": 14,
     "played": 6,
     "points": 7.0,
     "record": "2V 1E 3D",

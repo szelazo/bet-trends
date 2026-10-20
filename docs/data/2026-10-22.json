@@ -1,0 +1,906 @@
+{
+ "date": "2026-10-22",
+ "generated_at": "2026-10-20T12:36:29.023736-03:00",
+ "version": "0.1.0",
+ "count": 3,
+ "clear_count": 2,
+ "day_total": 45,
+ "games": [
+  {
+   "id": 4828717,
+   "s365_competition_id": 573,
+   "competition_name": "UEFA Europa League",
+   "start_time": "2026-10-22T19:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 351,
+    "name": "Hoffenheim"
+   },
+   "away": {
+    "id": 465,
+    "name": "Lyon"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.29,
+    "lambda_away": 2.35,
+    "expected_goals": 3.65,
+    "sample_factor": 0.45,
+    "probs": {
+     "HOME": 0.1995,
+     "DRAW": 0.1908,
+     "AWAY": 0.6097,
+     "1X": 0.3903,
+     "X2": 0.8005,
+     "12": 0.8092,
+     "OVER25": 0.7053,
+     "UNDER25": 0.2947,
+     "BTTS_YES": 0.6568,
+     "BTTS_NO": 0.3432
+    }
+   },
+   "pick": {
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: Lyon ou empate (X2)",
+    "model_prob": 0.8005,
+    "trend_alignment": 1.0,
+    "confidence": 30,
+    "eligible": true,
+    "odd": 1.82,
+    "low_conviction": true
+   },
+   "alt_markets": [
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Lyon",
+     "model_prob": 0.6097,
+     "trend_alignment": 1.0,
+     "confidence": 28,
+     "eligible": true,
+     "odd": 3.25
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.7053,
+     "trend_alignment": 0.667,
+     "confidence": 23,
+     "eligible": true,
+     "odd": 2.19
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.6568,
+     "trend_alignment": 0.667,
+     "confidence": 20,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Hoffenheim",
+     "model_prob": 0.1995,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 2.0
+    }
+   ],
+   "trends": [
+    {
+     "label": "Venceu 3 dos últimos 4",
+     "strength": 0.625,
+     "favors": "AWAY",
+     "team": "Lyon",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 4",
+     "strength": 0.55,
+     "favors": "OVER",
+     "team": "Lyon",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 4",
+     "strength": 0.588,
+     "favors": "AWAY",
+     "team": "Hoffenheim",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Mais de 2.5 gols em 3 dos últimos 4",
+     "strength": 0.45,
+     "favors": "OVER",
+     "team": "Hoffenheim",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Hoffenheim é 30º · Lyon é 8º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Lyon está 22 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Venceu 3 dos últimos 4",
+     "strength": 0.625,
+     "favors": "AWAY",
+     "team": "Lyon",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 4",
+     "strength": 0.588,
+     "favors": "AWAY",
+     "team": "Hoffenheim",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Lyon está 22 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 30,
+   "league": {
+    "key": "uel",
+    "name": "UEFA Europa League",
+    "country": "Europa"
+   },
+   "home_team": {
+    "id": 351,
+    "name": "Hoffenheim",
+    "position": 30,
+    "played": 2,
+    "points": 0,
+    "record": "0V 0E 2D",
+    "goals_for": 2,
+    "goals_against": 5,
+    "last5": "WLLL",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Borussia Mönchengladbach",
+      "date": "2026-10-18"
+     },
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": true,
+      "opponent": "Besiktas",
+      "date": "2026-10-15"
+     },
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": true,
+      "opponent": "Hamburger SV",
+      "date": "2026-10-10"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "OFI Crete",
+      "date": "2026-09-17"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 465,
+    "name": "Lyon",
+    "position": 8,
+    "played": 2,
+    "points": 6.0,
+    "record": "2V 0E 0D",
+    "goals_for": 5,
+    "goals_against": 3,
+    "last5": "WWLW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "OGC Nice",
+      "date": "2026-10-18"
+     },
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": true,
+      "opponent": "Crystal Palace",
+      "date": "2026-10-15"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Lens",
+      "date": "2026-10-09"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Anderlecht",
+      "date": "2026-09-16"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-22T16:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4828906,
+   "s365_competition_id": 7685,
+   "competition_name": "UEFA Conference League",
+   "start_time": "2026-10-22T19:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 895,
+    "name": "SC Braga"
+   },
+   "away": {
+    "id": 1174,
+    "name": "KAA Gent"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 0.79,
+    "lambda_away": 1.02,
+    "expected_goals": 1.82,
+    "sample_factor": 0.45,
+    "probs": {
+     "HOME": 0.276,
+     "DRAW": 0.3237,
+     "AWAY": 0.4004,
+     "1X": 0.5996,
+     "X2": 0.724,
+     "12": 0.6763,
+     "OVER25": 0.2744,
+     "UNDER25": 0.7256,
+     "BTTS_YES": 0.3514,
+     "BTTS_NO": 0.6486
+    }
+   },
+   "pick": {
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: KAA Gent ou empate (X2)",
+    "model_prob": 0.724,
+    "trend_alignment": 1.0,
+    "confidence": 25,
+    "eligible": true,
+    "odd": 2.19,
+    "low_conviction": true
+   },
+   "alt_markets": [
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.7256,
+     "trend_alignment": 0.565,
+     "confidence": 22,
+     "eligible": true,
+     "odd": 1.69
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do KAA Gent",
+     "model_prob": 0.4004,
+     "trend_alignment": 1.0,
+     "confidence": 18,
+     "eligible": false,
+     "odd": 4.77
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.6486,
+     "trend_alignment": 0.565,
+     "confidence": 18,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: SC Braga ou empate (1X)",
+     "model_prob": 0.5996,
+     "trend_alignment": 0.0,
+     "confidence": 3,
+     "eligible": false,
+     "odd": 1.2
+    }
+   ],
+   "trends": [
+    {
+     "label": "Invicto em 6 dos últimos 6",
+     "strength": 0.55,
+     "favors": "AWAY",
+     "team": "KAA Gent",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Menos de 2.5 gols em 5 dos últimos 6",
+     "strength": 0.483,
+     "favors": "UNDER",
+     "team": "KAA Gent",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "under"
+    },
+    {
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "KAA Gent",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Ambos marcaram só 2x nos últimos 7",
+     "strength": 0.364,
+     "favors": "BTTS_NO",
+     "team": "SC Braga",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "no_btts"
+    },
+    {
+     "label": "SC Braga é 35º · KAA Gent é 16º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "KAA Gent está 19 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Invicto em 6 dos últimos 6",
+     "strength": 0.55,
+     "favors": "AWAY",
+     "team": "KAA Gent",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "KAA Gent",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "KAA Gent está 19 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 25,
+   "league": {
+    "key": "uecl",
+    "name": "UEFA Conference League",
+    "country": "Europa"
+   },
+   "home_team": {
+    "id": 895,
+    "name": "SC Braga",
+    "position": 35,
+    "played": 1,
+    "points": 0,
+    "record": "0V 0E 1D",
+    "goals_for": 0,
+    "goals_against": 3,
+    "last5": "LLLDW",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Gil Vicente FC",
+      "date": "2026-10-19"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": false,
+      "opponent": "FC Copenhagen",
+      "date": "2026-10-15"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": true,
+      "opponent": "Sporting CP",
+      "date": "2026-10-09"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Austria Vienna",
+      "date": "2026-08-27"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Austria Vienna",
+      "date": "2026-08-20"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 1174,
+    "name": "KAA Gent",
+    "position": 16,
+    "played": 1,
+    "points": 3.0,
+    "record": "1V 0E 0D",
+    "goals_for": 1,
+    "goals_against": 0,
+    "last5": "WWWDD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Aarhus",
+      "date": "2026-10-15"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "Zulte Waregem",
+      "date": "2026-10-10"
+     },
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": false,
+      "opponent": "Hibernian",
+      "date": "2026-08-27"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Hibernian",
+      "date": "2026-08-20"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "IFK Göteborg",
+      "date": "2026-08-13"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-22T16:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4731967,
+   "s365_competition_id": 620,
+   "competition_name": "Liga BetPlay - Clausura",
+   "start_time": "2026-10-23T01:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 8640,
+    "name": "Atletico Nacional"
+   },
+   "away": {
+    "id": 9048,
+    "name": "Deportivo Pasto"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.73,
+    "lambda_away": 0.66,
+    "expected_goals": 2.39,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.6331,
+     "DRAW": 0.2301,
+     "AWAY": 0.1368,
+     "1X": 0.8632,
+     "X2": 0.3669,
+     "12": 0.7699,
+     "OVER25": 0.4264,
+     "UNDER25": 0.5736,
+     "BTTS_YES": 0.3956,
+     "BTTS_NO": 0.6044
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Atletico Nacional",
+    "model_prob": 0.6331,
+    "trend_alignment": 1.0,
+    "confidence": 75,
+    "eligible": true,
+    "odd": 1.22,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Atletico Nacional ou empate (1X)",
+     "model_prob": 0.8632,
+     "trend_alignment": 1.0,
+     "confidence": 75,
+     "eligible": true,
+     "odd": 1.03
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.6044,
+     "trend_alignment": 0.366,
+     "confidence": 26,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.5736,
+     "trend_alignment": 0.366,
+     "confidence": 22,
+     "eligible": false,
+     "odd": 2.2
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Deportivo Pasto",
+     "model_prob": 0.1368,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 13.0
+    }
+   ],
+   "trends": [
+    {
+     "label": "Invicto em 4 dos últimos 4 em casa",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Atletico Nacional",
+     "side": "HOME",
+     "group": "casa_fora",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Ambos marcaram em 3 dos últimos 4 em casa",
+     "strength": 0.412,
+     "favors": "BTTS_YES",
+     "team": "Atletico Nacional",
+     "side": "HOME",
+     "group": "casa_fora",
+     "kind": "btts"
+    },
+    {
+     "label": "Invicto em 5 dos últimos 6",
+     "strength": 0.492,
+     "favors": "HOME",
+     "team": "Atletico Nacional",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Menos de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "UNDER",
+     "team": "Deportivo Pasto",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "under"
+    },
+    {
+     "label": "Ambos marcaram só 0x nos últimos 5",
+     "strength": 0.45,
+     "favors": "BTTS_NO",
+     "team": "Deportivo Pasto",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "no_btts"
+    },
+    {
+     "label": "Melhor ataque da liga (2.1 marcados/jogo)",
+     "strength": 0.44,
+     "favors": "HOME",
+     "team": "Atletico Nacional",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Só 2 derrota(s) em 12 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "HOME",
+     "team": "Atletico Nacional",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Invicto há 5 jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Atletico Nacional",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Atletico Nacional é 2º · Deportivo Pasto é 20º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Atletico Nacional está 18 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Invicto em 4 dos últimos 4 em casa",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Atletico Nacional",
+     "side": "HOME",
+     "group": "casa_fora",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Invicto em 5 dos últimos 6",
+     "strength": 0.492,
+     "favors": "HOME",
+     "team": "Atletico Nacional",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Melhor ataque da liga (2.1 marcados/jogo)",
+     "strength": 0.44,
+     "favors": "HOME",
+     "team": "Atletico Nacional",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Só 2 derrota(s) em 12 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "HOME",
+     "team": "Atletico Nacional",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Invicto há 5 jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Atletico Nacional",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Atletico Nacional está 18 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 75,
+   "league": {
+    "key": "co_primera",
+    "name": "Liga BetPlay",
+    "country": "Colômbia"
+   },
+   "home_team": {
+    "id": 8640,
+    "name": "Atletico Nacional",
+    "position": 2,
+    "played": 12,
+    "points": 26.0,
+    "record": "8V 2E 2D",
+    "goals_for": 25,
+    "goals_against": 11,
+    "last5": "WWDWD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "4-1",
+      "home": false,
+      "opponent": "Boyaca Chico",
+      "date": "2026-10-17"
+     },
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": true,
+      "opponent": "Independiente Medellin",
+      "date": "2026-10-15"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Deportes Tolima",
+      "date": "2026-10-08"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": true,
+      "opponent": "Junior FC",
+      "date": "2026-10-01"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Millonarios",
+      "date": "2026-09-25"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 9048,
+    "name": "Deportivo Pasto",
+    "position": 20,
+    "played": 13,
+    "points": 9.0,
+    "record": "2V 3E 8D",
+    "goals_for": 9,
+    "goals_against": 19,
+    "last5": "LDLWW",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Alianza FC",
+      "date": "2026-10-20"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Fortaleza FC",
+      "date": "2026-10-04"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": false,
+      "opponent": "Boyaca Chico",
+      "date": "2026-09-25"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Once Caldas",
+      "date": "2026-09-20"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "America de Cali",
+      "date": "2026-09-15"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-22T22:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": false,
+   "below_bar": true
+  }
+ ]
+}
