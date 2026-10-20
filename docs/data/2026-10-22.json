@@ -1,6 +1,6 @@
 {
  "date": "2026-10-22",
- "generated_at": "2026-10-20T12:36:29.023736-03:00",
+ "generated_at": "2026-10-20T19:56:41.105456-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 2,
@@ -49,7 +49,7 @@
     "trend_alignment": 1.0,
     "confidence": 30,
     "eligible": true,
-    "odd": 1.82,
+    "odd": 1.86,
     "low_conviction": true
    },
    "alt_markets": [
@@ -61,7 +61,7 @@
      "trend_alignment": 1.0,
      "confidence": 28,
      "eligible": true,
-     "odd": 3.25
+     "odd": 3.4
     },
     {
      "selection": "OVER25",
@@ -91,7 +91,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 2.0
+     "odd": 1.95
     }
    ],
    "trends": [
@@ -575,27 +575,27 @@
    "away_score": -1.0,
    "model": {
     "lambda_home": 1.73,
-    "lambda_away": 0.66,
+    "lambda_away": 0.65,
     "expected_goals": 2.39,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.6331,
-     "DRAW": 0.2301,
-     "AWAY": 0.1368,
-     "1X": 0.8632,
-     "X2": 0.3669,
-     "12": 0.7699,
-     "OVER25": 0.4264,
-     "UNDER25": 0.5736,
-     "BTTS_YES": 0.3956,
-     "BTTS_NO": 0.6044
+     "HOME": 0.6341,
+     "DRAW": 0.2297,
+     "AWAY": 0.1363,
+     "1X": 0.8637,
+     "X2": 0.3659,
+     "12": 0.7703,
+     "OVER25": 0.4269,
+     "UNDER25": 0.5731,
+     "BTTS_YES": 0.3954,
+     "BTTS_NO": 0.6046
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Atletico Nacional",
-    "model_prob": 0.6331,
+    "model_prob": 0.6341,
     "trend_alignment": 1.0,
     "confidence": 75,
     "eligible": true,
@@ -607,7 +607,7 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Atletico Nacional ou empate (1X)",
-     "model_prob": 0.8632,
+     "model_prob": 0.8637,
      "trend_alignment": 1.0,
      "confidence": 75,
      "eligible": true,
@@ -617,7 +617,7 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.6044,
+     "model_prob": 0.6046,
      "trend_alignment": 0.366,
      "confidence": 26,
      "eligible": true,
@@ -627,7 +627,7 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.5736,
+     "model_prob": 0.5731,
      "trend_alignment": 0.366,
      "confidence": 22,
      "eligible": false,
@@ -637,7 +637,7 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Deportivo Pasto",
-     "model_prob": 0.1368,
+     "model_prob": 0.1363,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,

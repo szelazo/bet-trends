@@ -1,6 +1,6 @@
 {
  "date": "2026-10-20",
- "generated_at": "2026-10-20T12:36:27.294699-03:00",
+ "generated_at": "2026-10-20T19:56:39.350419-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 3,
@@ -21,8 +21,8 @@
     "id": 8947,
     "name": "Qadisiya"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 0.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 0.96,
     "lambda_away": 2.37,
@@ -348,7 +348,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -366,8 +366,8 @@
     "id": 22143,
     "name": "Pyramids"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 1.0,
+   "away_score": 4.0,
    "model": {
     "lambda_home": 0.71,
     "lambda_away": 1.74,
@@ -648,7 +648,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -666,8 +666,8 @@
     "id": 8201,
     "name": "Zamalek SC"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 0.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 0.62,
     "lambda_away": 1.14,
@@ -930,7 +930,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   }
  ]
