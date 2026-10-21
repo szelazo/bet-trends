@@ -1,6 +1,6 @@
 {
  "date": "2026-10-21",
- "generated_at": "2026-10-21T12:54:51.645346-03:00",
+ "generated_at": "2026-10-21T20:02:13.949841-03:00",
  "version": "0.1.0",
  "count": 4,
  "clear_count": 4,
@@ -21,8 +21,8 @@
     "id": 12252,
     "name": "El Qanah FC"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 3.0,
+   "away_score": 3.0,
    "model": {
     "lambda_home": 1.55,
     "lambda_away": 0.61,
@@ -321,7 +321,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "miss",
    "clear": true
   },
   {
@@ -339,8 +339,8 @@
     "id": 8312,
     "name": "Al Ittehad"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 0.74,
     "lambda_away": 1.26,
@@ -639,7 +639,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "miss",
    "clear": true
   },
   {
@@ -685,7 +685,7 @@
     "trend_alignment": 1.0,
     "confidence": 53,
     "eligible": true,
-    "odd": 1.38,
+    "odd": 1.42,
     "low_conviction": false
    },
    "alt_markets": [
@@ -697,7 +697,7 @@
      "trend_alignment": 1.0,
      "confidence": 39,
      "eligible": false,
-     "odd": 2.34
+     "odd": 2.49
     },
     {
      "selection": "UNDER25",
@@ -727,7 +727,7 @@
      "trend_alignment": 0.0,
      "confidence": 9,
      "eligible": false,
-     "odd": 1.6
+     "odd": 1.53
     }
    ],
    "trends": [
@@ -984,8 +984,8 @@
     "id": 1743,
     "name": "LASK Linz"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 3.0,
    "model": {
     "lambda_home": 2.9,
     "lambda_away": 1.12,
@@ -1218,7 +1218,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "miss",
    "clear": true
   }
  ]
