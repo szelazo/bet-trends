@@ -657,8 +657,8 @@
     "id": 8639,
     "name": "Deportivo Cali"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 0.0,
+   "away_score": 3.0,
    "model": {
     "lambda_home": 0.9,
     "lambda_away": 1.05,
@@ -966,7 +966,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {

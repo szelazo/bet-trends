@@ -1,6 +1,6 @@
 {
  "date": "2026-10-23",
- "generated_at": "2026-10-21T20:02:15.944278-03:00",
+ "generated_at": "2026-10-22T12:51:32.014709-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -890,30 +890,30 @@
    "model": {
     "lambda_home": 2.26,
     "lambda_away": 1.03,
-    "expected_goals": 3.28,
+    "expected_goals": 3.29,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.6513,
-     "DRAW": 0.1897,
-     "AWAY": 0.159,
-     "1X": 0.841,
-     "X2": 0.3487,
-     "12": 0.8103,
-     "OVER25": 0.6369,
-     "UNDER25": 0.3631,
-     "BTTS_YES": 0.5742,
-     "BTTS_NO": 0.4258
+     "HOME": 0.6516,
+     "DRAW": 0.1895,
+     "AWAY": 0.1589,
+     "1X": 0.8411,
+     "X2": 0.3484,
+     "12": 0.8105,
+     "OVER25": 0.6376,
+     "UNDER25": 0.3624,
+     "BTTS_YES": 0.5746,
+     "BTTS_NO": 0.4254
     }
    },
    "pick": {
     "selection": "1X",
     "family": "double_chance",
     "label": "Dupla chance: Al Shamal ou empate (1X)",
-    "model_prob": 0.841,
+    "model_prob": 0.8411,
     "trend_alignment": 1.0,
     "confidence": 72,
     "eligible": true,
-    "odd": 1.27,
+    "odd": 1.26,
     "low_conviction": false
    },
    "alt_markets": [
@@ -921,17 +921,17 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Al Shamal",
-     "model_prob": 0.6513,
+     "model_prob": 0.6516,
      "trend_alignment": 1.0,
      "confidence": 66,
      "eligible": true,
-     "odd": 1.72
+     "odd": 1.7
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6369,
+     "model_prob": 0.6376,
      "trend_alignment": 0.0,
      "confidence": 18,
      "eligible": true,
@@ -941,7 +941,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5742,
+     "model_prob": 0.5746,
      "trend_alignment": 0.0,
      "confidence": 10,
      "eligible": false,
@@ -951,11 +951,11 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Qatar SC",
-     "model_prob": 0.159,
+     "model_prob": 0.1589,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 3.69
+     "odd": 3.79
     }
    ],
    "trends": [
@@ -1189,31 +1189,31 @@
    "away_score": -1.0,
    "model": {
     "lambda_home": 1.12,
-    "lambda_away": 2.37,
-    "expected_goals": 3.49,
+    "lambda_away": 2.36,
+    "expected_goals": 3.48,
     "sample_factor": 1.0,
     "probs": {
      "HOME": 0.166,
-     "DRAW": 0.1846,
-     "AWAY": 0.6494,
-     "1X": 0.3506,
+     "DRAW": 0.1847,
+     "AWAY": 0.6492,
+     "1X": 0.3508,
      "X2": 0.834,
-     "12": 0.8154,
-     "OVER25": 0.6766,
-     "UNDER25": 0.3234,
-     "BTTS_YES": 0.6111,
-     "BTTS_NO": 0.3889
+     "12": 0.8153,
+     "OVER25": 0.6758,
+     "UNDER25": 0.3242,
+     "BTTS_YES": 0.6105,
+     "BTTS_NO": 0.3895
     }
    },
    "pick": {
     "selection": "AWAY",
     "family": "1x2",
     "label": "Vitória do Al Rayyan",
-    "model_prob": 0.6494,
+    "model_prob": 0.6492,
     "trend_alignment": 1.0,
     "confidence": 71,
     "eligible": true,
-    "odd": 1.32,
+    "odd": 1.24,
     "low_conviction": false
    },
    "alt_markets": [
@@ -1225,23 +1225,23 @@
      "trend_alignment": 1.0,
      "confidence": 71,
      "eligible": true,
-     "odd": 1.1
+     "odd": 1.08
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6766,
+     "model_prob": 0.6758,
      "trend_alignment": 0.079,
      "confidence": 26,
      "eligible": true,
-     "odd": 1.99
+     "odd": 1.9
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.6111,
+     "model_prob": 0.6105,
      "trend_alignment": 0.079,
      "confidence": 17,
      "eligible": true,
@@ -1255,7 +1255,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 7.0
+     "odd": 8.0
     }
    ],
    "trends": [
@@ -1314,7 +1314,7 @@
      "kind": "unbeaten_streak"
     },
     {
-     "label": "Al Sailiya é 12º · Al Rayyan é 1º",
+     "label": "Al Sailiya é 12º · Al Rayyan é 2º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -1323,8 +1323,8 @@
      "kind": "positions"
     },
     {
-     "label": "Al Rayyan está 11 posições à frente",
-     "strength": 0.786,
+     "label": "Al Rayyan está 10 posições à frente",
+     "strength": 0.714,
      "favors": "AWAY",
      "team": null,
      "side": null,
@@ -1370,8 +1370,8 @@
      "kind": "unbeaten_streak"
     },
     {
-     "label": "Al Rayyan está 11 posições à frente",
-     "strength": 0.786,
+     "label": "Al Rayyan está 10 posições à frente",
+     "strength": 0.714,
      "favors": "AWAY",
      "team": null,
      "side": null,
@@ -1436,7 +1436,7 @@
    "away_team": {
     "id": 7077,
     "name": "Al Rayyan",
-    "position": 1,
+    "position": 2,
     "played": 6,
     "points": 14.0,
     "record": "4V 2E 0D",

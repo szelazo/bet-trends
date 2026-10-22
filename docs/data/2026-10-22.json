@@ -1,6 +1,6 @@
 {
  "date": "2026-10-22",
- "generated_at": "2026-10-21T20:02:14.699591-03:00",
+ "generated_at": "2026-10-22T12:51:30.773109-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 2,
@@ -49,7 +49,7 @@
     "trend_alignment": 1.0,
     "confidence": 30,
     "eligible": true,
-    "odd": 1.82,
+    "odd": 1.84,
     "low_conviction": true
    },
    "alt_markets": [
@@ -292,32 +292,32 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 0.85,
+    "lambda_home": 0.86,
     "lambda_away": 1.06,
-    "expected_goals": 1.9,
+    "expected_goals": 1.92,
     "sample_factor": 0.45,
     "probs": {
-     "HOME": 0.2872,
-     "DRAW": 0.3153,
-     "AWAY": 0.3974,
-     "1X": 0.6026,
-     "X2": 0.7128,
-     "12": 0.6847,
-     "OVER25": 0.2975,
-     "UNDER25": 0.7025,
-     "BTTS_YES": 0.3731,
-     "BTTS_NO": 0.6269
+     "HOME": 0.2891,
+     "DRAW": 0.3139,
+     "AWAY": 0.397,
+     "1X": 0.603,
+     "X2": 0.7109,
+     "12": 0.6861,
+     "OVER25": 0.3017,
+     "UNDER25": 0.6983,
+     "BTTS_YES": 0.3769,
+     "BTTS_NO": 0.6231
     }
    },
    "pick": {
     "selection": "X2",
     "family": "double_chance",
     "label": "Dupla chance: KAA Gent ou empate (X2)",
-    "model_prob": 0.7128,
+    "model_prob": 0.7109,
     "trend_alignment": 1.0,
     "confidence": 25,
     "eligible": true,
-    "odd": 1.95,
+    "odd": 1.89,
     "low_conviction": true
    },
    "alt_markets": [
@@ -325,27 +325,27 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.7025,
+     "model_prob": 0.6983,
      "trend_alignment": 0.565,
-     "confidence": 21,
+     "confidence": 20,
      "eligible": true,
-     "odd": 1.69
+     "odd": 1.64
     },
     {
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do KAA Gent",
-     "model_prob": 0.3974,
+     "model_prob": 0.397,
      "trend_alignment": 1.0,
      "confidence": 18,
      "eligible": false,
-     "odd": 3.92
+     "odd": 3.82
     },
     {
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.6269,
+     "model_prob": 0.6231,
      "trend_alignment": 0.565,
      "confidence": 16,
      "eligible": true,
@@ -355,11 +355,11 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: SC Braga ou empate (1X)",
-     "model_prob": 0.6026,
+     "model_prob": 0.603,
      "trend_alignment": 0.0,
      "confidence": 3,
      "eligible": false,
-     "odd": 1.26
+     "odd": 1.27
     }
    ],
    "trends": [
@@ -579,27 +579,27 @@
     "expected_goals": 2.29,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.6345,
-     "DRAW": 0.2344,
-     "AWAY": 0.1311,
-     "1X": 0.8689,
-     "X2": 0.3655,
-     "12": 0.7656,
-     "OVER25": 0.4025,
-     "UNDER25": 0.5975,
-     "BTTS_YES": 0.3723,
-     "BTTS_NO": 0.6277
+     "HOME": 0.634,
+     "DRAW": 0.2347,
+     "AWAY": 0.1314,
+     "1X": 0.8686,
+     "X2": 0.366,
+     "12": 0.7653,
+     "OVER25": 0.4022,
+     "UNDER25": 0.5978,
+     "BTTS_YES": 0.3724,
+     "BTTS_NO": 0.6276
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Atletico Nacional",
-    "model_prob": 0.6345,
+    "model_prob": 0.634,
     "trend_alignment": 1.0,
     "confidence": 76,
     "eligible": true,
-    "odd": 1.27,
+    "odd": 1.22,
     "low_conviction": false
    },
    "alt_markets": [
@@ -607,17 +607,17 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Atletico Nacional ou empate (1X)",
-     "model_prob": 0.8689,
+     "model_prob": 0.8686,
      "trend_alignment": 1.0,
      "confidence": 76,
      "eligible": true,
-     "odd": 1.06
+     "odd": 1.04
     },
     {
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.6277,
+     "model_prob": 0.6276,
      "trend_alignment": 0.366,
      "confidence": 29,
      "eligible": true,
@@ -627,21 +627,21 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.5975,
+     "model_prob": 0.5978,
      "trend_alignment": 0.366,
-     "confidence": 25,
+     "confidence": 26,
      "eligible": false,
-     "odd": 2.25
+     "odd": 2.07
     },
     {
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Deportivo Pasto",
-     "model_prob": 0.1311,
+     "model_prob": 0.1314,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 10.0
+     "odd": 12.0
     }
    ],
    "trends": [
@@ -700,7 +700,7 @@
      "kind": "atk_rank"
     },
     {
-     "label": "Atletico Nacional é 2º · Deportivo Pasto é 20º",
+     "label": "Atletico Nacional é 3º · Deportivo Pasto é 20º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -709,7 +709,7 @@
      "kind": "positions"
     },
     {
-     "label": "Atletico Nacional está 18 posições à frente",
+     "label": "Atletico Nacional está 17 posições à frente",
      "strength": 0.8,
      "favors": "HOME",
      "team": null,
@@ -747,7 +747,7 @@
      "kind": "atk_rank"
     },
     {
-     "label": "Atletico Nacional está 18 posições à frente",
+     "label": "Atletico Nacional está 17 posições à frente",
      "strength": 0.8,
      "favors": "HOME",
      "team": null,
@@ -765,7 +765,7 @@
    "home_team": {
     "id": 8640,
     "name": "Atletico Nacional",
-    "position": 2,
+    "position": 3,
     "played": 13,
     "points": 26.0,
     "record": "8V 2E 3D",
