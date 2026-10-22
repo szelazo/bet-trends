@@ -1,6 +1,6 @@
 {
  "date": "2026-10-23",
- "generated_at": "2026-10-22T12:51:32.014709-03:00",
+ "generated_at": "2026-10-22T19:59:16.124177-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -888,28 +888,28 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 2.26,
-    "lambda_away": 1.03,
-    "expected_goals": 3.29,
+    "lambda_home": 2.25,
+    "lambda_away": 1.02,
+    "expected_goals": 3.27,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.6516,
-     "DRAW": 0.1895,
-     "AWAY": 0.1589,
-     "1X": 0.8411,
-     "X2": 0.3484,
-     "12": 0.8105,
-     "OVER25": 0.6376,
-     "UNDER25": 0.3624,
-     "BTTS_YES": 0.5746,
-     "BTTS_NO": 0.4254
+     "HOME": 0.6504,
+     "DRAW": 0.1902,
+     "AWAY": 0.1594,
+     "1X": 0.8406,
+     "X2": 0.3496,
+     "12": 0.8098,
+     "OVER25": 0.6351,
+     "UNDER25": 0.3649,
+     "BTTS_YES": 0.573,
+     "BTTS_NO": 0.427
     }
    },
    "pick": {
     "selection": "1X",
     "family": "double_chance",
     "label": "Dupla chance: Al Shamal ou empate (1X)",
-    "model_prob": 0.8411,
+    "model_prob": 0.8406,
     "trend_alignment": 1.0,
     "confidence": 72,
     "eligible": true,
@@ -921,7 +921,7 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Al Shamal",
-     "model_prob": 0.6516,
+     "model_prob": 0.6504,
      "trend_alignment": 1.0,
      "confidence": 66,
      "eligible": true,
@@ -931,7 +931,7 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6376,
+     "model_prob": 0.6351,
      "trend_alignment": 0.0,
      "confidence": 18,
      "eligible": true,
@@ -941,9 +941,9 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5746,
+     "model_prob": 0.573,
      "trend_alignment": 0.0,
-     "confidence": 10,
+     "confidence": 9,
      "eligible": false,
      "odd": null
     },
@@ -951,7 +951,7 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Qatar SC",
-     "model_prob": 0.1589,
+     "model_prob": 0.1594,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
@@ -1188,32 +1188,32 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 1.12,
-    "lambda_away": 2.36,
-    "expected_goals": 3.48,
+    "lambda_home": 1.13,
+    "lambda_away": 2.37,
+    "expected_goals": 3.5,
     "sample_factor": 1.0,
     "probs": {
      "HOME": 0.166,
-     "DRAW": 0.1847,
-     "AWAY": 0.6492,
-     "1X": 0.3508,
+     "DRAW": 0.1842,
+     "AWAY": 0.6498,
+     "1X": 0.3502,
      "X2": 0.834,
-     "12": 0.8153,
-     "OVER25": 0.6758,
-     "UNDER25": 0.3242,
-     "BTTS_YES": 0.6105,
-     "BTTS_NO": 0.3895
+     "12": 0.8158,
+     "OVER25": 0.6786,
+     "UNDER25": 0.3214,
+     "BTTS_YES": 0.6127,
+     "BTTS_NO": 0.3873
     }
    },
    "pick": {
     "selection": "AWAY",
     "family": "1x2",
     "label": "Vitória do Al Rayyan",
-    "model_prob": 0.6492,
+    "model_prob": 0.6498,
     "trend_alignment": 1.0,
     "confidence": 71,
     "eligible": true,
-    "odd": 1.24,
+    "odd": 1.19,
     "low_conviction": false
    },
    "alt_markets": [
@@ -1225,23 +1225,23 @@
      "trend_alignment": 1.0,
      "confidence": 71,
      "eligible": true,
-     "odd": 1.08
+     "odd": 1.06
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6758,
+     "model_prob": 0.6786,
      "trend_alignment": 0.079,
      "confidence": 26,
      "eligible": true,
-     "odd": 1.9
+     "odd": 1.83
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.6105,
+     "model_prob": 0.6127,
      "trend_alignment": 0.079,
      "confidence": 17,
      "eligible": true,
@@ -1255,7 +1255,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 8.0
+     "odd": 9.5
     }
    ],
    "trends": [
