@@ -1,10 +1,10 @@
 {
  "date": "2026-10-23",
- "generated_at": "2026-10-23T12:42:01.039155-03:00",
+ "generated_at": "2026-10-23T19:55:32.013239-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
- "day_total": 55,
+ "day_total": 54,
  "games": [
   {
    "id": 4748673,
@@ -312,8 +312,8 @@
     "id": 1894,
     "name": "Halmstad"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 1.0,
+   "away_score": 2.0,
    "model": {
     "lambda_home": 2.0,
     "lambda_away": 0.74,
@@ -576,7 +576,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "miss",
    "clear": true
   },
   {
@@ -594,8 +594,8 @@
     "id": 487,
     "name": "Grenoble"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 1.69,
     "lambda_away": 0.72,
@@ -867,7 +867,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -885,8 +885,8 @@
     "id": 7086,
     "name": "Qatar SC"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 3.0,
    "model": {
     "lambda_home": 2.25,
     "lambda_away": 1.02,
@@ -1167,7 +1167,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "miss",
    "clear": true
   },
   {
@@ -1185,8 +1185,8 @@
     "id": 7077,
     "name": "Al Rayyan"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 1.0,
+   "away_score": 6.0,
    "model": {
     "lambda_home": 1.12,
     "lambda_away": 2.36,
@@ -1485,7 +1485,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   }
  ]

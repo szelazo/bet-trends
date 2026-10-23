@@ -1,6 +1,6 @@
 {
  "date": "2026-10-24",
- "generated_at": "2026-10-23T12:42:02.312350-03:00",
+ "generated_at": "2026-10-23T19:55:33.372907-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -29,23 +29,23 @@
     "expected_goals": 2.9,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.7422,
+     "HOME": 0.7421,
      "DRAW": 0.1684,
-     "AWAY": 0.0894,
-     "1X": 0.9106,
-     "X2": 0.2578,
+     "AWAY": 0.0895,
+     "1X": 0.9105,
+     "X2": 0.2579,
      "12": 0.8316,
      "OVER25": 0.5544,
      "UNDER25": 0.4456,
-     "BTTS_YES": 0.4238,
-     "BTTS_NO": 0.5762
+     "BTTS_YES": 0.4239,
+     "BTTS_NO": 0.5761
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Pogon",
-    "model_prob": 0.7422,
+    "model_prob": 0.7421,
     "trend_alignment": 1.0,
     "confidence": 82,
     "eligible": true,
@@ -57,7 +57,7 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Pogon ou empate (1X)",
-     "model_prob": 0.9106,
+     "model_prob": 0.9105,
      "trend_alignment": 1.0,
      "confidence": 82,
      "eligible": true,
@@ -67,7 +67,7 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.5762,
+     "model_prob": 0.5761,
      "trend_alignment": 0.109,
      "confidence": 14,
      "eligible": false,
@@ -396,28 +396,28 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 2.7,
+    "lambda_home": 2.71,
     "lambda_away": 0.83,
     "expected_goals": 3.53,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.7677,
-     "DRAW": 0.1426,
-     "AWAY": 0.0897,
-     "1X": 0.9103,
-     "X2": 0.2323,
-     "12": 0.8574,
-     "OVER25": 0.6835,
-     "UNDER25": 0.3165,
-     "BTTS_YES": 0.5251,
-     "BTTS_NO": 0.4749
+     "HOME": 0.7689,
+     "DRAW": 0.1419,
+     "AWAY": 0.0891,
+     "1X": 0.9109,
+     "X2": 0.2311,
+     "12": 0.8581,
+     "OVER25": 0.6846,
+     "UNDER25": 0.3154,
+     "BTTS_YES": 0.5249,
+     "BTTS_NO": 0.4751
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Djurgårdens IF",
-    "model_prob": 0.7677,
+    "model_prob": 0.7689,
     "trend_alignment": 1.0,
     "confidence": 82,
     "eligible": true,
@@ -429,7 +429,7 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Djurgårdens IF ou empate (1X)",
-     "model_prob": 0.9103,
+     "model_prob": 0.9109,
      "trend_alignment": 1.0,
      "confidence": 82,
      "eligible": true,
@@ -439,17 +439,17 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6835,
+     "model_prob": 0.6846,
      "trend_alignment": 0.258,
      "confidence": 33,
      "eligible": true,
-     "odd": 1.74
+     "odd": 1.82
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5251,
+     "model_prob": 0.5249,
      "trend_alignment": 0.258,
      "confidence": 12,
      "eligible": false,
@@ -459,7 +459,7 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Örgryte IS",
-     "model_prob": 0.0897,
+     "model_prob": 0.0891,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
@@ -728,23 +728,23 @@
     "expected_goals": 3.82,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.7769,
+     "HOME": 0.7768,
      "DRAW": 0.1335,
-     "AWAY": 0.0896,
-     "1X": 0.9104,
-     "X2": 0.2231,
+     "AWAY": 0.0897,
+     "1X": 0.9103,
+     "X2": 0.2232,
      "12": 0.8665,
      "OVER25": 0.7333,
      "UNDER25": 0.2667,
-     "BTTS_YES": 0.5677,
-     "BTTS_NO": 0.4323
+     "BTTS_YES": 0.5678,
+     "BTTS_NO": 0.4322
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Rapid Vienna",
-    "model_prob": 0.7769,
+    "model_prob": 0.7768,
     "trend_alignment": 1.0,
     "confidence": 82,
     "eligible": true,
@@ -756,7 +756,7 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Rapid Vienna ou empate (1X)",
-     "model_prob": 0.9104,
+     "model_prob": 0.9103,
      "trend_alignment": 1.0,
      "confidence": 82,
      "eligible": true,
@@ -776,7 +776,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5677,
+     "model_prob": 0.5678,
      "trend_alignment": 0.853,
      "confidence": 39,
      "eligible": false,
@@ -786,7 +786,7 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Austria Lustenau",
-     "model_prob": 0.0896,
+     "model_prob": 0.0897,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
@@ -867,7 +867,7 @@
      "kind": "def_bottom"
     },
     {
-     "label": "Rapid Vienna é 1º · Austria Lustenau é 9º",
+     "label": "Rapid Vienna é 1º · Austria Lustenau é 10º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -876,8 +876,8 @@
      "kind": "positions"
     },
     {
-     "label": "Rapid Vienna está 8 posições à frente",
-     "strength": 0.571,
+     "label": "Rapid Vienna está 9 posições à frente",
+     "strength": 0.643,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -932,8 +932,8 @@
      "kind": "def_rank"
     },
     {
-     "label": "Rapid Vienna está 8 posições à frente",
-     "strength": 0.571,
+     "label": "Rapid Vienna está 9 posições à frente",
+     "strength": 0.643,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -998,7 +998,7 @@
    "away_team": {
     "id": 1753,
     "name": "Austria Lustenau",
-    "position": 9,
+    "position": 10,
     "played": 9,
     "points": 8.0,
     "record": "2V 2E 5D",
@@ -1068,32 +1068,32 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 2.33,
-    "lambda_away": 0.64,
-    "expected_goals": 2.97,
+    "lambda_home": 2.32,
+    "lambda_away": 0.65,
+    "expected_goals": 2.96,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.7527,
-     "DRAW": 0.1621,
-     "AWAY": 0.0852,
-     "1X": 0.9148,
-     "X2": 0.2473,
-     "12": 0.8379,
-     "OVER25": 0.5688,
-     "UNDER25": 0.4312,
-     "BTTS_YES": 0.4266,
-     "BTTS_NO": 0.5734
+     "HOME": 0.7497,
+     "DRAW": 0.1635,
+     "AWAY": 0.0868,
+     "1X": 0.9132,
+     "X2": 0.2503,
+     "12": 0.8365,
+     "OVER25": 0.5681,
+     "UNDER25": 0.4319,
+     "BTTS_YES": 0.4292,
+     "BTTS_NO": 0.5708
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Lazio",
-    "model_prob": 0.7527,
+    "model_prob": 0.7497,
     "trend_alignment": 1.0,
     "confidence": 82,
     "eligible": true,
-    "odd": 1.39,
+    "odd": 1.43,
     "low_conviction": false
    },
    "alt_markets": [
@@ -1101,17 +1101,17 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Lazio ou empate (1X)",
-     "model_prob": 0.9148,
+     "model_prob": 0.9132,
      "trend_alignment": 1.0,
      "confidence": 82,
      "eligible": true,
-     "odd": 1.08
+     "odd": 1.1
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.5688,
+     "model_prob": 0.5681,
      "trend_alignment": 0.627,
      "confidence": 31,
      "eligible": false,
@@ -1121,7 +1121,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.4266,
+     "model_prob": 0.4292,
      "trend_alignment": 0.627,
      "confidence": 22,
      "eligible": false,
@@ -1131,9 +1131,9 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.5734,
+     "model_prob": 0.5708,
      "trend_alignment": 0.0,
-     "confidence": 10,
+     "confidence": 9,
      "eligible": false,
      "odd": null
     }
@@ -1185,7 +1185,7 @@
      "kind": "win_streak"
     },
     {
-     "label": "Lazio é 2º · Parma é 19º",
+     "label": "Lazio é 2º · Parma é 18º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -1194,7 +1194,7 @@
      "kind": "positions"
     },
     {
-     "label": "Lazio está 17 posições à frente",
+     "label": "Lazio está 16 posições à frente",
      "strength": 0.8,
      "favors": "HOME",
      "team": null,
@@ -1232,7 +1232,7 @@
      "kind": "win_streak"
     },
     {
-     "label": "Lazio está 17 posições à frente",
+     "label": "Lazio está 16 posições à frente",
      "strength": 0.8,
      "favors": "HOME",
      "team": null,
@@ -1298,7 +1298,7 @@
    "away_team": {
     "id": 241,
     "name": "Parma",
-    "position": 19,
+    "position": 18,
     "played": 7,
     "points": 4.0,
     "record": "1V 1E 5D",
@@ -1351,108 +1351,108 @@
    "clear": true
   },
   {
-   "id": 4635983,
+   "id": 4635986,
    "s365_competition_id": 122,
    "competition_name": "Allsvenskan",
    "start_time": "2026-10-24T13:00:00+00:00",
    "status_group": 2,
    "round": "Round",
    "home": {
-    "id": 1910,
-    "name": "Sirius"
+    "id": 1903,
+    "name": "BK Häcken"
    },
    "away": {
-    "id": 1890,
-    "name": "AIK Solna"
+    "id": 1918,
+    "name": "Degerfors IF"
    },
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 2.9,
-    "lambda_away": 1.1,
-    "expected_goals": 4.0,
+    "lambda_home": 1.93,
+    "lambda_away": 0.63,
+    "expected_goals": 2.56,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.7412,
-     "DRAW": 0.144,
-     "AWAY": 0.1148,
-     "1X": 0.8852,
-     "X2": 0.2588,
-     "12": 0.856,
-     "OVER25": 0.7611,
-     "UNDER25": 0.2389,
-     "BTTS_YES": 0.6302,
-     "BTTS_NO": 0.3698
+     "HOME": 0.6822,
+     "DRAW": 0.2046,
+     "AWAY": 0.1133,
+     "1X": 0.8867,
+     "X2": 0.3178,
+     "12": 0.7954,
+     "OVER25": 0.471,
+     "UNDER25": 0.529,
+     "BTTS_YES": 0.4001,
+     "BTTS_NO": 0.5999
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
-    "label": "Vitória do Sirius",
-    "model_prob": 0.7412,
+    "label": "Vitória do BK Häcken",
+    "model_prob": 0.6822,
     "trend_alignment": 1.0,
-    "confidence": 78,
+    "confidence": 79,
     "eligible": true,
-    "odd": 1.52,
+    "odd": 1.38,
     "low_conviction": false
    },
    "alt_markets": [
     {
      "selection": "1X",
      "family": "double_chance",
-     "label": "Dupla chance: Sirius ou empate (1X)",
-     "model_prob": 0.8852,
+     "label": "Dupla chance: BK Häcken ou empate (1X)",
+     "model_prob": 0.8867,
      "trend_alignment": 1.0,
-     "confidence": 78,
+     "confidence": 79,
      "eligible": true,
-     "odd": 1.18
+     "odd": 1.12
     },
     {
-     "selection": "OVER25",
-     "family": "over_under",
-     "label": "Mais de 2.5 gols",
-     "model_prob": 0.7611,
-     "trend_alignment": 0.099,
-     "confidence": 37,
-     "eligible": true,
-     "odd": 2.1
-    },
-    {
-     "selection": "BTTS_YES",
+     "selection": "BTTS_NO",
      "family": "btts",
-     "label": "Ambos os times marcam",
-     "model_prob": 0.6302,
-     "trend_alignment": 0.099,
-     "confidence": 20,
-     "eligible": true,
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5999,
+     "trend_alignment": 0.627,
+     "confidence": 35,
+     "eligible": false,
      "odd": null
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.529,
+     "trend_alignment": 0.627,
+     "confidence": 26,
+     "eligible": false,
+     "odd": 2.33
     },
     {
      "selection": "AWAY",
      "family": "1x2",
-     "label": "Vitória do AIK Solna",
-     "model_prob": 0.1148,
+     "label": "Vitória do Degerfors IF",
+     "model_prob": 0.1133,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 5.02
+     "odd": 6.5
     }
    ],
    "trends": [
     {
-     "label": "Venceu 4 dos últimos 5",
-     "strength": 0.65,
+     "label": "Invicto em 5 dos últimos 5",
+     "strength": 0.55,
      "favors": "HOME",
-     "team": "Sirius",
+     "team": "BK Häcken",
      "side": "HOME",
      "group": "geral",
-     "kind": "wins"
+     "kind": "unbeaten"
     },
     {
-     "label": "Não sofreu gol em 3 dos últimos 5",
-     "strength": 0.39,
+     "label": "Não sofreu gol em 4 dos últimos 5",
+     "strength": 0.47,
      "favors": "UNDER",
-     "team": "Sirius",
+     "team": "BK Häcken",
      "side": "HOME",
      "group": "geral",
      "kind": "clean_sheets"
@@ -1461,58 +1461,31 @@
      "label": "Perdeu 3 dos últimos 5",
      "strength": 0.52,
      "favors": "HOME",
-     "team": "AIK Solna",
+     "team": "Degerfors IF",
      "side": "AWAY",
      "group": "geral",
      "kind": "losses"
     },
     {
-     "label": "Ambos marcaram em 5 dos últimos 5",
-     "strength": 0.5,
-     "favors": "BTTS_YES",
-     "team": "AIK Solna",
+     "label": "Menos de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "UNDER",
+     "team": "Degerfors IF",
      "side": "AWAY",
      "group": "geral",
-     "kind": "btts"
+     "kind": "under"
     },
     {
-     "label": "Melhor ataque da liga (2.3 marcados/jogo)",
-     "strength": 0.44,
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
      "favors": "HOME",
-     "team": "Sirius",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "atk_rank"
-    },
-    {
-     "label": "Só 3 derrota(s) em 24 jogos no campeonato",
-     "strength": 0.26,
-     "favors": "HOME",
-     "team": "Sirius",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "few_losses"
-    },
-    {
-     "label": "Invicto há 5+ jogos",
-     "strength": 0.333,
-     "favors": "HOME",
-     "team": "Sirius",
+     "team": "BK Häcken",
      "side": "HOME",
      "group": "sequencia",
-     "kind": "unbeaten_streak"
+     "kind": "win_streak"
     },
     {
-     "label": "Não vence há 5+ jogos",
-     "strength": 0.333,
-     "favors": "HOME",
-     "team": "AIK Solna",
-     "side": "AWAY",
-     "group": "sequencia",
-     "kind": "winless_streak"
-    },
-    {
-     "label": "Sirius é 1º · AIK Solna é 9º",
+     "label": "BK Häcken é 4º · Degerfors IF é 14º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -1521,8 +1494,8 @@
      "kind": "positions"
     },
     {
-     "label": "Sirius está 8 posições à frente",
-     "strength": 0.571,
+     "label": "BK Häcken está 10 posições à frente",
+     "strength": 0.714,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -1532,62 +1505,35 @@
    ],
    "aligned_trends": [
     {
-     "label": "Venceu 4 dos últimos 5",
-     "strength": 0.65,
+     "label": "Invicto em 5 dos últimos 5",
+     "strength": 0.55,
      "favors": "HOME",
-     "team": "Sirius",
+     "team": "BK Häcken",
      "side": "HOME",
      "group": "geral",
-     "kind": "wins"
+     "kind": "unbeaten"
     },
     {
      "label": "Perdeu 3 dos últimos 5",
      "strength": 0.52,
      "favors": "HOME",
-     "team": "AIK Solna",
+     "team": "Degerfors IF",
      "side": "AWAY",
      "group": "geral",
      "kind": "losses"
     },
     {
-     "label": "Melhor ataque da liga (2.3 marcados/jogo)",
-     "strength": 0.44,
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
      "favors": "HOME",
-     "team": "Sirius",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "atk_rank"
-    },
-    {
-     "label": "Só 3 derrota(s) em 24 jogos no campeonato",
-     "strength": 0.26,
-     "favors": "HOME",
-     "team": "Sirius",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "few_losses"
-    },
-    {
-     "label": "Invicto há 5+ jogos",
-     "strength": 0.333,
-     "favors": "HOME",
-     "team": "Sirius",
+     "team": "BK Häcken",
      "side": "HOME",
      "group": "sequencia",
-     "kind": "unbeaten_streak"
+     "kind": "win_streak"
     },
     {
-     "label": "Não vence há 5+ jogos",
-     "strength": 0.333,
-     "favors": "HOME",
-     "team": "AIK Solna",
-     "side": "AWAY",
-     "group": "sequencia",
-     "kind": "winless_streak"
-    },
-    {
-     "label": "Sirius está 8 posições à frente",
-     "strength": 0.571,
+     "label": "BK Häcken está 10 posições à frente",
+     "strength": 0.714,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -1595,90 +1541,42 @@
      "kind": "table_gap"
     }
    ],
-   "confidence": 78,
+   "confidence": 79,
    "league": {
     "key": "sweden",
     "name": "Allsvenskan",
     "country": "Suécia"
    },
    "home_team": {
-    "id": 1910,
-    "name": "Sirius",
-    "position": 1,
+    "id": 1903,
+    "name": "BK Häcken",
+    "position": 4,
     "played": 24,
-    "points": 55.0,
-    "record": "17V 4E 3D",
-    "goals_for": 55,
+    "points": 42.0,
+    "record": "11V 9E 4D",
+    "goals_for": 43,
     "goals_against": 30,
-    "last5": "DWWWW",
+    "last5": "WWWDD",
     "recent": [
      {
-      "result": "D",
-      "score": "2-2",
-      "home": true,
-      "opponent": "IF Elfsborg",
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Malmö FF",
       "date": "2026-10-18"
      },
      {
       "result": "W",
-      "score": "1-0",
-      "home": false,
-      "opponent": "Gais",
-      "date": "2026-10-10"
-     },
-     {
-      "result": "W",
-      "score": "2-1",
-      "home": false,
+      "score": "3-0",
+      "home": true,
       "opponent": "Örgryte IS",
-      "date": "2026-09-19"
+      "date": "2026-10-11"
      },
      {
       "result": "W",
-      "score": "2-0",
-      "home": true,
-      "opponent": "Degerfors IF",
-      "date": "2026-09-14"
-     },
-     {
-      "result": "W",
-      "score": "1-0",
+      "score": "5-0",
       "home": false,
-      "opponent": "Västerås",
-      "date": "2026-09-05"
-     }
-    ]
-   },
-   "away_team": {
-    "id": 1890,
-    "name": "AIK Solna",
-    "position": 9,
-    "played": 24,
-    "points": 34.0,
-    "record": "9V 7E 8D",
-    "goals_for": 38,
-    "goals_against": 42,
-    "last5": "DLLDL",
-    "recent": [
-     {
-      "result": "D",
-      "score": "2-2",
-      "home": true,
-      "opponent": "IFK Göteborg",
-      "date": "2026-10-17"
-     },
-     {
-      "result": "L",
-      "score": "5-6",
-      "home": true,
-      "opponent": "IF Brommapojkarna",
-      "date": "2026-10-10"
-     },
-     {
-      "result": "L",
-      "score": "1-2",
-      "home": false,
-      "opponent": "Halmstad",
+      "opponent": "Kalmar FF",
       "date": "2026-09-20"
      },
      {
@@ -1686,14 +1584,62 @@
       "score": "1-1",
       "home": true,
       "opponent": "Mjällby AIF",
-      "date": "2026-09-16"
+      "date": "2026-09-11"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Gais",
+      "date": "2026-09-05"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 1918,
+    "name": "Degerfors IF",
+    "position": 14,
+    "played": 24,
+    "points": 20.0,
+    "record": "5V 5E 14D",
+    "goals_for": 21,
+    "goals_against": 37,
+    "last5": "LDLLW",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Kalmar FF",
+      "date": "2026-10-19"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Mjällby AIF",
+      "date": "2026-10-10"
      },
      {
       "result": "L",
-      "score": "1-4",
+      "score": "0-1",
       "home": true,
-      "opponent": "Västerås",
-      "date": "2026-09-12"
+      "opponent": "Hammarby",
+      "date": "2026-09-20"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Sirius",
+      "date": "2026-09-14"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Halmstad",
+      "date": "2026-09-05"
      }
     ]
    },

@@ -1,6 +1,6 @@
 {
  "date": "2026-10-25",
- "generated_at": "2026-10-23T12:42:03.548175-03:00",
+ "generated_at": "2026-10-23T19:55:34.571953-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -407,10 +407,10 @@
      "1X": 0.3,
      "X2": 0.8776,
      "12": 0.8224,
-     "OVER25": 0.609,
-     "UNDER25": 0.391,
-     "BTTS_YES": 0.5144,
-     "BTTS_NO": 0.4856
+     "OVER25": 0.6092,
+     "UNDER25": 0.3908,
+     "BTTS_YES": 0.5146,
+     "BTTS_NO": 0.4854
     }
    },
    "pick": {
@@ -439,9 +439,9 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.609,
-     "trend_alignment": 0.6,
-     "confidence": 35,
+     "model_prob": 0.6092,
+     "trend_alignment": 0.827,
+     "confidence": 43,
      "eligible": true,
      "odd": 1.7
     },
@@ -449,9 +449,9 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5144,
-     "trend_alignment": 0.6,
-     "confidence": 23,
+     "model_prob": 0.5146,
+     "trend_alignment": 0.827,
+     "confidence": 31,
      "eligible": false,
      "odd": null
     },
@@ -531,6 +531,15 @@
      "kind": "few_losses"
     },
     {
+     "label": "Pior defesa da liga (1.9 sofridos/jogo)",
+     "strength": 0.34,
+     "favors": "OVER",
+     "team": "Pendikspor",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_bottom"
+    },
+    {
      "label": "Não vence há 5+ jogos",
      "strength": 0.333,
      "favors": "AWAY",
@@ -549,7 +558,7 @@
      "kind": "unbeaten_streak"
     },
     {
-     "label": "Pendikspor é 17º · Kayserispor é 1º",
+     "label": "Pendikspor é 18º · Kayserispor é 1º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -558,7 +567,7 @@
      "kind": "positions"
     },
     {
-     "label": "Kayserispor está 16 posições à frente",
+     "label": "Kayserispor está 17 posições à frente",
      "strength": 0.8,
      "favors": "AWAY",
      "team": null,
@@ -632,7 +641,7 @@
      "kind": "unbeaten_streak"
     },
     {
-     "label": "Kayserispor está 16 posições à frente",
+     "label": "Kayserispor está 17 posições à frente",
      "strength": 0.8,
      "favors": "AWAY",
      "team": null,
@@ -650,7 +659,7 @@
    "home_team": {
     "id": 10005,
     "name": "Pendikspor",
-    "position": 17,
+    "position": 18,
     "played": 11,
     "points": 10.0,
     "record": "2V 4E 5D",
@@ -769,27 +778,27 @@
    "away_score": -1.0,
    "model": {
     "lambda_home": 2.9,
-    "lambda_away": 1.16,
-    "expected_goals": 4.06,
+    "lambda_away": 1.15,
+    "expected_goals": 4.05,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.73,
-     "DRAW": 0.147,
-     "AWAY": 0.123,
-     "1X": 0.877,
-     "X2": 0.27,
-     "12": 0.853,
-     "OVER25": 0.7693,
-     "UNDER25": 0.2307,
-     "BTTS_YES": 0.6474,
-     "BTTS_NO": 0.3526
+     "HOME": 0.7308,
+     "DRAW": 0.1468,
+     "AWAY": 0.1224,
+     "1X": 0.8776,
+     "X2": 0.2692,
+     "12": 0.8532,
+     "OVER25": 0.7687,
+     "UNDER25": 0.2313,
+     "BTTS_YES": 0.6463,
+     "BTTS_NO": 0.3537
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Inter Milan",
-    "model_prob": 0.73,
+    "model_prob": 0.7308,
     "trend_alignment": 1.0,
     "confidence": 77,
     "eligible": true,
@@ -801,7 +810,7 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Inter Milan ou empate (1X)",
-     "model_prob": 0.877,
+     "model_prob": 0.8776,
      "trend_alignment": 1.0,
      "confidence": 77,
      "eligible": true,
@@ -811,7 +820,7 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.7693,
+     "model_prob": 0.7687,
      "trend_alignment": 0.975,
      "confidence": 69,
      "eligible": true,
@@ -821,7 +830,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.6474,
+     "model_prob": 0.6463,
      "trend_alignment": 0.975,
      "confidence": 53,
      "eligible": true,
@@ -831,7 +840,7 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Fiorentina",
-     "model_prob": 0.123,
+     "model_prob": 0.1224,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
@@ -894,7 +903,7 @@
      "kind": "btts"
     },
     {
-     "label": "Inter Milan é 1º · Fiorentina é 18º",
+     "label": "Inter Milan é 1º · Fiorentina é 19º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -903,7 +912,7 @@
      "kind": "positions"
     },
     {
-     "label": "Inter Milan está 17 posições à frente",
+     "label": "Inter Milan está 18 posições à frente",
      "strength": 0.8,
      "favors": "HOME",
      "team": null,
@@ -941,7 +950,7 @@
      "kind": "losses"
     },
     {
-     "label": "Inter Milan está 17 posições à frente",
+     "label": "Inter Milan está 18 posições à frente",
      "strength": 0.8,
      "favors": "HOME",
      "team": null,
@@ -1007,7 +1016,7 @@
    "away_team": {
     "id": 228,
     "name": "Fiorentina",
-    "position": 18,
+    "position": 19,
     "played": 7,
     "points": 4.0,
     "record": "1V 1E 5D",
