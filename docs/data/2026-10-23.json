@@ -1,10 +1,10 @@
 {
  "date": "2026-10-23",
- "generated_at": "2026-10-22T19:59:16.124177-03:00",
+ "generated_at": "2026-10-23T12:42:01.039155-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
- "day_total": 54,
+ "day_total": 55,
  "games": [
   {
    "id": 4748673,
@@ -21,8 +21,8 @@
     "id": 76458,
     "name": "Kudrivka"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 3.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 2.4,
     "lambda_away": 0.94,
@@ -294,7 +294,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -340,7 +340,7 @@
     "trend_alignment": 0.883,
     "confidence": 73,
     "eligible": true,
-    "odd": 1.63,
+    "odd": 1.67,
     "low_conviction": false
    },
    "alt_markets": [
@@ -352,7 +352,7 @@
      "trend_alignment": 0.883,
      "confidence": 73,
      "eligible": true,
-     "odd": 1.19
+     "odd": 1.2
     },
     {
      "selection": "BTTS_NO",
@@ -615,26 +615,26 @@
     }
    },
    "pick": {
-    "selection": "HOME",
-    "family": "1x2",
-    "label": "Vitória do Pau FC",
-    "model_prob": 0.607,
+    "selection": "1X",
+    "family": "double_chance",
+    "label": "Dupla chance: Pau FC ou empate (1X)",
+    "model_prob": 0.8442,
     "trend_alignment": 1.0,
     "confidence": 73,
     "eligible": true,
-    "odd": 1.74,
+    "odd": 1.26,
     "low_conviction": false
    },
    "alt_markets": [
     {
-     "selection": "1X",
-     "family": "double_chance",
-     "label": "Dupla chance: Pau FC ou empate (1X)",
-     "model_prob": 0.8442,
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Pau FC",
+     "model_prob": 0.607,
      "trend_alignment": 1.0,
-     "confidence": 73,
+     "confidence": 61,
      "eligible": true,
-     "odd": 1.22
+     "odd": 1.86
     },
     {
      "selection": "BTTS_NO",
@@ -654,7 +654,7 @@
      "trend_alignment": 0.313,
      "confidence": 20,
      "eligible": false,
-     "odd": 1.75
+     "odd": 1.7
     },
     {
      "selection": "AWAY",
@@ -664,7 +664,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 4.23
+     "odd": 3.83
     }
    ],
    "trends": [
@@ -1188,32 +1188,32 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 1.13,
-    "lambda_away": 2.37,
-    "expected_goals": 3.5,
+    "lambda_home": 1.12,
+    "lambda_away": 2.36,
+    "expected_goals": 3.49,
     "sample_factor": 1.0,
     "probs": {
      "HOME": 0.166,
-     "DRAW": 0.1842,
-     "AWAY": 0.6498,
-     "1X": 0.3502,
+     "DRAW": 0.1847,
+     "AWAY": 0.6493,
+     "1X": 0.3507,
      "X2": 0.834,
-     "12": 0.8158,
-     "OVER25": 0.6786,
-     "UNDER25": 0.3214,
-     "BTTS_YES": 0.6127,
-     "BTTS_NO": 0.3873
+     "12": 0.8153,
+     "OVER25": 0.6762,
+     "UNDER25": 0.3238,
+     "BTTS_YES": 0.6108,
+     "BTTS_NO": 0.3892
     }
    },
    "pick": {
     "selection": "AWAY",
     "family": "1x2",
     "label": "Vitória do Al Rayyan",
-    "model_prob": 0.6498,
+    "model_prob": 0.6493,
     "trend_alignment": 1.0,
     "confidence": 71,
     "eligible": true,
-    "odd": 1.19,
+    "odd": 1.29,
     "low_conviction": false
    },
    "alt_markets": [
@@ -1225,23 +1225,23 @@
      "trend_alignment": 1.0,
      "confidence": 71,
      "eligible": true,
-     "odd": 1.06
+     "odd": 1.12
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6786,
+     "model_prob": 0.6762,
      "trend_alignment": 0.079,
      "confidence": 26,
      "eligible": true,
-     "odd": 1.83
+     "odd": 1.9
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.6127,
+     "model_prob": 0.6108,
      "trend_alignment": 0.079,
      "confidence": 17,
      "eligible": true,
@@ -1255,7 +1255,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 9.5
+     "odd": 6.5
     }
    ],
    "trends": [
