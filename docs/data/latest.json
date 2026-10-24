@@ -1,10 +1,10 @@
 {
  "date": "2026-10-24",
- "generated_at": "2026-10-24T11:25:05.502890-03:00",
+ "generated_at": "2026-10-24T19:15:58.937967-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
- "day_total": 126,
+ "day_total": 140,
  "games": [
   {
    "id": 4732665,
@@ -21,8 +21,8 @@
     "id": 241,
     "name": "Parma"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 2.33,
     "lambda_away": 0.64,
@@ -303,7 +303,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -321,8 +321,8 @@
     "id": 1908,
     "name": "Örgryte IS"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 2.0,
    "model": {
     "lambda_home": 2.7,
     "lambda_away": 0.83,
@@ -630,7 +630,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "miss",
    "clear": true
   },
   {
@@ -648,8 +648,8 @@
     "id": 12384,
     "name": "Radomiak Radom"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 4.0,
+   "away_score": 3.0,
    "model": {
     "lambda_home": 2.26,
     "lambda_away": 0.64,
@@ -1002,7 +1002,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -1020,8 +1020,8 @@
     "id": 1753,
     "name": "Austria Lustenau"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 5.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 2.9,
     "lambda_away": 0.92,
@@ -1347,7 +1347,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -1365,8 +1365,8 @@
     "id": 1918,
     "name": "Degerfors IF"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 4.0,
+   "away_score": 0.0,
    "model": {
     "lambda_home": 1.93,
     "lambda_away": 0.63,
@@ -1647,7 +1647,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   }
  ]

@@ -1,6 +1,6 @@
 {
  "date": "2026-10-25",
- "generated_at": "2026-10-24T11:25:06.762237-03:00",
+ "generated_at": "2026-10-24T19:16:00.201833-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -25,27 +25,27 @@
    "away_score": -1.0,
    "model": {
     "lambda_home": 2.9,
-    "lambda_away": 0.71,
-    "expected_goals": 3.61,
+    "lambda_away": 0.72,
+    "expected_goals": 3.62,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.8172,
-     "DRAW": 0.1194,
-     "AWAY": 0.0635,
-     "1X": 0.9365,
-     "X2": 0.1828,
-     "12": 0.8806,
-     "OVER25": 0.6984,
-     "UNDER25": 0.3016,
-     "BTTS_YES": 0.481,
-     "BTTS_NO": 0.519
+     "HOME": 0.8153,
+     "DRAW": 0.1201,
+     "AWAY": 0.0646,
+     "1X": 0.9354,
+     "X2": 0.1847,
+     "12": 0.8799,
+     "OVER25": 0.7001,
+     "UNDER25": 0.2999,
+     "BTTS_YES": 0.4856,
+     "BTTS_NO": 0.5144
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Union St. Gilloise",
-    "model_prob": 0.8172,
+    "model_prob": 0.8153,
     "trend_alignment": 1.0,
     "confidence": 85,
     "eligible": true,
@@ -57,7 +57,7 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Union St. Gilloise ou empate (1X)",
-     "model_prob": 0.9365,
+     "model_prob": 0.9354,
      "trend_alignment": 1.0,
      "confidence": 85,
      "eligible": true,
@@ -67,7 +67,7 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6984,
+     "model_prob": 0.7001,
      "trend_alignment": 0.467,
      "confidence": 42,
      "eligible": true,
@@ -77,7 +77,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.481,
+     "model_prob": 0.4856,
      "trend_alignment": 0.467,
      "confidence": 16,
      "eligible": false,
@@ -87,7 +87,7 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.519,
+     "model_prob": 0.5144,
      "trend_alignment": 0.0,
      "confidence": 2,
      "eligible": false,
@@ -402,54 +402,54 @@
     "sample_factor": 1.0,
     "probs": {
      "HOME": 0.1224,
-     "DRAW": 0.177,
-     "AWAY": 0.7006,
-     "1X": 0.2994,
+     "DRAW": 0.1771,
+     "AWAY": 0.7005,
+     "1X": 0.2995,
      "X2": 0.8776,
-     "12": 0.823,
-     "OVER25": 0.612,
-     "UNDER25": 0.388,
-     "BTTS_YES": 0.5167,
-     "BTTS_NO": 0.4833
+     "12": 0.8229,
+     "OVER25": 0.6115,
+     "UNDER25": 0.3885,
+     "BTTS_YES": 0.5164,
+     "BTTS_NO": 0.4836
     }
    },
    "pick": {
-    "selection": "AWAY",
-    "family": "1x2",
-    "label": "Vitória do Kayserispor",
-    "model_prob": 0.7006,
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: Kayserispor ou empate (X2)",
+    "model_prob": 0.8776,
     "trend_alignment": 1.0,
     "confidence": 77,
     "eligible": true,
-    "odd": 1.66,
+    "odd": 1.25,
     "low_conviction": false
    },
    "alt_markets": [
     {
-     "selection": "X2",
-     "family": "double_chance",
-     "label": "Dupla chance: Kayserispor ou empate (X2)",
-     "model_prob": 0.8776,
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Kayserispor",
+     "model_prob": 0.7005,
      "trend_alignment": 1.0,
-     "confidence": 77,
+     "confidence": 71,
      "eligible": true,
-     "odd": 1.23
+     "odd": 1.74
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.612,
+     "model_prob": 0.6115,
      "trend_alignment": 0.827,
      "confidence": 43,
      "eligible": true,
-     "odd": 1.7
+     "odd": 1.73
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5167,
+     "model_prob": 0.5164,
      "trend_alignment": 0.827,
      "confidence": 31,
      "eligible": false,
@@ -463,7 +463,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 4.07
+     "odd": 3.78
     }
    ],
    "trends": [
@@ -778,27 +778,27 @@
    "away_score": -1.0,
    "model": {
     "lambda_home": 2.9,
-    "lambda_away": 1.16,
-    "expected_goals": 4.06,
+    "lambda_away": 1.15,
+    "expected_goals": 4.05,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.7297,
-     "DRAW": 0.147,
-     "AWAY": 0.1232,
-     "1X": 0.8768,
-     "X2": 0.2703,
-     "12": 0.853,
-     "OVER25": 0.7695,
-     "UNDER25": 0.2305,
-     "BTTS_YES": 0.6479,
-     "BTTS_NO": 0.3521
+     "HOME": 0.7311,
+     "DRAW": 0.1467,
+     "AWAY": 0.1222,
+     "1X": 0.8778,
+     "X2": 0.2689,
+     "12": 0.8533,
+     "OVER25": 0.7685,
+     "UNDER25": 0.2315,
+     "BTTS_YES": 0.6457,
+     "BTTS_NO": 0.3543
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Inter Milan",
-    "model_prob": 0.7297,
+    "model_prob": 0.7311,
     "trend_alignment": 1.0,
     "confidence": 77,
     "eligible": true,
@@ -810,7 +810,7 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Inter Milan ou empate (1X)",
-     "model_prob": 0.8768,
+     "model_prob": 0.8778,
      "trend_alignment": 1.0,
      "confidence": 77,
      "eligible": true,
@@ -820,7 +820,7 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.7695,
+     "model_prob": 0.7685,
      "trend_alignment": 0.975,
      "confidence": 69,
      "eligible": true,
@@ -830,7 +830,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.6479,
+     "model_prob": 0.6457,
      "trend_alignment": 0.975,
      "confidence": 53,
      "eligible": true,
@@ -840,7 +840,7 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Fiorentina",
-     "model_prob": 0.1232,
+     "model_prob": 0.1222,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
@@ -903,7 +903,7 @@
      "kind": "btts"
     },
     {
-     "label": "Inter Milan é 1º · Fiorentina é 19º",
+     "label": "Inter Milan é 2º · Fiorentina é 18º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -912,7 +912,7 @@
      "kind": "positions"
     },
     {
-     "label": "Inter Milan está 18 posições à frente",
+     "label": "Inter Milan está 16 posições à frente",
      "strength": 0.8,
      "favors": "HOME",
      "team": null,
@@ -950,7 +950,7 @@
      "kind": "losses"
     },
     {
-     "label": "Inter Milan está 18 posições à frente",
+     "label": "Inter Milan está 16 posições à frente",
      "strength": 0.8,
      "favors": "HOME",
      "team": null,
@@ -968,7 +968,7 @@
    "home_team": {
     "id": 224,
     "name": "Inter Milan",
-    "position": 1,
+    "position": 2,
     "played": 7,
     "points": 19.0,
     "record": "6V 1E 0D",
@@ -1016,7 +1016,7 @@
    "away_team": {
     "id": 228,
     "name": "Fiorentina",
-    "position": 19,
+    "position": 18,
     "played": 7,
     "points": 4.0,
     "record": "1V 1E 5D",
@@ -1069,324 +1069,6 @@
    "clear": true
   },
   {
-   "id": 4776079,
-   "s365_competition_id": 84,
-   "competition_name": "Super League",
-   "start_time": "2026-10-25T16:00:00+00:00",
-   "status_group": 2,
-   "round": "Round",
-   "home": {
-    "id": 54421,
-    "name": "Volos NFC"
-   },
-   "away": {
-    "id": 1022,
-    "name": "Panathinaikos"
-   },
-   "home_score": -1.0,
-   "away_score": -1.0,
-   "model": {
-    "lambda_home": 0.85,
-    "lambda_away": 2.02,
-    "expected_goals": 2.88,
-    "sample_factor": 1.0,
-    "probs": {
-     "HOME": 0.1497,
-     "DRAW": 0.2048,
-     "AWAY": 0.6455,
-     "1X": 0.3545,
-     "X2": 0.8503,
-     "12": 0.7952,
-     "OVER25": 0.5482,
-     "UNDER25": 0.4518,
-     "BTTS_YES": 0.4981,
-     "BTTS_NO": 0.5019
-    }
-   },
-   "pick": {
-    "selection": "AWAY",
-    "family": "1x2",
-    "label": "Vitória do Panathinaikos",
-    "model_prob": 0.6455,
-    "trend_alignment": 1.0,
-    "confidence": 74,
-    "eligible": true,
-    "odd": 1.34,
-    "low_conviction": false
-   },
-   "alt_markets": [
-    {
-     "selection": "X2",
-     "family": "double_chance",
-     "label": "Dupla chance: Panathinaikos ou empate (X2)",
-     "model_prob": 0.8503,
-     "trend_alignment": 1.0,
-     "confidence": 74,
-     "eligible": true,
-     "odd": 1.08
-    },
-    {
-     "selection": "OVER25",
-     "family": "over_under",
-     "label": "Mais de 2.5 gols",
-     "model_prob": 0.5482,
-     "trend_alignment": 0.577,
-     "confidence": 26,
-     "eligible": false,
-     "odd": 1.62
-    },
-    {
-     "selection": "BTTS_YES",
-     "family": "btts",
-     "label": "Ambos os times marcam",
-     "model_prob": 0.4981,
-     "trend_alignment": 0.577,
-     "confidence": 20,
-     "eligible": false,
-     "odd": null
-    },
-    {
-     "selection": "HOME",
-     "family": "1x2",
-     "label": "Vitória do Volos NFC",
-     "model_prob": 0.1497,
-     "trend_alignment": 0.0,
-     "confidence": 0,
-     "eligible": false,
-     "odd": 8.5
-    }
-   ],
-   "trends": [
-    {
-     "label": "Venceu 6 dos últimos 7",
-     "strength": 0.679,
-     "favors": "AWAY",
-     "team": "Panathinaikos",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "Mais de 2.5 gols em 5 dos últimos 7",
-     "strength": 0.436,
-     "favors": "OVER",
-     "team": "Panathinaikos",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "over"
-    },
-    {
-     "label": "Perdeu 3 dos últimos 5",
-     "strength": 0.52,
-     "favors": "AWAY",
-     "team": "Volos NFC",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Ambos marcaram em 4 dos últimos 5",
-     "strength": 0.43,
-     "favors": "BTTS_YES",
-     "team": "Volos NFC",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "btts"
-    },
-    {
-     "label": "3 vitórias seguidas",
-     "strength": 0.5,
-     "favors": "AWAY",
-     "team": "Panathinaikos",
-     "side": "AWAY",
-     "group": "sequencia",
-     "kind": "win_streak"
-    },
-    {
-     "label": "Não vence há 5+ jogos",
-     "strength": 0.333,
-     "favors": "AWAY",
-     "team": "Volos NFC",
-     "side": "HOME",
-     "group": "sequencia",
-     "kind": "winless_streak"
-    },
-    {
-     "label": "Volos NFC é 14º · Panathinaikos é 1º",
-     "strength": 0.0,
-     "favors": null,
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "positions"
-    },
-    {
-     "label": "Panathinaikos está 13 posições à frente",
-     "strength": 0.8,
-     "favors": "AWAY",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "aligned_trends": [
-    {
-     "label": "Venceu 6 dos últimos 7",
-     "strength": 0.679,
-     "favors": "AWAY",
-     "team": "Panathinaikos",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "Perdeu 3 dos últimos 5",
-     "strength": 0.52,
-     "favors": "AWAY",
-     "team": "Volos NFC",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "3 vitórias seguidas",
-     "strength": 0.5,
-     "favors": "AWAY",
-     "team": "Panathinaikos",
-     "side": "AWAY",
-     "group": "sequencia",
-     "kind": "win_streak"
-    },
-    {
-     "label": "Não vence há 5+ jogos",
-     "strength": 0.333,
-     "favors": "AWAY",
-     "team": "Volos NFC",
-     "side": "HOME",
-     "group": "sequencia",
-     "kind": "winless_streak"
-    },
-    {
-     "label": "Panathinaikos está 13 posições à frente",
-     "strength": 0.8,
-     "favors": "AWAY",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "confidence": 74,
-   "league": {
-    "key": "greece",
-    "name": "Super League",
-    "country": "Grécia"
-   },
-   "home_team": {
-    "id": 54421,
-    "name": "Volos NFC",
-    "position": 14,
-    "played": 7,
-    "points": 0,
-    "record": "0V 3E 4D",
-    "goals_for": 6,
-    "goals_against": 12,
-    "last5": "DLLLD",
-    "recent": [
-     {
-      "result": "D",
-      "score": "0-0",
-      "home": false,
-      "opponent": "Levadiakos",
-      "date": "2026-10-17"
-     },
-     {
-      "result": "L",
-      "score": "2-3",
-      "home": false,
-      "opponent": "Aris Salonica",
-      "date": "2026-10-11"
-     },
-     {
-      "result": "L",
-      "score": "1-2",
-      "home": true,
-      "opponent": "AEK Athens",
-      "date": "2026-09-20"
-     },
-     {
-      "result": "L",
-      "score": "1-3",
-      "home": false,
-      "opponent": "Kalamata",
-      "date": "2026-09-13"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": true,
-      "opponent": "Olympiacos",
-      "date": "2026-09-05"
-     }
-    ]
-   },
-   "away_team": {
-    "id": 1022,
-    "name": "Panathinaikos",
-    "position": 1,
-    "played": 7,
-    "points": 18.0,
-    "record": "6V 0E 1D",
-    "goals_for": 17,
-    "goals_against": 4,
-    "last5": "WWWLW",
-    "recent": [
-     {
-      "result": "W",
-      "score": "5-1",
-      "home": false,
-      "opponent": "Kairat Almaty",
-      "date": "2026-10-22"
-     },
-     {
-      "result": "W",
-      "score": "5-1",
-      "home": true,
-      "opponent": "Asteras Aktor",
-      "date": "2026-10-18"
-     },
-     {
-      "result": "W",
-      "score": "2-1",
-      "home": true,
-      "opponent": "Borac Banjaluka",
-      "date": "2026-10-15"
-     },
-     {
-      "result": "L",
-      "score": "0-1",
-      "home": false,
-      "opponent": "Olympiacos",
-      "date": "2026-10-11"
-     },
-     {
-      "result": "W",
-      "score": "1-0",
-      "home": false,
-      "opponent": "Kalamata",
-      "date": "2026-09-20"
-     }
-    ]
-   },
-   "kickoff_local": "2026-10-25T13:00:00-03:00",
-   "has_odds": true,
-   "odds_bookmaker": "365Scores",
-   "is_cup": false,
-   "result": "pending",
-   "clear": true
-  },
-  {
    "id": 4738692,
    "s365_competition_id": 95,
    "competition_name": "Super League",
@@ -1409,27 +1091,27 @@
     "expected_goals": 4.27,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.1561,
-     "DRAW": 0.1568,
-     "AWAY": 0.6871,
-     "1X": 0.3129,
-     "X2": 0.8439,
-     "12": 0.8432,
-     "OVER25": 0.7987,
-     "UNDER25": 0.2013,
-     "BTTS_YES": 0.7056,
-     "BTTS_NO": 0.2944
+     "HOME": 0.155,
+     "DRAW": 0.1565,
+     "AWAY": 0.6885,
+     "1X": 0.3115,
+     "X2": 0.845,
+     "12": 0.8435,
+     "OVER25": 0.7978,
+     "UNDER25": 0.2022,
+     "BTTS_YES": 0.7039,
+     "BTTS_NO": 0.2961
     }
    },
    "pick": {
     "selection": "X2",
     "family": "double_chance",
     "label": "Dupla chance: FC Lugano ou empate (X2)",
-    "model_prob": 0.8439,
+    "model_prob": 0.845,
     "trend_alignment": 1.0,
     "confidence": 73,
     "eligible": true,
-    "odd": 1.29,
+    "odd": 1.28,
     "low_conviction": false
    },
    "alt_markets": [
@@ -1437,27 +1119,27 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do FC Lugano",
-     "model_prob": 0.6871,
+     "model_prob": 0.6885,
      "trend_alignment": 1.0,
      "confidence": 69,
      "eligible": true,
-     "odd": 1.84
+     "odd": 1.79
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.7987,
+     "model_prob": 0.7978,
      "trend_alignment": 0.86,
      "confidence": 69,
      "eligible": true,
-     "odd": 2.01
+     "odd": 1.92
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.7056,
+     "model_prob": 0.7039,
      "trend_alignment": 0.86,
      "confidence": 57,
      "eligible": true,
@@ -1467,11 +1149,11 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do FC Thun",
-     "model_prob": 0.1561,
+     "model_prob": 0.155,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 3.56
+     "odd": 3.71
     }
    ],
    "trends": [
@@ -1743,6 +1425,324 @@
     ]
    },
    "kickoff_local": "2026-10-25T10:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4776079,
+   "s365_competition_id": 84,
+   "competition_name": "Super League",
+   "start_time": "2026-10-25T16:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 54421,
+    "name": "Volos NFC"
+   },
+   "away": {
+    "id": 1022,
+    "name": "Panathinaikos"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 0.86,
+    "lambda_away": 2.01,
+    "expected_goals": 2.87,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.1519,
+     "DRAW": 0.2061,
+     "AWAY": 0.6419,
+     "1X": 0.3581,
+     "X2": 0.8481,
+     "12": 0.7939,
+     "OVER25": 0.5465,
+     "UNDER25": 0.4535,
+     "BTTS_YES": 0.4989,
+     "BTTS_NO": 0.5011
+    }
+   },
+   "pick": {
+    "selection": "AWAY",
+    "family": "1x2",
+    "label": "Vitória do Panathinaikos",
+    "model_prob": 0.6419,
+    "trend_alignment": 1.0,
+    "confidence": 73,
+    "eligible": true,
+    "odd": 1.31,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "X2",
+     "family": "double_chance",
+     "label": "Dupla chance: Panathinaikos ou empate (X2)",
+     "model_prob": 0.8481,
+     "trend_alignment": 1.0,
+     "confidence": 73,
+     "eligible": true,
+     "odd": 1.07
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5465,
+     "trend_alignment": 0.577,
+     "confidence": 26,
+     "eligible": false,
+     "odd": 1.62
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.4989,
+     "trend_alignment": 0.577,
+     "confidence": 20,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Volos NFC",
+     "model_prob": 0.1519,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 9.0
+    }
+   ],
+   "trends": [
+    {
+     "label": "Venceu 6 dos últimos 7",
+     "strength": 0.679,
+     "favors": "AWAY",
+     "team": "Panathinaikos",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Mais de 2.5 gols em 5 dos últimos 7",
+     "strength": 0.436,
+     "favors": "OVER",
+     "team": "Panathinaikos",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Volos NFC",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Ambos marcaram em 4 dos últimos 5",
+     "strength": 0.43,
+     "favors": "BTTS_YES",
+     "team": "Volos NFC",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "btts"
+    },
+    {
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "Panathinaikos",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Volos NFC",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Volos NFC é 14º · Panathinaikos é 1º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Panathinaikos está 13 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Venceu 6 dos últimos 7",
+     "strength": 0.679,
+     "favors": "AWAY",
+     "team": "Panathinaikos",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Volos NFC",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "Panathinaikos",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Volos NFC",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Panathinaikos está 13 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 73,
+   "league": {
+    "key": "greece",
+    "name": "Super League",
+    "country": "Grécia"
+   },
+   "home_team": {
+    "id": 54421,
+    "name": "Volos NFC",
+    "position": 14,
+    "played": 7,
+    "points": 0,
+    "record": "0V 3E 4D",
+    "goals_for": 6,
+    "goals_against": 12,
+    "last5": "DLLLD",
+    "recent": [
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Levadiakos",
+      "date": "2026-10-17"
+     },
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": false,
+      "opponent": "Aris Salonica",
+      "date": "2026-10-11"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "AEK Athens",
+      "date": "2026-09-20"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": false,
+      "opponent": "Kalamata",
+      "date": "2026-09-13"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Olympiacos",
+      "date": "2026-09-05"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 1022,
+    "name": "Panathinaikos",
+    "position": 1,
+    "played": 7,
+    "points": 18.0,
+    "record": "6V 0E 1D",
+    "goals_for": 17,
+    "goals_against": 4,
+    "last5": "WWWLW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "5-1",
+      "home": false,
+      "opponent": "Kairat Almaty",
+      "date": "2026-10-22"
+     },
+     {
+      "result": "W",
+      "score": "5-1",
+      "home": true,
+      "opponent": "Asteras Aktor",
+      "date": "2026-10-18"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Borac Banjaluka",
+      "date": "2026-10-15"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Olympiacos",
+      "date": "2026-10-11"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Kalamata",
+      "date": "2026-09-20"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-25T13:00:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
