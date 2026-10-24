@@ -1,0 +1,1064 @@
+{
+ "date": "2026-10-26",
+ "generated_at": "2026-10-24T11:25:07.490891-03:00",
+ "version": "0.1.0",
+ "count": 3,
+ "clear_count": 2,
+ "day_total": 21,
+ "games": [
+  {
+   "id": 4748413,
+   "s365_competition_id": 136,
+   "competition_name": "Liga 1",
+   "start_time": "2026-10-26T18:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 21126,
+    "name": "Sepsi"
+   },
+   "away": {
+    "id": 2048,
+    "name": "CS Universitatea Craiova"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 0.74,
+    "lambda_away": 1.94,
+    "expected_goals": 2.68,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.1342,
+     "DRAW": 0.2084,
+     "AWAY": 0.6574,
+     "1X": 0.3426,
+     "X2": 0.8658,
+     "12": 0.7916,
+     "OVER25": 0.5013,
+     "UNDER25": 0.4987,
+     "BTTS_YES": 0.4474,
+     "BTTS_NO": 0.5526
+    }
+   },
+   "pick": {
+    "selection": "AWAY",
+    "family": "1x2",
+    "label": "Vitória do CS Universitatea Craiova",
+    "model_prob": 0.6574,
+    "trend_alignment": 1.0,
+    "confidence": 76,
+    "eligible": true,
+    "odd": 1.48,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "X2",
+     "family": "double_chance",
+     "label": "Dupla chance: CS Universitatea Craiova ou empate (X2)",
+     "model_prob": 0.8658,
+     "trend_alignment": 1.0,
+     "confidence": 76,
+     "eligible": true,
+     "odd": 1.17
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5526,
+     "trend_alignment": 0.051,
+     "confidence": 9,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.4987,
+     "trend_alignment": 0.051,
+     "confidence": 2,
+     "eligible": false,
+     "odd": 1.97
+    },
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Sepsi",
+     "model_prob": 0.1342,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 4.95
+    }
+   ],
+   "trends": [
+    {
+     "label": "Venceu 6 dos últimos 7",
+     "strength": 0.679,
+     "favors": "AWAY",
+     "team": "CS Universitatea Craiova",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Não sofreu gol em 5 dos últimos 7",
+     "strength": 0.436,
+     "favors": "UNDER",
+     "team": "CS Universitatea Craiova",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "clean_sheets"
+    },
+    {
+     "label": "Invicto há 7+ jogos",
+     "strength": 0.667,
+     "favors": "AWAY",
+     "team": "CS Universitatea Craiova",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Sepsi",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Sofreu gol em todos os últimos 5",
+     "strength": 0.4,
+     "favors": "OVER",
+     "team": "Sepsi",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "always_concede"
+    },
+    {
+     "label": "3ª melhor defesa da liga (0.8 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "AWAY",
+     "team": "CS Universitatea Craiova",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 2 derrota(s) em 12 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "AWAY",
+     "team": "CS Universitatea Craiova",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "2º melhor ataque da liga (2.2 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "AWAY",
+     "team": "CS Universitatea Craiova",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Sepsi é 12º · CS Universitatea Craiova é 3º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "CS Universitatea Craiova está 9 posições à frente",
+     "strength": 0.643,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Venceu 6 dos últimos 7",
+     "strength": 0.679,
+     "favors": "AWAY",
+     "team": "CS Universitatea Craiova",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Invicto há 7+ jogos",
+     "strength": 0.667,
+     "favors": "AWAY",
+     "team": "CS Universitatea Craiova",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Sepsi",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "3ª melhor defesa da liga (0.8 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "AWAY",
+     "team": "CS Universitatea Craiova",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 2 derrota(s) em 12 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "AWAY",
+     "team": "CS Universitatea Craiova",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "2º melhor ataque da liga (2.2 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "AWAY",
+     "team": "CS Universitatea Craiova",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "CS Universitatea Craiova está 9 posições à frente",
+     "strength": 0.643,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 76,
+   "league": {
+    "key": "romania",
+    "name": "Liga 1",
+    "country": "Romênia"
+   },
+   "home_team": {
+    "id": 21126,
+    "name": "Sepsi",
+    "position": 12,
+    "played": 12,
+    "points": 14.0,
+    "record": "3V 5E 4D",
+    "goals_for": 8,
+    "goals_against": 13,
+    "last5": "DLLWL",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Petrolul Ploiesti",
+      "date": "2026-10-17"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": true,
+      "opponent": "Dinamo Bucuresti",
+      "date": "2026-10-09"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "UTA Arad",
+      "date": "2026-09-18"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": true,
+      "opponent": "CFR Cluj",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "L",
+      "score": "0-5",
+      "home": false,
+      "opponent": "FC Botosani",
+      "date": "2026-09-05"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 2048,
+    "name": "CS Universitatea Craiova",
+    "position": 3,
+    "played": 12,
+    "points": 26.0,
+    "record": "8V 2E 2D",
+    "goals_for": 27,
+    "goals_against": 9,
+    "last5": "WWDWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": false,
+      "opponent": "Inter Escaldes",
+      "date": "2026-10-22"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Farul Constanta",
+      "date": "2026-10-18"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Getafe",
+      "date": "2026-10-15"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Csíkszereda Miercurea Ciuc",
+      "date": "2026-10-11"
+     },
+     {
+      "result": "W",
+      "score": "5-0",
+      "home": true,
+      "opponent": "FCSB",
+      "date": "2026-09-19"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-26T15:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4764328,
+   "s365_competition_id": 78,
+   "competition_name": "Super Lig",
+   "start_time": "2026-10-26T16:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 960,
+    "name": "Rizespor"
+   },
+   "away": {
+    "id": 950,
+    "name": "Trabzonspor"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 0.93,
+    "lambda_away": 1.91,
+    "expected_goals": 2.84,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.1769,
+     "DRAW": 0.2179,
+     "AWAY": 0.6052,
+     "1X": 0.3948,
+     "X2": 0.8231,
+     "12": 0.7821,
+     "OVER25": 0.5402,
+     "UNDER25": 0.4598,
+     "BTTS_YES": 0.5149,
+     "BTTS_NO": 0.4851
+    }
+   },
+   "pick": {
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: Trabzonspor ou empate (X2)",
+    "model_prob": 0.8231,
+    "trend_alignment": 1.0,
+    "confidence": 70,
+    "eligible": true,
+    "odd": 1.25,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Trabzonspor",
+     "model_prob": 0.6052,
+     "trend_alignment": 1.0,
+     "confidence": 61,
+     "eligible": true,
+     "odd": 1.8
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.4598,
+     "trend_alignment": 0.291,
+     "confidence": 10,
+     "eligible": false,
+     "odd": 2.34
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.4851,
+     "trend_alignment": 0.291,
+     "confidence": 10,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5402,
+     "trend_alignment": 0.0,
+     "confidence": 5,
+     "eligible": false,
+     "odd": 1.56
+    }
+   ],
+   "trends": [
+    {
+     "label": "5 vitórias seguidas",
+     "strength": 1.0,
+     "favors": "AWAY",
+     "team": "Trabzonspor",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 6 dos últimos 7",
+     "strength": 0.679,
+     "favors": "AWAY",
+     "team": "Trabzonspor",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Não sofreu gol em 5 dos últimos 7",
+     "strength": 0.436,
+     "favors": "UNDER",
+     "team": "Trabzonspor",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "clean_sheets"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Rizespor",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Melhor defesa da liga (0.6 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "Trabzonspor",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "3º melhor ataque da liga (2.2 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "AWAY",
+     "team": "Trabzonspor",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Rizespor é 12º · Trabzonspor é 4º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Trabzonspor está 8 posições à frente",
+     "strength": 0.571,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "5 vitórias seguidas",
+     "strength": 1.0,
+     "favors": "AWAY",
+     "team": "Trabzonspor",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 6 dos últimos 7",
+     "strength": 0.679,
+     "favors": "AWAY",
+     "team": "Trabzonspor",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Rizespor",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Melhor defesa da liga (0.6 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "Trabzonspor",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "3º melhor ataque da liga (2.2 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "AWAY",
+     "team": "Trabzonspor",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Trabzonspor está 8 posições à frente",
+     "strength": 0.571,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 70,
+   "league": {
+    "key": "turkey",
+    "name": "Süper Lig",
+    "country": "Turquia"
+   },
+   "home_team": {
+    "id": 960,
+    "name": "Rizespor",
+    "position": 12,
+    "played": 8,
+    "points": 10.0,
+    "record": "3V 1E 4D",
+    "goals_for": 8,
+    "goals_against": 11,
+    "last5": "LLDWL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Corum FK",
+      "date": "2026-10-16"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": true,
+      "opponent": "Fenerbahçe SK",
+      "date": "2026-10-10"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "Goztepe",
+      "date": "2026-09-20"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "Eyupspor",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Alanyaspor",
+      "date": "2026-09-07"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 950,
+    "name": "Trabzonspor",
+    "position": 4,
+    "played": 8,
+    "points": 16.0,
+    "record": "5V 1E 2D",
+    "goals_for": 18,
+    "goals_against": 5,
+    "last5": "WWWWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Hearts",
+      "date": "2026-10-22"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Besiktas",
+      "date": "2026-10-19"
+     },
+     {
+      "result": "W",
+      "score": "4-2",
+      "home": false,
+      "opponent": "KuPS",
+      "date": "2026-10-15"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": false,
+      "opponent": "Samsunspor",
+      "date": "2026-10-10"
+     },
+     {
+      "result": "W",
+      "score": "4-0",
+      "home": true,
+      "opponent": "Galatasaray",
+      "date": "2026-09-19"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-26T13:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4633237,
+   "s365_competition_id": 72,
+   "competition_name": "Liga Profesional - Clausura",
+   "start_time": "2026-10-27T00:15:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 7272,
+    "name": "Instituto AC Cordoba"
+   },
+   "away": {
+    "id": 11940,
+    "name": "Riestra"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.84,
+    "lambda_away": 0.59,
+    "expected_goals": 2.44,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.6749,
+     "DRAW": 0.2128,
+     "AWAY": 0.1123,
+     "1X": 0.8877,
+     "X2": 0.3251,
+     "12": 0.7872,
+     "OVER25": 0.4394,
+     "UNDER25": 0.5606,
+     "BTTS_YES": 0.3763,
+     "BTTS_NO": 0.6237
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Instituto AC Cordoba",
+    "model_prob": 0.6749,
+    "trend_alignment": 1.0,
+    "confidence": 79,
+    "eligible": true,
+    "odd": 1.9,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Instituto AC Cordoba ou empate (1X)",
+     "model_prob": 0.8877,
+     "trend_alignment": 1.0,
+     "confidence": 79,
+     "eligible": true,
+     "odd": 1.2
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.6237,
+     "trend_alignment": 0.031,
+     "confidence": 17,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.5606,
+     "trend_alignment": 0.031,
+     "confidence": 9,
+     "eligible": false,
+     "odd": 2.19
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.4394,
+     "trend_alignment": 0.031,
+     "confidence": 1,
+     "eligible": false,
+     "odd": 1.61
+    }
+   ],
+   "trends": [
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "HOME",
+     "team": "Instituto AC Cordoba",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "Instituto AC Cordoba",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Não venceu nenhum dos últimos 5",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Riestra",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "Menos de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "UNDER",
+     "team": "Riestra",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "under"
+    },
+    {
+     "label": "2ª melhor defesa da liga (0.8 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "HOME",
+     "team": "Instituto AC Cordoba",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 2 derrota(s) em 13 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "HOME",
+     "team": "Instituto AC Cordoba",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "3º melhor ataque da liga (1.5 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Instituto AC Cordoba",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Instituto AC Cordoba",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Riestra",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Instituto AC Cordoba é 1º · Riestra é 13º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Instituto AC Cordoba está 12 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "HOME",
+     "team": "Instituto AC Cordoba",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Não venceu nenhum dos últimos 5",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Riestra",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "2ª melhor defesa da liga (0.8 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "HOME",
+     "team": "Instituto AC Cordoba",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 2 derrota(s) em 13 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "HOME",
+     "team": "Instituto AC Cordoba",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "3º melhor ataque da liga (1.5 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Instituto AC Cordoba",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Instituto AC Cordoba",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Riestra",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Instituto AC Cordoba está 12 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 79,
+   "league": {
+    "key": "ar_primera",
+    "name": "Liga Profesional",
+    "country": "Argentina"
+   },
+   "home_team": {
+    "id": 7272,
+    "name": "Instituto AC Cordoba",
+    "position": 1,
+    "played": 13,
+    "points": 29.0,
+    "record": "9V 2E 2D",
+    "goals_for": 20,
+    "goals_against": 10,
+    "last5": "WDWWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Defensa Y Justicia",
+      "date": "2026-10-16"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "Boca Juniors",
+      "date": "2026-10-09"
+     },
+     {
+      "result": "W",
+      "score": "4-1",
+      "home": false,
+      "opponent": "Independiente",
+      "date": "2026-10-02"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": true,
+      "opponent": "Talleres Cordoba",
+      "date": "2026-09-20"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Estudiantes Río Cuarto",
+      "date": "2026-09-15"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 11940,
+    "name": "Riestra",
+    "position": 13,
+    "played": 13,
+    "points": 12.0,
+    "record": "2V 6E 5D",
+    "goals_for": 10,
+    "goals_against": 13,
+    "last5": "DLDDL",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Union Santa Fe",
+      "date": "2026-10-20"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "San Lorenzo",
+      "date": "2026-10-11"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Central Córdoba SdE",
+      "date": "2026-10-05"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Gimnasia Mendoza",
+      "date": "2026-09-19"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": true,
+      "opponent": "Lanus",
+      "date": "2026-09-14"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-26T21:15:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": false,
+   "below_bar": true
+  }
+ ]
+}

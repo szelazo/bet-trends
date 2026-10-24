@@ -1,11 +1,638 @@
 {
  "date": "2026-10-24",
- "generated_at": "2026-10-23T19:55:33.372907-03:00",
+ "generated_at": "2026-10-24T11:25:05.502890-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
- "day_total": 123,
+ "day_total": 126,
  "games": [
+  {
+   "id": 4732665,
+   "s365_competition_id": 17,
+   "competition_name": "Serie A",
+   "start_time": "2026-10-24T18:45:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 236,
+    "name": "Lazio"
+   },
+   "away": {
+    "id": 241,
+    "name": "Parma"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.33,
+    "lambda_away": 0.64,
+    "expected_goals": 2.97,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.7539,
+     "DRAW": 0.1615,
+     "AWAY": 0.0845,
+     "1X": 0.9155,
+     "X2": 0.2461,
+     "12": 0.8385,
+     "OVER25": 0.5691,
+     "UNDER25": 0.4309,
+     "BTTS_YES": 0.4256,
+     "BTTS_NO": 0.5744
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Lazio",
+    "model_prob": 0.7539,
+    "trend_alignment": 1.0,
+    "confidence": 83,
+    "eligible": true,
+    "odd": 1.49,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Lazio ou empate (1X)",
+     "model_prob": 0.9155,
+     "trend_alignment": 1.0,
+     "confidence": 83,
+     "eligible": true,
+     "odd": 1.11
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5691,
+     "trend_alignment": 0.627,
+     "confidence": 31,
+     "eligible": false,
+     "odd": 1.91
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.4256,
+     "trend_alignment": 0.627,
+     "confidence": 22,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5744,
+     "trend_alignment": 0.0,
+     "confidence": 10,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "HOME",
+     "team": "Lazio",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "Lazio",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Parma",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "Parma",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Lazio",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Lazio é 2º · Parma é 18º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Lazio está 16 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "HOME",
+     "team": "Lazio",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Parma",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Lazio",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Lazio está 16 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 83,
+   "league": {
+    "key": "serie_a_ita",
+    "name": "Serie A",
+    "country": "Itália"
+   },
+   "home_team": {
+    "id": 236,
+    "name": "Lazio",
+    "position": 2,
+    "played": 7,
+    "points": 19.0,
+    "record": "6V 1E 0D",
+    "goals_for": 14,
+    "goals_against": 4,
+    "last5": "WWWDW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": false,
+      "opponent": "Juventus",
+      "date": "2026-10-18"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": true,
+      "opponent": "Monza",
+      "date": "2026-10-11"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "Venezia",
+      "date": "2026-09-19"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "AC Milan",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Udinese",
+      "date": "2026-09-07"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 241,
+    "name": "Parma",
+    "position": 18,
+    "played": 7,
+    "points": 4.0,
+    "record": "1V 1E 5D",
+    "goals_for": 4,
+    "goals_against": 13,
+    "last5": "LLWLD",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": true,
+      "opponent": "Torino",
+      "date": "2026-10-19"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": false,
+      "opponent": "Inter Milan",
+      "date": "2026-10-10"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Genoa",
+      "date": "2026-09-20"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Como",
+      "date": "2026-09-14"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Monza",
+      "date": "2026-09-06"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-24T15:45:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4635988,
+   "s365_competition_id": 122,
+   "competition_name": "Allsvenskan",
+   "start_time": "2026-10-24T15:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 1892,
+    "name": "Djurgårdens IF"
+   },
+   "away": {
+    "id": 1908,
+    "name": "Örgryte IS"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.7,
+    "lambda_away": 0.83,
+    "expected_goals": 3.53,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.7684,
+     "DRAW": 0.1422,
+     "AWAY": 0.0894,
+     "1X": 0.9106,
+     "X2": 0.2316,
+     "12": 0.8578,
+     "OVER25": 0.6841,
+     "UNDER25": 0.3159,
+     "BTTS_YES": 0.525,
+     "BTTS_NO": 0.475
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Djurgårdens IF",
+    "model_prob": 0.7684,
+    "trend_alignment": 1.0,
+    "confidence": 82,
+    "eligible": true,
+    "odd": 1.13,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Djurgårdens IF ou empate (1X)",
+     "model_prob": 0.9106,
+     "trend_alignment": 1.0,
+     "confidence": 82,
+     "eligible": true,
+     "odd": 1.03
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6841,
+     "trend_alignment": 0.258,
+     "confidence": 33,
+     "eligible": true,
+     "odd": 1.82
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.525,
+     "trend_alignment": 0.258,
+     "confidence": 12,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Örgryte IS",
+     "model_prob": 0.0894,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 13.0
+    }
+   ],
+   "trends": [
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "HOME",
+     "team": "Djurgårdens IF",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Não sofreu gol em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "UNDER",
+     "team": "Djurgårdens IF",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "clean_sheets"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Örgryte IS",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "Örgryte IS",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Melhor defesa da liga (0.9 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Djurgårdens IF",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "2º melhor ataque da liga (2.1 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Djurgårdens IF",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Pior defesa da liga (2.2 sofridos/jogo)",
+     "strength": 0.34,
+     "favors": "OVER",
+     "team": "Örgryte IS",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_bottom"
+    },
+    {
+     "label": "Djurgårdens IF é 2º · Örgryte IS é 15º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Djurgårdens IF está 13 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "HOME",
+     "team": "Djurgårdens IF",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Örgryte IS",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Melhor defesa da liga (0.9 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Djurgårdens IF",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "2º melhor ataque da liga (2.1 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Djurgårdens IF",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Djurgårdens IF está 13 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 82,
+   "league": {
+    "key": "sweden",
+    "name": "Allsvenskan",
+    "country": "Suécia"
+   },
+   "home_team": {
+    "id": 1892,
+    "name": "Djurgårdens IF",
+    "position": 2,
+    "played": 24,
+    "points": 47.0,
+    "record": "15V 2E 7D",
+    "goals_for": 50,
+    "goals_against": 21,
+    "last5": "WWLWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "IF Brommapojkarna",
+      "date": "2026-10-16"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Hammarby",
+      "date": "2026-10-11"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "IF Elfsborg",
+      "date": "2026-09-20"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Gais",
+      "date": "2026-09-14"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Kalmar FF",
+      "date": "2026-09-07"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 1908,
+    "name": "Örgryte IS",
+    "position": 15,
+    "played": 24,
+    "points": 18.0,
+    "record": "4V 6E 14D",
+    "goals_for": 29,
+    "goals_against": 54,
+    "last5": "WLLLD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "4-2",
+      "home": true,
+      "opponent": "Gais",
+      "date": "2026-10-18"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": false,
+      "opponent": "BK Häcken",
+      "date": "2026-10-11"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Sirius",
+      "date": "2026-09-19"
+     },
+     {
+      "result": "L",
+      "score": "1-4",
+      "home": false,
+      "opponent": "Malmö FF",
+      "date": "2026-09-13"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Hammarby",
+      "date": "2026-09-06"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-24T12:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
   {
    "id": 4736365,
    "s365_competition_id": 153,
@@ -29,27 +656,27 @@
     "expected_goals": 2.9,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.7421,
-     "DRAW": 0.1684,
-     "AWAY": 0.0895,
-     "1X": 0.9105,
-     "X2": 0.2579,
-     "12": 0.8316,
-     "OVER25": 0.5544,
-     "UNDER25": 0.4456,
-     "BTTS_YES": 0.4239,
-     "BTTS_NO": 0.5761
+     "HOME": 0.743,
+     "DRAW": 0.168,
+     "AWAY": 0.089,
+     "1X": 0.911,
+     "X2": 0.257,
+     "12": 0.832,
+     "OVER25": 0.5545,
+     "UNDER25": 0.4455,
+     "BTTS_YES": 0.4231,
+     "BTTS_NO": 0.5769
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Pogon",
-    "model_prob": 0.7421,
+    "model_prob": 0.743,
     "trend_alignment": 1.0,
     "confidence": 82,
     "eligible": true,
-    "odd": 1.71,
+    "odd": 1.54,
     "low_conviction": false
    },
    "alt_markets": [
@@ -57,17 +684,17 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Pogon ou empate (1X)",
-     "model_prob": 0.9105,
+     "model_prob": 0.911,
      "trend_alignment": 1.0,
      "confidence": 82,
      "eligible": true,
-     "odd": 1.23
+     "odd": 1.17
     },
     {
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.5761,
+     "model_prob": 0.5769,
      "trend_alignment": 0.109,
      "confidence": 14,
      "eligible": false,
@@ -77,21 +704,21 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.5544,
+     "model_prob": 0.5545,
      "trend_alignment": 0.0,
      "confidence": 7,
      "eligible": false,
-     "odd": 1.66
+     "odd": 1.62
     },
     {
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.4456,
+     "model_prob": 0.4455,
      "trend_alignment": 0.109,
      "confidence": 4,
      "eligible": false,
-     "odd": 2.21
+     "odd": 2.26
     }
    ],
    "trends": [
@@ -379,333 +1006,6 @@
    "clear": true
   },
   {
-   "id": 4635988,
-   "s365_competition_id": 122,
-   "competition_name": "Allsvenskan",
-   "start_time": "2026-10-24T15:30:00+00:00",
-   "status_group": 2,
-   "round": "Round",
-   "home": {
-    "id": 1892,
-    "name": "Djurgårdens IF"
-   },
-   "away": {
-    "id": 1908,
-    "name": "Örgryte IS"
-   },
-   "home_score": -1.0,
-   "away_score": -1.0,
-   "model": {
-    "lambda_home": 2.71,
-    "lambda_away": 0.83,
-    "expected_goals": 3.53,
-    "sample_factor": 1.0,
-    "probs": {
-     "HOME": 0.7689,
-     "DRAW": 0.1419,
-     "AWAY": 0.0891,
-     "1X": 0.9109,
-     "X2": 0.2311,
-     "12": 0.8581,
-     "OVER25": 0.6846,
-     "UNDER25": 0.3154,
-     "BTTS_YES": 0.5249,
-     "BTTS_NO": 0.4751
-    }
-   },
-   "pick": {
-    "selection": "HOME",
-    "family": "1x2",
-    "label": "Vitória do Djurgårdens IF",
-    "model_prob": 0.7689,
-    "trend_alignment": 1.0,
-    "confidence": 82,
-    "eligible": true,
-    "odd": 1.13,
-    "low_conviction": false
-   },
-   "alt_markets": [
-    {
-     "selection": "1X",
-     "family": "double_chance",
-     "label": "Dupla chance: Djurgårdens IF ou empate (1X)",
-     "model_prob": 0.9109,
-     "trend_alignment": 1.0,
-     "confidence": 82,
-     "eligible": true,
-     "odd": 1.03
-    },
-    {
-     "selection": "OVER25",
-     "family": "over_under",
-     "label": "Mais de 2.5 gols",
-     "model_prob": 0.6846,
-     "trend_alignment": 0.258,
-     "confidence": 33,
-     "eligible": true,
-     "odd": 1.82
-    },
-    {
-     "selection": "BTTS_YES",
-     "family": "btts",
-     "label": "Ambos os times marcam",
-     "model_prob": 0.5249,
-     "trend_alignment": 0.258,
-     "confidence": 12,
-     "eligible": false,
-     "odd": null
-    },
-    {
-     "selection": "AWAY",
-     "family": "1x2",
-     "label": "Vitória do Örgryte IS",
-     "model_prob": 0.0891,
-     "trend_alignment": 0.0,
-     "confidence": 0,
-     "eligible": false,
-     "odd": 13.0
-    }
-   ],
-   "trends": [
-    {
-     "label": "Venceu 4 dos últimos 5",
-     "strength": 0.65,
-     "favors": "HOME",
-     "team": "Djurgårdens IF",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "Não sofreu gol em 4 dos últimos 5",
-     "strength": 0.47,
-     "favors": "UNDER",
-     "team": "Djurgårdens IF",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "clean_sheets"
-    },
-    {
-     "label": "Perdeu 3 dos últimos 5",
-     "strength": 0.52,
-     "favors": "HOME",
-     "team": "Örgryte IS",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Mais de 2.5 gols em 4 dos últimos 5",
-     "strength": 0.47,
-     "favors": "OVER",
-     "team": "Örgryte IS",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "over"
-    },
-    {
-     "label": "Melhor defesa da liga (0.9 sofridos/jogo)",
-     "strength": 0.5,
-     "favors": "HOME",
-     "team": "Djurgårdens IF",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "def_rank"
-    },
-    {
-     "label": "2º melhor ataque da liga (2.1 marcados/jogo)",
-     "strength": 0.32,
-     "favors": "HOME",
-     "team": "Djurgårdens IF",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "atk_rank"
-    },
-    {
-     "label": "Pior defesa da liga (2.2 sofridos/jogo)",
-     "strength": 0.34,
-     "favors": "OVER",
-     "team": "Örgryte IS",
-     "side": "AWAY",
-     "group": "temporada",
-     "kind": "def_bottom"
-    },
-    {
-     "label": "Djurgårdens IF é 2º · Örgryte IS é 15º",
-     "strength": 0.0,
-     "favors": null,
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "positions"
-    },
-    {
-     "label": "Djurgårdens IF está 13 posições à frente",
-     "strength": 0.8,
-     "favors": "HOME",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "aligned_trends": [
-    {
-     "label": "Venceu 4 dos últimos 5",
-     "strength": 0.65,
-     "favors": "HOME",
-     "team": "Djurgårdens IF",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "Perdeu 3 dos últimos 5",
-     "strength": 0.52,
-     "favors": "HOME",
-     "team": "Örgryte IS",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Melhor defesa da liga (0.9 sofridos/jogo)",
-     "strength": 0.5,
-     "favors": "HOME",
-     "team": "Djurgårdens IF",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "def_rank"
-    },
-    {
-     "label": "2º melhor ataque da liga (2.1 marcados/jogo)",
-     "strength": 0.32,
-     "favors": "HOME",
-     "team": "Djurgårdens IF",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "atk_rank"
-    },
-    {
-     "label": "Djurgårdens IF está 13 posições à frente",
-     "strength": 0.8,
-     "favors": "HOME",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "confidence": 82,
-   "league": {
-    "key": "sweden",
-    "name": "Allsvenskan",
-    "country": "Suécia"
-   },
-   "home_team": {
-    "id": 1892,
-    "name": "Djurgårdens IF",
-    "position": 2,
-    "played": 24,
-    "points": 47.0,
-    "record": "15V 2E 7D",
-    "goals_for": 50,
-    "goals_against": 21,
-    "last5": "WWLWW",
-    "recent": [
-     {
-      "result": "W",
-      "score": "2-0",
-      "home": false,
-      "opponent": "IF Brommapojkarna",
-      "date": "2026-10-16"
-     },
-     {
-      "result": "W",
-      "score": "1-0",
-      "home": false,
-      "opponent": "Hammarby",
-      "date": "2026-10-11"
-     },
-     {
-      "result": "L",
-      "score": "1-2",
-      "home": true,
-      "opponent": "IF Elfsborg",
-      "date": "2026-09-20"
-     },
-     {
-      "result": "W",
-      "score": "2-0",
-      "home": true,
-      "opponent": "Gais",
-      "date": "2026-09-14"
-     },
-     {
-      "result": "W",
-      "score": "1-0",
-      "home": false,
-      "opponent": "Kalmar FF",
-      "date": "2026-09-07"
-     }
-    ]
-   },
-   "away_team": {
-    "id": 1908,
-    "name": "Örgryte IS",
-    "position": 15,
-    "played": 24,
-    "points": 18.0,
-    "record": "4V 6E 14D",
-    "goals_for": 29,
-    "goals_against": 54,
-    "last5": "WLLLD",
-    "recent": [
-     {
-      "result": "W",
-      "score": "4-2",
-      "home": true,
-      "opponent": "Gais",
-      "date": "2026-10-18"
-     },
-     {
-      "result": "L",
-      "score": "0-3",
-      "home": false,
-      "opponent": "BK Häcken",
-      "date": "2026-10-11"
-     },
-     {
-      "result": "L",
-      "score": "1-2",
-      "home": true,
-      "opponent": "Sirius",
-      "date": "2026-09-19"
-     },
-     {
-      "result": "L",
-      "score": "1-4",
-      "home": false,
-      "opponent": "Malmö FF",
-      "date": "2026-09-13"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": true,
-      "opponent": "Hammarby",
-      "date": "2026-09-06"
-     }
-    ]
-   },
-   "kickoff_local": "2026-10-24T12:30:00-03:00",
-   "has_odds": true,
-   "odds_bookmaker": "365Scores",
-   "is_cup": false,
-   "result": "pending",
-   "clear": true
-  },
-  {
    "id": 4747947,
    "s365_competition_id": 111,
    "competition_name": "Bundesliga",
@@ -748,7 +1048,7 @@
     "trend_alignment": 1.0,
     "confidence": 82,
     "eligible": true,
-    "odd": 1.16,
+    "odd": 1.19,
     "low_conviction": false
    },
    "alt_markets": [
@@ -770,7 +1070,7 @@
      "trend_alignment": 0.853,
      "confidence": 60,
      "eligible": true,
-     "odd": 1.73
+     "odd": 1.8
     },
     {
      "selection": "BTTS_YES",
@@ -1044,306 +1344,6 @@
     ]
    },
    "kickoff_local": "2026-10-24T14:30:00-03:00",
-   "has_odds": true,
-   "odds_bookmaker": "365Scores",
-   "is_cup": false,
-   "result": "pending",
-   "clear": true
-  },
-  {
-   "id": 4732665,
-   "s365_competition_id": 17,
-   "competition_name": "Serie A",
-   "start_time": "2026-10-24T18:45:00+00:00",
-   "status_group": 2,
-   "round": "Round",
-   "home": {
-    "id": 236,
-    "name": "Lazio"
-   },
-   "away": {
-    "id": 241,
-    "name": "Parma"
-   },
-   "home_score": -1.0,
-   "away_score": -1.0,
-   "model": {
-    "lambda_home": 2.32,
-    "lambda_away": 0.65,
-    "expected_goals": 2.96,
-    "sample_factor": 1.0,
-    "probs": {
-     "HOME": 0.7497,
-     "DRAW": 0.1635,
-     "AWAY": 0.0868,
-     "1X": 0.9132,
-     "X2": 0.2503,
-     "12": 0.8365,
-     "OVER25": 0.5681,
-     "UNDER25": 0.4319,
-     "BTTS_YES": 0.4292,
-     "BTTS_NO": 0.5708
-    }
-   },
-   "pick": {
-    "selection": "HOME",
-    "family": "1x2",
-    "label": "Vitória do Lazio",
-    "model_prob": 0.7497,
-    "trend_alignment": 1.0,
-    "confidence": 82,
-    "eligible": true,
-    "odd": 1.43,
-    "low_conviction": false
-   },
-   "alt_markets": [
-    {
-     "selection": "1X",
-     "family": "double_chance",
-     "label": "Dupla chance: Lazio ou empate (1X)",
-     "model_prob": 0.9132,
-     "trend_alignment": 1.0,
-     "confidence": 82,
-     "eligible": true,
-     "odd": 1.1
-    },
-    {
-     "selection": "OVER25",
-     "family": "over_under",
-     "label": "Mais de 2.5 gols",
-     "model_prob": 0.5681,
-     "trend_alignment": 0.627,
-     "confidence": 31,
-     "eligible": false,
-     "odd": 1.91
-    },
-    {
-     "selection": "BTTS_YES",
-     "family": "btts",
-     "label": "Ambos os times marcam",
-     "model_prob": 0.4292,
-     "trend_alignment": 0.627,
-     "confidence": 22,
-     "eligible": false,
-     "odd": null
-    },
-    {
-     "selection": "BTTS_NO",
-     "family": "btts",
-     "label": "Ambos marcam: não",
-     "model_prob": 0.5708,
-     "trend_alignment": 0.0,
-     "confidence": 9,
-     "eligible": false,
-     "odd": null
-    }
-   ],
-   "trends": [
-    {
-     "label": "Venceu 4 dos últimos 5",
-     "strength": 0.65,
-     "favors": "HOME",
-     "team": "Lazio",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "Mais de 2.5 gols em 4 dos últimos 5",
-     "strength": 0.47,
-     "favors": "OVER",
-     "team": "Lazio",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "over"
-    },
-    {
-     "label": "Perdeu 3 dos últimos 5",
-     "strength": 0.52,
-     "favors": "HOME",
-     "team": "Parma",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Mais de 2.5 gols em 4 dos últimos 5",
-     "strength": 0.47,
-     "favors": "OVER",
-     "team": "Parma",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "over"
-    },
-    {
-     "label": "3 vitórias seguidas",
-     "strength": 0.5,
-     "favors": "HOME",
-     "team": "Lazio",
-     "side": "HOME",
-     "group": "sequencia",
-     "kind": "win_streak"
-    },
-    {
-     "label": "Lazio é 2º · Parma é 18º",
-     "strength": 0.0,
-     "favors": null,
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "positions"
-    },
-    {
-     "label": "Lazio está 16 posições à frente",
-     "strength": 0.8,
-     "favors": "HOME",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "aligned_trends": [
-    {
-     "label": "Venceu 4 dos últimos 5",
-     "strength": 0.65,
-     "favors": "HOME",
-     "team": "Lazio",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "Perdeu 3 dos últimos 5",
-     "strength": 0.52,
-     "favors": "HOME",
-     "team": "Parma",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "3 vitórias seguidas",
-     "strength": 0.5,
-     "favors": "HOME",
-     "team": "Lazio",
-     "side": "HOME",
-     "group": "sequencia",
-     "kind": "win_streak"
-    },
-    {
-     "label": "Lazio está 16 posições à frente",
-     "strength": 0.8,
-     "favors": "HOME",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "confidence": 82,
-   "league": {
-    "key": "serie_a_ita",
-    "name": "Serie A",
-    "country": "Itália"
-   },
-   "home_team": {
-    "id": 236,
-    "name": "Lazio",
-    "position": 2,
-    "played": 7,
-    "points": 19.0,
-    "record": "6V 1E 0D",
-    "goals_for": 14,
-    "goals_against": 4,
-    "last5": "WWWDW",
-    "recent": [
-     {
-      "result": "W",
-      "score": "3-0",
-      "home": false,
-      "opponent": "Juventus",
-      "date": "2026-10-18"
-     },
-     {
-      "result": "W",
-      "score": "3-1",
-      "home": true,
-      "opponent": "Monza",
-      "date": "2026-10-11"
-     },
-     {
-      "result": "W",
-      "score": "2-0",
-      "home": false,
-      "opponent": "Venezia",
-      "date": "2026-09-19"
-     },
-     {
-      "result": "D",
-      "score": "2-2",
-      "home": true,
-      "opponent": "AC Milan",
-      "date": "2026-09-12"
-     },
-     {
-      "result": "W",
-      "score": "2-1",
-      "home": false,
-      "opponent": "Udinese",
-      "date": "2026-09-07"
-     }
-    ]
-   },
-   "away_team": {
-    "id": 241,
-    "name": "Parma",
-    "position": 18,
-    "played": 7,
-    "points": 4.0,
-    "record": "1V 1E 5D",
-    "goals_for": 4,
-    "goals_against": 13,
-    "last5": "LLWLD",
-    "recent": [
-     {
-      "result": "L",
-      "score": "0-3",
-      "home": true,
-      "opponent": "Torino",
-      "date": "2026-10-19"
-     },
-     {
-      "result": "L",
-      "score": "0-3",
-      "home": false,
-      "opponent": "Inter Milan",
-      "date": "2026-10-10"
-     },
-     {
-      "result": "W",
-      "score": "2-1",
-      "home": true,
-      "opponent": "Genoa",
-      "date": "2026-09-20"
-     },
-     {
-      "result": "L",
-      "score": "1-2",
-      "home": false,
-      "opponent": "Como",
-      "date": "2026-09-14"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": true,
-      "opponent": "Monza",
-      "date": "2026-09-06"
-     }
-    ]
-   },
-   "kickoff_local": "2026-10-24T15:45:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,

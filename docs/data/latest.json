@@ -1,65 +1,365 @@
 {
- "date": "2026-10-23",
- "generated_at": "2026-10-23T19:55:32.013239-03:00",
+ "date": "2026-10-24",
+ "generated_at": "2026-10-24T11:25:05.502890-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
- "day_total": 54,
+ "day_total": 126,
  "games": [
   {
-   "id": 4748673,
-   "s365_competition_id": 129,
-   "competition_name": "Premier League",
-   "start_time": "2026-10-23T10:00:00+00:00",
+   "id": 4732665,
+   "s365_competition_id": 17,
+   "competition_name": "Serie A",
+   "start_time": "2026-10-24T18:45:00+00:00",
    "status_group": 2,
    "round": "Round",
    "home": {
-    "id": 1956,
-    "name": "Dynamo Kyiv"
+    "id": 236,
+    "name": "Lazio"
    },
    "away": {
-    "id": 76458,
-    "name": "Kudrivka"
+    "id": 241,
+    "name": "Parma"
    },
-   "home_score": 3.0,
-   "away_score": 1.0,
+   "home_score": -1.0,
+   "away_score": -1.0,
    "model": {
-    "lambda_home": 2.4,
-    "lambda_away": 0.94,
-    "expected_goals": 3.34,
+    "lambda_home": 2.33,
+    "lambda_away": 0.64,
+    "expected_goals": 2.97,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.6967,
-     "DRAW": 0.1735,
-     "AWAY": 0.1298,
-     "1X": 0.8702,
-     "X2": 0.3033,
-     "12": 0.8265,
-     "OVER25": 0.6486,
-     "UNDER25": 0.3514,
-     "BTTS_YES": 0.5542,
-     "BTTS_NO": 0.4458
+     "HOME": 0.7539,
+     "DRAW": 0.1615,
+     "AWAY": 0.0845,
+     "1X": 0.9155,
+     "X2": 0.2461,
+     "12": 0.8385,
+     "OVER25": 0.5691,
+     "UNDER25": 0.4309,
+     "BTTS_YES": 0.4256,
+     "BTTS_NO": 0.5744
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
-    "label": "Vitória do Dynamo Kyiv",
-    "model_prob": 0.6967,
+    "label": "Vitória do Lazio",
+    "model_prob": 0.7539,
     "trend_alignment": 1.0,
-    "confidence": 76,
+    "confidence": 83,
     "eligible": true,
-    "odd": 1.14,
+    "odd": 1.49,
     "low_conviction": false
    },
    "alt_markets": [
     {
      "selection": "1X",
      "family": "double_chance",
-     "label": "Dupla chance: Dynamo Kyiv ou empate (1X)",
-     "model_prob": 0.8702,
+     "label": "Dupla chance: Lazio ou empate (1X)",
+     "model_prob": 0.9155,
      "trend_alignment": 1.0,
-     "confidence": 76,
+     "confidence": 83,
+     "eligible": true,
+     "odd": 1.11
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5691,
+     "trend_alignment": 0.627,
+     "confidence": 31,
+     "eligible": false,
+     "odd": 1.91
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.4256,
+     "trend_alignment": 0.627,
+     "confidence": 22,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5744,
+     "trend_alignment": 0.0,
+     "confidence": 10,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "HOME",
+     "team": "Lazio",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "Lazio",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Parma",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "Parma",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Lazio",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Lazio é 2º · Parma é 18º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Lazio está 16 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "HOME",
+     "team": "Lazio",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Parma",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Lazio",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Lazio está 16 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 83,
+   "league": {
+    "key": "serie_a_ita",
+    "name": "Serie A",
+    "country": "Itália"
+   },
+   "home_team": {
+    "id": 236,
+    "name": "Lazio",
+    "position": 2,
+    "played": 7,
+    "points": 19.0,
+    "record": "6V 1E 0D",
+    "goals_for": 14,
+    "goals_against": 4,
+    "last5": "WWWDW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": false,
+      "opponent": "Juventus",
+      "date": "2026-10-18"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": true,
+      "opponent": "Monza",
+      "date": "2026-10-11"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "Venezia",
+      "date": "2026-09-19"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "AC Milan",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Udinese",
+      "date": "2026-09-07"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 241,
+    "name": "Parma",
+    "position": 18,
+    "played": 7,
+    "points": 4.0,
+    "record": "1V 1E 5D",
+    "goals_for": 4,
+    "goals_against": 13,
+    "last5": "LLWLD",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": true,
+      "opponent": "Torino",
+      "date": "2026-10-19"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": false,
+      "opponent": "Inter Milan",
+      "date": "2026-10-10"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Genoa",
+      "date": "2026-09-20"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Como",
+      "date": "2026-09-14"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Monza",
+      "date": "2026-09-06"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-24T15:45:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4635988,
+   "s365_competition_id": 122,
+   "competition_name": "Allsvenskan",
+   "start_time": "2026-10-24T15:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 1892,
+    "name": "Djurgårdens IF"
+   },
+   "away": {
+    "id": 1908,
+    "name": "Örgryte IS"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.7,
+    "lambda_away": 0.83,
+    "expected_goals": 3.53,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.7684,
+     "DRAW": 0.1422,
+     "AWAY": 0.0894,
+     "1X": 0.9106,
+     "X2": 0.2316,
+     "12": 0.8578,
+     "OVER25": 0.6841,
+     "UNDER25": 0.3159,
+     "BTTS_YES": 0.525,
+     "BTTS_NO": 0.475
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Djurgårdens IF",
+    "model_prob": 0.7684,
+    "trend_alignment": 1.0,
+    "confidence": 82,
+    "eligible": true,
+    "odd": 1.13,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Djurgårdens IF ou empate (1X)",
+     "model_prob": 0.9106,
+     "trend_alignment": 1.0,
+     "confidence": 82,
      "eligible": true,
      "odd": 1.03
     },
@@ -67,27 +367,27 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6486,
-     "trend_alignment": 0.311,
-     "confidence": 30,
+     "model_prob": 0.6841,
+     "trend_alignment": 0.258,
+     "confidence": 33,
      "eligible": true,
-     "odd": 1.85
+     "odd": 1.82
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5542,
-     "trend_alignment": 0.311,
-     "confidence": 18,
+     "model_prob": 0.525,
+     "trend_alignment": 0.258,
+     "confidence": 12,
      "eligible": false,
      "odd": null
     },
     {
      "selection": "AWAY",
      "family": "1x2",
-     "label": "Vitória do Kudrivka",
-     "model_prob": 0.1298,
+     "label": "Vitória do Örgryte IS",
+     "model_prob": 0.0894,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
@@ -96,343 +396,70 @@
    ],
    "trends": [
     {
-     "label": "Perdeu 4 dos últimos 5",
-     "strength": 0.61,
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
      "favors": "HOME",
-     "team": "Kudrivka",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Mais de 2.5 gols em 5 dos últimos 5",
-     "strength": 0.55,
-     "favors": "OVER",
-     "team": "Kudrivka",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "over"
-    },
-    {
-     "label": "Invicto em 4 dos últimos 5",
-     "strength": 0.48,
-     "favors": "HOME",
-     "team": "Dynamo Kyiv",
+     "team": "Djurgårdens IF",
      "side": "HOME",
      "group": "geral",
-     "kind": "unbeaten"
+     "kind": "wins"
     },
     {
      "label": "Não sofreu gol em 4 dos últimos 5",
      "strength": 0.47,
      "favors": "UNDER",
-     "team": "Dynamo Kyiv",
+     "team": "Djurgårdens IF",
      "side": "HOME",
      "group": "geral",
      "kind": "clean_sheets"
     },
     {
-     "label": "Pior defesa da liga (2.3 sofridos/jogo)",
-     "strength": 0.34,
-     "favors": "OVER",
-     "team": "Kudrivka",
-     "side": "AWAY",
-     "group": "temporada",
-     "kind": "def_bottom"
-    },
-    {
-     "label": "Dynamo Kyiv é 4º · Kudrivka é 15º",
-     "strength": 0.0,
-     "favors": null,
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "positions"
-    },
-    {
-     "label": "Dynamo Kyiv está 11 posições à frente",
-     "strength": 0.786,
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
      "favors": "HOME",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "aligned_trends": [
-    {
-     "label": "Perdeu 4 dos últimos 5",
-     "strength": 0.61,
-     "favors": "HOME",
-     "team": "Kudrivka",
+     "team": "Örgryte IS",
      "side": "AWAY",
      "group": "geral",
      "kind": "losses"
     },
     {
-     "label": "Invicto em 4 dos últimos 5",
-     "strength": 0.48,
-     "favors": "HOME",
-     "team": "Dynamo Kyiv",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "unbeaten"
-    },
-    {
-     "label": "Dynamo Kyiv está 11 posições à frente",
-     "strength": 0.786,
-     "favors": "HOME",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "confidence": 76,
-   "league": {
-    "key": "ukraine",
-    "name": "Premier League",
-    "country": "Ucrânia"
-   },
-   "home_team": {
-    "id": 1956,
-    "name": "Dynamo Kyiv",
-    "position": 4,
-    "played": 8,
-    "points": 16.0,
-    "record": "5V 1E 2D",
-    "goals_for": 11,
-    "goals_against": 8,
-    "last5": "LWWWD",
-    "recent": [
-     {
-      "result": "L",
-      "score": "1-3",
-      "home": false,
-      "opponent": "Polissya",
-      "date": "2026-10-18"
-     },
-     {
-      "result": "W",
-      "score": "1-0",
-      "home": true,
-      "opponent": "Karpaty Lviv",
-      "date": "2026-10-11"
-     },
-     {
-      "result": "W",
-      "score": "2-0",
-      "home": false,
-      "opponent": "Zorya Luhansk",
-      "date": "2026-09-19"
-     },
-     {
-      "result": "W",
-      "score": "3-0",
-      "home": true,
-      "opponent": "Epicentr",
-      "date": "2026-09-14"
-     },
-     {
-      "result": "D",
-      "score": "0-0",
-      "home": true,
-      "opponent": "LNZ Cherkasy",
-      "date": "2026-09-06"
-     }
-    ]
-   },
-   "away_team": {
-    "id": 76458,
-    "name": "Kudrivka",
-    "position": 15,
-    "played": 9,
-    "points": 5.0,
-    "record": "1V 2E 6D",
-    "goals_for": 10,
-    "goals_against": 21,
-    "last5": "WLLLL",
-    "recent": [
-     {
-      "result": "W",
-      "score": "4-1",
-      "home": true,
-      "opponent": "Bukovyna",
-      "date": "2026-10-17"
-     },
-     {
-      "result": "L",
-      "score": "1-2",
-      "home": false,
-      "opponent": "LNZ Cherkasy",
-      "date": "2026-10-11"
-     },
-     {
-      "result": "L",
-      "score": "1-2",
-      "home": false,
-      "opponent": "Veres Rivne",
-      "date": "2026-10-03"
-     },
-     {
-      "result": "L",
-      "score": "2-3",
-      "home": true,
-      "opponent": "Kolos Kovalivka",
-      "date": "2026-09-20"
-     },
-     {
-      "result": "L",
-      "score": "1-5",
-      "home": false,
-      "opponent": "Polissya",
-      "date": "2026-09-04"
-     }
-    ]
-   },
-   "kickoff_local": "2026-10-23T07:00:00-03:00",
-   "has_odds": true,
-   "odds_bookmaker": "365Scores",
-   "is_cup": false,
-   "result": "hit",
-   "clear": true
-  },
-  {
-   "id": 4635982,
-   "s365_competition_id": 122,
-   "competition_name": "Allsvenskan",
-   "start_time": "2026-10-23T17:00:00+00:00",
-   "status_group": 2,
-   "round": "Round",
-   "home": {
-    "id": 7479,
-    "name": "Västerås"
-   },
-   "away": {
-    "id": 1894,
-    "name": "Halmstad"
-   },
-   "home_score": 1.0,
-   "away_score": 2.0,
-   "model": {
-    "lambda_home": 2.0,
-    "lambda_away": 0.74,
-    "expected_goals": 2.74,
-    "sample_factor": 1.0,
-    "probs": {
-     "HOME": 0.6707,
-     "DRAW": 0.2016,
-     "AWAY": 0.1278,
-     "1X": 0.8722,
-     "X2": 0.3293,
-     "12": 0.7984,
-     "OVER25": 0.5155,
-     "UNDER25": 0.4845,
-     "BTTS_YES": 0.4506,
-     "BTTS_NO": 0.5494
-    }
-   },
-   "pick": {
-    "selection": "HOME",
-    "family": "1x2",
-    "label": "Vitória do Västerås",
-    "model_prob": 0.6707,
-    "trend_alignment": 0.883,
-    "confidence": 73,
-    "eligible": true,
-    "odd": 1.67,
-    "low_conviction": false
-   },
-   "alt_markets": [
-    {
-     "selection": "1X",
-     "family": "double_chance",
-     "label": "Dupla chance: Västerås ou empate (1X)",
-     "model_prob": 0.8722,
-     "trend_alignment": 0.883,
-     "confidence": 73,
-     "eligible": true,
-     "odd": 1.2
-    },
-    {
-     "selection": "BTTS_NO",
-     "family": "btts",
-     "label": "Ambos marcam: não",
-     "model_prob": 0.5494,
-     "trend_alignment": 0.129,
-     "confidence": 11,
-     "eligible": false,
-     "odd": null
-    },
-    {
-     "selection": "UNDER25",
-     "family": "over_under",
-     "label": "Menos de 2.5 gols",
-     "model_prob": 0.4845,
-     "trend_alignment": 0.129,
-     "confidence": 5,
-     "eligible": false,
-     "odd": 2.14
-    },
-    {
-     "selection": "OVER25",
-     "family": "over_under",
-     "label": "Mais de 2.5 gols",
-     "model_prob": 0.5155,
-     "trend_alignment": 0.0,
-     "confidence": 2,
-     "eligible": false,
-     "odd": 1.66
-    }
-   ],
-   "trends": [
-    {
-     "label": "Perdeu 4 dos últimos 5",
-     "strength": 0.61,
-     "favors": "HOME",
-     "team": "Halmstad",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Sofreu gol em todos os últimos 5",
-     "strength": 0.4,
-     "favors": "OVER",
-     "team": "Halmstad",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "always_concede"
-    },
-    {
-     "label": "Menos de 2.5 gols em 4 dos últimos 5",
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
      "strength": 0.47,
-     "favors": "UNDER",
-     "team": "Västerås",
-     "side": "HOME",
+     "favors": "OVER",
+     "team": "Örgryte IS",
+     "side": "AWAY",
      "group": "geral",
-     "kind": "under"
+     "kind": "over"
     },
     {
-     "label": "Ambos marcaram só 1x nos últimos 5",
-     "strength": 0.39,
-     "favors": "BTTS_NO",
-     "team": "Västerås",
+     "label": "Melhor defesa da liga (0.9 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Djurgårdens IF",
      "side": "HOME",
-     "group": "geral",
-     "kind": "no_btts"
+     "group": "temporada",
+     "kind": "def_rank"
     },
     {
-     "label": "Pior defesa da liga (1.9 sofridos/jogo)",
+     "label": "2º melhor ataque da liga (2.1 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Djurgårdens IF",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Pior defesa da liga (2.2 sofridos/jogo)",
      "strength": 0.34,
      "favors": "OVER",
-     "team": "Halmstad",
+     "team": "Örgryte IS",
      "side": "AWAY",
      "group": "temporada",
      "kind": "def_bottom"
     },
     {
-     "label": "Västerås é 6º · Halmstad é 16º",
+     "label": "Djurgårdens IF é 2º · Örgryte IS é 15º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -441,8 +468,8 @@
      "kind": "positions"
     },
     {
-     "label": "Västerås está 10 posições à frente",
-     "strength": 0.714,
+     "label": "Djurgårdens IF está 13 posições à frente",
+     "strength": 0.8,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -452,17 +479,44 @@
    ],
    "aligned_trends": [
     {
-     "label": "Perdeu 4 dos últimos 5",
-     "strength": 0.61,
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
      "favors": "HOME",
-     "team": "Halmstad",
+     "team": "Djurgårdens IF",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Örgryte IS",
      "side": "AWAY",
      "group": "geral",
      "kind": "losses"
     },
     {
-     "label": "Västerås está 10 posições à frente",
-     "strength": 0.714,
+     "label": "Melhor defesa da liga (0.9 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Djurgårdens IF",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "2º melhor ataque da liga (2.1 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Djurgårdens IF",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Djurgårdens IF está 13 posições à frente",
+     "strength": 0.8,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -470,179 +524,896 @@
      "kind": "table_gap"
     }
    ],
-   "confidence": 73,
+   "confidence": 82,
    "league": {
     "key": "sweden",
     "name": "Allsvenskan",
     "country": "Suécia"
    },
    "home_team": {
-    "id": 7479,
-    "name": "Västerås",
-    "position": 6,
+    "id": 1892,
+    "name": "Djurgårdens IF",
+    "position": 2,
     "played": 24,
-    "points": 38.0,
-    "record": "11V 5E 8D",
-    "goals_for": 35,
-    "goals_against": 36,
-    "last5": "WLWWL",
+    "points": 47.0,
+    "record": "15V 2E 7D",
+    "goals_for": 50,
+    "goals_against": 21,
+    "last5": "WWLWW",
     "recent": [
      {
       "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "IF Brommapojkarna",
+      "date": "2026-10-16"
+     },
+     {
+      "result": "W",
       "score": "1-0",
-      "home": true,
-      "opponent": "Mjällby AIF",
-      "date": "2026-10-18"
+      "home": false,
+      "opponent": "Hammarby",
+      "date": "2026-10-11"
      },
      {
       "result": "L",
-      "score": "0-1",
-      "home": false,
-      "opponent": "IFK Göteborg",
-      "date": "2026-10-09"
+      "score": "1-2",
+      "home": true,
+      "opponent": "IF Elfsborg",
+      "date": "2026-09-20"
      },
      {
       "result": "W",
       "score": "2-0",
       "home": true,
-      "opponent": "Malmö FF",
-      "date": "2026-09-19"
+      "opponent": "Gais",
+      "date": "2026-09-14"
      },
      {
       "result": "W",
-      "score": "4-1",
+      "score": "1-0",
       "home": false,
-      "opponent": "AIK Solna",
-      "date": "2026-09-12"
-     },
-     {
-      "result": "L",
-      "score": "0-1",
-      "home": true,
-      "opponent": "Sirius",
-      "date": "2026-09-05"
+      "opponent": "Kalmar FF",
+      "date": "2026-09-07"
      }
     ]
    },
    "away_team": {
-    "id": 1894,
-    "name": "Halmstad",
-    "position": 16,
+    "id": 1908,
+    "name": "Örgryte IS",
+    "position": 15,
     "played": 24,
-    "points": 14.0,
-    "record": "3V 5E 16D",
-    "goals_for": 16,
-    "goals_against": 45,
-    "last5": "LLWLL",
+    "points": 18.0,
+    "record": "4V 6E 14D",
+    "goals_for": 29,
+    "goals_against": 54,
+    "last5": "WLLLD",
     "recent": [
      {
-      "result": "L",
-      "score": "0-1",
+      "result": "W",
+      "score": "4-2",
       "home": true,
-      "opponent": "Hammarby",
+      "opponent": "Gais",
       "date": "2026-10-18"
      },
      {
       "result": "L",
-      "score": "0-4",
+      "score": "0-3",
       "home": false,
-      "opponent": "IF Elfsborg",
-      "date": "2026-10-12"
-     },
-     {
-      "result": "W",
-      "score": "2-1",
-      "home": true,
-      "opponent": "AIK Solna",
-      "date": "2026-09-20"
+      "opponent": "BK Häcken",
+      "date": "2026-10-11"
      },
      {
       "result": "L",
       "score": "1-2",
-      "home": false,
-      "opponent": "IFK Göteborg",
-      "date": "2026-09-12"
+      "home": true,
+      "opponent": "Sirius",
+      "date": "2026-09-19"
      },
      {
       "result": "L",
-      "score": "0-2",
+      "score": "1-4",
       "home": false,
-      "opponent": "Degerfors IF",
-      "date": "2026-09-05"
+      "opponent": "Malmö FF",
+      "date": "2026-09-13"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Hammarby",
+      "date": "2026-09-06"
      }
     ]
    },
-   "kickoff_local": "2026-10-23T14:00:00-03:00",
+   "kickoff_local": "2026-10-24T12:30:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "miss",
+   "result": "pending",
    "clear": true
   },
   {
-   "id": 4735517,
-   "s365_competition_id": 36,
-   "competition_name": "Ligue 2",
-   "start_time": "2026-10-23T18:00:00+00:00",
+   "id": 4736365,
+   "s365_competition_id": 153,
+   "competition_name": "Ekstraklasa",
+   "start_time": "2026-10-24T15:30:00+00:00",
    "status_group": 2,
    "round": "Round",
    "home": {
-    "id": 7046,
-    "name": "Pau FC"
+    "id": 6016,
+    "name": "Pogon"
    },
    "away": {
-    "id": 487,
-    "name": "Grenoble"
+    "id": 12384,
+    "name": "Radomiak Radom"
    },
-   "home_score": 2.0,
-   "away_score": 1.0,
+   "home_score": -1.0,
+   "away_score": -1.0,
    "model": {
-    "lambda_home": 1.69,
-    "lambda_away": 0.72,
-    "expected_goals": 2.41,
+    "lambda_home": 2.26,
+    "lambda_away": 0.64,
+    "expected_goals": 2.9,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.607,
-     "DRAW": 0.2372,
-     "AWAY": 0.1558,
-     "1X": 0.8442,
-     "X2": 0.393,
-     "12": 0.7628,
-     "OVER25": 0.4324,
-     "UNDER25": 0.5676,
-     "BTTS_YES": 0.4179,
-     "BTTS_NO": 0.5821
+     "HOME": 0.743,
+     "DRAW": 0.168,
+     "AWAY": 0.089,
+     "1X": 0.911,
+     "X2": 0.257,
+     "12": 0.832,
+     "OVER25": 0.5545,
+     "UNDER25": 0.4455,
+     "BTTS_YES": 0.4231,
+     "BTTS_NO": 0.5769
     }
    },
    "pick": {
-    "selection": "1X",
-    "family": "double_chance",
-    "label": "Dupla chance: Pau FC ou empate (1X)",
-    "model_prob": 0.8442,
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Pogon",
+    "model_prob": 0.743,
     "trend_alignment": 1.0,
-    "confidence": 73,
+    "confidence": 82,
     "eligible": true,
-    "odd": 1.26,
+    "odd": 1.54,
     "low_conviction": false
    },
    "alt_markets": [
     {
-     "selection": "HOME",
-     "family": "1x2",
-     "label": "Vitória do Pau FC",
-     "model_prob": 0.607,
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Pogon ou empate (1X)",
+     "model_prob": 0.911,
      "trend_alignment": 1.0,
-     "confidence": 61,
+     "confidence": 82,
      "eligible": true,
-     "odd": 1.86
+     "odd": 1.17
     },
     {
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.5821,
-     "trend_alignment": 0.313,
-     "confidence": 22,
+     "model_prob": 0.5769,
+     "trend_alignment": 0.109,
+     "confidence": 14,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5545,
+     "trend_alignment": 0.0,
+     "confidence": 7,
+     "eligible": false,
+     "odd": 1.62
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.4455,
+     "trend_alignment": 0.109,
+     "confidence": 4,
+     "eligible": false,
+     "odd": 2.26
+    }
+   ],
+   "trends": [
+    {
+     "label": "4 vitórias seguidas",
+     "strength": 0.75,
+     "favors": "HOME",
+     "team": "Pogon",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "HOME",
+     "team": "Pogon",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Menos de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "UNDER",
+     "team": "Pogon",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "under"
+    },
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "HOME",
+     "team": "Radomiak Radom",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Não marcou em 3 dos últimos 5",
+     "strength": 0.38,
+     "favors": "HOME",
+     "team": "Radomiak Radom",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "no_score"
+    },
+    {
+     "label": "Melhor defesa da liga (0.6 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Pogon",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 1 derrota(s) em 10 jogos no campeonato",
+     "strength": 0.42,
+     "favors": "HOME",
+     "team": "Pogon",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Pior defesa da liga (2.2 sofridos/jogo)",
+     "strength": 0.34,
+     "favors": "OVER",
+     "team": "Radomiak Radom",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_bottom"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Radomiak Radom",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Pogon é 4º · Radomiak Radom é 16º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Pogon está 12 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "4 vitórias seguidas",
+     "strength": 0.75,
+     "favors": "HOME",
+     "team": "Pogon",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "HOME",
+     "team": "Pogon",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "HOME",
+     "team": "Radomiak Radom",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Não marcou em 3 dos últimos 5",
+     "strength": 0.38,
+     "favors": "HOME",
+     "team": "Radomiak Radom",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "no_score"
+    },
+    {
+     "label": "Melhor defesa da liga (0.6 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Pogon",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 1 derrota(s) em 10 jogos no campeonato",
+     "strength": 0.42,
+     "favors": "HOME",
+     "team": "Pogon",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Radomiak Radom",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Pogon está 12 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 82,
+   "league": {
+    "key": "poland",
+    "name": "Ekstraklasa",
+    "country": "Polônia"
+   },
+   "home_team": {
+    "id": 6016,
+    "name": "Pogon",
+    "position": 4,
+    "played": 10,
+    "points": 21.0,
+    "record": "6V 3E 1D",
+    "goals_for": 15,
+    "goals_against": 6,
+    "last5": "WWWWD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "GKS Katowice",
+      "date": "2026-10-17"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Korona Kielce",
+      "date": "2026-10-11"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Piast Gliwice",
+      "date": "2026-09-20"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Wieczysta Krakow",
+      "date": "2026-09-13"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Wisla Plock",
+      "date": "2026-09-07"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 12384,
+    "name": "Radomiak Radom",
+    "position": 16,
+    "played": 11,
+    "points": 8.0,
+    "record": "2V 2E 7D",
+    "goals_for": 9,
+    "goals_against": 24,
+    "last5": "LLLLD",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Wisla Plock",
+      "date": "2026-10-19"
+     },
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": true,
+      "opponent": "Motor Lublin",
+      "date": "2026-10-12"
+     },
+     {
+      "result": "L",
+      "score": "1-5",
+      "home": false,
+      "opponent": "Lech Poznan",
+      "date": "2026-09-20"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": true,
+      "opponent": "Piast Gliwice",
+      "date": "2026-09-14"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Widzew Lodz",
+      "date": "2026-09-05"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-24T12:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4747947,
+   "s365_competition_id": 111,
+   "competition_name": "Bundesliga",
+   "start_time": "2026-10-24T17:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 1738,
+    "name": "Rapid Vienna"
+   },
+   "away": {
+    "id": 1753,
+    "name": "Austria Lustenau"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.9,
+    "lambda_away": 0.92,
+    "expected_goals": 3.82,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.7768,
+     "DRAW": 0.1335,
+     "AWAY": 0.0897,
+     "1X": 0.9103,
+     "X2": 0.2232,
+     "12": 0.8665,
+     "OVER25": 0.7333,
+     "UNDER25": 0.2667,
+     "BTTS_YES": 0.5678,
+     "BTTS_NO": 0.4322
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Rapid Vienna",
+    "model_prob": 0.7768,
+    "trend_alignment": 1.0,
+    "confidence": 82,
+    "eligible": true,
+    "odd": 1.19,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Rapid Vienna ou empate (1X)",
+     "model_prob": 0.9103,
+     "trend_alignment": 1.0,
+     "confidence": 82,
+     "eligible": true,
+     "odd": 1.05
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.7333,
+     "trend_alignment": 0.853,
+     "confidence": 60,
+     "eligible": true,
+     "odd": 1.8
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5678,
+     "trend_alignment": 0.853,
+     "confidence": 39,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Austria Lustenau",
+     "model_prob": 0.0897,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 11.0
+    }
+   ],
+   "trends": [
+    {
+     "label": "4 vitórias seguidas",
+     "strength": 0.75,
+     "favors": "HOME",
+     "team": "Rapid Vienna",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "HOME",
+     "team": "Rapid Vienna",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "Rapid Vienna",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "HOME",
+     "team": "Austria Lustenau",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "Austria Lustenau",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Melhor ataque da liga (2.9 marcados/jogo)",
+     "strength": 0.44,
+     "favors": "HOME",
+     "team": "Rapid Vienna",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "2ª melhor defesa da liga (0.9 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "HOME",
+     "team": "Rapid Vienna",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Pior defesa da liga (2.1 sofridos/jogo)",
+     "strength": 0.34,
+     "favors": "OVER",
+     "team": "Austria Lustenau",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_bottom"
+    },
+    {
+     "label": "Rapid Vienna é 1º · Austria Lustenau é 10º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Rapid Vienna está 9 posições à frente",
+     "strength": 0.643,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "4 vitórias seguidas",
+     "strength": 0.75,
+     "favors": "HOME",
+     "team": "Rapid Vienna",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "HOME",
+     "team": "Rapid Vienna",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "HOME",
+     "team": "Austria Lustenau",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Melhor ataque da liga (2.9 marcados/jogo)",
+     "strength": 0.44,
+     "favors": "HOME",
+     "team": "Rapid Vienna",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "2ª melhor defesa da liga (0.9 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "HOME",
+     "team": "Rapid Vienna",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Rapid Vienna está 9 posições à frente",
+     "strength": 0.643,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 82,
+   "league": {
+    "key": "austria",
+    "name": "Bundesliga",
+    "country": "Áustria"
+   },
+   "home_team": {
+    "id": 1738,
+    "name": "Rapid Vienna",
+    "position": 1,
+    "played": 9,
+    "points": 24.0,
+    "record": "8V 0E 1D",
+    "goals_for": 26,
+    "goals_against": 8,
+    "last5": "WWWWL",
+    "recent": [
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": true,
+      "opponent": "TSV Hartberg",
+      "date": "2026-10-16"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "LASK Linz",
+      "date": "2026-10-11"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "WSG Tirol",
+      "date": "2026-09-18"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": false,
+      "opponent": "Wolfsberger AC",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "L",
+      "score": "1-5",
+      "home": false,
+      "opponent": "Red Bull Salzburg",
+      "date": "2026-09-02"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 1753,
+    "name": "Austria Lustenau",
+    "position": 10,
+    "played": 9,
+    "points": 8.0,
+    "record": "2V 2E 5D",
+    "goals_for": 11,
+    "goals_against": 19,
+    "last5": "LLWLL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-4",
+      "home": true,
+      "opponent": "LASK Linz",
+      "date": "2026-10-17"
+     },
+     {
+      "result": "L",
+      "score": "3-4",
+      "home": false,
+      "opponent": "TSV Hartberg",
+      "date": "2026-10-11"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "SCR Altach",
+      "date": "2026-09-19"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Austria Vienna",
+      "date": "2026-09-13"
+     },
+     {
+      "result": "L",
+      "score": "0-4",
+      "home": true,
+      "opponent": "WSG Tirol",
+      "date": "2026-08-28"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-24T14:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4635986,
+   "s365_competition_id": 122,
+   "competition_name": "Allsvenskan",
+   "start_time": "2026-10-24T13:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 1903,
+    "name": "BK Häcken"
+   },
+   "away": {
+    "id": 1918,
+    "name": "Degerfors IF"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.93,
+    "lambda_away": 0.63,
+    "expected_goals": 2.56,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.6822,
+     "DRAW": 0.2046,
+     "AWAY": 0.1133,
+     "1X": 0.8867,
+     "X2": 0.3178,
+     "12": 0.7954,
+     "OVER25": 0.471,
+     "UNDER25": 0.529,
+     "BTTS_YES": 0.4001,
+     "BTTS_NO": 0.5999
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do BK Häcken",
+    "model_prob": 0.6822,
+    "trend_alignment": 1.0,
+    "confidence": 79,
+    "eligible": true,
+    "odd": 1.38,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: BK Häcken ou empate (1X)",
+     "model_prob": 0.8867,
+     "trend_alignment": 1.0,
+     "confidence": 79,
+     "eligible": true,
+     "odd": 1.12
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5999,
+     "trend_alignment": 0.627,
+     "confidence": 35,
      "eligible": false,
      "odd": null
     },
@@ -650,608 +1421,17 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.5676,
-     "trend_alignment": 0.313,
-     "confidence": 20,
-     "eligible": false,
-     "odd": 1.7
-    },
-    {
-     "selection": "AWAY",
-     "family": "1x2",
-     "label": "Vitória do Grenoble",
-     "model_prob": 0.1558,
-     "trend_alignment": 0.0,
-     "confidence": 0,
-     "eligible": false,
-     "odd": 3.83
-    }
-   ],
-   "trends": [
-    {
-     "label": "Perdeu 3 dos últimos 5",
-     "strength": 0.52,
-     "favors": "HOME",
-     "team": "Grenoble",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Menos de 2.5 gols em 4 dos últimos 5",
-     "strength": 0.47,
-     "favors": "UNDER",
-     "team": "Grenoble",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "under"
-    },
-    {
-     "label": "3 vitórias seguidas",
-     "strength": 0.5,
-     "favors": "HOME",
-     "team": "Pau FC",
-     "side": "HOME",
-     "group": "sequencia",
-     "kind": "win_streak"
-    },
-    {
-     "label": "Invicto em 4 dos últimos 5",
-     "strength": 0.48,
-     "favors": "HOME",
-     "team": "Pau FC",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "unbeaten"
-    },
-    {
-     "label": "Pau FC é 6º · Grenoble é 15º",
-     "strength": 0.0,
-     "favors": null,
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "positions"
-    },
-    {
-     "label": "Pau FC está 9 posições à frente",
-     "strength": 0.643,
-     "favors": "HOME",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "aligned_trends": [
-    {
-     "label": "Perdeu 3 dos últimos 5",
-     "strength": 0.52,
-     "favors": "HOME",
-     "team": "Grenoble",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "3 vitórias seguidas",
-     "strength": 0.5,
-     "favors": "HOME",
-     "team": "Pau FC",
-     "side": "HOME",
-     "group": "sequencia",
-     "kind": "win_streak"
-    },
-    {
-     "label": "Invicto em 4 dos últimos 5",
-     "strength": 0.48,
-     "favors": "HOME",
-     "team": "Pau FC",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "unbeaten"
-    },
-    {
-     "label": "Pau FC está 9 posições à frente",
-     "strength": 0.643,
-     "favors": "HOME",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "confidence": 73,
-   "league": {
-    "key": "ligue2",
-    "name": "Ligue 2",
-    "country": "França"
-   },
-   "home_team": {
-    "id": 7046,
-    "name": "Pau FC",
-    "position": 6,
-    "played": 9,
-    "points": 14.0,
-    "record": "4V 2E 3D",
-    "goals_for": 11,
-    "goals_against": 9,
-    "last5": "WWWLD",
-    "recent": [
-     {
-      "result": "W",
-      "score": "2-1",
-      "home": false,
-      "opponent": "Guingamp",
-      "date": "2026-10-16"
-     },
-     {
-      "result": "W",
-      "score": "3-2",
-      "home": true,
-      "opponent": "Laval",
-      "date": "2026-10-09"
-     },
-     {
-      "result": "W",
-      "score": "2-0",
-      "home": true,
-      "opponent": "Dunkerque",
-      "date": "2026-09-18"
-     },
-     {
-      "result": "L",
-      "score": "0-1",
-      "home": false,
-      "opponent": "Montpellier",
-      "date": "2026-09-11"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": true,
-      "opponent": "Sochaux",
-      "date": "2026-09-04"
-     }
-    ]
-   },
-   "away_team": {
-    "id": 487,
-    "name": "Grenoble",
-    "position": 15,
-    "played": 9,
-    "points": 8.0,
-    "record": "2V 2E 5D",
-    "goals_for": 8,
-    "goals_against": 15,
-    "last5": "LLDWL",
-    "recent": [
-     {
-      "result": "L",
-      "score": "0-2",
-      "home": true,
-      "opponent": "Boulogne",
-      "date": "2026-10-16"
-     },
-     {
-      "result": "L",
-      "score": "0-2",
-      "home": false,
-      "opponent": "Montpellier",
-      "date": "2026-10-09"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": true,
-      "opponent": "Clermont Foot",
-      "date": "2026-09-18"
-     },
-     {
-      "result": "W",
-      "score": "1-0",
-      "home": false,
-      "opponent": "Rodez",
-      "date": "2026-09-11"
-     },
-     {
-      "result": "L",
-      "score": "1-2",
-      "home": true,
-      "opponent": "FC Annecy",
-      "date": "2026-09-04"
-     }
-    ]
-   },
-   "kickoff_local": "2026-10-23T15:00:00-03:00",
-   "has_odds": true,
-   "odds_bookmaker": "365Scores",
-   "is_cup": false,
-   "result": "hit",
-   "clear": true
-  },
-  {
-   "id": 4779062,
-   "s365_competition_id": 408,
-   "competition_name": "Doha Bank Stars League",
-   "start_time": "2026-10-23T14:30:00+00:00",
-   "status_group": 2,
-   "round": "Round",
-   "home": {
-    "id": 7081,
-    "name": "Al Shamal"
-   },
-   "away": {
-    "id": 7086,
-    "name": "Qatar SC"
-   },
-   "home_score": 2.0,
-   "away_score": 3.0,
-   "model": {
-    "lambda_home": 2.25,
-    "lambda_away": 1.02,
-    "expected_goals": 3.27,
-    "sample_factor": 1.0,
-    "probs": {
-     "HOME": 0.6504,
-     "DRAW": 0.1902,
-     "AWAY": 0.1594,
-     "1X": 0.8406,
-     "X2": 0.3496,
-     "12": 0.8098,
-     "OVER25": 0.6351,
-     "UNDER25": 0.3649,
-     "BTTS_YES": 0.573,
-     "BTTS_NO": 0.427
-    }
-   },
-   "pick": {
-    "selection": "1X",
-    "family": "double_chance",
-    "label": "Dupla chance: Al Shamal ou empate (1X)",
-    "model_prob": 0.8406,
-    "trend_alignment": 1.0,
-    "confidence": 72,
-    "eligible": true,
-    "odd": 1.26,
-    "low_conviction": false
-   },
-   "alt_markets": [
-    {
-     "selection": "HOME",
-     "family": "1x2",
-     "label": "Vitória do Al Shamal",
-     "model_prob": 0.6504,
-     "trend_alignment": 1.0,
-     "confidence": 66,
-     "eligible": true,
-     "odd": 1.7
-    },
-    {
-     "selection": "OVER25",
-     "family": "over_under",
-     "label": "Mais de 2.5 gols",
-     "model_prob": 0.6351,
-     "trend_alignment": 0.0,
-     "confidence": 18,
-     "eligible": true,
-     "odd": 2.0
-    },
-    {
-     "selection": "BTTS_YES",
-     "family": "btts",
-     "label": "Ambos os times marcam",
-     "model_prob": 0.573,
-     "trend_alignment": 0.0,
-     "confidence": 9,
-     "eligible": false,
-     "odd": null
-    },
-    {
-     "selection": "AWAY",
-     "family": "1x2",
-     "label": "Vitória do Qatar SC",
-     "model_prob": 0.1594,
-     "trend_alignment": 0.0,
-     "confidence": 0,
-     "eligible": false,
-     "odd": 3.79
-    }
-   ],
-   "trends": [
-    {
-     "label": "Perdeu 3 dos últimos 5",
-     "strength": 0.52,
-     "favors": "HOME",
-     "team": "Qatar SC",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Não marcou em 3 dos últimos 5",
-     "strength": 0.38,
-     "favors": "HOME",
-     "team": "Qatar SC",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "no_score"
-    },
-    {
-     "label": "Invicto em 4 dos últimos 5",
-     "strength": 0.48,
-     "favors": "HOME",
-     "team": "Al Shamal",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "unbeaten"
-    },
-    {
-     "label": "Não vence há 5+ jogos",
-     "strength": 0.333,
-     "favors": "HOME",
-     "team": "Qatar SC",
-     "side": "AWAY",
-     "group": "sequencia",
-     "kind": "winless_streak"
-    },
-    {
-     "label": "Al Shamal é 5º · Qatar SC é 11º",
-     "strength": 0.0,
-     "favors": null,
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "positions"
-    },
-    {
-     "label": "Al Shamal está 6 posições à frente",
-     "strength": 0.429,
-     "favors": "HOME",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "aligned_trends": [
-    {
-     "label": "Perdeu 3 dos últimos 5",
-     "strength": 0.52,
-     "favors": "HOME",
-     "team": "Qatar SC",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Não marcou em 3 dos últimos 5",
-     "strength": 0.38,
-     "favors": "HOME",
-     "team": "Qatar SC",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "no_score"
-    },
-    {
-     "label": "Invicto em 4 dos últimos 5",
-     "strength": 0.48,
-     "favors": "HOME",
-     "team": "Al Shamal",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "unbeaten"
-    },
-    {
-     "label": "Não vence há 5+ jogos",
-     "strength": 0.333,
-     "favors": "HOME",
-     "team": "Qatar SC",
-     "side": "AWAY",
-     "group": "sequencia",
-     "kind": "winless_streak"
-    },
-    {
-     "label": "Al Shamal está 6 posições à frente",
-     "strength": 0.429,
-     "favors": "HOME",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "confidence": 72,
-   "league": {
-    "key": "qatar",
-    "name": "Qatar Stars League",
-    "country": "Catar"
-   },
-   "home_team": {
-    "id": 7081,
-    "name": "Al Shamal",
-    "position": 5,
-    "played": 6,
-    "points": 9.0,
-    "record": "2V 3E 1D",
-    "goals_for": 10,
-    "goals_against": 10,
-    "last5": "DLDWW",
-    "recent": [
-     {
-      "result": "D",
-      "score": "0-0",
-      "home": false,
-      "opponent": "Lusail Sports Club",
-      "date": "2026-10-17"
-     },
-     {
-      "result": "L",
-      "score": "0-4",
-      "home": true,
-      "opponent": "Al Duhail",
-      "date": "2026-10-08"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": true,
-      "opponent": "Al Wakrah",
-      "date": "2026-09-10"
-     },
-     {
-      "result": "W",
-      "score": "4-2",
-      "home": true,
-      "opponent": "Shahaniya SC",
-      "date": "2026-09-04"
-     },
-     {
-      "result": "W",
-      "score": "3-1",
-      "home": false,
-      "opponent": "Al Gharafa",
-      "date": "2026-08-27"
-     }
-    ]
-   },
-   "away_team": {
-    "id": 7086,
-    "name": "Qatar SC",
-    "position": 11,
-    "played": 6,
-    "points": 3.0,
-    "record": "0V 3E 3D",
-    "goals_for": 6,
-    "goals_against": 14,
-    "last5": "DLDLL",
-    "recent": [
-     {
-      "result": "D",
-      "score": "2-2",
-      "home": false,
-      "opponent": "Al Sailiya",
-      "date": "2026-10-17"
-     },
-     {
-      "result": "L",
-      "score": "0-3",
-      "home": true,
-      "opponent": "Al Rayyan",
-      "date": "2026-10-09"
-     },
-     {
-      "result": "D",
-      "score": "0-0",
-      "home": false,
-      "opponent": "Al Arabi Doha",
-      "date": "2026-09-12"
-     },
-     {
-      "result": "L",
-      "score": "0-1",
-      "home": false,
-      "opponent": "Al-Ahli Doha",
-      "date": "2026-09-03"
-     },
-     {
-      "result": "L",
-      "score": "2-6",
-      "home": true,
-      "opponent": "Al Sadd",
-      "date": "2026-08-28"
-     }
-    ]
-   },
-   "kickoff_local": "2026-10-23T11:30:00-03:00",
-   "has_odds": true,
-   "odds_bookmaker": "365Scores",
-   "is_cup": false,
-   "result": "miss",
-   "clear": true
-  },
-  {
-   "id": 4779063,
-   "s365_competition_id": 408,
-   "competition_name": "Doha Bank Stars League",
-   "start_time": "2026-10-23T16:45:00+00:00",
-   "status_group": 2,
-   "round": "Round",
-   "home": {
-    "id": 6991,
-    "name": "Al Sailiya"
-   },
-   "away": {
-    "id": 7077,
-    "name": "Al Rayyan"
-   },
-   "home_score": 1.0,
-   "away_score": 6.0,
-   "model": {
-    "lambda_home": 1.12,
-    "lambda_away": 2.36,
-    "expected_goals": 3.49,
-    "sample_factor": 1.0,
-    "probs": {
-     "HOME": 0.166,
-     "DRAW": 0.1847,
-     "AWAY": 0.6493,
-     "1X": 0.3507,
-     "X2": 0.834,
-     "12": 0.8153,
-     "OVER25": 0.6762,
-     "UNDER25": 0.3238,
-     "BTTS_YES": 0.6108,
-     "BTTS_NO": 0.3892
-    }
-   },
-   "pick": {
-    "selection": "AWAY",
-    "family": "1x2",
-    "label": "Vitória do Al Rayyan",
-    "model_prob": 0.6493,
-    "trend_alignment": 1.0,
-    "confidence": 71,
-    "eligible": true,
-    "odd": 1.29,
-    "low_conviction": false
-   },
-   "alt_markets": [
-    {
-     "selection": "X2",
-     "family": "double_chance",
-     "label": "Dupla chance: Al Rayyan ou empate (X2)",
-     "model_prob": 0.834,
-     "trend_alignment": 1.0,
-     "confidence": 71,
-     "eligible": true,
-     "odd": 1.12
-    },
-    {
-     "selection": "OVER25",
-     "family": "over_under",
-     "label": "Mais de 2.5 gols",
-     "model_prob": 0.6762,
-     "trend_alignment": 0.079,
+     "model_prob": 0.529,
+     "trend_alignment": 0.627,
      "confidence": 26,
-     "eligible": true,
-     "odd": 1.9
+     "eligible": false,
+     "odd": 2.33
     },
     {
-     "selection": "BTTS_YES",
-     "family": "btts",
-     "label": "Ambos os times marcam",
-     "model_prob": 0.6108,
-     "trend_alignment": 0.079,
-     "confidence": 17,
-     "eligible": true,
-     "odd": null
-    },
-    {
-     "selection": "HOME",
+     "selection": "AWAY",
      "family": "1x2",
-     "label": "Vitória do Al Sailiya",
-     "model_prob": 0.166,
+     "label": "Vitória do Degerfors IF",
+     "model_prob": 0.1133,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
@@ -1260,61 +1440,52 @@
    ],
    "trends": [
     {
-     "label": "Perdeu 4 dos últimos 5",
-     "strength": 0.61,
-     "favors": "AWAY",
-     "team": "Al Sailiya",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Mais de 2.5 gols em 4 dos últimos 5",
-     "strength": 0.47,
-     "favors": "OVER",
-     "team": "Al Sailiya",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "over"
-    },
-    {
      "label": "Invicto em 5 dos últimos 5",
      "strength": 0.55,
-     "favors": "AWAY",
-     "team": "Al Rayyan",
-     "side": "AWAY",
+     "favors": "HOME",
+     "team": "BK Häcken",
+     "side": "HOME",
      "group": "geral",
      "kind": "unbeaten"
     },
     {
-     "label": "Não sofreu gol em 3 dos últimos 5",
-     "strength": 0.39,
+     "label": "Não sofreu gol em 4 dos últimos 5",
+     "strength": 0.47,
      "favors": "UNDER",
-     "team": "Al Rayyan",
-     "side": "AWAY",
+     "team": "BK Häcken",
+     "side": "HOME",
      "group": "geral",
      "kind": "clean_sheets"
     },
     {
-     "label": "Não vence há 5+ jogos",
-     "strength": 0.333,
-     "favors": "AWAY",
-     "team": "Al Sailiya",
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Degerfors IF",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Menos de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "UNDER",
+     "team": "Degerfors IF",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "under"
+    },
+    {
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "BK Häcken",
      "side": "HOME",
      "group": "sequencia",
-     "kind": "winless_streak"
+     "kind": "win_streak"
     },
     {
-     "label": "Invicto há 5+ jogos",
-     "strength": 0.333,
-     "favors": "AWAY",
-     "team": "Al Rayyan",
-     "side": "AWAY",
-     "group": "sequencia",
-     "kind": "unbeaten_streak"
-    },
-    {
-     "label": "Al Sailiya é 12º · Al Rayyan é 2º",
+     "label": "BK Häcken é 4º · Degerfors IF é 14º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -1323,9 +1494,9 @@
      "kind": "positions"
     },
     {
-     "label": "Al Rayyan está 10 posições à frente",
+     "label": "BK Häcken está 10 posições à frente",
      "strength": 0.714,
-     "favors": "AWAY",
+     "favors": "HOME",
      "team": null,
      "side": null,
      "group": "confronto",
@@ -1334,158 +1505,149 @@
    ],
    "aligned_trends": [
     {
-     "label": "Perdeu 4 dos últimos 5",
-     "strength": 0.61,
-     "favors": "AWAY",
-     "team": "Al Sailiya",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
      "label": "Invicto em 5 dos últimos 5",
      "strength": 0.55,
-     "favors": "AWAY",
-     "team": "Al Rayyan",
-     "side": "AWAY",
+     "favors": "HOME",
+     "team": "BK Häcken",
+     "side": "HOME",
      "group": "geral",
      "kind": "unbeaten"
     },
     {
-     "label": "Não vence há 5+ jogos",
-     "strength": 0.333,
-     "favors": "AWAY",
-     "team": "Al Sailiya",
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Degerfors IF",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "BK Häcken",
      "side": "HOME",
      "group": "sequencia",
-     "kind": "winless_streak"
+     "kind": "win_streak"
     },
     {
-     "label": "Invicto há 5+ jogos",
-     "strength": 0.333,
-     "favors": "AWAY",
-     "team": "Al Rayyan",
-     "side": "AWAY",
-     "group": "sequencia",
-     "kind": "unbeaten_streak"
-    },
-    {
-     "label": "Al Rayyan está 10 posições à frente",
+     "label": "BK Häcken está 10 posições à frente",
      "strength": 0.714,
-     "favors": "AWAY",
+     "favors": "HOME",
      "team": null,
      "side": null,
      "group": "confronto",
      "kind": "table_gap"
     }
    ],
-   "confidence": 71,
+   "confidence": 79,
    "league": {
-    "key": "qatar",
-    "name": "Qatar Stars League",
-    "country": "Catar"
+    "key": "sweden",
+    "name": "Allsvenskan",
+    "country": "Suécia"
    },
    "home_team": {
-    "id": 6991,
-    "name": "Al Sailiya",
-    "position": 12,
-    "played": 6,
-    "points": 1.0,
-    "record": "0V 1E 5D",
-    "goals_for": 7,
-    "goals_against": 20,
-    "last5": "DLLLL",
+    "id": 1903,
+    "name": "BK Häcken",
+    "position": 4,
+    "played": 24,
+    "points": 42.0,
+    "record": "11V 9E 4D",
+    "goals_for": 43,
+    "goals_against": 30,
+    "last5": "WWWDD",
     "recent": [
      {
-      "result": "D",
-      "score": "2-2",
-      "home": true,
-      "opponent": "Qatar SC",
-      "date": "2026-10-17"
-     },
-     {
-      "result": "L",
-      "score": "0-5",
+      "result": "W",
+      "score": "1-0",
       "home": false,
-      "opponent": "Al-Ahli Doha",
-      "date": "2026-10-10"
-     },
-     {
-      "result": "L",
-      "score": "3-6",
-      "home": true,
-      "opponent": "Al Sadd",
-      "date": "2026-09-10"
-     },
-     {
-      "result": "L",
-      "score": "0-2",
-      "home": true,
-      "opponent": "Al Arabi Doha",
-      "date": "2026-09-03"
-     },
-     {
-      "result": "L",
-      "score": "2-3",
-      "home": false,
-      "opponent": "Shahaniya SC",
-      "date": "2026-08-29"
-     }
-    ]
-   },
-   "away_team": {
-    "id": 7077,
-    "name": "Al Rayyan",
-    "position": 2,
-    "played": 6,
-    "points": 14.0,
-    "record": "4V 2E 0D",
-    "goals_for": 10,
-    "goals_against": 2,
-    "last5": "DWWDW",
-    "recent": [
-     {
-      "result": "D",
-      "score": "0-0",
-      "home": false,
-      "opponent": "Al Gharafa",
+      "opponent": "Malmö FF",
       "date": "2026-10-18"
      },
      {
       "result": "W",
       "score": "3-0",
-      "home": false,
-      "opponent": "Qatar SC",
-      "date": "2026-10-09"
+      "home": true,
+      "opponent": "Örgryte IS",
+      "date": "2026-10-11"
      },
      {
       "result": "W",
-      "score": "3-0",
-      "home": true,
-      "opponent": "Al-Ahli Doha",
-      "date": "2026-09-11"
+      "score": "5-0",
+      "home": false,
+      "opponent": "Kalmar FF",
+      "date": "2026-09-20"
      },
      {
       "result": "D",
       "score": "1-1",
       "home": true,
-      "opponent": "Al Duhail",
-      "date": "2026-09-05"
+      "opponent": "Mjällby AIF",
+      "date": "2026-09-11"
      },
      {
-      "result": "W",
-      "score": "2-1",
+      "result": "D",
+      "score": "0-0",
       "home": false,
-      "opponent": "Al Wakrah",
-      "date": "2026-08-27"
+      "opponent": "Gais",
+      "date": "2026-09-05"
      }
     ]
    },
-   "kickoff_local": "2026-10-23T13:45:00-03:00",
+   "away_team": {
+    "id": 1918,
+    "name": "Degerfors IF",
+    "position": 14,
+    "played": 24,
+    "points": 20.0,
+    "record": "5V 5E 14D",
+    "goals_for": 21,
+    "goals_against": 37,
+    "last5": "LDLLW",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Kalmar FF",
+      "date": "2026-10-19"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Mjällby AIF",
+      "date": "2026-10-10"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Hammarby",
+      "date": "2026-09-20"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Sirius",
+      "date": "2026-09-14"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Halmstad",
+      "date": "2026-09-05"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-24T10:00:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "hit",
+   "result": "pending",
    "clear": true
   }
  ]
