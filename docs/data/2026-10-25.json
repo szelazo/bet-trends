@@ -1,6 +1,6 @@
 {
  "date": "2026-10-25",
- "generated_at": "2026-10-24T19:16:00.201833-03:00",
+ "generated_at": "2026-10-25T11:55:41.168826-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -37,8 +37,8 @@
      "12": 0.8799,
      "OVER25": 0.7001,
      "UNDER25": 0.2999,
-     "BTTS_YES": 0.4856,
-     "BTTS_NO": 0.5144
+     "BTTS_YES": 0.4855,
+     "BTTS_NO": 0.5145
     }
    },
    "pick": {
@@ -49,7 +49,7 @@
     "trend_alignment": 1.0,
     "confidence": 85,
     "eligible": true,
-    "odd": 1.31,
+    "odd": 1.35,
     "low_conviction": false
    },
    "alt_markets": [
@@ -61,7 +61,7 @@
      "trend_alignment": 1.0,
      "confidence": 85,
      "eligible": true,
-     "odd": 1.08
+     "odd": 1.09
     },
     {
      "selection": "OVER25",
@@ -71,13 +71,13 @@
      "trend_alignment": 0.467,
      "confidence": 42,
      "eligible": true,
-     "odd": 2.09
+     "odd": 2.19
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.4856,
+     "model_prob": 0.4855,
      "trend_alignment": 0.467,
      "confidence": 16,
      "eligible": false,
@@ -87,7 +87,7 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.5144,
+     "model_prob": 0.5145,
      "trend_alignment": 0.0,
      "confidence": 2,
      "eligible": false,
@@ -393,8 +393,8 @@
     "id": 949,
     "name": "Kayserispor"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 2.0,
    "model": {
     "lambda_home": 0.85,
     "lambda_away": 2.31,
@@ -756,7 +756,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -774,8 +774,8 @@
     "id": 228,
     "name": "Fiorentina"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 2.9,
     "lambda_away": 1.15,
@@ -1065,7 +1065,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -1083,8 +1083,8 @@
     "id": 1155,
     "name": "FC Lugano"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 3.0,
    "model": {
     "lambda_home": 1.37,
     "lambda_away": 2.9,
@@ -1428,7 +1428,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -1454,27 +1454,27 @@
     "expected_goals": 2.87,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.1519,
-     "DRAW": 0.2061,
-     "AWAY": 0.6419,
-     "1X": 0.3581,
-     "X2": 0.8481,
-     "12": 0.7939,
-     "OVER25": 0.5465,
-     "UNDER25": 0.4535,
-     "BTTS_YES": 0.4989,
-     "BTTS_NO": 0.5011
+     "HOME": 0.1511,
+     "DRAW": 0.2056,
+     "AWAY": 0.6432,
+     "1X": 0.3568,
+     "X2": 0.8489,
+     "12": 0.7944,
+     "OVER25": 0.5471,
+     "UNDER25": 0.4529,
+     "BTTS_YES": 0.4986,
+     "BTTS_NO": 0.5014
     }
    },
    "pick": {
     "selection": "AWAY",
     "family": "1x2",
     "label": "Vitória do Panathinaikos",
-    "model_prob": 0.6419,
+    "model_prob": 0.6432,
     "trend_alignment": 1.0,
     "confidence": 73,
     "eligible": true,
-    "odd": 1.31,
+    "odd": 1.26,
     "low_conviction": false
    },
    "alt_markets": [
@@ -1482,27 +1482,27 @@
      "selection": "X2",
      "family": "double_chance",
      "label": "Dupla chance: Panathinaikos ou empate (X2)",
-     "model_prob": 0.8481,
+     "model_prob": 0.8489,
      "trend_alignment": 1.0,
      "confidence": 73,
      "eligible": true,
-     "odd": 1.07
+     "odd": 1.06
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.5465,
+     "model_prob": 0.5471,
      "trend_alignment": 0.577,
      "confidence": 26,
      "eligible": false,
-     "odd": 1.62
+     "odd": 2.19
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.4989,
+     "model_prob": 0.4986,
      "trend_alignment": 0.577,
      "confidence": 20,
      "eligible": false,
@@ -1512,11 +1512,11 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Volos NFC",
-     "model_prob": 0.1519,
+     "model_prob": 0.1511,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 9.0
+     "odd": 10.0
     }
    ],
    "trends": [
@@ -1575,7 +1575,7 @@
      "kind": "winless_streak"
     },
     {
-     "label": "Volos NFC é 14º · Panathinaikos é 1º",
+     "label": "Volos NFC é 14º · Panathinaikos é 2º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -1584,7 +1584,7 @@
      "kind": "positions"
     },
     {
-     "label": "Panathinaikos está 13 posições à frente",
+     "label": "Panathinaikos está 12 posições à frente",
      "strength": 0.8,
      "favors": "AWAY",
      "team": null,
@@ -1631,7 +1631,7 @@
      "kind": "winless_streak"
     },
     {
-     "label": "Panathinaikos está 13 posições à frente",
+     "label": "Panathinaikos está 12 posições à frente",
      "strength": 0.8,
      "favors": "AWAY",
      "team": null,
@@ -1697,7 +1697,7 @@
    "away_team": {
     "id": 1022,
     "name": "Panathinaikos",
-    "position": 1,
+    "position": 2,
     "played": 7,
     "points": 18.0,
     "record": "6V 0E 1D",
