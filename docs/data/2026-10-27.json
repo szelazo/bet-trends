@@ -1,6 +1,6 @@
 {
  "date": "2026-10-27",
- "generated_at": "2026-10-25T11:55:42.961569-03:00",
+ "generated_at": "2026-10-25T19:19:20.776850-03:00",
  "version": "0.1.0",
  "count": 4,
  "clear_count": 4,
@@ -24,28 +24,28 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 2.86,
+    "lambda_home": 2.85,
     "lambda_away": 0.79,
-    "expected_goals": 3.65,
+    "expected_goals": 3.64,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.7961,
-     "DRAW": 0.1282,
-     "AWAY": 0.0756,
-     "1X": 0.9244,
-     "X2": 0.2039,
-     "12": 0.8718,
-     "OVER25": 0.7053,
-     "UNDER25": 0.2947,
-     "BTTS_YES": 0.5159,
-     "BTTS_NO": 0.4841
+     "HOME": 0.7954,
+     "DRAW": 0.1287,
+     "AWAY": 0.0759,
+     "1X": 0.9241,
+     "X2": 0.2046,
+     "12": 0.8713,
+     "OVER25": 0.7039,
+     "UNDER25": 0.2961,
+     "BTTS_YES": 0.5153,
+     "BTTS_NO": 0.4847
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Benevento",
-    "model_prob": 0.7961,
+    "model_prob": 0.7954,
     "trend_alignment": 1.0,
     "confidence": 84,
     "eligible": true,
@@ -57,7 +57,7 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Benevento ou empate (1X)",
-     "model_prob": 0.9244,
+     "model_prob": 0.9241,
      "trend_alignment": 1.0,
      "confidence": 84,
      "eligible": true,
@@ -67,17 +67,17 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.7053,
+     "model_prob": 0.7039,
      "trend_alignment": 0.306,
      "confidence": 37,
      "eligible": true,
-     "odd": 1.7
+     "odd": 1.67
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5159,
+     "model_prob": 0.5153,
      "trend_alignment": 0.306,
      "confidence": 13,
      "eligible": false,
@@ -87,7 +87,7 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Catanzaro",
-     "model_prob": 0.0756,
+     "model_prob": 0.0759,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
@@ -132,7 +132,7 @@
      "kind": "over"
     },
     {
-     "label": "3ª melhor defesa da liga (0.9 sofridos/jogo)",
+     "label": "2ª melhor defesa da liga (0.9 sofridos/jogo)",
      "strength": 0.36,
      "favors": "HOME",
      "team": "Benevento",
@@ -197,7 +197,7 @@
      "kind": "losses"
     },
     {
-     "label": "3ª melhor defesa da liga (0.9 sofridos/jogo)",
+     "label": "2ª melhor defesa da liga (0.9 sofridos/jogo)",
      "strength": 0.36,
      "favors": "HOME",
      "team": "Benevento",
@@ -351,32 +351,32 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 2.39,
+    "lambda_home": 2.38,
     "lambda_away": 0.7,
     "expected_goals": 3.09,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.7483,
-     "DRAW": 0.1605,
-     "AWAY": 0.0912,
-     "1X": 0.9088,
-     "X2": 0.2517,
-     "12": 0.8395,
-     "OVER25": 0.5968,
-     "UNDER25": 0.4032,
-     "BTTS_YES": 0.4587,
-     "BTTS_NO": 0.5413
+     "HOME": 0.7476,
+     "DRAW": 0.161,
+     "AWAY": 0.0914,
+     "1X": 0.9086,
+     "X2": 0.2524,
+     "12": 0.839,
+     "OVER25": 0.5955,
+     "UNDER25": 0.4045,
+     "BTTS_YES": 0.4582,
+     "BTTS_NO": 0.5418
     }
    },
    "pick": {
     "selection": "1X",
     "family": "double_chance",
     "label": "Dupla chance: Ascoli ou empate (1X)",
-    "model_prob": 0.9088,
+    "model_prob": 0.9086,
     "trend_alignment": 1.0,
     "confidence": 82,
     "eligible": true,
-    "odd": 1.34,
+    "odd": 1.33,
     "low_conviction": false
    },
    "alt_markets": [
@@ -384,19 +384,19 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Ascoli",
-     "model_prob": 0.7483,
+     "model_prob": 0.7476,
      "trend_alignment": 1.0,
      "confidence": 75,
      "eligible": true,
-     "odd": 2.17
+     "odd": 2.12
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.5968,
+     "model_prob": 0.5955,
      "trend_alignment": 0.513,
-     "confidence": 31,
+     "confidence": 30,
      "eligible": false,
      "odd": 1.91
     },
@@ -404,7 +404,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.4587,
+     "model_prob": 0.4582,
      "trend_alignment": 0.513,
      "confidence": 18,
      "eligible": false,
@@ -414,7 +414,7 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.5413,
+     "model_prob": 0.5418,
      "trend_alignment": 0.0,
      "confidence": 5,
      "eligible": false,
@@ -656,23 +656,23 @@
     "expected_goals": 2.37,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.5978,
-     "DRAW": 0.2418,
-     "AWAY": 0.1604,
-     "1X": 0.8396,
-     "X2": 0.4022,
-     "12": 0.7582,
-     "OVER25": 0.4235,
-     "UNDER25": 0.5765,
-     "BTTS_YES": 0.4152,
-     "BTTS_NO": 0.5848
+     "HOME": 0.5966,
+     "DRAW": 0.2422,
+     "AWAY": 0.1612,
+     "1X": 0.8388,
+     "X2": 0.4034,
+     "12": 0.7578,
+     "OVER25": 0.4231,
+     "UNDER25": 0.5769,
+     "BTTS_YES": 0.4155,
+     "BTTS_NO": 0.5845
     }
    },
    "pick": {
     "selection": "1X",
     "family": "double_chance",
     "label": "Dupla chance: Mantova ou empate (1X)",
-    "model_prob": 0.8396,
+    "model_prob": 0.8388,
     "trend_alignment": 1.0,
     "confidence": 72,
     "eligible": true,
@@ -684,17 +684,17 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Mantova",
-     "model_prob": 0.5978,
+     "model_prob": 0.5966,
      "trend_alignment": 1.0,
      "confidence": 60,
      "eligible": true,
-     "odd": 2.24
+     "odd": 2.19
     },
     {
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.5848,
+     "model_prob": 0.5845,
      "trend_alignment": 0.0,
      "confidence": 11,
      "eligible": false,
@@ -704,7 +704,7 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.5765,
+     "model_prob": 0.5769,
      "trend_alignment": 0.0,
      "confidence": 10,
      "eligible": false,
@@ -714,7 +714,7 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Cremonese",
-     "model_prob": 0.1604,
+     "model_prob": 0.1612,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
@@ -953,30 +953,30 @@
    "model": {
     "lambda_home": 1.14,
     "lambda_away": 1.99,
-    "expected_goals": 3.13,
+    "expected_goals": 3.12,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.213,
-     "DRAW": 0.2155,
-     "AWAY": 0.5715,
-     "1X": 0.4285,
-     "X2": 0.787,
-     "12": 0.7845,
-     "OVER25": 0.6045,
-     "UNDER25": 0.3955,
-     "BTTS_YES": 0.5862,
-     "BTTS_NO": 0.4138
+     "HOME": 0.2137,
+     "DRAW": 0.2158,
+     "AWAY": 0.5704,
+     "1X": 0.4296,
+     "X2": 0.7863,
+     "12": 0.7842,
+     "OVER25": 0.6041,
+     "UNDER25": 0.3959,
+     "BTTS_YES": 0.5863,
+     "BTTS_NO": 0.4137
     }
    },
    "pick": {
     "selection": "X2",
     "family": "double_chance",
     "label": "Dupla chance: Lazio ou empate (X2)",
-    "model_prob": 0.787,
+    "model_prob": 0.7863,
     "trend_alignment": 1.0,
     "confidence": 65,
     "eligible": true,
-    "odd": 1.37,
+    "odd": 1.36,
     "low_conviction": false
    },
    "alt_markets": [
@@ -984,17 +984,17 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Lazio",
-     "model_prob": 0.5715,
+     "model_prob": 0.5704,
      "trend_alignment": 1.0,
      "confidence": 58,
      "eligible": true,
-     "odd": 2.22
+     "odd": 2.17
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6045,
+     "model_prob": 0.6041,
      "trend_alignment": 0.6,
      "confidence": 35,
      "eligible": true,
@@ -1004,7 +1004,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5862,
+     "model_prob": 0.5863,
      "trend_alignment": 0.6,
      "confidence": 32,
      "eligible": false,
@@ -1014,11 +1014,11 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Sassuolo",
-     "model_prob": 0.213,
+     "model_prob": 0.2137,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 3.12
+     "odd": 3.22
     }
    ],
    "trends": [
@@ -1077,15 +1077,6 @@
      "kind": "def_rank"
     },
     {
-     "label": "3º melhor ataque da liga (2.0 marcados/jogo)",
-     "strength": 0.32,
-     "favors": "AWAY",
-     "team": "Lazio",
-     "side": "AWAY",
-     "group": "temporada",
-     "kind": "atk_rank"
-    },
-    {
      "label": "Sassuolo é 14º · Lazio é 2º",
      "strength": 0.0,
      "favors": null,
@@ -1140,15 +1131,6 @@
      "side": "AWAY",
      "group": "temporada",
      "kind": "def_rank"
-    },
-    {
-     "label": "3º melhor ataque da liga (2.0 marcados/jogo)",
-     "strength": 0.32,
-     "favors": "AWAY",
-     "team": "Lazio",
-     "side": "AWAY",
-     "group": "temporada",
-     "kind": "atk_rank"
     },
     {
      "label": "Lazio está 12 posições à frente",

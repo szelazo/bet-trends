@@ -1,6 +1,6 @@
 {
  "date": "2026-10-25",
- "generated_at": "2026-10-25T11:55:41.168826-03:00",
+ "generated_at": "2026-10-25T19:19:19.032968-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -21,8 +21,8 @@
     "id": 1171,
     "name": "Cercle Brugge"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 5.0,
+   "away_score": 2.0,
    "model": {
     "lambda_home": 2.9,
     "lambda_away": 0.72,
@@ -375,7 +375,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -1446,8 +1446,8 @@
     "id": 1022,
     "name": "Panathinaikos"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 0.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 0.86,
     "lambda_away": 2.01,
@@ -1746,7 +1746,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   }
  ]
