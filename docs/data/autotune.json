@@ -1,6 +1,13 @@
 {
- "last_run": "2026-10-12",
- "disabled_leagues": {},
+ "last_run": "2026-10-26",
+ "disabled_leagues": {
+  "laliga2": {
+   "since": "2026-10-26",
+   "hits": 4,
+   "total": 8,
+   "reason": "acerto 4/8 (50%) abaixo de 55%"
+  }
+ },
  "clear_edge_overrides": {},
  "log": [
   {
@@ -19,6 +26,12 @@
    "date": "2026-10-12",
    "changes": [
     "nada a ajustar — dentro do esperado"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "changes": [
+    "liga 'laliga2' desativada — acerto 4/8 (50%) abaixo de 55%"
    ]
   }
  ]

@@ -1,115 +1,133 @@
 {
- "date": "2026-10-25",
- "generated_at": "2026-10-25T19:19:19.032968-03:00",
+ "date": "2026-10-26",
+ "generated_at": "2026-10-26T14:15:28.340126-03:00",
  "version": "0.1.0",
- "count": 5,
- "clear_count": 5,
- "day_total": 114,
+ "count": 3,
+ "clear_count": 2,
+ "day_total": 21,
  "games": [
   {
-   "id": 4740708,
-   "s365_competition_id": 98,
-   "competition_name": "Jupiler Pro League",
-   "start_time": "2026-10-25T18:15:00+00:00",
+   "id": 4748413,
+   "s365_competition_id": 136,
+   "competition_name": "Liga 1",
+   "start_time": "2026-10-26T18:00:00+00:00",
    "status_group": 2,
    "round": "Round",
    "home": {
-    "id": 1204,
-    "name": "Union St. Gilloise"
+    "id": 21126,
+    "name": "Sepsi"
    },
    "away": {
-    "id": 1171,
-    "name": "Cercle Brugge"
+    "id": 2048,
+    "name": "CS Universitatea Craiova"
    },
-   "home_score": 5.0,
-   "away_score": 2.0,
+   "home_score": -1.0,
+   "away_score": -1.0,
    "model": {
-    "lambda_home": 2.9,
-    "lambda_away": 0.72,
-    "expected_goals": 3.62,
+    "lambda_home": 0.76,
+    "lambda_away": 1.95,
+    "expected_goals": 2.71,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.8153,
-     "DRAW": 0.1201,
-     "AWAY": 0.0646,
-     "1X": 0.9354,
-     "X2": 0.1847,
-     "12": 0.8799,
-     "OVER25": 0.7001,
-     "UNDER25": 0.2999,
-     "BTTS_YES": 0.4855,
-     "BTTS_NO": 0.5145
+     "HOME": 0.1366,
+     "DRAW": 0.2079,
+     "AWAY": 0.6555,
+     "1X": 0.3445,
+     "X2": 0.8634,
+     "12": 0.7921,
+     "OVER25": 0.5084,
+     "UNDER25": 0.4916,
+     "BTTS_YES": 0.4552,
+     "BTTS_NO": 0.5448
     }
    },
    "pick": {
-    "selection": "HOME",
+    "selection": "AWAY",
     "family": "1x2",
-    "label": "Vitória do Union St. Gilloise",
-    "model_prob": 0.8153,
+    "label": "Vitória do CS Universitatea Craiova",
+    "model_prob": 0.6555,
     "trend_alignment": 1.0,
-    "confidence": 85,
+    "confidence": 75,
     "eligible": true,
-    "odd": 1.35,
+    "odd": 1.48,
     "low_conviction": false
    },
    "alt_markets": [
     {
-     "selection": "1X",
+     "selection": "X2",
      "family": "double_chance",
-     "label": "Dupla chance: Union St. Gilloise ou empate (1X)",
-     "model_prob": 0.9354,
+     "label": "Dupla chance: CS Universitatea Craiova ou empate (X2)",
+     "model_prob": 0.8634,
      "trend_alignment": 1.0,
-     "confidence": 85,
+     "confidence": 75,
      "eligible": true,
-     "odd": 1.09
-    },
-    {
-     "selection": "OVER25",
-     "family": "over_under",
-     "label": "Mais de 2.5 gols",
-     "model_prob": 0.7001,
-     "trend_alignment": 0.467,
-     "confidence": 42,
-     "eligible": true,
-     "odd": 2.19
-    },
-    {
-     "selection": "BTTS_YES",
-     "family": "btts",
-     "label": "Ambos os times marcam",
-     "model_prob": 0.4855,
-     "trend_alignment": 0.467,
-     "confidence": 16,
-     "eligible": false,
-     "odd": null
+     "odd": 1.16
     },
     {
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.5145,
-     "trend_alignment": 0.0,
-     "confidence": 2,
+     "model_prob": 0.5448,
+     "trend_alignment": 0.051,
+     "confidence": 8,
      "eligible": false,
      "odd": null
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.4916,
+     "trend_alignment": 0.051,
+     "confidence": 2,
+     "eligible": false,
+     "odd": 1.92
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5084,
+     "trend_alignment": 0.005,
+     "confidence": 1,
+     "eligible": false,
+     "odd": 1.92
     }
    ],
    "trends": [
     {
+     "label": "Venceu 6 dos últimos 7",
+     "strength": 0.679,
+     "favors": "AWAY",
+     "team": "CS Universitatea Craiova",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Não sofreu gol em 5 dos últimos 7",
+     "strength": 0.436,
+     "favors": "UNDER",
+     "team": "CS Universitatea Craiova",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "clean_sheets"
+    },
+    {
      "label": "Invicto há 7+ jogos",
      "strength": 0.667,
-     "favors": "HOME",
-     "team": "Union St. Gilloise",
-     "side": "HOME",
+     "favors": "AWAY",
+     "team": "CS Universitatea Craiova",
+     "side": "AWAY",
      "group": "sequencia",
      "kind": "unbeaten_streak"
     },
     {
-     "label": "Perdeu 4 dos últimos 5",
-     "strength": 0.61,
-     "favors": "HOME",
-     "team": "Cercle Brugge",
-     "side": "AWAY",
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Sepsi",
+     "side": "HOME",
      "group": "geral",
      "kind": "losses"
     },
@@ -117,67 +135,40 @@
      "label": "Sofreu gol em todos os últimos 5",
      "strength": 0.4,
      "favors": "OVER",
-     "team": "Cercle Brugge",
-     "side": "AWAY",
+     "team": "Sepsi",
+     "side": "HOME",
      "group": "geral",
      "kind": "always_concede"
     },
     {
-     "label": "Venceu 5 dos últimos 7",
-     "strength": 0.607,
-     "favors": "HOME",
-     "team": "Union St. Gilloise",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "Marcou em todos os últimos 7",
-     "strength": 0.3,
-     "favors": "OVER",
-     "team": "Union St. Gilloise",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "always_score"
-    },
-    {
-     "label": "Invicto em 4 dos últimos 4 em casa",
-     "strength": 0.55,
-     "favors": "HOME",
-     "team": "Union St. Gilloise",
-     "side": "HOME",
-     "group": "casa_fora",
-     "kind": "unbeaten"
-    },
-    {
-     "label": "Melhor ataque da liga (2.8 marcados/jogo)",
+     "label": "Melhor ataque da liga (2.2 marcados/jogo)",
      "strength": 0.44,
-     "favors": "HOME",
-     "team": "Union St. Gilloise",
-     "side": "HOME",
+     "favors": "AWAY",
+     "team": "CS Universitatea Craiova",
+     "side": "AWAY",
      "group": "temporada",
      "kind": "atk_rank"
     },
     {
-     "label": "3ª melhor defesa da liga (0.5 sofridos/jogo)",
+     "label": "2ª melhor defesa da liga (0.8 sofridos/jogo)",
      "strength": 0.36,
-     "favors": "HOME",
-     "team": "Union St. Gilloise",
-     "side": "HOME",
+     "favors": "AWAY",
+     "team": "CS Universitatea Craiova",
+     "side": "AWAY",
      "group": "temporada",
      "kind": "def_rank"
     },
     {
-     "label": "Não vence há 5+ jogos",
-     "strength": 0.333,
-     "favors": "HOME",
-     "team": "Cercle Brugge",
+     "label": "Só 2 derrota(s) em 12 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "AWAY",
+     "team": "CS Universitatea Craiova",
      "side": "AWAY",
-     "group": "sequencia",
-     "kind": "winless_streak"
+     "group": "temporada",
+     "kind": "few_losses"
     },
     {
-     "label": "Union St. Gilloise é 4º · Cercle Brugge é 18º",
+     "label": "Sepsi é 12º · CS Universitatea Craiova é 3º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -186,9 +177,9 @@
      "kind": "positions"
     },
     {
-     "label": "Union St. Gilloise está 14 posições à frente",
-     "strength": 0.8,
-     "favors": "HOME",
+     "label": "CS Universitatea Craiova está 9 posições à frente",
+     "strength": 0.643,
+     "favors": "AWAY",
      "team": null,
      "side": null,
      "group": "confronto",
@@ -197,368 +188,323 @@
    ],
    "aligned_trends": [
     {
-     "label": "Invicto há 7+ jogos",
-     "strength": 0.667,
-     "favors": "HOME",
-     "team": "Union St. Gilloise",
-     "side": "HOME",
-     "group": "sequencia",
-     "kind": "unbeaten_streak"
-    },
-    {
-     "label": "Perdeu 4 dos últimos 5",
-     "strength": 0.61,
-     "favors": "HOME",
-     "team": "Cercle Brugge",
+     "label": "Venceu 6 dos últimos 7",
+     "strength": 0.679,
+     "favors": "AWAY",
+     "team": "CS Universitatea Craiova",
      "side": "AWAY",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Venceu 5 dos últimos 7",
-     "strength": 0.607,
-     "favors": "HOME",
-     "team": "Union St. Gilloise",
-     "side": "HOME",
      "group": "geral",
      "kind": "wins"
     },
     {
-     "label": "Invicto em 4 dos últimos 4 em casa",
-     "strength": 0.55,
-     "favors": "HOME",
-     "team": "Union St. Gilloise",
-     "side": "HOME",
-     "group": "casa_fora",
-     "kind": "unbeaten"
+     "label": "Invicto há 7+ jogos",
+     "strength": 0.667,
+     "favors": "AWAY",
+     "team": "CS Universitatea Craiova",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
     },
     {
-     "label": "Melhor ataque da liga (2.8 marcados/jogo)",
-     "strength": 0.44,
-     "favors": "HOME",
-     "team": "Union St. Gilloise",
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Sepsi",
      "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Melhor ataque da liga (2.2 marcados/jogo)",
+     "strength": 0.44,
+     "favors": "AWAY",
+     "team": "CS Universitatea Craiova",
+     "side": "AWAY",
      "group": "temporada",
      "kind": "atk_rank"
     },
     {
-     "label": "3ª melhor defesa da liga (0.5 sofridos/jogo)",
+     "label": "2ª melhor defesa da liga (0.8 sofridos/jogo)",
      "strength": 0.36,
-     "favors": "HOME",
-     "team": "Union St. Gilloise",
-     "side": "HOME",
+     "favors": "AWAY",
+     "team": "CS Universitatea Craiova",
+     "side": "AWAY",
      "group": "temporada",
      "kind": "def_rank"
     },
     {
-     "label": "Não vence há 5+ jogos",
-     "strength": 0.333,
-     "favors": "HOME",
-     "team": "Cercle Brugge",
+     "label": "Só 2 derrota(s) em 12 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "AWAY",
+     "team": "CS Universitatea Craiova",
      "side": "AWAY",
-     "group": "sequencia",
-     "kind": "winless_streak"
+     "group": "temporada",
+     "kind": "few_losses"
     },
     {
-     "label": "Union St. Gilloise está 14 posições à frente",
-     "strength": 0.8,
-     "favors": "HOME",
+     "label": "CS Universitatea Craiova está 9 posições à frente",
+     "strength": 0.643,
+     "favors": "AWAY",
      "team": null,
      "side": null,
      "group": "confronto",
      "kind": "table_gap"
     }
    ],
-   "confidence": 85,
+   "confidence": 75,
    "league": {
-    "key": "belgium",
-    "name": "Jupiler Pro League",
-    "country": "Bélgica"
+    "key": "romania",
+    "name": "Liga 1",
+    "country": "Romênia"
    },
    "home_team": {
-    "id": 1204,
-    "name": "Union St. Gilloise",
-    "position": 4,
-    "played": 8,
-    "points": 20.0,
-    "record": "6V 2E 0D",
-    "goals_for": 22,
-    "goals_against": 4,
-    "last5": "WDDWW",
+    "id": 21126,
+    "name": "Sepsi",
+    "position": 12,
+    "played": 12,
+    "points": 14.0,
+    "record": "3V 5E 4D",
+    "goals_for": 8,
+    "goals_against": 13,
+    "last5": "DLLWL",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Petrolul Ploiesti",
+      "date": "2026-10-17"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": true,
+      "opponent": "Dinamo Bucuresti",
+      "date": "2026-10-09"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "UTA Arad",
+      "date": "2026-09-18"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": true,
+      "opponent": "CFR Cluj",
+      "date": "2026-09-12"
+     },
+     {
+      "result": "L",
+      "score": "0-5",
+      "home": false,
+      "opponent": "FC Botosani",
+      "date": "2026-09-05"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 2048,
+    "name": "CS Universitatea Craiova",
+    "position": 3,
+    "played": 12,
+    "points": 26.0,
+    "record": "8V 2E 2D",
+    "goals_for": 27,
+    "goals_against": 9,
+    "last5": "WWDWW",
     "recent": [
      {
       "result": "W",
-      "score": "4-0",
-      "home": true,
-      "opponent": "Hapoel Beer Sheva",
+      "score": "3-1",
+      "home": false,
+      "opponent": "Inter Escaldes",
       "date": "2026-10-22"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": true,
-      "opponent": "Real Sociedad",
-      "date": "2026-10-15"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": true,
-      "opponent": "Oud-Heverlee Leuven",
-      "date": "2026-10-11"
      },
      {
       "result": "W",
       "score": "2-0",
+      "home": true,
+      "opponent": "Farul Constanta",
+      "date": "2026-10-18"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Getafe",
+      "date": "2026-10-15"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
       "home": false,
-      "opponent": "Royal Antwerp FC",
-      "date": "2026-09-20"
+      "opponent": "Csíkszereda Miercurea Ciuc",
+      "date": "2026-10-11"
      },
      {
       "result": "W",
       "score": "5-0",
       "home": true,
-      "opponent": "Lommel United",
-      "date": "2026-09-12"
-     }
-    ]
-   },
-   "away_team": {
-    "id": 1171,
-    "name": "Cercle Brugge",
-    "position": 18,
-    "played": 8,
-    "points": 3.0,
-    "record": "0V 3E 5D",
-    "goals_for": 9,
-    "goals_against": 16,
-    "last5": "LLDLL",
-    "recent": [
-     {
-      "result": "L",
-      "score": "1-2",
-      "home": true,
-      "opponent": "Anderlecht",
-      "date": "2026-10-10"
-     },
-     {
-      "result": "L",
-      "score": "2-3",
-      "home": false,
-      "opponent": "Charleroi",
+      "opponent": "FCSB",
       "date": "2026-09-19"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": false,
-      "opponent": "Oud-Heverlee Leuven",
-      "date": "2026-09-12"
-     },
-     {
-      "result": "L",
-      "score": "0-3",
-      "home": true,
-      "opponent": "KAA Gent",
-      "date": "2026-09-06"
-     },
-     {
-      "result": "L",
-      "score": "0-1",
-      "home": true,
-      "opponent": "Lommel United",
-      "date": "2026-08-29"
      }
     ]
    },
-   "kickoff_local": "2026-10-25T15:15:00-03:00",
+   "kickoff_local": "2026-10-26T15:00:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "hit",
+   "result": "pending",
    "clear": true
   },
   {
-   "id": 4766928,
-   "s365_competition_id": 81,
-   "competition_name": "1. Lig",
-   "start_time": "2026-10-25T10:30:00+00:00",
+   "id": 4764328,
+   "s365_competition_id": 78,
+   "competition_name": "Super Lig",
+   "start_time": "2026-10-26T16:00:00+00:00",
    "status_group": 2,
    "round": "Round",
    "home": {
-    "id": 10005,
-    "name": "Pendikspor"
+    "id": 960,
+    "name": "Rizespor"
    },
    "away": {
-    "id": 949,
-    "name": "Kayserispor"
+    "id": 950,
+    "name": "Trabzonspor"
    },
-   "home_score": 2.0,
-   "away_score": 2.0,
+   "home_score": -1.0,
+   "away_score": -1.0,
    "model": {
-    "lambda_home": 0.85,
-    "lambda_away": 2.31,
-    "expected_goals": 3.16,
+    "lambda_home": 0.93,
+    "lambda_away": 1.91,
+    "expected_goals": 2.84,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.1224,
-     "DRAW": 0.1771,
-     "AWAY": 0.7005,
-     "1X": 0.2995,
-     "X2": 0.8776,
-     "12": 0.8229,
-     "OVER25": 0.6115,
-     "UNDER25": 0.3885,
-     "BTTS_YES": 0.5164,
-     "BTTS_NO": 0.4836
+     "HOME": 0.178,
+     "DRAW": 0.2185,
+     "AWAY": 0.6035,
+     "1X": 0.3965,
+     "X2": 0.822,
+     "12": 0.7815,
+     "OVER25": 0.5395,
+     "UNDER25": 0.4605,
+     "BTTS_YES": 0.5152,
+     "BTTS_NO": 0.4848
     }
    },
    "pick": {
     "selection": "X2",
     "family": "double_chance",
-    "label": "Dupla chance: Kayserispor ou empate (X2)",
-    "model_prob": 0.8776,
+    "label": "Dupla chance: Trabzonspor ou empate (X2)",
+    "model_prob": 0.822,
     "trend_alignment": 1.0,
-    "confidence": 77,
+    "confidence": 70,
     "eligible": true,
-    "odd": 1.25,
+    "odd": 1.29,
     "low_conviction": false
    },
    "alt_markets": [
     {
      "selection": "AWAY",
      "family": "1x2",
-     "label": "Vitória do Kayserispor",
-     "model_prob": 0.7005,
+     "label": "Vitória do Trabzonspor",
+     "model_prob": 0.6035,
      "trend_alignment": 1.0,
-     "confidence": 71,
+     "confidence": 61,
      "eligible": true,
-     "odd": 1.74
+     "odd": 1.9
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.4605,
+     "trend_alignment": 0.291,
+     "confidence": 10,
+     "eligible": false,
+     "odd": 2.34
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.4848,
+     "trend_alignment": 0.291,
+     "confidence": 10,
+     "eligible": false,
+     "odd": null
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6115,
-     "trend_alignment": 0.827,
-     "confidence": 43,
-     "eligible": true,
-     "odd": 1.73
-    },
-    {
-     "selection": "BTTS_YES",
-     "family": "btts",
-     "label": "Ambos os times marcam",
-     "model_prob": 0.5164,
-     "trend_alignment": 0.827,
-     "confidence": 31,
-     "eligible": false,
-     "odd": null
-    },
-    {
-     "selection": "HOME",
-     "family": "1x2",
-     "label": "Vitória do Pendikspor",
-     "model_prob": 0.1224,
+     "model_prob": 0.5395,
      "trend_alignment": 0.0,
-     "confidence": 0,
+     "confidence": 5,
      "eligible": false,
-     "odd": 3.78
+     "odd": 1.56
     }
    ],
    "trends": [
     {
-     "label": "Venceu 4 dos últimos 5",
-     "strength": 0.65,
+     "label": "5 vitórias seguidas",
+     "strength": 1.0,
      "favors": "AWAY",
-     "team": "Kayserispor",
+     "team": "Trabzonspor",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 6 dos últimos 7",
+     "strength": 0.679,
+     "favors": "AWAY",
+     "team": "Trabzonspor",
      "side": "AWAY",
      "group": "geral",
      "kind": "wins"
     },
     {
-     "label": "Mais de 2.5 gols em 4 dos últimos 5",
-     "strength": 0.47,
-     "favors": "OVER",
-     "team": "Kayserispor",
+     "label": "Não sofreu gol em 5 dos últimos 7",
+     "strength": 0.436,
+     "favors": "UNDER",
+     "team": "Trabzonspor",
      "side": "AWAY",
      "group": "geral",
-     "kind": "over"
+     "kind": "clean_sheets"
     },
     {
      "label": "Perdeu 3 dos últimos 5",
      "strength": 0.52,
      "favors": "AWAY",
-     "team": "Pendikspor",
+     "team": "Rizespor",
      "side": "HOME",
      "group": "geral",
      "kind": "losses"
     },
     {
-     "label": "Ambos marcaram em 4 dos últimos 5",
-     "strength": 0.43,
-     "favors": "BTTS_YES",
-     "team": "Pendikspor",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "btts"
-    },
-    {
      "label": "Melhor defesa da liga (0.6 sofridos/jogo)",
      "strength": 0.5,
      "favors": "AWAY",
-     "team": "Kayserispor",
+     "team": "Trabzonspor",
      "side": "AWAY",
      "group": "temporada",
      "kind": "def_rank"
     },
     {
-     "label": "Melhor ataque da liga (2.2 marcados/jogo)",
-     "strength": 0.44,
+     "label": "2º melhor ataque da liga (2.2 marcados/jogo)",
+     "strength": 0.32,
      "favors": "AWAY",
-     "team": "Kayserispor",
+     "team": "Trabzonspor",
      "side": "AWAY",
      "group": "temporada",
      "kind": "atk_rank"
     },
     {
-     "label": "Só 1 derrota(s) em 11 jogos no campeonato",
-     "strength": 0.42,
-     "favors": "AWAY",
-     "team": "Kayserispor",
-     "side": "AWAY",
-     "group": "temporada",
-     "kind": "few_losses"
-    },
-    {
-     "label": "Pior defesa da liga (1.9 sofridos/jogo)",
-     "strength": 0.34,
-     "favors": "OVER",
-     "team": "Pendikspor",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "def_bottom"
-    },
-    {
-     "label": "Não vence há 5+ jogos",
-     "strength": 0.333,
-     "favors": "AWAY",
-     "team": "Pendikspor",
-     "side": "HOME",
-     "group": "sequencia",
-     "kind": "winless_streak"
-    },
-    {
-     "label": "Invicto há 5+ jogos",
-     "strength": 0.333,
-     "favors": "AWAY",
-     "team": "Kayserispor",
-     "side": "AWAY",
-     "group": "sequencia",
-     "kind": "unbeaten_streak"
-    },
-    {
-     "label": "Pendikspor é 18º · Kayserispor é 1º",
+     "label": "Rizespor é 13º · Trabzonspor é 4º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -567,8 +513,8 @@
      "kind": "positions"
     },
     {
-     "label": "Kayserispor está 17 posições à frente",
-     "strength": 0.8,
+     "label": "Trabzonspor está 9 posições à frente",
+     "strength": 0.643,
      "favors": "AWAY",
      "team": null,
      "side": null,
@@ -578,10 +524,19 @@
    ],
    "aligned_trends": [
     {
-     "label": "Venceu 4 dos últimos 5",
-     "strength": 0.65,
+     "label": "5 vitórias seguidas",
+     "strength": 1.0,
      "favors": "AWAY",
-     "team": "Kayserispor",
+     "team": "Trabzonspor",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 6 dos últimos 7",
+     "strength": 0.679,
+     "favors": "AWAY",
+     "team": "Trabzonspor",
      "side": "AWAY",
      "group": "geral",
      "kind": "wins"
@@ -590,7 +545,7 @@
      "label": "Perdeu 3 dos últimos 5",
      "strength": 0.52,
      "favors": "AWAY",
-     "team": "Pendikspor",
+     "team": "Rizespor",
      "side": "HOME",
      "group": "geral",
      "kind": "losses"
@@ -599,50 +554,23 @@
      "label": "Melhor defesa da liga (0.6 sofridos/jogo)",
      "strength": 0.5,
      "favors": "AWAY",
-     "team": "Kayserispor",
+     "team": "Trabzonspor",
      "side": "AWAY",
      "group": "temporada",
      "kind": "def_rank"
     },
     {
-     "label": "Melhor ataque da liga (2.2 marcados/jogo)",
-     "strength": 0.44,
+     "label": "2º melhor ataque da liga (2.2 marcados/jogo)",
+     "strength": 0.32,
      "favors": "AWAY",
-     "team": "Kayserispor",
+     "team": "Trabzonspor",
      "side": "AWAY",
      "group": "temporada",
      "kind": "atk_rank"
     },
     {
-     "label": "Só 1 derrota(s) em 11 jogos no campeonato",
-     "strength": 0.42,
-     "favors": "AWAY",
-     "team": "Kayserispor",
-     "side": "AWAY",
-     "group": "temporada",
-     "kind": "few_losses"
-    },
-    {
-     "label": "Não vence há 5+ jogos",
-     "strength": 0.333,
-     "favors": "AWAY",
-     "team": "Pendikspor",
-     "side": "HOME",
-     "group": "sequencia",
-     "kind": "winless_streak"
-    },
-    {
-     "label": "Invicto há 5+ jogos",
-     "strength": 0.333,
-     "favors": "AWAY",
-     "team": "Kayserispor",
-     "side": "AWAY",
-     "group": "sequencia",
-     "kind": "unbeaten_streak"
-    },
-    {
-     "label": "Kayserispor está 17 posições à frente",
-     "strength": 0.8,
+     "label": "Trabzonspor está 9 posições à frente",
+     "strength": 0.643,
      "favors": "AWAY",
      "team": null,
      "side": null,
@@ -650,260 +578,260 @@
      "kind": "table_gap"
     }
    ],
-   "confidence": 77,
+   "confidence": 70,
    "league": {
-    "key": "turkey2",
-    "name": "1. Lig",
+    "key": "turkey",
+    "name": "Süper Lig",
     "country": "Turquia"
    },
    "home_team": {
-    "id": 10005,
-    "name": "Pendikspor",
-    "position": 18,
-    "played": 11,
+    "id": 960,
+    "name": "Rizespor",
+    "position": 13,
+    "played": 8,
     "points": 10.0,
-    "record": "2V 4E 5D",
-    "goals_for": 12,
-    "goals_against": 21,
-    "last5": "LLLDD",
+    "record": "3V 1E 4D",
+    "goals_for": 8,
+    "goals_against": 11,
+    "last5": "LLDWL",
     "recent": [
      {
       "result": "L",
-      "score": "0-2",
-      "home": false,
-      "opponent": "Bursaspor",
-      "date": "2026-10-19"
-     },
-     {
-      "result": "L",
       "score": "1-2",
-      "home": true,
-      "opponent": "Van Spor FK",
-      "date": "2026-10-13"
+      "home": false,
+      "opponent": "Corum FK",
+      "date": "2026-10-16"
      },
      {
       "result": "L",
-      "score": "1-4",
-      "home": false,
-      "opponent": "Sivasspor",
-      "date": "2026-10-09"
+      "score": "0-3",
+      "home": true,
+      "opponent": "Fenerbahçe SK",
+      "date": "2026-10-10"
      },
      {
       "result": "D",
-      "score": "1-1",
-      "home": true,
-      "opponent": "Bodrumspor",
+      "score": "2-2",
+      "home": false,
+      "opponent": "Goztepe",
       "date": "2026-09-20"
      },
      {
-      "result": "D",
-      "score": "1-1",
+      "result": "W",
+      "score": "2-0",
       "home": false,
-      "opponent": "Boluspor",
+      "opponent": "Eyupspor",
       "date": "2026-09-12"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Alanyaspor",
+      "date": "2026-09-07"
      }
     ]
    },
    "away_team": {
-    "id": 949,
-    "name": "Kayserispor",
-    "position": 1,
-    "played": 11,
-    "points": 26.0,
-    "record": "8V 2E 1D",
-    "goals_for": 24,
-    "goals_against": 7,
-    "last5": "DWWWW",
+    "id": 950,
+    "name": "Trabzonspor",
+    "position": 4,
+    "played": 8,
+    "points": 16.0,
+    "record": "5V 1E 2D",
+    "goals_for": 18,
+    "goals_against": 5,
+    "last5": "WWWWW",
     "recent": [
      {
-      "result": "D",
-      "score": "2-2",
+      "result": "W",
+      "score": "2-0",
       "home": true,
-      "opponent": "Batman Petrolspor",
-      "date": "2026-10-18"
+      "opponent": "Hearts",
+      "date": "2026-10-22"
      },
      {
       "result": "W",
-      "score": "4-0",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Besiktas",
+      "date": "2026-10-19"
+     },
+     {
+      "result": "W",
+      "score": "4-2",
       "home": false,
-      "opponent": "Antalyaspor",
-      "date": "2026-10-14"
+      "opponent": "KuPS",
+      "date": "2026-10-15"
      },
      {
       "result": "W",
-      "score": "3-2",
-      "home": true,
-      "opponent": "Manisa FK",
+      "score": "3-0",
+      "home": false,
+      "opponent": "Samsunspor",
       "date": "2026-10-10"
      },
      {
       "result": "W",
-      "score": "1-0",
-      "home": false,
-      "opponent": "Mardin 1969",
-      "date": "2026-09-20"
-     },
-     {
-      "result": "W",
       "score": "4-0",
       "home": true,
-      "opponent": "Istanbulspor AS",
-      "date": "2026-09-14"
+      "opponent": "Galatasaray",
+      "date": "2026-09-19"
      }
     ]
    },
-   "kickoff_local": "2026-10-25T07:30:00-03:00",
+   "kickoff_local": "2026-10-26T13:00:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "hit",
+   "result": "pending",
    "clear": true
   },
   {
-   "id": 4732666,
-   "s365_competition_id": 17,
-   "competition_name": "Serie A",
-   "start_time": "2026-10-25T11:30:00+00:00",
+   "id": 4731479,
+   "s365_competition_id": 119,
+   "competition_name": "Superliga",
+   "start_time": "2026-10-26T18:00:00+00:00",
    "status_group": 2,
    "round": "Round",
    "home": {
-    "id": 224,
-    "name": "Inter Milan"
+    "id": 1824,
+    "name": "FC Copenhagen"
    },
    "away": {
-    "id": 228,
-    "name": "Fiorentina"
+    "id": 1825,
+    "name": "Odense"
    },
-   "home_score": 2.0,
-   "away_score": 1.0,
+   "home_score": -1.0,
+   "away_score": -1.0,
    "model": {
-    "lambda_home": 2.9,
-    "lambda_away": 1.15,
-    "expected_goals": 4.05,
+    "lambda_home": 2.12,
+    "lambda_away": 0.7,
+    "expected_goals": 2.83,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.7311,
-     "DRAW": 0.1467,
-     "AWAY": 0.1222,
-     "1X": 0.8778,
-     "X2": 0.2689,
-     "12": 0.8533,
-     "OVER25": 0.7685,
-     "UNDER25": 0.2315,
-     "BTTS_YES": 0.6457,
-     "BTTS_NO": 0.3543
+     "HOME": 0.7024,
+     "DRAW": 0.1867,
+     "AWAY": 0.1109,
+     "1X": 0.8891,
+     "X2": 0.2976,
+     "12": 0.8133,
+     "OVER25": 0.537,
+     "UNDER25": 0.463,
+     "BTTS_YES": 0.4449,
+     "BTTS_NO": 0.5551
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
-    "label": "Vitória do Inter Milan",
-    "model_prob": 0.7311,
+    "label": "Vitória do FC Copenhagen",
+    "model_prob": 0.7024,
     "trend_alignment": 1.0,
-    "confidence": 77,
+    "confidence": 79,
     "eligible": true,
-    "odd": 1.38,
+    "odd": 1.42,
     "low_conviction": false
    },
    "alt_markets": [
     {
      "selection": "1X",
      "family": "double_chance",
-     "label": "Dupla chance: Inter Milan ou empate (1X)",
-     "model_prob": 0.8778,
+     "label": "Dupla chance: FC Copenhagen ou empate (1X)",
+     "model_prob": 0.8891,
      "trend_alignment": 1.0,
-     "confidence": 77,
+     "confidence": 79,
      "eligible": true,
-     "odd": 1.09
+     "odd": 1.11
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.7685,
-     "trend_alignment": 0.975,
-     "confidence": 69,
-     "eligible": true,
-     "odd": 1.98
+     "model_prob": 0.537,
+     "trend_alignment": 0.2,
+     "confidence": 12,
+     "eligible": false,
+     "odd": 2.2
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.6457,
-     "trend_alignment": 0.975,
-     "confidence": 53,
-     "eligible": true,
+     "model_prob": 0.4449,
+     "trend_alignment": 0.2,
+     "confidence": 7,
+     "eligible": false,
      "odd": null
     },
     {
-     "selection": "AWAY",
-     "family": "1x2",
-     "label": "Vitória do Fiorentina",
-     "model_prob": 0.1222,
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5551,
      "trend_alignment": 0.0,
-     "confidence": 0,
+     "confidence": 7,
      "eligible": false,
-     "odd": 8.0
+     "odd": null
     }
    ],
    "trends": [
     {
-     "label": "Venceu 4 dos últimos 5 em casa",
-     "strength": 0.65,
-     "favors": "HOME",
-     "team": "Inter Milan",
-     "side": "HOME",
-     "group": "casa_fora",
-     "kind": "wins"
-    },
-    {
-     "label": "Mais de 2.5 gols em 4 dos últimos 5 em casa",
-     "strength": 0.47,
-     "favors": "OVER",
-     "team": "Inter Milan",
-     "side": "HOME",
-     "group": "casa_fora",
-     "kind": "over"
-    },
-    {
-     "label": "Venceu 5 dos últimos 7",
-     "strength": 0.607,
-     "favors": "HOME",
-     "team": "Inter Milan",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "Mais de 2.5 gols em 6 dos últimos 7",
-     "strength": 0.493,
-     "favors": "OVER",
-     "team": "Inter Milan",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "over"
-    },
-    {
-     "label": "Perdeu 3 dos últimos 5",
-     "strength": 0.52,
-     "favors": "HOME",
-     "team": "Fiorentina",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Ambos marcaram em 5 dos últimos 5",
+     "label": "Invicto em 6 dos últimos 7",
      "strength": 0.5,
-     "favors": "BTTS_YES",
-     "team": "Fiorentina",
-     "side": "AWAY",
+     "favors": "HOME",
+     "team": "FC Copenhagen",
+     "side": "HOME",
      "group": "geral",
-     "kind": "btts"
+     "kind": "unbeaten"
     },
     {
-     "label": "Inter Milan é 2º · Fiorentina é 18º",
+     "label": "Marcou em todos os últimos 7",
+     "strength": 0.3,
+     "favors": "OVER",
+     "team": "FC Copenhagen",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "always_score"
+    },
+    {
+     "label": "Melhor defesa da liga (1.0 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "FC Copenhagen",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Melhor ataque da liga (2.3 marcados/jogo)",
+     "strength": 0.44,
+     "favors": "HOME",
+     "team": "FC Copenhagen",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Só 2 derrota(s) em 11 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "HOME",
+     "team": "FC Copenhagen",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "AWAY",
+     "team": "Odense",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "FC Copenhagen é 2º · Odense é 7º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -912,8 +840,8 @@
      "kind": "positions"
     },
     {
-     "label": "Inter Milan está 16 posições à frente",
-     "strength": 0.8,
+     "label": "FC Copenhagen está 5 posições à frente",
+     "strength": 0.357,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -923,35 +851,44 @@
    ],
    "aligned_trends": [
     {
-     "label": "Venceu 4 dos últimos 5 em casa",
-     "strength": 0.65,
+     "label": "Invicto em 6 dos últimos 7",
+     "strength": 0.5,
      "favors": "HOME",
-     "team": "Inter Milan",
-     "side": "HOME",
-     "group": "casa_fora",
-     "kind": "wins"
-    },
-    {
-     "label": "Venceu 5 dos últimos 7",
-     "strength": 0.607,
-     "favors": "HOME",
-     "team": "Inter Milan",
+     "team": "FC Copenhagen",
      "side": "HOME",
      "group": "geral",
-     "kind": "wins"
+     "kind": "unbeaten"
     },
     {
-     "label": "Perdeu 3 dos últimos 5",
-     "strength": 0.52,
+     "label": "Melhor defesa da liga (1.0 sofridos/jogo)",
+     "strength": 0.5,
      "favors": "HOME",
-     "team": "Fiorentina",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "losses"
+     "team": "FC Copenhagen",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
     },
     {
-     "label": "Inter Milan está 16 posições à frente",
-     "strength": 0.8,
+     "label": "Melhor ataque da liga (2.3 marcados/jogo)",
+     "strength": 0.44,
+     "favors": "HOME",
+     "team": "FC Copenhagen",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Só 2 derrota(s) em 11 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "HOME",
+     "team": "FC Copenhagen",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "FC Copenhagen está 5 posições à frente",
+     "strength": 0.357,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -959,795 +896,115 @@
      "kind": "table_gap"
     }
    ],
-   "confidence": 77,
+   "confidence": 79,
    "league": {
-    "key": "serie_a_ita",
-    "name": "Serie A",
-    "country": "Itália"
+    "key": "denmark",
+    "name": "Superliga",
+    "country": "Dinamarca"
    },
    "home_team": {
-    "id": 224,
-    "name": "Inter Milan",
+    "id": 1824,
+    "name": "FC Copenhagen",
     "position": 2,
-    "played": 7,
-    "points": 19.0,
-    "record": "6V 1E 0D",
-    "goals_for": 21,
-    "goals_against": 9,
-    "last5": "WWLWD",
+    "played": 11,
+    "points": 25.0,
+    "record": "8V 1E 2D",
+    "goals_for": 25,
+    "goals_against": 11,
+    "last5": "DDWLW",
     "recent": [
      {
-      "result": "W",
-      "score": "1-0",
-      "home": true,
-      "opponent": "Shakhtar Donetsk",
-      "date": "2026-10-21"
-     },
-     {
-      "result": "W",
-      "score": "3-1",
+      "result": "D",
+      "score": "2-2",
       "home": false,
-      "opponent": "Bologna",
-      "date": "2026-10-17"
+      "opponent": "FK Crvena zvezda",
+      "date": "2026-10-22"
      },
      {
-      "result": "L",
-      "score": "3-4",
+      "result": "D",
+      "score": "1-1",
       "home": true,
-      "opponent": "Club Brugge",
-      "date": "2026-10-13"
+      "opponent": "Aarhus",
+      "date": "2026-10-18"
      },
      {
       "result": "W",
       "score": "3-0",
       "home": true,
-      "opponent": "Parma",
-      "date": "2026-10-10"
-     },
-     {
-      "result": "D",
-      "score": "2-2",
-      "home": false,
-      "opponent": "AS Roma",
-      "date": "2026-09-19"
-     }
-    ]
-   },
-   "away_team": {
-    "id": 228,
-    "name": "Fiorentina",
-    "position": 18,
-    "played": 7,
-    "points": 4.0,
-    "record": "1V 1E 5D",
-    "goals_for": 8,
-    "goals_against": 17,
-    "last5": "LLDWL",
-    "recent": [
-     {
-      "result": "L",
-      "score": "1-3",
-      "home": true,
-      "opponent": "Como",
-      "date": "2026-10-18"
+      "opponent": "SC Braga",
+      "date": "2026-10-15"
      },
      {
       "result": "L",
       "score": "1-2",
       "home": false,
-      "opponent": "Genoa",
-      "date": "2026-10-10"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": true,
-      "opponent": "Napoli",
-      "date": "2026-09-20"
-     },
-     {
-      "result": "W",
-      "score": "4-2",
-      "home": false,
-      "opponent": "Venezia",
-      "date": "2026-09-11"
-     },
-     {
-      "result": "L",
-      "score": "1-2",
-      "home": true,
-      "opponent": "Torino",
-      "date": "2026-09-05"
-     }
-    ]
-   },
-   "kickoff_local": "2026-10-25T08:30:00-03:00",
-   "has_odds": true,
-   "odds_bookmaker": "365Scores",
-   "is_cup": false,
-   "result": "hit",
-   "clear": true
-  },
-  {
-   "id": 4738692,
-   "s365_competition_id": 95,
-   "competition_name": "Super League",
-   "start_time": "2026-10-25T13:00:00+00:00",
-   "status_group": 2,
-   "round": "Round",
-   "home": {
-    "id": 1147,
-    "name": "FC Thun"
-   },
-   "away": {
-    "id": 1155,
-    "name": "FC Lugano"
-   },
-   "home_score": 2.0,
-   "away_score": 3.0,
-   "model": {
-    "lambda_home": 1.37,
-    "lambda_away": 2.9,
-    "expected_goals": 4.27,
-    "sample_factor": 1.0,
-    "probs": {
-     "HOME": 0.155,
-     "DRAW": 0.1565,
-     "AWAY": 0.6885,
-     "1X": 0.3115,
-     "X2": 0.845,
-     "12": 0.8435,
-     "OVER25": 0.7978,
-     "UNDER25": 0.2022,
-     "BTTS_YES": 0.7039,
-     "BTTS_NO": 0.2961
-    }
-   },
-   "pick": {
-    "selection": "X2",
-    "family": "double_chance",
-    "label": "Dupla chance: FC Lugano ou empate (X2)",
-    "model_prob": 0.845,
-    "trend_alignment": 1.0,
-    "confidence": 73,
-    "eligible": true,
-    "odd": 1.28,
-    "low_conviction": false
-   },
-   "alt_markets": [
-    {
-     "selection": "AWAY",
-     "family": "1x2",
-     "label": "Vitória do FC Lugano",
-     "model_prob": 0.6885,
-     "trend_alignment": 1.0,
-     "confidence": 69,
-     "eligible": true,
-     "odd": 1.79
-    },
-    {
-     "selection": "OVER25",
-     "family": "over_under",
-     "label": "Mais de 2.5 gols",
-     "model_prob": 0.7978,
-     "trend_alignment": 0.86,
-     "confidence": 69,
-     "eligible": true,
-     "odd": 1.92
-    },
-    {
-     "selection": "BTTS_YES",
-     "family": "btts",
-     "label": "Ambos os times marcam",
-     "model_prob": 0.7039,
-     "trend_alignment": 0.86,
-     "confidence": 57,
-     "eligible": true,
-     "odd": null
-    },
-    {
-     "selection": "HOME",
-     "family": "1x2",
-     "label": "Vitória do FC Thun",
-     "model_prob": 0.155,
-     "trend_alignment": 0.0,
-     "confidence": 0,
-     "eligible": false,
-     "odd": 3.71
-    }
-   ],
-   "trends": [
-    {
-     "label": "5 vitórias seguidas",
-     "strength": 1.0,
-     "favors": "AWAY",
-     "team": "FC Lugano",
-     "side": "AWAY",
-     "group": "sequencia",
-     "kind": "win_streak"
-    },
-    {
-     "label": "Venceu 6 dos últimos 7",
-     "strength": 0.679,
-     "favors": "AWAY",
-     "team": "FC Lugano",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "Mais de 2.5 gols em 7 dos últimos 7",
-     "strength": 0.55,
-     "favors": "OVER",
-     "team": "FC Lugano",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "over"
-    },
-    {
-     "label": "Perdeu 6 dos últimos 7",
-     "strength": 0.636,
-     "favors": "AWAY",
-     "team": "FC Thun",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Sofreu gol em todos os últimos 7",
-     "strength": 0.4,
-     "favors": "OVER",
-     "team": "FC Thun",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "always_concede"
-    },
-    {
-     "label": "Melhor defesa da liga (0.7 sofridos/jogo)",
-     "strength": 0.5,
-     "favors": "AWAY",
-     "team": "FC Lugano",
-     "side": "AWAY",
-     "group": "temporada",
-     "kind": "def_rank"
-    },
-    {
-     "label": "Só 0 derrota(s) em 10 jogos no campeonato",
-     "strength": 0.5,
-     "favors": "AWAY",
-     "team": "FC Lugano",
-     "side": "AWAY",
-     "group": "temporada",
-     "kind": "few_losses"
-    },
-    {
-     "label": "2º melhor ataque da liga (3.1 marcados/jogo)",
-     "strength": 0.32,
-     "favors": "AWAY",
-     "team": "FC Lugano",
-     "side": "AWAY",
-     "group": "temporada",
-     "kind": "atk_rank"
-    },
-    {
-     "label": "Pior defesa da liga (2.7 sofridos/jogo)",
-     "strength": 0.34,
-     "favors": "OVER",
-     "team": "FC Thun",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "def_bottom"
-    },
-    {
-     "label": "FC Thun é 9º · FC Lugano é 1º",
-     "strength": 0.0,
-     "favors": null,
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "positions"
-    },
-    {
-     "label": "FC Lugano está 8 posições à frente",
-     "strength": 0.571,
-     "favors": "AWAY",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "aligned_trends": [
-    {
-     "label": "5 vitórias seguidas",
-     "strength": 1.0,
-     "favors": "AWAY",
-     "team": "FC Lugano",
-     "side": "AWAY",
-     "group": "sequencia",
-     "kind": "win_streak"
-    },
-    {
-     "label": "Venceu 6 dos últimos 7",
-     "strength": 0.679,
-     "favors": "AWAY",
-     "team": "FC Lugano",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "Perdeu 6 dos últimos 7",
-     "strength": 0.636,
-     "favors": "AWAY",
-     "team": "FC Thun",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Melhor defesa da liga (0.7 sofridos/jogo)",
-     "strength": 0.5,
-     "favors": "AWAY",
-     "team": "FC Lugano",
-     "side": "AWAY",
-     "group": "temporada",
-     "kind": "def_rank"
-    },
-    {
-     "label": "Só 0 derrota(s) em 10 jogos no campeonato",
-     "strength": 0.5,
-     "favors": "AWAY",
-     "team": "FC Lugano",
-     "side": "AWAY",
-     "group": "temporada",
-     "kind": "few_losses"
-    },
-    {
-     "label": "2º melhor ataque da liga (3.1 marcados/jogo)",
-     "strength": 0.32,
-     "favors": "AWAY",
-     "team": "FC Lugano",
-     "side": "AWAY",
-     "group": "temporada",
-     "kind": "atk_rank"
-    },
-    {
-     "label": "FC Lugano está 8 posições à frente",
-     "strength": 0.571,
-     "favors": "AWAY",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "confidence": 73,
-   "league": {
-    "key": "swiss",
-    "name": "Super League",
-    "country": "Suíça"
-   },
-   "home_team": {
-    "id": 1147,
-    "name": "FC Thun",
-    "position": 9,
-    "played": 10,
-    "points": 10.0,
-    "record": "3V 1E 6D",
-    "goals_for": 17,
-    "goals_against": 27,
-    "last5": "LLLWL",
-    "recent": [
-     {
-      "result": "L",
-      "score": "0-1",
-      "home": true,
-      "opponent": "HNK Hajduk Split",
-      "date": "2026-10-22"
-     },
-     {
-      "result": "L",
-      "score": "0-1",
-      "home": false,
-      "opponent": "Twente",
-      "date": "2026-10-15"
-     },
-     {
-      "result": "L",
-      "score": "2-4",
-      "home": false,
-      "opponent": "FC Zürich",
-      "date": "2026-10-10"
-     },
-     {
-      "result": "W",
-      "score": "2-1",
-      "home": false,
-      "opponent": "FC Vaduz",
-      "date": "2026-09-20"
-     },
-     {
-      "result": "L",
-      "score": "2-4",
-      "home": true,
-      "opponent": "Servette FC",
-      "date": "2026-09-16"
-     }
-    ]
-   },
-   "away_team": {
-    "id": 1155,
-    "name": "FC Lugano",
-    "position": 1,
-    "played": 10,
-    "points": 28.0,
-    "record": "9V 1E 0D",
-    "goals_for": 31,
-    "goals_against": 7,
-    "last5": "WWWWW",
-    "recent": [
-     {
-      "result": "W",
-      "score": "5-2",
-      "home": false,
-      "opponent": "Getafe",
-      "date": "2026-10-22"
-     },
-     {
-      "result": "W",
-      "score": "3-2",
-      "home": true,
-      "opponent": "FK Crvena zvezda",
-      "date": "2026-10-15"
-     },
-     {
-      "result": "W",
-      "score": "4-0",
-      "home": true,
-      "opponent": "Luzern",
-      "date": "2026-10-10"
-     },
-     {
-      "result": "W",
-      "score": "4-0",
-      "home": false,
-      "opponent": "FC Lausanne-Sport",
-      "date": "2026-09-20"
-     },
-     {
-      "result": "W",
-      "score": "4-1",
-      "home": true,
-      "opponent": "FC St. Gallen",
-      "date": "2026-09-16"
-     }
-    ]
-   },
-   "kickoff_local": "2026-10-25T10:00:00-03:00",
-   "has_odds": true,
-   "odds_bookmaker": "365Scores",
-   "is_cup": false,
-   "result": "hit",
-   "clear": true
-  },
-  {
-   "id": 4776079,
-   "s365_competition_id": 84,
-   "competition_name": "Super League",
-   "start_time": "2026-10-25T16:00:00+00:00",
-   "status_group": 2,
-   "round": "Round",
-   "home": {
-    "id": 54421,
-    "name": "Volos NFC"
-   },
-   "away": {
-    "id": 1022,
-    "name": "Panathinaikos"
-   },
-   "home_score": 0.0,
-   "away_score": 1.0,
-   "model": {
-    "lambda_home": 0.86,
-    "lambda_away": 2.01,
-    "expected_goals": 2.87,
-    "sample_factor": 1.0,
-    "probs": {
-     "HOME": 0.1511,
-     "DRAW": 0.2056,
-     "AWAY": 0.6432,
-     "1X": 0.3568,
-     "X2": 0.8489,
-     "12": 0.7944,
-     "OVER25": 0.5471,
-     "UNDER25": 0.4529,
-     "BTTS_YES": 0.4986,
-     "BTTS_NO": 0.5014
-    }
-   },
-   "pick": {
-    "selection": "AWAY",
-    "family": "1x2",
-    "label": "Vitória do Panathinaikos",
-    "model_prob": 0.6432,
-    "trend_alignment": 1.0,
-    "confidence": 73,
-    "eligible": true,
-    "odd": 1.26,
-    "low_conviction": false
-   },
-   "alt_markets": [
-    {
-     "selection": "X2",
-     "family": "double_chance",
-     "label": "Dupla chance: Panathinaikos ou empate (X2)",
-     "model_prob": 0.8489,
-     "trend_alignment": 1.0,
-     "confidence": 73,
-     "eligible": true,
-     "odd": 1.06
-    },
-    {
-     "selection": "OVER25",
-     "family": "over_under",
-     "label": "Mais de 2.5 gols",
-     "model_prob": 0.5471,
-     "trend_alignment": 0.577,
-     "confidence": 26,
-     "eligible": false,
-     "odd": 2.19
-    },
-    {
-     "selection": "BTTS_YES",
-     "family": "btts",
-     "label": "Ambos os times marcam",
-     "model_prob": 0.4986,
-     "trend_alignment": 0.577,
-     "confidence": 20,
-     "eligible": false,
-     "odd": null
-    },
-    {
-     "selection": "HOME",
-     "family": "1x2",
-     "label": "Vitória do Volos NFC",
-     "model_prob": 0.1511,
-     "trend_alignment": 0.0,
-     "confidence": 0,
-     "eligible": false,
-     "odd": 10.0
-    }
-   ],
-   "trends": [
-    {
-     "label": "Venceu 6 dos últimos 7",
-     "strength": 0.679,
-     "favors": "AWAY",
-     "team": "Panathinaikos",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "Mais de 2.5 gols em 5 dos últimos 7",
-     "strength": 0.436,
-     "favors": "OVER",
-     "team": "Panathinaikos",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "over"
-    },
-    {
-     "label": "Perdeu 3 dos últimos 5",
-     "strength": 0.52,
-     "favors": "AWAY",
-     "team": "Volos NFC",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Ambos marcaram em 4 dos últimos 5",
-     "strength": 0.43,
-     "favors": "BTTS_YES",
-     "team": "Volos NFC",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "btts"
-    },
-    {
-     "label": "3 vitórias seguidas",
-     "strength": 0.5,
-     "favors": "AWAY",
-     "team": "Panathinaikos",
-     "side": "AWAY",
-     "group": "sequencia",
-     "kind": "win_streak"
-    },
-    {
-     "label": "Não vence há 5+ jogos",
-     "strength": 0.333,
-     "favors": "AWAY",
-     "team": "Volos NFC",
-     "side": "HOME",
-     "group": "sequencia",
-     "kind": "winless_streak"
-    },
-    {
-     "label": "Volos NFC é 14º · Panathinaikos é 2º",
-     "strength": 0.0,
-     "favors": null,
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "positions"
-    },
-    {
-     "label": "Panathinaikos está 12 posições à frente",
-     "strength": 0.8,
-     "favors": "AWAY",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "aligned_trends": [
-    {
-     "label": "Venceu 6 dos últimos 7",
-     "strength": 0.679,
-     "favors": "AWAY",
-     "team": "Panathinaikos",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "Perdeu 3 dos últimos 5",
-     "strength": 0.52,
-     "favors": "AWAY",
-     "team": "Volos NFC",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "3 vitórias seguidas",
-     "strength": 0.5,
-     "favors": "AWAY",
-     "team": "Panathinaikos",
-     "side": "AWAY",
-     "group": "sequencia",
-     "kind": "win_streak"
-    },
-    {
-     "label": "Não vence há 5+ jogos",
-     "strength": 0.333,
-     "favors": "AWAY",
-     "team": "Volos NFC",
-     "side": "HOME",
-     "group": "sequencia",
-     "kind": "winless_streak"
-    },
-    {
-     "label": "Panathinaikos está 12 posições à frente",
-     "strength": 0.8,
-     "favors": "AWAY",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "confidence": 73,
-   "league": {
-    "key": "greece",
-    "name": "Super League",
-    "country": "Grécia"
-   },
-   "home_team": {
-    "id": 54421,
-    "name": "Volos NFC",
-    "position": 14,
-    "played": 7,
-    "points": 0,
-    "record": "0V 3E 4D",
-    "goals_for": 6,
-    "goals_against": 12,
-    "last5": "DLLLD",
-    "recent": [
-     {
-      "result": "D",
-      "score": "0-0",
-      "home": false,
-      "opponent": "Levadiakos",
-      "date": "2026-10-17"
-     },
-     {
-      "result": "L",
-      "score": "2-3",
-      "home": false,
-      "opponent": "Aris Salonica",
-      "date": "2026-10-11"
-     },
-     {
-      "result": "L",
-      "score": "1-2",
-      "home": true,
-      "opponent": "AEK Athens",
-      "date": "2026-09-20"
-     },
-     {
-      "result": "L",
-      "score": "1-3",
-      "home": false,
-      "opponent": "Kalamata",
-      "date": "2026-09-13"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": true,
-      "opponent": "Olympiacos",
-      "date": "2026-09-05"
-     }
-    ]
-   },
-   "away_team": {
-    "id": 1022,
-    "name": "Panathinaikos",
-    "position": 2,
-    "played": 7,
-    "points": 18.0,
-    "record": "6V 0E 1D",
-    "goals_for": 17,
-    "goals_against": 4,
-    "last5": "WWWLW",
-    "recent": [
-     {
-      "result": "W",
-      "score": "5-1",
-      "home": false,
-      "opponent": "Kairat Almaty",
-      "date": "2026-10-22"
-     },
-     {
-      "result": "W",
-      "score": "5-1",
-      "home": true,
-      "opponent": "Asteras Aktor",
-      "date": "2026-10-18"
-     },
-     {
-      "result": "W",
-      "score": "2-1",
-      "home": true,
-      "opponent": "Borac Banjaluka",
-      "date": "2026-10-15"
-     },
-     {
-      "result": "L",
-      "score": "0-1",
-      "home": false,
-      "opponent": "Olympiacos",
+      "opponent": "FC Midtjylland",
       "date": "2026-10-11"
      },
      {
       "result": "W",
       "score": "1-0",
       "home": false,
-      "opponent": "Kalamata",
+      "opponent": "Brøndby IF",
       "date": "2026-09-20"
      }
     ]
    },
-   "kickoff_local": "2026-10-25T13:00:00-03:00",
+   "away_team": {
+    "id": 1825,
+    "name": "Odense",
+    "position": 7,
+    "played": 11,
+    "points": 13.0,
+    "record": "3V 4E 4D",
+    "goals_for": 10,
+    "goals_against": 15,
+    "last5": "WDDWL",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Brøndby IF",
+      "date": "2026-10-18"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "FC Nordsjælland",
+      "date": "2026-10-09"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "FC Midtjylland",
+      "date": "2026-09-19"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Randers FC",
+      "date": "2026-09-13"
+     },
+     {
+      "result": "L",
+      "score": "0-5",
+      "home": true,
+      "opponent": "FC Copenhagen",
+      "date": "2026-09-06"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-26T15:00:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "hit",
-   "clear": true
+   "result": "pending",
+   "clear": false,
+   "below_bar": true
   }
  ]
 }

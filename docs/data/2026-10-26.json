@@ -1,6 +1,6 @@
 {
  "date": "2026-10-26",
- "generated_at": "2026-10-25T19:19:19.787586-03:00",
+ "generated_at": "2026-10-26T14:15:28.340126-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 2,
@@ -49,7 +49,7 @@
     "trend_alignment": 1.0,
     "confidence": 75,
     "eligible": true,
-    "odd": 1.46,
+    "odd": 1.48,
     "low_conviction": false
    },
    "alt_markets": [
@@ -81,7 +81,7 @@
      "trend_alignment": 0.051,
      "confidence": 2,
      "eligible": false,
-     "odd": 1.97
+     "odd": 1.92
     },
     {
      "selection": "OVER25",
@@ -91,7 +91,7 @@
      "trend_alignment": 0.005,
      "confidence": 1,
      "eligible": false,
-     "odd": 1.87
+     "odd": 1.92
     }
    ],
    "trends": [
@@ -688,168 +688,150 @@
    "clear": true
   },
   {
-   "id": 4633237,
-   "s365_competition_id": 72,
-   "competition_name": "Liga Profesional - Clausura",
-   "start_time": "2026-10-27T00:15:00+00:00",
+   "id": 4731479,
+   "s365_competition_id": 119,
+   "competition_name": "Superliga",
+   "start_time": "2026-10-26T18:00:00+00:00",
    "status_group": 2,
    "round": "Round",
    "home": {
-    "id": 7272,
-    "name": "Instituto AC Cordoba"
+    "id": 1824,
+    "name": "FC Copenhagen"
    },
    "away": {
-    "id": 11940,
-    "name": "Riestra"
+    "id": 1825,
+    "name": "Odense"
    },
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 1.85,
-    "lambda_away": 0.59,
-    "expected_goals": 2.44,
+    "lambda_home": 2.12,
+    "lambda_away": 0.7,
+    "expected_goals": 2.83,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.6781,
-     "DRAW": 0.2112,
-     "AWAY": 0.1107,
-     "1X": 0.8893,
-     "X2": 0.3219,
-     "12": 0.7888,
-     "OVER25": 0.4415,
-     "UNDER25": 0.5585,
-     "BTTS_YES": 0.3757,
-     "BTTS_NO": 0.6243
+     "HOME": 0.7024,
+     "DRAW": 0.1867,
+     "AWAY": 0.1109,
+     "1X": 0.8891,
+     "X2": 0.2976,
+     "12": 0.8133,
+     "OVER25": 0.537,
+     "UNDER25": 0.463,
+     "BTTS_YES": 0.4449,
+     "BTTS_NO": 0.5551
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
-    "label": "Vitória do Instituto AC Cordoba",
-    "model_prob": 0.6781,
+    "label": "Vitória do FC Copenhagen",
+    "model_prob": 0.7024,
     "trend_alignment": 1.0,
     "confidence": 79,
     "eligible": true,
-    "odd": 1.75,
+    "odd": 1.42,
     "low_conviction": false
    },
    "alt_markets": [
     {
      "selection": "1X",
      "family": "double_chance",
-     "label": "Dupla chance: Instituto AC Cordoba ou empate (1X)",
-     "model_prob": 0.8893,
+     "label": "Dupla chance: FC Copenhagen ou empate (1X)",
+     "model_prob": 0.8891,
      "trend_alignment": 1.0,
      "confidence": 79,
      "eligible": true,
-     "odd": 1.16
-    },
-    {
-     "selection": "BTTS_NO",
-     "family": "btts",
-     "label": "Ambos marcam: não",
-     "model_prob": 0.6243,
-     "trend_alignment": 0.031,
-     "confidence": 17,
-     "eligible": true,
-     "odd": null
-    },
-    {
-     "selection": "UNDER25",
-     "family": "over_under",
-     "label": "Menos de 2.5 gols",
-     "model_prob": 0.5585,
-     "trend_alignment": 0.031,
-     "confidence": 9,
-     "eligible": false,
-     "odd": 2.24
+     "odd": 1.11
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.4415,
-     "trend_alignment": 0.031,
-     "confidence": 1,
+     "model_prob": 0.537,
+     "trend_alignment": 0.2,
+     "confidence": 12,
      "eligible": false,
-     "odd": 1.56
+     "odd": 2.2
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.4449,
+     "trend_alignment": 0.2,
+     "confidence": 7,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5551,
+     "trend_alignment": 0.0,
+     "confidence": 7,
+     "eligible": false,
+     "odd": null
     }
    ],
    "trends": [
     {
-     "label": "Venceu 4 dos últimos 5",
-     "strength": 0.65,
+     "label": "Invicto em 6 dos últimos 7",
+     "strength": 0.5,
      "favors": "HOME",
-     "team": "Instituto AC Cordoba",
+     "team": "FC Copenhagen",
      "side": "HOME",
      "group": "geral",
-     "kind": "wins"
+     "kind": "unbeaten"
     },
     {
-     "label": "Mais de 2.5 gols em 4 dos últimos 5",
-     "strength": 0.47,
+     "label": "Marcou em todos os últimos 7",
+     "strength": 0.3,
      "favors": "OVER",
-     "team": "Instituto AC Cordoba",
+     "team": "FC Copenhagen",
      "side": "HOME",
      "group": "geral",
-     "kind": "over"
+     "kind": "always_score"
     },
     {
-     "label": "Não venceu nenhum dos últimos 5",
-     "strength": 0.55,
+     "label": "Melhor defesa da liga (1.0 sofridos/jogo)",
+     "strength": 0.5,
      "favors": "HOME",
-     "team": "Riestra",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "winless"
-    },
-    {
-     "label": "Menos de 2.5 gols em 4 dos últimos 5",
-     "strength": 0.47,
-     "favors": "UNDER",
-     "team": "Riestra",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "under"
-    },
-    {
-     "label": "3ª melhor defesa da liga (0.8 sofridos/jogo)",
-     "strength": 0.36,
-     "favors": "HOME",
-     "team": "Instituto AC Cordoba",
+     "team": "FC Copenhagen",
      "side": "HOME",
      "group": "temporada",
      "kind": "def_rank"
     },
     {
-     "label": "Só 2 derrota(s) em 13 jogos no campeonato",
+     "label": "Melhor ataque da liga (2.3 marcados/jogo)",
+     "strength": 0.44,
+     "favors": "HOME",
+     "team": "FC Copenhagen",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Só 2 derrota(s) em 11 jogos no campeonato",
      "strength": 0.34,
      "favors": "HOME",
-     "team": "Instituto AC Cordoba",
+     "team": "FC Copenhagen",
      "side": "HOME",
      "group": "temporada",
      "kind": "few_losses"
     },
     {
-     "label": "Invicto há 5+ jogos",
-     "strength": 0.333,
-     "favors": "HOME",
-     "team": "Instituto AC Cordoba",
-     "side": "HOME",
-     "group": "sequencia",
-     "kind": "unbeaten_streak"
-    },
-    {
-     "label": "Não vence há 5+ jogos",
-     "strength": 0.333,
-     "favors": "HOME",
-     "team": "Riestra",
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "AWAY",
+     "team": "Odense",
      "side": "AWAY",
-     "group": "sequencia",
-     "kind": "winless_streak"
+     "group": "geral",
+     "kind": "unbeaten"
     },
     {
-     "label": "Instituto AC Cordoba é 1º · Riestra é 13º",
+     "label": "FC Copenhagen é 2º · Odense é 7º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -858,8 +840,8 @@
      "kind": "positions"
     },
     {
-     "label": "Instituto AC Cordoba está 12 posições à frente",
-     "strength": 0.8,
+     "label": "FC Copenhagen está 5 posições à frente",
+     "strength": 0.357,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -869,62 +851,44 @@
    ],
    "aligned_trends": [
     {
-     "label": "Venceu 4 dos últimos 5",
-     "strength": 0.65,
+     "label": "Invicto em 6 dos últimos 7",
+     "strength": 0.5,
      "favors": "HOME",
-     "team": "Instituto AC Cordoba",
+     "team": "FC Copenhagen",
      "side": "HOME",
      "group": "geral",
-     "kind": "wins"
+     "kind": "unbeaten"
     },
     {
-     "label": "Não venceu nenhum dos últimos 5",
-     "strength": 0.55,
+     "label": "Melhor defesa da liga (1.0 sofridos/jogo)",
+     "strength": 0.5,
      "favors": "HOME",
-     "team": "Riestra",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "winless"
-    },
-    {
-     "label": "3ª melhor defesa da liga (0.8 sofridos/jogo)",
-     "strength": 0.36,
-     "favors": "HOME",
-     "team": "Instituto AC Cordoba",
+     "team": "FC Copenhagen",
      "side": "HOME",
      "group": "temporada",
      "kind": "def_rank"
     },
     {
-     "label": "Só 2 derrota(s) em 13 jogos no campeonato",
+     "label": "Melhor ataque da liga (2.3 marcados/jogo)",
+     "strength": 0.44,
+     "favors": "HOME",
+     "team": "FC Copenhagen",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Só 2 derrota(s) em 11 jogos no campeonato",
      "strength": 0.34,
      "favors": "HOME",
-     "team": "Instituto AC Cordoba",
+     "team": "FC Copenhagen",
      "side": "HOME",
      "group": "temporada",
      "kind": "few_losses"
     },
     {
-     "label": "Invicto há 5+ jogos",
-     "strength": 0.333,
-     "favors": "HOME",
-     "team": "Instituto AC Cordoba",
-     "side": "HOME",
-     "group": "sequencia",
-     "kind": "unbeaten_streak"
-    },
-    {
-     "label": "Não vence há 5+ jogos",
-     "strength": 0.333,
-     "favors": "HOME",
-     "team": "Riestra",
-     "side": "AWAY",
-     "group": "sequencia",
-     "kind": "winless_streak"
-    },
-    {
-     "label": "Instituto AC Cordoba está 12 posições à frente",
-     "strength": 0.8,
+     "label": "FC Copenhagen está 5 posições à frente",
+     "strength": 0.357,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -934,107 +898,107 @@
    ],
    "confidence": 79,
    "league": {
-    "key": "ar_primera",
-    "name": "Liga Profesional",
-    "country": "Argentina"
+    "key": "denmark",
+    "name": "Superliga",
+    "country": "Dinamarca"
    },
    "home_team": {
-    "id": 7272,
-    "name": "Instituto AC Cordoba",
-    "position": 1,
-    "played": 13,
-    "points": 29.0,
-    "record": "9V 2E 2D",
-    "goals_for": 20,
-    "goals_against": 10,
-    "last5": "WDWWW",
+    "id": 1824,
+    "name": "FC Copenhagen",
+    "position": 2,
+    "played": 11,
+    "points": 25.0,
+    "record": "8V 1E 2D",
+    "goals_for": 25,
+    "goals_against": 11,
+    "last5": "DDWLW",
     "recent": [
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "FK Crvena zvezda",
+      "date": "2026-10-22"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Aarhus",
+      "date": "2026-10-18"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "SC Braga",
+      "date": "2026-10-15"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "FC Midtjylland",
+      "date": "2026-10-11"
+     },
      {
       "result": "W",
       "score": "1-0",
       "home": false,
-      "opponent": "Defensa Y Justicia",
-      "date": "2026-10-16"
-     },
-     {
-      "result": "D",
-      "score": "2-2",
-      "home": true,
-      "opponent": "Boca Juniors",
-      "date": "2026-10-09"
-     },
-     {
-      "result": "W",
-      "score": "4-1",
-      "home": false,
-      "opponent": "Independiente",
-      "date": "2026-10-02"
-     },
-     {
-      "result": "W",
-      "score": "3-1",
-      "home": true,
-      "opponent": "Talleres Cordoba",
+      "opponent": "Brøndby IF",
       "date": "2026-09-20"
-     },
-     {
-      "result": "W",
-      "score": "2-1",
-      "home": true,
-      "opponent": "Estudiantes Río Cuarto",
-      "date": "2026-09-15"
      }
     ]
    },
    "away_team": {
-    "id": 11940,
-    "name": "Riestra",
-    "position": 13,
-    "played": 13,
-    "points": 12.0,
-    "record": "2V 6E 5D",
+    "id": 1825,
+    "name": "Odense",
+    "position": 7,
+    "played": 11,
+    "points": 13.0,
+    "record": "3V 4E 4D",
     "goals_for": 10,
-    "goals_against": 13,
-    "last5": "DLDDL",
+    "goals_against": 15,
+    "last5": "WDDWL",
     "recent": [
      {
-      "result": "D",
-      "score": "1-1",
+      "result": "W",
+      "score": "2-1",
       "home": true,
-      "opponent": "Union Santa Fe",
-      "date": "2026-10-20"
-     },
-     {
-      "result": "L",
-      "score": "0-1",
-      "home": false,
-      "opponent": "San Lorenzo",
-      "date": "2026-10-11"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": true,
-      "opponent": "Central Córdoba SdE",
-      "date": "2026-10-05"
+      "opponent": "Brøndby IF",
+      "date": "2026-10-18"
      },
      {
       "result": "D",
       "score": "0-0",
       "home": false,
-      "opponent": "Gimnasia Mendoza",
+      "opponent": "FC Nordsjælland",
+      "date": "2026-10-09"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "FC Midtjylland",
       "date": "2026-09-19"
      },
      {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Randers FC",
+      "date": "2026-09-13"
+     },
+     {
       "result": "L",
-      "score": "0-3",
+      "score": "0-5",
       "home": true,
-      "opponent": "Lanus",
-      "date": "2026-09-14"
+      "opponent": "FC Copenhagen",
+      "date": "2026-09-06"
      }
     ]
    },
-   "kickoff_local": "2026-10-26T21:15:00-03:00",
+   "kickoff_local": "2026-10-26T15:00:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,

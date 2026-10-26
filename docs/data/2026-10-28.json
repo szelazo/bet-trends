@@ -1,0 +1,866 @@
+{
+ "date": "2026-10-28",
+ "generated_at": "2026-10-26T14:15:30.073489-03:00",
+ "version": "0.1.0",
+ "count": 3,
+ "clear_count": 2,
+ "day_total": 64,
+ "games": [
+  {
+   "id": 4732651,
+   "s365_competition_id": 17,
+   "competition_name": "Serie A",
+   "start_time": "2026-10-28T17:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 308,
+    "name": "Venezia"
+   },
+   "away": {
+    "id": 224,
+    "name": "Inter Milan"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.06,
+    "lambda_away": 2.45,
+    "expected_goals": 3.51,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.1472,
+     "DRAW": 0.1755,
+     "AWAY": 0.6773,
+     "1X": 0.3227,
+     "X2": 0.8528,
+     "12": 0.8245,
+     "OVER25": 0.6814,
+     "UNDER25": 0.3186,
+     "BTTS_YES": 0.5985,
+     "BTTS_NO": 0.4015
+    }
+   },
+   "pick": {
+    "selection": "AWAY",
+    "family": "1x2",
+    "label": "Vitória do Inter Milan",
+    "model_prob": 0.6773,
+    "trend_alignment": 1.0,
+    "confidence": 74,
+    "eligible": true,
+    "odd": 1.37,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "X2",
+     "family": "double_chance",
+     "label": "Dupla chance: Inter Milan ou empate (X2)",
+     "model_prob": 0.8528,
+     "trend_alignment": 1.0,
+     "confidence": 74,
+     "eligible": true,
+     "odd": 1.08
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6814,
+     "trend_alignment": 0.329,
+     "confidence": 35,
+     "eligible": true,
+     "odd": 1.92
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5985,
+     "trend_alignment": 0.329,
+     "confidence": 24,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Venezia",
+     "model_prob": 0.1472,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 8.5
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "AWAY",
+     "team": "Venezia",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Venceu 5 dos últimos 7",
+     "strength": 0.607,
+     "favors": "AWAY",
+     "team": "Inter Milan",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Mais de 2.5 gols em 6 dos últimos 7",
+     "strength": 0.493,
+     "favors": "OVER",
+     "team": "Inter Milan",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "Inter Milan",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Melhor ataque da liga (2.9 marcados/jogo)",
+     "strength": 0.44,
+     "favors": "AWAY",
+     "team": "Inter Milan",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Venezia é 20º · Inter Milan é 1º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Inter Milan está 19 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "AWAY",
+     "team": "Venezia",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Venceu 5 dos últimos 7",
+     "strength": 0.607,
+     "favors": "AWAY",
+     "team": "Inter Milan",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "Inter Milan",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Melhor ataque da liga (2.9 marcados/jogo)",
+     "strength": 0.44,
+     "favors": "AWAY",
+     "team": "Inter Milan",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Inter Milan está 19 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 74,
+   "league": {
+    "key": "serie_a_ita",
+    "name": "Serie A",
+    "country": "Itália"
+   },
+   "home_team": {
+    "id": 308,
+    "name": "Venezia",
+    "position": 20,
+    "played": 8,
+    "points": 3.0,
+    "record": "1V 0E 7D",
+    "goals_for": 6,
+    "goals_against": 17,
+    "last5": "LWLLL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Genoa",
+      "date": "2026-10-25"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Napoli",
+      "date": "2026-10-17"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": false,
+      "opponent": "Atalanta",
+      "date": "2026-10-12"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": true,
+      "opponent": "Lazio",
+      "date": "2026-09-19"
+     },
+     {
+      "result": "L",
+      "score": "2-4",
+      "home": true,
+      "opponent": "Fiorentina",
+      "date": "2026-09-11"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 224,
+    "name": "Inter Milan",
+    "position": 1,
+    "played": 8,
+    "points": 22.0,
+    "record": "7V 1E 0D",
+    "goals_for": 23,
+    "goals_against": 10,
+    "last5": "WWWLW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Fiorentina",
+      "date": "2026-10-25"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Shakhtar Donetsk",
+      "date": "2026-10-21"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": false,
+      "opponent": "Bologna",
+      "date": "2026-10-17"
+     },
+     {
+      "result": "L",
+      "score": "3-4",
+      "home": true,
+      "opponent": "Club Brugge",
+      "date": "2026-10-13"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "Parma",
+      "date": "2026-10-10"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-28T14:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4635975,
+   "s365_competition_id": 122,
+   "competition_name": "Allsvenskan",
+   "start_time": "2026-10-28T18:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 1918,
+    "name": "Degerfors IF"
+   },
+   "away": {
+    "id": 7479,
+    "name": "Västerås"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.0,
+    "lambda_away": 1.55,
+    "expected_goals": 2.55,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.2452,
+     "DRAW": 0.2552,
+     "AWAY": 0.4996,
+     "1X": 0.5004,
+     "X2": 0.7548,
+     "12": 0.7448,
+     "OVER25": 0.4687,
+     "UNDER25": 0.5313,
+     "BTTS_YES": 0.4981,
+     "BTTS_NO": 0.5019
+    }
+   },
+   "pick": {
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: Västerås ou empate (X2)",
+    "model_prob": 0.7548,
+    "trend_alignment": 1.0,
+    "confidence": 61,
+    "eligible": true,
+    "odd": 1.55,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Västerås",
+     "model_prob": 0.4996,
+     "trend_alignment": 1.0,
+     "confidence": 51,
+     "eligible": true,
+     "odd": 2.63
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.4687,
+     "trend_alignment": 0.267,
+     "confidence": 9,
+     "eligible": false,
+     "odd": 1.97
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.4981,
+     "trend_alignment": 0.267,
+     "confidence": 9,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.5313,
+     "trend_alignment": 0.0,
+     "confidence": 4,
+     "eligible": false,
+     "odd": 1.87
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "AWAY",
+     "team": "Degerfors IF",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Sofreu gol em todos os últimos 5",
+     "strength": 0.4,
+     "favors": "OVER",
+     "team": "Degerfors IF",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "always_concede"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Degerfors IF",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Degerfors IF é 14º · Västerås é 6º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Västerås está 8 posições à frente",
+     "strength": 0.571,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "AWAY",
+     "team": "Degerfors IF",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Degerfors IF",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Västerås está 8 posições à frente",
+     "strength": 0.571,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 61,
+   "league": {
+    "key": "sweden",
+    "name": "Allsvenskan",
+    "country": "Suécia"
+   },
+   "home_team": {
+    "id": 1918,
+    "name": "Degerfors IF",
+    "position": 14,
+    "played": 25,
+    "points": 20.0,
+    "record": "5V 5E 15D",
+    "goals_for": 21,
+    "goals_against": 41,
+    "last5": "LLDLL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-4",
+      "home": false,
+      "opponent": "BK Häcken",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Kalmar FF",
+      "date": "2026-10-19"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Mjällby AIF",
+      "date": "2026-10-10"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Hammarby",
+      "date": "2026-09-20"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Sirius",
+      "date": "2026-09-14"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 7479,
+    "name": "Västerås",
+    "position": 6,
+    "played": 25,
+    "points": 38.0,
+    "record": "11V 5E 9D",
+    "goals_for": 36,
+    "goals_against": 38,
+    "last5": "LWLWW",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Halmstad",
+      "date": "2026-10-23"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Mjällby AIF",
+      "date": "2026-10-18"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "IFK Göteborg",
+      "date": "2026-10-09"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Malmö FF",
+      "date": "2026-09-19"
+     },
+     {
+      "result": "W",
+      "score": "4-1",
+      "home": false,
+      "opponent": "AIK Solna",
+      "date": "2026-09-12"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-28T15:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4732657,
+   "s365_competition_id": 17,
+   "competition_name": "Serie A",
+   "start_time": "2026-10-28T17:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 227,
+    "name": "AC Milan"
+   },
+   "away": {
+    "id": 245,
+    "name": "Bologna"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.8,
+    "lambda_away": 0.82,
+    "expected_goals": 2.62,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.6054,
+     "DRAW": 0.2271,
+     "AWAY": 0.1675,
+     "1X": 0.8325,
+     "X2": 0.3946,
+     "12": 0.7729,
+     "OVER25": 0.4875,
+     "UNDER25": 0.5125,
+     "BTTS_YES": 0.4684,
+     "BTTS_NO": 0.5316
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do AC Milan",
+    "model_prob": 0.6054,
+    "trend_alignment": 1.0,
+    "confidence": 71,
+    "eligible": true,
+    "odd": 1.61,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: AC Milan ou empate (1X)",
+     "model_prob": 0.8325,
+     "trend_alignment": 1.0,
+     "confidence": 71,
+     "eligible": true,
+     "odd": 1.14
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.4875,
+     "trend_alignment": 0.291,
+     "confidence": 10,
+     "eligible": false,
+     "odd": 1.8
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.4684,
+     "trend_alignment": 0.291,
+     "confidence": 10,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5316,
+     "trend_alignment": 0.0,
+     "confidence": 4,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Invicto em 6 dos últimos 7",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "AC Milan",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Mais de 2.5 gols em 5 dos últimos 7",
+     "strength": 0.436,
+     "favors": "OVER",
+     "team": "AC Milan",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "3ª melhor defesa da liga (0.9 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "HOME",
+     "team": "AC Milan",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "AC Milan é 4º · Bologna é 13º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "AC Milan está 9 posições à frente",
+     "strength": 0.643,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Invicto em 6 dos últimos 7",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "AC Milan",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "3ª melhor defesa da liga (0.9 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "HOME",
+     "team": "AC Milan",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "AC Milan está 9 posições à frente",
+     "strength": 0.643,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 71,
+   "league": {
+    "key": "serie_a_ita",
+    "name": "Serie A",
+    "country": "Itália"
+   },
+   "home_team": {
+    "id": 227,
+    "name": "AC Milan",
+    "position": 4,
+    "played": 8,
+    "points": 18.0,
+    "record": "5V 3E 0D",
+    "goals_for": 16,
+    "goals_against": 7,
+    "last5": "WLWWD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "Udinese",
+      "date": "2026-10-25"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": false,
+      "opponent": "Bournemouth",
+      "date": "2026-10-22"
+     },
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": true,
+      "opponent": "Atalanta",
+      "date": "2026-10-18"
+     },
+     {
+      "result": "W",
+      "score": "4-0",
+      "home": false,
+      "opponent": "Red Bull Salzburg",
+      "date": "2026-10-15"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Sassuolo",
+      "date": "2026-10-11"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 245,
+    "name": "Bologna",
+    "position": 13,
+    "played": 8,
+    "points": 8.0,
+    "record": "2V 2E 4D",
+    "goals_for": 8,
+    "goals_against": 10,
+    "last5": "WLWDL",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "Cagliari",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": true,
+      "opponent": "Inter Milan",
+      "date": "2026-10-17"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Lecce",
+      "date": "2026-10-11"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Torino",
+      "date": "2026-09-19"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Napoli",
+      "date": "2026-09-13"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-28T14:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": false,
+   "below_bar": true
+  }
+ ]
+}
