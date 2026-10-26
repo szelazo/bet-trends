@@ -1,10 +1,10 @@
 {
  "date": "2026-10-26",
- "generated_at": "2026-10-26T14:15:28.340126-03:00",
+ "generated_at": "2026-10-26T20:35:56.627184-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 2,
- "day_total": 21,
+ "day_total": 20,
  "games": [
   {
    "id": 4748413,
@@ -21,8 +21,8 @@
     "id": 2048,
     "name": "CS Universitatea Craiova"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 0.0,
+   "away_score": 5.0,
    "model": {
     "lambda_home": 0.76,
     "lambda_away": 1.95,
@@ -357,7 +357,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -375,8 +375,8 @@
     "id": 950,
     "name": "Trabzonspor"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 3.0,
+   "away_score": 4.0,
    "model": {
     "lambda_home": 0.93,
     "lambda_away": 1.91,
@@ -684,7 +684,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -702,8 +702,8 @@
     "id": 1825,
     "name": "Odense"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 1.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 2.12,
     "lambda_away": 0.7,
@@ -1002,7 +1002,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "miss",
    "clear": false,
    "below_bar": true
   }
