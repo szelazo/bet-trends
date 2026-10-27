@@ -1,6 +1,6 @@
 {
  "date": "2026-10-27",
- "generated_at": "2026-10-27T13:22:36.281142-03:00",
+ "generated_at": "2026-10-27T20:31:31.932819-03:00",
  "version": "0.1.0",
  "count": 4,
  "clear_count": 4,
@@ -21,8 +21,8 @@
     "id": 9947,
     "name": "Catanzaro"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 1.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 2.85,
     "lambda_away": 0.79,
@@ -330,7 +330,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "miss",
    "clear": true
   },
   {
@@ -348,8 +348,8 @@
     "id": 230,
     "name": "Sampdoria"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 0.0,
    "model": {
     "lambda_home": 2.38,
     "lambda_away": 0.7,
@@ -630,7 +630,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -648,8 +648,8 @@
     "id": 290,
     "name": "Cremonese"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 0.0,
+   "away_score": 2.0,
    "model": {
     "lambda_home": 1.65,
     "lambda_away": 0.72,
@@ -930,7 +930,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "miss",
    "clear": true
   },
   {
@@ -948,8 +948,8 @@
     "id": 236,
     "name": "Lazio"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 6.0,
    "model": {
     "lambda_home": 1.14,
     "lambda_away": 1.99,
@@ -1248,7 +1248,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   }
  ]
