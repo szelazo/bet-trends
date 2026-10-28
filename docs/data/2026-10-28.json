@@ -1,6 +1,6 @@
 {
  "date": "2026-10-28",
- "generated_at": "2026-10-28T14:05:39.410046-03:00",
+ "generated_at": "2026-10-28T20:54:37.052555-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 2,
@@ -21,8 +21,8 @@
     "id": 224,
     "name": "Inter Milan"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 0.0,
+   "away_score": 2.0,
    "model": {
     "lambda_home": 1.08,
     "lambda_away": 2.48,
@@ -312,7 +312,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -330,8 +330,8 @@
     "id": 7479,
     "name": "Västerås"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 0.0,
+   "away_score": 3.0,
    "model": {
     "lambda_home": 1.0,
     "lambda_away": 1.55,
@@ -585,7 +585,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {

@@ -6,27 +6,27 @@
   "total": 12
  },
  "today": {
-  "hits": 0,
+  "hits": 2,
   "misses": 0,
   "voids": 0,
-  "total": 0
+  "total": 2
  },
  "last3": {
-  "hits": 4,
+  "hits": 6,
   "misses": 2,
   "voids": 0,
-  "total": 6
+  "total": 8
  },
  "week": {
-  "hits": 16,
+  "hits": 18,
   "misses": 7,
   "voids": 0,
-  "total": 23
+  "total": 25
  },
  "all_time": {
-  "hits": 134,
+  "hits": 136,
   "misses": 43,
   "voids": 1,
-  "total": 177
+  "total": 179
  }
 }
