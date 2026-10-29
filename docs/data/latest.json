@@ -1,6 +1,6 @@
 {
  "date": "2026-10-29",
- "generated_at": "2026-10-29T14:23:37.948673-03:00",
+ "generated_at": "2026-10-29T20:48:54.947316-03:00",
  "version": "0.1.0",
  "count": 4,
  "clear_count": 4,
@@ -21,8 +21,8 @@
     "id": 55800,
     "name": "Al-Kholood"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 5.0,
+   "away_score": 3.0,
    "model": {
     "lambda_home": 2.9,
     "lambda_away": 0.75,
@@ -366,7 +366,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -384,8 +384,8 @@
     "id": 8311,
     "name": "Wadi Degla"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 2.08,
     "lambda_away": 0.62,
@@ -675,7 +675,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -1075,7 +1075,7 @@
     "trend_alignment": 1.0,
     "confidence": 70,
     "eligible": true,
-    "odd": 1.36,
+    "odd": 1.39,
     "low_conviction": false
    },
    "alt_markets": [
@@ -1087,7 +1087,7 @@
      "trend_alignment": 1.0,
      "confidence": 70,
      "eligible": true,
-     "odd": 1.08
+     "odd": 1.09
     },
     {
      "selection": "OVER25",
@@ -1117,7 +1117,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 8.5
+     "odd": 7.5
     }
    ],
    "trends": [

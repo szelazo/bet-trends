@@ -1,6 +1,6 @@
 {
  "date": "2026-10-31",
- "generated_at": "2026-10-29T14:23:40.429420-03:00",
+ "generated_at": "2026-10-29T20:48:57.425389-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -49,7 +49,7 @@
     "trend_alignment": 1.0,
     "confidence": 85,
     "eligible": true,
-    "odd": 1.18,
+    "odd": 1.16,
     "low_conviction": false
    },
    "alt_markets": [
@@ -61,7 +61,7 @@
      "trend_alignment": 1.0,
      "confidence": 85,
      "eligible": true,
-     "odd": 1.03
+     "odd": 1.02
     },
     {
      "selection": "OVER25",
@@ -352,27 +352,27 @@
    "away_score": -1.0,
    "model": {
     "lambda_home": 2.9,
-    "lambda_away": 0.95,
-    "expected_goals": 3.85,
+    "lambda_away": 0.94,
+    "expected_goals": 3.84,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.7715,
-     "DRAW": 0.1352,
-     "AWAY": 0.0933,
-     "1X": 0.9067,
-     "X2": 0.2285,
-     "12": 0.8648,
-     "OVER25": 0.7376,
-     "UNDER25": 0.2624,
-     "BTTS_YES": 0.5779,
-     "BTTS_NO": 0.4221
+     "HOME": 0.7728,
+     "DRAW": 0.1348,
+     "AWAY": 0.0924,
+     "1X": 0.9076,
+     "X2": 0.2272,
+     "12": 0.8652,
+     "OVER25": 0.7366,
+     "UNDER25": 0.2634,
+     "BTTS_YES": 0.5754,
+     "BTTS_NO": 0.4246
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Al Hilal Riyadh",
-    "model_prob": 0.7715,
+    "model_prob": 0.7728,
     "trend_alignment": 1.0,
     "confidence": 81,
     "eligible": true,
@@ -384,7 +384,7 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Al Hilal Riyadh ou empate (1X)",
-     "model_prob": 0.9067,
+     "model_prob": 0.9076,
      "trend_alignment": 1.0,
      "confidence": 81,
      "eligible": true,
@@ -394,7 +394,7 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.7376,
+     "model_prob": 0.7366,
      "trend_alignment": 0.593,
      "confidence": 52,
      "eligible": true,
@@ -404,7 +404,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5779,
+     "model_prob": 0.5754,
      "trend_alignment": 0.593,
      "confidence": 31,
      "eligible": false,
@@ -414,7 +414,7 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Al Fateh",
-     "model_prob": 0.0933,
+     "model_prob": 0.0924,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
@@ -468,7 +468,7 @@
      "kind": "few_losses"
     },
     {
-     "label": "3ª melhor defesa da liga (0.9 sofridos/jogo)",
+     "label": "2ª melhor defesa da liga (0.9 sofridos/jogo)",
      "strength": 0.36,
      "favors": "HOME",
      "team": "Al Hilal Riyadh",
@@ -495,7 +495,7 @@
      "kind": "unbeaten_streak"
     },
     {
-     "label": "Al Hilal Riyadh é 1º · Al Fateh é 16º",
+     "label": "Al Hilal Riyadh é 3º · Al Fateh é 16º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -504,7 +504,7 @@
      "kind": "positions"
     },
     {
-     "label": "Al Hilal Riyadh está 15 posições à frente",
+     "label": "Al Hilal Riyadh está 13 posições à frente",
      "strength": 0.8,
      "favors": "HOME",
      "team": null,
@@ -551,7 +551,7 @@
      "kind": "few_losses"
     },
     {
-     "label": "3ª melhor defesa da liga (0.9 sofridos/jogo)",
+     "label": "2ª melhor defesa da liga (0.9 sofridos/jogo)",
      "strength": 0.36,
      "favors": "HOME",
      "team": "Al Hilal Riyadh",
@@ -569,7 +569,7 @@
      "kind": "unbeaten_streak"
     },
     {
-     "label": "Al Hilal Riyadh está 15 posições à frente",
+     "label": "Al Hilal Riyadh está 13 posições à frente",
      "strength": 0.8,
      "favors": "HOME",
      "team": null,
@@ -587,7 +587,7 @@
    "home_team": {
     "id": 5457,
     "name": "Al Hilal Riyadh",
-    "position": 1,
+    "position": 3,
     "played": 10,
     "points": 27.0,
     "record": "9V 0E 1D",
@@ -1396,7 +1396,7 @@
      "trend_alignment": 1.0,
      "confidence": 75,
      "eligible": true,
-     "odd": 1.08
+     "odd": 1.07
     },
     {
      "selection": "OVER25",
@@ -1426,7 +1426,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 8.5
+     "odd": 9.0
     }
    ],
    "trends": [
