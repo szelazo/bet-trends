@@ -1,11 +1,374 @@
 {
  "date": "2026-10-29",
- "generated_at": "2026-10-28T20:54:37.900891-03:00",
+ "generated_at": "2026-10-29T14:23:37.948673-03:00",
  "version": "0.1.0",
- "count": 3,
- "clear_count": 3,
+ "count": 4,
+ "clear_count": 4,
  "day_total": 28,
  "games": [
+  {
+   "id": 4789433,
+   "s365_competition_id": 649,
+   "competition_name": "Saudi League",
+   "start_time": "2026-10-29T18:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 7549,
+    "name": "Al Nassr FC Riyadh"
+   },
+   "away": {
+    "id": 55800,
+    "name": "Al-Kholood"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.9,
+    "lambda_away": 0.75,
+    "expected_goals": 3.65,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.809,
+     "DRAW": 0.1225,
+     "AWAY": 0.0686,
+     "1X": 0.9314,
+     "X2": 0.191,
+     "12": 0.8775,
+     "OVER25": 0.7058,
+     "UNDER25": 0.2942,
+     "BTTS_YES": 0.5003,
+     "BTTS_NO": 0.4997
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Al Nassr FC Riyadh",
+    "model_prob": 0.809,
+    "trend_alignment": 1.0,
+    "confidence": 85,
+    "eligible": true,
+    "odd": 1.17,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Al Nassr FC Riyadh ou empate (1X)",
+     "model_prob": 0.9314,
+     "trend_alignment": 1.0,
+     "confidence": 85,
+     "eligible": true,
+     "odd": 1.05
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.7058,
+     "trend_alignment": 0.227,
+     "confidence": 35,
+     "eligible": true,
+     "odd": 1.82
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5003,
+     "trend_alignment": 0.227,
+     "confidence": 8,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Al-Kholood",
+     "model_prob": 0.0686,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 11.0
+    }
+   ],
+   "trends": [
+    {
+     "label": "Invicto em 6 dos últimos 6",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Al Nassr FC Riyadh",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Perdeu 4 dos últimos 6",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Al-Kholood",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Não marcou em 3 dos últimos 6",
+     "strength": 0.35,
+     "favors": "HOME",
+     "team": "Al-Kholood",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "no_score"
+    },
+    {
+     "label": "Invicto há 6+ jogos",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Al Nassr FC Riyadh",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Melhor defesa da liga (0.8 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Al Nassr FC Riyadh",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 1 derrota(s) em 10 jogos no campeonato",
+     "strength": 0.42,
+     "favors": "HOME",
+     "team": "Al Nassr FC Riyadh",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Pior defesa da liga (2.1 sofridos/jogo)",
+     "strength": 0.34,
+     "favors": "OVER",
+     "team": "Al-Kholood",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_bottom"
+    },
+    {
+     "label": "Não vence há 5 jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Al-Kholood",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Al Nassr FC Riyadh é 2º · Al-Kholood é 10º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Al Nassr FC Riyadh está 8 posições à frente",
+     "strength": 0.571,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Invicto em 6 dos últimos 6",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Al Nassr FC Riyadh",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Perdeu 4 dos últimos 6",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Al-Kholood",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Não marcou em 3 dos últimos 6",
+     "strength": 0.35,
+     "favors": "HOME",
+     "team": "Al-Kholood",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "no_score"
+    },
+    {
+     "label": "Invicto há 6+ jogos",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Al Nassr FC Riyadh",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Melhor defesa da liga (0.8 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Al Nassr FC Riyadh",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 1 derrota(s) em 10 jogos no campeonato",
+     "strength": 0.42,
+     "favors": "HOME",
+     "team": "Al Nassr FC Riyadh",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Não vence há 5 jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Al-Kholood",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Al Nassr FC Riyadh está 8 posições à frente",
+     "strength": 0.571,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 85,
+   "league": {
+    "key": "saudi",
+    "name": "Saudi Pro League",
+    "country": "Arábia Saudita"
+   },
+   "home_team": {
+    "id": 7549,
+    "name": "Al Nassr FC Riyadh",
+    "position": 2,
+    "played": 10,
+    "points": 25.0,
+    "record": "8V 1E 1D",
+    "goals_for": 23,
+    "goals_against": 8,
+    "last5": "WWDWD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": false,
+      "opponent": "Al Faysaly",
+      "date": "2026-10-23"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "NEOM SC",
+      "date": "2026-10-20"
+     },
+     {
+      "result": "D",
+      "score": "-1--1",
+      "home": false,
+      "opponent": "Al Ahli Jeddah",
+      "date": "2026-10-15"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "Diriyah",
+      "date": "2026-10-09"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Al Khaleej Club",
+      "date": "2026-09-12"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 55800,
+    "name": "Al-Kholood",
+    "position": 10,
+    "played": 10,
+    "points": 12.0,
+    "record": "3V 3E 4D",
+    "goals_for": 14,
+    "goals_against": 21,
+    "last5": "LDLLL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": true,
+      "opponent": "Al Ettifaq",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "D",
+      "score": "-1--1",
+      "home": false,
+      "opponent": "Abha Club",
+      "date": "2026-10-19"
+     },
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": false,
+      "opponent": "Al Faysaly",
+      "date": "2026-10-15"
+     },
+     {
+      "result": "L",
+      "score": "0-5",
+      "home": true,
+      "opponent": "Qadisiya",
+      "date": "2026-10-09"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Al Riyadh SC",
+      "date": "2026-09-13"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-29T15:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
   {
    "id": 4804724,
    "s365_competition_id": 552,
@@ -319,7 +682,7 @@
    "id": 4732050,
    "s365_competition_id": 620,
    "competition_name": "Liga BetPlay - Clausura",
-   "start_time": "2026-10-29T23:15:00+00:00",
+   "start_time": "2026-10-29T23:30:00+00:00",
    "status_group": 2,
    "round": "Round",
    "home": {
@@ -333,32 +696,32 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 1.91,
+    "lambda_home": 1.9,
     "lambda_away": 0.75,
     "expected_goals": 2.66,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.6472,
-     "DRAW": 0.2125,
-     "AWAY": 0.1402,
-     "1X": 0.8598,
-     "X2": 0.3528,
-     "12": 0.7875,
-     "OVER25": 0.4971,
-     "UNDER25": 0.5029,
-     "BTTS_YES": 0.4508,
-     "BTTS_NO": 0.5492
+     "HOME": 0.6465,
+     "DRAW": 0.213,
+     "AWAY": 0.1404,
+     "1X": 0.8596,
+     "X2": 0.3535,
+     "12": 0.787,
+     "OVER25": 0.4954,
+     "UNDER25": 0.5046,
+     "BTTS_YES": 0.4497,
+     "BTTS_NO": 0.5503
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do America de Cali",
-    "model_prob": 0.6472,
+    "model_prob": 0.6465,
     "trend_alignment": 1.0,
     "confidence": 75,
     "eligible": true,
-    "odd": 1.34,
+    "odd": 1.54,
     "low_conviction": false
    },
    "alt_markets": [
@@ -366,27 +729,27 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: America de Cali ou empate (1X)",
-     "model_prob": 0.8598,
+     "model_prob": 0.8596,
      "trend_alignment": 1.0,
      "confidence": 75,
      "eligible": true,
-     "odd": 1.07
+     "odd": 1.13
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.4971,
+     "model_prob": 0.4954,
      "trend_alignment": 0.495,
      "confidence": 17,
      "eligible": false,
-     "odd": 1.96
+     "odd": 2.02
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.4508,
+     "model_prob": 0.4497,
      "trend_alignment": 0.495,
      "confidence": 17,
      "eligible": false,
@@ -396,9 +759,9 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.5492,
+     "model_prob": 0.5503,
      "trend_alignment": 0.0,
-     "confidence": 6,
+     "confidence": 7,
      "eligible": false,
      "odd": null
     }
@@ -662,7 +1025,7 @@
      }
     ]
    },
-   "kickoff_local": "2026-10-29T20:15:00-03:00",
+   "kickoff_local": "2026-10-29T20:30:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
@@ -712,7 +1075,7 @@
     "trend_alignment": 1.0,
     "confidence": 70,
     "eligible": true,
-    "odd": 1.26,
+    "odd": 1.36,
     "low_conviction": false
    },
    "alt_markets": [
@@ -724,7 +1087,7 @@
      "trend_alignment": 1.0,
      "confidence": 70,
      "eligible": true,
-     "odd": 1.05
+     "odd": 1.08
     },
     {
      "selection": "OVER25",
@@ -734,7 +1097,7 @@
      "trend_alignment": 0.573,
      "confidence": 42,
      "eligible": true,
-     "odd": 2.19
+     "odd": 1.63
     },
     {
      "selection": "BTTS_YES",
@@ -754,7 +1117,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 11.0
+     "odd": 8.5
     }
    ],
    "trends": [
