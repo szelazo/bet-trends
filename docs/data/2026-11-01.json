@@ -1,6 +1,6 @@
 {
  "date": "2026-11-01",
- "generated_at": "2026-10-30T13:59:18.754182-03:00",
+ "generated_at": "2026-10-30T20:29:01.603814-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -29,27 +29,27 @@
     "expected_goals": 3.43,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.8153,
-     "DRAW": 0.1233,
-     "AWAY": 0.0614,
-     "1X": 0.9386,
-     "X2": 0.1847,
-     "12": 0.8767,
-     "OVER25": 0.6656,
-     "UNDER25": 0.3344,
-     "BTTS_YES": 0.448,
-     "BTTS_NO": 0.552
+     "HOME": 0.8144,
+     "DRAW": 0.1238,
+     "AWAY": 0.0618,
+     "1X": 0.9382,
+     "X2": 0.1856,
+     "12": 0.8762,
+     "OVER25": 0.6648,
+     "UNDER25": 0.3352,
+     "BTTS_YES": 0.4484,
+     "BTTS_NO": 0.5516
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Trabzonspor",
-    "model_prob": 0.8153,
+    "model_prob": 0.8144,
     "trend_alignment": 1.0,
     "confidence": 86,
     "eligible": true,
-    "odd": 1.27,
+    "odd": 1.3,
     "low_conviction": false
    },
    "alt_markets": [
@@ -57,19 +57,19 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Trabzonspor ou empate (1X)",
-     "model_prob": 0.9386,
+     "model_prob": 0.9382,
      "trend_alignment": 1.0,
      "confidence": 86,
      "eligible": true,
-     "odd": 1.09
+     "odd": 1.12
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6656,
+     "model_prob": 0.6648,
      "trend_alignment": 0.0,
-     "confidence": 22,
+     "confidence": 21,
      "eligible": true,
      "odd": 2.02
     },
@@ -77,7 +77,7 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.552,
+     "model_prob": 0.5516,
      "trend_alignment": 0.243,
      "confidence": 15,
      "eligible": false,
@@ -87,7 +87,7 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.3344,
+     "model_prob": 0.3352,
      "trend_alignment": 0.243,
      "confidence": 8,
      "eligible": false,
@@ -168,7 +168,7 @@
      "kind": "winless_streak"
     },
     {
-     "label": "Trabzonspor é 3º · Gaziantep FK é 15º",
+     "label": "Trabzonspor é 3º · Gaziantep FK é 14º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -177,8 +177,8 @@
      "kind": "positions"
     },
     {
-     "label": "Trabzonspor está 12 posições à frente",
-     "strength": 0.8,
+     "label": "Trabzonspor está 11 posições à frente",
+     "strength": 0.786,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -251,8 +251,8 @@
      "kind": "winless_streak"
     },
     {
-     "label": "Trabzonspor está 12 posições à frente",
-     "strength": 0.8,
+     "label": "Trabzonspor está 11 posições à frente",
+     "strength": 0.786,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -317,7 +317,7 @@
    "away_team": {
     "id": 996,
     "name": "Gaziantep FK",
-    "position": 15,
+    "position": 14,
     "played": 9,
     "points": 8.0,
     "record": "2V 2E 5D",
@@ -392,27 +392,27 @@
     "expected_goals": 3.64,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.8124,
-     "DRAW": 0.1212,
-     "AWAY": 0.0664,
-     "1X": 0.9336,
-     "X2": 0.1876,
-     "12": 0.8788,
-     "OVER25": 0.7027,
-     "UNDER25": 0.2973,
-     "BTTS_YES": 0.4924,
-     "BTTS_NO": 0.5076
+     "HOME": 0.8121,
+     "DRAW": 0.1213,
+     "AWAY": 0.0666,
+     "1X": 0.9334,
+     "X2": 0.1879,
+     "12": 0.8787,
+     "OVER25": 0.703,
+     "UNDER25": 0.297,
+     "BTTS_YES": 0.493,
+     "BTTS_NO": 0.507
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Amed SK",
-    "model_prob": 0.8124,
+    "model_prob": 0.8121,
     "trend_alignment": 1.0,
     "confidence": 85,
     "eligible": true,
-    "odd": 1.13,
+    "odd": 1.24,
     "low_conviction": false
    },
    "alt_markets": [
@@ -420,17 +420,17 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Amed SK ou empate (1X)",
-     "model_prob": 0.9336,
+     "model_prob": 0.9334,
      "trend_alignment": 1.0,
      "confidence": 85,
      "eligible": true,
-     "odd": 1.03
+     "odd": 1.07
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.7027,
+     "model_prob": 0.703,
      "trend_alignment": 0.54,
      "confidence": 45,
      "eligible": true,
@@ -440,7 +440,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.4924,
+     "model_prob": 0.493,
      "trend_alignment": 0.54,
      "confidence": 19,
      "eligible": false,
@@ -450,7 +450,7 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.5076,
+     "model_prob": 0.507,
      "trend_alignment": 0.0,
      "confidence": 1,
      "eligible": false,
@@ -522,15 +522,6 @@
      "kind": "winless_streak"
     },
     {
-     "label": "3º melhor ataque da liga (2.2 marcados/jogo)",
-     "strength": 0.32,
-     "favors": "HOME",
-     "team": "Amed SK",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "atk_rank"
-    },
-    {
      "label": "Amed SK é 2º · Eyupspor é 18º",
      "strength": 0.0,
      "favors": null,
@@ -594,15 +585,6 @@
      "side": "AWAY",
      "group": "sequencia",
      "kind": "winless_streak"
-    },
-    {
-     "label": "3º melhor ataque da liga (2.2 marcados/jogo)",
-     "strength": 0.32,
-     "favors": "HOME",
-     "team": "Amed SK",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "atk_rank"
     },
     {
      "label": "Amed SK está 16 posições à frente",
@@ -742,27 +724,27 @@
    "away_score": -1.0,
    "model": {
     "lambda_home": 2.9,
-    "lambda_away": 0.86,
-    "expected_goals": 3.76,
+    "lambda_away": 0.87,
+    "expected_goals": 3.77,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.7874,
-     "DRAW": 0.13,
-     "AWAY": 0.0826,
-     "1X": 0.9174,
-     "X2": 0.2126,
-     "12": 0.87,
-     "OVER25": 0.7245,
-     "UNDER25": 0.2755,
-     "BTTS_YES": 0.5469,
-     "BTTS_NO": 0.4531
+     "HOME": 0.7871,
+     "DRAW": 0.1301,
+     "AWAY": 0.0827,
+     "1X": 0.9173,
+     "X2": 0.2129,
+     "12": 0.8699,
+     "OVER25": 0.7247,
+     "UNDER25": 0.2753,
+     "BTTS_YES": 0.5474,
+     "BTTS_NO": 0.4526
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Red Bull Salzburg",
-    "model_prob": 0.7874,
+    "model_prob": 0.7871,
     "trend_alignment": 1.0,
     "confidence": 83,
     "eligible": true,
@@ -774,7 +756,7 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Red Bull Salzburg ou empate (1X)",
-     "model_prob": 0.9174,
+     "model_prob": 0.9173,
      "trend_alignment": 1.0,
      "confidence": 83,
      "eligible": true,
@@ -784,7 +766,7 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.7245,
+     "model_prob": 0.7247,
      "trend_alignment": 0.831,
      "confidence": 58,
      "eligible": true,
@@ -794,7 +776,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5469,
+     "model_prob": 0.5474,
      "trend_alignment": 0.831,
      "confidence": 35,
      "eligible": false,
@@ -804,7 +786,7 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Austria Lustenau",
-     "model_prob": 0.0826,
+     "model_prob": 0.0827,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
@@ -1088,30 +1070,30 @@
    "model": {
     "lambda_home": 2.53,
     "lambda_away": 0.76,
-    "expected_goals": 3.29,
+    "expected_goals": 3.28,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.7575,
-     "DRAW": 0.1519,
+     "HOME": 0.7573,
+     "DRAW": 0.1521,
      "AWAY": 0.0906,
      "1X": 0.9094,
-     "X2": 0.2425,
-     "12": 0.8481,
-     "OVER25": 0.6374,
-     "UNDER25": 0.3626,
-     "BTTS_YES": 0.4892,
-     "BTTS_NO": 0.5108
+     "X2": 0.2427,
+     "12": 0.8479,
+     "OVER25": 0.6369,
+     "UNDER25": 0.3631,
+     "BTTS_YES": 0.4889,
+     "BTTS_NO": 0.5111
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do CS Universitatea Craiova",
-    "model_prob": 0.7575,
+    "model_prob": 0.7573,
     "trend_alignment": 1.0,
     "confidence": 82,
     "eligible": true,
-    "odd": 1.34,
+    "odd": 1.31,
     "low_conviction": false
    },
    "alt_markets": [
@@ -1129,17 +1111,17 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6374,
+     "model_prob": 0.6369,
      "trend_alignment": 0.0,
      "confidence": 18,
      "eligible": true,
-     "odd": 1.62
+     "odd": 2.25
     },
     {
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.5108,
+     "model_prob": 0.5111,
      "trend_alignment": 0.291,
      "confidence": 12,
      "eligible": false,
@@ -1149,11 +1131,11 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.3626,
+     "model_prob": 0.3631,
      "trend_alignment": 0.291,
      "confidence": 10,
      "eligible": false,
-     "odd": 2.32
+     "odd": 1.57
     }
    ],
    "trends": [
@@ -1221,7 +1203,7 @@
      "kind": "few_losses"
     },
     {
-     "label": "CS Universitatea Craiova é 2º · FC Botosani é 11º",
+     "label": "CS Universitatea Craiova é 3º · FC Botosani é 11º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -1230,8 +1212,8 @@
      "kind": "positions"
     },
     {
-     "label": "CS Universitatea Craiova está 9 posições à frente",
-     "strength": 0.643,
+     "label": "CS Universitatea Craiova está 8 posições à frente",
+     "strength": 0.571,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -1295,8 +1277,8 @@
      "kind": "few_losses"
     },
     {
-     "label": "CS Universitatea Craiova está 9 posições à frente",
-     "strength": 0.643,
+     "label": "CS Universitatea Craiova está 8 posições à frente",
+     "strength": 0.571,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -1313,7 +1295,7 @@
    "home_team": {
     "id": 2048,
     "name": "CS Universitatea Craiova",
-    "position": 2,
+    "position": 3,
     "played": 13,
     "points": 29.0,
     "record": "9V 2E 2D",
@@ -1436,23 +1418,23 @@
     "expected_goals": 3.39,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.761,
-     "DRAW": 0.1481,
-     "AWAY": 0.0909,
-     "1X": 0.9091,
-     "X2": 0.239,
-     "12": 0.8519,
-     "OVER25": 0.6586,
-     "UNDER25": 0.3414,
-     "BTTS_YES": 0.5068,
-     "BTTS_NO": 0.4932
+     "HOME": 0.7605,
+     "DRAW": 0.1483,
+     "AWAY": 0.0912,
+     "1X": 0.9088,
+     "X2": 0.2395,
+     "12": 0.8517,
+     "OVER25": 0.6581,
+     "UNDER25": 0.3419,
+     "BTTS_YES": 0.5069,
+     "BTTS_NO": 0.4931
     }
    },
    "pick": {
     "selection": "1X",
     "family": "double_chance",
     "label": "Dupla chance: Viseu ou empate (1X)",
-    "model_prob": 0.9091,
+    "model_prob": 0.9088,
     "trend_alignment": 1.0,
     "confidence": 82,
     "eligible": true,
@@ -1464,7 +1446,7 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Viseu",
-     "model_prob": 0.761,
+     "model_prob": 0.7605,
      "trend_alignment": 1.0,
      "confidence": 76,
      "eligible": true,
@@ -1474,9 +1456,9 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6586,
+     "model_prob": 0.6581,
      "trend_alignment": 0.74,
-     "confidence": 47,
+     "confidence": 46,
      "eligible": true,
      "odd": 1.87
     },
@@ -1484,7 +1466,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5068,
+     "model_prob": 0.5069,
      "trend_alignment": 0.74,
      "confidence": 27,
      "eligible": false,
@@ -1494,7 +1476,7 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Rio Ave",
-     "model_prob": 0.0909,
+     "model_prob": 0.0912,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
@@ -1557,7 +1539,7 @@
      "kind": "def_bottom"
     },
     {
-     "label": "Viseu é 6º · Rio Ave é 17º",
+     "label": "Viseu é 6º · Rio Ave é 16º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -1566,8 +1548,8 @@
      "kind": "positions"
     },
     {
-     "label": "Viseu está 11 posições à frente",
-     "strength": 0.786,
+     "label": "Viseu está 10 posições à frente",
+     "strength": 0.714,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -1604,8 +1586,8 @@
      "kind": "losses"
     },
     {
-     "label": "Viseu está 11 posições à frente",
-     "strength": 0.786,
+     "label": "Viseu está 10 posições à frente",
+     "strength": 0.714,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -1670,7 +1652,7 @@
    "away_team": {
     "id": 904,
     "name": "Rio Ave",
-    "position": 17,
+    "position": 16,
     "played": 9,
     "points": 7.0,
     "record": "2V 1E 6D",

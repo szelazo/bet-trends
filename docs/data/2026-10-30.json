@@ -1,6 +1,6 @@
 {
  "date": "2026-10-30",
- "generated_at": "2026-10-30T13:59:16.252258-03:00",
+ "generated_at": "2026-10-30T20:28:59.048103-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -21,8 +21,8 @@
     "id": 6002,
     "name": "Obolon Kyiv"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 0.0,
    "model": {
     "lambda_home": 2.77,
     "lambda_away": 0.52,
@@ -393,7 +393,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -411,8 +411,8 @@
     "id": 8306,
     "name": "El Geish"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 0.0,
+   "away_score": 0.0,
    "model": {
     "lambda_home": 1.95,
     "lambda_away": 0.56,
@@ -693,7 +693,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -711,8 +711,8 @@
     "id": 26249,
     "name": "Csíkszereda Miercurea Ciuc"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 0.0,
    "model": {
     "lambda_home": 2.44,
     "lambda_away": 0.85,
@@ -1020,7 +1020,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -1038,8 +1038,8 @@
     "id": 1169,
     "name": "Club Brugge"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 4.0,
    "model": {
     "lambda_home": 0.88,
     "lambda_away": 1.96,
@@ -1356,7 +1356,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -1374,8 +1374,8 @@
     "id": 480,
     "name": "PSG"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 1.0,
+   "away_score": 5.0,
    "model": {
     "lambda_home": 0.96,
     "lambda_away": 2.02,
@@ -1710,7 +1710,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   }
  ]
