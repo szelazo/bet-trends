@@ -1,6 +1,6 @@
 {
  "date": "2026-10-31",
- "generated_at": "2026-10-29T20:48:57.425389-03:00",
+ "generated_at": "2026-10-30T13:59:17.492387-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -49,7 +49,7 @@
     "trend_alignment": 1.0,
     "confidence": 85,
     "eligible": true,
-    "odd": 1.16,
+    "odd": 1.14,
     "low_conviction": false
    },
    "alt_markets": [
@@ -71,7 +71,7 @@
      "trend_alignment": 0.291,
      "confidence": 24,
      "eligible": true,
-     "odd": 1.74
+     "odd": 1.58
     },
     {
      "selection": "BTTS_NO",
@@ -356,23 +356,23 @@
     "expected_goals": 3.84,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.7728,
+     "HOME": 0.7726,
      "DRAW": 0.1348,
-     "AWAY": 0.0924,
-     "1X": 0.9076,
-     "X2": 0.2272,
+     "AWAY": 0.0925,
+     "1X": 0.9075,
+     "X2": 0.2274,
      "12": 0.8652,
-     "OVER25": 0.7366,
-     "UNDER25": 0.2634,
-     "BTTS_YES": 0.5754,
-     "BTTS_NO": 0.4246
+     "OVER25": 0.7367,
+     "UNDER25": 0.2633,
+     "BTTS_YES": 0.5757,
+     "BTTS_NO": 0.4243
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Al Hilal Riyadh",
-    "model_prob": 0.7728,
+    "model_prob": 0.7726,
     "trend_alignment": 1.0,
     "confidence": 81,
     "eligible": true,
@@ -384,7 +384,7 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Al Hilal Riyadh ou empate (1X)",
-     "model_prob": 0.9076,
+     "model_prob": 0.9075,
      "trend_alignment": 1.0,
      "confidence": 81,
      "eligible": true,
@@ -394,7 +394,7 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.7366,
+     "model_prob": 0.7367,
      "trend_alignment": 0.593,
      "confidence": 52,
      "eligible": true,
@@ -404,7 +404,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5754,
+     "model_prob": 0.5757,
      "trend_alignment": 0.593,
      "confidence": 31,
      "eligible": false,
@@ -414,7 +414,7 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Al Fateh",
-     "model_prob": 0.0924,
+     "model_prob": 0.0925,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
@@ -1384,7 +1384,7 @@
     "trend_alignment": 1.0,
     "confidence": 75,
     "eligible": true,
-    "odd": 1.34,
+    "odd": 1.31,
     "low_conviction": false
    },
    "alt_markets": [
@@ -1406,7 +1406,7 @@
      "trend_alignment": 0.487,
      "confidence": 33,
      "eligible": true,
-     "odd": 2.3
+     "odd": 2.19
     },
     {
      "selection": "BTTS_YES",

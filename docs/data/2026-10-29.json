@@ -693,8 +693,8 @@
     "id": 9844,
     "name": "Fortaleza FC"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 1.9,
     "lambda_away": 0.75,
@@ -1029,7 +1029,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -1047,8 +1047,8 @@
     "id": 20210,
     "name": "Comerciantes Unidos"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 1.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 2.3,
     "lambda_away": 1.14,
@@ -1365,7 +1365,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "miss",
    "clear": true
   }
  ]
