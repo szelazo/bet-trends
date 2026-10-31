@@ -1,6 +1,6 @@
 {
  "date": "2026-11-01",
- "generated_at": "2026-10-30T20:29:01.603814-03:00",
+ "generated_at": "2026-10-31T13:00:53.810720-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -24,28 +24,28 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 2.78,
+    "lambda_home": 2.79,
     "lambda_away": 0.65,
     "expected_goals": 3.43,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.8144,
-     "DRAW": 0.1238,
-     "AWAY": 0.0618,
-     "1X": 0.9382,
-     "X2": 0.1856,
-     "12": 0.8762,
-     "OVER25": 0.6648,
-     "UNDER25": 0.3352,
-     "BTTS_YES": 0.4484,
-     "BTTS_NO": 0.5516
+     "HOME": 0.8158,
+     "DRAW": 0.123,
+     "AWAY": 0.0611,
+     "1X": 0.9389,
+     "X2": 0.1842,
+     "12": 0.877,
+     "OVER25": 0.6661,
+     "UNDER25": 0.3339,
+     "BTTS_YES": 0.4477,
+     "BTTS_NO": 0.5523
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Trabzonspor",
-    "model_prob": 0.8144,
+    "model_prob": 0.8158,
     "trend_alignment": 1.0,
     "confidence": 86,
     "eligible": true,
@@ -57,7 +57,7 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Trabzonspor ou empate (1X)",
-     "model_prob": 0.9382,
+     "model_prob": 0.9389,
      "trend_alignment": 1.0,
      "confidence": 86,
      "eligible": true,
@@ -67,17 +67,17 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6648,
+     "model_prob": 0.6661,
      "trend_alignment": 0.0,
-     "confidence": 21,
+     "confidence": 22,
      "eligible": true,
-     "odd": 2.02
+     "odd": 1.92
     },
     {
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.5516,
+     "model_prob": 0.5523,
      "trend_alignment": 0.243,
      "confidence": 15,
      "eligible": false,
@@ -87,11 +87,11 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.3352,
+     "model_prob": 0.3339,
      "trend_alignment": 0.243,
      "confidence": 8,
      "eligible": false,
-     "odd": 1.74
+     "odd": 1.82
     }
    ],
    "trends": [
@@ -370,6 +370,333 @@
    "clear": true
   },
   {
+   "id": 4732645,
+   "s365_competition_id": 17,
+   "competition_name": "Serie A",
+   "start_time": "2026-11-01T14:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 236,
+    "name": "Lazio"
+   },
+   "away": {
+    "id": 243,
+    "name": "Cagliari"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.85,
+    "lambda_away": 0.68,
+    "expected_goals": 3.53,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.8162,
+     "DRAW": 0.1212,
+     "AWAY": 0.0626,
+     "1X": 0.9374,
+     "X2": 0.1838,
+     "12": 0.8788,
+     "OVER25": 0.6835,
+     "UNDER25": 0.3165,
+     "BTTS_YES": 0.466,
+     "BTTS_NO": 0.534
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Lazio",
+    "model_prob": 0.8162,
+    "trend_alignment": 1.0,
+    "confidence": 86,
+    "eligible": true,
+    "odd": 1.41,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Lazio ou empate (1X)",
+     "model_prob": 0.9374,
+     "trend_alignment": 1.0,
+     "confidence": 86,
+     "eligible": true,
+     "odd": 1.11
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6835,
+     "trend_alignment": 0.313,
+     "confidence": 35,
+     "eligible": true,
+     "odd": 1.82
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.466,
+     "trend_alignment": 0.313,
+     "confidence": 11,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.534,
+     "trend_alignment": 0.0,
+     "confidence": 4,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "5 vitórias seguidas",
+     "strength": 1.0,
+     "favors": "HOME",
+     "team": "Lazio",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 5 dos últimos 5",
+     "strength": 0.75,
+     "favors": "HOME",
+     "team": "Lazio",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "Lazio",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Cagliari",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Melhor defesa da liga (0.8 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Lazio",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "3º melhor ataque da liga (2.4 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Lazio",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Lazio é 1º · Cagliari é 11º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Lazio está 10 posições à frente",
+     "strength": 0.714,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "5 vitórias seguidas",
+     "strength": 1.0,
+     "favors": "HOME",
+     "team": "Lazio",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 5 dos últimos 5",
+     "strength": 0.75,
+     "favors": "HOME",
+     "team": "Lazio",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Cagliari",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Melhor defesa da liga (0.8 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Lazio",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "3º melhor ataque da liga (2.4 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Lazio",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Lazio está 10 posições à frente",
+     "strength": 0.714,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 86,
+   "league": {
+    "key": "serie_a_ita",
+    "name": "Serie A",
+    "country": "Itália"
+   },
+   "home_team": {
+    "id": 236,
+    "name": "Lazio",
+    "position": 1,
+    "played": 9,
+    "points": 25.0,
+    "record": "8V 1E 0D",
+    "goals_for": 22,
+    "goals_against": 7,
+    "last5": "WWWWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "6-2",
+      "home": false,
+      "opponent": "Sassuolo",
+      "date": "2026-10-27"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Parma",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": false,
+      "opponent": "Juventus",
+      "date": "2026-10-18"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": true,
+      "opponent": "Monza",
+      "date": "2026-10-11"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "Venezia",
+      "date": "2026-09-19"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 243,
+    "name": "Cagliari",
+    "position": 11,
+    "played": 9,
+    "points": 13.0,
+    "record": "4V 1E 4D",
+    "goals_for": 8,
+    "goals_against": 13,
+    "last5": "LLLDW",
+    "recent": [
+     {
+      "result": "L",
+      "score": "2-4",
+      "home": false,
+      "opponent": "AS Roma",
+      "date": "2026-10-27"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": true,
+      "opponent": "Bologna",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "L",
+      "score": "0-4",
+      "home": false,
+      "opponent": "Monza",
+      "date": "2026-10-19"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Juventus",
+      "date": "2026-10-11"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Udinese",
+      "date": "2026-09-19"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-01T11:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
    "id": 4763760,
    "s365_competition_id": 78,
    "competition_name": "Super Lig",
@@ -392,23 +719,23 @@
     "expected_goals": 3.64,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.8121,
-     "DRAW": 0.1213,
-     "AWAY": 0.0666,
-     "1X": 0.9334,
-     "X2": 0.1879,
-     "12": 0.8787,
-     "OVER25": 0.703,
-     "UNDER25": 0.297,
-     "BTTS_YES": 0.493,
-     "BTTS_NO": 0.507
+     "HOME": 0.8126,
+     "DRAW": 0.1211,
+     "AWAY": 0.0663,
+     "1X": 0.9337,
+     "X2": 0.1874,
+     "12": 0.8789,
+     "OVER25": 0.7026,
+     "UNDER25": 0.2974,
+     "BTTS_YES": 0.492,
+     "BTTS_NO": 0.508
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Amed SK",
-    "model_prob": 0.8121,
+    "model_prob": 0.8126,
     "trend_alignment": 1.0,
     "confidence": 85,
     "eligible": true,
@@ -420,7 +747,7 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Amed SK ou empate (1X)",
-     "model_prob": 0.9334,
+     "model_prob": 0.9337,
      "trend_alignment": 1.0,
      "confidence": 85,
      "eligible": true,
@@ -430,7 +757,7 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.703,
+     "model_prob": 0.7026,
      "trend_alignment": 0.54,
      "confidence": 45,
      "eligible": true,
@@ -440,7 +767,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.493,
+     "model_prob": 0.492,
      "trend_alignment": 0.54,
      "confidence": 19,
      "eligible": false,
@@ -450,7 +777,7 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.507,
+     "model_prob": 0.508,
      "trend_alignment": 0.0,
      "confidence": 1,
      "eligible": false,
@@ -1068,28 +1395,28 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 2.53,
+    "lambda_home": 2.52,
     "lambda_away": 0.76,
     "expected_goals": 3.28,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.7573,
-     "DRAW": 0.1521,
-     "AWAY": 0.0906,
-     "1X": 0.9094,
-     "X2": 0.2427,
-     "12": 0.8479,
-     "OVER25": 0.6369,
-     "UNDER25": 0.3631,
-     "BTTS_YES": 0.4889,
-     "BTTS_NO": 0.5111
+     "HOME": 0.7572,
+     "DRAW": 0.1522,
+     "AWAY": 0.0907,
+     "1X": 0.9093,
+     "X2": 0.2428,
+     "12": 0.8478,
+     "OVER25": 0.6363,
+     "UNDER25": 0.3637,
+     "BTTS_YES": 0.4885,
+     "BTTS_NO": 0.5115
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do CS Universitatea Craiova",
-    "model_prob": 0.7573,
+    "model_prob": 0.7572,
     "trend_alignment": 1.0,
     "confidence": 82,
     "eligible": true,
@@ -1101,7 +1428,7 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: CS Universitatea Craiova ou empate (1X)",
-     "model_prob": 0.9094,
+     "model_prob": 0.9093,
      "trend_alignment": 1.0,
      "confidence": 82,
      "eligible": true,
@@ -1111,7 +1438,7 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6369,
+     "model_prob": 0.6363,
      "trend_alignment": 0.0,
      "confidence": 18,
      "eligible": true,
@@ -1121,7 +1448,7 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.5111,
+     "model_prob": 0.5115,
      "trend_alignment": 0.291,
      "confidence": 12,
      "eligible": false,
@@ -1131,7 +1458,7 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.3631,
+     "model_prob": 0.3637,
      "trend_alignment": 0.291,
      "confidence": 10,
      "eligible": false,
@@ -1389,315 +1716,6 @@
     ]
    },
    "kickoff_local": "2026-11-01T12:30:00-03:00",
-   "has_odds": true,
-   "odds_bookmaker": "365Scores",
-   "is_cup": false,
-   "result": "pending",
-   "clear": true
-  },
-  {
-   "id": 4757187,
-   "s365_competition_id": 73,
-   "competition_name": "Liga Portugal",
-   "start_time": "2026-11-01T18:00:00+00:00",
-   "status_group": 2,
-   "round": "Round",
-   "home": {
-    "id": 11163,
-    "name": "Viseu"
-   },
-   "away": {
-    "id": 904,
-    "name": "Rio Ave"
-   },
-   "home_score": -1.0,
-   "away_score": -1.0,
-   "model": {
-    "lambda_home": 2.6,
-    "lambda_away": 0.79,
-    "expected_goals": 3.39,
-    "sample_factor": 1.0,
-    "probs": {
-     "HOME": 0.7605,
-     "DRAW": 0.1483,
-     "AWAY": 0.0912,
-     "1X": 0.9088,
-     "X2": 0.2395,
-     "12": 0.8517,
-     "OVER25": 0.6581,
-     "UNDER25": 0.3419,
-     "BTTS_YES": 0.5069,
-     "BTTS_NO": 0.4931
-    }
-   },
-   "pick": {
-    "selection": "1X",
-    "family": "double_chance",
-    "label": "Dupla chance: Viseu ou empate (1X)",
-    "model_prob": 0.9088,
-    "trend_alignment": 1.0,
-    "confidence": 82,
-    "eligible": true,
-    "odd": 1.25,
-    "low_conviction": false
-   },
-   "alt_markets": [
-    {
-     "selection": "HOME",
-     "family": "1x2",
-     "label": "Vitória do Viseu",
-     "model_prob": 0.7605,
-     "trend_alignment": 1.0,
-     "confidence": 76,
-     "eligible": true,
-     "odd": 1.82
-    },
-    {
-     "selection": "OVER25",
-     "family": "over_under",
-     "label": "Mais de 2.5 gols",
-     "model_prob": 0.6581,
-     "trend_alignment": 0.74,
-     "confidence": 46,
-     "eligible": true,
-     "odd": 1.87
-    },
-    {
-     "selection": "BTTS_YES",
-     "family": "btts",
-     "label": "Ambos os times marcam",
-     "model_prob": 0.5069,
-     "trend_alignment": 0.74,
-     "confidence": 27,
-     "eligible": false,
-     "odd": null
-    },
-    {
-     "selection": "AWAY",
-     "family": "1x2",
-     "label": "Vitória do Rio Ave",
-     "model_prob": 0.0912,
-     "trend_alignment": 0.0,
-     "confidence": 0,
-     "eligible": false,
-     "odd": 4.02
-    }
-   ],
-   "trends": [
-    {
-     "label": "5 vitórias seguidas",
-     "strength": 1.0,
-     "favors": "HOME",
-     "team": "Viseu",
-     "side": "HOME",
-     "group": "sequencia",
-     "kind": "win_streak"
-    },
-    {
-     "label": "Venceu 5 dos últimos 5",
-     "strength": 0.75,
-     "favors": "HOME",
-     "team": "Viseu",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "Marcou em todos os últimos 5",
-     "strength": 0.3,
-     "favors": "OVER",
-     "team": "Viseu",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "always_score"
-    },
-    {
-     "label": "Perdeu 3 dos últimos 5",
-     "strength": 0.52,
-     "favors": "HOME",
-     "team": "Rio Ave",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Mais de 2.5 gols em 4 dos últimos 5",
-     "strength": 0.47,
-     "favors": "OVER",
-     "team": "Rio Ave",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "over"
-    },
-    {
-     "label": "Pior defesa da liga (2.3 sofridos/jogo)",
-     "strength": 0.34,
-     "favors": "OVER",
-     "team": "Rio Ave",
-     "side": "AWAY",
-     "group": "temporada",
-     "kind": "def_bottom"
-    },
-    {
-     "label": "Viseu é 6º · Rio Ave é 16º",
-     "strength": 0.0,
-     "favors": null,
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "positions"
-    },
-    {
-     "label": "Viseu está 10 posições à frente",
-     "strength": 0.714,
-     "favors": "HOME",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "aligned_trends": [
-    {
-     "label": "5 vitórias seguidas",
-     "strength": 1.0,
-     "favors": "HOME",
-     "team": "Viseu",
-     "side": "HOME",
-     "group": "sequencia",
-     "kind": "win_streak"
-    },
-    {
-     "label": "Venceu 5 dos últimos 5",
-     "strength": 0.75,
-     "favors": "HOME",
-     "team": "Viseu",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "Perdeu 3 dos últimos 5",
-     "strength": 0.52,
-     "favors": "HOME",
-     "team": "Rio Ave",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Viseu está 10 posições à frente",
-     "strength": 0.714,
-     "favors": "HOME",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "confidence": 82,
-   "league": {
-    "key": "liga_pt",
-    "name": "Liga Portugal",
-    "country": "Portugal"
-   },
-   "home_team": {
-    "id": 11163,
-    "name": "Viseu",
-    "position": 6,
-    "played": 9,
-    "points": 17.0,
-    "record": "5V 2E 2D",
-    "goals_for": 13,
-    "goals_against": 11,
-    "last5": "WWWWW",
-    "recent": [
-     {
-      "result": "W",
-      "score": "2-1",
-      "home": false,
-      "opponent": "Sporting CP",
-      "date": "2026-10-25"
-     },
-     {
-      "result": "W",
-      "score": "2-1",
-      "home": true,
-      "opponent": "Estoril",
-      "date": "2026-10-10"
-     },
-     {
-      "result": "W",
-      "score": "2-0",
-      "home": false,
-      "opponent": "Estrela da Amadora",
-      "date": "2026-09-20"
-     },
-     {
-      "result": "W",
-      "score": "2-1",
-      "home": true,
-      "opponent": "Guimarães",
-      "date": "2026-09-12"
-     },
-     {
-      "result": "W",
-      "score": "1-0",
-      "home": false,
-      "opponent": "Gil Vicente FC",
-      "date": "2026-09-06"
-     }
-    ]
-   },
-   "away_team": {
-    "id": 904,
-    "name": "Rio Ave",
-    "position": 16,
-    "played": 9,
-    "points": 7.0,
-    "record": "2V 1E 6D",
-    "goals_for": 8,
-    "goals_against": 21,
-    "last5": "LWLDL",
-    "recent": [
-     {
-      "result": "L",
-      "score": "0-4",
-      "home": true,
-      "opponent": "Famalicão",
-      "date": "2026-10-25"
-     },
-     {
-      "result": "W",
-      "score": "3-2",
-      "home": true,
-      "opponent": "Nacional Madeira",
-      "date": "2026-10-11"
-     },
-     {
-      "result": "L",
-      "score": "0-1",
-      "home": false,
-      "opponent": "Alverca",
-      "date": "2026-09-19"
-     },
-     {
-      "result": "D",
-      "score": "3-3",
-      "home": true,
-      "opponent": "Estrela da Amadora",
-      "date": "2026-09-14"
-     },
-     {
-      "result": "L",
-      "score": "0-4",
-      "home": false,
-      "opponent": "Santa Clara",
-      "date": "2026-09-06"
-     }
-    ]
-   },
-   "kickoff_local": "2026-11-01T15:00:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,

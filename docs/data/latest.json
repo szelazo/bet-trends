@@ -1,65 +1,392 @@
 {
- "date": "2026-10-30",
- "generated_at": "2026-10-30T20:28:59.048103-03:00",
+ "date": "2026-10-31",
+ "generated_at": "2026-10-31T13:00:52.547956-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
- "day_total": 49,
+ "day_total": 129,
  "games": [
   {
-   "id": 4748671,
-   "s365_competition_id": 129,
-   "competition_name": "Premier League",
-   "start_time": "2026-10-30T16:00:00+00:00",
+   "id": 4757195,
+   "s365_competition_id": 73,
+   "competition_name": "Liga Portugal",
+   "start_time": "2026-10-31T20:30:00+00:00",
    "status_group": 2,
    "round": "Round",
    "home": {
-    "id": 1955,
-    "name": "Shakhtar Donetsk"
+    "id": 887,
+    "name": "FC Porto"
    },
    "away": {
-    "id": 6002,
-    "name": "Obolon Kyiv"
+    "id": 909,
+    "name": "Estoril"
    },
-   "home_score": 2.0,
-   "away_score": 0.0,
+   "home_score": -1.0,
+   "away_score": -1.0,
    "model": {
-    "lambda_home": 2.77,
-    "lambda_away": 0.52,
-    "expected_goals": 3.29,
+    "lambda_home": 2.54,
+    "lambda_away": 0.58,
+    "expected_goals": 3.13,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.8402,
-     "DRAW": 0.1135,
-     "AWAY": 0.0463,
-     "1X": 0.9537,
-     "X2": 0.1598,
-     "12": 0.8865,
-     "OVER25": 0.6381,
-     "UNDER25": 0.3619,
-     "BTTS_YES": 0.3793,
-     "BTTS_NO": 0.6207
+     "HOME": 0.7977,
+     "DRAW": 0.1378,
+     "AWAY": 0.0645,
+     "1X": 0.9355,
+     "X2": 0.2023,
+     "12": 0.8622,
+     "OVER25": 0.6041,
+     "UNDER25": 0.3959,
+     "BTTS_YES": 0.4077,
+     "BTTS_NO": 0.5923
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
-    "label": "Vitória do Shakhtar Donetsk",
-    "model_prob": 0.8402,
+    "label": "Vitória do FC Porto",
+    "model_prob": 0.7977,
     "trend_alignment": 1.0,
-    "confidence": 88,
+    "confidence": 85,
     "eligible": true,
-    "odd": 1.08,
+    "odd": 1.16,
     "low_conviction": false
    },
    "alt_markets": [
     {
      "selection": "1X",
      "family": "double_chance",
-     "label": "Dupla chance: Shakhtar Donetsk ou empate (1X)",
-     "model_prob": 0.9537,
+     "label": "Dupla chance: FC Porto ou empate (1X)",
+     "model_prob": 0.9355,
      "trend_alignment": 1.0,
-     "confidence": 88,
+     "confidence": 85,
+     "eligible": true,
+     "odd": 1.03
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6041,
+     "trend_alignment": 0.291,
+     "confidence": 24,
+     "eligible": true,
+     "odd": 2.12
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5923,
+     "trend_alignment": 0.0,
+     "confidence": 12,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.4077,
+     "trend_alignment": 0.291,
+     "confidence": 10,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "HOME",
+     "team": "Estoril",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Venceu 5 dos últimos 7",
+     "strength": 0.607,
+     "favors": "HOME",
+     "team": "FC Porto",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Mais de 2.5 gols em 5 dos últimos 7",
+     "strength": 0.436,
+     "favors": "OVER",
+     "team": "FC Porto",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Melhor defesa da liga (0.4 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "FC Porto",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "2º melhor ataque da liga (2.3 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "FC Porto",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Estoril",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "FC Porto é 1º · Estoril é 18º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "FC Porto está 17 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "HOME",
+     "team": "Estoril",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Venceu 5 dos últimos 7",
+     "strength": 0.607,
+     "favors": "HOME",
+     "team": "FC Porto",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Melhor defesa da liga (0.4 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "FC Porto",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "2º melhor ataque da liga (2.3 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "FC Porto",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Estoril",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "FC Porto está 17 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 85,
+   "league": {
+    "key": "liga_pt",
+    "name": "Liga Portugal",
+    "country": "Portugal"
+   },
+   "home_team": {
+    "id": 887,
+    "name": "FC Porto",
+    "position": 1,
+    "played": 9,
+    "points": 27.0,
+    "record": "9V 0E 0D",
+    "goals_for": 21,
+    "goals_against": 4,
+    "last5": "WLLWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Gil Vicente FC",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "PSV Eindhoven",
+      "date": "2026-10-20"
+     },
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": false,
+      "opponent": "Real Betis",
+      "date": "2026-10-14"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Maritimo",
+      "date": "2026-10-10"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": true,
+      "opponent": "Benfica",
+      "date": "2026-09-20"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 909,
+    "name": "Estoril",
+    "position": 18,
+    "played": 9,
+    "points": 2.0,
+    "record": "0V 2E 7D",
+    "goals_for": 5,
+    "goals_against": 15,
+    "last5": "LLLLD",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": true,
+      "opponent": "Moreirense",
+      "date": "2026-10-25"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Viseu",
+      "date": "2026-10-10"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Casa Pia AC",
+      "date": "2026-09-20"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "SC Braga",
+      "date": "2026-09-14"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Arouca",
+      "date": "2026-09-07"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-31T17:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4789435,
+   "s365_competition_id": 649,
+   "competition_name": "Saudi League",
+   "start_time": "2026-10-31T18:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 5457,
+    "name": "Al Hilal Riyadh"
+   },
+   "away": {
+    "id": 8942,
+    "name": "Al Fateh"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.9,
+    "lambda_away": 0.94,
+    "expected_goals": 3.84,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.7729,
+     "DRAW": 0.1347,
+     "AWAY": 0.0923,
+     "1X": 0.9077,
+     "X2": 0.2271,
+     "12": 0.8653,
+     "OVER25": 0.7365,
+     "UNDER25": 0.2635,
+     "BTTS_YES": 0.5752,
+     "BTTS_NO": 0.4248
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Al Hilal Riyadh",
+    "model_prob": 0.7729,
+    "trend_alignment": 1.0,
+    "confidence": 81,
+    "eligible": true,
+    "odd": 1.09,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Al Hilal Riyadh ou empate (1X)",
+     "model_prob": 0.9077,
+     "trend_alignment": 1.0,
+     "confidence": 81,
      "eligible": true,
      "odd": 1.01
     },
@@ -67,135 +394,108 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6381,
-     "trend_alignment": 0.074,
-     "confidence": 21,
+     "model_prob": 0.7365,
+     "trend_alignment": 0.593,
+     "confidence": 52,
      "eligible": true,
-     "odd": 1.44
-    },
-    {
-     "selection": "BTTS_NO",
-     "family": "btts",
-     "label": "Ambos marcam: não",
-     "model_prob": 0.6207,
-     "trend_alignment": 0.029,
-     "confidence": 17,
-     "eligible": true,
-     "odd": null
+     "odd": 1.56
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.3793,
-     "trend_alignment": 0.074,
-     "confidence": 3,
+     "model_prob": 0.5752,
+     "trend_alignment": 0.593,
+     "confidence": 31,
      "eligible": false,
      "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Al Fateh",
+     "model_prob": 0.0923,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 17.0
     }
    ],
    "trends": [
     {
-     "label": "Venceu 4 dos últimos 5 em casa",
-     "strength": 0.65,
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
      "favors": "HOME",
-     "team": "Shakhtar Donetsk",
-     "side": "HOME",
-     "group": "casa_fora",
-     "kind": "wins"
-    },
-    {
-     "label": "Não sofreu gol em 3 dos últimos 5 em casa",
-     "strength": 0.39,
-     "favors": "UNDER",
-     "team": "Shakhtar Donetsk",
-     "side": "HOME",
-     "group": "casa_fora",
-     "kind": "clean_sheets"
-    },
-    {
-     "label": "Venceu 5 dos últimos 7",
-     "strength": 0.607,
-     "favors": "HOME",
-     "team": "Shakhtar Donetsk",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "Ambos marcaram só 2x nos últimos 7",
-     "strength": 0.364,
-     "favors": "BTTS_NO",
-     "team": "Shakhtar Donetsk",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "no_btts"
-    },
-    {
-     "label": "Perdeu 3 dos últimos 4 fora de casa",
-     "strength": 0.588,
-     "favors": "HOME",
-     "team": "Obolon Kyiv",
+     "team": "Al Fateh",
      "side": "AWAY",
-     "group": "casa_fora",
+     "group": "geral",
      "kind": "losses"
     },
     {
-     "label": "Mais de 2.5 gols em 3 dos últimos 4 fora de casa",
-     "strength": 0.45,
+     "label": "Mais de 2.5 gols em 5 dos últimos 5",
+     "strength": 0.55,
      "favors": "OVER",
-     "team": "Obolon Kyiv",
+     "team": "Al Fateh",
      "side": "AWAY",
-     "group": "casa_fora",
+     "group": "geral",
      "kind": "over"
     },
     {
-     "label": "Perdeu 3 dos últimos 5",
-     "strength": 0.52,
+     "label": "Invicto em 5 dos últimos 6",
+     "strength": 0.492,
      "favors": "HOME",
-     "team": "Obolon Kyiv",
-     "side": "AWAY",
+     "team": "Al Hilal Riyadh",
+     "side": "HOME",
      "group": "geral",
-     "kind": "losses"
+     "kind": "unbeaten"
     },
     {
-     "label": "Melhor defesa da liga (0.5 sofridos/jogo)",
-     "strength": 0.5,
+     "label": "Melhor ataque da liga (3.0 marcados/jogo)",
+     "strength": 0.44,
      "favors": "HOME",
-     "team": "Shakhtar Donetsk",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "def_rank"
-    },
-    {
-     "label": "Só 1 derrota(s) em 10 jogos no campeonato",
-     "strength": 0.42,
-     "favors": "HOME",
-     "team": "Shakhtar Donetsk",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "few_losses"
-    },
-    {
-     "label": "2º melhor ataque da liga (2.0 marcados/jogo)",
-     "strength": 0.32,
-     "favors": "HOME",
-     "team": "Shakhtar Donetsk",
+     "team": "Al Hilal Riyadh",
      "side": "HOME",
      "group": "temporada",
      "kind": "atk_rank"
     },
     {
-     "label": "Pior defesa da liga (1.7 sofridos/jogo)",
+     "label": "Só 1 derrota(s) em 10 jogos no campeonato",
+     "strength": 0.42,
+     "favors": "HOME",
+     "team": "Al Hilal Riyadh",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "2ª melhor defesa da liga (0.9 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "HOME",
+     "team": "Al Hilal Riyadh",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Pior defesa da liga (2.1 sofridos/jogo)",
      "strength": 0.34,
      "favors": "OVER",
-     "team": "Obolon Kyiv",
+     "team": "Al Fateh",
      "side": "AWAY",
      "group": "temporada",
      "kind": "def_bottom"
     },
     {
-     "label": "Shakhtar Donetsk é 2º · Obolon Kyiv é 13º",
+     "label": "Invicto há 5 jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Al Hilal Riyadh",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Al Hilal Riyadh é 3º · Al Fateh é 16º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -204,8 +504,8 @@
      "kind": "positions"
     },
     {
-     "label": "Shakhtar Donetsk está 11 posições à frente",
-     "strength": 0.786,
+     "label": "Al Hilal Riyadh está 13 posições à frente",
+     "strength": 0.8,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -215,371 +515,62 @@
    ],
    "aligned_trends": [
     {
-     "label": "Venceu 4 dos últimos 5 em casa",
-     "strength": 0.65,
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
      "favors": "HOME",
-     "team": "Shakhtar Donetsk",
-     "side": "HOME",
-     "group": "casa_fora",
-     "kind": "wins"
-    },
-    {
-     "label": "Venceu 5 dos últimos 7",
-     "strength": 0.607,
-     "favors": "HOME",
-     "team": "Shakhtar Donetsk",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "Perdeu 3 dos últimos 4 fora de casa",
-     "strength": 0.588,
-     "favors": "HOME",
-     "team": "Obolon Kyiv",
-     "side": "AWAY",
-     "group": "casa_fora",
-     "kind": "losses"
-    },
-    {
-     "label": "Perdeu 3 dos últimos 5",
-     "strength": 0.52,
-     "favors": "HOME",
-     "team": "Obolon Kyiv",
+     "team": "Al Fateh",
      "side": "AWAY",
      "group": "geral",
      "kind": "losses"
     },
     {
-     "label": "Melhor defesa da liga (0.5 sofridos/jogo)",
-     "strength": 0.5,
+     "label": "Invicto em 5 dos últimos 6",
+     "strength": 0.492,
      "favors": "HOME",
-     "team": "Shakhtar Donetsk",
+     "team": "Al Hilal Riyadh",
      "side": "HOME",
-     "group": "temporada",
-     "kind": "def_rank"
+     "group": "geral",
+     "kind": "unbeaten"
     },
     {
-     "label": "Só 1 derrota(s) em 10 jogos no campeonato",
-     "strength": 0.42,
+     "label": "Melhor ataque da liga (3.0 marcados/jogo)",
+     "strength": 0.44,
      "favors": "HOME",
-     "team": "Shakhtar Donetsk",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "few_losses"
-    },
-    {
-     "label": "2º melhor ataque da liga (2.0 marcados/jogo)",
-     "strength": 0.32,
-     "favors": "HOME",
-     "team": "Shakhtar Donetsk",
+     "team": "Al Hilal Riyadh",
      "side": "HOME",
      "group": "temporada",
      "kind": "atk_rank"
     },
     {
-     "label": "Shakhtar Donetsk está 11 posições à frente",
-     "strength": 0.786,
+     "label": "Só 1 derrota(s) em 10 jogos no campeonato",
+     "strength": 0.42,
      "favors": "HOME",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "confidence": 88,
-   "league": {
-    "key": "ukraine",
-    "name": "Premier League",
-    "country": "Ucrânia"
-   },
-   "home_team": {
-    "id": 1955,
-    "name": "Shakhtar Donetsk",
-    "position": 2,
-    "played": 10,
-    "points": 25.0,
-    "record": "8V 1E 1D",
-    "goals_for": 20,
-    "goals_against": 5,
-    "last5": "DLWWW",
-    "recent": [
-     {
-      "result": "D",
-      "score": "0-0",
-      "home": true,
-      "opponent": "Zorya Luhansk",
-      "date": "2026-10-24"
-     },
-     {
-      "result": "L",
-      "score": "0-1",
-      "home": false,
-      "opponent": "Inter Milan",
-      "date": "2026-10-21"
-     },
-     {
-      "result": "W",
-      "score": "2-1",
-      "home": true,
-      "opponent": "Kolos Kovalivka",
-      "date": "2026-10-17"
-     },
-     {
-      "result": "W",
-      "score": "3-1",
-      "home": true,
-      "opponent": "AEK Athens",
-      "date": "2026-10-14"
-     },
-     {
-      "result": "W",
-      "score": "3-0",
-      "home": false,
-      "opponent": "Veres Rivne",
-      "date": "2026-10-09"
-     }
-    ]
-   },
-   "away_team": {
-    "id": 6002,
-    "name": "Obolon Kyiv",
-    "position": 13,
-    "played": 9,
-    "points": 7.0,
-    "record": "1V 4E 4D",
-    "goals_for": 4,
-    "goals_against": 15,
-    "last5": "LWDLL",
-    "recent": [
-     {
-      "result": "L",
-      "score": "0-3",
-      "home": false,
-      "opponent": "Polissya",
-      "date": "2026-10-23"
-     },
-     {
-      "result": "W",
-      "score": "2-0",
-      "home": true,
-      "opponent": "Veres Rivne",
-      "date": "2026-10-16"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": false,
-      "opponent": "Chornomorets Odesa",
-      "date": "2026-09-18"
-     },
-     {
-      "result": "L",
-      "score": "1-3",
-      "home": false,
-      "opponent": "LNZ Cherkasy",
-      "date": "2026-09-12"
-     },
-     {
-      "result": "L",
-      "score": "0-5",
-      "home": false,
-      "opponent": "Kharkiv",
-      "date": "2026-09-05"
-     }
-    ]
-   },
-   "kickoff_local": "2026-10-30T13:00:00-03:00",
-   "has_odds": true,
-   "odds_bookmaker": "365Scores",
-   "is_cup": false,
-   "result": "hit",
-   "clear": true
-  },
-  {
-   "id": 4804726,
-   "s365_competition_id": 552,
-   "competition_name": "Premier League",
-   "start_time": "2026-10-30T18:00:00+00:00",
-   "status_group": 2,
-   "round": "Round",
-   "home": {
-    "id": 8312,
-    "name": "Al Ittehad"
-   },
-   "away": {
-    "id": 8306,
-    "name": "El Geish"
-   },
-   "home_score": 0.0,
-   "away_score": 0.0,
-   "model": {
-    "lambda_home": 1.95,
-    "lambda_away": 0.56,
-    "expected_goals": 2.51,
-    "sample_factor": 1.0,
-    "probs": {
-     "HOME": 0.7058,
-     "DRAW": 0.1972,
-     "AWAY": 0.097,
-     "1X": 0.903,
-     "X2": 0.2942,
-     "12": 0.8028,
-     "OVER25": 0.4593,
-     "UNDER25": 0.5407,
-     "BTTS_YES": 0.3682,
-     "BTTS_NO": 0.6318
-    }
-   },
-   "pick": {
-    "selection": "1X",
-    "family": "double_chance",
-    "label": "Dupla chance: Al Ittehad ou empate (1X)",
-    "model_prob": 0.903,
-    "trend_alignment": 1.0,
-    "confidence": 81,
-    "eligible": true,
-    "odd": 1.32,
-    "low_conviction": false
-   },
-   "alt_markets": [
-    {
-     "selection": "HOME",
-     "family": "1x2",
-     "label": "Vitória do Al Ittehad",
-     "model_prob": 0.7058,
-     "trend_alignment": 1.0,
-     "confidence": 71,
-     "eligible": true,
-     "odd": 2.21
-    },
-    {
-     "selection": "BTTS_NO",
-     "family": "btts",
-     "label": "Ambos marcam: não",
-     "model_prob": 0.6318,
-     "trend_alignment": 0.02,
-     "confidence": 18,
-     "eligible": true,
-     "odd": null
-    },
-    {
-     "selection": "UNDER25",
-     "family": "over_under",
-     "label": "Menos de 2.5 gols",
-     "model_prob": 0.5407,
-     "trend_alignment": 0.02,
-     "confidence": 6,
-     "eligible": false,
-     "odd": 2.37
-    },
-    {
-     "selection": "OVER25",
-     "family": "over_under",
-     "label": "Mais de 2.5 gols",
-     "model_prob": 0.4593,
-     "trend_alignment": 0.033,
-     "confidence": 1,
-     "eligible": false,
-     "odd": 1.53
-    }
-   ],
-   "trends": [
-    {
-     "label": "Venceu 4 dos últimos 5",
-     "strength": 0.65,
-     "favors": "HOME",
-     "team": "Al Ittehad",
+     "team": "Al Hilal Riyadh",
      "side": "HOME",
-     "group": "geral",
-     "kind": "wins"
+     "group": "temporada",
+     "kind": "few_losses"
     },
     {
-     "label": "Não sofreu gol em 3 dos últimos 5",
-     "strength": 0.39,
-     "favors": "UNDER",
-     "team": "Al Ittehad",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "clean_sheets"
-    },
-    {
-     "label": "Perdeu 4 dos últimos 5",
-     "strength": 0.61,
+     "label": "2ª melhor defesa da liga (0.9 sofridos/jogo)",
+     "strength": 0.36,
      "favors": "HOME",
-     "team": "El Geish",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "losses"
+     "team": "Al Hilal Riyadh",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
     },
     {
-     "label": "Sofreu gol em todos os últimos 5",
-     "strength": 0.4,
-     "favors": "OVER",
-     "team": "El Geish",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "always_concede"
-    },
-    {
-     "label": "Não vence há 5+ jogos",
+     "label": "Invicto há 5 jogos",
      "strength": 0.333,
      "favors": "HOME",
-     "team": "El Geish",
-     "side": "AWAY",
-     "group": "sequencia",
-     "kind": "winless_streak"
-    },
-    {
-     "label": "Al Ittehad é 5º · El Geish é 15º",
-     "strength": 0.0,
-     "favors": null,
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "positions"
-    },
-    {
-     "label": "Al Ittehad está 10 posições à frente",
-     "strength": 0.714,
-     "favors": "HOME",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "aligned_trends": [
-    {
-     "label": "Venceu 4 dos últimos 5",
-     "strength": 0.65,
-     "favors": "HOME",
-     "team": "Al Ittehad",
+     "team": "Al Hilal Riyadh",
      "side": "HOME",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "Perdeu 4 dos últimos 5",
-     "strength": 0.61,
-     "favors": "HOME",
-     "team": "El Geish",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Não vence há 5+ jogos",
-     "strength": 0.333,
-     "favors": "HOME",
-     "team": "El Geish",
-     "side": "AWAY",
      "group": "sequencia",
-     "kind": "winless_streak"
+     "kind": "unbeaten_streak"
     },
     {
-     "label": "Al Ittehad está 10 posições à frente",
-     "strength": 0.714,
+     "label": "Al Hilal Riyadh está 13 posições à frente",
+     "strength": 0.8,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -589,186 +580,186 @@
    ],
    "confidence": 81,
    "league": {
-    "key": "egypt",
-    "name": "Premier League",
-    "country": "Egito"
+    "key": "saudi",
+    "name": "Saudi Pro League",
+    "country": "Arábia Saudita"
    },
    "home_team": {
-    "id": 8312,
-    "name": "Al Ittehad",
-    "position": 5,
-    "played": 7,
-    "points": 13.0,
-    "record": "4V 1E 2D",
-    "goals_for": 9,
-    "goals_against": 6,
-    "last5": "LWWWW",
+    "id": 5457,
+    "name": "Al Hilal Riyadh",
+    "position": 3,
+    "played": 10,
+    "points": 27.0,
+    "record": "9V 0E 1D",
+    "goals_for": 30,
+    "goals_against": 9,
+    "last5": "WWDWW",
     "recent": [
      {
-      "result": "L",
-      "score": "1-2",
-      "home": false,
-      "opponent": "Ghazl El-Mehalla",
-      "date": "2026-10-21"
-     },
-     {
       "result": "W",
-      "score": "2-1",
-      "home": true,
-      "opponent": "El Gounah",
-      "date": "2026-10-13"
-     },
-     {
-      "result": "W",
-      "score": "2-0",
+      "score": "3-2",
       "home": false,
-      "opponent": "Al Masry",
-      "date": "2026-09-15"
+      "opponent": "Qadisiya",
+      "date": "2026-10-23"
      },
      {
       "result": "W",
       "score": "1-0",
       "home": true,
-      "opponent": "Petrol Asyut",
-      "date": "2026-09-07"
+      "opponent": "Al Hazm",
+      "date": "2026-10-19"
+     },
+     {
+      "result": "D",
+      "score": "-1--1",
+      "home": false,
+      "opponent": "Al Riyadh SC",
+      "date": "2026-10-16"
      },
      {
       "result": "W",
-      "score": "2-0",
+      "score": "3-2",
+      "home": true,
+      "opponent": "Ittihad Jeddah",
+      "date": "2026-10-10"
+     },
+     {
+      "result": "W",
+      "score": "6-0",
       "home": false,
-      "opponent": "Abo Qir Semad",
-      "date": "2026-09-02"
+      "opponent": "Al Taawoun",
+      "date": "2026-09-12"
      }
     ]
    },
    "away_team": {
-    "id": 8306,
-    "name": "El Geish",
-    "position": 15,
-    "played": 7,
-    "points": 7.0,
-    "record": "2V 1E 4D",
-    "goals_for": 6,
-    "goals_against": 12,
-    "last5": "LLLDL",
+    "id": 8942,
+    "name": "Al Fateh",
+    "position": 16,
+    "played": 11,
+    "points": 6.0,
+    "record": "1V 3E 7D",
+    "goals_for": 10,
+    "goals_against": 23,
+    "last5": "LLWLL",
     "recent": [
      {
       "result": "L",
-      "score": "1-4",
+      "score": "1-3",
       "home": true,
-      "opponent": "Pyramids",
-      "date": "2026-10-20"
+      "opponent": "Al Shabab Riyadh",
+      "date": "2026-10-22"
      },
      {
       "result": "L",
-      "score": "0-3",
+      "score": "2-3",
+      "home": true,
+      "opponent": "Al Khaleej Club",
+      "date": "2026-10-18"
+     },
+     {
+      "result": "W",
+      "score": "3-2",
       "home": false,
-      "opponent": "National Bank Of Egypt",
-      "date": "2026-10-13"
+      "opponent": "Al Hazm",
+      "date": "2026-10-15"
      },
      {
       "result": "L",
-      "score": "0-1",
+      "score": "0-4",
       "home": true,
-      "opponent": "Smouha",
-      "date": "2026-09-14"
+      "opponent": "Al Ahli Jeddah",
+      "date": "2026-10-09"
      },
      {
-      "result": "D",
-      "score": "1-1",
+      "result": "L",
+      "score": "2-4",
       "home": false,
-      "opponent": "El Qanah FC",
-      "date": "2026-09-07"
-     },
-     {
-      "result": "L",
-      "score": "0-1",
-      "home": true,
-      "opponent": "Zed FC",
-      "date": "2026-09-01"
+      "opponent": "NEOM SC",
+      "date": "2026-09-13"
      }
     ]
    },
-   "kickoff_local": "2026-10-30T15:00:00-03:00",
+   "kickoff_local": "2026-10-31T15:00:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "hit",
+   "result": "pending",
    "clear": true
   },
   {
-   "id": 4748407,
-   "s365_competition_id": 136,
-   "competition_name": "Liga 1",
-   "start_time": "2026-10-30T18:30:00+00:00",
+   "id": 4746074,
+   "s365_competition_id": 1,
+   "competition_name": "Championship",
+   "start_time": "2026-10-31T15:00:00+00:00",
    "status_group": 2,
    "round": "Round",
    "home": {
-    "id": 2042,
-    "name": "Rapid Bucuresti"
+    "id": 115,
+    "name": "Middlesbrough"
    },
    "away": {
-    "id": 26249,
-    "name": "Csíkszereda Miercurea Ciuc"
+    "id": 8,
+    "name": "Charlton"
    },
-   "home_score": 2.0,
-   "away_score": 0.0,
+   "home_score": -1.0,
+   "away_score": -1.0,
    "model": {
-    "lambda_home": 2.44,
-    "lambda_away": 0.85,
-    "expected_goals": 3.3,
+    "lambda_home": 2.78,
+    "lambda_away": 0.96,
+    "expected_goals": 3.74,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.7229,
-     "DRAW": 0.1652,
-     "AWAY": 0.1118,
-     "1X": 0.8882,
-     "X2": 0.2771,
-     "12": 0.8348,
-     "OVER25": 0.6398,
-     "UNDER25": 0.3602,
-     "BTTS_YES": 0.5246,
-     "BTTS_NO": 0.4754
+     "HOME": 0.7516,
+     "DRAW": 0.1448,
+     "AWAY": 0.1036,
+     "1X": 0.8964,
+     "X2": 0.2484,
+     "12": 0.8552,
+     "OVER25": 0.7211,
+     "UNDER25": 0.2789,
+     "BTTS_YES": 0.5796,
+     "BTTS_NO": 0.4204
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
-    "label": "Vitória do Rapid Bucuresti",
-    "model_prob": 0.7229,
+    "label": "Vitória do Middlesbrough",
+    "model_prob": 0.7516,
     "trend_alignment": 1.0,
-    "confidence": 79,
+    "confidence": 80,
     "eligible": true,
-    "odd": 1.17,
+    "odd": 1.22,
     "low_conviction": false
    },
    "alt_markets": [
     {
      "selection": "1X",
      "family": "double_chance",
-     "label": "Dupla chance: Rapid Bucuresti ou empate (1X)",
-     "model_prob": 0.8882,
+     "label": "Dupla chance: Middlesbrough ou empate (1X)",
+     "model_prob": 0.8964,
      "trend_alignment": 1.0,
-     "confidence": 79,
+     "confidence": 80,
      "eligible": true,
-     "odd": 1.05
+     "odd": 1.06
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6398,
-     "trend_alignment": 0.807,
-     "confidence": 46,
+     "model_prob": 0.7211,
+     "trend_alignment": 0.6,
+     "confidence": 50,
      "eligible": true,
-     "odd": 2.25
+     "odd": 2.0
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5246,
-     "trend_alignment": 0.807,
+     "model_prob": 0.5796,
+     "trend_alignment": 0.6,
      "confidence": 31,
      "eligible": false,
      "odd": null
@@ -776,29 +767,29 @@
     {
      "selection": "AWAY",
      "family": "1x2",
-     "label": "Vitória do Csíkszereda Miercurea Ciuc",
-     "model_prob": 0.1118,
+     "label": "Vitória do Charlton",
+     "model_prob": 0.1036,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 11.0
+     "odd": 10.0
     }
    ],
    "trends": [
     {
-     "label": "Venceu 4 dos últimos 5",
-     "strength": 0.65,
+     "label": "Invicto em 5 dos últimos 5",
+     "strength": 0.55,
      "favors": "HOME",
-     "team": "Rapid Bucuresti",
+     "team": "Middlesbrough",
      "side": "HOME",
      "group": "geral",
-     "kind": "wins"
+     "kind": "unbeaten"
     },
     {
      "label": "Mais de 2.5 gols em 4 dos últimos 5",
      "strength": 0.47,
      "favors": "OVER",
-     "team": "Rapid Bucuresti",
+     "team": "Middlesbrough",
      "side": "HOME",
      "group": "geral",
      "kind": "over"
@@ -807,7 +798,343 @@
      "label": "Perdeu 3 dos últimos 5",
      "strength": 0.52,
      "favors": "HOME",
-     "team": "Csíkszereda Miercurea Ciuc",
+     "team": "Charlton",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Ambos marcaram em 4 dos últimos 5",
+     "strength": 0.43,
+     "favors": "BTTS_YES",
+     "team": "Charlton",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "btts"
+    },
+    {
+     "label": "Só 1 derrota(s) em 12 jogos no campeonato",
+     "strength": 0.42,
+     "favors": "HOME",
+     "team": "Middlesbrough",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "2º melhor ataque da liga (2.2 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Middlesbrough",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Middlesbrough",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Charlton",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Middlesbrough é 1º · Charlton é 19º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Middlesbrough está 18 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Invicto em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Middlesbrough",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Charlton",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Só 1 derrota(s) em 12 jogos no campeonato",
+     "strength": 0.42,
+     "favors": "HOME",
+     "team": "Middlesbrough",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "2º melhor ataque da liga (2.2 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Middlesbrough",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Middlesbrough",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Charlton",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Middlesbrough está 18 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 80,
+   "league": {
+    "key": "championship",
+    "name": "Championship",
+    "country": "Inglaterra"
+   },
+   "home_team": {
+    "id": 115,
+    "name": "Middlesbrough",
+    "position": 1,
+    "played": 12,
+    "points": 25.0,
+    "record": "7V 4E 1D",
+    "goals_for": 27,
+    "goals_against": 17,
+    "last5": "WDWWD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "5-1",
+      "home": false,
+      "opponent": "Bolton",
+      "date": "2026-10-23"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "Cardiff",
+      "date": "2026-10-17"
+     },
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": false,
+      "opponent": "Stoke City",
+      "date": "2026-10-13"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Wolves",
+      "date": "2026-10-10"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "Birmingham",
+      "date": "2026-09-19"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 8,
+    "name": "Charlton",
+    "position": 19,
+    "played": 12,
+    "points": 14.0,
+    "record": "3V 5E 4D",
+    "goals_for": 11,
+    "goals_against": 18,
+    "last5": "LLDDL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": true,
+      "opponent": "Norwich",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Watford FC",
+      "date": "2026-10-17"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "Burnley",
+      "date": "2026-10-13"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Bristol City",
+      "date": "2026-10-10"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": false,
+      "opponent": "Cardiff",
+      "date": "2026-09-19"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-31T12:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4746068,
+   "s365_competition_id": 1,
+   "competition_name": "Championship",
+   "start_time": "2026-10-31T12:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 7,
+    "name": "Stoke City"
+   },
+   "away": {
+    "id": 23,
+    "name": "Preston"
+   },
+   "home_score": 2.0,
+   "away_score": 0.0,
+   "model": {
+    "lambda_home": 2.23,
+    "lambda_away": 0.78,
+    "expected_goals": 3.01,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.7042,
+     "DRAW": 0.1803,
+     "AWAY": 0.1156,
+     "1X": 0.8844,
+     "X2": 0.2958,
+     "12": 0.8197,
+     "OVER25": 0.5781,
+     "UNDER25": 0.4219,
+     "BTTS_YES": 0.482,
+     "BTTS_NO": 0.518
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Stoke City",
+    "model_prob": 0.7042,
+    "trend_alignment": 1.0,
+    "confidence": 78,
+    "eligible": true,
+    "odd": 1.67,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Stoke City ou empate (1X)",
+     "model_prob": 0.8844,
+     "trend_alignment": 1.0,
+     "confidence": 78,
+     "eligible": true,
+     "odd": 1.21
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5781,
+     "trend_alignment": 0.493,
+     "confidence": 27,
+     "eligible": false,
+     "odd": 1.9
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.482,
+     "trend_alignment": 0.493,
+     "confidence": 17,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.518,
+     "trend_alignment": 0.0,
+     "confidence": 2,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Preston",
      "side": "AWAY",
      "group": "geral",
      "kind": "losses"
@@ -816,40 +1143,40 @@
      "label": "Sofreu gol em todos os últimos 5",
      "strength": 0.4,
      "favors": "OVER",
-     "team": "Csíkszereda Miercurea Ciuc",
+     "team": "Preston",
      "side": "AWAY",
      "group": "geral",
      "kind": "always_concede"
     },
     {
-     "label": "3ª melhor defesa da liga (1.0 sofridos/jogo)",
-     "strength": 0.36,
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
      "favors": "HOME",
-     "team": "Rapid Bucuresti",
+     "team": "Stoke City",
      "side": "HOME",
-     "group": "temporada",
-     "kind": "def_rank"
+     "group": "geral",
+     "kind": "unbeaten"
     },
     {
-     "label": "Só 2 derrota(s) em 13 jogos no campeonato",
-     "strength": 0.34,
-     "favors": "HOME",
-     "team": "Rapid Bucuresti",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "few_losses"
-    },
-    {
-     "label": "Pior defesa da liga (2.0 sofridos/jogo)",
+     "label": "Pior defesa da liga (2.1 sofridos/jogo)",
      "strength": 0.34,
      "favors": "OVER",
-     "team": "Csíkszereda Miercurea Ciuc",
+     "team": "Preston",
      "side": "AWAY",
      "group": "temporada",
      "kind": "def_bottom"
     },
     {
-     "label": "Rapid Bucuresti é 3º · Csíkszereda Miercurea Ciuc é 16º",
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Preston",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Stoke City é 9º · Preston é 24º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -858,7 +1185,7 @@
      "kind": "positions"
     },
     {
-     "label": "Rapid Bucuresti está 13 posições à frente",
+     "label": "Stoke City está 15 posições à frente",
      "strength": 0.8,
      "favors": "HOME",
      "team": null,
@@ -868,44 +1195,35 @@
     }
    ],
    "aligned_trends": [
-    {
-     "label": "Venceu 4 dos últimos 5",
-     "strength": 0.65,
-     "favors": "HOME",
-     "team": "Rapid Bucuresti",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "wins"
-    },
     {
      "label": "Perdeu 3 dos últimos 5",
      "strength": 0.52,
      "favors": "HOME",
-     "team": "Csíkszereda Miercurea Ciuc",
+     "team": "Preston",
      "side": "AWAY",
      "group": "geral",
      "kind": "losses"
     },
     {
-     "label": "3ª melhor defesa da liga (1.0 sofridos/jogo)",
-     "strength": 0.36,
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
      "favors": "HOME",
-     "team": "Rapid Bucuresti",
+     "team": "Stoke City",
      "side": "HOME",
-     "group": "temporada",
-     "kind": "def_rank"
+     "group": "geral",
+     "kind": "unbeaten"
     },
     {
-     "label": "Só 2 derrota(s) em 13 jogos no campeonato",
-     "strength": 0.34,
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
      "favors": "HOME",
-     "team": "Rapid Bucuresti",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "few_losses"
+     "team": "Preston",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
     },
     {
-     "label": "Rapid Bucuresti está 13 posições à frente",
+     "label": "Stoke City está 15 posições à frente",
      "strength": 0.8,
      "favors": "HOME",
      "team": null,
@@ -914,445 +1232,109 @@
      "kind": "table_gap"
     }
    ],
-   "confidence": 79,
+   "confidence": 78,
    "league": {
-    "key": "romania",
-    "name": "Liga 1",
-    "country": "Romênia"
+    "key": "championship",
+    "name": "Championship",
+    "country": "Inglaterra"
    },
    "home_team": {
-    "id": 2042,
-    "name": "Rapid Bucuresti",
-    "position": 3,
-    "played": 13,
-    "points": 27.0,
-    "record": "8V 3E 2D",
-    "goals_for": 21,
-    "goals_against": 13,
-    "last5": "LWWWW",
+    "id": 7,
+    "name": "Stoke City",
+    "position": 9,
+    "played": 12,
+    "points": 20.0,
+    "record": "6V 2E 4D",
+    "goals_for": 18,
+    "goals_against": 16,
+    "last5": "DWLWW",
     "recent": [
      {
-      "result": "L",
-      "score": "1-4",
-      "home": false,
-      "opponent": "FCSB",
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Bristol City",
       "date": "2026-10-24"
      },
      {
       "result": "W",
-      "score": "2-0",
-      "home": true,
-      "opponent": "Hunedoara",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Derby",
       "date": "2026-10-17"
      },
      {
-      "result": "W",
-      "score": "4-3",
-      "home": false,
-      "opponent": "Universitatea Cluj",
-      "date": "2026-10-12"
-     },
-     {
-      "result": "W",
-      "score": "3-1",
-      "home": true,
-      "opponent": "FC Arges Pitesti",
-      "date": "2026-09-18"
-     },
-     {
-      "result": "W",
-      "score": "2-1",
-      "home": true,
-      "opponent": "FC Voluntari",
-      "date": "2026-09-12"
-     }
-    ]
-   },
-   "away_team": {
-    "id": 26249,
-    "name": "Csíkszereda Miercurea Ciuc",
-    "position": 16,
-    "played": 13,
-    "points": 5.0,
-    "record": "1V 2E 10D",
-    "goals_for": 10,
-    "goals_against": 26,
-    "last5": "WDLLL",
-    "recent": [
-     {
-      "result": "W",
-      "score": "2-1",
-      "home": true,
-      "opponent": "FC Voluntari",
-      "date": "2026-10-24"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": false,
-      "opponent": "Otelul Galati",
-      "date": "2026-10-16"
-     },
-     {
       "result": "L",
-      "score": "0-1",
+      "score": "2-3",
       "home": true,
-      "opponent": "CS Universitatea Craiova",
-      "date": "2026-10-11"
-     },
-     {
-      "result": "L",
-      "score": "0-2",
-      "home": false,
-      "opponent": "Petrolul Ploiesti",
-      "date": "2026-09-21"
-     },
-     {
-      "result": "L",
-      "score": "1-3",
-      "home": true,
-      "opponent": "Dinamo Bucuresti",
-      "date": "2026-09-11"
-     }
-    ]
-   },
-   "kickoff_local": "2026-10-30T15:30:00-03:00",
-   "has_odds": true,
-   "odds_bookmaker": "365Scores",
-   "is_cup": false,
-   "result": "hit",
-   "clear": true
-  },
-  {
-   "id": 4740705,
-   "s365_competition_id": 98,
-   "competition_name": "Jupiler Pro League",
-   "start_time": "2026-10-30T19:45:00+00:00",
-   "status_group": 2,
-   "round": "Round",
-   "home": {
-    "id": 1175,
-    "name": "Zulte Waregem"
-   },
-   "away": {
-    "id": 1169,
-    "name": "Club Brugge"
-   },
-   "home_score": 2.0,
-   "away_score": 4.0,
-   "model": {
-    "lambda_home": 0.88,
-    "lambda_away": 1.96,
-    "expected_goals": 2.84,
-    "sample_factor": 1.0,
-    "probs": {
-     "HOME": 0.1629,
-     "DRAW": 0.2124,
-     "AWAY": 0.6247,
-     "1X": 0.3753,
-     "X2": 0.8371,
-     "12": 0.7876,
-     "OVER25": 0.54,
-     "UNDER25": 0.46,
-     "BTTS_YES": 0.5038,
-     "BTTS_NO": 0.4962
-    }
-   },
-   "pick": {
-    "selection": "AWAY",
-    "family": "1x2",
-    "label": "Vitória do Club Brugge",
-    "model_prob": 0.6247,
-    "trend_alignment": 1.0,
-    "confidence": 72,
-    "eligible": true,
-    "odd": 1.34,
-    "low_conviction": false
-   },
-   "alt_markets": [
-    {
-     "selection": "X2",
-     "family": "double_chance",
-     "label": "Dupla chance: Club Brugge ou empate (X2)",
-     "model_prob": 0.8371,
-     "trend_alignment": 1.0,
-     "confidence": 72,
-     "eligible": true,
-     "odd": 1.09
-    },
-    {
-     "selection": "OVER25",
-     "family": "over_under",
-     "label": "Mais de 2.5 gols",
-     "model_prob": 0.54,
-     "trend_alignment": 0.059,
-     "confidence": 7,
-     "eligible": false,
-     "odd": 1.9
-    },
-    {
-     "selection": "BTTS_YES",
-     "family": "btts",
-     "label": "Ambos os times marcam",
-     "model_prob": 0.5038,
-     "trend_alignment": 0.059,
-     "confidence": 3,
-     "eligible": false,
-     "odd": null
-    },
-    {
-     "selection": "HOME",
-     "family": "1x2",
-     "label": "Vitória do Zulte Waregem",
-     "model_prob": 0.1629,
-     "trend_alignment": 0.0,
-     "confidence": 0,
-     "eligible": false,
-     "odd": 8.0
-    }
-   ],
-   "trends": [
-    {
-     "label": "7 vitórias seguidas",
-     "strength": 1.0,
-     "favors": "AWAY",
-     "team": "Club Brugge",
-     "side": "AWAY",
-     "group": "sequencia",
-     "kind": "win_streak"
-    },
-    {
-     "label": "Venceu 7 dos últimos 7",
-     "strength": 0.75,
-     "favors": "AWAY",
-     "team": "Club Brugge",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "Mais de 2.5 gols em 6 dos últimos 7",
-     "strength": 0.493,
-     "favors": "OVER",
-     "team": "Club Brugge",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "over"
-    },
-    {
-     "label": "Perdeu 4 dos últimos 5",
-     "strength": 0.61,
-     "favors": "AWAY",
-     "team": "Zulte Waregem",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Ambos marcaram só 0x nos últimos 5",
-     "strength": 0.45,
-     "favors": "BTTS_NO",
-     "team": "Zulte Waregem",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "no_btts"
-    },
-    {
-     "label": "2ª melhor defesa da liga (0.7 sofridos/jogo)",
-     "strength": 0.36,
-     "favors": "AWAY",
-     "team": "Club Brugge",
-     "side": "AWAY",
-     "group": "temporada",
-     "kind": "def_rank"
-    },
-    {
-     "label": "3º melhor ataque da liga (2.4 marcados/jogo)",
-     "strength": 0.32,
-     "favors": "AWAY",
-     "team": "Club Brugge",
-     "side": "AWAY",
-     "group": "temporada",
-     "kind": "atk_rank"
-    },
-    {
-     "label": "Zulte Waregem é 10º · Club Brugge é 2º",
-     "strength": 0.0,
-     "favors": null,
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "positions"
-    },
-    {
-     "label": "Club Brugge está 8 posições à frente",
-     "strength": 0.571,
-     "favors": "AWAY",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "aligned_trends": [
-    {
-     "label": "7 vitórias seguidas",
-     "strength": 1.0,
-     "favors": "AWAY",
-     "team": "Club Brugge",
-     "side": "AWAY",
-     "group": "sequencia",
-     "kind": "win_streak"
-    },
-    {
-     "label": "Venceu 7 dos últimos 7",
-     "strength": 0.75,
-     "favors": "AWAY",
-     "team": "Club Brugge",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "Perdeu 4 dos últimos 5",
-     "strength": 0.61,
-     "favors": "AWAY",
-     "team": "Zulte Waregem",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "2ª melhor defesa da liga (0.7 sofridos/jogo)",
-     "strength": 0.36,
-     "favors": "AWAY",
-     "team": "Club Brugge",
-     "side": "AWAY",
-     "group": "temporada",
-     "kind": "def_rank"
-    },
-    {
-     "label": "3º melhor ataque da liga (2.4 marcados/jogo)",
-     "strength": 0.32,
-     "favors": "AWAY",
-     "team": "Club Brugge",
-     "side": "AWAY",
-     "group": "temporada",
-     "kind": "atk_rank"
-    },
-    {
-     "label": "Club Brugge está 8 posições à frente",
-     "strength": 0.571,
-     "favors": "AWAY",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "confidence": 72,
-   "league": {
-    "key": "belgium",
-    "name": "Jupiler Pro League",
-    "country": "Bélgica"
-   },
-   "home_team": {
-    "id": 1175,
-    "name": "Zulte Waregem",
-    "position": 10,
-    "played": 9,
-    "points": 11.0,
-    "record": "3V 2E 4D",
-    "goals_for": 10,
-    "goals_against": 12,
-    "last5": "LLLLW",
-    "recent": [
-     {
-      "result": "L",
-      "score": "0-3",
-      "home": false,
-      "opponent": "La Louvière Centre",
-      "date": "2026-10-24"
-     },
-     {
-      "result": "L",
-      "score": "0-2",
-      "home": true,
-      "opponent": "KAA Gent",
-      "date": "2026-10-10"
-     },
-     {
-      "result": "L",
-      "score": "0-3",
-      "home": false,
-      "opponent": "Anderlecht",
-      "date": "2026-09-19"
-     },
-     {
-      "result": "L",
-      "score": "0-1",
-      "home": true,
-      "opponent": "Charleroi",
-      "date": "2026-09-13"
-     },
-     {
-      "result": "W",
-      "score": "2-0",
-      "home": false,
-      "opponent": "KV Kortrijk",
-      "date": "2026-09-06"
-     }
-    ]
-   },
-   "away_team": {
-    "id": 1169,
-    "name": "Club Brugge",
-    "position": 2,
-    "played": 9,
-    "points": 24.0,
-    "record": "8V 0E 1D",
-    "goals_for": 22,
-    "goals_against": 6,
-    "last5": "WWWWW",
-    "recent": [
-     {
-      "result": "W",
-      "score": "3-2",
-      "home": true,
-      "opponent": "STVV",
-      "date": "2026-10-25"
-     },
-     {
-      "result": "W",
-      "score": "3-0",
-      "home": true,
-      "opponent": "Lens",
-      "date": "2026-10-21"
-     },
-     {
-      "result": "W",
-      "score": "4-3",
-      "home": false,
-      "opponent": "Inter Milan",
+      "opponent": "Middlesbrough",
       "date": "2026-10-13"
      },
      {
       "result": "W",
-      "score": "4-1",
+      "score": "2-1",
       "home": false,
-      "opponent": "La Louvière Centre",
+      "opponent": "Bolton",
       "date": "2026-10-10"
      },
      {
       "result": "W",
-      "score": "3-0",
+      "score": "2-1",
       "home": true,
-      "opponent": "KRC Genk",
-      "date": "2026-09-20"
+      "opponent": "Sheffield Utd",
+      "date": "2026-09-19"
      }
     ]
    },
-   "kickoff_local": "2026-10-30T16:45:00-03:00",
+   "away_team": {
+    "id": 23,
+    "name": "Preston",
+    "position": 24,
+    "played": 12,
+    "points": 5.0,
+    "record": "1V 2E 9D",
+    "goals_for": 10,
+    "goals_against": 25,
+    "last5": "DLLLD",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "West Brom",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "L",
+      "score": "1-4",
+      "home": false,
+      "opponent": "Wrexham",
+      "date": "2026-10-17"
+     },
+     {
+      "result": "L",
+      "score": "0-4",
+      "home": false,
+      "opponent": "Birmingham",
+      "date": "2026-10-13"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Millwall",
+      "date": "2026-10-10"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "QPR",
+      "date": "2026-09-19"
+     }
+    ]
+   },
+   "kickoff_local": "2026-10-31T09:30:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
@@ -1360,59 +1342,59 @@
    "clear": true
   },
   {
-   "id": 4735226,
-   "s365_competition_id": 35,
-   "competition_name": "Ligue 1",
-   "start_time": "2026-10-30T18:00:00+00:00",
+   "id": 4750809,
+   "s365_competition_id": 11,
+   "competition_name": "LaLiga",
+   "start_time": "2026-10-31T17:30:00+00:00",
    "status_group": 2,
    "round": "Round",
    "home": {
-    "id": 485,
-    "name": "Le Havre"
+    "id": 146,
+    "name": "Real Betis"
    },
    "away": {
-    "id": 480,
-    "name": "PSG"
+    "id": 152,
+    "name": "Malaga"
    },
-   "home_score": 1.0,
-   "away_score": 5.0,
+   "home_score": -1.0,
+   "away_score": -1.0,
    "model": {
-    "lambda_home": 0.96,
-    "lambda_away": 2.02,
-    "expected_goals": 2.98,
+    "lambda_home": 2.29,
+    "lambda_away": 0.94,
+    "expected_goals": 3.23,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.172,
-     "DRAW": 0.2086,
-     "AWAY": 0.6195,
-     "1X": 0.3805,
-     "X2": 0.828,
-     "12": 0.7914,
-     "OVER25": 0.5731,
-     "UNDER25": 0.4269,
-     "BTTS_YES": 0.536,
-     "BTTS_NO": 0.464
+     "HOME": 0.677,
+     "DRAW": 0.1833,
+     "AWAY": 0.1397,
+     "1X": 0.8603,
+     "X2": 0.323,
+     "12": 0.8167,
+     "OVER25": 0.6253,
+     "UNDER25": 0.3747,
+     "BTTS_YES": 0.5468,
+     "BTTS_NO": 0.4532
     }
    },
    "pick": {
-    "selection": "AWAY",
+    "selection": "HOME",
     "family": "1x2",
-    "label": "Vitória do PSG",
-    "model_prob": 0.6195,
+    "label": "Vitória do Real Betis",
+    "model_prob": 0.677,
     "trend_alignment": 1.0,
-    "confidence": 71,
+    "confidence": 75,
     "eligible": true,
-    "odd": 1.3,
+    "odd": 1.31,
     "low_conviction": false
    },
    "alt_markets": [
     {
-     "selection": "X2",
+     "selection": "1X",
      "family": "double_chance",
-     "label": "Dupla chance: PSG ou empate (X2)",
-     "model_prob": 0.828,
+     "label": "Dupla chance: Real Betis ou empate (1X)",
+     "model_prob": 0.8603,
      "trend_alignment": 1.0,
-     "confidence": 71,
+     "confidence": 75,
      "eligible": true,
      "odd": 1.07
     },
@@ -1420,27 +1402,27 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.5731,
-     "trend_alignment": 0.591,
-     "confidence": 30,
-     "eligible": false,
-     "odd": 2.1
+     "model_prob": 0.6253,
+     "trend_alignment": 0.487,
+     "confidence": 33,
+     "eligible": true,
+     "odd": 2.19
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.536,
-     "trend_alignment": 0.591,
-     "confidence": 25,
+     "model_prob": 0.5468,
+     "trend_alignment": 0.487,
+     "confidence": 23,
      "eligible": false,
      "odd": null
     },
     {
-     "selection": "HOME",
+     "selection": "AWAY",
      "family": "1x2",
-     "label": "Vitória do Le Havre",
-     "model_prob": 0.172,
+     "label": "Vitória do Malaga",
+     "model_prob": 0.1397,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
@@ -1449,79 +1431,70 @@
    ],
    "trends": [
     {
-     "label": "7 vitórias seguidas",
-     "strength": 1.0,
-     "favors": "AWAY",
-     "team": "PSG",
-     "side": "AWAY",
-     "group": "sequencia",
-     "kind": "win_streak"
-    },
-    {
-     "label": "Venceu 7 dos últimos 7",
-     "strength": 0.75,
-     "favors": "AWAY",
-     "team": "PSG",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "Mais de 2.5 gols em 5 dos últimos 7",
-     "strength": 0.436,
-     "favors": "OVER",
-     "team": "PSG",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "over"
-    },
-    {
-     "label": "Venceu 4 dos últimos 4 fora de casa",
-     "strength": 0.75,
-     "favors": "AWAY",
-     "team": "PSG",
-     "side": "AWAY",
-     "group": "casa_fora",
-     "kind": "wins"
-    },
-    {
-     "label": "Mais de 2.5 gols em 3 dos últimos 4 fora de casa",
-     "strength": 0.45,
-     "favors": "OVER",
-     "team": "PSG",
-     "side": "AWAY",
-     "group": "casa_fora",
-     "kind": "over"
-    },
-    {
-     "label": "Perdeu 4 dos últimos 5",
-     "strength": 0.61,
-     "favors": "AWAY",
-     "team": "Le Havre",
+     "label": "Venceu 4 dos últimos 5 em casa",
+     "strength": 0.65,
+     "favors": "HOME",
+     "team": "Real Betis",
      "side": "HOME",
+     "group": "casa_fora",
+     "kind": "wins"
+    },
+    {
+     "label": "Marcou em todos os últimos 5 em casa",
+     "strength": 0.3,
+     "favors": "OVER",
+     "team": "Real Betis",
+     "side": "HOME",
+     "group": "casa_fora",
+     "kind": "always_score"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Malaga",
+     "side": "AWAY",
      "group": "geral",
      "kind": "losses"
     },
     {
+     "label": "Ambos marcaram em 4 dos últimos 5",
+     "strength": 0.43,
+     "favors": "BTTS_YES",
+     "team": "Malaga",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "btts"
+    },
+    {
+     "label": "Invicto em 6 dos últimos 7",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Real Betis",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Só 2 derrota(s) em 10 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "HOME",
+     "team": "Real Betis",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
      "label": "Não vence há 5+ jogos",
      "strength": 0.333,
-     "favors": "AWAY",
-     "team": "Le Havre",
-     "side": "HOME",
+     "favors": "HOME",
+     "team": "Malaga",
+     "side": "AWAY",
      "group": "sequencia",
      "kind": "winless_streak"
     },
     {
-     "label": "3º melhor ataque da liga (2.0 marcados/jogo)",
-     "strength": 0.32,
-     "favors": "AWAY",
-     "team": "PSG",
-     "side": "AWAY",
-     "group": "temporada",
-     "kind": "atk_rank"
-    },
-    {
-     "label": "Le Havre é 18º · PSG é 1º",
+     "label": "Real Betis é 4º · Malaga é 20º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -1530,9 +1503,9 @@
      "kind": "positions"
     },
     {
-     "label": "PSG está 17 posições à frente",
+     "label": "Real Betis está 16 posições à frente",
      "strength": 0.8,
-     "favors": "AWAY",
+     "favors": "HOME",
      "team": null,
      "side": null,
      "group": "confronto",
@@ -1541,176 +1514,167 @@
    ],
    "aligned_trends": [
     {
-     "label": "7 vitórias seguidas",
-     "strength": 1.0,
-     "favors": "AWAY",
-     "team": "PSG",
-     "side": "AWAY",
-     "group": "sequencia",
-     "kind": "win_streak"
-    },
-    {
-     "label": "Venceu 7 dos últimos 7",
-     "strength": 0.75,
-     "favors": "AWAY",
-     "team": "PSG",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "Venceu 4 dos últimos 4 fora de casa",
-     "strength": 0.75,
-     "favors": "AWAY",
-     "team": "PSG",
-     "side": "AWAY",
+     "label": "Venceu 4 dos últimos 5 em casa",
+     "strength": 0.65,
+     "favors": "HOME",
+     "team": "Real Betis",
+     "side": "HOME",
      "group": "casa_fora",
      "kind": "wins"
     },
     {
-     "label": "Perdeu 4 dos últimos 5",
-     "strength": 0.61,
-     "favors": "AWAY",
-     "team": "Le Havre",
-     "side": "HOME",
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Malaga",
+     "side": "AWAY",
      "group": "geral",
      "kind": "losses"
     },
     {
+     "label": "Invicto em 6 dos últimos 7",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Real Betis",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Só 2 derrota(s) em 10 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "HOME",
+     "team": "Real Betis",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
      "label": "Não vence há 5+ jogos",
      "strength": 0.333,
-     "favors": "AWAY",
-     "team": "Le Havre",
-     "side": "HOME",
+     "favors": "HOME",
+     "team": "Malaga",
+     "side": "AWAY",
      "group": "sequencia",
      "kind": "winless_streak"
     },
     {
-     "label": "3º melhor ataque da liga (2.0 marcados/jogo)",
-     "strength": 0.32,
-     "favors": "AWAY",
-     "team": "PSG",
-     "side": "AWAY",
-     "group": "temporada",
-     "kind": "atk_rank"
-    },
-    {
-     "label": "PSG está 17 posições à frente",
+     "label": "Real Betis está 16 posições à frente",
      "strength": 0.8,
-     "favors": "AWAY",
+     "favors": "HOME",
      "team": null,
      "side": null,
      "group": "confronto",
      "kind": "table_gap"
     }
    ],
-   "confidence": 71,
+   "confidence": 75,
    "league": {
-    "key": "ligue1",
-    "name": "Ligue 1",
-    "country": "França"
+    "key": "laliga",
+    "name": "LaLiga",
+    "country": "Espanha"
    },
    "home_team": {
-    "id": 485,
-    "name": "Le Havre",
-    "position": 18,
-    "played": 8,
-    "points": 2.0,
-    "record": "0V 2E 6D",
-    "goals_for": 8,
-    "goals_against": 15,
-    "last5": "LLLLD",
+    "id": 146,
+    "name": "Real Betis",
+    "position": 4,
+    "played": 10,
+    "points": 20.0,
+    "record": "6V 2E 2D",
+    "goals_for": 16,
+    "goals_against": 14,
+    "last5": "DWLWW",
     "recent": [
      {
-      "result": "L",
-      "score": "3-4",
+      "result": "D",
+      "score": "0-0",
       "home": false,
-      "opponent": "Olympique de Marseille",
+      "opponent": "Celta Vigo",
       "date": "2026-10-25"
      },
      {
-      "result": "L",
-      "score": "1-3",
+      "result": "W",
+      "score": "1-0",
       "home": true,
-      "opponent": "Auxerre",
+      "opponent": "Feyenoord",
+      "date": "2026-10-21"
+     },
+     {
+      "result": "L",
+      "score": "2-5",
+      "home": true,
+      "opponent": "FC Barcelona",
+      "date": "2026-10-17"
+     },
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": true,
+      "opponent": "FC Porto",
+      "date": "2026-10-14"
+     },
+     {
+      "result": "W",
+      "score": "5-2",
+      "home": true,
+      "opponent": "Osasuna",
+      "date": "2026-10-11"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 152,
+    "name": "Malaga",
+    "position": 20,
+    "played": 10,
+    "points": 5.0,
+    "record": "0V 5E 5D",
+    "goals_for": 7,
+    "goals_against": 19,
+    "last5": "DLDLL",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Alaves",
+      "date": "2026-10-23"
+     },
+     {
+      "result": "L",
+      "score": "2-5",
+      "home": true,
+      "opponent": "Real Sociedad",
       "date": "2026-10-18"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Espanyol",
+      "date": "2026-10-09"
      },
      {
       "result": "L",
       "score": "0-1",
       "home": false,
-      "opponent": "Lille",
-      "date": "2026-10-10"
+      "opponent": "Getafe",
+      "date": "2026-09-20"
      },
      {
       "result": "L",
-      "score": "2-3",
-      "home": false,
-      "opponent": "Toulouse",
-      "date": "2026-09-19"
-     },
-     {
-      "result": "D",
-      "score": "0-0",
+      "score": "1-3",
       "home": true,
-      "opponent": "Angers",
-      "date": "2026-09-12"
+      "opponent": "Villarreal",
+      "date": "2026-09-17"
      }
     ]
    },
-   "away_team": {
-    "id": 480,
-    "name": "PSG",
-    "position": 1,
-    "played": 8,
-    "points": 17.0,
-    "record": "5V 2E 1D",
-    "goals_for": 16,
-    "goals_against": 9,
-    "last5": "WWWWW",
-    "recent": [
-     {
-      "result": "W",
-      "score": "2-0",
-      "home": true,
-      "opponent": "Lyon",
-      "date": "2026-10-26"
-     },
-     {
-      "result": "W",
-      "score": "4-2",
-      "home": true,
-      "opponent": "FC Barcelona",
-      "date": "2026-10-20"
-     },
-     {
-      "result": "W",
-      "score": "3-1",
-      "home": false,
-      "opponent": "Strasbourg",
-      "date": "2026-10-17"
-     },
-     {
-      "result": "W",
-      "score": "4-2",
-      "home": false,
-      "opponent": "Manchester City",
-      "date": "2026-10-14"
-     },
-     {
-      "result": "W",
-      "score": "3-1",
-      "home": true,
-      "opponent": "Le Mans",
-      "date": "2026-10-10"
-     }
-    ]
-   },
-   "kickoff_local": "2026-10-30T15:00:00-03:00",
+   "kickoff_local": "2026-10-31T14:30:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "hit",
+   "result": "pending",
    "clear": true
   }
  ]
