@@ -1,0 +1,974 @@
+{
+ "date": "2026-11-03",
+ "generated_at": "2026-11-01T14:04:06.792209-03:00",
+ "version": "0.1.0",
+ "count": 3,
+ "clear_count": 2,
+ "day_total": 28,
+ "games": [
+  {
+   "id": 4746060,
+   "s365_competition_id": 1,
+   "competition_name": "Championship",
+   "start_time": "2026-11-03T19:45:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 23,
+    "name": "Preston"
+   },
+   "away": {
+    "id": 20,
+    "name": "Sheffield Utd"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 0.89,
+    "lambda_away": 1.73,
+    "expected_goals": 2.62,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.1923,
+     "DRAW": 0.2364,
+     "AWAY": 0.5713,
+     "1X": 0.4287,
+     "X2": 0.8077,
+     "12": 0.7636,
+     "OVER25": 0.4869,
+     "UNDER25": 0.5131,
+     "BTTS_YES": 0.4856,
+     "BTTS_NO": 0.5144
+    }
+   },
+   "pick": {
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: Sheffield Utd ou empate (X2)",
+    "model_prob": 0.8077,
+    "trend_alignment": 1.0,
+    "confidence": 68,
+    "eligible": true,
+    "odd": 1.32,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Sheffield Utd",
+     "model_prob": 0.5713,
+     "trend_alignment": 1.0,
+     "confidence": 58,
+     "eligible": true,
+     "odd": 2.03
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.4869,
+     "trend_alignment": 0.259,
+     "confidence": 9,
+     "eligible": false,
+     "odd": 1.78
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.4856,
+     "trend_alignment": 0.259,
+     "confidence": 9,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.5131,
+     "trend_alignment": 0.0,
+     "confidence": 2,
+     "eligible": false,
+     "odd": 1.98
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "AWAY",
+     "team": "Preston",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Sofreu gol em todos os últimos 5",
+     "strength": 0.4,
+     "favors": "OVER",
+     "team": "Preston",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "always_concede"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "AWAY",
+     "team": "Sheffield Utd",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Não sofreu gol em 3 dos últimos 5",
+     "strength": 0.39,
+     "favors": "UNDER",
+     "team": "Sheffield Utd",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "clean_sheets"
+    },
+    {
+     "label": "Pior defesa da liga (2.1 sofridos/jogo)",
+     "strength": 0.34,
+     "favors": "OVER",
+     "team": "Preston",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_bottom"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Preston",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Preston é 24º · Sheffield Utd é 10º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Sheffield Utd está 14 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "AWAY",
+     "team": "Preston",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "AWAY",
+     "team": "Sheffield Utd",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Preston",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Sheffield Utd está 14 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 68,
+   "league": {
+    "key": "championship",
+    "name": "Championship",
+    "country": "Inglaterra"
+   },
+   "home_team": {
+    "id": 23,
+    "name": "Preston",
+    "position": 24,
+    "played": 13,
+    "points": 5.0,
+    "record": "1V 2E 10D",
+    "goals_for": 10,
+    "goals_against": 27,
+    "last5": "LDLLL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Stoke City",
+      "date": "2026-10-31"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "West Brom",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "L",
+      "score": "1-4",
+      "home": false,
+      "opponent": "Wrexham",
+      "date": "2026-10-17"
+     },
+     {
+      "result": "L",
+      "score": "0-4",
+      "home": false,
+      "opponent": "Birmingham",
+      "date": "2026-10-13"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Millwall",
+      "date": "2026-10-10"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 20,
+    "name": "Sheffield Utd",
+    "position": 10,
+    "played": 13,
+    "points": 19.0,
+    "record": "5V 4E 4D",
+    "goals_for": 17,
+    "goals_against": 15,
+    "last5": "WDWLW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Wrexham",
+      "date": "2026-10-30"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Derby",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Bristol City",
+      "date": "2026-10-17"
+     },
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": false,
+      "opponent": "Portsmouth",
+      "date": "2026-10-14"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "Lincoln",
+      "date": "2026-10-10"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-03T16:45:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4828441,
+   "s365_competition_id": 572,
+   "competition_name": "UEFA Champions League",
+   "start_time": "2026-11-03T20:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 105,
+    "name": "Manchester United"
+   },
+   "away": {
+    "id": 225,
+    "name": "AS Roma"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.89,
+    "lambda_away": 2.06,
+    "expected_goals": 3.95,
+    "sample_factor": 0.6,
+    "probs": {
+     "HOME": 0.3633,
+     "DRAW": 0.2078,
+     "AWAY": 0.4289,
+     "1X": 0.5711,
+     "X2": 0.6367,
+     "12": 0.7922,
+     "OVER25": 0.7547,
+     "UNDER25": 0.2453,
+     "BTTS_YES": 0.741,
+     "BTTS_NO": 0.259
+    }
+   },
+   "pick": {
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: AS Roma ou empate (X2)",
+    "model_prob": 0.6367,
+    "trend_alignment": 1.0,
+    "confidence": 27,
+    "eligible": true,
+    "odd": 1.61,
+    "low_conviction": true
+   },
+   "alt_markets": [
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do AS Roma",
+     "model_prob": 0.4289,
+     "trend_alignment": 1.0,
+     "confidence": 26,
+     "eligible": false,
+     "odd": 2.61
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.7547,
+     "trend_alignment": 0.291,
+     "confidence": 26,
+     "eligible": true,
+     "odd": 2.28
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.741,
+     "trend_alignment": 0.291,
+     "confidence": 25,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Manchester United ou empate (1X)",
+     "model_prob": 0.5711,
+     "trend_alignment": 0.0,
+     "confidence": 2,
+     "eligible": false,
+     "odd": 1.5
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 4 dos últimos 6",
+     "strength": 0.55,
+     "favors": "AWAY",
+     "team": "Manchester United",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Não marcou em 3 dos últimos 6",
+     "strength": 0.35,
+     "favors": "AWAY",
+     "team": "Manchester United",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "no_score"
+    },
+    {
+     "label": "Invicto em 6 dos últimos 7",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "AS Roma",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Mais de 2.5 gols em 5 dos últimos 7",
+     "strength": 0.436,
+     "favors": "OVER",
+     "team": "AS Roma",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Não vence há 5 jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Manchester United",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Invicto há 5 jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "AS Roma",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Manchester United é 21º · AS Roma é 15º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "AS Roma está 6 posições à frente",
+     "strength": 0.429,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 4 dos últimos 6",
+     "strength": 0.55,
+     "favors": "AWAY",
+     "team": "Manchester United",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Não marcou em 3 dos últimos 6",
+     "strength": 0.35,
+     "favors": "AWAY",
+     "team": "Manchester United",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "no_score"
+    },
+    {
+     "label": "Invicto em 6 dos últimos 7",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "AS Roma",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Não vence há 5 jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Manchester United",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Invicto há 5 jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "AS Roma",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "AS Roma está 6 posições à frente",
+     "strength": 0.429,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 27,
+   "league": {
+    "key": "ucl",
+    "name": "UEFA Champions League",
+    "country": "Europa"
+   },
+   "home_team": {
+    "id": 105,
+    "name": "Manchester United",
+    "position": 21,
+    "played": 3,
+    "points": 3.0,
+    "record": "1V 0E 2D",
+    "goals_for": 5,
+    "goals_against": 6,
+    "last5": "LLLDL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Chelsea",
+      "date": "2026-10-31"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": true,
+      "opponent": "Bournemouth",
+      "date": "2026-10-25"
+     },
+     {
+      "result": "L",
+      "score": "1-4",
+      "home": false,
+      "opponent": "Como",
+      "date": "2026-10-21"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Leeds United",
+      "date": "2026-10-18"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Atletico Madrid",
+      "date": "2026-10-13"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 225,
+    "name": "AS Roma",
+    "position": 15,
+    "played": 3,
+    "points": 4.0,
+    "record": "1V 1E 1D",
+    "goals_for": 8,
+    "goals_against": 5,
+    "last5": "WWDWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "5-2",
+      "home": false,
+      "opponent": "Udinese",
+      "date": "2026-10-31"
+     },
+     {
+      "result": "W",
+      "score": "4-2",
+      "home": true,
+      "opponent": "Cagliari",
+      "date": "2026-10-27"
+     },
+     {
+      "result": "D",
+      "score": "3-3",
+      "home": false,
+      "opponent": "Napoli",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "W",
+      "score": "4-0",
+      "home": true,
+      "opponent": "Slovan Bratislava",
+      "date": "2026-10-20"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Genoa",
+      "date": "2026-10-17"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-03T17:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4764230,
+   "s365_competition_id": 621,
+   "competition_name": "Copa de Primera - Clausura",
+   "start_time": "2026-11-03T22:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 1280,
+    "name": "Club Nacional"
+   },
+   "away": {
+    "id": 14634,
+    "name": "CS San Lorenzo"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.06,
+    "lambda_away": 0.64,
+    "expected_goals": 2.7,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.7046,
+     "DRAW": 0.1903,
+     "AWAY": 0.1051,
+     "1X": 0.8949,
+     "X2": 0.2954,
+     "12": 0.8097,
+     "OVER25": 0.5067,
+     "UNDER25": 0.4933,
+     "BTTS_YES": 0.4144,
+     "BTTS_NO": 0.5856
+    }
+   },
+   "pick": {
+    "selection": "1X",
+    "family": "double_chance",
+    "label": "Dupla chance: Club Nacional ou empate (1X)",
+    "model_prob": 0.8949,
+    "trend_alignment": 1.0,
+    "confidence": 80,
+    "eligible": true,
+    "odd": null,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Club Nacional",
+     "model_prob": 0.7046,
+     "trend_alignment": 1.0,
+     "confidence": 71,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5067,
+     "trend_alignment": 0.278,
+     "confidence": 11,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5856,
+     "trend_alignment": 0.0,
+     "confidence": 11,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.4144,
+     "trend_alignment": 0.278,
+     "confidence": 10,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Melhor defesa da liga (0.5 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Club Nacional",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "3º melhor ataque da liga (1.5 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Club Nacional",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Ambos marcaram em 5 dos últimos 5",
+     "strength": 0.5,
+     "favors": "BTTS_YES",
+     "team": "CS San Lorenzo",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "btts"
+    },
+    {
+     "label": "Só venceu 1 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "CS San Lorenzo",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Club Nacional",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Menos de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "UNDER",
+     "team": "Club Nacional",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "under"
+    },
+    {
+     "label": "Pior defesa da liga (1.8 sofridos/jogo)",
+     "strength": 0.34,
+     "favors": "OVER",
+     "team": "CS San Lorenzo",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_bottom"
+    },
+    {
+     "label": "Club Nacional é 2º · CS San Lorenzo é 12º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Club Nacional está 10 posições à frente",
+     "strength": 0.714,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Melhor defesa da liga (0.5 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Club Nacional",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "3º melhor ataque da liga (1.5 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Club Nacional",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Só venceu 1 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "CS San Lorenzo",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Club Nacional",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Club Nacional está 10 posições à frente",
+     "strength": 0.714,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 80,
+   "league": {
+    "key": "py_primera",
+    "name": "Copa de Primera",
+    "country": "Paraguai"
+   },
+   "home_team": {
+    "id": 1280,
+    "name": "Club Nacional",
+    "position": 2,
+    "played": 17,
+    "points": 32.0,
+    "record": "9V 5E 3D",
+    "goals_for": 26,
+    "goals_against": 9,
+    "last5": "WLWWD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": false,
+      "opponent": "Sportivo Luqueño",
+      "date": "2026-10-31"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Sportivo Trinidense",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "Club Guarani",
+      "date": "2026-10-17"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Recoleta FC",
+      "date": "2026-10-12"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Olimpia",
+      "date": "2026-10-06"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 14634,
+    "name": "CS San Lorenzo",
+    "position": 12,
+    "played": 17,
+    "points": 7.0,
+    "record": "1V 4E 12D",
+    "goals_for": 10,
+    "goals_against": 30,
+    "last5": "WLLDD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Libertad",
+      "date": "2026-10-31"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": true,
+      "opponent": "Cerro Porteño",
+      "date": "2026-10-25"
+     },
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": false,
+      "opponent": "Sportivo Luqueño",
+      "date": "2026-10-18"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Sportivo Trinidense",
+      "date": "2026-10-10"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Club Guarani",
+      "date": "2026-10-03"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-03T19:30:00-03:00",
+   "has_odds": false,
+   "odds_bookmaker": null,
+   "is_cup": false,
+   "result": "pending",
+   "clear": false,
+   "below_bar": true
+  }
+ ]
+}
