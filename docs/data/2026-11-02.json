@@ -1,6 +1,6 @@
 {
  "date": "2026-11-02",
- "generated_at": "2026-11-01T20:23:36.128672-03:00",
+ "generated_at": "2026-11-02T17:42:58.984054-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -684,8 +684,8 @@
     "id": 1956,
     "name": "Dynamo Kyiv"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 0.0,
+   "away_score": 2.0,
    "model": {
     "lambda_home": 0.86,
     "lambda_away": 1.65,
@@ -984,7 +984,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -1005,32 +1005,32 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 1.59,
+    "lambda_home": 1.58,
     "lambda_away": 0.85,
     "expected_goals": 2.43,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.548,
-     "DRAW": 0.2517,
-     "AWAY": 0.2003,
-     "1X": 0.7997,
-     "X2": 0.452,
-     "12": 0.7483,
-     "OVER25": 0.439,
-     "UNDER25": 0.561,
-     "BTTS_YES": 0.4545,
-     "BTTS_NO": 0.5455
+     "HOME": 0.5474,
+     "DRAW": 0.2523,
+     "AWAY": 0.2004,
+     "1X": 0.7996,
+     "X2": 0.4526,
+     "12": 0.7477,
+     "OVER25": 0.4372,
+     "UNDER25": 0.5628,
+     "BTTS_YES": 0.4532,
+     "BTTS_NO": 0.5468
     }
    },
    "pick": {
     "selection": "1X",
     "family": "double_chance",
     "label": "Dupla chance: Águilas Doradas ou empate (1X)",
-    "model_prob": 0.7997,
+    "model_prob": 0.7996,
     "trend_alignment": 1.0,
     "confidence": 67,
     "eligible": true,
-    "odd": 1.25,
+    "odd": 1.22,
     "low_conviction": false
    },
    "alt_markets": [
@@ -1038,17 +1038,17 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Águilas Doradas",
-     "model_prob": 0.548,
+     "model_prob": 0.5474,
      "trend_alignment": 1.0,
      "confidence": 55,
      "eligible": true,
-     "odd": 1.97
+     "odd": 1.86
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.439,
+     "model_prob": 0.4372,
      "trend_alignment": 0.287,
      "confidence": 10,
      "eligible": false,
@@ -1058,7 +1058,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.4545,
+     "model_prob": 0.4532,
      "trend_alignment": 0.287,
      "confidence": 10,
      "eligible": false,
@@ -1068,7 +1068,7 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.561,
+     "model_prob": 0.5628,
      "trend_alignment": 0.0,
      "confidence": 8,
      "eligible": false,
@@ -1293,8 +1293,8 @@
     "id": 2052,
     "name": "Farul Constanta"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 1.0,
+   "away_score": 2.0,
    "model": {
     "lambda_home": 1.62,
     "lambda_away": 2.17,
@@ -1575,7 +1575,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   }
  ]
