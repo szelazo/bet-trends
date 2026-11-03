@@ -1,9 +1,9 @@
 {
  "date": "2026-11-03",
- "generated_at": "2026-11-02T23:01:43.491209-03:00",
+ "generated_at": "2026-11-03T15:21:14.289544-03:00",
  "version": "0.1.0",
  "count": 3,
- "clear_count": 2,
+ "clear_count": 1,
  "day_total": 28,
  "games": [
   {
@@ -49,7 +49,7 @@
     "trend_alignment": 1.0,
     "confidence": 68,
     "eligible": true,
-    "odd": 1.31,
+    "odd": 1.27,
     "low_conviction": false
    },
    "alt_markets": [
@@ -61,7 +61,7 @@
      "trend_alignment": 1.0,
      "confidence": 58,
      "eligible": true,
-     "odd": 1.99
+     "odd": 1.89
     },
     {
      "selection": "OVER25",
@@ -71,7 +71,7 @@
      "trend_alignment": 0.259,
      "confidence": 9,
      "eligible": false,
-     "odd": 1.78
+     "odd": 1.89
     },
     {
      "selection": "BTTS_YES",
@@ -91,7 +91,7 @@
      "trend_alignment": 0.0,
      "confidence": 2,
      "eligible": false,
-     "odd": 1.98
+     "odd": 1.89
     }
    ],
    "trends": [
@@ -316,333 +316,6 @@
    "clear": true
   },
   {
-   "id": 4828441,
-   "s365_competition_id": 572,
-   "competition_name": "UEFA Champions League",
-   "start_time": "2026-11-03T20:00:00+00:00",
-   "status_group": 2,
-   "round": "Round",
-   "home": {
-    "id": 105,
-    "name": "Manchester United"
-   },
-   "away": {
-    "id": 225,
-    "name": "AS Roma"
-   },
-   "home_score": -1.0,
-   "away_score": -1.0,
-   "model": {
-    "lambda_home": 1.89,
-    "lambda_away": 2.06,
-    "expected_goals": 3.95,
-    "sample_factor": 0.6,
-    "probs": {
-     "HOME": 0.3633,
-     "DRAW": 0.2078,
-     "AWAY": 0.4289,
-     "1X": 0.5711,
-     "X2": 0.6367,
-     "12": 0.7922,
-     "OVER25": 0.7547,
-     "UNDER25": 0.2453,
-     "BTTS_YES": 0.741,
-     "BTTS_NO": 0.259
-    }
-   },
-   "pick": {
-    "selection": "X2",
-    "family": "double_chance",
-    "label": "Dupla chance: AS Roma ou empate (X2)",
-    "model_prob": 0.6367,
-    "trend_alignment": 1.0,
-    "confidence": 27,
-    "eligible": true,
-    "odd": 1.68,
-    "low_conviction": true
-   },
-   "alt_markets": [
-    {
-     "selection": "AWAY",
-     "family": "1x2",
-     "label": "Vitória do AS Roma",
-     "model_prob": 0.4289,
-     "trend_alignment": 1.0,
-     "confidence": 26,
-     "eligible": false,
-     "odd": 2.79
-    },
-    {
-     "selection": "OVER25",
-     "family": "over_under",
-     "label": "Mais de 2.5 gols",
-     "model_prob": 0.7547,
-     "trend_alignment": 0.291,
-     "confidence": 26,
-     "eligible": true,
-     "odd": 2.19
-    },
-    {
-     "selection": "BTTS_YES",
-     "family": "btts",
-     "label": "Ambos os times marcam",
-     "model_prob": 0.741,
-     "trend_alignment": 0.291,
-     "confidence": 25,
-     "eligible": true,
-     "odd": null
-    },
-    {
-     "selection": "1X",
-     "family": "double_chance",
-     "label": "Dupla chance: Manchester United ou empate (1X)",
-     "model_prob": 0.5711,
-     "trend_alignment": 0.0,
-     "confidence": 2,
-     "eligible": false,
-     "odd": 1.45
-    }
-   ],
-   "trends": [
-    {
-     "label": "Perdeu 4 dos últimos 6",
-     "strength": 0.55,
-     "favors": "AWAY",
-     "team": "Manchester United",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Não marcou em 3 dos últimos 6",
-     "strength": 0.35,
-     "favors": "AWAY",
-     "team": "Manchester United",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "no_score"
-    },
-    {
-     "label": "Invicto em 6 dos últimos 7",
-     "strength": 0.5,
-     "favors": "AWAY",
-     "team": "AS Roma",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "unbeaten"
-    },
-    {
-     "label": "Mais de 2.5 gols em 5 dos últimos 7",
-     "strength": 0.436,
-     "favors": "OVER",
-     "team": "AS Roma",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "over"
-    },
-    {
-     "label": "Não vence há 5 jogos",
-     "strength": 0.333,
-     "favors": "AWAY",
-     "team": "Manchester United",
-     "side": "HOME",
-     "group": "sequencia",
-     "kind": "winless_streak"
-    },
-    {
-     "label": "Invicto há 5 jogos",
-     "strength": 0.333,
-     "favors": "AWAY",
-     "team": "AS Roma",
-     "side": "AWAY",
-     "group": "sequencia",
-     "kind": "unbeaten_streak"
-    },
-    {
-     "label": "Manchester United é 21º · AS Roma é 15º",
-     "strength": 0.0,
-     "favors": null,
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "positions"
-    },
-    {
-     "label": "AS Roma está 6 posições à frente",
-     "strength": 0.429,
-     "favors": "AWAY",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "aligned_trends": [
-    {
-     "label": "Perdeu 4 dos últimos 6",
-     "strength": 0.55,
-     "favors": "AWAY",
-     "team": "Manchester United",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Não marcou em 3 dos últimos 6",
-     "strength": 0.35,
-     "favors": "AWAY",
-     "team": "Manchester United",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "no_score"
-    },
-    {
-     "label": "Invicto em 6 dos últimos 7",
-     "strength": 0.5,
-     "favors": "AWAY",
-     "team": "AS Roma",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "unbeaten"
-    },
-    {
-     "label": "Não vence há 5 jogos",
-     "strength": 0.333,
-     "favors": "AWAY",
-     "team": "Manchester United",
-     "side": "HOME",
-     "group": "sequencia",
-     "kind": "winless_streak"
-    },
-    {
-     "label": "Invicto há 5 jogos",
-     "strength": 0.333,
-     "favors": "AWAY",
-     "team": "AS Roma",
-     "side": "AWAY",
-     "group": "sequencia",
-     "kind": "unbeaten_streak"
-    },
-    {
-     "label": "AS Roma está 6 posições à frente",
-     "strength": 0.429,
-     "favors": "AWAY",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "confidence": 27,
-   "league": {
-    "key": "ucl",
-    "name": "UEFA Champions League",
-    "country": "Europa"
-   },
-   "home_team": {
-    "id": 105,
-    "name": "Manchester United",
-    "position": 21,
-    "played": 3,
-    "points": 3.0,
-    "record": "1V 0E 2D",
-    "goals_for": 5,
-    "goals_against": 6,
-    "last5": "LLLDL",
-    "recent": [
-     {
-      "result": "L",
-      "score": "0-2",
-      "home": false,
-      "opponent": "Chelsea",
-      "date": "2026-10-31"
-     },
-     {
-      "result": "L",
-      "score": "0-3",
-      "home": true,
-      "opponent": "Bournemouth",
-      "date": "2026-10-25"
-     },
-     {
-      "result": "L",
-      "score": "1-4",
-      "home": false,
-      "opponent": "Como",
-      "date": "2026-10-21"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": false,
-      "opponent": "Leeds United",
-      "date": "2026-10-18"
-     },
-     {
-      "result": "L",
-      "score": "0-2",
-      "home": false,
-      "opponent": "Atletico Madrid",
-      "date": "2026-10-13"
-     }
-    ]
-   },
-   "away_team": {
-    "id": 225,
-    "name": "AS Roma",
-    "position": 15,
-    "played": 3,
-    "points": 4.0,
-    "record": "1V 1E 1D",
-    "goals_for": 8,
-    "goals_against": 5,
-    "last5": "WWDWW",
-    "recent": [
-     {
-      "result": "W",
-      "score": "5-2",
-      "home": false,
-      "opponent": "Udinese",
-      "date": "2026-10-31"
-     },
-     {
-      "result": "W",
-      "score": "4-2",
-      "home": true,
-      "opponent": "Cagliari",
-      "date": "2026-10-27"
-     },
-     {
-      "result": "D",
-      "score": "3-3",
-      "home": false,
-      "opponent": "Napoli",
-      "date": "2026-10-24"
-     },
-     {
-      "result": "W",
-      "score": "4-0",
-      "home": true,
-      "opponent": "Slovan Bratislava",
-      "date": "2026-10-20"
-     },
-     {
-      "result": "W",
-      "score": "2-0",
-      "home": true,
-      "opponent": "Genoa",
-      "date": "2026-10-17"
-     }
-    ]
-   },
-   "kickoff_local": "2026-11-03T17:00:00-03:00",
-   "has_odds": true,
-   "odds_bookmaker": "365Scores",
-   "is_cup": false,
-   "result": "pending",
-   "clear": true
-  },
-  {
    "id": 4764230,
    "s365_competition_id": 621,
    "competition_name": "Copa de Primera - Clausura",
@@ -707,7 +380,7 @@
      "trend_alignment": 0.278,
      "confidence": 11,
      "eligible": false,
-     "odd": 1.69
+     "odd": 1.65
     },
     {
      "selection": "BTTS_NO",
@@ -963,6 +636,298 @@
     ]
    },
    "kickoff_local": "2026-11-03T19:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": false,
+   "below_bar": true
+  },
+  {
+   "id": 4746064,
+   "s365_competition_id": 1,
+   "competition_name": "Championship",
+   "start_time": "2026-11-03T20:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 1,
+    "name": "Birmingham"
+   },
+   "away": {
+    "id": 45,
+    "name": "Millwall"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.0,
+    "lambda_away": 1.0,
+    "expected_goals": 3.0,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.605,
+     "DRAW": 0.2121,
+     "AWAY": 0.183,
+     "1X": 0.817,
+     "X2": 0.395,
+     "12": 0.7879,
+     "OVER25": 0.5758,
+     "UNDER25": 0.4242,
+     "BTTS_YES": 0.5461,
+     "BTTS_NO": 0.4539
+    }
+   },
+   "pick": {
+    "selection": "1X",
+    "family": "double_chance",
+    "label": "Dupla chance: Birmingham ou empate (1X)",
+    "model_prob": 0.817,
+    "trend_alignment": 1.0,
+    "confidence": 69,
+    "eligible": true,
+    "odd": 1.28,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Birmingham",
+     "model_prob": 0.605,
+     "trend_alignment": 1.0,
+     "confidence": 61,
+     "eligible": true,
+     "odd": 1.86
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5758,
+     "trend_alignment": 0.0,
+     "confidence": 10,
+     "eligible": false,
+     "odd": 1.71
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.4242,
+     "trend_alignment": 0.26,
+     "confidence": 9,
+     "eligible": false,
+     "odd": 2.08
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.4539,
+     "trend_alignment": 0.26,
+     "confidence": 9,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "HOME",
+     "team": "Birmingham",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Não sofreu gol em 3 dos últimos 5",
+     "strength": 0.39,
+     "favors": "UNDER",
+     "team": "Birmingham",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "clean_sheets"
+    },
+    {
+     "label": "3ª melhor defesa da liga (1.0 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "HOME",
+     "team": "Birmingham",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 2 derrota(s) em 13 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "HOME",
+     "team": "Birmingham",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Birmingham é 6º · Millwall é 12º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Birmingham está 6 posições à frente",
+     "strength": 0.429,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "HOME",
+     "team": "Birmingham",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "3ª melhor defesa da liga (1.0 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "HOME",
+     "team": "Birmingham",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 2 derrota(s) em 13 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "HOME",
+     "team": "Birmingham",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Birmingham está 6 posições à frente",
+     "strength": 0.429,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 69,
+   "league": {
+    "key": "championship",
+    "name": "Championship",
+    "country": "Inglaterra"
+   },
+   "home_team": {
+    "id": 1,
+    "name": "Birmingham",
+    "position": 6,
+    "played": 13,
+    "points": 23.0,
+    "record": "6V 5E 2D",
+    "goals_for": 23,
+    "goals_against": 13,
+    "last5": "WLWWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": false,
+      "opponent": "Lincoln",
+      "date": "2026-10-31"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Cardiff",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "QPR",
+      "date": "2026-10-17"
+     },
+     {
+      "result": "W",
+      "score": "4-0",
+      "home": true,
+      "opponent": "Preston",
+      "date": "2026-10-13"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "West Brom",
+      "date": "2026-10-10"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 45,
+    "name": "Millwall",
+    "position": 12,
+    "played": 13,
+    "points": 18.0,
+    "record": "5V 3E 5D",
+    "goals_for": 23,
+    "goals_against": 21,
+    "last5": "WLDLW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "4-1",
+      "home": true,
+      "opponent": "Derby",
+      "date": "2026-10-31"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Portsmouth",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "Lincoln",
+      "date": "2026-10-17"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Swansea",
+      "date": "2026-10-13"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Preston",
+      "date": "2026-10-10"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-03T17:00:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,

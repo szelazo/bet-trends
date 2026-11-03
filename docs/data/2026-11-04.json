@@ -1,6 +1,6 @@
 {
  "date": "2026-11-04",
- "generated_at": "2026-11-02T23:01:44.126674-03:00",
+ "generated_at": "2026-11-03T15:21:15.022986-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 3,
@@ -361,31 +361,31 @@
    "away_score": -1.0,
    "model": {
     "lambda_home": 1.48,
-    "lambda_away": 2.75,
-    "expected_goals": 4.23,
+    "lambda_away": 2.77,
+    "expected_goals": 4.24,
     "sample_factor": 0.6,
     "probs": {
-     "HOME": 0.189,
-     "DRAW": 0.17,
-     "AWAY": 0.641,
-     "1X": 0.359,
-     "X2": 0.811,
-     "12": 0.83,
-     "OVER25": 0.7934,
-     "UNDER25": 0.2066,
-     "BTTS_YES": 0.7233,
-     "BTTS_NO": 0.2767
+     "HOME": 0.1867,
+     "DRAW": 0.1689,
+     "AWAY": 0.6444,
+     "1X": 0.3556,
+     "X2": 0.8133,
+     "12": 0.8311,
+     "OVER25": 0.7951,
+     "UNDER25": 0.2049,
+     "BTTS_YES": 0.7235,
+     "BTTS_NO": 0.2765
     }
    },
    "pick": {
     "selection": "AWAY",
     "family": "1x2",
     "label": "Vitória do Real Madrid",
-    "model_prob": 0.641,
+    "model_prob": 0.6444,
     "trend_alignment": 1.0,
     "confidence": 41,
     "eligible": true,
-    "odd": 1.25,
+    "odd": 1.22,
     "low_conviction": false
    },
    "alt_markets": [
@@ -393,17 +393,17 @@
      "selection": "X2",
      "family": "double_chance",
      "label": "Dupla chance: Real Madrid ou empate (X2)",
-     "model_prob": 0.811,
+     "model_prob": 0.8133,
      "trend_alignment": 1.0,
      "confidence": 41,
      "eligible": true,
-     "odd": 1.07
+     "odd": 1.05
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.7934,
+     "model_prob": 0.7951,
      "trend_alignment": 0.367,
      "confidence": 31,
      "eligible": true,
@@ -413,7 +413,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.7233,
+     "model_prob": 0.7235,
      "trend_alignment": 0.367,
      "confidence": 25,
      "eligible": true,
@@ -423,11 +423,11 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do AEK Athens",
-     "model_prob": 0.189,
+     "model_prob": 0.1867,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 9.0
+     "odd": 11.0
     }
    ],
    "trends": [
@@ -638,27 +638,27 @@
     "expected_goals": 4.59,
     "sample_factor": 0.6,
     "probs": {
-     "HOME": 0.2071,
+     "HOME": 0.2069,
      "DRAW": 0.167,
-     "AWAY": 0.6259,
-     "1X": 0.3741,
-     "X2": 0.7929,
+     "AWAY": 0.6262,
+     "1X": 0.3738,
+     "X2": 0.7931,
      "12": 0.833,
-     "OVER25": 0.8356,
-     "UNDER25": 0.1644,
-     "BTTS_YES": 0.7702,
-     "BTTS_NO": 0.2298
+     "OVER25": 0.8354,
+     "UNDER25": 0.1646,
+     "BTTS_YES": 0.7699,
+     "BTTS_NO": 0.2301
     }
    },
    "pick": {
     "selection": "AWAY",
     "family": "1x2",
     "label": "Vitória do Liverpool",
-    "model_prob": 0.6259,
+    "model_prob": 0.6262,
     "trend_alignment": 1.0,
     "confidence": 40,
     "eligible": true,
-    "odd": 1.51,
+    "odd": 1.49,
     "low_conviction": false
    },
    "alt_markets": [
@@ -666,27 +666,27 @@
      "selection": "X2",
      "family": "double_chance",
      "label": "Dupla chance: Liverpool ou empate (X2)",
-     "model_prob": 0.7929,
+     "model_prob": 0.7931,
      "trend_alignment": 1.0,
      "confidence": 40,
      "eligible": true,
-     "odd": 1.16
+     "odd": 1.15
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.8356,
+     "model_prob": 0.8354,
      "trend_alignment": 0.622,
      "confidence": 39,
      "eligible": true,
-     "odd": 2.18
+     "odd": 1.98
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.7702,
+     "model_prob": 0.7699,
      "trend_alignment": 0.622,
      "confidence": 34,
      "eligible": true,
@@ -696,11 +696,11 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Fenerbahçe SK",
-     "model_prob": 0.2071,
+     "model_prob": 0.2069,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 5.54
+     "odd": 5.79
     }
    ],
    "trends": [
