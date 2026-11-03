@@ -1,6 +1,6 @@
 {
  "date": "2026-11-02",
- "generated_at": "2026-11-02T17:42:58.984054-03:00",
+ "generated_at": "2026-11-02T23:01:42.634451-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -21,8 +21,8 @@
     "id": 77513,
     "name": "FC Cajamarca"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 5.0,
+   "away_score": 0.0,
    "model": {
     "lambda_home": 2.9,
     "lambda_away": 1.07,
@@ -321,7 +321,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -339,8 +339,8 @@
     "id": 6016,
     "name": "Pogon"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 3.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 1.17,
     "lambda_away": 2.26,
@@ -666,7 +666,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "miss",
    "clear": true
   },
   {
@@ -1002,8 +1002,8 @@
     "id": 9844,
     "name": "Fortaleza FC"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 1.0,
+   "away_score": 0.0,
    "model": {
     "lambda_home": 1.58,
     "lambda_away": 0.85,
@@ -1275,7 +1275,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {

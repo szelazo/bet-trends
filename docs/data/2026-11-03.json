@@ -1,6 +1,6 @@
 {
  "date": "2026-11-03",
- "generated_at": "2026-11-02T17:42:59.764048-03:00",
+ "generated_at": "2026-11-02T23:01:43.491209-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 2,
@@ -49,7 +49,7 @@
     "trend_alignment": 1.0,
     "confidence": 68,
     "eligible": true,
-    "odd": 1.32,
+    "odd": 1.31,
     "low_conviction": false
    },
    "alt_markets": [
@@ -61,7 +61,7 @@
      "trend_alignment": 1.0,
      "confidence": 58,
      "eligible": true,
-     "odd": 2.03
+     "odd": 1.99
     },
     {
      "selection": "OVER25",
@@ -358,7 +358,7 @@
     "trend_alignment": 1.0,
     "confidence": 27,
     "eligible": true,
-    "odd": 1.66,
+    "odd": 1.68,
     "low_conviction": true
    },
    "alt_markets": [
@@ -370,7 +370,7 @@
      "trend_alignment": 1.0,
      "confidence": 26,
      "eligible": false,
-     "odd": 2.74
+     "odd": 2.79
     },
     {
      "selection": "OVER25",
@@ -380,7 +380,7 @@
      "trend_alignment": 0.291,
      "confidence": 26,
      "eligible": true,
-     "odd": 2.28
+     "odd": 2.19
     },
     {
      "selection": "BTTS_YES",
@@ -400,7 +400,7 @@
      "trend_alignment": 0.0,
      "confidence": 2,
      "eligible": false,
-     "odd": 1.46
+     "odd": 1.45
     }
    ],
    "trends": [
