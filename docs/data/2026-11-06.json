@@ -1,0 +1,1807 @@
+{
+ "date": "2026-11-06",
+ "generated_at": "2026-11-04T15:33:35.401650-03:00",
+ "version": "0.1.0",
+ "count": 5,
+ "clear_count": 5,
+ "day_total": 49,
+ "games": [
+  {
+   "id": 4748657,
+   "s365_competition_id": 129,
+   "competition_name": "Premier League",
+   "start_time": "2026-11-06T11:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 48818,
+    "name": "Polissya"
+   },
+   "away": {
+    "id": 25554,
+    "name": "Veres Rivne"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.7,
+    "lambda_away": 0.53,
+    "expected_goals": 3.23,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.8283,
+     "DRAW": 0.1207,
+     "AWAY": 0.051,
+     "1X": 0.949,
+     "X2": 0.1717,
+     "12": 0.8793,
+     "OVER25": 0.6261,
+     "UNDER25": 0.3739,
+     "BTTS_YES": 0.386,
+     "BTTS_NO": 0.614
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Polissya",
+    "model_prob": 0.8283,
+    "trend_alignment": 1.0,
+    "confidence": 87,
+    "eligible": true,
+    "odd": 1.21,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Polissya ou empate (1X)",
+     "model_prob": 0.949,
+     "trend_alignment": 1.0,
+     "confidence": 87,
+     "eligible": true,
+     "odd": 1.06
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.614,
+     "trend_alignment": 0.06,
+     "confidence": 17,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6261,
+     "trend_alignment": 0.0,
+     "confidence": 16,
+     "eligible": true,
+     "odd": 1.61
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.3739,
+     "trend_alignment": 0.06,
+     "confidence": 2,
+     "eligible": false,
+     "odd": 2.24
+    }
+   ],
+   "trends": [
+    {
+     "label": "Venceu 4 dos últimos 4 em casa",
+     "strength": 0.75,
+     "favors": "HOME",
+     "team": "Polissya",
+     "side": "HOME",
+     "group": "casa_fora",
+     "kind": "wins"
+    },
+    {
+     "label": "Não sofreu gol em 3 dos últimos 4 em casa",
+     "strength": 0.45,
+     "favors": "UNDER",
+     "team": "Polissya",
+     "side": "HOME",
+     "group": "casa_fora",
+     "kind": "clean_sheets"
+    },
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "HOME",
+     "team": "Veres Rivne",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Sofreu gol em todos os últimos 5",
+     "strength": 0.4,
+     "favors": "OVER",
+     "team": "Veres Rivne",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "always_concede"
+    },
+    {
+     "label": "Invicto em 6 dos últimos 6",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Polissya",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Invicto há 6+ jogos",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Polissya",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Melhor ataque da liga (2.3 marcados/jogo)",
+     "strength": 0.44,
+     "favors": "HOME",
+     "team": "Polissya",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Só 1 derrota(s) em 10 jogos no campeonato",
+     "strength": 0.42,
+     "favors": "HOME",
+     "team": "Polissya",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Polissya é 2º · Veres Rivne é 12º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Polissya está 10 posições à frente",
+     "strength": 0.714,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Venceu 4 dos últimos 4 em casa",
+     "strength": 0.75,
+     "favors": "HOME",
+     "team": "Polissya",
+     "side": "HOME",
+     "group": "casa_fora",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "HOME",
+     "team": "Veres Rivne",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto em 6 dos últimos 6",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Polissya",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Invicto há 6+ jogos",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Polissya",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Melhor ataque da liga (2.3 marcados/jogo)",
+     "strength": 0.44,
+     "favors": "HOME",
+     "team": "Polissya",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Só 1 derrota(s) em 10 jogos no campeonato",
+     "strength": 0.42,
+     "favors": "HOME",
+     "team": "Polissya",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Polissya está 10 posições à frente",
+     "strength": 0.714,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 87,
+   "league": {
+    "key": "ukraine",
+    "name": "Premier League",
+    "country": "Ucrânia"
+   },
+   "home_team": {
+    "id": 48818,
+    "name": "Polissya",
+    "position": 2,
+    "played": 10,
+    "points": 25.0,
+    "record": "8V 1E 1D",
+    "goals_for": 23,
+    "goals_against": 8,
+    "last5": "DWWDW",
+    "recent": [
+     {
+      "result": "D",
+      "score": "-1--1",
+      "home": false,
+      "opponent": "Kolos Kovalivka",
+      "date": "2026-11-01"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "Obolon Kyiv",
+      "date": "2026-10-23"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": true,
+      "opponent": "Dynamo Kyiv",
+      "date": "2026-10-18"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "Bukovyna",
+      "date": "2026-10-11"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Kryvbas",
+      "date": "2026-09-18"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 25554,
+    "name": "Veres Rivne",
+    "position": 12,
+    "played": 11,
+    "points": 9.0,
+    "record": "2V 3E 6D",
+    "goals_for": 7,
+    "goals_against": 16,
+    "last5": "LLLLW",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": true,
+      "opponent": "Chornomorets Odesa",
+      "date": "2026-10-31"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": true,
+      "opponent": "Kolos Kovalivka",
+      "date": "2026-10-23"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Obolon Kyiv",
+      "date": "2026-10-16"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": true,
+      "opponent": "Shakhtar Donetsk",
+      "date": "2026-10-09"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Kudrivka",
+      "date": "2026-10-03"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-06T08:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4747936,
+   "s365_competition_id": 111,
+   "competition_name": "Bundesliga",
+   "start_time": "2026-11-06T18:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 1738,
+    "name": "Rapid Vienna"
+   },
+   "away": {
+    "id": 9376,
+    "name": "Wolfsberger AC"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.9,
+    "lambda_away": 0.69,
+    "expected_goals": 3.59,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.8215,
+     "DRAW": 0.1177,
+     "AWAY": 0.0608,
+     "1X": 0.9392,
+     "X2": 0.1785,
+     "12": 0.8823,
+     "OVER25": 0.6944,
+     "UNDER25": 0.3056,
+     "BTTS_YES": 0.4705,
+     "BTTS_NO": 0.5295
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Rapid Vienna",
+    "model_prob": 0.8215,
+    "trend_alignment": 1.0,
+    "confidence": 86,
+    "eligible": true,
+    "odd": 1.25,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Rapid Vienna ou empate (1X)",
+     "model_prob": 0.9392,
+     "trend_alignment": 1.0,
+     "confidence": 86,
+     "eligible": true,
+     "odd": 1.08
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6944,
+     "trend_alignment": 0.033,
+     "confidence": 26,
+     "eligible": true,
+     "odd": 1.84
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5295,
+     "trend_alignment": 0.02,
+     "confidence": 5,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.3056,
+     "trend_alignment": 0.02,
+     "confidence": 1,
+     "eligible": false,
+     "odd": 1.84
+    }
+   ],
+   "trends": [
+    {
+     "label": "5 vitórias seguidas",
+     "strength": 1.0,
+     "favors": "HOME",
+     "team": "Rapid Vienna",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 5 dos últimos 5",
+     "strength": 0.75,
+     "favors": "HOME",
+     "team": "Rapid Vienna",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Não sofreu gol em 3 dos últimos 5",
+     "strength": 0.39,
+     "favors": "UNDER",
+     "team": "Rapid Vienna",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "clean_sheets"
+    },
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "HOME",
+     "team": "Wolfsberger AC",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Sofreu gol em todos os últimos 5",
+     "strength": 0.4,
+     "favors": "OVER",
+     "team": "Wolfsberger AC",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "always_concede"
+    },
+    {
+     "label": "Melhor ataque da liga (3.0 marcados/jogo)",
+     "strength": 0.44,
+     "favors": "HOME",
+     "team": "Rapid Vienna",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Só 1 derrota(s) em 11 jogos no campeonato",
+     "strength": 0.42,
+     "favors": "HOME",
+     "team": "Rapid Vienna",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "2ª melhor defesa da liga (0.8 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "HOME",
+     "team": "Rapid Vienna",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Wolfsberger AC",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Rapid Vienna é 1º · Wolfsberger AC é 12º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Rapid Vienna está 11 posições à frente",
+     "strength": 0.786,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "5 vitórias seguidas",
+     "strength": 1.0,
+     "favors": "HOME",
+     "team": "Rapid Vienna",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 5 dos últimos 5",
+     "strength": 0.75,
+     "favors": "HOME",
+     "team": "Rapid Vienna",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "HOME",
+     "team": "Wolfsberger AC",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Melhor ataque da liga (3.0 marcados/jogo)",
+     "strength": 0.44,
+     "favors": "HOME",
+     "team": "Rapid Vienna",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Só 1 derrota(s) em 11 jogos no campeonato",
+     "strength": 0.42,
+     "favors": "HOME",
+     "team": "Rapid Vienna",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "2ª melhor defesa da liga (0.8 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "HOME",
+     "team": "Rapid Vienna",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Wolfsberger AC",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Rapid Vienna está 11 posições à frente",
+     "strength": 0.786,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 86,
+   "league": {
+    "key": "austria",
+    "name": "Bundesliga",
+    "country": "Áustria"
+   },
+   "home_team": {
+    "id": 1738,
+    "name": "Rapid Vienna",
+    "position": 1,
+    "played": 11,
+    "points": 30.0,
+    "record": "10V 0E 1D",
+    "goals_for": 33,
+    "goals_against": 9,
+    "last5": "WWWWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "Austria Vienna",
+      "date": "2026-11-01"
+     },
+     {
+      "result": "W",
+      "score": "5-1",
+      "home": true,
+      "opponent": "Austria Lustenau",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": true,
+      "opponent": "TSV Hartberg",
+      "date": "2026-10-16"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "LASK Linz",
+      "date": "2026-10-11"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "WSG Tirol",
+      "date": "2026-09-18"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 9376,
+    "name": "Wolfsberger AC",
+    "position": 12,
+    "played": 11,
+    "points": 6.0,
+    "record": "1V 3E 7D",
+    "goals_for": 8,
+    "goals_against": 20,
+    "last5": "DLLLL",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Sturm Graz",
+      "date": "2026-11-01"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "TSV Hartberg",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": true,
+      "opponent": "WSG Tirol",
+      "date": "2026-10-18"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": false,
+      "opponent": "SCR Altach",
+      "date": "2026-10-11"
+     },
+     {
+      "result": "L",
+      "score": "1-4",
+      "home": false,
+      "opponent": "Ried",
+      "date": "2026-09-20"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-06T15:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4735497,
+   "s365_competition_id": 36,
+   "competition_name": "Ligue 2",
+   "start_time": "2026-11-06T19:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 467,
+    "name": "Nancy"
+   },
+   "away": {
+    "id": 483,
+    "name": "Sochaux"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.22,
+    "lambda_away": 0.7,
+    "expected_goals": 2.91,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.7207,
+     "DRAW": 0.1769,
+     "AWAY": 0.1024,
+     "1X": 0.8976,
+     "X2": 0.2793,
+     "12": 0.8231,
+     "OVER25": 0.5565,
+     "UNDER25": 0.4435,
+     "BTTS_YES": 0.4469,
+     "BTTS_NO": 0.5531
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Nancy",
+    "model_prob": 0.7207,
+    "trend_alignment": 1.0,
+    "confidence": 80,
+    "eligible": true,
+    "odd": 1.61,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Nancy ou empate (1X)",
+     "model_prob": 0.8976,
+     "trend_alignment": 1.0,
+     "confidence": 80,
+     "eligible": true,
+     "odd": 1.17
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5565,
+     "trend_alignment": 0.487,
+     "confidence": 24,
+     "eligible": false,
+     "odd": 1.94
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.4469,
+     "trend_alignment": 0.487,
+     "confidence": 17,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5531,
+     "trend_alignment": 0.0,
+     "confidence": 7,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "5 vitórias seguidas",
+     "strength": 1.0,
+     "favors": "HOME",
+     "team": "Nancy",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 5 dos últimos 5",
+     "strength": 0.75,
+     "favors": "HOME",
+     "team": "Nancy",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Marcou em todos os últimos 5",
+     "strength": 0.3,
+     "favors": "OVER",
+     "team": "Nancy",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "always_score"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Sochaux",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Ambos marcaram em 4 dos últimos 5",
+     "strength": 0.43,
+     "favors": "BTTS_YES",
+     "team": "Sochaux",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "btts"
+    },
+    {
+     "label": "3ª melhor defesa da liga (0.8 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "HOME",
+     "team": "Nancy",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Sochaux",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Nancy é 3º · Sochaux é 13º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Nancy está 10 posições à frente",
+     "strength": 0.714,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "5 vitórias seguidas",
+     "strength": 1.0,
+     "favors": "HOME",
+     "team": "Nancy",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 5 dos últimos 5",
+     "strength": 0.75,
+     "favors": "HOME",
+     "team": "Nancy",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Sochaux",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "3ª melhor defesa da liga (0.8 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "HOME",
+     "team": "Nancy",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Sochaux",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Nancy está 10 posições à frente",
+     "strength": 0.714,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 80,
+   "league": {
+    "key": "ligue2",
+    "name": "Ligue 2",
+    "country": "França"
+   },
+   "home_team": {
+    "id": 467,
+    "name": "Nancy",
+    "position": 3,
+    "played": 11,
+    "points": 22.0,
+    "record": "7V 1E 3D",
+    "goals_for": 16,
+    "goals_against": 9,
+    "last5": "WWWWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "4-1",
+      "home": false,
+      "opponent": "Red Star FC93",
+      "date": "2026-11-02"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Laval",
+      "date": "2026-10-23"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "FC Annecy",
+      "date": "2026-10-16"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Guingamp",
+      "date": "2026-10-09"
+     },
+     {
+      "result": "W",
+      "score": "4-3",
+      "home": false,
+      "opponent": "Rodez",
+      "date": "2026-09-18"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 483,
+    "name": "Sochaux",
+    "position": 13,
+    "played": 11,
+    "points": 11.0,
+    "record": "2V 5E 4D",
+    "goals_for": 8,
+    "goals_against": 14,
+    "last5": "LLLDD",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Reims",
+      "date": "2026-11-02"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": true,
+      "opponent": "FC Annecy",
+      "date": "2026-10-23"
+     },
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": false,
+      "opponent": "Metz",
+      "date": "2026-10-17"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Boulogne",
+      "date": "2026-10-09"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Laval",
+      "date": "2026-09-18"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-06T16:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4748393,
+   "s365_competition_id": 136,
+   "competition_name": "Liga 1",
+   "start_time": "2026-11-06T18:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 2060,
+    "name": "FC Arges Pitesti"
+   },
+   "away": {
+    "id": 2043,
+    "name": "Dinamo Bucuresti"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 0.75,
+    "lambda_away": 1.84,
+    "expected_goals": 2.59,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.1465,
+     "DRAW": 0.2202,
+     "AWAY": 0.6333,
+     "1X": 0.3667,
+     "X2": 0.8535,
+     "12": 0.7798,
+     "OVER25": 0.4792,
+     "UNDER25": 0.5208,
+     "BTTS_YES": 0.4439,
+     "BTTS_NO": 0.5561
+    }
+   },
+   "pick": {
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: Dinamo Bucuresti ou empate (X2)",
+    "model_prob": 0.8535,
+    "trend_alignment": 1.0,
+    "confidence": 74,
+    "eligible": true,
+    "odd": 1.26,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Dinamo Bucuresti",
+     "model_prob": 0.6333,
+     "trend_alignment": 1.0,
+     "confidence": 64,
+     "eligible": true,
+     "odd": 1.86
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5561,
+     "trend_alignment": 0.073,
+     "confidence": 10,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.5208,
+     "trend_alignment": 0.073,
+     "confidence": 5,
+     "eligible": false,
+     "odd": 1.71
+    },
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do FC Arges Pitesti",
+     "model_prob": 0.1465,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 3.81
+    }
+   ],
+   "trends": [
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "AWAY",
+     "team": "Dinamo Bucuresti",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Não sofreu gol em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "UNDER",
+     "team": "Dinamo Bucuresti",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "clean_sheets"
+    },
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "AWAY",
+     "team": "FC Arges Pitesti",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Sofreu gol em todos os últimos 5",
+     "strength": 0.4,
+     "favors": "OVER",
+     "team": "FC Arges Pitesti",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "always_concede"
+    },
+    {
+     "label": "Melhor defesa da liga (0.6 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "Dinamo Bucuresti",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 1 derrota(s) em 14 jogos no campeonato",
+     "strength": 0.42,
+     "favors": "AWAY",
+     "team": "Dinamo Bucuresti",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "2º melhor ataque da liga (2.2 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "AWAY",
+     "team": "Dinamo Bucuresti",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "FC Arges Pitesti",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Dinamo Bucuresti",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "FC Arges Pitesti é 14º · Dinamo Bucuresti é 1º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Dinamo Bucuresti está 13 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "AWAY",
+     "team": "Dinamo Bucuresti",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "AWAY",
+     "team": "FC Arges Pitesti",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Melhor defesa da liga (0.6 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "Dinamo Bucuresti",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 1 derrota(s) em 14 jogos no campeonato",
+     "strength": 0.42,
+     "favors": "AWAY",
+     "team": "Dinamo Bucuresti",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "2º melhor ataque da liga (2.2 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "AWAY",
+     "team": "Dinamo Bucuresti",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "FC Arges Pitesti",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Dinamo Bucuresti",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Dinamo Bucuresti está 13 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 74,
+   "league": {
+    "key": "romania",
+    "name": "Liga 1",
+    "country": "Romênia"
+   },
+   "home_team": {
+    "id": 2060,
+    "name": "FC Arges Pitesti",
+    "position": 14,
+    "played": 14,
+    "points": 12.0,
+    "record": "3V 3E 8D",
+    "goals_for": 8,
+    "goals_against": 16,
+    "last5": "LLDLL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Hunedoara",
+      "date": "2026-10-31"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "UTA Arad",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "Universitatea Cluj",
+      "date": "2026-10-19"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "CFR Cluj",
+      "date": "2026-10-12"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": false,
+      "opponent": "Rapid Bucuresti",
+      "date": "2026-09-18"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 2043,
+    "name": "Dinamo Bucuresti",
+    "position": 1,
+    "played": 14,
+    "points": 33.0,
+    "record": "10V 3E 1D",
+    "goals_for": 31,
+    "goals_against": 9,
+    "last5": "WDWWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "UTA Arad",
+      "date": "2026-11-01"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "CFR Cluj",
+      "date": "2026-10-25"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "FC Botosani",
+      "date": "2026-10-16"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "Sepsi",
+      "date": "2026-10-09"
+     },
+     {
+      "result": "W",
+      "score": "4-0",
+      "home": true,
+      "opponent": "Farul Constanta",
+      "date": "2026-09-20"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-06T15:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4735501,
+   "s365_competition_id": 36,
+   "competition_name": "Ligue 2",
+   "start_time": "2026-11-06T19:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 487,
+    "name": "Grenoble"
+   },
+   "away": {
+    "id": 499,
+    "name": "Reims"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 0.85,
+    "lambda_away": 1.85,
+    "expected_goals": 2.7,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.168,
+     "DRAW": 0.2228,
+     "AWAY": 0.6092,
+     "1X": 0.3908,
+     "X2": 0.832,
+     "12": 0.7772,
+     "OVER25": 0.5057,
+     "UNDER25": 0.4943,
+     "BTTS_YES": 0.4823,
+     "BTTS_NO": 0.5177
+    }
+   },
+   "pick": {
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: Reims ou empate (X2)",
+    "model_prob": 0.832,
+    "trend_alignment": 1.0,
+    "confidence": 71,
+    "eligible": true,
+    "odd": 1.26,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Reims",
+     "model_prob": 0.6092,
+     "trend_alignment": 1.0,
+     "confidence": 62,
+     "eligible": true,
+     "odd": 1.84
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5057,
+     "trend_alignment": 0.211,
+     "confidence": 8,
+     "eligible": false,
+     "odd": 1.96
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.4823,
+     "trend_alignment": 0.211,
+     "confidence": 7,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5177,
+     "trend_alignment": 0.0,
+     "confidence": 2,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "AWAY",
+     "team": "Grenoble",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Sofreu gol em todos os últimos 5",
+     "strength": 0.4,
+     "favors": "OVER",
+     "team": "Grenoble",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "always_concede"
+    },
+    {
+     "label": "Invicto em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "AWAY",
+     "team": "Reims",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Menos de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "UNDER",
+     "team": "Reims",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "under"
+    },
+    {
+     "label": "Só 0 derrota(s) em 11 jogos no campeonato",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "Reims",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "2º melhor ataque da liga (2.0 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "AWAY",
+     "team": "Reims",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Pior defesa da liga (1.8 sofridos/jogo)",
+     "strength": 0.34,
+     "favors": "OVER",
+     "team": "Grenoble",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_bottom"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Grenoble",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Reims",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Grenoble é 18º · Reims é 4º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Reims está 14 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "AWAY",
+     "team": "Grenoble",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "AWAY",
+     "team": "Reims",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Só 0 derrota(s) em 11 jogos no campeonato",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "Reims",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "2º melhor ataque da liga (2.0 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "AWAY",
+     "team": "Reims",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Grenoble",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Reims",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Reims está 14 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 71,
+   "league": {
+    "key": "ligue2",
+    "name": "Ligue 2",
+    "country": "França"
+   },
+   "home_team": {
+    "id": 487,
+    "name": "Grenoble",
+    "position": 18,
+    "played": 11,
+    "points": 8.0,
+    "record": "2V 2E 7D",
+    "goals_for": 10,
+    "goals_against": 20,
+    "last5": "LLLLD",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": true,
+      "opponent": "Dijon",
+      "date": "2026-10-30"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Pau FC",
+      "date": "2026-10-23"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": true,
+      "opponent": "Boulogne",
+      "date": "2026-10-16"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Montpellier",
+      "date": "2026-10-09"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Clermont Foot",
+      "date": "2026-09-18"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 499,
+    "name": "Reims",
+    "position": 4,
+    "played": 11,
+    "points": 21.0,
+    "record": "5V 6E 0D",
+    "goals_for": 22,
+    "goals_against": 12,
+    "last5": "WDWDD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Sochaux",
+      "date": "2026-11-02"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Boulogne",
+      "date": "2026-10-26"
+     },
+     {
+      "result": "W",
+      "score": "4-2",
+      "home": true,
+      "opponent": "Dijon",
+      "date": "2026-10-16"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Nantes",
+      "date": "2026-10-10"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Montpellier",
+      "date": "2026-09-18"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-06T16:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  }
+ ]
+}

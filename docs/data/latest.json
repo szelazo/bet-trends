@@ -1,105 +1,123 @@
 {
- "date": "2026-11-03",
- "generated_at": "2026-11-03T21:24:48.409186-03:00",
+ "date": "2026-11-04",
+ "generated_at": "2026-11-04T15:33:33.402776-03:00",
  "version": "0.1.0",
  "count": 3,
- "clear_count": 1,
- "day_total": 28,
+ "clear_count": 3,
+ "day_total": 32,
  "games": [
   {
-   "id": 4746060,
+   "id": 4746053,
    "s365_competition_id": 1,
    "competition_name": "Championship",
-   "start_time": "2026-11-03T19:45:00+00:00",
+   "start_time": "2026-11-04T19:45:00+00:00",
    "status_group": 2,
    "round": "Round",
    "home": {
-    "id": 23,
-    "name": "Preston"
+    "id": 75,
+    "name": "Wrexham"
    },
    "away": {
-    "id": 20,
-    "name": "Sheffield Utd"
+    "id": 115,
+    "name": "Middlesbrough"
    },
-   "home_score": 2.0,
-   "away_score": 3.0,
+   "home_score": -1.0,
+   "away_score": -1.0,
    "model": {
-    "lambda_home": 0.89,
-    "lambda_away": 1.73,
-    "expected_goals": 2.62,
+    "lambda_home": 1.22,
+    "lambda_away": 1.89,
+    "expected_goals": 3.11,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.1923,
-     "DRAW": 0.2364,
-     "AWAY": 0.5713,
-     "1X": 0.4287,
-     "X2": 0.8077,
-     "12": 0.7636,
-     "OVER25": 0.4869,
-     "UNDER25": 0.5131,
-     "BTTS_YES": 0.4856,
-     "BTTS_NO": 0.5144
+     "HOME": 0.2464,
+     "DRAW": 0.2244,
+     "AWAY": 0.5292,
+     "1X": 0.4708,
+     "X2": 0.7536,
+     "12": 0.7756,
+     "OVER25": 0.6019,
+     "UNDER25": 0.3981,
+     "BTTS_YES": 0.5995,
+     "BTTS_NO": 0.4005
     }
    },
    "pick": {
     "selection": "X2",
     "family": "double_chance",
-    "label": "Dupla chance: Sheffield Utd ou empate (X2)",
-    "model_prob": 0.8077,
+    "label": "Dupla chance: Middlesbrough ou empate (X2)",
+    "model_prob": 0.7536,
     "trend_alignment": 1.0,
-    "confidence": 68,
+    "confidence": 61,
     "eligible": true,
-    "odd": 1.27,
+    "odd": 1.19,
     "low_conviction": false
    },
    "alt_markets": [
     {
      "selection": "AWAY",
      "family": "1x2",
-     "label": "Vitória do Sheffield Utd",
-     "model_prob": 0.5713,
+     "label": "Vitória do Middlesbrough",
+     "model_prob": 0.5292,
      "trend_alignment": 1.0,
-     "confidence": 58,
+     "confidence": 54,
      "eligible": true,
-     "odd": 1.89
+     "odd": 1.6
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.4869,
-     "trend_alignment": 0.259,
-     "confidence": 9,
-     "eligible": false,
-     "odd": 1.89
+     "model_prob": 0.6019,
+     "trend_alignment": 0.58,
+     "confidence": 34,
+     "eligible": true,
+     "odd": 1.6
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.4856,
-     "trend_alignment": 0.259,
-     "confidence": 9,
+     "model_prob": 0.5995,
+     "trend_alignment": 0.58,
+     "confidence": 33,
      "eligible": false,
      "odd": null
     },
     {
-     "selection": "UNDER25",
-     "family": "over_under",
-     "label": "Menos de 2.5 gols",
-     "model_prob": 0.5131,
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Wrexham",
+     "model_prob": 0.2464,
      "trend_alignment": 0.0,
-     "confidence": 2,
+     "confidence": 0,
      "eligible": false,
-     "odd": 1.89
+     "odd": 4.72
     }
    ],
    "trends": [
     {
-     "label": "Perdeu 4 dos últimos 5",
-     "strength": 0.61,
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
      "favors": "AWAY",
-     "team": "Preston",
+     "team": "Middlesbrough",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "Middlesbrough",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Wrexham",
      "side": "HOME",
      "group": "geral",
      "kind": "losses"
@@ -108,49 +126,40 @@
      "label": "Sofreu gol em todos os últimos 5",
      "strength": 0.4,
      "favors": "OVER",
-     "team": "Preston",
+     "team": "Wrexham",
      "side": "HOME",
      "group": "geral",
      "kind": "always_concede"
     },
     {
-     "label": "Invicto em 4 dos últimos 5",
-     "strength": 0.48,
+     "label": "Só 1 derrota(s) em 13 jogos no campeonato",
+     "strength": 0.42,
      "favors": "AWAY",
-     "team": "Sheffield Utd",
+     "team": "Middlesbrough",
      "side": "AWAY",
-     "group": "geral",
-     "kind": "unbeaten"
-    },
-    {
-     "label": "Não sofreu gol em 3 dos últimos 5",
-     "strength": 0.39,
-     "favors": "UNDER",
-     "team": "Sheffield Utd",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "clean_sheets"
-    },
-    {
-     "label": "Pior defesa da liga (2.1 sofridos/jogo)",
-     "strength": 0.34,
-     "favors": "OVER",
-     "team": "Preston",
-     "side": "HOME",
      "group": "temporada",
-     "kind": "def_bottom"
+     "kind": "few_losses"
     },
     {
-     "label": "Não vence há 5+ jogos",
+     "label": "2º melhor ataque da liga (2.3 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "AWAY",
+     "team": "Middlesbrough",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
      "strength": 0.333,
      "favors": "AWAY",
-     "team": "Preston",
-     "side": "HOME",
+     "team": "Middlesbrough",
+     "side": "AWAY",
      "group": "sequencia",
-     "kind": "winless_streak"
+     "kind": "unbeaten_streak"
     },
     {
-     "label": "Preston é 24º · Sheffield Utd é 10º",
+     "label": "Wrexham é 19º · Middlesbrough é 1º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -159,7 +168,7 @@
      "kind": "positions"
     },
     {
-     "label": "Sheffield Utd está 14 posições à frente",
+     "label": "Middlesbrough está 18 posições à frente",
      "strength": 0.8,
      "favors": "AWAY",
      "team": null,
@@ -170,34 +179,52 @@
    ],
    "aligned_trends": [
     {
-     "label": "Perdeu 4 dos últimos 5",
-     "strength": 0.61,
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
      "favors": "AWAY",
-     "team": "Preston",
+     "team": "Middlesbrough",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Wrexham",
      "side": "HOME",
      "group": "geral",
      "kind": "losses"
     },
     {
-     "label": "Invicto em 4 dos últimos 5",
-     "strength": 0.48,
+     "label": "Só 1 derrota(s) em 13 jogos no campeonato",
+     "strength": 0.42,
      "favors": "AWAY",
-     "team": "Sheffield Utd",
+     "team": "Middlesbrough",
      "side": "AWAY",
-     "group": "geral",
-     "kind": "unbeaten"
+     "group": "temporada",
+     "kind": "few_losses"
     },
     {
-     "label": "Não vence há 5+ jogos",
+     "label": "2º melhor ataque da liga (2.3 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "AWAY",
+     "team": "Middlesbrough",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
      "strength": 0.333,
      "favors": "AWAY",
-     "team": "Preston",
-     "side": "HOME",
+     "team": "Middlesbrough",
+     "side": "AWAY",
      "group": "sequencia",
-     "kind": "winless_streak"
+     "kind": "unbeaten_streak"
     },
     {
-     "label": "Sheffield Utd está 14 posições à frente",
+     "label": "Middlesbrough está 18 posições à frente",
      "strength": 0.8,
      "favors": "AWAY",
      "team": null,
@@ -206,269 +233,233 @@
      "kind": "table_gap"
     }
    ],
-   "confidence": 68,
+   "confidence": 61,
    "league": {
     "key": "championship",
     "name": "Championship",
     "country": "Inglaterra"
    },
    "home_team": {
-    "id": 23,
-    "name": "Preston",
-    "position": 24,
+    "id": 75,
+    "name": "Wrexham",
+    "position": 19,
     "played": 13,
-    "points": 5.0,
-    "record": "1V 2E 10D",
-    "goals_for": 10,
-    "goals_against": 27,
-    "last5": "LDLLL",
+    "points": 14.0,
+    "record": "3V 5E 5D",
+    "goals_for": 15,
+    "goals_against": 19,
+    "last5": "LLWLD",
     "recent": [
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Sheffield Utd",
+      "date": "2026-10-30"
+     },
      {
       "result": "L",
       "score": "0-2",
       "home": false,
-      "opponent": "Stoke City",
-      "date": "2026-10-31"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": true,
-      "opponent": "West Brom",
+      "opponent": "Blackburn Rovers",
       "date": "2026-10-24"
      },
      {
-      "result": "L",
-      "score": "1-4",
-      "home": false,
-      "opponent": "Wrexham",
+      "result": "W",
+      "score": "4-1",
+      "home": true,
+      "opponent": "Preston",
       "date": "2026-10-17"
      },
      {
       "result": "L",
-      "score": "0-4",
-      "home": false,
-      "opponent": "Birmingham",
+      "score": "1-2",
+      "home": true,
+      "opponent": "West Brom",
       "date": "2026-10-13"
      },
      {
-      "result": "L",
-      "score": "0-1",
-      "home": true,
-      "opponent": "Millwall",
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Derby",
       "date": "2026-10-10"
      }
     ]
    },
    "away_team": {
-    "id": 20,
-    "name": "Sheffield Utd",
-    "position": 10,
+    "id": 115,
+    "name": "Middlesbrough",
+    "position": 1,
     "played": 13,
-    "points": 19.0,
-    "record": "5V 4E 4D",
-    "goals_for": 17,
-    "goals_against": 15,
-    "last5": "WDWLW",
+    "points": 28.0,
+    "record": "8V 4E 1D",
+    "goals_for": 30,
+    "goals_against": 17,
+    "last5": "WWDWW",
     "recent": [
-     {
-      "result": "W",
-      "score": "1-0",
-      "home": true,
-      "opponent": "Wrexham",
-      "date": "2026-10-30"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": true,
-      "opponent": "Derby",
-      "date": "2026-10-24"
-     },
-     {
-      "result": "W",
-      "score": "1-0",
-      "home": false,
-      "opponent": "Bristol City",
-      "date": "2026-10-17"
-     },
-     {
-      "result": "L",
-      "score": "2-3",
-      "home": false,
-      "opponent": "Portsmouth",
-      "date": "2026-10-14"
-     },
      {
       "result": "W",
       "score": "3-0",
       "home": true,
-      "opponent": "Lincoln",
+      "opponent": "Charlton",
+      "date": "2026-10-31"
+     },
+     {
+      "result": "W",
+      "score": "5-1",
+      "home": false,
+      "opponent": "Bolton",
+      "date": "2026-10-23"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "Cardiff",
+      "date": "2026-10-17"
+     },
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": false,
+      "opponent": "Stoke City",
+      "date": "2026-10-13"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Wolves",
       "date": "2026-10-10"
      }
     ]
    },
-   "kickoff_local": "2026-11-03T16:45:00-03:00",
+   "kickoff_local": "2026-11-04T16:45:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "hit",
+   "result": "pending",
    "clear": true
   },
   {
-   "id": 4764230,
-   "s365_competition_id": 621,
-   "competition_name": "Copa de Primera - Clausura",
-   "start_time": "2026-11-03T22:30:00+00:00",
+   "id": 4828439,
+   "s365_competition_id": 572,
+   "competition_name": "UEFA Champions League",
+   "start_time": "2026-11-04T17:45:00+00:00",
    "status_group": 2,
    "round": "Round",
    "home": {
-    "id": 1280,
-    "name": "Club Nacional"
+    "id": 1024,
+    "name": "AEK Athens"
    },
    "away": {
-    "id": 14634,
-    "name": "CS San Lorenzo"
+    "id": 131,
+    "name": "Real Madrid"
    },
-   "home_score": 0.0,
-   "away_score": 2.0,
+   "home_score": -1.0,
+   "away_score": -1.0,
    "model": {
-    "lambda_home": 2.06,
-    "lambda_away": 0.64,
-    "expected_goals": 2.7,
-    "sample_factor": 1.0,
+    "lambda_home": 1.48,
+    "lambda_away": 2.78,
+    "expected_goals": 4.25,
+    "sample_factor": 0.6,
     "probs": {
-     "HOME": 0.7051,
-     "DRAW": 0.1901,
-     "AWAY": 0.1048,
-     "1X": 0.8952,
-     "X2": 0.2949,
-     "12": 0.8099,
-     "OVER25": 0.507,
-     "UNDER25": 0.493,
-     "BTTS_YES": 0.4143,
-     "BTTS_NO": 0.5857
+     "HOME": 0.1854,
+     "DRAW": 0.1683,
+     "AWAY": 0.6464,
+     "1X": 0.3536,
+     "X2": 0.8146,
+     "12": 0.8317,
+     "OVER25": 0.7962,
+     "UNDER25": 0.2038,
+     "BTTS_YES": 0.7237,
+     "BTTS_NO": 0.2763
     }
    },
    "pick": {
-    "selection": "HOME",
+    "selection": "AWAY",
     "family": "1x2",
-    "label": "Vitória do Club Nacional",
-    "model_prob": 0.7051,
+    "label": "Vitória do Real Madrid",
+    "model_prob": 0.6464,
     "trend_alignment": 1.0,
-    "confidence": 80,
+    "confidence": 41,
     "eligible": true,
-    "odd": 1.3,
+    "odd": 1.2,
     "low_conviction": false
    },
    "alt_markets": [
     {
-     "selection": "1X",
+     "selection": "X2",
      "family": "double_chance",
-     "label": "Dupla chance: Club Nacional ou empate (1X)",
-     "model_prob": 0.8952,
+     "label": "Dupla chance: Real Madrid ou empate (X2)",
+     "model_prob": 0.8146,
      "trend_alignment": 1.0,
-     "confidence": 80,
+     "confidence": 41,
      "eligible": true,
-     "odd": 1.07
+     "odd": 1.05
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.507,
-     "trend_alignment": 0.278,
-     "confidence": 11,
-     "eligible": false,
-     "odd": 1.65
-    },
-    {
-     "selection": "BTTS_NO",
-     "family": "btts",
-     "label": "Ambos marcam: não",
-     "model_prob": 0.5857,
-     "trend_alignment": 0.0,
-     "confidence": 11,
-     "eligible": false,
-     "odd": null
+     "model_prob": 0.7962,
+     "trend_alignment": 0.367,
+     "confidence": 31,
+     "eligible": true,
+     "odd": 1.72
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.4143,
-     "trend_alignment": 0.278,
-     "confidence": 10,
-     "eligible": false,
+     "model_prob": 0.7237,
+     "trend_alignment": 0.367,
+     "confidence": 25,
+     "eligible": true,
      "odd": null
+    },
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do AEK Athens",
+     "model_prob": 0.1854,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 11.0
     }
    ],
    "trends": [
     {
-     "label": "Melhor defesa da liga (0.5 sofridos/jogo)",
-     "strength": 0.5,
-     "favors": "HOME",
-     "team": "Club Nacional",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "def_rank"
+     "label": "6 vitórias seguidas",
+     "strength": 1.0,
+     "favors": "AWAY",
+     "team": "Real Madrid",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "win_streak"
     },
     {
-     "label": "3º melhor ataque da liga (1.5 marcados/jogo)",
-     "strength": 0.32,
-     "favors": "HOME",
-     "team": "Club Nacional",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "atk_rank"
-    },
-    {
-     "label": "Ambos marcaram em 5 dos últimos 5",
-     "strength": 0.5,
-     "favors": "BTTS_YES",
-     "team": "CS San Lorenzo",
+     "label": "Venceu 6 dos últimos 6",
+     "strength": 0.75,
+     "favors": "AWAY",
+     "team": "Real Madrid",
      "side": "AWAY",
      "group": "geral",
-     "kind": "btts"
+     "kind": "wins"
     },
     {
-     "label": "Só venceu 1 dos últimos 5",
-     "strength": 0.48,
-     "favors": "HOME",
-     "team": "CS San Lorenzo",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "winless"
-    },
-    {
-     "label": "Invicto em 4 dos últimos 5",
-     "strength": 0.48,
-     "favors": "HOME",
-     "team": "Club Nacional",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "unbeaten"
-    },
-    {
-     "label": "Menos de 2.5 gols em 4 dos últimos 5",
-     "strength": 0.47,
-     "favors": "UNDER",
-     "team": "Club Nacional",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "under"
-    },
-    {
-     "label": "Pior defesa da liga (1.8 sofridos/jogo)",
-     "strength": 0.34,
+     "label": "Mais de 2.5 gols em 6 dos últimos 6",
+     "strength": 0.55,
      "favors": "OVER",
-     "team": "CS San Lorenzo",
+     "team": "Real Madrid",
      "side": "AWAY",
-     "group": "temporada",
-     "kind": "def_bottom"
+     "group": "geral",
+     "kind": "over"
     },
     {
-     "label": "Club Nacional é 2º · CS San Lorenzo é 12º",
+     "label": "AEK Athens é 27º · Real Madrid é 5º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -477,9 +468,9 @@
      "kind": "positions"
     },
     {
-     "label": "Club Nacional está 10 posições à frente",
-     "strength": 0.714,
-     "favors": "HOME",
+     "label": "Real Madrid está 22 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
      "team": null,
      "side": null,
      "group": "confronto",
@@ -488,288 +479,278 @@
    ],
    "aligned_trends": [
     {
-     "label": "Melhor defesa da liga (0.5 sofridos/jogo)",
-     "strength": 0.5,
-     "favors": "HOME",
-     "team": "Club Nacional",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "def_rank"
+     "label": "6 vitórias seguidas",
+     "strength": 1.0,
+     "favors": "AWAY",
+     "team": "Real Madrid",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "win_streak"
     },
     {
-     "label": "3º melhor ataque da liga (1.5 marcados/jogo)",
-     "strength": 0.32,
-     "favors": "HOME",
-     "team": "Club Nacional",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "atk_rank"
-    },
-    {
-     "label": "Só venceu 1 dos últimos 5",
-     "strength": 0.48,
-     "favors": "HOME",
-     "team": "CS San Lorenzo",
+     "label": "Venceu 6 dos últimos 6",
+     "strength": 0.75,
+     "favors": "AWAY",
+     "team": "Real Madrid",
      "side": "AWAY",
      "group": "geral",
-     "kind": "winless"
+     "kind": "wins"
     },
     {
-     "label": "Invicto em 4 dos últimos 5",
-     "strength": 0.48,
-     "favors": "HOME",
-     "team": "Club Nacional",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "unbeaten"
-    },
-    {
-     "label": "Club Nacional está 10 posições à frente",
-     "strength": 0.714,
-     "favors": "HOME",
+     "label": "Real Madrid está 22 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
      "team": null,
      "side": null,
      "group": "confronto",
      "kind": "table_gap"
     }
    ],
-   "confidence": 80,
+   "confidence": 41,
    "league": {
-    "key": "py_primera",
-    "name": "Copa de Primera",
-    "country": "Paraguai"
+    "key": "ucl",
+    "name": "UEFA Champions League",
+    "country": "Europa"
    },
    "home_team": {
-    "id": 1280,
-    "name": "Club Nacional",
-    "position": 2,
-    "played": 17,
-    "points": 32.0,
-    "record": "9V 5E 3D",
-    "goals_for": 26,
-    "goals_against": 9,
-    "last5": "WLWWD",
+    "id": 1024,
+    "name": "AEK Athens",
+    "position": 27,
+    "played": 3,
+    "points": 3.0,
+    "record": "1V 0E 2D",
+    "goals_for": 3,
+    "goals_against": 8,
+    "last5": "LWLDL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Panathinaikos",
+      "date": "2026-11-01"
+     },
+     {
+      "result": "W",
+      "score": "5-0",
+      "home": true,
+      "opponent": "Panetolikos",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "L",
+      "score": "1-5",
+      "home": false,
+      "opponent": "Manchester City",
+      "date": "2026-10-20"
+     },
+     {
+      "result": "D",
+      "score": "-1--1",
+      "home": false,
+      "opponent": "Atromitos Athinon",
+      "date": "2026-10-17"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": false,
+      "opponent": "Shakhtar Donetsk",
+      "date": "2026-10-14"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 131,
+    "name": "Real Madrid",
+    "position": 5,
+    "played": 3,
+    "points": 9.0,
+    "record": "3V 0E 0D",
+    "goals_for": 10,
+    "goals_against": 5,
+    "last5": "WWWWW",
     "recent": [
      {
       "result": "W",
       "score": "3-0",
       "home": false,
-      "opponent": "Sportivo Luqueño",
-      "date": "2026-10-31"
+      "opponent": "Racing Santander",
+      "date": "2026-11-01"
      },
-     {
-      "result": "L",
-      "score": "0-1",
-      "home": true,
-      "opponent": "Sportivo Trinidense",
-      "date": "2026-10-24"
-     },
-     {
-      "result": "W",
-      "score": "2-0",
-      "home": false,
-      "opponent": "Club Guarani",
-      "date": "2026-10-17"
-     },
-     {
-      "result": "W",
-      "score": "1-0",
-      "home": true,
-      "opponent": "Recoleta FC",
-      "date": "2026-10-12"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": false,
-      "opponent": "Olimpia",
-      "date": "2026-10-06"
-     }
-    ]
-   },
-   "away_team": {
-    "id": 14634,
-    "name": "CS San Lorenzo",
-    "position": 12,
-    "played": 17,
-    "points": 7.0,
-    "record": "1V 4E 12D",
-    "goals_for": 10,
-    "goals_against": 30,
-    "last5": "WLLDD",
-    "recent": [
      {
       "result": "W",
       "score": "2-1",
-      "home": true,
-      "opponent": "Libertad",
-      "date": "2026-10-31"
-     },
-     {
-      "result": "L",
-      "score": "1-3",
-      "home": true,
-      "opponent": "Cerro Porteño",
+      "home": false,
+      "opponent": "FC Barcelona",
       "date": "2026-10-25"
      },
      {
-      "result": "L",
-      "score": "2-3",
-      "home": false,
-      "opponent": "Sportivo Luqueño",
+      "result": "W",
+      "score": "4-1",
+      "home": true,
+      "opponent": "RB Leipzig",
+      "date": "2026-10-21"
+     },
+     {
+      "result": "W",
+      "score": "4-1",
+      "home": true,
+      "opponent": "Sevilla",
       "date": "2026-10-18"
      },
      {
-      "result": "D",
-      "score": "1-1",
-      "home": true,
-      "opponent": "Sportivo Trinidense",
-      "date": "2026-10-10"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
+      "result": "W",
+      "score": "4-3",
       "home": false,
-      "opponent": "Club Guarani",
-      "date": "2026-10-03"
+      "opponent": "AS Roma",
+      "date": "2026-10-14"
      }
     ]
    },
-   "kickoff_local": "2026-11-03T19:30:00-03:00",
+   "kickoff_local": "2026-11-04T14:45:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "miss",
-   "clear": false,
-   "below_bar": true
+   "result": "pending",
+   "clear": true
   },
   {
-   "id": 4746064,
-   "s365_competition_id": 1,
-   "competition_name": "Championship",
-   "start_time": "2026-11-03T20:00:00+00:00",
+   "id": 4828437,
+   "s365_competition_id": 572,
+   "competition_name": "UEFA Champions League",
+   "start_time": "2026-11-04T17:45:00+00:00",
    "status_group": 2,
    "round": "Round",
    "home": {
-    "id": 1,
-    "name": "Birmingham"
+    "id": 946,
+    "name": "Fenerbahçe SK"
    },
    "away": {
-    "id": 45,
-    "name": "Millwall"
+    "id": 108,
+    "name": "Liverpool"
    },
-   "home_score": 3.0,
-   "away_score": 0.0,
+   "home_score": -1.0,
+   "away_score": -1.0,
    "model": {
-    "lambda_home": 2.0,
-    "lambda_away": 1.0,
-    "expected_goals": 3.0,
-    "sample_factor": 1.0,
+    "lambda_home": 1.69,
+    "lambda_away": 2.9,
+    "expected_goals": 4.59,
+    "sample_factor": 0.6,
     "probs": {
-     "HOME": 0.605,
-     "DRAW": 0.2121,
-     "AWAY": 0.183,
-     "1X": 0.817,
-     "X2": 0.395,
-     "12": 0.7879,
-     "OVER25": 0.5758,
-     "UNDER25": 0.4242,
-     "BTTS_YES": 0.5461,
-     "BTTS_NO": 0.4539
+     "HOME": 0.2067,
+     "DRAW": 0.167,
+     "AWAY": 0.6263,
+     "1X": 0.3737,
+     "X2": 0.7933,
+     "12": 0.833,
+     "OVER25": 0.8353,
+     "UNDER25": 0.1647,
+     "BTTS_YES": 0.7698,
+     "BTTS_NO": 0.2302
     }
    },
    "pick": {
-    "selection": "1X",
-    "family": "double_chance",
-    "label": "Dupla chance: Birmingham ou empate (1X)",
-    "model_prob": 0.817,
+    "selection": "AWAY",
+    "family": "1x2",
+    "label": "Vitória do Liverpool",
+    "model_prob": 0.6263,
     "trend_alignment": 1.0,
-    "confidence": 69,
+    "confidence": 40,
     "eligible": true,
-    "odd": 1.28,
+    "odd": 1.46,
     "low_conviction": false
    },
    "alt_markets": [
     {
-     "selection": "HOME",
-     "family": "1x2",
-     "label": "Vitória do Birmingham",
-     "model_prob": 0.605,
+     "selection": "X2",
+     "family": "double_chance",
+     "label": "Dupla chance: Liverpool ou empate (X2)",
+     "model_prob": 0.7933,
      "trend_alignment": 1.0,
-     "confidence": 61,
+     "confidence": 40,
      "eligible": true,
-     "odd": 1.86
+     "odd": 1.14
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.5758,
-     "trend_alignment": 0.0,
-     "confidence": 10,
-     "eligible": false,
-     "odd": 1.71
+     "model_prob": 0.8353,
+     "trend_alignment": 0.622,
+     "confidence": 39,
+     "eligible": true,
+     "odd": 1.98
     },
     {
-     "selection": "UNDER25",
-     "family": "over_under",
-     "label": "Menos de 2.5 gols",
-     "model_prob": 0.4242,
-     "trend_alignment": 0.26,
-     "confidence": 9,
-     "eligible": false,
-     "odd": 2.08
-    },
-    {
-     "selection": "BTTS_NO",
+     "selection": "BTTS_YES",
      "family": "btts",
-     "label": "Ambos marcam: não",
-     "model_prob": 0.4539,
-     "trend_alignment": 0.26,
-     "confidence": 9,
-     "eligible": false,
+     "label": "Ambos os times marcam",
+     "model_prob": 0.7698,
+     "trend_alignment": 0.622,
+     "confidence": 34,
+     "eligible": true,
      "odd": null
+    },
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Fenerbahçe SK",
+     "model_prob": 0.2067,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 6.0
     }
    ],
    "trends": [
     {
-     "label": "Venceu 4 dos últimos 5",
-     "strength": 0.65,
-     "favors": "HOME",
-     "team": "Birmingham",
-     "side": "HOME",
+     "label": "Venceu 5 dos últimos 6",
+     "strength": 0.667,
+     "favors": "AWAY",
+     "team": "Liverpool",
+     "side": "AWAY",
      "group": "geral",
      "kind": "wins"
     },
     {
-     "label": "Não sofreu gol em 3 dos últimos 5",
-     "strength": 0.39,
-     "favors": "UNDER",
-     "team": "Birmingham",
+     "label": "Só venceu 1 dos últimos 6",
+     "strength": 0.492,
+     "favors": "AWAY",
+     "team": "Fenerbahçe SK",
      "side": "HOME",
      "group": "geral",
-     "kind": "clean_sheets"
+     "kind": "winless"
     },
     {
-     "label": "3ª melhor defesa da liga (1.0 sofridos/jogo)",
-     "strength": 0.36,
-     "favors": "HOME",
-     "team": "Birmingham",
+     "label": "Mais de 2.5 gols em 5 dos últimos 6",
+     "strength": 0.483,
+     "favors": "OVER",
+     "team": "Fenerbahçe SK",
      "side": "HOME",
-     "group": "temporada",
-     "kind": "def_rank"
+     "group": "geral",
+     "kind": "over"
     },
     {
-     "label": "Só 2 derrota(s) em 13 jogos no campeonato",
-     "strength": 0.34,
+     "label": "Invicto em 3 dos últimos 4 em casa",
+     "strength": 0.462,
      "favors": "HOME",
-     "team": "Birmingham",
+     "team": "Fenerbahçe SK",
      "side": "HOME",
-     "group": "temporada",
-     "kind": "few_losses"
+     "group": "casa_fora",
+     "kind": "unbeaten"
     },
     {
-     "label": "Birmingham é 6º · Millwall é 12º",
+     "label": "Mais de 2.5 gols em 3 dos últimos 4 em casa",
+     "strength": 0.45,
+     "favors": "OVER",
+     "team": "Fenerbahçe SK",
+     "side": "HOME",
+     "group": "casa_fora",
+     "kind": "over"
+    },
+    {
+     "label": "Fenerbahçe SK é 31º · Liverpool é 4º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -778,9 +759,9 @@
      "kind": "positions"
     },
     {
-     "label": "Birmingham está 6 posições à frente",
-     "strength": 0.429,
-     "favors": "HOME",
+     "label": "Liverpool está 27 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
      "team": null,
      "side": null,
      "group": "confronto",
@@ -789,151 +770,141 @@
    ],
    "aligned_trends": [
     {
-     "label": "Venceu 4 dos últimos 5",
-     "strength": 0.65,
-     "favors": "HOME",
-     "team": "Birmingham",
-     "side": "HOME",
+     "label": "Venceu 5 dos últimos 6",
+     "strength": 0.667,
+     "favors": "AWAY",
+     "team": "Liverpool",
+     "side": "AWAY",
      "group": "geral",
      "kind": "wins"
     },
     {
-     "label": "3ª melhor defesa da liga (1.0 sofridos/jogo)",
-     "strength": 0.36,
-     "favors": "HOME",
-     "team": "Birmingham",
+     "label": "Só venceu 1 dos últimos 6",
+     "strength": 0.492,
+     "favors": "AWAY",
+     "team": "Fenerbahçe SK",
      "side": "HOME",
-     "group": "temporada",
-     "kind": "def_rank"
+     "group": "geral",
+     "kind": "winless"
     },
     {
-     "label": "Só 2 derrota(s) em 13 jogos no campeonato",
-     "strength": 0.34,
-     "favors": "HOME",
-     "team": "Birmingham",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "few_losses"
-    },
-    {
-     "label": "Birmingham está 6 posições à frente",
-     "strength": 0.429,
-     "favors": "HOME",
+     "label": "Liverpool está 27 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
      "team": null,
      "side": null,
      "group": "confronto",
      "kind": "table_gap"
     }
    ],
-   "confidence": 69,
+   "confidence": 40,
    "league": {
-    "key": "championship",
-    "name": "Championship",
-    "country": "Inglaterra"
+    "key": "ucl",
+    "name": "UEFA Champions League",
+    "country": "Europa"
    },
    "home_team": {
-    "id": 1,
-    "name": "Birmingham",
-    "position": 6,
-    "played": 13,
-    "points": 23.0,
-    "record": "6V 5E 2D",
-    "goals_for": 23,
-    "goals_against": 13,
-    "last5": "WLWWW",
+    "id": 946,
+    "name": "Fenerbahçe SK",
+    "position": 31,
+    "played": 3,
+    "points": 2.0,
+    "record": "0V 2E 1D",
+    "goals_for": 3,
+    "goals_against": 9,
+    "last5": "LLDWL",
     "recent": [
-     {
-      "result": "W",
-      "score": "3-1",
-      "home": false,
-      "opponent": "Lincoln",
-      "date": "2026-10-31"
-     },
      {
       "result": "L",
-      "score": "0-1",
-      "home": false,
-      "opponent": "Cardiff",
-      "date": "2026-10-24"
-     },
-     {
-      "result": "W",
-      "score": "3-0",
+      "score": "1-2",
       "home": true,
-      "opponent": "QPR",
-      "date": "2026-10-17"
-     },
-     {
-      "result": "W",
-      "score": "4-0",
-      "home": true,
-      "opponent": "Preston",
-      "date": "2026-10-13"
-     },
-     {
-      "result": "W",
-      "score": "1-0",
-      "home": false,
-      "opponent": "West Brom",
-      "date": "2026-10-10"
-     }
-    ]
-   },
-   "away_team": {
-    "id": 45,
-    "name": "Millwall",
-    "position": 12,
-    "played": 13,
-    "points": 18.0,
-    "record": "5V 3E 5D",
-    "goals_for": 23,
-    "goals_against": 21,
-    "last5": "WLDLW",
-    "recent": [
-     {
-      "result": "W",
-      "score": "4-1",
-      "home": true,
-      "opponent": "Derby",
+      "opponent": "Goztepe",
       "date": "2026-10-31"
      },
      {
       "result": "L",
       "score": "1-2",
       "home": false,
-      "opponent": "Portsmouth",
-      "date": "2026-10-24"
+      "opponent": "Galatasaray",
+      "date": "2026-10-26"
      },
      {
       "result": "D",
       "score": "2-2",
       "home": true,
-      "opponent": "Lincoln",
+      "opponent": "Slavia Praha",
+      "date": "2026-10-20"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "Alanyaspor",
       "date": "2026-10-17"
      },
      {
       "result": "L",
-      "score": "0-1",
-      "home": true,
-      "opponent": "Swansea",
-      "date": "2026-10-13"
-     },
-     {
-      "result": "W",
-      "score": "1-0",
+      "score": "0-6",
       "home": false,
-      "opponent": "Preston",
-      "date": "2026-10-10"
+      "opponent": "Aston Villa",
+      "date": "2026-10-14"
      }
     ]
    },
-   "kickoff_local": "2026-11-03T17:00:00-03:00",
+   "away_team": {
+    "id": 108,
+    "name": "Liverpool",
+    "position": 4,
+    "played": 3,
+    "points": 9.0,
+    "record": "3V 0E 0D",
+    "goals_for": 12,
+    "goals_against": 7,
+    "last5": "LWWWW",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Arsenal",
+      "date": "2026-11-01"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Brighton",
+      "date": "2026-10-25"
+     },
+     {
+      "result": "W",
+      "score": "4-3",
+      "home": true,
+      "opponent": "Villarreal",
+      "date": "2026-10-20"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Brentford",
+      "date": "2026-10-17"
+     },
+     {
+      "result": "W",
+      "score": "6-3",
+      "home": false,
+      "opponent": "LASK Linz",
+      "date": "2026-10-14"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-04T14:45:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "hit",
-   "clear": false,
-   "below_bar": true
+   "result": "pending",
+   "clear": true
   }
  ]
 }

@@ -1,10 +1,10 @@
 {
  "date": "2026-11-05",
- "generated_at": "2026-11-03T21:24:49.916680-03:00",
+ "generated_at": "2026-11-04T15:33:34.188325-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 1,
- "day_total": 44,
+ "day_total": 43,
  "games": [
   {
    "id": 4828899,
@@ -317,19 +317,19 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 1.73,
+    "lambda_home": 1.74,
     "lambda_away": 0.65,
     "expected_goals": 2.38,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.636,
-     "DRAW": 0.2293,
-     "AWAY": 0.1347,
-     "1X": 0.8653,
-     "X2": 0.364,
-     "12": 0.7707,
-     "OVER25": 0.4253,
-     "UNDER25": 0.5747,
+     "HOME": 0.6365,
+     "DRAW": 0.2291,
+     "AWAY": 0.1344,
+     "1X": 0.8656,
+     "X2": 0.3635,
+     "12": 0.7709,
+     "OVER25": 0.4257,
+     "UNDER25": 0.5743,
      "BTTS_YES": 0.3926,
      "BTTS_NO": 0.6074
     }
@@ -338,7 +338,7 @@
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Palmeiras",
-    "model_prob": 0.636,
+    "model_prob": 0.6365,
     "trend_alignment": 1.0,
     "confidence": 76,
     "eligible": true,
@@ -350,7 +350,7 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Palmeiras ou empate (1X)",
-     "model_prob": 0.8653,
+     "model_prob": 0.8656,
      "trend_alignment": 1.0,
      "confidence": 76,
      "eligible": true,
@@ -370,7 +370,7 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.5747,
+     "model_prob": 0.5743,
      "trend_alignment": 0.751,
      "confidence": 36,
      "eligible": false,
@@ -380,7 +380,7 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Remo",
-     "model_prob": 0.1347,
+     "model_prob": 0.1344,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
@@ -706,7 +706,7 @@
     "trend_alignment": 1.0,
     "confidence": 64,
     "eligible": true,
-    "odd": 1.07,
+    "odd": 1.09,
     "low_conviction": false
    },
    "alt_markets": [
@@ -718,7 +718,7 @@
      "trend_alignment": 1.0,
      "confidence": 51,
      "eligible": true,
-     "odd": 1.36
+     "odd": 1.4
     },
     {
      "selection": "UNDER25",
@@ -748,7 +748,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 9.0
+     "odd": 8.0
     }
    ],
    "trends": [
