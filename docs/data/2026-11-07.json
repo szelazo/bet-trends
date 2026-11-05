@@ -1,0 +1,1753 @@
+{
+ "date": "2026-11-07",
+ "generated_at": "2026-11-05T15:39:35.650584-03:00",
+ "version": "0.1.0",
+ "count": 5,
+ "clear_count": 5,
+ "day_total": 169,
+ "games": [
+  {
+   "id": 4735212,
+   "s365_competition_id": 35,
+   "competition_name": "Ligue 1",
+   "start_time": "2026-11-07T20:05:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 480,
+    "name": "PSG"
+   },
+   "away": {
+    "id": 488,
+    "name": "Troyes"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.6,
+    "lambda_away": 0.69,
+    "expected_goals": 3.29,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.7824,
+     "DRAW": 0.1411,
+     "AWAY": 0.0765,
+     "1X": 0.9235,
+     "X2": 0.2176,
+     "12": 0.8589,
+     "OVER25": 0.6389,
+     "UNDER25": 0.3611,
+     "BTTS_YES": 0.4628,
+     "BTTS_NO": 0.5372
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do PSG",
+    "model_prob": 0.7824,
+    "trend_alignment": 1.0,
+    "confidence": 84,
+    "eligible": true,
+    "odd": 1.09,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: PSG ou empate (1X)",
+     "model_prob": 0.9235,
+     "trend_alignment": 1.0,
+     "confidence": 84,
+     "eligible": true,
+     "odd": 1.01
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6389,
+     "trend_alignment": 0.047,
+     "confidence": 20,
+     "eligible": true,
+     "odd": 1.66
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5372,
+     "trend_alignment": 0.018,
+     "confidence": 5,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.4628,
+     "trend_alignment": 0.047,
+     "confidence": 2,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "7 vitórias seguidas",
+     "strength": 1.0,
+     "favors": "HOME",
+     "team": "PSG",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 7 dos últimos 7",
+     "strength": 0.75,
+     "favors": "HOME",
+     "team": "PSG",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Mais de 2.5 gols em 6 dos últimos 7",
+     "strength": 0.493,
+     "favors": "OVER",
+     "team": "PSG",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Troyes",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Menos de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "UNDER",
+     "team": "Troyes",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "under"
+    },
+    {
+     "label": "Melhor ataque da liga (2.3 marcados/jogo)",
+     "strength": 0.44,
+     "favors": "HOME",
+     "team": "PSG",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "PSG é 1º · Troyes é 16º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "PSG está 15 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "7 vitórias seguidas",
+     "strength": 1.0,
+     "favors": "HOME",
+     "team": "PSG",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 7 dos últimos 7",
+     "strength": 0.75,
+     "favors": "HOME",
+     "team": "PSG",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Troyes",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Melhor ataque da liga (2.3 marcados/jogo)",
+     "strength": 0.44,
+     "favors": "HOME",
+     "team": "PSG",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "PSG está 15 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 84,
+   "league": {
+    "key": "ligue1",
+    "name": "Ligue 1",
+    "country": "França"
+   },
+   "home_team": {
+    "id": 480,
+    "name": "PSG",
+    "position": 1,
+    "played": 9,
+    "points": 20.0,
+    "record": "6V 2E 1D",
+    "goals_for": 21,
+    "goals_against": 10,
+    "last5": "WWWWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "6-0",
+      "home": false,
+      "opponent": "Villarreal",
+      "date": "2026-11-03"
+     },
+     {
+      "result": "W",
+      "score": "5-1",
+      "home": false,
+      "opponent": "Le Havre",
+      "date": "2026-10-30"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Lyon",
+      "date": "2026-10-26"
+     },
+     {
+      "result": "W",
+      "score": "4-2",
+      "home": true,
+      "opponent": "FC Barcelona",
+      "date": "2026-10-20"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": false,
+      "opponent": "Strasbourg",
+      "date": "2026-10-17"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 488,
+    "name": "Troyes",
+    "position": 16,
+    "played": 9,
+    "points": 8.0,
+    "record": "2V 2E 5D",
+    "goals_for": 7,
+    "goals_against": 16,
+    "last5": "WDLLL",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Le Mans",
+      "date": "2026-10-31"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Toulouse",
+      "date": "2026-10-25"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": true,
+      "opponent": "Lens",
+      "date": "2026-10-17"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": true,
+      "opponent": "Olympique de Marseille",
+      "date": "2026-10-11"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Angers",
+      "date": "2026-09-19"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-07T17:05:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4732633,
+   "s365_competition_id": 17,
+   "competition_name": "Serie A",
+   "start_time": "2026-11-07T19:45:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 225,
+    "name": "AS Roma"
+   },
+   "away": {
+    "id": 266,
+    "name": "Sassuolo"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.9,
+    "lambda_away": 1.13,
+    "expected_goals": 4.03,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.7349,
+     "DRAW": 0.1457,
+     "AWAY": 0.1194,
+     "1X": 0.8806,
+     "X2": 0.2651,
+     "12": 0.8543,
+     "OVER25": 0.7657,
+     "UNDER25": 0.2343,
+     "BTTS_YES": 0.6399,
+     "BTTS_NO": 0.3601
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do AS Roma",
+    "model_prob": 0.7349,
+    "trend_alignment": 1.0,
+    "confidence": 78,
+    "eligible": true,
+    "odd": 1.29,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: AS Roma ou empate (1X)",
+     "model_prob": 0.8806,
+     "trend_alignment": 1.0,
+     "confidence": 78,
+     "eligible": true,
+     "odd": 1.07
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.7657,
+     "trend_alignment": 0.804,
+     "confidence": 63,
+     "eligible": true,
+     "odd": 1.9
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.6399,
+     "trend_alignment": 0.804,
+     "confidence": 46,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Sassuolo",
+     "model_prob": 0.1194,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 9.0
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "HOME",
+     "team": "Sassuolo",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Ambos marcaram em 4 dos últimos 5",
+     "strength": 0.43,
+     "favors": "BTTS_YES",
+     "team": "Sassuolo",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "btts"
+    },
+    {
+     "label": "Invicto em 6 dos últimos 7",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "AS Roma",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Mais de 2.5 gols em 5 dos últimos 7",
+     "strength": 0.436,
+     "favors": "OVER",
+     "team": "AS Roma",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Só 0 derrota(s) em 10 jogos no campeonato",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "AS Roma",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Melhor ataque da liga (2.8 marcados/jogo)",
+     "strength": 0.44,
+     "favors": "HOME",
+     "team": "AS Roma",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "3ª melhor defesa da liga (1.0 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "HOME",
+     "team": "AS Roma",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Pior defesa da liga (2.6 sofridos/jogo)",
+     "strength": 0.34,
+     "favors": "OVER",
+     "team": "Sassuolo",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_bottom"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Sassuolo",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "AS Roma é 3º · Sassuolo é 17º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "AS Roma está 14 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "HOME",
+     "team": "Sassuolo",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto em 6 dos últimos 7",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "AS Roma",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Só 0 derrota(s) em 10 jogos no campeonato",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "AS Roma",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Melhor ataque da liga (2.8 marcados/jogo)",
+     "strength": 0.44,
+     "favors": "HOME",
+     "team": "AS Roma",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "3ª melhor defesa da liga (1.0 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "HOME",
+     "team": "AS Roma",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Sassuolo",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "AS Roma está 14 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 78,
+   "league": {
+    "key": "serie_a_ita",
+    "name": "Serie A",
+    "country": "Itália"
+   },
+   "home_team": {
+    "id": 225,
+    "name": "AS Roma",
+    "position": 3,
+    "played": 10,
+    "points": 24.0,
+    "record": "7V 3E 0D",
+    "goals_for": 28,
+    "goals_against": 10,
+    "last5": "LWWDW",
+    "recent": [
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": false,
+      "opponent": "Manchester United",
+      "date": "2026-11-03"
+     },
+     {
+      "result": "W",
+      "score": "5-2",
+      "home": false,
+      "opponent": "Udinese",
+      "date": "2026-10-31"
+     },
+     {
+      "result": "W",
+      "score": "4-2",
+      "home": true,
+      "opponent": "Cagliari",
+      "date": "2026-10-27"
+     },
+     {
+      "result": "D",
+      "score": "3-3",
+      "home": false,
+      "opponent": "Napoli",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "W",
+      "score": "4-0",
+      "home": true,
+      "opponent": "Slovan Bratislava",
+      "date": "2026-10-20"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 266,
+    "name": "Sassuolo",
+    "position": 17,
+    "played": 10,
+    "points": 8.0,
+    "record": "2V 2E 6D",
+    "goals_for": 16,
+    "goals_against": 26,
+    "last5": "LLLLD",
+    "recent": [
+     {
+      "result": "L",
+      "score": "2-4",
+      "home": true,
+      "opponent": "Fiorentina",
+      "date": "2026-11-02"
+     },
+     {
+      "result": "L",
+      "score": "2-6",
+      "home": true,
+      "opponent": "Lazio",
+      "date": "2026-10-27"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Como",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "L",
+      "score": "2-4",
+      "home": false,
+      "opponent": "Frosinone",
+      "date": "2026-10-16"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "AC Milan",
+      "date": "2026-10-11"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-07T16:45:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4746045,
+   "s365_competition_id": 1,
+   "competition_name": "Championship",
+   "start_time": "2026-11-07T15:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 23,
+    "name": "Preston"
+   },
+   "away": {
+    "id": 21,
+    "name": "Southampton"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 0.84,
+    "lambda_away": 2.28,
+    "expected_goals": 3.13,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.1231,
+     "DRAW": 0.1789,
+     "AWAY": 0.698,
+     "1X": 0.302,
+     "X2": 0.8769,
+     "12": 0.8211,
+     "OVER25": 0.6047,
+     "UNDER25": 0.3953,
+     "BTTS_YES": 0.512,
+     "BTTS_NO": 0.488
+    }
+   },
+   "pick": {
+    "selection": "AWAY",
+    "family": "1x2",
+    "label": "Vitória do Southampton",
+    "model_prob": 0.698,
+    "trend_alignment": 1.0,
+    "confidence": 77,
+    "eligible": true,
+    "odd": 1.6,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "X2",
+     "family": "double_chance",
+     "label": "Dupla chance: Southampton ou empate (X2)",
+     "model_prob": 0.8769,
+     "trend_alignment": 1.0,
+     "confidence": 77,
+     "eligible": true,
+     "odd": 1.19
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6047,
+     "trend_alignment": 0.493,
+     "confidence": 31,
+     "eligible": true,
+     "odd": 1.63
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.512,
+     "trend_alignment": 0.493,
+     "confidence": 19,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Preston",
+     "model_prob": 0.1231,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 4.71
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "AWAY",
+     "team": "Preston",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Sofreu gol em todos os últimos 5",
+     "strength": 0.4,
+     "favors": "OVER",
+     "team": "Preston",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "always_concede"
+    },
+    {
+     "label": "Invicto em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "AWAY",
+     "team": "Southampton",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "2ª melhor defesa da liga (1.0 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "AWAY",
+     "team": "Southampton",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 2 derrota(s) em 14 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "AWAY",
+     "team": "Southampton",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "3º melhor ataque da liga (2.1 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "AWAY",
+     "team": "Southampton",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Pior defesa da liga (2.1 sofridos/jogo)",
+     "strength": 0.34,
+     "favors": "OVER",
+     "team": "Preston",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_bottom"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Preston",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Southampton",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Preston é 24º · Southampton é 7º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Southampton está 17 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "AWAY",
+     "team": "Preston",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "AWAY",
+     "team": "Southampton",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "2ª melhor defesa da liga (1.0 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "AWAY",
+     "team": "Southampton",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 2 derrota(s) em 14 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "AWAY",
+     "team": "Southampton",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "3º melhor ataque da liga (2.1 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "AWAY",
+     "team": "Southampton",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Preston",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Southampton",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Southampton está 17 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 77,
+   "league": {
+    "key": "championship",
+    "name": "Championship",
+    "country": "Inglaterra"
+   },
+   "home_team": {
+    "id": 23,
+    "name": "Preston",
+    "position": 24,
+    "played": 14,
+    "points": 5.0,
+    "record": "1V 2E 11D",
+    "goals_for": 12,
+    "goals_against": 30,
+    "last5": "LLDLL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": true,
+      "opponent": "Sheffield Utd",
+      "date": "2026-11-03"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Stoke City",
+      "date": "2026-10-31"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "West Brom",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "L",
+      "score": "1-4",
+      "home": false,
+      "opponent": "Wrexham",
+      "date": "2026-10-17"
+     },
+     {
+      "result": "L",
+      "score": "0-4",
+      "home": false,
+      "opponent": "Birmingham",
+      "date": "2026-10-13"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 21,
+    "name": "Southampton",
+    "position": 7,
+    "played": 14,
+    "points": 24.0,
+    "record": "8V 4E 2D",
+    "goals_for": 29,
+    "goals_against": 14,
+    "last5": "DWWDW",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "West Brom",
+      "date": "2026-11-03"
+     },
+     {
+      "result": "W",
+      "score": "4-1",
+      "home": true,
+      "opponent": "QPR",
+      "date": "2026-10-31"
+     },
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": false,
+      "opponent": "West Ham United",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Bolton",
+      "date": "2026-10-17"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Norwich",
+      "date": "2026-10-14"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-07T12:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4741615,
+   "s365_competition_id": 61,
+   "competition_name": "Scottish Premiership",
+   "start_time": "2026-11-07T20:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 762,
+    "name": "St. Mirren"
+   },
+   "away": {
+    "id": 753,
+    "name": "Rangers"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 0.9,
+    "lambda_away": 2.0,
+    "expected_goals": 2.91,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.1618,
+     "DRAW": 0.2083,
+     "AWAY": 0.6299,
+     "1X": 0.3701,
+     "X2": 0.8382,
+     "12": 0.7917,
+     "OVER25": 0.5558,
+     "UNDER25": 0.4442,
+     "BTTS_YES": 0.5146,
+     "BTTS_NO": 0.4854
+    }
+   },
+   "pick": {
+    "selection": "AWAY",
+    "family": "1x2",
+    "label": "Vitória do Rangers",
+    "model_prob": 0.6299,
+    "trend_alignment": 1.0,
+    "confidence": 72,
+    "eligible": true,
+    "odd": 1.41,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "X2",
+     "family": "double_chance",
+     "label": "Dupla chance: Rangers ou empate (X2)",
+     "model_prob": 0.8382,
+     "trend_alignment": 1.0,
+     "confidence": 72,
+     "eligible": true,
+     "odd": 1.16
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5558,
+     "trend_alignment": 0.807,
+     "confidence": 35,
+     "eligible": false,
+     "odd": 1.56
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5146,
+     "trend_alignment": 0.807,
+     "confidence": 30,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do St. Mirren",
+     "model_prob": 0.1618,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 5.25
+    }
+   ],
+   "trends": [
+    {
+     "label": "Invicto em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "AWAY",
+     "team": "Rangers",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "Rangers",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "St. Mirren",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Sofreu gol em todos os últimos 5",
+     "strength": 0.4,
+     "favors": "OVER",
+     "team": "St. Mirren",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "always_concede"
+    },
+    {
+     "label": "Melhor defesa da liga (0.8 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "Rangers",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 1 derrota(s) em 11 jogos no campeonato",
+     "strength": 0.42,
+     "favors": "AWAY",
+     "team": "Rangers",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "3º melhor ataque da liga (1.7 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "AWAY",
+     "team": "Rangers",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Pior defesa da liga (1.7 sofridos/jogo)",
+     "strength": 0.34,
+     "favors": "OVER",
+     "team": "St. Mirren",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_bottom"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Rangers",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "St. Mirren é 8º · Rangers é 2º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Rangers está 6 posições à frente",
+     "strength": 0.429,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Invicto em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "AWAY",
+     "team": "Rangers",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "St. Mirren",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Melhor defesa da liga (0.8 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "Rangers",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 1 derrota(s) em 11 jogos no campeonato",
+     "strength": 0.42,
+     "favors": "AWAY",
+     "team": "Rangers",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "3º melhor ataque da liga (1.7 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "AWAY",
+     "team": "Rangers",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Rangers",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Rangers está 6 posições à frente",
+     "strength": 0.429,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 72,
+   "league": {
+    "key": "scotland",
+    "name": "Scottish Premiership",
+    "country": "Escócia"
+   },
+   "home_team": {
+    "id": 762,
+    "name": "St. Mirren",
+    "position": 8,
+    "played": 12,
+    "points": 14.0,
+    "record": "4V 2E 6D",
+    "goals_for": 12,
+    "goals_against": 20,
+    "last5": "LDWLL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Motherwell",
+      "date": "2026-10-31"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Hibernian",
+      "date": "2026-10-28"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Dundee",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": false,
+      "opponent": "Aberdeen",
+      "date": "2026-10-17"
+     },
+     {
+      "result": "L",
+      "score": "0-5",
+      "home": false,
+      "opponent": "Hearts",
+      "date": "2026-10-10"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 753,
+    "name": "Rangers",
+    "position": 2,
+    "played": 11,
+    "points": 24.0,
+    "record": "7V 3E 1D",
+    "goals_for": 19,
+    "goals_against": 9,
+    "last5": "DWDWW",
+    "recent": [
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "Hearts",
+      "date": "2026-10-28"
+     },
+     {
+      "result": "W",
+      "score": "4-0",
+      "home": true,
+      "opponent": "St. Johnstone",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "Dundee",
+      "date": "2026-10-17"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": true,
+      "opponent": "Kilmarnock",
+      "date": "2026-10-10"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Celtic",
+      "date": "2026-09-20"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-07T17:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4742011,
+   "s365_competition_id": 7,
+   "competition_name": "Premier League",
+   "start_time": "2026-11-07T15:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 104,
+    "name": "Arsenal"
+   },
+   "away": {
+    "id": 11,
+    "name": "Hull City"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.58,
+    "lambda_away": 0.78,
+    "expected_goals": 2.36,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.5637,
+     "DRAW": 0.2522,
+     "AWAY": 0.1842,
+     "1X": 0.8158,
+     "X2": 0.4363,
+     "12": 0.7478,
+     "OVER25": 0.4192,
+     "UNDER25": 0.5808,
+     "BTTS_YES": 0.4296,
+     "BTTS_NO": 0.5704
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Arsenal",
+    "model_prob": 0.5637,
+    "trend_alignment": 1.0,
+    "confidence": 69,
+    "eligible": true,
+    "odd": 1.18,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Arsenal ou empate (1X)",
+     "model_prob": 0.8158,
+     "trend_alignment": 1.0,
+     "confidence": 69,
+     "eligible": true,
+     "odd": 1.03
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.5808,
+     "trend_alignment": 0.0,
+     "confidence": 11,
+     "eligible": false,
+     "odd": 1.62
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.4192,
+     "trend_alignment": 0.287,
+     "confidence": 10,
+     "eligible": false,
+     "odd": 2.3
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.4296,
+     "trend_alignment": 0.287,
+     "confidence": 10,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Venceu 5 dos últimos 7",
+     "strength": 0.607,
+     "favors": "HOME",
+     "team": "Arsenal",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Não venceu nenhum dos últimos 5",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Hull City",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "Ambos marcaram em 4 dos últimos 5",
+     "strength": 0.43,
+     "favors": "BTTS_YES",
+     "team": "Hull City",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "btts"
+    },
+    {
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Arsenal",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Melhor defesa da liga (0.6 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Arsenal",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Hull City",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Arsenal é 1º · Hull City é 11º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Arsenal está 10 posições à frente",
+     "strength": 0.714,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Venceu 5 dos últimos 7",
+     "strength": 0.607,
+     "favors": "HOME",
+     "team": "Arsenal",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Não venceu nenhum dos últimos 5",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Hull City",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Arsenal",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Melhor defesa da liga (0.6 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Arsenal",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Hull City",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Arsenal está 10 posições à frente",
+     "strength": 0.714,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 69,
+   "league": {
+    "key": "epl",
+    "name": "Premier League",
+    "country": "Inglaterra"
+   },
+   "home_team": {
+    "id": 104,
+    "name": "Arsenal",
+    "position": 1,
+    "played": 9,
+    "points": 24.0,
+    "record": "8V 0E 1D",
+    "goals_for": 14,
+    "goals_against": 5,
+    "last5": "WWWDW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Slavia Praha",
+      "date": "2026-11-04"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Liverpool",
+      "date": "2026-11-01"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Everton",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "Bayern Munich",
+      "date": "2026-10-21"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Nottingham Forest",
+      "date": "2026-10-18"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 11,
+    "name": "Hull City",
+    "position": 11,
+    "played": 9,
+    "points": 11.0,
+    "record": "2V 5E 2D",
+    "goals_for": 11,
+    "goals_against": 10,
+    "last5": "DDLDL",
+    "recent": [
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "Ipswich",
+      "date": "2026-10-31"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Brentford",
+      "date": "2026-10-25"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Fulham",
+      "date": "2026-10-17"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "Everton",
+      "date": "2026-10-11"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Newcastle United",
+      "date": "2026-09-19"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-07T12:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  }
+ ]
+}
