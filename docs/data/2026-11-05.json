@@ -1,6 +1,6 @@
 {
  "date": "2026-11-05",
- "generated_at": "2026-11-04T15:33:34.188325-03:00",
+ "generated_at": "2026-11-04T21:45:16.793059-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 1,
@@ -322,14 +322,14 @@
     "expected_goals": 2.38,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.6365,
-     "DRAW": 0.2291,
-     "AWAY": 0.1344,
-     "1X": 0.8656,
-     "X2": 0.3635,
-     "12": 0.7709,
-     "OVER25": 0.4257,
-     "UNDER25": 0.5743,
+     "HOME": 0.6372,
+     "DRAW": 0.2287,
+     "AWAY": 0.1341,
+     "1X": 0.8659,
+     "X2": 0.3628,
+     "12": 0.7713,
+     "OVER25": 0.4263,
+     "UNDER25": 0.5737,
      "BTTS_YES": 0.3926,
      "BTTS_NO": 0.6074
     }
@@ -338,11 +338,11 @@
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Palmeiras",
-    "model_prob": 0.6365,
+    "model_prob": 0.6372,
     "trend_alignment": 1.0,
     "confidence": 76,
     "eligible": true,
-    "odd": 1.19,
+    "odd": 1.22,
     "low_conviction": false
    },
    "alt_markets": [
@@ -350,11 +350,11 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Palmeiras ou empate (1X)",
-     "model_prob": 0.8656,
+     "model_prob": 0.8659,
      "trend_alignment": 1.0,
      "confidence": 76,
      "eligible": true,
-     "odd": 1.03
+     "odd": 1.04
     },
     {
      "selection": "BTTS_NO",
@@ -370,21 +370,21 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.5743,
+     "model_prob": 0.5737,
      "trend_alignment": 0.751,
      "confidence": 36,
      "eligible": false,
-     "odd": 1.57
+     "odd": 1.61
     },
     {
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Remo",
-     "model_prob": 0.1344,
+     "model_prob": 0.1341,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 13.0
+     "odd": 12.0
     }
    ],
    "trends": [

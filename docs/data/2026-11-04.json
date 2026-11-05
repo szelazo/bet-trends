@@ -1,6 +1,6 @@
 {
  "date": "2026-11-04",
- "generated_at": "2026-11-04T15:33:33.402776-03:00",
+ "generated_at": "2026-11-04T21:45:16.027206-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 3,
@@ -21,8 +21,8 @@
     "id": 115,
     "name": "Middlesbrough"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 0.0,
    "model": {
     "lambda_home": 1.22,
     "lambda_away": 1.89,
@@ -339,7 +339,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "miss",
    "clear": true
   },
   {
@@ -357,8 +357,8 @@
     "id": 131,
     "name": "Real Madrid"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 3.0,
    "model": {
     "lambda_home": 1.48,
     "lambda_away": 2.78,
@@ -612,7 +612,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -630,8 +630,8 @@
     "id": 108,
     "name": "Liverpool"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 3.0,
+   "away_score": 2.0,
    "model": {
     "lambda_home": 1.69,
     "lambda_away": 2.9,
@@ -903,7 +903,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "miss",
    "clear": true
   }
  ]
