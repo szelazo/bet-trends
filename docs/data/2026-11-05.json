@@ -1,6 +1,6 @@
 {
  "date": "2026-11-05",
- "generated_at": "2026-11-05T15:39:33.143724-03:00",
+ "generated_at": "2026-11-05T21:48:24.297011-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 1,
@@ -21,8 +21,8 @@
     "id": 2249,
     "name": "HNK Hajduk Split"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 1.0,
+   "away_score": 0.0,
    "model": {
     "lambda_home": 1.18,
     "lambda_away": 2.04,
@@ -296,7 +296,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "miss",
    "clear": true
   },
   {
@@ -314,8 +314,8 @@
     "id": 7383,
     "name": "Remo"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 6.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 1.74,
     "lambda_away": 0.65,
@@ -659,7 +659,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": false,
    "below_bar": true
   },
@@ -678,8 +678,8 @@
     "id": 868,
     "name": "River Plate"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 0.0,
+   "away_score": 2.0,
    "model": {
     "lambda_home": 0.8,
     "lambda_away": 1.35,
@@ -942,7 +942,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": false,
    "below_bar": true
   }

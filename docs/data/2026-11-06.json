@@ -1,6 +1,6 @@
 {
  "date": "2026-11-06",
- "generated_at": "2026-11-05T15:39:34.459980-03:00",
+ "generated_at": "2026-11-05T21:48:25.550175-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -81,7 +81,7 @@
      "trend_alignment": 0.0,
      "confidence": 16,
      "eligible": true,
-     "odd": 1.59
+     "odd": 1.56
     },
     {
      "selection": "UNDER25",
@@ -91,7 +91,7 @@
      "trend_alignment": 0.06,
      "confidence": 2,
      "eligible": false,
-     "odd": 2.29
+     "odd": 2.34
     }
    ],
    "trends": [
