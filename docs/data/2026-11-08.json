@@ -1,0 +1,1699 @@
+{
+ "date": "2026-11-08",
+ "generated_at": "2026-11-06T14:52:56.007691-03:00",
+ "version": "0.1.0",
+ "count": 5,
+ "clear_count": 5,
+ "day_total": 121,
+ "games": [
+  {
+   "id": 4763753,
+   "s365_competition_id": 78,
+   "competition_name": "Super Lig",
+   "start_time": "2026-11-08T15:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 1009,
+    "name": "Alanyaspor"
+   },
+   "away": {
+    "id": 950,
+    "name": "Trabzonspor"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 0.83,
+    "lambda_away": 2.33,
+    "expected_goals": 3.16,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.1167,
+     "DRAW": 0.174,
+     "AWAY": 0.7093,
+     "1X": 0.2907,
+     "X2": 0.8833,
+     "12": 0.826,
+     "OVER25": 0.6106,
+     "UNDER25": 0.3894,
+     "BTTS_YES": 0.5083,
+     "BTTS_NO": 0.4917
+    }
+   },
+   "pick": {
+    "selection": "AWAY",
+    "family": "1x2",
+    "label": "Vitória do Trabzonspor",
+    "model_prob": 0.7093,
+    "trend_alignment": 1.0,
+    "confidence": 78,
+    "eligible": true,
+    "odd": 1.58,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "X2",
+     "family": "double_chance",
+     "label": "Dupla chance: Trabzonspor ou empate (X2)",
+     "model_prob": 0.8833,
+     "trend_alignment": 1.0,
+     "confidence": 78,
+     "eligible": true,
+     "odd": 1.18
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6106,
+     "trend_alignment": 0.052,
+     "confidence": 16,
+     "eligible": true,
+     "odd": 1.72
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5083,
+     "trend_alignment": 0.052,
+     "confidence": 3,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Alanyaspor",
+     "model_prob": 0.1167,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 4.79
+    }
+   ],
+   "trends": [
+    {
+     "label": "Venceu 6 dos últimos 7",
+     "strength": 0.679,
+     "favors": "AWAY",
+     "team": "Trabzonspor",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Não sofreu gol em 5 dos últimos 7",
+     "strength": 0.436,
+     "favors": "UNDER",
+     "team": "Trabzonspor",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "clean_sheets"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Alanyaspor",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "Alanyaspor",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Melhor defesa da liga (0.8 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "Trabzonspor",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 2 derrota(s) em 10 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "AWAY",
+     "team": "Trabzonspor",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "2º melhor ataque da liga (2.4 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "AWAY",
+     "team": "Trabzonspor",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Alanyaspor é 12º · Trabzonspor é 3º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Trabzonspor está 9 posições à frente",
+     "strength": 0.643,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Venceu 6 dos últimos 7",
+     "strength": 0.679,
+     "favors": "AWAY",
+     "team": "Trabzonspor",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Alanyaspor",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Melhor defesa da liga (0.8 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "Trabzonspor",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 2 derrota(s) em 10 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "AWAY",
+     "team": "Trabzonspor",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "2º melhor ataque da liga (2.4 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "AWAY",
+     "team": "Trabzonspor",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Trabzonspor está 9 posições à frente",
+     "strength": 0.643,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 78,
+   "league": {
+    "key": "turkey",
+    "name": "Süper Lig",
+    "country": "Turquia"
+   },
+   "home_team": {
+    "id": 1009,
+    "name": "Alanyaspor",
+    "position": 12,
+    "played": 10,
+    "points": 12.0,
+    "record": "3V 3E 4D",
+    "goals_for": 9,
+    "goals_against": 16,
+    "last5": "LLLDW",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-5",
+      "home": false,
+      "opponent": "Genclerbirligi",
+      "date": "2026-11-02"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Kocaelispor",
+      "date": "2026-10-23"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": false,
+      "opponent": "Fenerbahçe SK",
+      "date": "2026-10-17"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Erzurumspor FK",
+      "date": "2026-10-10"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Corum FK",
+      "date": "2026-09-19"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 950,
+    "name": "Trabzonspor",
+    "position": 3,
+    "played": 10,
+    "points": 22.0,
+    "record": "7V 1E 2D",
+    "goals_for": 24,
+    "goals_against": 8,
+    "last5": "LWWWW",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Freiburg",
+      "date": "2026-11-05"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Gaziantep FK",
+      "date": "2026-11-01"
+     },
+     {
+      "result": "W",
+      "score": "4-3",
+      "home": false,
+      "opponent": "Rizespor",
+      "date": "2026-10-26"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Hearts",
+      "date": "2026-10-22"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Besiktas",
+      "date": "2026-10-19"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-08T12:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4635957,
+   "s365_competition_id": 122,
+   "competition_name": "Allsvenskan",
+   "start_time": "2026-11-08T13:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 1894,
+    "name": "Halmstad"
+   },
+   "away": {
+    "id": 1892,
+    "name": "Djurgårdens IF"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 0.79,
+    "lambda_away": 1.99,
+    "expected_goals": 2.78,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.1405,
+     "DRAW": 0.2055,
+     "AWAY": 0.654,
+     "1X": 0.346,
+     "X2": 0.8595,
+     "12": 0.7945,
+     "OVER25": 0.5263,
+     "UNDER25": 0.4737,
+     "BTTS_YES": 0.4727,
+     "BTTS_NO": 0.5273
+    }
+   },
+   "pick": {
+    "selection": "AWAY",
+    "family": "1x2",
+    "label": "Vitória do Djurgårdens IF",
+    "model_prob": 0.654,
+    "trend_alignment": 1.0,
+    "confidence": 75,
+    "eligible": true,
+    "odd": 1.34,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "X2",
+     "family": "double_chance",
+     "label": "Dupla chance: Djurgårdens IF ou empate (X2)",
+     "model_prob": 0.8595,
+     "trend_alignment": 1.0,
+     "confidence": 75,
+     "eligible": true,
+     "odd": 1.1
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5263,
+     "trend_alignment": 0.427,
+     "confidence": 18,
+     "eligible": false,
+     "odd": 2.37
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.4727,
+     "trend_alignment": 0.427,
+     "confidence": 15,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5273,
+     "trend_alignment": 0.0,
+     "confidence": 4,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "AWAY",
+     "team": "Halmstad",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Não marcou em 4 dos últimos 5",
+     "strength": 0.44,
+     "favors": "AWAY",
+     "team": "Halmstad",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "no_score"
+    },
+    {
+     "label": "Invicto em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "AWAY",
+     "team": "Djurgårdens IF",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Marcou em todos os últimos 5",
+     "strength": 0.3,
+     "favors": "OVER",
+     "team": "Djurgårdens IF",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "always_score"
+    },
+    {
+     "label": "2ª melhor defesa da liga (0.9 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "AWAY",
+     "team": "Djurgårdens IF",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "3º melhor ataque da liga (2.0 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "AWAY",
+     "team": "Djurgårdens IF",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Pior defesa da liga (1.9 sofridos/jogo)",
+     "strength": 0.34,
+     "favors": "OVER",
+     "team": "Halmstad",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_bottom"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Djurgårdens IF",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Halmstad é 16º · Djurgårdens IF é 3º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Djurgårdens IF está 13 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "AWAY",
+     "team": "Halmstad",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Não marcou em 4 dos últimos 5",
+     "strength": 0.44,
+     "favors": "AWAY",
+     "team": "Halmstad",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "no_score"
+    },
+    {
+     "label": "Invicto em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "AWAY",
+     "team": "Djurgårdens IF",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "2ª melhor defesa da liga (0.9 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "AWAY",
+     "team": "Djurgårdens IF",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "3º melhor ataque da liga (2.0 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "AWAY",
+     "team": "Djurgårdens IF",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Djurgårdens IF",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Djurgårdens IF está 13 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 75,
+   "league": {
+    "key": "sweden",
+    "name": "Allsvenskan",
+    "country": "Suécia"
+   },
+   "home_team": {
+    "id": 1894,
+    "name": "Halmstad",
+    "position": 16,
+    "played": 27,
+    "points": 17.0,
+    "record": "4V 5E 18D",
+    "goals_for": 18,
+    "goals_against": 51,
+    "last5": "LLWLL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Sirius",
+      "date": "2026-11-03"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": true,
+      "opponent": "Malmö FF",
+      "date": "2026-10-28"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Västerås",
+      "date": "2026-10-23"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Hammarby",
+      "date": "2026-10-18"
+     },
+     {
+      "result": "L",
+      "score": "0-4",
+      "home": false,
+      "opponent": "IF Elfsborg",
+      "date": "2026-10-12"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 1892,
+    "name": "Djurgårdens IF",
+    "position": 3,
+    "played": 27,
+    "points": 52.0,
+    "record": "16V 4E 7D",
+    "goals_for": 55,
+    "goals_against": 25,
+    "last5": "WDDWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Degerfors IF",
+      "date": "2026-11-01"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "IFK Göteborg",
+      "date": "2026-10-28"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "Örgryte IS",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "IF Brommapojkarna",
+      "date": "2026-10-16"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Hammarby",
+      "date": "2026-10-11"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-08T10:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4760768,
+   "s365_competition_id": 583,
+   "competition_name": "Liga 1 - Clausura",
+   "start_time": "2026-11-09T01:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 7169,
+    "name": "Universitario"
+   },
+   "away": {
+    "id": 77447,
+    "name": "Deportivo Moquegua"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.15,
+    "lambda_away": 0.86,
+    "expected_goals": 3.01,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.6694,
+     "DRAW": 0.1924,
+     "AWAY": 0.1381,
+     "1X": 0.8619,
+     "X2": 0.3306,
+     "12": 0.8076,
+     "OVER25": 0.5784,
+     "UNDER25": 0.4216,
+     "BTTS_YES": 0.5092,
+     "BTTS_NO": 0.4908
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Universitario",
+    "model_prob": 0.6694,
+    "trend_alignment": 1.0,
+    "confidence": 75,
+    "eligible": true,
+    "odd": 1.15,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Universitario ou empate (1X)",
+     "model_prob": 0.8619,
+     "trend_alignment": 1.0,
+     "confidence": 75,
+     "eligible": true,
+     "odd": 1.02
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5784,
+     "trend_alignment": 0.037,
+     "confidence": 11,
+     "eligible": false,
+     "odd": 2.22
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5092,
+     "trend_alignment": 0.037,
+     "confidence": 2,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.4216,
+     "trend_alignment": 0.037,
+     "confidence": 1,
+     "eligible": false,
+     "odd": 1.63
+    }
+   ],
+   "trends": [
+    {
+     "label": "Invicto em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Universitario",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Mais de 2.5 gols em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "OVER",
+     "team": "Universitario",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Menos de 2.5 gols em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "UNDER",
+     "team": "Deportivo Moquegua",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "under"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Deportivo Moquegua",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Só 2 derrota(s) em 15 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "HOME",
+     "team": "Universitario",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "2º melhor ataque da liga (2.2 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Universitario",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Universitario",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Universitario é 2º · Deportivo Moquegua é 16º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Universitario está 14 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Invicto em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Universitario",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Deportivo Moquegua",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Só 2 derrota(s) em 15 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "HOME",
+     "team": "Universitario",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "2º melhor ataque da liga (2.2 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Universitario",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Universitario",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Universitario está 14 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 75,
+   "league": {
+    "key": "pe_liga1",
+    "name": "Liga 1",
+    "country": "Peru"
+   },
+   "home_team": {
+    "id": 7169,
+    "name": "Universitario",
+    "position": 2,
+    "played": 15,
+    "points": 31.0,
+    "record": "9V 4E 2D",
+    "goals_for": 33,
+    "goals_against": 22,
+    "last5": "DWWWD",
+    "recent": [
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "Sport Boys",
+      "date": "2026-11-05"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": false,
+      "opponent": "Grau",
+      "date": "2026-11-01"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "Juan Pablo II College",
+      "date": "2026-10-25"
+     },
+     {
+      "result": "W",
+      "score": "4-1",
+      "home": false,
+      "opponent": "Alianza Atletico",
+      "date": "2026-10-18"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "FBC Melgar",
+      "date": "2026-10-11"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 77447,
+    "name": "Deportivo Moquegua",
+    "position": 16,
+    "played": 15,
+    "points": 11.0,
+    "record": "2V 5E 8D",
+    "goals_for": 8,
+    "goals_against": 22,
+    "last5": "DLLWL",
+    "recent": [
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Los Chankas",
+      "date": "2026-11-01"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "ADT Tarma",
+      "date": "2026-10-28"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Alianza Lima",
+      "date": "2026-10-25"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "FC Cajamarca",
+      "date": "2026-10-18"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": true,
+      "opponent": "Cienciano",
+      "date": "2026-10-08"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-08T22:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4757198,
+   "s365_competition_id": 73,
+   "competition_name": "Liga Portugal",
+   "start_time": "2026-11-08T20:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 67143,
+    "name": "Estrela da Amadora"
+   },
+   "away": {
+    "id": 888,
+    "name": "Benfica"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.07,
+    "lambda_away": 2.18,
+    "expected_goals": 3.25,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.1759,
+     "DRAW": 0.1978,
+     "AWAY": 0.6263,
+     "1X": 0.3737,
+     "X2": 0.8241,
+     "12": 0.8022,
+     "OVER25": 0.6306,
+     "UNDER25": 0.3694,
+     "BTTS_YES": 0.5828,
+     "BTTS_NO": 0.4172
+    }
+   },
+   "pick": {
+    "selection": "AWAY",
+    "family": "1x2",
+    "label": "Vitória do Benfica",
+    "model_prob": 0.6263,
+    "trend_alignment": 1.0,
+    "confidence": 70,
+    "eligible": true,
+    "odd": 1.22,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "X2",
+     "family": "double_chance",
+     "label": "Dupla chance: Benfica ou empate (X2)",
+     "model_prob": 0.8241,
+     "trend_alignment": 1.0,
+     "confidence": 70,
+     "eligible": true,
+     "odd": 1.06
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6306,
+     "trend_alignment": 0.557,
+     "confidence": 36,
+     "eligible": true,
+     "odd": 2.11
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5828,
+     "trend_alignment": 0.557,
+     "confidence": 30,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Estrela da Amadora",
+     "model_prob": 0.1759,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 10.0
+    }
+   ],
+   "trends": [
+    {
+     "label": "5 vitórias seguidas",
+     "strength": 1.0,
+     "favors": "AWAY",
+     "team": "Benfica",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 6 dos últimos 7",
+     "strength": 0.679,
+     "favors": "AWAY",
+     "team": "Benfica",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Mais de 2.5 gols em 5 dos últimos 7",
+     "strength": 0.436,
+     "favors": "OVER",
+     "team": "Benfica",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "AWAY",
+     "team": "Estrela da Amadora",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Sofreu gol em todos os últimos 5",
+     "strength": 0.4,
+     "favors": "OVER",
+     "team": "Estrela da Amadora",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "always_concede"
+    },
+    {
+     "label": "Melhor ataque da liga (2.7 marcados/jogo)",
+     "strength": 0.44,
+     "favors": "AWAY",
+     "team": "Benfica",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Só 1 derrota(s) em 10 jogos no campeonato",
+     "strength": 0.42,
+     "favors": "AWAY",
+     "team": "Benfica",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Estrela da Amadora",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Estrela da Amadora é 12º · Benfica é 2º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Benfica está 10 posições à frente",
+     "strength": 0.714,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "5 vitórias seguidas",
+     "strength": 1.0,
+     "favors": "AWAY",
+     "team": "Benfica",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 6 dos últimos 7",
+     "strength": 0.679,
+     "favors": "AWAY",
+     "team": "Benfica",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "AWAY",
+     "team": "Estrela da Amadora",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Melhor ataque da liga (2.7 marcados/jogo)",
+     "strength": 0.44,
+     "favors": "AWAY",
+     "team": "Benfica",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Só 1 derrota(s) em 10 jogos no campeonato",
+     "strength": 0.42,
+     "favors": "AWAY",
+     "team": "Benfica",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Estrela da Amadora",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Benfica está 10 posições à frente",
+     "strength": 0.714,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 70,
+   "league": {
+    "key": "liga_pt",
+    "name": "Liga Portugal",
+    "country": "Portugal"
+   },
+   "home_team": {
+    "id": 67143,
+    "name": "Estrela da Amadora",
+    "position": 12,
+    "played": 10,
+    "points": 10.0,
+    "record": "2V 4E 4D",
+    "goals_for": 15,
+    "goals_against": 19,
+    "last5": "LLLLD",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Moreirense",
+      "date": "2026-10-31"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": true,
+      "opponent": "Casa Pia AC",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Arouca",
+      "date": "2026-10-11"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": true,
+      "opponent": "Viseu",
+      "date": "2026-09-20"
+     },
+     {
+      "result": "D",
+      "score": "3-3",
+      "home": false,
+      "opponent": "Rio Ave",
+      "date": "2026-09-14"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 888,
+    "name": "Benfica",
+    "position": 2,
+    "played": 10,
+    "points": 25.0,
+    "record": "8V 1E 1D",
+    "goals_for": 27,
+    "goals_against": 8,
+    "last5": "WWWWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": true,
+      "opponent": "Lech Poznan",
+      "date": "2026-11-05"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Alverca",
+      "date": "2026-11-02"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Santa Clara",
+      "date": "2026-10-26"
+     },
+     {
+      "result": "W",
+      "score": "4-1",
+      "home": false,
+      "opponent": "Omonia",
+      "date": "2026-10-22"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Guimarães",
+      "date": "2026-10-11"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-08T17:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4742002,
+   "s365_competition_id": 7,
+   "competition_name": "Premier League",
+   "start_time": "2026-11-08T14:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 117,
+    "name": "Sunderland"
+   },
+   "away": {
+    "id": 106,
+    "name": "Chelsea"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.15,
+    "lambda_away": 2.04,
+    "expected_goals": 3.19,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.2086,
+     "DRAW": 0.2115,
+     "AWAY": 0.5799,
+     "1X": 0.4201,
+     "X2": 0.7914,
+     "12": 0.7885,
+     "OVER25": 0.6173,
+     "UNDER25": 0.3827,
+     "BTTS_YES": 0.5935,
+     "BTTS_NO": 0.4065
+    }
+   },
+   "pick": {
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: Chelsea ou empate (X2)",
+    "model_prob": 0.7914,
+    "trend_alignment": 1.0,
+    "confidence": 66,
+    "eligible": true,
+    "odd": 1.27,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Chelsea",
+     "model_prob": 0.5799,
+     "trend_alignment": 1.0,
+     "confidence": 59,
+     "eligible": true,
+     "odd": 1.9
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6173,
+     "trend_alignment": 0.0,
+     "confidence": 15,
+     "eligible": true,
+     "odd": 1.79
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.3827,
+     "trend_alignment": 0.347,
+     "confidence": 12,
+     "eligible": false,
+     "odd": 1.99
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5935,
+     "trend_alignment": 0.0,
+     "confidence": 12,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Não vence há 7+ jogos",
+     "strength": 0.667,
+     "favors": "AWAY",
+     "team": "Sunderland",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Perdeu 5 dos últimos 7",
+     "strength": 0.571,
+     "favors": "AWAY",
+     "team": "Sunderland",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Menos de 2.5 gols em 5 dos últimos 7",
+     "strength": 0.436,
+     "favors": "UNDER",
+     "team": "Sunderland",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "under"
+    },
+    {
+     "label": "Ambos marcaram só 1x nos últimos 5",
+     "strength": 0.39,
+     "favors": "BTTS_NO",
+     "team": "Chelsea",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "no_btts"
+    },
+    {
+     "label": "Pior defesa da liga (1.9 sofridos/jogo)",
+     "strength": 0.34,
+     "favors": "OVER",
+     "team": "Sunderland",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_bottom"
+    },
+    {
+     "label": "3º melhor ataque da liga (2.1 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "AWAY",
+     "team": "Chelsea",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Sunderland é 20º · Chelsea é 4º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Chelsea está 16 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Não vence há 7+ jogos",
+     "strength": 0.667,
+     "favors": "AWAY",
+     "team": "Sunderland",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Perdeu 5 dos últimos 7",
+     "strength": 0.571,
+     "favors": "AWAY",
+     "team": "Sunderland",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "3º melhor ataque da liga (2.1 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "AWAY",
+     "team": "Chelsea",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Chelsea está 16 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 66,
+   "league": {
+    "key": "epl",
+    "name": "Premier League",
+    "country": "Inglaterra"
+   },
+   "home_team": {
+    "id": 117,
+    "name": "Sunderland",
+    "position": 20,
+    "played": 9,
+    "points": 5.0,
+    "record": "1V 2E 6D",
+    "goals_for": 7,
+    "goals_against": 17,
+    "last5": "LLDDL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": true,
+      "opponent": "Dinamo Zagreb",
+      "date": "2026-11-05"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": false,
+      "opponent": "Coventry",
+      "date": "2026-10-31"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Leeds United",
+      "date": "2026-10-25"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Lech Poznan",
+      "date": "2026-10-22"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Bournemouth",
+      "date": "2026-10-18"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 106,
+    "name": "Chelsea",
+    "position": 4,
+    "played": 9,
+    "points": 16.0,
+    "record": "5V 1E 3D",
+    "goals_for": 19,
+    "goals_against": 15,
+    "last5": "WLWWL",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Manchester United",
+      "date": "2026-10-31"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": true,
+      "opponent": "Tottenham",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "Everton",
+      "date": "2026-10-17"
+     },
+     {
+      "result": "W",
+      "score": "5-1",
+      "home": true,
+      "opponent": "Bournemouth",
+      "date": "2026-10-10"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": false,
+      "opponent": "Brentford",
+      "date": "2026-09-18"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-08T11:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  }
+ ]
+}
