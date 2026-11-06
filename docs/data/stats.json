@@ -6,27 +6,27 @@
   "total": 12
  },
  "today": {
-  "hits": 1,
-  "misses": 0,
-  "voids": 0,
-  "total": 1
- },
- "last3": {
-  "hits": 2,
-  "misses": 3,
+  "hits": 3,
+  "misses": 2,
   "voids": 0,
   "total": 5
  },
- "week": {
-  "hits": 17,
-  "misses": 4,
+ "last3": {
+  "hits": 4,
+  "misses": 5,
   "voids": 0,
-  "total": 21
+  "total": 9
+ },
+ "week": {
+  "hits": 19,
+  "misses": 6,
+  "voids": 0,
+  "total": 25
  },
  "all_time": {
-  "hits": 161,
-  "misses": 48,
+  "hits": 163,
+  "misses": 50,
   "voids": 1,
-  "total": 209
+  "total": 213
  }
 }

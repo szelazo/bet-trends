@@ -1,6 +1,6 @@
 {
  "date": "2026-11-07",
- "generated_at": "2026-11-06T14:52:54.757929-03:00",
+ "generated_at": "2026-11-06T20:58:30.933540-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -29,23 +29,23 @@
     "expected_goals": 3.29,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.7824,
-     "DRAW": 0.1411,
-     "AWAY": 0.0765,
-     "1X": 0.9235,
-     "X2": 0.2176,
-     "12": 0.8589,
-     "OVER25": 0.6389,
-     "UNDER25": 0.3611,
-     "BTTS_YES": 0.4628,
-     "BTTS_NO": 0.5372
+     "HOME": 0.7817,
+     "DRAW": 0.1415,
+     "AWAY": 0.0768,
+     "1X": 0.9232,
+     "X2": 0.2183,
+     "12": 0.8585,
+     "OVER25": 0.6384,
+     "UNDER25": 0.3616,
+     "BTTS_YES": 0.4632,
+     "BTTS_NO": 0.5368
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do PSG",
-    "model_prob": 0.7824,
+    "model_prob": 0.7817,
     "trend_alignment": 1.0,
     "confidence": 84,
     "eligible": true,
@@ -57,7 +57,7 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: PSG ou empate (1X)",
-     "model_prob": 0.9235,
+     "model_prob": 0.9232,
      "trend_alignment": 1.0,
      "confidence": 84,
      "eligible": true,
@@ -67,7 +67,7 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6389,
+     "model_prob": 0.6384,
      "trend_alignment": 0.047,
      "confidence": 20,
      "eligible": true,
@@ -77,7 +77,7 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.5372,
+     "model_prob": 0.5368,
      "trend_alignment": 0.018,
      "confidence": 5,
      "eligible": false,
@@ -87,7 +87,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.4628,
+     "model_prob": 0.4632,
      "trend_alignment": 0.047,
      "confidence": 2,
      "eligible": false,
@@ -355,8 +355,8 @@
      "12": 0.8543,
      "OVER25": 0.7657,
      "UNDER25": 0.2343,
-     "BTTS_YES": 0.6399,
-     "BTTS_NO": 0.3601
+     "BTTS_YES": 0.64,
+     "BTTS_NO": 0.36
     }
    },
    "pick": {
@@ -395,7 +395,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.6399,
+     "model_prob": 0.64,
      "trend_alignment": 0.804,
      "confidence": 46,
      "eligible": true,
@@ -710,23 +710,23 @@
     "expected_goals": 3.13,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.1231,
-     "DRAW": 0.1789,
-     "AWAY": 0.698,
-     "1X": 0.302,
-     "X2": 0.8769,
-     "12": 0.8211,
-     "OVER25": 0.6047,
-     "UNDER25": 0.3953,
-     "BTTS_YES": 0.512,
-     "BTTS_NO": 0.488
+     "HOME": 0.1234,
+     "DRAW": 0.1791,
+     "AWAY": 0.6974,
+     "1X": 0.3026,
+     "X2": 0.8766,
+     "12": 0.8209,
+     "OVER25": 0.6044,
+     "UNDER25": 0.3956,
+     "BTTS_YES": 0.5121,
+     "BTTS_NO": 0.4879
     }
    },
    "pick": {
     "selection": "AWAY",
     "family": "1x2",
     "label": "Vitória do Southampton",
-    "model_prob": 0.698,
+    "model_prob": 0.6974,
     "trend_alignment": 1.0,
     "confidence": 77,
     "eligible": true,
@@ -738,7 +738,7 @@
      "selection": "X2",
      "family": "double_chance",
      "label": "Dupla chance: Southampton ou empate (X2)",
-     "model_prob": 0.8769,
+     "model_prob": 0.8766,
      "trend_alignment": 1.0,
      "confidence": 77,
      "eligible": true,
@@ -748,7 +748,7 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6047,
+     "model_prob": 0.6044,
      "trend_alignment": 0.493,
      "confidence": 31,
      "eligible": true,
@@ -758,7 +758,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.512,
+     "model_prob": 0.5121,
      "trend_alignment": 0.493,
      "confidence": 19,
      "eligible": false,
@@ -768,7 +768,7 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Preston",
-     "model_prob": 0.1231,
+     "model_prob": 0.1234,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
@@ -1102,7 +1102,7 @@
     "trend_alignment": 1.0,
     "confidence": 72,
     "eligible": true,
-    "odd": 1.41,
+    "odd": 1.37,
     "low_conviction": false
    },
    "alt_markets": [
@@ -1114,7 +1114,7 @@
      "trend_alignment": 1.0,
      "confidence": 72,
      "eligible": true,
-     "odd": 1.12
+     "odd": 1.1
     },
     {
      "selection": "OVER25",
@@ -1144,7 +1144,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 6.5
+     "odd": 7.0
     }
    ],
    "trends": [
@@ -1445,27 +1445,27 @@
     "expected_goals": 2.36,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.5637,
-     "DRAW": 0.2522,
-     "AWAY": 0.1842,
-     "1X": 0.8158,
-     "X2": 0.4363,
-     "12": 0.7478,
-     "OVER25": 0.4192,
-     "UNDER25": 0.5808,
-     "BTTS_YES": 0.4296,
-     "BTTS_NO": 0.5704
+     "HOME": 0.5626,
+     "DRAW": 0.2525,
+     "AWAY": 0.1849,
+     "1X": 0.8151,
+     "X2": 0.4374,
+     "12": 0.7475,
+     "OVER25": 0.4189,
+     "UNDER25": 0.5811,
+     "BTTS_YES": 0.4299,
+     "BTTS_NO": 0.5701
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Arsenal",
-    "model_prob": 0.5637,
+    "model_prob": 0.5626,
     "trend_alignment": 1.0,
     "confidence": 69,
     "eligible": true,
-    "odd": 1.18,
+    "odd": 1.15,
     "low_conviction": false
    },
    "alt_markets": [
@@ -1473,37 +1473,37 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Arsenal ou empate (1X)",
-     "model_prob": 0.8158,
+     "model_prob": 0.8151,
      "trend_alignment": 1.0,
      "confidence": 69,
      "eligible": true,
-     "odd": 1.03
+     "odd": 1.01
     },
     {
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.5808,
+     "model_prob": 0.5811,
      "trend_alignment": 0.0,
      "confidence": 11,
      "eligible": false,
-     "odd": 1.62
+     "odd": 1.57
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.4192,
+     "model_prob": 0.4189,
      "trend_alignment": 0.287,
      "confidence": 10,
      "eligible": false,
-     "odd": 2.3
+     "odd": 2.38
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.4296,
+     "model_prob": 0.4299,
      "trend_alignment": 0.287,
      "confidence": 10,
      "eligible": false,

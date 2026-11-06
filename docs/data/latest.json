@@ -1,6 +1,6 @@
 {
  "date": "2026-11-06",
- "generated_at": "2026-11-06T14:52:53.515310-03:00",
+ "generated_at": "2026-11-06T20:58:29.691350-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -375,8 +375,8 @@
     "id": 9376,
     "name": "Wolfsberger AC"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 6.0,
+   "away_score": 0.0,
    "model": {
     "lambda_home": 2.9,
     "lambda_away": 0.69,
@@ -729,7 +729,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -747,8 +747,8 @@
     "id": 483,
     "name": "Sochaux"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 1.0,
+   "away_score": 0.0,
    "model": {
     "lambda_home": 2.22,
     "lambda_away": 0.7,
@@ -1065,7 +1065,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -1083,8 +1083,8 @@
     "id": 2043,
     "name": "Dinamo Bucuresti"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 0.75,
     "lambda_away": 1.85,
@@ -1437,7 +1437,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "miss",
    "clear": true
   },
   {
@@ -1455,8 +1455,8 @@
     "id": 499,
     "name": "Reims"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 3.0,
+   "away_score": 2.0,
    "model": {
     "lambda_home": 0.85,
     "lambda_away": 1.85,
@@ -1800,7 +1800,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "miss",
    "clear": true
   }
  ]
