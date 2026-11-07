@@ -1,10 +1,10 @@
 {
  "date": "2026-11-07",
- "generated_at": "2026-11-07T13:47:46.024867-03:00",
+ "generated_at": "2026-11-07T20:27:30.476853-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
- "day_total": 169,
+ "day_total": 168,
  "games": [
   {
    "id": 4735212,
@@ -21,8 +21,8 @@
     "id": 488,
     "name": "Troyes"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 1.0,
+   "away_score": 0.0,
    "model": {
     "lambda_home": 2.6,
     "lambda_away": 0.69,
@@ -321,7 +321,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -339,8 +339,8 @@
     "id": 266,
     "name": "Sassuolo"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 3.0,
+   "away_score": 0.0,
    "model": {
     "lambda_home": 2.9,
     "lambda_away": 1.13,
@@ -684,7 +684,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -702,8 +702,8 @@
     "id": 21,
     "name": "Southampton"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 1.0,
+   "away_score": 0.0,
    "model": {
     "lambda_home": 0.84,
     "lambda_away": 2.28,
@@ -1056,7 +1056,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "miss",
    "clear": true
   },
   {
@@ -1074,8 +1074,8 @@
     "id": 753,
     "name": "Rangers"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 0.0,
+   "away_score": 2.0,
    "model": {
     "lambda_home": 0.9,
     "lambda_away": 2.01,
@@ -1419,7 +1419,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -1437,8 +1437,8 @@
     "id": 11,
     "name": "Hull City"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 1.0,
+   "away_score": 0.0,
    "model": {
     "lambda_home": 1.58,
     "lambda_away": 0.78,
@@ -1746,7 +1746,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   }
  ]
