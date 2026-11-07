@@ -1,0 +1,804 @@
+{
+ "date": "2026-11-09",
+ "generated_at": "2026-11-07T13:47:48.210246-03:00",
+ "version": "0.1.0",
+ "count": 3,
+ "clear_count": 0,
+ "day_total": 7,
+ "games": [
+  {
+   "id": 4764239,
+   "s365_competition_id": 621,
+   "competition_name": "Copa de Primera - Clausura",
+   "start_time": "2026-11-09T20:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 14634,
+    "name": "CS San Lorenzo"
+   },
+   "away": {
+    "id": 8774,
+    "name": "Rubio Ñu"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.79,
+    "lambda_away": 1.1,
+    "expected_goals": 2.89,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.5335,
+     "DRAW": 0.2326,
+     "AWAY": 0.2339,
+     "1X": 0.7661,
+     "X2": 0.4665,
+     "12": 0.7674,
+     "OVER25": 0.5517,
+     "UNDER25": 0.4483,
+     "BTTS_YES": 0.5564,
+     "BTTS_NO": 0.4436
+    }
+   },
+   "pick": {
+    "selection": "1X",
+    "family": "double_chance",
+    "label": "Dupla chance: CS San Lorenzo ou empate (1X)",
+    "model_prob": 0.7661,
+    "trend_alignment": 0.64,
+    "confidence": 50,
+    "eligible": true,
+    "odd": 1.88,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do CS San Lorenzo",
+     "model_prob": 0.5335,
+     "trend_alignment": 0.64,
+     "confidence": 41,
+     "eligible": true,
+     "odd": 3.72
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5517,
+     "trend_alignment": 0.713,
+     "confidence": 32,
+     "eligible": false,
+     "odd": 1.99
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5564,
+     "trend_alignment": 0.713,
+     "confidence": 32,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Rubio Ñu",
+     "model_prob": 0.2339,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 1.84
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Rubio Ñu",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Não marcou em 4 dos últimos 5",
+     "strength": 0.44,
+     "favors": "HOME",
+     "team": "Rubio Ñu",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "no_score"
+    },
+    {
+     "label": "Ambos marcaram em 4 dos últimos 5",
+     "strength": 0.43,
+     "favors": "BTTS_YES",
+     "team": "CS San Lorenzo",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "btts"
+    },
+    {
+     "label": "Marcou em todos os últimos 5",
+     "strength": 0.3,
+     "favors": "OVER",
+     "team": "CS San Lorenzo",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "always_score"
+    },
+    {
+     "label": "Pior defesa da liga (1.9 sofridos/jogo)",
+     "strength": 0.34,
+     "favors": "OVER",
+     "team": "Rubio Ñu",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_bottom"
+    },
+    {
+     "label": "CS San Lorenzo é 12º · Rubio Ñu é 10º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Rubio Ñu",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Não marcou em 4 dos últimos 5",
+     "strength": 0.44,
+     "favors": "HOME",
+     "team": "Rubio Ñu",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "no_score"
+    }
+   ],
+   "confidence": 50,
+   "league": {
+    "key": "py_primera",
+    "name": "Copa de Primera",
+    "country": "Paraguai"
+   },
+   "home_team": {
+    "id": 14634,
+    "name": "CS San Lorenzo",
+    "position": 12,
+    "played": 18,
+    "points": 10.0,
+    "record": "2V 4E 12D",
+    "goals_for": 12,
+    "goals_against": 30,
+    "last5": "WWLLD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "Club Nacional",
+      "date": "2026-11-03"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Libertad",
+      "date": "2026-10-31"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": true,
+      "opponent": "Cerro Porteño",
+      "date": "2026-10-25"
+     },
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": false,
+      "opponent": "Sportivo Luqueño",
+      "date": "2026-10-18"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Sportivo Trinidense",
+      "date": "2026-10-10"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 8774,
+    "name": "Rubio Ñu",
+    "position": 10,
+    "played": 18,
+    "points": 16.0,
+    "record": "4V 4E 10D",
+    "goals_for": 19,
+    "goals_against": 34,
+    "last5": "LWLLD",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-5",
+      "home": true,
+      "opponent": "Sportivo Luqueño",
+      "date": "2026-11-05"
+     },
+     {
+      "result": "W",
+      "score": "4-2",
+      "home": false,
+      "opponent": "Sportivo Trinidense",
+      "date": "2026-10-30"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": true,
+      "opponent": "Club Guarani",
+      "date": "2026-10-23"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Recoleta FC",
+      "date": "2026-10-16"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Olimpia",
+      "date": "2026-10-11"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-09T17:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": false,
+   "below_bar": true
+  },
+  {
+   "id": 4856519,
+   "s365_competition_id": 5062,
+   "competition_name": "Liga Pro - Relegation Hexagonal",
+   "start_time": "2026-11-09T18:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 18814,
+    "name": "Mushuc Runa"
+   },
+   "away": {
+    "id": 19160,
+    "name": "Delfin"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.64,
+    "lambda_away": 1.65,
+    "expected_goals": 3.3,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.3833,
+     "DRAW": 0.2304,
+     "AWAY": 0.3863,
+     "1X": 0.6137,
+     "X2": 0.6167,
+     "12": 0.7696,
+     "OVER25": 0.6399,
+     "UNDER25": 0.3601,
+     "BTTS_YES": 0.6523,
+     "BTTS_NO": 0.3477
+    }
+   },
+   "pick": {
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: Delfin ou empate (X2)",
+    "model_prob": 0.6167,
+    "trend_alignment": 0.889,
+    "confidence": 38,
+    "eligible": false,
+    "odd": 2.21,
+    "low_conviction": true
+   },
+   "alt_markets": [
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.6523,
+     "trend_alignment": 0.827,
+     "confidence": 49,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6399,
+     "trend_alignment": 0.827,
+     "confidence": 47,
+     "eligible": true,
+     "odd": 2.07
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Delfin",
+     "model_prob": 0.3863,
+     "trend_alignment": 0.889,
+     "confidence": 36,
+     "eligible": false,
+     "odd": 5.23
+    },
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Mushuc Runa ou empate (1X)",
+     "model_prob": 0.6137,
+     "trend_alignment": 0.0,
+     "confidence": 9,
+     "eligible": false,
+     "odd": 1.16
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Mushuc Runa",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Ambos marcaram em 4 dos últimos 5",
+     "strength": 0.43,
+     "favors": "BTTS_YES",
+     "team": "Mushuc Runa",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "btts"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "AWAY",
+     "team": "Delfin",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "Delfin",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Pior defesa da liga (1.4 sofridos/jogo)",
+     "strength": 0.34,
+     "favors": "OVER",
+     "team": "Mushuc Runa",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_bottom"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Mushuc Runa",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Mushuc Runa é 2º · Delfin é 4º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Mushuc Runa",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "AWAY",
+     "team": "Delfin",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Mushuc Runa",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    }
+   ],
+   "confidence": 38,
+   "league": {
+    "key": "ec_ligapro",
+    "name": "Liga Pro",
+    "country": "Equador"
+   },
+   "home_team": {
+    "id": 18814,
+    "name": "Mushuc Runa",
+    "position": 2,
+    "played": 35,
+    "points": 40.0,
+    "record": "9V 13E 13D",
+    "goals_for": 41,
+    "goals_against": 49,
+    "last5": "LLDLD",
+    "recent": [
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": true,
+      "opponent": "Manta",
+      "date": "2026-11-03"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": false,
+      "opponent": "Tecnico Universitario",
+      "date": "2026-10-26"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Orense SC",
+      "date": "2026-10-19"
+     },
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": false,
+      "opponent": "Delfin",
+      "date": "2026-10-09"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Deportivo Cuenca",
+      "date": "2026-09-20"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 19160,
+    "name": "Delfin",
+    "position": 4,
+    "played": 35,
+    "points": 38.0,
+    "record": "10V 8E 17D",
+    "goals_for": 30,
+    "goals_against": 41,
+    "last5": "WLWWD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": true,
+      "opponent": "Deportivo Cuenca",
+      "date": "2026-10-31"
+     },
+     {
+      "result": "L",
+      "score": "0-4",
+      "home": false,
+      "opponent": "Orense SC",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "W",
+      "score": "4-2",
+      "home": true,
+      "opponent": "Manta",
+      "date": "2026-10-18"
+     },
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": true,
+      "opponent": "Mushuc Runa",
+      "date": "2026-10-09"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Tecnico Universitario",
+      "date": "2026-09-20"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-09T15:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": false,
+   "below_bar": true
+  },
+  {
+   "id": 4856518,
+   "s365_competition_id": 5062,
+   "competition_name": "Liga Pro - Relegation Hexagonal",
+   "start_time": "2026-11-09T20:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 9141,
+    "name": "Tecnico Universitario"
+   },
+   "away": {
+    "id": 9143,
+    "name": "Manta"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.58,
+    "lambda_away": 1.0,
+    "expected_goals": 2.59,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.508,
+     "DRAW": 0.2517,
+     "AWAY": 0.2403,
+     "1X": 0.7597,
+     "X2": 0.492,
+     "12": 0.7483,
+     "OVER25": 0.478,
+     "UNDER25": 0.522,
+     "BTTS_YES": 0.5033,
+     "BTTS_NO": 0.4967
+    }
+   },
+   "pick": {
+    "selection": "1X",
+    "family": "double_chance",
+    "label": "Dupla chance: Tecnico Universitario ou empate (1X)",
+    "model_prob": 0.7597,
+    "trend_alignment": 0.0,
+    "confidence": 28,
+    "eligible": true,
+    "odd": 1.15,
+    "low_conviction": true
+   },
+   "alt_markets": [
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Tecnico Universitario",
+     "model_prob": 0.508,
+     "trend_alignment": 0.0,
+     "confidence": 17,
+     "eligible": true,
+     "odd": 1.62
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Manta",
+     "model_prob": 0.2403,
+     "trend_alignment": 0.32,
+     "confidence": 11,
+     "eligible": false,
+     "odd": 5.5
+    },
+    {
+     "selection": "X2",
+     "family": "double_chance",
+     "label": "Dupla chance: Manta ou empate (X2)",
+     "model_prob": 0.492,
+     "trend_alignment": 0.32,
+     "confidence": 11,
+     "eligible": false,
+     "odd": 2.23
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.478,
+     "trend_alignment": 0.227,
+     "confidence": 8,
+     "eligible": false,
+     "odd": 2.16
+    }
+   ],
+   "trends": [
+    {
+     "label": "Só venceu 1 dos últimos 5",
+     "strength": 0.48,
+     "favors": "AWAY",
+     "team": "Tecnico Universitario",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "Pior defesa da liga (1.5 sofridos/jogo)",
+     "strength": 0.34,
+     "favors": "OVER",
+     "team": "Manta",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_bottom"
+    },
+    {
+     "label": "Tecnico Universitario é 5º · Manta é 6º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    }
+   ],
+   "aligned_trends": [],
+   "confidence": 28,
+   "league": {
+    "key": "ec_ligapro",
+    "name": "Liga Pro",
+    "country": "Equador"
+   },
+   "home_team": {
+    "id": 9141,
+    "name": "Tecnico Universitario",
+    "position": 5,
+    "played": 35,
+    "points": 37.0,
+    "record": "11V 4E 20D",
+    "goals_for": 34,
+    "goals_against": 47,
+    "last5": "DWLLD",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Orense SC",
+      "date": "2026-11-02"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "Mushuc Runa",
+      "date": "2026-10-26"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Deportivo Cuenca",
+      "date": "2026-10-16"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Manta",
+      "date": "2026-10-10"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Delfin",
+      "date": "2026-09-20"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 9143,
+    "name": "Manta",
+    "position": 6,
+    "played": 35,
+    "points": 30.0,
+    "record": "8V 6E 21D",
+    "goals_for": 25,
+    "goals_against": 51,
+    "last5": "WLLWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": false,
+      "opponent": "Mushuc Runa",
+      "date": "2026-11-03"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": true,
+      "opponent": "Deportivo Cuenca",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "L",
+      "score": "2-4",
+      "home": false,
+      "opponent": "Delfin",
+      "date": "2026-10-18"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Tecnico Universitario",
+      "date": "2026-10-10"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Orense SC",
+      "date": "2026-09-21"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-09T17:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": false,
+   "below_bar": true
+  }
+ ]
+}

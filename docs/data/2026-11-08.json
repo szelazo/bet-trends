@@ -1,6 +1,6 @@
 {
  "date": "2026-11-08",
- "generated_at": "2026-11-06T20:58:32.181524-03:00",
+ "generated_at": "2026-11-07T13:47:47.443499-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -24,28 +24,28 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 0.83,
-    "lambda_away": 2.33,
-    "expected_goals": 3.16,
+    "lambda_home": 0.81,
+    "lambda_away": 2.31,
+    "expected_goals": 3.13,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.1167,
-     "DRAW": 0.174,
-     "AWAY": 0.7093,
-     "1X": 0.2907,
-     "X2": 0.8833,
-     "12": 0.826,
-     "OVER25": 0.6106,
-     "UNDER25": 0.3894,
-     "BTTS_YES": 0.5083,
-     "BTTS_NO": 0.4917
+     "HOME": 0.1152,
+     "DRAW": 0.1744,
+     "AWAY": 0.7104,
+     "1X": 0.2896,
+     "X2": 0.8848,
+     "12": 0.8256,
+     "OVER25": 0.6048,
+     "UNDER25": 0.3952,
+     "BTTS_YES": 0.5019,
+     "BTTS_NO": 0.4981
     }
    },
    "pick": {
     "selection": "AWAY",
     "family": "1x2",
     "label": "Vitória do Trabzonspor",
-    "model_prob": 0.7093,
+    "model_prob": 0.7104,
     "trend_alignment": 1.0,
     "confidence": 78,
     "eligible": true,
@@ -57,7 +57,7 @@
      "selection": "X2",
      "family": "double_chance",
      "label": "Dupla chance: Trabzonspor ou empate (X2)",
-     "model_prob": 0.8833,
+     "model_prob": 0.8848,
      "trend_alignment": 1.0,
      "confidence": 78,
      "eligible": true,
@@ -67,9 +67,9 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6106,
+     "model_prob": 0.6048,
      "trend_alignment": 0.052,
-     "confidence": 16,
+     "confidence": 15,
      "eligible": true,
      "odd": 1.72
     },
@@ -77,9 +77,9 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5083,
+     "model_prob": 0.5019,
      "trend_alignment": 0.052,
-     "confidence": 3,
+     "confidence": 2,
      "eligible": false,
      "odd": null
     },
@@ -87,7 +87,7 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Alanyaspor",
-     "model_prob": 0.1167,
+     "model_prob": 0.1152,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
@@ -141,6 +141,15 @@
      "kind": "def_rank"
     },
     {
+     "label": "Melhor ataque da liga (2.4 marcados/jogo)",
+     "strength": 0.44,
+     "favors": "AWAY",
+     "team": "Trabzonspor",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
      "label": "Só 2 derrota(s) em 10 jogos no campeonato",
      "strength": 0.34,
      "favors": "AWAY",
@@ -148,15 +157,6 @@
      "side": "AWAY",
      "group": "temporada",
      "kind": "few_losses"
-    },
-    {
-     "label": "2º melhor ataque da liga (2.4 marcados/jogo)",
-     "strength": 0.32,
-     "favors": "AWAY",
-     "team": "Trabzonspor",
-     "side": "AWAY",
-     "group": "temporada",
-     "kind": "atk_rank"
     },
     {
      "label": "Alanyaspor é 12º · Trabzonspor é 3º",
@@ -206,6 +206,15 @@
      "kind": "def_rank"
     },
     {
+     "label": "Melhor ataque da liga (2.4 marcados/jogo)",
+     "strength": 0.44,
+     "favors": "AWAY",
+     "team": "Trabzonspor",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
      "label": "Só 2 derrota(s) em 10 jogos no campeonato",
      "strength": 0.34,
      "favors": "AWAY",
@@ -213,15 +222,6 @@
      "side": "AWAY",
      "group": "temporada",
      "kind": "few_losses"
-    },
-    {
-     "label": "2º melhor ataque da liga (2.4 marcados/jogo)",
-     "strength": 0.32,
-     "favors": "AWAY",
-     "team": "Trabzonspor",
-     "side": "AWAY",
-     "group": "temporada",
-     "kind": "atk_rank"
     },
     {
      "label": "Trabzonspor está 9 posições à frente",
@@ -360,28 +360,28 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 0.8,
-    "lambda_away": 1.99,
-    "expected_goals": 2.78,
+    "lambda_home": 0.79,
+    "lambda_away": 2.0,
+    "expected_goals": 2.79,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.1414,
-     "DRAW": 0.206,
-     "AWAY": 0.6525,
-     "1X": 0.3475,
-     "X2": 0.8586,
-     "12": 0.794,
-     "OVER25": 0.5261,
-     "UNDER25": 0.4739,
-     "BTTS_YES": 0.4735,
-     "BTTS_NO": 0.5265
+     "HOME": 0.1392,
+     "DRAW": 0.2047,
+     "AWAY": 0.6561,
+     "1X": 0.3439,
+     "X2": 0.8608,
+     "12": 0.7953,
+     "OVER25": 0.5269,
+     "UNDER25": 0.4731,
+     "BTTS_YES": 0.4717,
+     "BTTS_NO": 0.5283
     }
    },
    "pick": {
     "selection": "AWAY",
     "family": "1x2",
     "label": "Vitória do Djurgårdens IF",
-    "model_prob": 0.6525,
+    "model_prob": 0.6561,
     "trend_alignment": 1.0,
     "confidence": 75,
     "eligible": true,
@@ -393,7 +393,7 @@
      "selection": "X2",
      "family": "double_chance",
      "label": "Dupla chance: Djurgårdens IF ou empate (X2)",
-     "model_prob": 0.8586,
+     "model_prob": 0.8608,
      "trend_alignment": 1.0,
      "confidence": 75,
      "eligible": true,
@@ -403,7 +403,7 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.5261,
+     "model_prob": 0.5269,
      "trend_alignment": 0.427,
      "confidence": 18,
      "eligible": false,
@@ -413,7 +413,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.4735,
+     "model_prob": 0.4717,
      "trend_alignment": 0.427,
      "confidence": 15,
      "eligible": false,
@@ -423,9 +423,9 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.5265,
+     "model_prob": 0.5283,
      "trend_alignment": 0.0,
-     "confidence": 3,
+     "confidence": 4,
      "eligible": false,
      "odd": null
     }
@@ -1075,7 +1075,7 @@
     "trend_alignment": 1.0,
     "confidence": 70,
     "eligible": true,
-    "odd": 1.22,
+    "odd": 1.11,
     "low_conviction": false
    },
    "alt_markets": [
@@ -1087,7 +1087,7 @@
      "trend_alignment": 1.0,
      "confidence": 70,
      "eligible": true,
-     "odd": 1.06
+     "odd": 1.02
     },
     {
      "selection": "OVER25",
@@ -1117,7 +1117,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 10.0
+     "odd": 15.0
     }
    ],
    "trends": [
@@ -1404,28 +1404,28 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 1.14,
-    "lambda_away": 2.04,
-    "expected_goals": 3.18,
+    "lambda_home": 1.15,
+    "lambda_away": 2.05,
+    "expected_goals": 3.2,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.2088,
-     "DRAW": 0.2118,
-     "AWAY": 0.5794,
-     "1X": 0.4206,
-     "X2": 0.7912,
-     "12": 0.7882,
-     "OVER25": 0.616,
-     "UNDER25": 0.384,
-     "BTTS_YES": 0.5927,
-     "BTTS_NO": 0.4073
+     "HOME": 0.208,
+     "DRAW": 0.2108,
+     "AWAY": 0.5812,
+     "1X": 0.4188,
+     "X2": 0.792,
+     "12": 0.7892,
+     "OVER25": 0.62,
+     "UNDER25": 0.38,
+     "BTTS_YES": 0.5953,
+     "BTTS_NO": 0.4047
     }
    },
    "pick": {
     "selection": "X2",
     "family": "double_chance",
     "label": "Dupla chance: Chelsea ou empate (X2)",
-    "model_prob": 0.7912,
+    "model_prob": 0.792,
     "trend_alignment": 1.0,
     "confidence": 66,
     "eligible": true,
@@ -1437,7 +1437,7 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Chelsea",
-     "model_prob": 0.5794,
+     "model_prob": 0.5812,
      "trend_alignment": 1.0,
      "confidence": 59,
      "eligible": true,
@@ -1447,7 +1447,7 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.384,
+     "model_prob": 0.38,
      "trend_alignment": 0.551,
      "confidence": 19,
      "eligible": false,
@@ -1457,7 +1457,7 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.4073,
+     "model_prob": 0.4047,
      "trend_alignment": 0.551,
      "confidence": 19,
      "eligible": false,
@@ -1467,9 +1467,9 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.616,
+     "model_prob": 0.62,
      "trend_alignment": 0.0,
-     "confidence": 15,
+     "confidence": 16,
      "eligible": true,
      "odd": 1.79
     }

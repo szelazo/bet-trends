@@ -1,6 +1,6 @@
 {
  "date": "2026-11-07",
- "generated_at": "2026-11-06T20:58:30.933540-03:00",
+ "generated_at": "2026-11-07T13:47:46.024867-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -49,7 +49,7 @@
     "trend_alignment": 1.0,
     "confidence": 84,
     "eligible": true,
-    "odd": 1.12,
+    "odd": 1.18,
     "low_conviction": false
    },
    "alt_markets": [
@@ -61,7 +61,7 @@
      "trend_alignment": 1.0,
      "confidence": 84,
      "eligible": true,
-     "odd": 1.01
+     "odd": 1.02
     },
     {
      "selection": "OVER25",
@@ -71,7 +71,7 @@
      "trend_alignment": 0.047,
      "confidence": 20,
      "eligible": true,
-     "odd": 1.72
+     "odd": 1.99
     },
     {
      "selection": "BTTS_NO",
@@ -347,27 +347,27 @@
     "expected_goals": 4.03,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.7349,
-     "DRAW": 0.1457,
-     "AWAY": 0.1194,
-     "1X": 0.8806,
-     "X2": 0.2651,
-     "12": 0.8543,
-     "OVER25": 0.7657,
-     "UNDER25": 0.2343,
-     "BTTS_YES": 0.64,
-     "BTTS_NO": 0.36
+     "HOME": 0.7343,
+     "DRAW": 0.1459,
+     "AWAY": 0.1198,
+     "1X": 0.8802,
+     "X2": 0.2657,
+     "12": 0.8541,
+     "OVER25": 0.7662,
+     "UNDER25": 0.2338,
+     "BTTS_YES": 0.6409,
+     "BTTS_NO": 0.3591
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do AS Roma",
-    "model_prob": 0.7349,
+    "model_prob": 0.7343,
     "trend_alignment": 1.0,
     "confidence": 78,
     "eligible": true,
-    "odd": 1.29,
+    "odd": 1.35,
     "low_conviction": false
    },
    "alt_markets": [
@@ -375,27 +375,27 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: AS Roma ou empate (1X)",
-     "model_prob": 0.8806,
+     "model_prob": 0.8802,
      "trend_alignment": 1.0,
      "confidence": 78,
      "eligible": true,
-     "odd": 1.07
+     "odd": 1.09
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.7657,
+     "model_prob": 0.7662,
      "trend_alignment": 0.804,
      "confidence": 63,
      "eligible": true,
-     "odd": 1.9
+     "odd": 1.99
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.64,
+     "model_prob": 0.6409,
      "trend_alignment": 0.804,
      "confidence": 46,
      "eligible": true,
@@ -405,11 +405,11 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Sassuolo",
-     "model_prob": 0.1194,
+     "model_prob": 0.1198,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 9.0
+     "odd": 8.0
     }
    ],
    "trends": [
@@ -1078,31 +1078,31 @@
    "away_score": -1.0,
    "model": {
     "lambda_home": 0.9,
-    "lambda_away": 2.0,
+    "lambda_away": 2.01,
     "expected_goals": 2.91,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.1618,
-     "DRAW": 0.2083,
-     "AWAY": 0.6299,
-     "1X": 0.3701,
-     "X2": 0.8382,
-     "12": 0.7917,
-     "OVER25": 0.5558,
-     "UNDER25": 0.4442,
-     "BTTS_YES": 0.5146,
-     "BTTS_NO": 0.4854
+     "HOME": 0.1616,
+     "DRAW": 0.2081,
+     "AWAY": 0.6303,
+     "1X": 0.3697,
+     "X2": 0.8384,
+     "12": 0.7919,
+     "OVER25": 0.5566,
+     "UNDER25": 0.4434,
+     "BTTS_YES": 0.5151,
+     "BTTS_NO": 0.4849
     }
    },
    "pick": {
     "selection": "AWAY",
     "family": "1x2",
     "label": "Vitória do Rangers",
-    "model_prob": 0.6299,
+    "model_prob": 0.6303,
     "trend_alignment": 1.0,
     "confidence": 72,
     "eligible": true,
-    "odd": 1.37,
+    "odd": 1.35,
     "low_conviction": false
    },
    "alt_markets": [
@@ -1110,27 +1110,27 @@
      "selection": "X2",
      "family": "double_chance",
      "label": "Dupla chance: Rangers ou empate (X2)",
-     "model_prob": 0.8382,
+     "model_prob": 0.8384,
      "trend_alignment": 1.0,
      "confidence": 72,
      "eligible": true,
-     "odd": 1.1
+     "odd": 1.09
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.5558,
+     "model_prob": 0.5566,
      "trend_alignment": 0.807,
-     "confidence": 35,
+     "confidence": 36,
      "eligible": false,
-     "odd": 1.56
+     "odd": 2.32
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5146,
+     "model_prob": 0.5151,
      "trend_alignment": 0.807,
      "confidence": 30,
      "eligible": false,
@@ -1140,11 +1140,11 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do St. Mirren",
-     "model_prob": 0.1618,
+     "model_prob": 0.1616,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 7.0
+     "odd": 7.5
     }
    ],
    "trends": [
