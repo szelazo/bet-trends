@@ -1,6 +1,6 @@
 {
  "date": "2026-11-09",
- "generated_at": "2026-11-07T20:27:32.522093-03:00",
+ "generated_at": "2026-11-08T13:59:05.579248-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 0,
@@ -24,32 +24,32 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 1.79,
+    "lambda_home": 1.78,
     "lambda_away": 1.1,
-    "expected_goals": 2.89,
+    "expected_goals": 2.88,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.5335,
-     "DRAW": 0.2326,
-     "AWAY": 0.2339,
-     "1X": 0.7661,
-     "X2": 0.4665,
-     "12": 0.7674,
-     "OVER25": 0.5516,
-     "UNDER25": 0.4484,
-     "BTTS_YES": 0.5563,
-     "BTTS_NO": 0.4437
+     "HOME": 0.5329,
+     "DRAW": 0.2331,
+     "AWAY": 0.234,
+     "1X": 0.766,
+     "X2": 0.4671,
+     "12": 0.7669,
+     "OVER25": 0.5495,
+     "UNDER25": 0.4505,
+     "BTTS_YES": 0.5547,
+     "BTTS_NO": 0.4453
     }
    },
    "pick": {
     "selection": "1X",
     "family": "double_chance",
     "label": "Dupla chance: CS San Lorenzo ou empate (1X)",
-    "model_prob": 0.7661,
+    "model_prob": 0.766,
     "trend_alignment": 0.64,
     "confidence": 50,
     "eligible": true,
-    "odd": 1.88,
+    "odd": 1.96,
     "low_conviction": false
    },
    "alt_markets": [
@@ -57,41 +57,41 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do CS San Lorenzo",
-     "model_prob": 0.5335,
+     "model_prob": 0.5329,
      "trend_alignment": 0.64,
      "confidence": 41,
      "eligible": true,
-     "odd": 3.72
-    },
-    {
-     "selection": "OVER25",
-     "family": "over_under",
-     "label": "Mais de 2.5 gols",
-     "model_prob": 0.5516,
-     "trend_alignment": 0.713,
-     "confidence": 32,
-     "eligible": false,
-     "odd": 1.99
+     "odd": 3.92
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5563,
+     "model_prob": 0.5547,
      "trend_alignment": 0.713,
      "confidence": 32,
      "eligible": false,
      "odd": null
     },
     {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5495,
+     "trend_alignment": 0.713,
+     "confidence": 31,
+     "eligible": false,
+     "odd": 1.94
+    },
+    {
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Rubio Ñu",
-     "model_prob": 0.2339,
+     "model_prob": 0.234,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 1.84
+     "odd": 1.76
     }
    ],
    "trends": [
@@ -299,27 +299,27 @@
    "away_score": -1.0,
    "model": {
     "lambda_home": 1.65,
-    "lambda_away": 1.65,
-    "expected_goals": 3.3,
+    "lambda_away": 1.66,
+    "expected_goals": 3.31,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.3834,
-     "DRAW": 0.2302,
-     "AWAY": 0.3864,
-     "1X": 0.6136,
-     "X2": 0.6166,
-     "12": 0.7698,
-     "OVER25": 0.6408,
-     "UNDER25": 0.3592,
-     "BTTS_YES": 0.653,
-     "BTTS_NO": 0.347
+     "HOME": 0.3835,
+     "DRAW": 0.2298,
+     "AWAY": 0.3866,
+     "1X": 0.6134,
+     "X2": 0.6165,
+     "12": 0.7702,
+     "OVER25": 0.6428,
+     "UNDER25": 0.3572,
+     "BTTS_YES": 0.6545,
+     "BTTS_NO": 0.3455
     }
    },
    "pick": {
     "selection": "X2",
     "family": "double_chance",
     "label": "Dupla chance: Delfin ou empate (X2)",
-    "model_prob": 0.6166,
+    "model_prob": 0.6165,
     "trend_alignment": 0.889,
     "confidence": 38,
     "eligible": false,
@@ -331,7 +331,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.653,
+     "model_prob": 0.6545,
      "trend_alignment": 0.827,
      "confidence": 49,
      "eligible": true,
@@ -341,9 +341,9 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6408,
+     "model_prob": 0.6428,
      "trend_alignment": 0.827,
-     "confidence": 47,
+     "confidence": 48,
      "eligible": true,
      "odd": 2.07
     },
@@ -351,7 +351,7 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Delfin",
-     "model_prob": 0.3864,
+     "model_prob": 0.3866,
      "trend_alignment": 0.889,
      "confidence": 36,
      "eligible": false,
@@ -361,7 +361,7 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Mushuc Runa ou empate (1X)",
-     "model_prob": 0.6136,
+     "model_prob": 0.6134,
      "trend_alignment": 0.0,
      "confidence": 9,
      "eligible": false,
@@ -424,7 +424,7 @@
      "kind": "winless_streak"
     },
     {
-     "label": "Mushuc Runa é 2º · Delfin é 4º",
+     "label": "Mushuc Runa é 3º · Delfin é 4º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -471,7 +471,7 @@
    "home_team": {
     "id": 18814,
     "name": "Mushuc Runa",
-    "position": 2,
+    "position": 3,
     "played": 35,
     "points": 40.0,
     "record": "9V 13E 13D",
@@ -590,21 +590,21 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 1.58,
+    "lambda_home": 1.59,
     "lambda_away": 1.01,
-    "expected_goals": 2.59,
+    "expected_goals": 2.6,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.5082,
-     "DRAW": 0.2515,
+     "HOME": 0.5087,
+     "DRAW": 0.251,
      "AWAY": 0.2403,
      "1X": 0.7597,
-     "X2": 0.4918,
-     "12": 0.7485,
-     "OVER25": 0.4789,
-     "UNDER25": 0.5211,
-     "BTTS_YES": 0.504,
-     "BTTS_NO": 0.496
+     "X2": 0.4913,
+     "12": 0.749,
+     "OVER25": 0.4808,
+     "UNDER25": 0.5192,
+     "BTTS_YES": 0.5054,
+     "BTTS_NO": 0.4946
     }
    },
    "pick": {
@@ -623,7 +623,7 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Tecnico Universitario",
-     "model_prob": 0.5082,
+     "model_prob": 0.5087,
      "trend_alignment": 0.0,
      "confidence": 17,
      "eligible": true,
@@ -643,21 +643,21 @@
      "selection": "X2",
      "family": "double_chance",
      "label": "Dupla chance: Manta ou empate (X2)",
-     "model_prob": 0.4918,
+     "model_prob": 0.4913,
      "trend_alignment": 0.32,
      "confidence": 11,
      "eligible": false,
      "odd": 2.23
     },
     {
-     "selection": "OVER25",
-     "family": "over_under",
-     "label": "Mais de 2.5 gols",
-     "model_prob": 0.4789,
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5054,
      "trend_alignment": 0.227,
-     "confidence": 8,
+     "confidence": 9,
      "eligible": false,
-     "odd": 2.16
+     "odd": 2.08
     }
    ],
    "trends": [
