@@ -1,6 +1,6 @@
 {
  "date": "2026-11-08",
- "generated_at": "2026-11-08T13:59:04.789471-03:00",
+ "generated_at": "2026-11-08T20:26:23.689151-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -21,8 +21,8 @@
     "id": 950,
     "name": "Trabzonspor"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 0.0,
+   "away_score": 2.0,
    "model": {
     "lambda_home": 0.83,
     "lambda_away": 2.33,
@@ -336,6 +336,342 @@
     ]
    },
    "kickoff_local": "2026-11-08T12:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "hit",
+   "clear": true
+  },
+  {
+   "id": 4760768,
+   "s365_competition_id": 583,
+   "competition_name": "Liga 1 - Clausura",
+   "start_time": "2026-11-09T01:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 7169,
+    "name": "Universitario"
+   },
+   "away": {
+    "id": 77447,
+    "name": "Deportivo Moquegua"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.17,
+    "lambda_away": 0.85,
+    "expected_goals": 3.02,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.6745,
+     "DRAW": 0.1903,
+     "AWAY": 0.1352,
+     "1X": 0.8648,
+     "X2": 0.3255,
+     "12": 0.8097,
+     "OVER25": 0.5814,
+     "UNDER25": 0.4186,
+     "BTTS_YES": 0.5083,
+     "BTTS_NO": 0.4917
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Universitario",
+    "model_prob": 0.6745,
+    "trend_alignment": 1.0,
+    "confidence": 76,
+    "eligible": true,
+    "odd": 1.26,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Universitario ou empate (1X)",
+     "model_prob": 0.8648,
+     "trend_alignment": 1.0,
+     "confidence": 76,
+     "eligible": true,
+     "odd": 1.04
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5814,
+     "trend_alignment": 0.037,
+     "confidence": 12,
+     "eligible": false,
+     "odd": 1.58
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5083,
+     "trend_alignment": 0.037,
+     "confidence": 2,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.4186,
+     "trend_alignment": 0.037,
+     "confidence": 1,
+     "eligible": false,
+     "odd": 2.37
+    }
+   ],
+   "trends": [
+    {
+     "label": "Invicto em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Universitario",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Mais de 2.5 gols em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "OVER",
+     "team": "Universitario",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Menos de 2.5 gols em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "UNDER",
+     "team": "Deportivo Moquegua",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "under"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Deportivo Moquegua",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Melhor ataque da liga (2.2 marcados/jogo)",
+     "strength": 0.44,
+     "favors": "HOME",
+     "team": "Universitario",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Só 2 derrota(s) em 15 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "HOME",
+     "team": "Universitario",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Universitario",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Universitario é 3º · Deportivo Moquegua é 17º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Universitario está 14 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Invicto em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "Universitario",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Deportivo Moquegua",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Melhor ataque da liga (2.2 marcados/jogo)",
+     "strength": 0.44,
+     "favors": "HOME",
+     "team": "Universitario",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Só 2 derrota(s) em 15 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "HOME",
+     "team": "Universitario",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Universitario",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Universitario está 14 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 76,
+   "league": {
+    "key": "pe_liga1",
+    "name": "Liga 1",
+    "country": "Peru"
+   },
+   "home_team": {
+    "id": 7169,
+    "name": "Universitario",
+    "position": 3,
+    "played": 15,
+    "points": 31.0,
+    "record": "9V 4E 2D",
+    "goals_for": 33,
+    "goals_against": 22,
+    "last5": "DWWWD",
+    "recent": [
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "Sport Boys",
+      "date": "2026-11-05"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": false,
+      "opponent": "Grau",
+      "date": "2026-11-01"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "Juan Pablo II College",
+      "date": "2026-10-25"
+     },
+     {
+      "result": "W",
+      "score": "4-1",
+      "home": false,
+      "opponent": "Alianza Atletico",
+      "date": "2026-10-18"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "FBC Melgar",
+      "date": "2026-10-11"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 77447,
+    "name": "Deportivo Moquegua",
+    "position": 17,
+    "played": 15,
+    "points": 11.0,
+    "record": "2V 5E 8D",
+    "goals_for": 8,
+    "goals_against": 22,
+    "last5": "DLLWL",
+    "recent": [
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Los Chankas",
+      "date": "2026-11-01"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "ADT Tarma",
+      "date": "2026-10-28"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Alianza Lima",
+      "date": "2026-10-25"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "FC Cajamarca",
+      "date": "2026-10-18"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": true,
+      "opponent": "Cienciano",
+      "date": "2026-10-08"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-08T22:30:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
@@ -697,342 +1033,6 @@
    "clear": true
   },
   {
-   "id": 4760768,
-   "s365_competition_id": 583,
-   "competition_name": "Liga 1 - Clausura",
-   "start_time": "2026-11-09T01:30:00+00:00",
-   "status_group": 2,
-   "round": "Round",
-   "home": {
-    "id": 7169,
-    "name": "Universitario"
-   },
-   "away": {
-    "id": 77447,
-    "name": "Deportivo Moquegua"
-   },
-   "home_score": -1.0,
-   "away_score": -1.0,
-   "model": {
-    "lambda_home": 2.15,
-    "lambda_away": 0.86,
-    "expected_goals": 3.01,
-    "sample_factor": 1.0,
-    "probs": {
-     "HOME": 0.6706,
-     "DRAW": 0.192,
-     "AWAY": 0.1375,
-     "1X": 0.8625,
-     "X2": 0.3294,
-     "12": 0.808,
-     "OVER25": 0.5791,
-     "UNDER25": 0.4209,
-     "BTTS_YES": 0.509,
-     "BTTS_NO": 0.491
-    }
-   },
-   "pick": {
-    "selection": "HOME",
-    "family": "1x2",
-    "label": "Vitória do Universitario",
-    "model_prob": 0.6706,
-    "trend_alignment": 1.0,
-    "confidence": 75,
-    "eligible": true,
-    "odd": 1.31,
-    "low_conviction": false
-   },
-   "alt_markets": [
-    {
-     "selection": "1X",
-     "family": "double_chance",
-     "label": "Dupla chance: Universitario ou empate (1X)",
-     "model_prob": 0.8625,
-     "trend_alignment": 1.0,
-     "confidence": 75,
-     "eligible": true,
-     "odd": 1.06
-    },
-    {
-     "selection": "OVER25",
-     "family": "over_under",
-     "label": "Mais de 2.5 gols",
-     "model_prob": 0.5791,
-     "trend_alignment": 0.037,
-     "confidence": 12,
-     "eligible": false,
-     "odd": 2.27
-    },
-    {
-     "selection": "BTTS_YES",
-     "family": "btts",
-     "label": "Ambos os times marcam",
-     "model_prob": 0.509,
-     "trend_alignment": 0.037,
-     "confidence": 2,
-     "eligible": false,
-     "odd": null
-    },
-    {
-     "selection": "UNDER25",
-     "family": "over_under",
-     "label": "Menos de 2.5 gols",
-     "model_prob": 0.4209,
-     "trend_alignment": 0.037,
-     "confidence": 1,
-     "eligible": false,
-     "odd": 1.59
-    }
-   ],
-   "trends": [
-    {
-     "label": "Invicto em 5 dos últimos 5",
-     "strength": 0.55,
-     "favors": "HOME",
-     "team": "Universitario",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "unbeaten"
-    },
-    {
-     "label": "Mais de 2.5 gols em 5 dos últimos 5",
-     "strength": 0.55,
-     "favors": "OVER",
-     "team": "Universitario",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "over"
-    },
-    {
-     "label": "Menos de 2.5 gols em 5 dos últimos 5",
-     "strength": 0.55,
-     "favors": "UNDER",
-     "team": "Deportivo Moquegua",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "under"
-    },
-    {
-     "label": "Perdeu 3 dos últimos 5",
-     "strength": 0.52,
-     "favors": "HOME",
-     "team": "Deportivo Moquegua",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Melhor ataque da liga (2.2 marcados/jogo)",
-     "strength": 0.44,
-     "favors": "HOME",
-     "team": "Universitario",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "atk_rank"
-    },
-    {
-     "label": "Só 2 derrota(s) em 15 jogos no campeonato",
-     "strength": 0.34,
-     "favors": "HOME",
-     "team": "Universitario",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "few_losses"
-    },
-    {
-     "label": "Invicto há 5+ jogos",
-     "strength": 0.333,
-     "favors": "HOME",
-     "team": "Universitario",
-     "side": "HOME",
-     "group": "sequencia",
-     "kind": "unbeaten_streak"
-    },
-    {
-     "label": "Universitario é 3º · Deportivo Moquegua é 17º",
-     "strength": 0.0,
-     "favors": null,
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "positions"
-    },
-    {
-     "label": "Universitario está 14 posições à frente",
-     "strength": 0.8,
-     "favors": "HOME",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "aligned_trends": [
-    {
-     "label": "Invicto em 5 dos últimos 5",
-     "strength": 0.55,
-     "favors": "HOME",
-     "team": "Universitario",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "unbeaten"
-    },
-    {
-     "label": "Perdeu 3 dos últimos 5",
-     "strength": 0.52,
-     "favors": "HOME",
-     "team": "Deportivo Moquegua",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Melhor ataque da liga (2.2 marcados/jogo)",
-     "strength": 0.44,
-     "favors": "HOME",
-     "team": "Universitario",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "atk_rank"
-    },
-    {
-     "label": "Só 2 derrota(s) em 15 jogos no campeonato",
-     "strength": 0.34,
-     "favors": "HOME",
-     "team": "Universitario",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "few_losses"
-    },
-    {
-     "label": "Invicto há 5+ jogos",
-     "strength": 0.333,
-     "favors": "HOME",
-     "team": "Universitario",
-     "side": "HOME",
-     "group": "sequencia",
-     "kind": "unbeaten_streak"
-    },
-    {
-     "label": "Universitario está 14 posições à frente",
-     "strength": 0.8,
-     "favors": "HOME",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "confidence": 75,
-   "league": {
-    "key": "pe_liga1",
-    "name": "Liga 1",
-    "country": "Peru"
-   },
-   "home_team": {
-    "id": 7169,
-    "name": "Universitario",
-    "position": 3,
-    "played": 15,
-    "points": 31.0,
-    "record": "9V 4E 2D",
-    "goals_for": 33,
-    "goals_against": 22,
-    "last5": "DWWWD",
-    "recent": [
-     {
-      "result": "D",
-      "score": "2-2",
-      "home": true,
-      "opponent": "Sport Boys",
-      "date": "2026-11-05"
-     },
-     {
-      "result": "W",
-      "score": "3-1",
-      "home": false,
-      "opponent": "Grau",
-      "date": "2026-11-01"
-     },
-     {
-      "result": "W",
-      "score": "3-0",
-      "home": true,
-      "opponent": "Juan Pablo II College",
-      "date": "2026-10-25"
-     },
-     {
-      "result": "W",
-      "score": "4-1",
-      "home": false,
-      "opponent": "Alianza Atletico",
-      "date": "2026-10-18"
-     },
-     {
-      "result": "D",
-      "score": "2-2",
-      "home": true,
-      "opponent": "FBC Melgar",
-      "date": "2026-10-11"
-     }
-    ]
-   },
-   "away_team": {
-    "id": 77447,
-    "name": "Deportivo Moquegua",
-    "position": 17,
-    "played": 15,
-    "points": 11.0,
-    "record": "2V 5E 8D",
-    "goals_for": 8,
-    "goals_against": 22,
-    "last5": "DLLWL",
-    "recent": [
-     {
-      "result": "D",
-      "score": "0-0",
-      "home": true,
-      "opponent": "Los Chankas",
-      "date": "2026-11-01"
-     },
-     {
-      "result": "L",
-      "score": "0-2",
-      "home": false,
-      "opponent": "ADT Tarma",
-      "date": "2026-10-28"
-     },
-     {
-      "result": "L",
-      "score": "0-1",
-      "home": true,
-      "opponent": "Alianza Lima",
-      "date": "2026-10-25"
-     },
-     {
-      "result": "W",
-      "score": "1-0",
-      "home": false,
-      "opponent": "FC Cajamarca",
-      "date": "2026-10-18"
-     },
-     {
-      "result": "L",
-      "score": "0-2",
-      "home": true,
-      "opponent": "Cienciano",
-      "date": "2026-10-08"
-     }
-    ]
-   },
-   "kickoff_local": "2026-11-08T22:30:00-03:00",
-   "has_odds": true,
-   "odds_bookmaker": "365Scores",
-   "is_cup": false,
-   "result": "pending",
-   "clear": true
-  },
-  {
    "id": 4757198,
    "s365_competition_id": 73,
    "competition_name": "Liga Portugal",
@@ -1047,8 +1047,8 @@
     "id": 888,
     "name": "Benfica"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 3.0,
    "model": {
     "lambda_home": 1.08,
     "lambda_away": 2.21,
@@ -1383,7 +1383,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
