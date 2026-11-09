@@ -357,8 +357,8 @@
     "id": 77447,
     "name": "Deportivo Moquegua"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 2.0,
    "model": {
     "lambda_home": 2.17,
     "lambda_away": 0.85,
@@ -675,7 +675,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "miss",
    "clear": true
   },
   {

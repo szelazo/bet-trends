@@ -1,6 +1,6 @@
 {
  "date": "2026-11-10",
- "generated_at": "2026-11-08T20:26:24.981494-03:00",
+ "generated_at": "2026-11-09T18:22:36.004968-03:00",
  "version": "0.1.0",
  "count": 2,
  "clear_count": 0,
@@ -24,32 +24,32 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 1.07,
-    "lambda_away": 1.35,
+    "lambda_home": 1.08,
+    "lambda_away": 1.34,
     "expected_goals": 2.42,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.2982,
-     "DRAW": 0.2721,
-     "AWAY": 0.4297,
-     "1X": 0.5703,
-     "X2": 0.7018,
-     "12": 0.7279,
-     "OVER25": 0.4356,
-     "UNDER25": 0.5644,
-     "BTTS_YES": 0.487,
-     "BTTS_NO": 0.513
+     "HOME": 0.2993,
+     "DRAW": 0.2723,
+     "AWAY": 0.4285,
+     "1X": 0.5715,
+     "X2": 0.7007,
+     "12": 0.7277,
+     "OVER25": 0.4352,
+     "UNDER25": 0.5648,
+     "BTTS_YES": 0.4869,
+     "BTTS_NO": 0.5131
     }
    },
    "pick": {
     "selection": "X2",
     "family": "double_chance",
     "label": "Dupla chance: America de Cali ou empate (X2)",
-    "model_prob": 0.7018,
+    "model_prob": 0.7007,
     "trend_alignment": 1.0,
-    "confidence": 54,
+    "confidence": 53,
     "eligible": true,
-    "odd": null,
+    "odd": 1.39,
     "low_conviction": false
    },
    "alt_markets": [
@@ -57,39 +57,39 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do America de Cali",
-     "model_prob": 0.4297,
+     "model_prob": 0.4285,
      "trend_alignment": 1.0,
      "confidence": 44,
      "eligible": false,
-     "odd": null
-    },
-    {
-     "selection": "OVER25",
-     "family": "over_under",
-     "label": "Mais de 2.5 gols",
-     "model_prob": 0.4356,
-     "trend_alignment": 0.6,
-     "confidence": 21,
-     "eligible": false,
-     "odd": null
-    },
-    {
-     "selection": "BTTS_YES",
-     "family": "btts",
-     "label": "Ambos os times marcam",
-     "model_prob": 0.487,
-     "trend_alignment": 0.6,
-     "confidence": 21,
-     "eligible": false,
-     "odd": null
+     "odd": 2.27
     },
     {
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.5644,
+     "model_prob": 0.5648,
      "trend_alignment": 0.0,
      "confidence": 8,
+     "eligible": false,
+     "odd": 1.71
+    },
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Internacional de Bogota ou empate (1X)",
+     "model_prob": 0.5715,
+     "trend_alignment": 0.0,
+     "confidence": 3,
+     "eligible": false,
+     "odd": 1.62
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5131,
+     "trend_alignment": 0.0,
+     "confidence": 2,
      "eligible": false,
      "odd": null
     }
@@ -114,25 +114,7 @@
      "kind": "unbeaten_streak"
     },
     {
-     "label": "Mais de 2.5 gols em 4 dos últimos 5",
-     "strength": 0.47,
-     "favors": "OVER",
-     "team": "Internacional de Bogota",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "over"
-    },
-    {
-     "label": "Ambos marcaram em 4 dos últimos 5",
-     "strength": 0.43,
-     "favors": "BTTS_YES",
-     "team": "Internacional de Bogota",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "btts"
-    },
-    {
-     "label": "Internacional de Bogota é 12º · America de Cali é 2º",
+     "label": "Internacional de Bogota é 13º · America de Cali é 2º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -141,8 +123,8 @@
      "kind": "positions"
     },
     {
-     "label": "America de Cali está 10 posições à frente",
-     "strength": 0.714,
+     "label": "America de Cali está 11 posições à frente",
+     "strength": 0.786,
      "favors": "AWAY",
      "team": null,
      "side": null,
@@ -170,8 +152,8 @@
      "kind": "unbeaten_streak"
     },
     {
-     "label": "America de Cali está 10 posições à frente",
-     "strength": 0.714,
+     "label": "America de Cali está 11 posições à frente",
+     "strength": 0.786,
      "favors": "AWAY",
      "team": null,
      "side": null,
@@ -179,7 +161,7 @@
      "kind": "table_gap"
     }
    ],
-   "confidence": 54,
+   "confidence": 53,
    "league": {
     "key": "copa_co",
     "name": "Copa Colombia",
@@ -188,14 +170,21 @@
    "home_team": {
     "id": 8542,
     "name": "Internacional de Bogota",
-    "position": 12,
+    "position": 13,
     "played": 18,
     "points": 20.0,
     "record": "4V 8E 6D",
     "goals_for": 22,
     "goals_against": 25,
-    "last5": "LWLWD",
+    "last5": "DLWLW",
     "recent": [
+     {
+      "result": "D",
+      "score": "-1--1",
+      "home": true,
+      "opponent": "Independiente Santa Fe",
+      "date": "2026-11-12"
+     },
      {
       "result": "L",
       "score": "1-2",
@@ -223,13 +212,6 @@
       "home": true,
       "opponent": "Fortaleza FC",
       "date": "2026-10-20"
-     },
-     {
-      "result": "D",
-      "score": "2-2",
-      "home": false,
-      "opponent": "Junior FC",
-      "date": "2026-10-10"
      }
     ]
    },
@@ -242,8 +224,15 @@
     "record": "10V 6E 2D",
     "goals_for": 31,
     "goals_against": 12,
-    "last5": "DDWWW",
+    "last5": "DDDWW",
     "recent": [
+     {
+      "result": "D",
+      "score": "-1--1",
+      "home": false,
+      "opponent": "Deportivo Pereira",
+      "date": "2026-11-12"
+     },
      {
       "result": "D",
       "score": "0-0",
@@ -271,19 +260,12 @@
       "home": true,
       "opponent": "Cucuta Deportivo",
       "date": "2026-10-24"
-     },
-     {
-      "result": "W",
-      "score": "4-0",
-      "home": false,
-      "opponent": "Barranquilla FC",
-      "date": "2026-10-22"
      }
     ]
    },
    "kickoff_local": "2026-11-10T20:30:00-03:00",
-   "has_odds": false,
-   "odds_bookmaker": null,
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
    "is_cup": true,
    "result": "pending",
    "clear": false,
@@ -307,32 +289,32 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 1.16,
+    "lambda_home": 1.15,
     "lambda_away": 1.17,
-    "expected_goals": 2.32,
+    "expected_goals": 2.33,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.3559,
-     "DRAW": 0.282,
-     "AWAY": 0.3621,
-     "1X": 0.6379,
-     "X2": 0.6441,
-     "12": 0.718,
-     "OVER25": 0.4101,
-     "UNDER25": 0.5899,
-     "BTTS_YES": 0.472,
-     "BTTS_NO": 0.528
+     "HOME": 0.3538,
+     "DRAW": 0.2817,
+     "AWAY": 0.3645,
+     "1X": 0.6355,
+     "X2": 0.6462,
+     "12": 0.7183,
+     "OVER25": 0.4111,
+     "UNDER25": 0.5889,
+     "BTTS_YES": 0.4728,
+     "BTTS_NO": 0.5272
     }
    },
    "pick": {
     "selection": "X2",
     "family": "double_chance",
     "label": "Dupla chance: Atletico Nacional ou empate (X2)",
-    "model_prob": 0.6441,
-    "trend_alignment": 0.359,
-    "confidence": 25,
+    "model_prob": 0.6462,
+    "trend_alignment": 0.303,
+    "confidence": 23,
     "eligible": true,
-    "odd": null,
+    "odd": 1.46,
     "low_conviction": true
    },
    "alt_markets": [
@@ -340,9 +322,19 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.5899,
-     "trend_alignment": 0.187,
-     "confidence": 18,
+     "model_prob": 0.5889,
+     "trend_alignment": 0.367,
+     "confidence": 24,
+     "eligible": false,
+     "odd": 1.73
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5272,
+     "trend_alignment": 0.367,
+     "confidence": 16,
      "eligible": false,
      "odd": null
     },
@@ -350,54 +342,35 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Atletico Nacional",
-     "model_prob": 0.3621,
-     "trend_alignment": 0.359,
-     "confidence": 15,
+     "model_prob": 0.3645,
+     "trend_alignment": 0.303,
+     "confidence": 13,
      "eligible": false,
-     "odd": null
+     "odd": 2.36
     },
     {
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Once Caldas ou empate (1X)",
-     "model_prob": 0.6379,
+     "model_prob": 0.6355,
      "trend_alignment": 0.0,
      "confidence": 12,
      "eligible": true,
-     "odd": null
-    },
-    {
-     "selection": "BTTS_NO",
-     "family": "btts",
-     "label": "Ambos marcam: não",
-     "model_prob": 0.528,
-     "trend_alignment": 0.187,
-     "confidence": 10,
-     "eligible": false,
-     "odd": null
+     "odd": 1.55
     }
    ],
    "trends": [
     {
-     "label": "Venceu 4 dos últimos 5",
-     "strength": 0.65,
-     "favors": "AWAY",
-     "team": "Atletico Nacional",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "wins"
+     "label": "Invicto há 7+ jogos",
+     "strength": 0.667,
+     "favors": "HOME",
+     "team": "Once Caldas",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
     },
     {
-     "label": "Marcou em todos os últimos 5",
-     "strength": 0.3,
-     "favors": "OVER",
-     "team": "Atletico Nacional",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "always_score"
-    },
-    {
-     "label": "Invicto em 6 dos últimos 6",
+     "label": "Invicto em 7 dos últimos 7",
      "strength": 0.55,
      "favors": "HOME",
      "team": "Once Caldas",
@@ -406,7 +379,7 @@
      "kind": "unbeaten"
     },
     {
-     "label": "Menos de 2.5 gols em 6 dos últimos 6",
+     "label": "Menos de 2.5 gols em 7 dos últimos 7",
      "strength": 0.55,
      "favors": "UNDER",
      "team": "Once Caldas",
@@ -415,17 +388,17 @@
      "kind": "under"
     },
     {
-     "label": "3 vitórias seguidas",
-     "strength": 0.5,
-     "favors": "HOME",
-     "team": "Once Caldas",
-     "side": "HOME",
-     "group": "sequencia",
-     "kind": "win_streak"
+     "label": "Invicto em 6 dos últimos 6",
+     "strength": 0.55,
+     "favors": "AWAY",
+     "team": "Atletico Nacional",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
     },
     {
-     "label": "Invicto há 5+ jogos",
-     "strength": 0.333,
+     "label": "Invicto há 6+ jogos",
+     "strength": 0.5,
      "favors": "AWAY",
      "team": "Atletico Nacional",
      "side": "AWAY",
@@ -453,17 +426,17 @@
    ],
    "aligned_trends": [
     {
-     "label": "Venceu 4 dos últimos 5",
-     "strength": 0.65,
+     "label": "Invicto em 6 dos últimos 6",
+     "strength": 0.55,
      "favors": "AWAY",
      "team": "Atletico Nacional",
      "side": "AWAY",
      "group": "geral",
-     "kind": "wins"
+     "kind": "unbeaten"
     },
     {
-     "label": "Invicto há 5+ jogos",
-     "strength": 0.333,
+     "label": "Invicto há 6+ jogos",
+     "strength": 0.5,
      "favors": "AWAY",
      "team": "Atletico Nacional",
      "side": "AWAY",
@@ -480,7 +453,7 @@
      "kind": "table_gap"
     }
    ],
-   "confidence": 25,
+   "confidence": 23,
    "league": {
     "key": "copa_co",
     "name": "Copa Colombia",
@@ -495,8 +468,15 @@
     "record": "7V 6E 5D",
     "goals_for": 22,
     "goals_against": 18,
-    "last5": "WWWDD",
+    "last5": "DWWWD",
     "recent": [
+     {
+      "result": "D",
+      "score": "-1--1",
+      "home": false,
+      "opponent": "Atletico Nacional",
+      "date": "2026-11-12"
+     },
      {
       "result": "W",
       "score": "1-0",
@@ -524,13 +504,6 @@
       "home": true,
       "opponent": "Deportivo Pereira",
       "date": "2026-10-25"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": false,
-      "opponent": "Millonarios",
-      "date": "2026-10-21"
      }
     ]
    },
@@ -543,8 +516,15 @@
     "record": "12V 3E 3D",
     "goals_for": 37,
     "goals_against": 17,
-    "last5": "WDWWW",
+    "last5": "DWDWW",
     "recent": [
+     {
+      "result": "D",
+      "score": "-1--1",
+      "home": true,
+      "opponent": "Once Caldas",
+      "date": "2026-11-12"
+     },
      {
       "result": "W",
       "score": "4-3",
@@ -572,19 +552,12 @@
       "home": true,
       "opponent": "Independiente Medellin",
       "date": "2026-10-25"
-     },
-     {
-      "result": "W",
-      "score": "3-0",
-      "home": true,
-      "opponent": "Deportivo Pasto",
-      "date": "2026-10-23"
      }
     ]
    },
    "kickoff_local": "2026-11-10T22:30:00-03:00",
-   "has_odds": false,
-   "odds_bookmaker": null,
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
    "is_cup": true,
    "result": "pending",
    "clear": false,
