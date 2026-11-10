@@ -68,12 +68,13 @@
   "2026-11-07",
   "2026-11-08",
   "2026-11-09",
-  "2026-11-10"
+  "2026-11-10",
+  "2026-11-12"
  ],
- "generated_at": "2026-11-09T23:34:15.419523-03:00",
+ "generated_at": "2026-11-10T15:34:19.287879-03:00",
  "odds_enabled": true,
  "odds_source": "365scores",
- "games_with_odds": 267,
+ "games_with_odds": 269,
  "leagues": [
   {
    "name": "Brasileirão Série A",
