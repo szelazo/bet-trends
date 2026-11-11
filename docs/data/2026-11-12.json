@@ -1,6 +1,6 @@
 {
  "date": "2026-11-12",
- "generated_at": "2026-11-10T15:34:19.212891-03:00",
+ "generated_at": "2026-11-10T21:25:59.860303-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 0,
@@ -49,7 +49,7 @@
     "trend_alignment": 0.857,
     "confidence": 56,
     "eligible": true,
-    "odd": null,
+    "odd": 1.02,
     "low_conviction": false
    },
    "alt_markets": [
@@ -61,7 +61,7 @@
      "trend_alignment": 0.857,
      "confidence": 45,
      "eligible": true,
-     "odd": null
+     "odd": 1.11
     },
     {
      "selection": "UNDER25",
@@ -71,7 +71,7 @@
      "trend_alignment": 0.369,
      "confidence": 21,
      "eligible": false,
-     "odd": null
+     "odd": 3.38
     },
     {
      "selection": "BTTS_NO",
@@ -91,7 +91,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": null
+     "odd": 17.0
     }
    ],
    "trends": [
@@ -291,8 +291,8 @@
     ]
    },
    "kickoff_local": "2026-11-12T19:00:00-03:00",
-   "has_odds": false,
-   "odds_bookmaker": null,
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
    "is_cup": false,
    "result": "pending",
    "clear": false,
@@ -341,7 +341,7 @@
     "trend_alignment": 0.727,
     "confidence": 37,
     "eligible": true,
-    "odd": 1.88,
+    "odd": 1.93,
     "low_conviction": false
    },
    "alt_markets": [
@@ -353,7 +353,7 @@
      "trend_alignment": 0.727,
      "confidence": 27,
      "eligible": false,
-     "odd": 3.84
+     "odd": 4.14
     },
     {
      "selection": "UNDER25",
@@ -363,7 +363,7 @@
      "trend_alignment": 0.313,
      "confidence": 27,
      "eligible": true,
-     "odd": 1.85
+     "odd": 1.75
     },
     {
      "selection": "BTTS_NO",
@@ -383,7 +383,7 @@
      "trend_alignment": 0.0,
      "confidence": 13,
      "eligible": true,
-     "odd": 1.26
+     "odd": 1.23
     }
    ],
    "trends": [
