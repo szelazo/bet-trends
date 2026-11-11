@@ -21,8 +21,8 @@
     "id": 8645,
     "name": "America de Cali"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 1.0,
+   "away_score": 2.0,
    "model": {
     "lambda_home": 1.07,
     "lambda_away": 1.34,
@@ -285,7 +285,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": true,
-   "result": "pending",
+   "result": "hit",
    "clear": false,
    "below_bar": true
   },
@@ -304,8 +304,8 @@
     "id": 8640,
     "name": "Atletico Nacional"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 1.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 1.15,
     "lambda_away": 1.17,
@@ -586,7 +586,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": true,
-   "result": "pending",
+   "result": "hit",
    "clear": false,
    "below_bar": true
   }
