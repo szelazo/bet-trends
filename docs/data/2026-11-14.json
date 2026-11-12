@@ -1,0 +1,912 @@
+{
+ "date": "2026-11-14",
+ "generated_at": "2026-11-12T15:46:51.897167-03:00",
+ "version": "0.1.0",
+ "count": 3,
+ "clear_count": 1,
+ "day_total": 15,
+ "games": [
+  {
+   "id": 4890143,
+   "s365_competition_id": 617,
+   "competition_name": "Uruguayan Championship - Clausura",
+   "start_time": "2026-11-14T19:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 14062,
+    "name": "Deportivo Maldonado"
+   },
+   "away": {
+    "id": 7477,
+    "name": "Cerro"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.05,
+    "lambda_away": 0.86,
+    "expected_goals": 2.9,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.6498,
+     "DRAW": 0.2024,
+     "AWAY": 0.1478,
+     "1X": 0.8522,
+     "X2": 0.3502,
+     "12": 0.7976,
+     "OVER25": 0.5546,
+     "UNDER25": 0.4454,
+     "BTTS_YES": 0.501,
+     "BTTS_NO": 0.499
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Deportivo Maldonado",
+    "model_prob": 0.6498,
+    "trend_alignment": 1.0,
+    "confidence": 74,
+    "eligible": true,
+    "odd": 1.56,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Deportivo Maldonado ou empate (1X)",
+     "model_prob": 0.8522,
+     "trend_alignment": 1.0,
+     "confidence": 74,
+     "eligible": true,
+     "odd": 1.18
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5546,
+     "trend_alignment": 0.287,
+     "confidence": 17,
+     "eligible": false,
+     "odd": 1.94
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.501,
+     "trend_alignment": 0.287,
+     "confidence": 10,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Cerro",
+     "model_prob": 0.1478,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 4.73
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Cerro",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Ambos marcaram em 4 dos últimos 5",
+     "strength": 0.43,
+     "favors": "BTTS_YES",
+     "team": "Cerro",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "btts"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Deportivo Maldonado",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "3ª melhor defesa da liga (0.8 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "HOME",
+     "team": "Deportivo Maldonado",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Deportivo Maldonado é 4º · Cerro é 9º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Deportivo Maldonado está 5 posições à frente",
+     "strength": 0.357,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Cerro",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Deportivo Maldonado",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "3ª melhor defesa da liga (0.8 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "HOME",
+     "team": "Deportivo Maldonado",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Deportivo Maldonado está 5 posições à frente",
+     "strength": 0.357,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 74,
+   "league": {
+    "key": "uy_primera",
+    "name": "Primera División",
+    "country": "Uruguai"
+   },
+   "home_team": {
+    "id": 14062,
+    "name": "Deportivo Maldonado",
+    "position": 4,
+    "played": 13,
+    "points": 22.0,
+    "record": "6V 4E 3D",
+    "goals_for": 18,
+    "goals_against": 10,
+    "last5": "DWLDW",
+    "recent": [
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Albion",
+      "date": "2026-11-02"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Danubio FC",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": false,
+      "opponent": "Nacional",
+      "date": "2026-10-19"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Liverpool Montevideo",
+      "date": "2026-10-09"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "Central Espanol",
+      "date": "2026-10-03"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 7477,
+    "name": "Cerro",
+    "position": 9,
+    "played": 13,
+    "points": 18.0,
+    "record": "5V 3E 5D",
+    "goals_for": 15,
+    "goals_against": 19,
+    "last5": "LLDWL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Central Espanol",
+      "date": "2026-10-31"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": false,
+      "opponent": "Montevideo City Torque",
+      "date": "2026-10-25"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Cerro Largo",
+      "date": "2026-10-16"
+     },
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": false,
+      "opponent": "Defensor Sporting",
+      "date": "2026-10-10"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": true,
+      "opponent": "Montevideo Wanderers",
+      "date": "2026-10-04"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-14T16:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4731352,
+   "s365_competition_id": 620,
+   "competition_name": "Liga BetPlay - Clausura",
+   "start_time": "2026-11-14T20:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 10224,
+    "name": "Atlético Bucaramanga"
+   },
+   "away": {
+    "id": 9844,
+    "name": "Fortaleza FC"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.11,
+    "lambda_away": 0.67,
+    "expected_goals": 2.78,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.7079,
+     "DRAW": 0.1863,
+     "AWAY": 0.1058,
+     "1X": 0.8942,
+     "X2": 0.2921,
+     "12": 0.8137,
+     "OVER25": 0.525,
+     "UNDER25": 0.475,
+     "BTTS_YES": 0.4287,
+     "BTTS_NO": 0.5713
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Atlético Bucaramanga",
+    "model_prob": 0.7079,
+    "trend_alignment": 1.0,
+    "confidence": 80,
+    "eligible": true,
+    "odd": 1.54,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Atlético Bucaramanga ou empate (1X)",
+     "model_prob": 0.8942,
+     "trend_alignment": 1.0,
+     "confidence": 80,
+     "eligible": true,
+     "odd": 1.14
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.525,
+     "trend_alignment": 0.267,
+     "confidence": 13,
+     "eligible": false,
+     "odd": 1.96
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.4287,
+     "trend_alignment": 0.267,
+     "confidence": 9,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5713,
+     "trend_alignment": 0.0,
+     "confidence": 9,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "HOME",
+     "team": "Fortaleza FC",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Sofreu gol em todos os últimos 5",
+     "strength": 0.4,
+     "favors": "OVER",
+     "team": "Fortaleza FC",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "always_concede"
+    },
+    {
+     "label": "Só 2 derrota(s) em 18 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "HOME",
+     "team": "Atlético Bucaramanga",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "3º melhor ataque da liga (1.7 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Atlético Bucaramanga",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Fortaleza FC",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Atlético Bucaramanga é 4º · Fortaleza FC é 20º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Atlético Bucaramanga está 16 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "HOME",
+     "team": "Fortaleza FC",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Só 2 derrota(s) em 18 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "HOME",
+     "team": "Atlético Bucaramanga",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "3º melhor ataque da liga (1.7 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Atlético Bucaramanga",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Fortaleza FC",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Atlético Bucaramanga está 16 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 80,
+   "league": {
+    "key": "co_primera",
+    "name": "Liga BetPlay",
+    "country": "Colômbia"
+   },
+   "home_team": {
+    "id": 10224,
+    "name": "Atlético Bucaramanga",
+    "position": 4,
+    "played": 18,
+    "points": 32.0,
+    "record": "8V 8E 2D",
+    "goals_for": 30,
+    "goals_against": 17,
+    "last5": "WDWLL",
+    "recent": [
+     {
+      "result": "W",
+      "score": "4-0",
+      "home": false,
+      "opponent": "Jaguares de Córdoba",
+      "date": "2026-11-08"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Atletico Nacional",
+      "date": "2026-11-03"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Deportivo Pasto",
+      "date": "2026-10-31"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Independiente Santa Fe",
+      "date": "2026-10-27"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Boyaca Chico",
+      "date": "2026-10-23"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 9844,
+    "name": "Fortaleza FC",
+    "position": 20,
+    "played": 18,
+    "points": 12.0,
+    "record": "1V 9E 8D",
+    "goals_for": 17,
+    "goals_against": 28,
+    "last5": "LLLDL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": true,
+      "opponent": "Independiente Medellin",
+      "date": "2026-11-07"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Águilas Doradas",
+      "date": "2026-11-02"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "America de Cali",
+      "date": "2026-10-29"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Deportivo Cali",
+      "date": "2026-10-25"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Internacional de Bogota",
+      "date": "2026-10-20"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-14T17:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": false,
+   "below_bar": true
+  },
+  {
+   "id": 4731355,
+   "s365_competition_id": 620,
+   "competition_name": "Liga BetPlay - Clausura",
+   "start_time": "2026-11-14T20:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 8637,
+    "name": "Millonarios"
+   },
+   "away": {
+    "id": 10209,
+    "name": "Alianza FC"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.64,
+    "lambda_away": 0.72,
+    "expected_goals": 2.36,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.5948,
+     "DRAW": 0.2432,
+     "AWAY": 0.162,
+     "1X": 0.838,
+     "X2": 0.4052,
+     "12": 0.7568,
+     "OVER25": 0.4208,
+     "UNDER25": 0.5792,
+     "BTTS_YES": 0.4146,
+     "BTTS_NO": 0.5854
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Millonarios",
+    "model_prob": 0.5948,
+    "trend_alignment": 1.0,
+    "confidence": 72,
+    "eligible": true,
+    "odd": 1.3,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Millonarios ou empate (1X)",
+     "model_prob": 0.838,
+     "trend_alignment": 1.0,
+     "confidence": 72,
+     "eligible": true,
+     "odd": 1.06
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.4208,
+     "trend_alignment": 0.513,
+     "confidence": 18,
+     "eligible": false,
+     "odd": 1.71
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.4146,
+     "trend_alignment": 0.513,
+     "confidence": 18,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5854,
+     "trend_alignment": 0.0,
+     "confidence": 11,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Alianza FC",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Millonarios",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Ambos marcaram em 4 dos últimos 5",
+     "strength": 0.43,
+     "favors": "BTTS_YES",
+     "team": "Millonarios",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "btts"
+    },
+    {
+     "label": "3ª melhor defesa da liga (0.9 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "HOME",
+     "team": "Millonarios",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Pior defesa da liga (1.7 sofridos/jogo)",
+     "strength": 0.34,
+     "favors": "OVER",
+     "team": "Alianza FC",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_bottom"
+    },
+    {
+     "label": "Millonarios é 7º · Alianza FC é 16º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Millonarios está 9 posições à frente",
+     "strength": 0.643,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Alianza FC",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Millonarios",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "3ª melhor defesa da liga (0.9 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "HOME",
+     "team": "Millonarios",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Millonarios está 9 posições à frente",
+     "strength": 0.643,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 72,
+   "league": {
+    "key": "co_primera",
+    "name": "Liga BetPlay",
+    "country": "Colômbia"
+   },
+   "home_team": {
+    "id": 8637,
+    "name": "Millonarios",
+    "position": 7,
+    "played": 18,
+    "points": 27.0,
+    "record": "6V 9E 3D",
+    "goals_for": 25,
+    "goals_against": 16,
+    "last5": "LDDWD",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Deportes Tolima",
+      "date": "2026-11-08"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "America de Cali",
+      "date": "2026-11-05"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Once Caldas",
+      "date": "2026-10-21"
+     },
+     {
+      "result": "W",
+      "score": "4-1",
+      "home": true,
+      "opponent": "Jaguares de Córdoba",
+      "date": "2026-10-17"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Fortaleza FC",
+      "date": "2026-10-09"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 10209,
+    "name": "Alianza FC",
+    "position": 16,
+    "played": 18,
+    "points": 18.0,
+    "record": "5V 3E 10D",
+    "goals_for": 18,
+    "goals_against": 31,
+    "last5": "LLLWW",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Llaneros FC",
+      "date": "2026-11-09"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Independiente Medellin",
+      "date": "2026-11-01"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Once Caldas",
+      "date": "2026-10-28"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Internacional de Bogota",
+      "date": "2026-10-25"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Deportivo Pasto",
+      "date": "2026-10-20"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-14T17:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": false,
+   "below_bar": true
+  }
+ ]
+}
