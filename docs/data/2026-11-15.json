@@ -1,0 +1,948 @@
+{
+ "date": "2026-11-15",
+ "generated_at": "2026-11-13T15:27:56.826638-03:00",
+ "version": "0.1.0",
+ "count": 3,
+ "clear_count": 0,
+ "day_total": 4,
+ "games": [
+  {
+   "id": 4890147,
+   "s365_competition_id": 617,
+   "competition_name": "Uruguayan Championship - Clausura",
+   "start_time": "2026-11-15T19:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 8611,
+    "name": "Danubio FC"
+   },
+   "away": {
+    "id": 8358,
+    "name": "Liverpool Montevideo"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 0.7,
+    "lambda_away": 1.31,
+    "expected_goals": 2.01,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.1995,
+     "DRAW": 0.2877,
+     "AWAY": 0.5128,
+     "1X": 0.4872,
+     "X2": 0.8005,
+     "12": 0.7123,
+     "OVER25": 0.3271,
+     "UNDER25": 0.6729,
+     "BTTS_YES": 0.3685,
+     "BTTS_NO": 0.6315
+    }
+   },
+   "pick": {
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: Liverpool Montevideo ou empate (X2)",
+    "model_prob": 0.8005,
+    "trend_alignment": 1.0,
+    "confidence": 67,
+    "eligible": true,
+    "odd": 1.25,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Liverpool Montevideo",
+     "model_prob": 0.5128,
+     "trend_alignment": 1.0,
+     "confidence": 52,
+     "eligible": true,
+     "odd": 1.79
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.6729,
+     "trend_alignment": 0.313,
+     "confidence": 33,
+     "eligible": true,
+     "odd": 1.69
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.6315,
+     "trend_alignment": 0.313,
+     "confidence": 28,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Danubio FC",
+     "model_prob": 0.1995,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 3.77
+    }
+   ],
+   "trends": [
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "AWAY",
+     "team": "Liverpool Montevideo",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Menos de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "UNDER",
+     "team": "Liverpool Montevideo",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "under"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Danubio FC",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "Liverpool Montevideo",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Melhor defesa da liga (0.6 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "Liverpool Montevideo",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 1 derrota(s) em 13 jogos no campeonato",
+     "strength": 0.42,
+     "favors": "AWAY",
+     "team": "Liverpool Montevideo",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "2º melhor ataque da liga (1.7 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "AWAY",
+     "team": "Liverpool Montevideo",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Danubio FC é 15º · Liverpool Montevideo é 1º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Liverpool Montevideo está 14 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "AWAY",
+     "team": "Liverpool Montevideo",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Danubio FC",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "Liverpool Montevideo",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Melhor defesa da liga (0.6 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "Liverpool Montevideo",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 1 derrota(s) em 13 jogos no campeonato",
+     "strength": 0.42,
+     "favors": "AWAY",
+     "team": "Liverpool Montevideo",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "2º melhor ataque da liga (1.7 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "AWAY",
+     "team": "Liverpool Montevideo",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Liverpool Montevideo está 14 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 67,
+   "league": {
+    "key": "uy_primera",
+    "name": "Primera División",
+    "country": "Uruguai"
+   },
+   "home_team": {
+    "id": 8611,
+    "name": "Danubio FC",
+    "position": 15,
+    "played": 13,
+    "points": 10.0,
+    "record": "2V 4E 7D",
+    "goals_for": 7,
+    "goals_against": 15,
+    "last5": "LLWLW",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Nacional",
+      "date": "2026-11-01"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Deportivo Maldonado",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Central Espanol",
+      "date": "2026-10-18"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Montevideo City Torque",
+      "date": "2026-10-09"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Cerro Largo",
+      "date": "2026-10-04"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 8358,
+    "name": "Liverpool Montevideo",
+    "position": 1,
+    "played": 13,
+    "points": 30.0,
+    "record": "9V 3E 1D",
+    "goals_for": 22,
+    "goals_against": 8,
+    "last5": "WWWDW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Juventud",
+      "date": "2026-11-01"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Nacional",
+      "date": "2026-10-25"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Peñarol",
+      "date": "2026-10-18"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Deportivo Maldonado",
+      "date": "2026-10-09"
+     },
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": true,
+      "opponent": "Progreso",
+      "date": "2026-10-03"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-15T16:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": false,
+   "below_bar": true
+  },
+  {
+   "id": 4890146,
+   "s365_competition_id": 617,
+   "competition_name": "Uruguayan Championship - Clausura",
+   "start_time": "2026-11-15T23:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 7639,
+    "name": "Defensor Sporting"
+   },
+   "away": {
+    "id": 7766,
+    "name": "Peñarol"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.11,
+    "lambda_away": 1.27,
+    "expected_goals": 2.38,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.3227,
+     "DRAW": 0.2772,
+     "AWAY": 0.4,
+     "1X": 0.6,
+     "X2": 0.6773,
+     "12": 0.7228,
+     "OVER25": 0.4237,
+     "UNDER25": 0.5763,
+     "BTTS_YES": 0.4811,
+     "BTTS_NO": 0.5189
+    }
+   },
+   "pick": {
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: Peñarol ou empate (X2)",
+    "model_prob": 0.6773,
+    "trend_alignment": 1.0,
+    "confidence": 50,
+    "eligible": true,
+    "odd": 1.2,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Peñarol",
+     "model_prob": 0.4,
+     "trend_alignment": 1.0,
+     "confidence": 41,
+     "eligible": false,
+     "odd": 1.64
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.5763,
+     "trend_alignment": 0.163,
+     "confidence": 16,
+     "eligible": false,
+     "odd": 1.69
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5189,
+     "trend_alignment": 0.163,
+     "confidence": 8,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Defensor Sporting ou empate (1X)",
+     "model_prob": 0.6,
+     "trend_alignment": 0.0,
+     "confidence": 7,
+     "eligible": false,
+     "odd": 2.11
+    }
+   ],
+   "trends": [
+    {
+     "label": "Menos de 2.5 gols em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "UNDER",
+     "team": "Peñarol",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "under"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "AWAY",
+     "team": "Peñarol",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Defensor Sporting",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "2ª melhor defesa da liga (0.7 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "AWAY",
+     "team": "Peñarol",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 2 derrota(s) em 13 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "AWAY",
+     "team": "Peñarol",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Pior defesa da liga (1.8 sofridos/jogo)",
+     "strength": 0.34,
+     "favors": "OVER",
+     "team": "Defensor Sporting",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_bottom"
+    },
+    {
+     "label": "Defensor Sporting é 13º · Peñarol é 5º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Peñarol está 8 posições à frente",
+     "strength": 0.571,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "AWAY",
+     "team": "Peñarol",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Defensor Sporting",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "2ª melhor defesa da liga (0.7 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "AWAY",
+     "team": "Peñarol",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 2 derrota(s) em 13 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "AWAY",
+     "team": "Peñarol",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Peñarol está 8 posições à frente",
+     "strength": 0.571,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 50,
+   "league": {
+    "key": "uy_primera",
+    "name": "Primera División",
+    "country": "Uruguai"
+   },
+   "home_team": {
+    "id": 7639,
+    "name": "Defensor Sporting",
+    "position": 13,
+    "played": 13,
+    "points": 12.0,
+    "record": "3V 3E 7D",
+    "goals_for": 16,
+    "goals_against": 23,
+    "last5": "WDLLL",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "Progreso",
+      "date": "2026-11-01"
+     },
+     {
+      "result": "D",
+      "score": "3-3",
+      "home": true,
+      "opponent": "Racing Club Montevideo",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Boston River",
+      "date": "2026-10-17"
+     },
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": true,
+      "opponent": "Cerro",
+      "date": "2026-10-10"
+     },
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": false,
+      "opponent": "Albion",
+      "date": "2026-10-03"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 7766,
+    "name": "Peñarol",
+    "position": 5,
+    "played": 13,
+    "points": 22.0,
+    "record": "6V 5E 2D",
+    "goals_for": 17,
+    "goals_against": 9,
+    "last5": "DDLDW",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Montevideo Wanderers",
+      "date": "2026-10-31"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Juventud",
+      "date": "2026-10-23"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Liverpool Montevideo",
+      "date": "2026-10-18"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Progreso",
+      "date": "2026-10-10"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Racing Club Montevideo",
+      "date": "2026-10-04"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-15T20:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": false,
+   "below_bar": true
+  },
+  {
+   "id": 4760763,
+   "s365_competition_id": 583,
+   "competition_name": "Liga 1 - Clausura",
+   "start_time": "2026-11-15T20:15:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 77429,
+    "name": "Juan Pablo II College"
+   },
+   "away": {
+    "id": 45849,
+    "name": "Deportivo Garcilaso"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.57,
+    "lambda_away": 1.4,
+    "expected_goals": 2.97,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.4173,
+     "DRAW": 0.2432,
+     "AWAY": 0.3395,
+     "1X": 0.6605,
+     "X2": 0.5827,
+     "12": 0.7568,
+     "OVER25": 0.5708,
+     "UNDER25": 0.4292,
+     "BTTS_YES": 0.5971,
+     "BTTS_NO": 0.4029
+    }
+   },
+   "pick": {
+    "selection": "1X",
+    "family": "double_chance",
+    "label": "Dupla chance: Juan Pablo II College ou empate (1X)",
+    "model_prob": 0.6605,
+    "trend_alignment": 0.0,
+    "confidence": 15,
+    "eligible": true,
+    "odd": 1.53,
+    "low_conviction": true
+   },
+   "alt_markets": [
+    {
+     "selection": "X2",
+     "family": "double_chance",
+     "label": "Dupla chance: Deportivo Garcilaso ou empate (X2)",
+     "model_prob": 0.5827,
+     "trend_alignment": 1.0,
+     "confidence": 37,
+     "eligible": false,
+     "odd": 1.46
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Deportivo Garcilaso",
+     "model_prob": 0.3395,
+     "trend_alignment": 1.0,
+     "confidence": 35,
+     "eligible": false,
+     "odd": 2.49
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5971,
+     "trend_alignment": 0.366,
+     "confidence": 25,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5708,
+     "trend_alignment": 0.366,
+     "confidence": 22,
+     "eligible": false,
+     "odd": 1.83
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Juan Pablo II College",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Ambos marcaram só 1x nos últimos 5",
+     "strength": 0.39,
+     "favors": "BTTS_NO",
+     "team": "Juan Pablo II College",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "no_btts"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "Deportivo Garcilaso",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Ambos marcaram em 4 dos últimos 5",
+     "strength": 0.43,
+     "favors": "BTTS_YES",
+     "team": "Deportivo Garcilaso",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "btts"
+    },
+    {
+     "label": "3ª melhor defesa da liga (1.1 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "AWAY",
+     "team": "Deportivo Garcilaso",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "3º melhor ataque da liga (1.8 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "AWAY",
+     "team": "Deportivo Garcilaso",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Juan Pablo II College é 9º · Deportivo Garcilaso é 4º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Deportivo Garcilaso está 5 posições à frente",
+     "strength": 0.357,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [],
+   "confidence": 15,
+   "league": {
+    "key": "pe_liga1",
+    "name": "Liga 1",
+    "country": "Peru"
+   },
+   "home_team": {
+    "id": 77429,
+    "name": "Juan Pablo II College",
+    "position": 9,
+    "played": 16,
+    "points": 25.0,
+    "record": "7V 4E 5D",
+    "goals_for": 26,
+    "goals_against": 19,
+    "last5": "LLWLW",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "FBC Melgar",
+      "date": "2026-11-07"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Alianza Atletico",
+      "date": "2026-10-31"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Sport Huancayo",
+      "date": "2026-10-27"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": false,
+      "opponent": "Universitario",
+      "date": "2026-10-25"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Sport Boys",
+      "date": "2026-10-17"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 45849,
+    "name": "Deportivo Garcilaso",
+    "position": 4,
+    "played": 16,
+    "points": 29.0,
+    "record": "9V 2E 5D",
+    "goals_for": 29,
+    "goals_against": 17,
+    "last5": "DWLWL",
+    "recent": [
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Comerciantes Unidos",
+      "date": "2026-11-08"
+     },
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": false,
+      "opponent": "UTC",
+      "date": "2026-11-02"
+     },
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": false,
+      "opponent": "Alianza Atletico",
+      "date": "2026-10-28"
+     },
+     {
+      "result": "W",
+      "score": "4-1",
+      "home": true,
+      "opponent": "Los Chankas",
+      "date": "2026-10-25"
+     },
+     {
+      "result": "L",
+      "score": "2-4",
+      "home": false,
+      "opponent": "FBC Melgar",
+      "date": "2026-10-17"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-15T17:15:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": false,
+   "below_bar": true
+  }
+ ]
+}

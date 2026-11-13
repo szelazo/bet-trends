@@ -1,6 +1,6 @@
 {
  "date": "2026-11-13",
- "generated_at": "2026-11-12T21:54:30.605069-03:00",
+ "generated_at": "2026-11-13T15:27:55.339376-03:00",
  "version": "0.1.0",
  "count": 2,
  "clear_count": 0,
@@ -81,7 +81,7 @@
      "trend_alignment": 0.0,
      "confidence": 11,
      "eligible": false,
-     "odd": 1.86
+     "odd": 1.81
     },
     {
      "selection": "AWAY",
@@ -271,32 +271,32 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 1.37,
-    "lambda_away": 1.42,
-    "expected_goals": 2.79,
+    "lambda_home": 1.31,
+    "lambda_away": 1.47,
+    "expected_goals": 2.78,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.3605,
-     "DRAW": 0.2532,
-     "AWAY": 0.3864,
-     "1X": 0.6136,
-     "X2": 0.6395,
-     "12": 0.7468,
-     "OVER25": 0.5285,
-     "UNDER25": 0.4715,
-     "BTTS_YES": 0.5658,
-     "BTTS_NO": 0.4342
+     "HOME": 0.3363,
+     "DRAW": 0.2529,
+     "AWAY": 0.4107,
+     "1X": 0.5893,
+     "X2": 0.6637,
+     "12": 0.7471,
+     "OVER25": 0.5256,
+     "UNDER25": 0.4744,
+     "BTTS_YES": 0.5621,
+     "BTTS_NO": 0.4379
     }
    },
    "pick": {
     "selection": "X2",
     "family": "double_chance",
     "label": "Dupla chance: Independiente Santa Fe ou empate (X2)",
-    "model_prob": 0.6395,
-    "trend_alignment": 0.171,
-    "confidence": 18,
+    "model_prob": 0.6637,
+    "trend_alignment": 0.219,
+    "confidence": 23,
     "eligible": true,
-    "odd": 1.3,
+    "odd": 1.34,
     "low_conviction": true
    },
    "alt_markets": [
@@ -304,7 +304,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5658,
+     "model_prob": 0.5621,
      "trend_alignment": 0.617,
      "confidence": 30,
      "eligible": false,
@@ -314,31 +314,31 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.5285,
+     "model_prob": 0.5256,
      "trend_alignment": 0.617,
      "confidence": 25,
      "eligible": false,
-     "odd": 1.74
+     "odd": 1.79
     },
     {
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Independiente Santa Fe",
-     "model_prob": 0.3864,
-     "trend_alignment": 0.171,
-     "confidence": 11,
+     "model_prob": 0.4107,
+     "trend_alignment": 0.219,
+     "confidence": 15,
      "eligible": false,
-     "odd": 2.01
+     "odd": 2.16
     },
     {
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Internacional de Bogota ou empate (1X)",
-     "model_prob": 0.6136,
+     "model_prob": 0.5893,
      "trend_alignment": 0.0,
-     "confidence": 9,
+     "confidence": 5,
      "eligible": false,
-     "odd": 1.81
+     "odd": 1.71
     }
    ],
    "trends": [
@@ -370,7 +370,7 @@
      "kind": "no_score"
     },
     {
-     "label": "Internacional de Bogota é 13º · Independiente Santa Fe é 5º",
+     "label": "Internacional de Bogota é 14º · Independiente Santa Fe é 5º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -379,8 +379,8 @@
      "kind": "positions"
     },
     {
-     "label": "Independiente Santa Fe está 8 posições à frente",
-     "strength": 0.571,
+     "label": "Independiente Santa Fe está 9 posições à frente",
+     "strength": 0.643,
      "favors": "AWAY",
      "team": null,
      "side": null,
@@ -390,8 +390,8 @@
    ],
    "aligned_trends": [
     {
-     "label": "Independiente Santa Fe está 8 posições à frente",
-     "strength": 0.571,
+     "label": "Independiente Santa Fe está 9 posições à frente",
+     "strength": 0.643,
      "favors": "AWAY",
      "team": null,
      "side": null,
@@ -399,7 +399,7 @@
      "kind": "table_gap"
     }
    ],
-   "confidence": 18,
+   "confidence": 23,
    "league": {
     "key": "co_primera",
     "name": "Liga BetPlay",
@@ -408,12 +408,12 @@
    "home_team": {
     "id": 8542,
     "name": "Internacional de Bogota",
-    "position": 13,
+    "position": 14,
     "played": 18,
-    "points": 23.0,
-    "record": "5V 8E 5D",
-    "goals_for": 25,
-    "goals_against": 23,
+    "points": 20.0,
+    "record": "4V 8E 6D",
+    "goals_for": 22,
+    "goals_against": 25,
     "last5": "LLWLW",
     "recent": [
      {
