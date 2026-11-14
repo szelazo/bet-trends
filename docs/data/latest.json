@@ -1,6 +1,6 @@
 {
  "date": "2026-11-13",
- "generated_at": "2026-11-13T15:27:55.339376-03:00",
+ "generated_at": "2026-11-13T21:41:11.609517-03:00",
  "version": "0.1.0",
  "count": 2,
  "clear_count": 0,
@@ -21,8 +21,8 @@
     "id": 7087,
     "name": "Racing Club Montevideo"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 2.0,
    "model": {
     "lambda_home": 1.78,
     "lambda_away": 1.25,
@@ -249,7 +249,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": false,
    "below_bar": true
   },
