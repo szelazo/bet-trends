@@ -1,6 +1,6 @@
 {
  "date": "2026-11-15",
- "generated_at": "2026-11-15T14:38:29.805244-03:00",
+ "generated_at": "2026-11-15T20:46:26.160809-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 0,
@@ -21,8 +21,8 @@
     "id": 8358,
     "name": "Liverpool Montevideo"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 1.0,
+   "away_score": 2.0,
    "model": {
     "lambda_home": 0.7,
     "lambda_away": 1.32,
@@ -348,7 +348,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": false,
    "below_bar": true
   },
@@ -686,8 +686,8 @@
     "id": 45849,
     "name": "Deportivo Garcilaso"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 2.0,
    "model": {
     "lambda_home": 1.57,
     "lambda_away": 1.4,
@@ -940,7 +940,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": false,
    "below_bar": true
   }
