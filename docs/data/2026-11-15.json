@@ -1,6 +1,6 @@
 {
  "date": "2026-11-15",
- "generated_at": "2026-11-14T20:39:35.549767-03:00",
+ "generated_at": "2026-11-15T14:38:29.805244-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 0,
@@ -29,27 +29,27 @@
     "expected_goals": 2.02,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.198,
-     "DRAW": 0.287,
-     "AWAY": 0.515,
-     "1X": 0.485,
-     "X2": 0.802,
-     "12": 0.713,
-     "OVER25": 0.3278,
-     "UNDER25": 0.6722,
-     "BTTS_YES": 0.3683,
-     "BTTS_NO": 0.6317
+     "HOME": 0.1986,
+     "DRAW": 0.2873,
+     "AWAY": 0.5141,
+     "1X": 0.4859,
+     "X2": 0.8014,
+     "12": 0.7127,
+     "OVER25": 0.3276,
+     "UNDER25": 0.6724,
+     "BTTS_YES": 0.3684,
+     "BTTS_NO": 0.6316
     }
    },
    "pick": {
     "selection": "X2",
     "family": "double_chance",
     "label": "Dupla chance: Liverpool Montevideo ou empate (X2)",
-    "model_prob": 0.802,
+    "model_prob": 0.8014,
     "trend_alignment": 1.0,
     "confidence": 67,
     "eligible": true,
-    "odd": 1.25,
+    "odd": 1.33,
     "low_conviction": false
    },
    "alt_markets": [
@@ -57,27 +57,27 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Liverpool Montevideo",
-     "model_prob": 0.515,
+     "model_prob": 0.5141,
      "trend_alignment": 1.0,
      "confidence": 52,
      "eligible": true,
-     "odd": 1.79
+     "odd": 2.04
     },
     {
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.6722,
+     "model_prob": 0.6724,
      "trend_alignment": 0.313,
      "confidence": 33,
      "eligible": true,
-     "odd": 1.69
+     "odd": 1.65
     },
     {
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.6317,
+     "model_prob": 0.6316,
      "trend_alignment": 0.313,
      "confidence": 28,
      "eligible": true,
@@ -87,11 +87,11 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Danubio FC",
-     "model_prob": 0.198,
+     "model_prob": 0.1986,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 3.77
+     "odd": 3.23
     }
    ],
    "trends": [
@@ -370,28 +370,28 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 1.1,
+    "lambda_home": 1.11,
     "lambda_away": 1.27,
     "expected_goals": 2.38,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.3209,
-     "DRAW": 0.277,
-     "AWAY": 0.4021,
-     "1X": 0.5979,
-     "X2": 0.6791,
-     "12": 0.723,
-     "OVER25": 0.4242,
-     "UNDER25": 0.5758,
-     "BTTS_YES": 0.4813,
-     "BTTS_NO": 0.5187
+     "HOME": 0.3217,
+     "DRAW": 0.2771,
+     "AWAY": 0.4012,
+     "1X": 0.5988,
+     "X2": 0.6783,
+     "12": 0.7229,
+     "OVER25": 0.424,
+     "UNDER25": 0.576,
+     "BTTS_YES": 0.4812,
+     "BTTS_NO": 0.5188
     }
    },
    "pick": {
     "selection": "X2",
     "family": "double_chance",
     "label": "Dupla chance: Peñarol ou empate (X2)",
-    "model_prob": 0.6791,
+    "model_prob": 0.6783,
     "trend_alignment": 1.0,
     "confidence": 50,
     "eligible": true,
@@ -403,7 +403,7 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Peñarol",
-     "model_prob": 0.4021,
+     "model_prob": 0.4012,
      "trend_alignment": 1.0,
      "confidence": 41,
      "eligible": false,
@@ -413,7 +413,7 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.5758,
+     "model_prob": 0.576,
      "trend_alignment": 0.163,
      "confidence": 16,
      "eligible": false,
@@ -423,7 +423,7 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.5187,
+     "model_prob": 0.5188,
      "trend_alignment": 0.163,
      "confidence": 8,
      "eligible": false,
@@ -433,7 +433,7 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Defensor Sporting ou empate (1X)",
-     "model_prob": 0.5979,
+     "model_prob": 0.5988,
      "trend_alignment": 0.0,
      "confidence": 7,
      "eligible": false,
@@ -714,7 +714,7 @@
     "trend_alignment": 0.0,
     "confidence": 15,
     "eligible": true,
-    "odd": 1.53,
+    "odd": 1.39,
     "low_conviction": true
    },
    "alt_markets": [
@@ -726,7 +726,7 @@
      "trend_alignment": 1.0,
      "confidence": 37,
      "eligible": false,
-     "odd": 1.46
+     "odd": 1.63
     },
     {
      "selection": "AWAY",
@@ -736,7 +736,7 @@
      "trend_alignment": 1.0,
      "confidence": 35,
      "eligible": false,
-     "odd": 2.49
+     "odd": 2.99
     },
     {
      "selection": "BTTS_YES",
