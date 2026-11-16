@@ -1,0 +1,886 @@
+{
+ "date": "2026-11-18",
+ "generated_at": "2026-11-16T17:53:50.402830-03:00",
+ "version": "0.1.0",
+ "count": 3,
+ "clear_count": 0,
+ "day_total": 7,
+ "games": [
+  {
+   "id": 4632606,
+   "s365_competition_id": 113,
+   "competition_name": "Brasileirão Série A",
+   "start_time": "2026-11-18T23:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 1215,
+    "name": "Flamengo"
+   },
+   "away": {
+    "id": 1210,
+    "name": "Athletico Paranaense"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.47,
+    "lambda_away": 0.85,
+    "expected_goals": 3.32,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.7288,
+     "DRAW": 0.1626,
+     "AWAY": 0.1086,
+     "1X": 0.8914,
+     "X2": 0.2712,
+     "12": 0.8374,
+     "OVER25": 0.6436,
+     "UNDER25": 0.3564,
+     "BTTS_YES": 0.523,
+     "BTTS_NO": 0.477
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Flamengo",
+    "model_prob": 0.7288,
+    "trend_alignment": 1.0,
+    "confidence": 79,
+    "eligible": true,
+    "odd": 1.22,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Flamengo ou empate (1X)",
+     "model_prob": 0.8914,
+     "trend_alignment": 1.0,
+     "confidence": 79,
+     "eligible": true,
+     "odd": 1.05
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6436,
+     "trend_alignment": 0.58,
+     "confidence": 39,
+     "eligible": true,
+     "odd": 2.21
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.523,
+     "trend_alignment": 0.58,
+     "confidence": 23,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Athletico Paranaense",
+     "model_prob": 0.1086,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 11.0
+    }
+   ],
+   "trends": [
+    {
+     "label": "5 vitórias seguidas",
+     "strength": 1.0,
+     "favors": "HOME",
+     "team": "Flamengo",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 5 dos últimos 5",
+     "strength": 0.75,
+     "favors": "HOME",
+     "team": "Flamengo",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "Flamengo",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Athletico Paranaense",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Sofreu gol em todos os últimos 5",
+     "strength": 0.4,
+     "favors": "OVER",
+     "team": "Athletico Paranaense",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "always_concede"
+    },
+    {
+     "label": "Melhor ataque da liga (2.1 marcados/jogo)",
+     "strength": 0.44,
+     "favors": "HOME",
+     "team": "Flamengo",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "2ª melhor defesa da liga (0.9 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "HOME",
+     "team": "Flamengo",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 4 derrota(s) em 34 jogos no campeonato",
+     "strength": 0.25,
+     "favors": "HOME",
+     "team": "Flamengo",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Flamengo é 1º · Athletico Paranaense é 5º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Flamengo está 4 posições à frente",
+     "strength": 0.286,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "5 vitórias seguidas",
+     "strength": 1.0,
+     "favors": "HOME",
+     "team": "Flamengo",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 5 dos últimos 5",
+     "strength": 0.75,
+     "favors": "HOME",
+     "team": "Flamengo",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Athletico Paranaense",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Melhor ataque da liga (2.1 marcados/jogo)",
+     "strength": 0.44,
+     "favors": "HOME",
+     "team": "Flamengo",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "2ª melhor defesa da liga (0.9 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "HOME",
+     "team": "Flamengo",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 4 derrota(s) em 34 jogos no campeonato",
+     "strength": 0.25,
+     "favors": "HOME",
+     "team": "Flamengo",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Flamengo está 4 posições à frente",
+     "strength": 0.286,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 79,
+   "league": {
+    "key": "br_serie_a",
+    "name": "Brasileirão Série A",
+    "country": "Brasil"
+   },
+   "home_team": {
+    "id": 1215,
+    "name": "Flamengo",
+    "position": 1,
+    "played": 34,
+    "points": 76.0,
+    "record": "23V 7E 4D",
+    "goals_for": 71,
+    "goals_against": 29,
+    "last5": "WWWWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": true,
+      "opponent": "Gremio",
+      "date": "2026-11-04"
+     },
+     {
+      "result": "W",
+      "score": "4-1",
+      "home": false,
+      "opponent": "Vasco da Gama",
+      "date": "2026-10-29"
+     },
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": true,
+      "opponent": "Atlético Mineiro",
+      "date": "2026-10-26"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": false,
+      "opponent": "Bahia",
+      "date": "2026-10-18"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Fluminense",
+      "date": "2026-10-11"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 1210,
+    "name": "Athletico Paranaense",
+    "position": 5,
+    "played": 34,
+    "points": 54.0,
+    "record": "15V 9E 10D",
+    "goals_for": 51,
+    "goals_against": 43,
+    "last5": "LLDLW",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": true,
+      "opponent": "Vasco da Gama",
+      "date": "2026-11-04"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Gremio",
+      "date": "2026-10-30"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Vitoria",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": true,
+      "opponent": "Palmeiras",
+      "date": "2026-10-17"
+     },
+     {
+      "result": "W",
+      "score": "4-1",
+      "home": false,
+      "opponent": "Chapecoense",
+      "date": "2026-10-12"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-18T20:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": false,
+   "below_bar": true
+  },
+  {
+   "id": 4760766,
+   "s365_competition_id": 583,
+   "competition_name": "Liga 1 - Clausura",
+   "start_time": "2026-11-18T20:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 8418,
+    "name": "Alianza Atletico"
+   },
+   "away": {
+    "id": 8413,
+    "name": "FBC Melgar"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.52,
+    "lambda_away": 1.89,
+    "expected_goals": 3.41,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.3119,
+     "DRAW": 0.2222,
+     "AWAY": 0.4659,
+     "1X": 0.5341,
+     "X2": 0.6881,
+     "12": 0.7778,
+     "OVER25": 0.6626,
+     "UNDER25": 0.3374,
+     "BTTS_YES": 0.6635,
+     "BTTS_NO": 0.3365
+    }
+   },
+   "pick": {
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: FBC Melgar ou empate (X2)",
+    "model_prob": 0.6881,
+    "trend_alignment": 0.667,
+    "confidence": 41,
+    "eligible": true,
+    "odd": 1.6,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do FBC Melgar",
+     "model_prob": 0.4659,
+     "trend_alignment": 0.667,
+     "confidence": 36,
+     "eligible": true,
+     "odd": 2.78
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6626,
+     "trend_alignment": 0.287,
+     "confidence": 31,
+     "eligible": true,
+     "odd": 1.7
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.6635,
+     "trend_alignment": 0.287,
+     "confidence": 31,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Alianza Atletico",
+     "model_prob": 0.3119,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 2.28
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Alianza Atletico",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "AWAY",
+     "team": "FBC Melgar",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Ambos marcaram em 4 dos últimos 5",
+     "strength": 0.43,
+     "favors": "BTTS_YES",
+     "team": "FBC Melgar",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "btts"
+    },
+    {
+     "label": "Alianza Atletico é 7º · FBC Melgar é 5º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Alianza Atletico",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "AWAY",
+     "team": "FBC Melgar",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    }
+   ],
+   "confidence": 41,
+   "league": {
+    "key": "pe_liga1",
+    "name": "Liga 1",
+    "country": "Peru"
+   },
+   "home_team": {
+    "id": 8418,
+    "name": "Alianza Atletico",
+    "position": 7,
+    "played": 16,
+    "points": 28.0,
+    "record": "9V 1E 6D",
+    "goals_for": 29,
+    "goals_against": 30,
+    "last5": "LWWLL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "FC Cajamarca",
+      "date": "2026-11-07"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Juan Pablo II College",
+      "date": "2026-10-31"
+     },
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": true,
+      "opponent": "Deportivo Garcilaso",
+      "date": "2026-10-28"
+     },
+     {
+      "result": "L",
+      "score": "1-4",
+      "home": false,
+      "opponent": "Sport Huancayo",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "L",
+      "score": "1-4",
+      "home": true,
+      "opponent": "Universitario",
+      "date": "2026-10-18"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 8413,
+    "name": "FBC Melgar",
+    "position": 5,
+    "played": 16,
+    "points": 29.0,
+    "record": "8V 5E 3D",
+    "goals_for": 27,
+    "goals_against": 18,
+    "last5": "WLDWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Juan Pablo II College",
+      "date": "2026-11-07"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Sport Huancayo",
+      "date": "2026-11-02"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Comerciantes Unidos",
+      "date": "2026-10-30"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "UTC",
+      "date": "2026-10-23"
+     },
+     {
+      "result": "W",
+      "score": "4-2",
+      "home": true,
+      "opponent": "Deportivo Garcilaso",
+      "date": "2026-10-17"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-18T17:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": false,
+   "below_bar": true
+  },
+  {
+   "id": 4632597,
+   "s365_competition_id": 113,
+   "competition_name": "Brasileirão Série A",
+   "start_time": "2026-11-18T23:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 7383,
+    "name": "Remo"
+   },
+   "away": {
+    "id": 7387,
+    "name": "Chapecoense"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.58,
+    "lambda_away": 1.01,
+    "expected_goals": 2.59,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.5077,
+     "DRAW": 0.2516,
+     "AWAY": 0.2407,
+     "1X": 0.7593,
+     "X2": 0.4923,
+     "12": 0.7484,
+     "OVER25": 0.4789,
+     "UNDER25": 0.5211,
+     "BTTS_YES": 0.5041,
+     "BTTS_NO": 0.4959
+    }
+   },
+   "pick": {
+    "selection": "1X",
+    "family": "double_chance",
+    "label": "Dupla chance: Remo ou empate (1X)",
+    "model_prob": 0.7593,
+    "trend_alignment": 0.119,
+    "confidence": 32,
+    "eligible": true,
+    "odd": 1.17,
+    "low_conviction": true
+   },
+   "alt_markets": [
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5041,
+     "trend_alignment": 0.72,
+     "confidence": 26,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.4789,
+     "trend_alignment": 0.72,
+     "confidence": 25,
+     "eligible": false,
+     "odd": 1.56
+    },
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Remo",
+     "model_prob": 0.5077,
+     "trend_alignment": 0.119,
+     "confidence": 21,
+     "eligible": true,
+     "odd": 1.6
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.5211,
+     "trend_alignment": 0.0,
+     "confidence": 3,
+     "eligible": false,
+     "odd": 2.33
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "HOME",
+     "team": "Chapecoense",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Sofreu gol em todos os últimos 5",
+     "strength": 0.4,
+     "favors": "OVER",
+     "team": "Chapecoense",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "always_concede"
+    },
+    {
+     "label": "Só venceu 1 dos últimos 5",
+     "strength": 0.48,
+     "favors": "AWAY",
+     "team": "Remo",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "Pior defesa da liga (1.7 sofridos/jogo)",
+     "strength": 0.34,
+     "favors": "OVER",
+     "team": "Remo",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_bottom"
+    },
+    {
+     "label": "Pior defesa da liga (2.1 sofridos/jogo)",
+     "strength": 0.34,
+     "favors": "OVER",
+     "team": "Chapecoense",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_bottom"
+    },
+    {
+     "label": "Remo é 19º · Chapecoense é 20º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "HOME",
+     "team": "Chapecoense",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    }
+   ],
+   "confidence": 32,
+   "league": {
+    "key": "br_serie_a",
+    "name": "Brasileirão Série A",
+    "country": "Brasil"
+   },
+   "home_team": {
+    "id": 7383,
+    "name": "Remo",
+    "position": 19,
+    "played": 34,
+    "points": 29.0,
+    "record": "6V 11E 17D",
+    "goals_for": 37,
+    "goals_against": 57,
+    "last5": "LWLDD",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-6",
+      "home": false,
+      "opponent": "Palmeiras",
+      "date": "2026-11-05"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Botafogo",
+      "date": "2026-10-29"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Cruzeiro",
+      "date": "2026-10-23"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "RB Bragantino",
+      "date": "2026-10-18"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Vasco da Gama",
+      "date": "2026-10-10"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 7387,
+    "name": "Chapecoense",
+    "position": 20,
+    "played": 34,
+    "points": 21.0,
+    "record": "4V 9E 21D",
+    "goals_for": 33,
+    "goals_against": 70,
+    "last5": "LLLWL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": true,
+      "opponent": "Vasco da Gama",
+      "date": "2026-11-14"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Mirassol",
+      "date": "2026-11-03"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": false,
+      "opponent": "RB Bragantino",
+      "date": "2026-10-28"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Fluminense",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Botafogo",
+      "date": "2026-10-17"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-18T20:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": false,
+   "below_bar": true
+  }
+ ]
+}
