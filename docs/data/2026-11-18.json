@@ -1,6 +1,6 @@
 {
  "date": "2026-11-18",
- "generated_at": "2026-11-16T17:53:50.402830-03:00",
+ "generated_at": "2026-11-16T23:47:17.633878-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 0,
@@ -379,28 +379,28 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 1.52,
+    "lambda_home": 1.51,
     "lambda_away": 1.89,
-    "expected_goals": 3.41,
+    "expected_goals": 3.4,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.3119,
-     "DRAW": 0.2222,
-     "AWAY": 0.4659,
-     "1X": 0.5341,
-     "X2": 0.6881,
-     "12": 0.7778,
-     "OVER25": 0.6626,
-     "UNDER25": 0.3374,
-     "BTTS_YES": 0.6635,
-     "BTTS_NO": 0.3365
+     "HOME": 0.312,
+     "DRAW": 0.2227,
+     "AWAY": 0.4653,
+     "1X": 0.5347,
+     "X2": 0.688,
+     "12": 0.7773,
+     "OVER25": 0.6601,
+     "UNDER25": 0.3399,
+     "BTTS_YES": 0.6616,
+     "BTTS_NO": 0.3384
     }
    },
    "pick": {
     "selection": "X2",
     "family": "double_chance",
     "label": "Dupla chance: FBC Melgar ou empate (X2)",
-    "model_prob": 0.6881,
+    "model_prob": 0.688,
     "trend_alignment": 0.667,
     "confidence": 41,
     "eligible": true,
@@ -412,7 +412,7 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do FBC Melgar",
-     "model_prob": 0.4659,
+     "model_prob": 0.4653,
      "trend_alignment": 0.667,
      "confidence": 36,
      "eligible": true,
@@ -422,7 +422,7 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6626,
+     "model_prob": 0.6601,
      "trend_alignment": 0.287,
      "confidence": 31,
      "eligible": true,
@@ -432,7 +432,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.6635,
+     "model_prob": 0.6616,
      "trend_alignment": 0.287,
      "confidence": 31,
      "eligible": true,
@@ -442,7 +442,7 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Alianza Atletico",
-     "model_prob": 0.3119,
+     "model_prob": 0.312,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
@@ -660,7 +660,7 @@
     "trend_alignment": 0.119,
     "confidence": 32,
     "eligible": true,
-    "odd": 1.17,
+    "odd": 1.16,
     "low_conviction": true
    },
    "alt_markets": [
@@ -682,7 +682,7 @@
      "trend_alignment": 0.72,
      "confidence": 25,
      "eligible": false,
-     "odd": 1.56
+     "odd": 1.59
     },
     {
      "selection": "HOME",
@@ -692,7 +692,7 @@
      "trend_alignment": 0.119,
      "confidence": 21,
      "eligible": true,
-     "odd": 1.6
+     "odd": 1.55
     },
     {
      "selection": "UNDER25",
@@ -702,7 +702,7 @@
      "trend_alignment": 0.0,
      "confidence": 3,
      "eligible": false,
-     "odd": 2.33
+     "odd": 2.28
     }
    ],
    "trends": [

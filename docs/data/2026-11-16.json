@@ -1,6 +1,6 @@
 {
  "date": "2026-11-16",
- "generated_at": "2026-11-16T17:53:49.661253-03:00",
+ "generated_at": "2026-11-16T23:47:16.878620-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 0,
@@ -277,8 +277,8 @@
     "id": 10192,
     "name": "Juventud"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 0.88,
     "lambda_away": 0.87,
@@ -523,7 +523,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "miss",
    "clear": false,
    "below_bar": true
   },
@@ -542,8 +542,8 @@
     "id": 57393,
     "name": "ADT Tarma"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 2.0,
    "model": {
     "lambda_home": 1.51,
     "lambda_away": 1.05,
@@ -779,7 +779,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": false,
    "below_bar": true
   }
