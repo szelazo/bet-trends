@@ -1,0 +1,1336 @@
+{
+ "date": "2026-11-20",
+ "generated_at": "2026-11-18T16:20:40.015991-03:00",
+ "version": "0.1.0",
+ "count": 4,
+ "clear_count": 4,
+ "day_total": 39,
+ "games": [
+  {
+   "id": 4779201,
+   "s365_competition_id": 408,
+   "competition_name": "Doha Bank Stars League",
+   "start_time": "2026-11-20T13:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 8329,
+    "name": "Al Duhail"
+   },
+   "away": {
+    "id": 7086,
+    "name": "Qatar SC"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.9,
+    "lambda_away": 0.92,
+    "expected_goals": 3.82,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.7764,
+     "DRAW": 0.1336,
+     "AWAY": 0.09,
+     "1X": 0.91,
+     "X2": 0.2236,
+     "12": 0.8664,
+     "OVER25": 0.7337,
+     "UNDER25": 0.2663,
+     "BTTS_YES": 0.5687,
+     "BTTS_NO": 0.4313
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Al Duhail",
+    "model_prob": 0.7764,
+    "trend_alignment": 1.0,
+    "confidence": 82,
+    "eligible": true,
+    "odd": 1.37,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Al Duhail ou empate (1X)",
+     "model_prob": 0.91,
+     "trend_alignment": 1.0,
+     "confidence": 82,
+     "eligible": true,
+     "odd": 1.13
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.7337,
+     "trend_alignment": 1.0,
+     "confidence": 65,
+     "eligible": true,
+     "odd": 1.92
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5687,
+     "trend_alignment": 1.0,
+     "confidence": 44,
+     "eligible": false,
+     "odd": 1.63
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Qatar SC",
+     "model_prob": 0.09,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 6.0
+    }
+   ],
+   "trends": [
+    {
+     "label": "5 vitórias seguidas",
+     "strength": 1.0,
+     "favors": "HOME",
+     "team": "Al Duhail",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 5 dos últimos 5",
+     "strength": 0.75,
+     "favors": "HOME",
+     "team": "Al Duhail",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Mais de 2.5 gols em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "OVER",
+     "team": "Al Duhail",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Qatar SC",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "Qatar SC",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Só venceu 1 dos últimos 4 fora de casa",
+     "strength": 0.462,
+     "favors": "HOME",
+     "team": "Qatar SC",
+     "side": "AWAY",
+     "group": "casa_fora",
+     "kind": "winless"
+    },
+    {
+     "label": "Mais de 2.5 gols em 3 dos últimos 4 fora de casa",
+     "strength": 0.45,
+     "favors": "OVER",
+     "team": "Qatar SC",
+     "side": "AWAY",
+     "group": "casa_fora",
+     "kind": "over"
+    },
+    {
+     "label": "2ª melhor defesa da liga (0.9 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "HOME",
+     "team": "Al Duhail",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "3º melhor ataque da liga (2.2 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Al Duhail",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Pior defesa da liga (2.3 sofridos/jogo)",
+     "strength": 0.34,
+     "favors": "OVER",
+     "team": "Qatar SC",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_bottom"
+    },
+    {
+     "label": "Al Duhail é 2º · Qatar SC é 11º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Al Duhail está 9 posições à frente",
+     "strength": 0.643,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "5 vitórias seguidas",
+     "strength": 1.0,
+     "favors": "HOME",
+     "team": "Al Duhail",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 5 dos últimos 5",
+     "strength": 0.75,
+     "favors": "HOME",
+     "team": "Al Duhail",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Qatar SC",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Só venceu 1 dos últimos 4 fora de casa",
+     "strength": 0.462,
+     "favors": "HOME",
+     "team": "Qatar SC",
+     "side": "AWAY",
+     "group": "casa_fora",
+     "kind": "winless"
+    },
+    {
+     "label": "2ª melhor defesa da liga (0.9 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "HOME",
+     "team": "Al Duhail",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "3º melhor ataque da liga (2.2 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Al Duhail",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Al Duhail está 9 posições à frente",
+     "strength": 0.643,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 82,
+   "league": {
+    "key": "qatar",
+    "name": "Qatar Stars League",
+    "country": "Catar"
+   },
+   "home_team": {
+    "id": 8329,
+    "name": "Al Duhail",
+    "position": 2,
+    "played": 9,
+    "points": 21.0,
+    "record": "6V 3E 0D",
+    "goals_for": 20,
+    "goals_against": 8,
+    "last5": "WWWWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Al Gharafa",
+      "date": "2026-11-07"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": true,
+      "opponent": "Al Wakrah",
+      "date": "2026-10-31"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": true,
+      "opponent": "Lusail Sports Club",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": false,
+      "opponent": "Al Sadd",
+      "date": "2026-10-18"
+     },
+     {
+      "result": "W",
+      "score": "4-0",
+      "home": false,
+      "opponent": "Al Shamal",
+      "date": "2026-10-08"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 7086,
+    "name": "Qatar SC",
+    "position": 11,
+    "played": 9,
+    "points": 6.0,
+    "record": "1V 3E 5D",
+    "goals_for": 11,
+    "goals_against": 21,
+    "last5": "LLWDL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": false,
+      "opponent": "Lusail Sports Club",
+      "date": "2026-11-08"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Al Gharafa",
+      "date": "2026-10-30"
+     },
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": false,
+      "opponent": "Al Shamal",
+      "date": "2026-10-23"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "Al Sailiya",
+      "date": "2026-10-17"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": true,
+      "opponent": "Al Rayyan",
+      "date": "2026-10-09"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-20T10:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4748653,
+   "s365_competition_id": 129,
+   "competition_name": "Premier League",
+   "start_time": "2026-11-20T16:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 1955,
+    "name": "Shakhtar Donetsk"
+   },
+   "away": {
+    "id": 68741,
+    "name": "Livyi Bereh"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.9,
+    "lambda_away": 0.51,
+    "expected_goals": 2.42,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.7085,
+     "DRAW": 0.2003,
+     "AWAY": 0.0912,
+     "1X": 0.9088,
+     "X2": 0.2915,
+     "12": 0.7997,
+     "OVER25": 0.4343,
+     "UNDER25": 0.5657,
+     "BTTS_YES": 0.3416,
+     "BTTS_NO": 0.6584
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Shakhtar Donetsk",
+    "model_prob": 0.7085,
+    "trend_alignment": 1.0,
+    "confidence": 82,
+    "eligible": true,
+    "odd": 1.26,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Shakhtar Donetsk ou empate (1X)",
+     "model_prob": 0.9088,
+     "trend_alignment": 1.0,
+     "confidence": 82,
+     "eligible": true,
+     "odd": 1.06
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.6584,
+     "trend_alignment": 0.591,
+     "confidence": 41,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.5657,
+     "trend_alignment": 0.591,
+     "confidence": 29,
+     "eligible": false,
+     "odd": 2.2
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Livyi Bereh",
+     "model_prob": 0.0912,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 10.0
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Livyi Bereh",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Melhor defesa da liga (0.4 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Shakhtar Donetsk",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 1 derrota(s) em 12 jogos no campeonato",
+     "strength": 0.42,
+     "favors": "HOME",
+     "team": "Shakhtar Donetsk",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Invicto em 5 dos últimos 6",
+     "strength": 0.492,
+     "favors": "HOME",
+     "team": "Shakhtar Donetsk",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Não sofreu gol em 4 dos últimos 6",
+     "strength": 0.417,
+     "favors": "UNDER",
+     "team": "Shakhtar Donetsk",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "clean_sheets"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5 em casa",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Shakhtar Donetsk",
+     "side": "HOME",
+     "group": "casa_fora",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Menos de 2.5 gols em 4 dos últimos 5 em casa",
+     "strength": 0.47,
+     "favors": "UNDER",
+     "team": "Shakhtar Donetsk",
+     "side": "HOME",
+     "group": "casa_fora",
+     "kind": "under"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Livyi Bereh",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Shakhtar Donetsk é 1º · Livyi Bereh é 12º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Shakhtar Donetsk está 11 posições à frente",
+     "strength": 0.786,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Livyi Bereh",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Melhor defesa da liga (0.4 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Shakhtar Donetsk",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 1 derrota(s) em 12 jogos no campeonato",
+     "strength": 0.42,
+     "favors": "HOME",
+     "team": "Shakhtar Donetsk",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Invicto em 5 dos últimos 6",
+     "strength": 0.492,
+     "favors": "HOME",
+     "team": "Shakhtar Donetsk",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5 em casa",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Shakhtar Donetsk",
+     "side": "HOME",
+     "group": "casa_fora",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Livyi Bereh",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Shakhtar Donetsk está 11 posições à frente",
+     "strength": 0.786,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 82,
+   "league": {
+    "key": "ukraine",
+    "name": "Premier League",
+    "country": "Ucrânia"
+   },
+   "home_team": {
+    "id": 1955,
+    "name": "Shakhtar Donetsk",
+    "position": 1,
+    "played": 12,
+    "points": 29.0,
+    "record": "9V 2E 1D",
+    "goals_for": 22,
+    "goals_against": 5,
+    "last5": "DLWDW",
+    "recent": [
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Dynamo Kyiv",
+      "date": "2026-11-08"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Sporting CP",
+      "date": "2026-11-03"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Obolon Kyiv",
+      "date": "2026-10-30"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Zorya Luhansk",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Kolos Kovalivka",
+      "date": "2026-10-17"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 68741,
+    "name": "Livyi Bereh",
+    "position": 12,
+    "played": 11,
+    "points": 9.0,
+    "record": "1V 6E 4D",
+    "goals_for": 7,
+    "goals_against": 12,
+    "last5": "LDDLL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": true,
+      "opponent": "Bukovyna",
+      "date": "2026-11-14"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Obolon Kyiv",
+      "date": "2026-11-06"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "LNZ Cherkasy",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Kharkiv",
+      "date": "2026-10-19"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": true,
+      "opponent": "Zorya Luhansk",
+      "date": "2026-10-12"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-20T13:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4894921,
+   "s365_competition_id": 617,
+   "competition_name": "Uruguayan Championship - Clausura",
+   "start_time": "2026-11-20T19:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 8358,
+    "name": "Liverpool Montevideo"
+   },
+   "away": {
+    "id": 8614,
+    "name": "Montevideo Wanderers"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.02,
+    "lambda_away": 0.64,
+    "expected_goals": 2.67,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.698,
+     "DRAW": 0.1942,
+     "AWAY": 0.1078,
+     "1X": 0.8922,
+     "X2": 0.302,
+     "12": 0.8058,
+     "OVER25": 0.4979,
+     "UNDER25": 0.5021,
+     "BTTS_YES": 0.4119,
+     "BTTS_NO": 0.5881
+    }
+   },
+   "pick": {
+    "selection": "1X",
+    "family": "double_chance",
+    "label": "Dupla chance: Liverpool Montevideo ou empate (1X)",
+    "model_prob": 0.8922,
+    "trend_alignment": 1.0,
+    "confidence": 79,
+    "eligible": true,
+    "odd": 1.33,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Liverpool Montevideo",
+     "model_prob": 0.698,
+     "trend_alignment": 1.0,
+     "confidence": 70,
+     "eligible": true,
+     "odd": 2.1
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5881,
+     "trend_alignment": 0.073,
+     "confidence": 14,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.5021,
+     "trend_alignment": 0.073,
+     "confidence": 3,
+     "eligible": false,
+     "odd": 1.75
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Montevideo Wanderers",
+     "model_prob": 0.1078,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 3.25
+    }
+   ],
+   "trends": [
+    {
+     "label": "4 vitórias seguidas",
+     "strength": 0.75,
+     "favors": "HOME",
+     "team": "Liverpool Montevideo",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "HOME",
+     "team": "Liverpool Montevideo",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Menos de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "UNDER",
+     "team": "Liverpool Montevideo",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "under"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Montevideo Wanderers",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Sofreu gol em todos os últimos 5",
+     "strength": 0.4,
+     "favors": "OVER",
+     "team": "Montevideo Wanderers",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "always_concede"
+    },
+    {
+     "label": "Melhor defesa da liga (0.6 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Liverpool Montevideo",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 1 derrota(s) em 14 jogos no campeonato",
+     "strength": 0.42,
+     "favors": "HOME",
+     "team": "Liverpool Montevideo",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "2º melhor ataque da liga (1.7 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Liverpool Montevideo",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Liverpool Montevideo é 1º · Montevideo Wanderers é 9º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Liverpool Montevideo está 8 posições à frente",
+     "strength": 0.571,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "4 vitórias seguidas",
+     "strength": 0.75,
+     "favors": "HOME",
+     "team": "Liverpool Montevideo",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "HOME",
+     "team": "Liverpool Montevideo",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Montevideo Wanderers",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Melhor defesa da liga (0.6 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Liverpool Montevideo",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 1 derrota(s) em 14 jogos no campeonato",
+     "strength": 0.42,
+     "favors": "HOME",
+     "team": "Liverpool Montevideo",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "2º melhor ataque da liga (1.7 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Liverpool Montevideo",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Liverpool Montevideo está 8 posições à frente",
+     "strength": 0.571,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 79,
+   "league": {
+    "key": "uy_primera",
+    "name": "Primera División",
+    "country": "Uruguai"
+   },
+   "home_team": {
+    "id": 8358,
+    "name": "Liverpool Montevideo",
+    "position": 1,
+    "played": 14,
+    "points": 33.0,
+    "record": "10V 3E 1D",
+    "goals_for": 24,
+    "goals_against": 9,
+    "last5": "WWWWD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Danubio FC",
+      "date": "2026-11-15"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Juventud",
+      "date": "2026-11-01"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Nacional",
+      "date": "2026-10-25"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Peñarol",
+      "date": "2026-10-18"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Deportivo Maldonado",
+      "date": "2026-10-09"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 8614,
+    "name": "Montevideo Wanderers",
+    "position": 9,
+    "played": 14,
+    "points": 19.0,
+    "record": "5V 4E 5D",
+    "goals_for": 16,
+    "goals_against": 20,
+    "last5": "WDLLL",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Juventud",
+      "date": "2026-11-16"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Peñarol",
+      "date": "2026-10-31"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Progreso",
+      "date": "2026-10-25"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": false,
+      "opponent": "Racing Club Montevideo",
+      "date": "2026-10-17"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": true,
+      "opponent": "Boston River",
+      "date": "2026-10-10"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-20T16:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4736338,
+   "s365_competition_id": 153,
+   "competition_name": "Ekstraklasa",
+   "start_time": "2026-11-20T19:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 6016,
+    "name": "Pogon"
+   },
+   "away": {
+    "id": 2227,
+    "name": "Slask Wroclaw"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.06,
+    "lambda_away": 1.13,
+    "expected_goals": 3.19,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.5884,
+     "DRAW": 0.2095,
+     "AWAY": 0.2021,
+     "1X": 0.7979,
+     "X2": 0.4116,
+     "12": 0.7905,
+     "OVER25": 0.6175,
+     "UNDER25": 0.3825,
+     "BTTS_YES": 0.5901,
+     "BTTS_NO": 0.4099
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Pogon",
+    "model_prob": 0.5884,
+    "trend_alignment": 0.88,
+    "confidence": 63,
+    "eligible": true,
+    "odd": 1.72,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Pogon ou empate (1X)",
+     "model_prob": 0.7979,
+     "trend_alignment": 0.88,
+     "confidence": 63,
+     "eligible": true,
+     "odd": 1.24
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6175,
+     "trend_alignment": 0.0,
+     "confidence": 15,
+     "eligible": true,
+     "odd": 1.63
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5901,
+     "trend_alignment": 0.0,
+     "confidence": 12,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Slask Wroclaw",
+     "model_prob": 0.2021,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 3.98
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Slask Wroclaw",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Pogon é 4º · Slask Wroclaw é 17º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Pogon está 13 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Slask Wroclaw",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Pogon está 13 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 63,
+   "league": {
+    "key": "poland",
+    "name": "Ekstraklasa",
+    "country": "Polônia"
+   },
+   "home_team": {
+    "id": 6016,
+    "name": "Pogon",
+    "position": 4,
+    "played": 13,
+    "points": 24.0,
+    "record": "7V 3E 3D",
+    "goals_for": 20,
+    "goals_against": 15,
+    "last5": "LLWWW",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": false,
+      "opponent": "Widzew Lodz",
+      "date": "2026-11-07"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": false,
+      "opponent": "Rakow Czestochowa",
+      "date": "2026-11-02"
+     },
+     {
+      "result": "W",
+      "score": "4-3",
+      "home": true,
+      "opponent": "Radomiak Radom",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "GKS Katowice",
+      "date": "2026-10-17"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Korona Kielce",
+      "date": "2026-10-11"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 2227,
+    "name": "Slask Wroclaw",
+    "position": 17,
+    "played": 14,
+    "points": 10.0,
+    "record": "2V 4E 8D",
+    "goals_for": 17,
+    "goals_against": 25,
+    "last5": "DLWLL",
+    "recent": [
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Piast Gliwice",
+      "date": "2026-11-07"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": false,
+      "opponent": "Radomiak Radom",
+      "date": "2026-11-02"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Wieczysta Krakow",
+      "date": "2026-10-25"
+     },
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": false,
+      "opponent": "Motor Lublin",
+      "date": "2026-10-17"
+     },
+     {
+      "result": "L",
+      "score": "1-4",
+      "home": true,
+      "opponent": "Lech Poznan",
+      "date": "2026-10-10"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-20T16:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  }
+ ]
+}

@@ -1,6 +1,6 @@
 {
  "date": "2026-11-18",
- "generated_at": "2026-11-17T23:08:52.945781-03:00",
+ "generated_at": "2026-11-18T16:20:38.318753-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 0,
@@ -49,7 +49,7 @@
     "trend_alignment": 1.0,
     "confidence": 79,
     "eligible": true,
-    "odd": 1.22,
+    "odd": 1.16,
     "low_conviction": false
    },
    "alt_markets": [
@@ -61,7 +61,7 @@
      "trend_alignment": 1.0,
      "confidence": 79,
      "eligible": true,
-     "odd": 1.05
+     "odd": 1.03
     },
     {
      "selection": "OVER25",
@@ -71,7 +71,7 @@
      "trend_alignment": 0.58,
      "confidence": 39,
      "eligible": true,
-     "odd": 2.31
+     "odd": 2.21
     },
     {
      "selection": "BTTS_YES",
@@ -91,7 +91,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 11.0
+     "odd": 13.0
     }
    ],
    "trends": [
@@ -404,7 +404,7 @@
     "trend_alignment": 0.667,
     "confidence": 41,
     "eligible": true,
-    "odd": 1.93,
+    "odd": 2.08,
     "low_conviction": false
    },
    "alt_markets": [
@@ -416,7 +416,7 @@
      "trend_alignment": 0.667,
      "confidence": 36,
      "eligible": true,
-     "odd": 3.77
+     "odd": 4.71
     },
     {
      "selection": "OVER25",
@@ -426,7 +426,7 @@
      "trend_alignment": 0.287,
      "confidence": 31,
      "eligible": true,
-     "odd": 1.66
+     "odd": 1.95
     },
     {
      "selection": "BTTS_YES",
@@ -446,7 +446,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 1.84
+     "odd": 1.71
     }
    ],
    "trends": [
@@ -660,7 +660,7 @@
     "trend_alignment": 0.119,
     "confidence": 32,
     "eligible": true,
-    "odd": 1.14,
+    "odd": 1.09,
     "low_conviction": true
    },
    "alt_markets": [
@@ -682,7 +682,7 @@
      "trend_alignment": 0.72,
      "confidence": 25,
      "eligible": false,
-     "odd": 1.56
+     "odd": 1.72
     },
     {
      "selection": "HOME",
@@ -692,7 +692,7 @@
      "trend_alignment": 0.119,
      "confidence": 21,
      "eligible": true,
-     "odd": 1.52
+     "odd": 1.42
     },
     {
      "selection": "UNDER25",
@@ -702,7 +702,7 @@
      "trend_alignment": 0.0,
      "confidence": 3,
      "eligible": false,
-     "odd": 2.33
+     "odd": 2.06
     }
    ],
    "trends": [
