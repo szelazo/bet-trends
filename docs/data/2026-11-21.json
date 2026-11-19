@@ -1,0 +1,1816 @@
+{
+ "date": "2026-11-21",
+ "generated_at": "2026-11-19T16:26:55.312692-03:00",
+ "version": "0.1.0",
+ "count": 5,
+ "clear_count": 5,
+ "day_total": 112,
+ "games": [
+  {
+   "id": 4732626,
+   "s365_competition_id": 17,
+   "competition_name": "Serie A",
+   "start_time": "2026-11-21T14:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 236,
+    "name": "Lazio"
+   },
+   "away": {
+    "id": 246,
+    "name": "Lecce"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.9,
+    "lambda_away": 0.8,
+    "expected_goals": 3.7,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.7993,
+     "DRAW": 0.1259,
+     "AWAY": 0.0748,
+     "1X": 0.9252,
+     "X2": 0.2007,
+     "12": 0.8741,
+     "OVER25": 0.7143,
+     "UNDER25": 0.2857,
+     "BTTS_YES": 0.5219,
+     "BTTS_NO": 0.4781
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Lazio",
+    "model_prob": 0.7993,
+    "trend_alignment": 1.0,
+    "confidence": 84,
+    "eligible": true,
+    "odd": 1.34,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Lazio ou empate (1X)",
+     "model_prob": 0.9252,
+     "trend_alignment": 1.0,
+     "confidence": 84,
+     "eligible": true,
+     "odd": 1.07
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.7143,
+     "trend_alignment": 0.313,
+     "confidence": 39,
+     "eligible": true,
+     "odd": 1.56
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5219,
+     "trend_alignment": 0.313,
+     "confidence": 14,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Lecce",
+     "model_prob": 0.0748,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 9.0
+    }
+   ],
+   "trends": [
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "HOME",
+     "team": "Lazio",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "Lazio",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Lecce",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Melhor defesa da liga (0.8 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Lazio",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 0 derrota(s) em 11 jogos no campeonato",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Lazio",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "3º melhor ataque da liga (2.3 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Lazio",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Lazio",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Lazio é 1º · Lecce é 14º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Lazio está 13 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "HOME",
+     "team": "Lazio",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Lecce",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Melhor defesa da liga (0.8 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Lazio",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 0 derrota(s) em 11 jogos no campeonato",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Lazio",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "3º melhor ataque da liga (2.3 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Lazio",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Lazio",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Lazio está 13 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 84,
+   "league": {
+    "key": "serie_a_ita",
+    "name": "Serie A",
+    "country": "Itália"
+   },
+   "home_team": {
+    "id": 236,
+    "name": "Lazio",
+    "position": 1,
+    "played": 11,
+    "points": 29.0,
+    "record": "9V 2E 0D",
+    "goals_for": 25,
+    "goals_against": 9,
+    "last5": "DWWWW",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Napoli",
+      "date": "2026-11-08"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Cagliari",
+      "date": "2026-11-01"
+     },
+     {
+      "result": "W",
+      "score": "6-2",
+      "home": false,
+      "opponent": "Sassuolo",
+      "date": "2026-10-27"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Parma",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": false,
+      "opponent": "Juventus",
+      "date": "2026-10-18"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 246,
+    "name": "Lecce",
+    "position": 14,
+    "played": 11,
+    "points": 10.0,
+    "record": "3V 1E 7D",
+    "goals_for": 12,
+    "goals_against": 22,
+    "last5": "DLLLW",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Torino",
+      "date": "2026-11-07"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Genoa",
+      "date": "2026-11-01"
+     },
+     {
+      "result": "L",
+      "score": "1-5",
+      "home": false,
+      "opponent": "Frosinone",
+      "date": "2026-10-29"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": true,
+      "opponent": "Juventus",
+      "date": "2026-10-25"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": false,
+      "opponent": "Udinese",
+      "date": "2026-10-18"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-21T11:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4766896,
+   "s365_competition_id": 81,
+   "competition_name": "1. Lig",
+   "start_time": "2026-11-21T13:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 949,
+    "name": "Kayserispor"
+   },
+   "away": {
+    "id": 1002,
+    "name": "Sariyer"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.56,
+    "lambda_away": 0.7,
+    "expected_goals": 3.27,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.7751,
+     "DRAW": 0.1449,
+     "AWAY": 0.08,
+     "1X": 0.92,
+     "X2": 0.2249,
+     "12": 0.8551,
+     "OVER25": 0.6333,
+     "UNDER25": 0.3667,
+     "BTTS_YES": 0.4658,
+     "BTTS_NO": 0.5342
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Kayserispor",
+    "model_prob": 0.7751,
+    "trend_alignment": 1.0,
+    "confidence": 83,
+    "eligible": true,
+    "odd": 1.43,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Kayserispor ou empate (1X)",
+     "model_prob": 0.92,
+     "trend_alignment": 1.0,
+     "confidence": 83,
+     "eligible": true,
+     "odd": 1.13
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6333,
+     "trend_alignment": 0.085,
+     "confidence": 20,
+     "eligible": true,
+     "odd": 1.7
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5342,
+     "trend_alignment": 0.0,
+     "confidence": 4,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.4658,
+     "trend_alignment": 0.085,
+     "confidence": 3,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Mais de 2.5 gols em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "OVER",
+     "team": "Kayserispor",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Kayserispor",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Sariyer",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Menos de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "UNDER",
+     "team": "Sariyer",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "under"
+    },
+    {
+     "label": "Melhor defesa da liga (0.8 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Kayserispor",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Melhor ataque da liga (2.4 marcados/jogo)",
+     "strength": 0.44,
+     "favors": "HOME",
+     "team": "Kayserispor",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Só 2 derrota(s) em 14 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "HOME",
+     "team": "Kayserispor",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Sariyer",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Kayserispor é 2º · Sariyer é 14º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Kayserispor está 12 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Kayserispor",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Sariyer",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Melhor defesa da liga (0.8 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Kayserispor",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Melhor ataque da liga (2.4 marcados/jogo)",
+     "strength": 0.44,
+     "favors": "HOME",
+     "team": "Kayserispor",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Só 2 derrota(s) em 14 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "HOME",
+     "team": "Kayserispor",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Sariyer",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Kayserispor está 12 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 83,
+   "league": {
+    "key": "turkey2",
+    "name": "1. Lig",
+    "country": "Turquia"
+   },
+   "home_team": {
+    "id": 949,
+    "name": "Kayserispor",
+    "position": 2,
+    "played": 14,
+    "points": 30.0,
+    "record": "9V 3E 2D",
+    "goals_for": 33,
+    "goals_against": 11,
+    "last5": "LWDDW",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Ümraniyespor",
+      "date": "2026-11-08"
+     },
+     {
+      "result": "W",
+      "score": "6-0",
+      "home": true,
+      "opponent": "Muglaspor",
+      "date": "2026-11-02"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "Pendikspor",
+      "date": "2026-10-25"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "Batman Petrolspor",
+      "date": "2026-10-18"
+     },
+     {
+      "result": "W",
+      "score": "4-0",
+      "home": false,
+      "opponent": "Antalyaspor",
+      "date": "2026-10-14"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 1002,
+    "name": "Sariyer",
+    "position": 14,
+    "played": 14,
+    "points": 17.0,
+    "record": "4V 5E 5D",
+    "goals_for": 15,
+    "goals_against": 19,
+    "last5": "DLLDL",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Igdir Fk",
+      "date": "2026-11-06"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Van Spor FK",
+      "date": "2026-10-31"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": true,
+      "opponent": "Fatih Karagümrük",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Sivasspor",
+      "date": "2026-10-17"
+     },
+     {
+      "result": "L",
+      "score": "1-4",
+      "home": true,
+      "opponent": "Bodrumspor",
+      "date": "2026-10-13"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-21T10:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4763741,
+   "s365_competition_id": 78,
+   "competition_name": "Super Lig",
+   "start_time": "2026-11-21T13:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 945,
+    "name": "Galatasaray"
+   },
+   "away": {
+    "id": 997,
+    "name": "Samsunspor"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.9,
+    "lambda_away": 0.88,
+    "expected_goals": 3.78,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.785,
+     "DRAW": 0.1308,
+     "AWAY": 0.0841,
+     "1X": 0.9159,
+     "X2": 0.215,
+     "12": 0.8692,
+     "OVER25": 0.7265,
+     "UNDER25": 0.2735,
+     "BTTS_YES": 0.5517,
+     "BTTS_NO": 0.4483
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Galatasaray",
+    "model_prob": 0.785,
+    "trend_alignment": 1.0,
+    "confidence": 83,
+    "eligible": true,
+    "odd": 1.2,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Galatasaray ou empate (1X)",
+     "model_prob": 0.9159,
+     "trend_alignment": 1.0,
+     "confidence": 83,
+     "eligible": true,
+     "odd": 1.06
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.7265,
+     "trend_alignment": 1.0,
+     "confidence": 64,
+     "eligible": true,
+     "odd": 1.85
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5517,
+     "trend_alignment": 1.0,
+     "confidence": 42,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Samsunspor",
+     "model_prob": 0.0841,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 10.0
+    }
+   ],
+   "trends": [
+    {
+     "label": "6 vitórias seguidas",
+     "strength": 1.0,
+     "favors": "HOME",
+     "team": "Galatasaray",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 6 dos últimos 6",
+     "strength": 0.75,
+     "favors": "HOME",
+     "team": "Galatasaray",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Marcou em todos os últimos 6",
+     "strength": 0.3,
+     "favors": "OVER",
+     "team": "Galatasaray",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "always_score"
+    },
+    {
+     "label": "Venceu 4 dos últimos 4 em casa",
+     "strength": 0.75,
+     "favors": "HOME",
+     "team": "Galatasaray",
+     "side": "HOME",
+     "group": "casa_fora",
+     "kind": "wins"
+    },
+    {
+     "label": "Mais de 2.5 gols em 3 dos últimos 4 em casa",
+     "strength": 0.45,
+     "favors": "OVER",
+     "team": "Galatasaray",
+     "side": "HOME",
+     "group": "casa_fora",
+     "kind": "over"
+    },
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "HOME",
+     "team": "Samsunspor",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "Samsunspor",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Só 1 derrota(s) em 11 jogos no campeonato",
+     "strength": 0.42,
+     "favors": "HOME",
+     "team": "Galatasaray",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "3º melhor ataque da liga (2.5 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Galatasaray",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Pior defesa da liga (2.4 sofridos/jogo)",
+     "strength": 0.34,
+     "favors": "OVER",
+     "team": "Samsunspor",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_bottom"
+    },
+    {
+     "label": "Galatasaray é 1º · Samsunspor é 17º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Galatasaray está 16 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "6 vitórias seguidas",
+     "strength": 1.0,
+     "favors": "HOME",
+     "team": "Galatasaray",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 6 dos últimos 6",
+     "strength": 0.75,
+     "favors": "HOME",
+     "team": "Galatasaray",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Venceu 4 dos últimos 4 em casa",
+     "strength": 0.75,
+     "favors": "HOME",
+     "team": "Galatasaray",
+     "side": "HOME",
+     "group": "casa_fora",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "HOME",
+     "team": "Samsunspor",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Só 1 derrota(s) em 11 jogos no campeonato",
+     "strength": 0.42,
+     "favors": "HOME",
+     "team": "Galatasaray",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "3º melhor ataque da liga (2.5 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Galatasaray",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Galatasaray está 16 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 83,
+   "league": {
+    "key": "turkey",
+    "name": "Süper Lig",
+    "country": "Turquia"
+   },
+   "home_team": {
+    "id": 945,
+    "name": "Galatasaray",
+    "position": 1,
+    "played": 11,
+    "points": 28.0,
+    "record": "9V 1E 1D",
+    "goals_for": 27,
+    "goals_against": 15,
+    "last5": "WWWWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "4-3",
+      "home": true,
+      "opponent": "Amed SK",
+      "date": "2026-11-07"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Stuttgart",
+      "date": "2026-11-03"
+     },
+     {
+      "result": "W",
+      "score": "4-0",
+      "home": false,
+      "opponent": "Konyaspor",
+      "date": "2026-10-30"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Fenerbahçe SK",
+      "date": "2026-10-26"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Genclerbirligi",
+      "date": "2026-10-17"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 997,
+    "name": "Samsunspor",
+    "position": 17,
+    "played": 11,
+    "points": 7.0,
+    "record": "2V 1E 8D",
+    "goals_for": 11,
+    "goals_against": 26,
+    "last5": "WLLLL",
+    "recent": [
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Konyaspor",
+      "date": "2026-11-07"
+     },
+     {
+      "result": "L",
+      "score": "2-5",
+      "home": false,
+      "opponent": "Başakşehir",
+      "date": "2026-11-01"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Amed SK",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "L",
+      "score": "1-4",
+      "home": false,
+      "opponent": "Kasimpasa",
+      "date": "2026-10-18"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": true,
+      "opponent": "Trabzonspor",
+      "date": "2026-10-10"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-21T10:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4741613,
+   "s365_competition_id": 61,
+   "competition_name": "Scottish Premiership",
+   "start_time": "2026-11-21T15:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 754,
+    "name": "Celtic"
+   },
+   "away": {
+    "id": 762,
+    "name": "St. Mirren"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.48,
+    "lambda_away": 0.71,
+    "expected_goals": 3.19,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.7612,
+     "DRAW": 0.1527,
+     "AWAY": 0.0861,
+     "1X": 0.9139,
+     "X2": 0.2388,
+     "12": 0.8473,
+     "OVER25": 0.6168,
+     "UNDER25": 0.3832,
+     "BTTS_YES": 0.4647,
+     "BTTS_NO": 0.5353
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Celtic",
+    "model_prob": 0.7612,
+    "trend_alignment": 1.0,
+    "confidence": 82,
+    "eligible": true,
+    "odd": 1.14,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Celtic ou empate (1X)",
+     "model_prob": 0.9139,
+     "trend_alignment": 1.0,
+     "confidence": 82,
+     "eligible": true,
+     "odd": 1.04
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6168,
+     "trend_alignment": 0.793,
+     "confidence": 43,
+     "eligible": true,
+     "odd": 1.73
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.4647,
+     "trend_alignment": 0.793,
+     "confidence": 28,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5353,
+     "trend_alignment": 0.0,
+     "confidence": 5,
+     "eligible": false,
+     "odd": null
+    }
+   ],
+   "trends": [
+    {
+     "label": "Venceu 3 dos últimos 4 em casa",
+     "strength": 0.625,
+     "favors": "HOME",
+     "team": "Celtic",
+     "side": "HOME",
+     "group": "casa_fora",
+     "kind": "wins"
+    },
+    {
+     "label": "Mais de 2.5 gols em 3 dos últimos 4 em casa",
+     "strength": 0.45,
+     "favors": "OVER",
+     "team": "Celtic",
+     "side": "HOME",
+     "group": "casa_fora",
+     "kind": "over"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "St. Mirren",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Sofreu gol em todos os últimos 5",
+     "strength": 0.4,
+     "favors": "OVER",
+     "team": "St. Mirren",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "always_concede"
+    },
+    {
+     "label": "Invicto em 5 dos últimos 6",
+     "strength": 0.492,
+     "favors": "HOME",
+     "team": "Celtic",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "2ª melhor defesa da liga (0.8 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "HOME",
+     "team": "Celtic",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 2 derrota(s) em 13 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "HOME",
+     "team": "Celtic",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "2º melhor ataque da liga (2.2 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Celtic",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Pior defesa da liga (1.7 sofridos/jogo)",
+     "strength": 0.34,
+     "favors": "OVER",
+     "team": "St. Mirren",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_bottom"
+    },
+    {
+     "label": "Celtic é 1º · St. Mirren é 8º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Celtic está 7 posições à frente",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Venceu 3 dos últimos 4 em casa",
+     "strength": 0.625,
+     "favors": "HOME",
+     "team": "Celtic",
+     "side": "HOME",
+     "group": "casa_fora",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "St. Mirren",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto em 5 dos últimos 6",
+     "strength": 0.492,
+     "favors": "HOME",
+     "team": "Celtic",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "2ª melhor defesa da liga (0.8 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "HOME",
+     "team": "Celtic",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 2 derrota(s) em 13 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "HOME",
+     "team": "Celtic",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "2º melhor ataque da liga (2.2 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Celtic",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Celtic está 7 posições à frente",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 82,
+   "league": {
+    "key": "scotland",
+    "name": "Scottish Premiership",
+    "country": "Escócia"
+   },
+   "home_team": {
+    "id": 754,
+    "name": "Celtic",
+    "position": 1,
+    "played": 13,
+    "points": 31.0,
+    "record": "10V 1E 2D",
+    "goals_for": 28,
+    "goals_against": 10,
+    "last5": "WWLDW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Kilmarnock",
+      "date": "2026-11-08"
+     },
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": true,
+      "opponent": "Besiktas",
+      "date": "2026-11-05"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Falkirk",
+      "date": "2026-11-01"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "Dundee United",
+      "date": "2026-10-28"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Hibernian",
+      "date": "2026-10-25"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 762,
+    "name": "St. Mirren",
+    "position": 8,
+    "played": 13,
+    "points": 14.0,
+    "record": "4V 2E 7D",
+    "goals_for": 12,
+    "goals_against": 22,
+    "last5": "LLDWL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": true,
+      "opponent": "Rangers",
+      "date": "2026-11-07"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Motherwell",
+      "date": "2026-10-31"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Hibernian",
+      "date": "2026-10-28"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Dundee",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": false,
+      "opponent": "Aberdeen",
+      "date": "2026-10-17"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-21T12:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4747928,
+   "s365_competition_id": 111,
+   "competition_name": "Bundesliga",
+   "start_time": "2026-11-21T18:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 6084,
+    "name": "Grazer AK"
+   },
+   "away": {
+    "id": 1738,
+    "name": "Rapid Vienna"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 0.91,
+    "lambda_away": 2.9,
+    "expected_goals": 3.81,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.0888,
+     "DRAW": 0.1331,
+     "AWAY": 0.7781,
+     "1X": 0.2219,
+     "X2": 0.9112,
+     "12": 0.8669,
+     "OVER25": 0.7323,
+     "UNDER25": 0.2677,
+     "BTTS_YES": 0.5654,
+     "BTTS_NO": 0.4346
+    }
+   },
+   "pick": {
+    "selection": "AWAY",
+    "family": "1x2",
+    "label": "Vitória do Rapid Vienna",
+    "model_prob": 0.7781,
+    "trend_alignment": 1.0,
+    "confidence": 82,
+    "eligible": true,
+    "odd": 1.38,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "X2",
+     "family": "double_chance",
+     "label": "Dupla chance: Rapid Vienna ou empate (X2)",
+     "model_prob": 0.9112,
+     "trend_alignment": 1.0,
+     "confidence": 82,
+     "eligible": true,
+     "odd": 1.1
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.7323,
+     "trend_alignment": 0.0,
+     "confidence": 30,
+     "eligible": true,
+     "odd": 1.58
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5654,
+     "trend_alignment": 0.0,
+     "confidence": 9,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.2677,
+     "trend_alignment": 0.056,
+     "confidence": 2,
+     "eligible": false,
+     "odd": 2.37
+    }
+   ],
+   "trends": [
+    {
+     "label": "5 vitórias seguidas",
+     "strength": 1.0,
+     "favors": "AWAY",
+     "team": "Rapid Vienna",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 5 dos últimos 5",
+     "strength": 0.75,
+     "favors": "AWAY",
+     "team": "Rapid Vienna",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Não sofreu gol em 3 dos últimos 5",
+     "strength": 0.39,
+     "favors": "UNDER",
+     "team": "Rapid Vienna",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "clean_sheets"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Grazer AK",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Melhor defesa da liga (0.8 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "Rapid Vienna",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Melhor ataque da liga (3.2 marcados/jogo)",
+     "strength": 0.44,
+     "favors": "AWAY",
+     "team": "Rapid Vienna",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Só 1 derrota(s) em 12 jogos no campeonato",
+     "strength": 0.42,
+     "favors": "AWAY",
+     "team": "Rapid Vienna",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Pior defesa da liga (2.4 sofridos/jogo)",
+     "strength": 0.34,
+     "favors": "OVER",
+     "team": "Grazer AK",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_bottom"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Grazer AK",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Grazer AK é 9º · Rapid Vienna é 1º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Rapid Vienna está 8 posições à frente",
+     "strength": 0.571,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "5 vitórias seguidas",
+     "strength": 1.0,
+     "favors": "AWAY",
+     "team": "Rapid Vienna",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 5 dos últimos 5",
+     "strength": 0.75,
+     "favors": "AWAY",
+     "team": "Rapid Vienna",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Grazer AK",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Melhor defesa da liga (0.8 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "Rapid Vienna",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Melhor ataque da liga (3.2 marcados/jogo)",
+     "strength": 0.44,
+     "favors": "AWAY",
+     "team": "Rapid Vienna",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Só 1 derrota(s) em 12 jogos no campeonato",
+     "strength": 0.42,
+     "favors": "AWAY",
+     "team": "Rapid Vienna",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Grazer AK",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Rapid Vienna está 8 posições à frente",
+     "strength": 0.571,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 82,
+   "league": {
+    "key": "austria",
+    "name": "Bundesliga",
+    "country": "Áustria"
+   },
+   "home_team": {
+    "id": 6084,
+    "name": "Grazer AK",
+    "position": 9,
+    "played": 12,
+    "points": 10.0,
+    "record": "2V 4E 6D",
+    "goals_for": 9,
+    "goals_against": 29,
+    "last5": "LLDLD",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Austria Lustenau",
+      "date": "2026-11-07"
+     },
+     {
+      "result": "L",
+      "score": "0-4",
+      "home": true,
+      "opponent": "TSV Hartberg",
+      "date": "2026-10-30"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "WSG Tirol",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "L",
+      "score": "1-6",
+      "home": false,
+      "opponent": "Sturm Graz",
+      "date": "2026-10-18"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Red Bull Salzburg",
+      "date": "2026-10-10"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 1738,
+    "name": "Rapid Vienna",
+    "position": 1,
+    "played": 12,
+    "points": 33.0,
+    "record": "11V 0E 1D",
+    "goals_for": 39,
+    "goals_against": 9,
+    "last5": "WWWWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "6-0",
+      "home": true,
+      "opponent": "Wolfsberger AC",
+      "date": "2026-11-06"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "Austria Vienna",
+      "date": "2026-11-01"
+     },
+     {
+      "result": "W",
+      "score": "5-1",
+      "home": true,
+      "opponent": "Austria Lustenau",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": true,
+      "opponent": "TSV Hartberg",
+      "date": "2026-10-16"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "LASK Linz",
+      "date": "2026-10-11"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-21T15:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  }
+ ]
+}

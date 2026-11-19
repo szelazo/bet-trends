@@ -1,6 +1,6 @@
 {
  "date": "2026-11-20",
- "generated_at": "2026-11-18T22:44:37.940037-03:00",
+ "generated_at": "2026-11-19T16:26:54.045604-03:00",
  "version": "0.1.0",
  "count": 4,
  "clear_count": 4,
@@ -29,23 +29,23 @@
     "expected_goals": 3.82,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.7764,
-     "DRAW": 0.1336,
-     "AWAY": 0.09,
-     "1X": 0.91,
-     "X2": 0.2236,
-     "12": 0.8664,
-     "OVER25": 0.7337,
-     "UNDER25": 0.2663,
-     "BTTS_YES": 0.5687,
-     "BTTS_NO": 0.4313
+     "HOME": 0.7769,
+     "DRAW": 0.1335,
+     "AWAY": 0.0896,
+     "1X": 0.9104,
+     "X2": 0.2231,
+     "12": 0.8665,
+     "OVER25": 0.7332,
+     "UNDER25": 0.2668,
+     "BTTS_YES": 0.5676,
+     "BTTS_NO": 0.4324
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Al Duhail",
-    "model_prob": 0.7764,
+    "model_prob": 0.7769,
     "trend_alignment": 1.0,
     "confidence": 82,
     "eligible": true,
@@ -57,7 +57,7 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Al Duhail ou empate (1X)",
-     "model_prob": 0.91,
+     "model_prob": 0.9104,
      "trend_alignment": 1.0,
      "confidence": 82,
      "eligible": true,
@@ -67,17 +67,17 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.7337,
+     "model_prob": 0.7332,
      "trend_alignment": 1.0,
      "confidence": 65,
      "eligible": true,
-     "odd": 1.92
+     "odd": 2.01
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5687,
+     "model_prob": 0.5676,
      "trend_alignment": 1.0,
      "confidence": 44,
      "eligible": false,
@@ -87,7 +87,7 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Qatar SC",
-     "model_prob": 0.09,
+     "model_prob": 0.0896,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
@@ -421,7 +421,7 @@
     "trend_alignment": 1.0,
     "confidence": 82,
     "eligible": true,
-    "odd": 1.29,
+    "odd": 1.26,
     "low_conviction": false
    },
    "alt_markets": [
@@ -433,7 +433,7 @@
      "trend_alignment": 1.0,
      "confidence": 82,
      "eligible": true,
-     "odd": 1.07
+     "odd": 1.05
     },
     {
      "selection": "BTTS_NO",
@@ -453,7 +453,7 @@
      "trend_alignment": 0.591,
      "confidence": 29,
      "eligible": false,
-     "odd": 2.0
+     "odd": 2.05
     },
     {
      "selection": "AWAY",
@@ -463,7 +463,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 9.0
+     "odd": 10.0
     }
    ],
    "trends": [
