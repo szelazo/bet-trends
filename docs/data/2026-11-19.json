@@ -1,6 +1,6 @@
 {
  "date": "2026-11-19",
- "generated_at": "2026-11-18T16:20:39.013501-03:00",
+ "generated_at": "2026-11-18T22:44:36.930355-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 1,
@@ -24,21 +24,21 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 0.97,
+    "lambda_home": 0.98,
     "lambda_away": 1.58,
-    "expected_goals": 2.55,
+    "expected_goals": 2.56,
     "sample_factor": 1.0,
     "probs": {
      "HOME": 0.2331,
-     "DRAW": 0.2522,
-     "AWAY": 0.5146,
-     "1X": 0.4854,
+     "DRAW": 0.2518,
+     "AWAY": 0.5152,
+     "1X": 0.4848,
      "X2": 0.7669,
-     "12": 0.7478,
-     "OVER25": 0.4698,
-     "UNDER25": 0.5302,
-     "BTTS_YES": 0.4942,
-     "BTTS_NO": 0.5058
+     "12": 0.7482,
+     "OVER25": 0.4716,
+     "UNDER25": 0.5284,
+     "BTTS_YES": 0.4955,
+     "BTTS_NO": 0.5045
     }
    },
    "pick": {
@@ -57,7 +57,7 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do RB Bragantino",
-     "model_prob": 0.5146,
+     "model_prob": 0.5152,
      "trend_alignment": 1.0,
      "confidence": 52,
      "eligible": true,
@@ -67,7 +67,7 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.4698,
+     "model_prob": 0.4716,
      "trend_alignment": 0.267,
      "confidence": 9,
      "eligible": false,
@@ -77,7 +77,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.4942,
+     "model_prob": 0.4955,
      "trend_alignment": 0.267,
      "confidence": 9,
      "eligible": false,
@@ -87,7 +87,7 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.5302,
+     "model_prob": 0.5284,
      "trend_alignment": 0.0,
      "confidence": 4,
      "eligible": false,
@@ -132,7 +132,7 @@
      "kind": "winless_streak"
     },
     {
-     "label": "Vitoria é 15º · RB Bragantino é 8º",
+     "label": "Vitoria é 16º · RB Bragantino é 9º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -197,7 +197,7 @@
    "home_team": {
     "id": 1228,
     "name": "Vitoria",
-    "position": 15,
+    "position": 16,
     "played": 34,
     "points": 38.0,
     "record": "10V 8E 16D",
@@ -245,7 +245,7 @@
    "away_team": {
     "id": 1273,
     "name": "RB Bragantino",
-    "position": 8,
+    "position": 9,
     "played": 34,
     "points": 47.0,
     "record": "13V 8E 13D",
