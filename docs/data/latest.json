@@ -1,138 +1,192 @@
 {
- "date": "2026-11-19",
- "generated_at": "2026-11-19T22:40:31.266105-03:00",
+ "date": "2026-11-20",
+ "generated_at": "2026-11-20T16:02:07.778063-03:00",
  "version": "0.1.0",
- "count": 3,
- "clear_count": 1,
- "day_total": 10,
+ "count": 4,
+ "clear_count": 4,
+ "day_total": 39,
  "games": [
   {
-   "id": 4632598,
-   "s365_competition_id": 113,
-   "competition_name": "Brasileirão Série A",
-   "start_time": "2026-11-19T22:30:00+00:00",
+   "id": 4779201,
+   "s365_competition_id": 408,
+   "competition_name": "Doha Bank Stars League",
+   "start_time": "2026-11-20T13:00:00+00:00",
    "status_group": 2,
    "round": "Round",
    "home": {
-    "id": 1228,
-    "name": "Vitoria"
+    "id": 8329,
+    "name": "Al Duhail"
    },
    "away": {
-    "id": 1273,
-    "name": "RB Bragantino"
+    "id": 7086,
+    "name": "Qatar SC"
    },
-   "home_score": 2.0,
-   "away_score": 1.0,
+   "home_score": 1.0,
+   "away_score": 2.0,
    "model": {
-    "lambda_home": 0.98,
-    "lambda_away": 1.58,
-    "expected_goals": 2.56,
+    "lambda_home": 2.9,
+    "lambda_away": 0.92,
+    "expected_goals": 3.82,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.2331,
-     "DRAW": 0.2519,
-     "AWAY": 0.5149,
-     "1X": 0.4851,
-     "X2": 0.7669,
-     "12": 0.7481,
-     "OVER25": 0.4709,
-     "UNDER25": 0.5291,
-     "BTTS_YES": 0.495,
-     "BTTS_NO": 0.505
+     "HOME": 0.7769,
+     "DRAW": 0.1335,
+     "AWAY": 0.0896,
+     "1X": 0.9104,
+     "X2": 0.2231,
+     "12": 0.8665,
+     "OVER25": 0.7332,
+     "UNDER25": 0.2668,
+     "BTTS_YES": 0.5676,
+     "BTTS_NO": 0.4324
     }
    },
    "pick": {
-    "selection": "X2",
-    "family": "double_chance",
-    "label": "Dupla chance: RB Bragantino ou empate (X2)",
-    "model_prob": 0.7669,
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Al Duhail",
+    "model_prob": 0.7769,
     "trend_alignment": 1.0,
-    "confidence": 62,
+    "confidence": 82,
     "eligible": true,
-    "odd": 1.53,
+    "odd": 1.34,
     "low_conviction": false
    },
    "alt_markets": [
     {
-     "selection": "AWAY",
-     "family": "1x2",
-     "label": "Vitória do RB Bragantino",
-     "model_prob": 0.5149,
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Al Duhail ou empate (1X)",
+     "model_prob": 0.9104,
      "trend_alignment": 1.0,
-     "confidence": 52,
+     "confidence": 82,
      "eligible": true,
-     "odd": 2.63
+     "odd": 1.12
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.4709,
-     "trend_alignment": 0.267,
-     "confidence": 9,
-     "eligible": false,
-     "odd": 1.84
+     "model_prob": 0.7332,
+     "trend_alignment": 1.0,
+     "confidence": 65,
+     "eligible": true,
+     "odd": 1.92
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.495,
-     "trend_alignment": 0.267,
-     "confidence": 9,
+     "model_prob": 0.5676,
+     "trend_alignment": 1.0,
+     "confidence": 44,
      "eligible": false,
      "odd": null
     },
     {
-     "selection": "UNDER25",
-     "family": "over_under",
-     "label": "Menos de 2.5 gols",
-     "model_prob": 0.5291,
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Qatar SC",
+     "model_prob": 0.0896,
      "trend_alignment": 0.0,
-     "confidence": 4,
+     "confidence": 0,
      "eligible": false,
-     "odd": 1.94
+     "odd": 6.25
     }
    ],
    "trends": [
     {
+     "label": "5 vitórias seguidas",
+     "strength": 1.0,
+     "favors": "HOME",
+     "team": "Al Duhail",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 5 dos últimos 5",
+     "strength": 0.75,
+     "favors": "HOME",
+     "team": "Al Duhail",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Mais de 2.5 gols em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "OVER",
+     "team": "Al Duhail",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
      "label": "Perdeu 3 dos últimos 5",
      "strength": 0.52,
-     "favors": "AWAY",
-     "team": "Vitoria",
-     "side": "HOME",
+     "favors": "HOME",
+     "team": "Qatar SC",
+     "side": "AWAY",
      "group": "geral",
      "kind": "losses"
     },
     {
-     "label": "Sofreu gol em todos os últimos 5",
-     "strength": 0.4,
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
      "favors": "OVER",
-     "team": "Vitoria",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "always_concede"
-    },
-    {
-     "label": "Invicto em 4 dos últimos 5",
-     "strength": 0.48,
-     "favors": "AWAY",
-     "team": "RB Bragantino",
+     "team": "Qatar SC",
      "side": "AWAY",
      "group": "geral",
-     "kind": "unbeaten"
+     "kind": "over"
     },
     {
-     "label": "Não vence há 5+ jogos",
-     "strength": 0.333,
-     "favors": "AWAY",
-     "team": "Vitoria",
+     "label": "Só venceu 1 dos últimos 4 fora de casa",
+     "strength": 0.462,
+     "favors": "HOME",
+     "team": "Qatar SC",
+     "side": "AWAY",
+     "group": "casa_fora",
+     "kind": "winless"
+    },
+    {
+     "label": "Mais de 2.5 gols em 3 dos últimos 4 fora de casa",
+     "strength": 0.45,
+     "favors": "OVER",
+     "team": "Qatar SC",
+     "side": "AWAY",
+     "group": "casa_fora",
+     "kind": "over"
+    },
+    {
+     "label": "2ª melhor defesa da liga (0.9 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "HOME",
+     "team": "Al Duhail",
      "side": "HOME",
-     "group": "sequencia",
-     "kind": "winless_streak"
+     "group": "temporada",
+     "kind": "def_rank"
     },
     {
-     "label": "Vitoria é 16º · RB Bragantino é 9º",
+     "label": "3º melhor ataque da liga (2.2 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Al Duhail",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Pior defesa da liga (2.3 sofridos/jogo)",
+     "strength": 0.34,
+     "favors": "OVER",
+     "team": "Qatar SC",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_bottom"
+    },
+    {
+     "label": "Al Duhail é 2º · Qatar SC é 11º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -141,9 +195,9 @@
      "kind": "positions"
     },
     {
-     "label": "RB Bragantino está 7 posições à frente",
-     "strength": 0.5,
-     "favors": "AWAY",
+     "label": "Al Duhail está 9 posições à frente",
+     "strength": 0.643,
+     "favors": "HOME",
      "team": null,
      "side": null,
      "group": "confronto",
@@ -152,145 +206,172 @@
    ],
    "aligned_trends": [
     {
+     "label": "5 vitórias seguidas",
+     "strength": 1.0,
+     "favors": "HOME",
+     "team": "Al Duhail",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 5 dos últimos 5",
+     "strength": 0.75,
+     "favors": "HOME",
+     "team": "Al Duhail",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
      "label": "Perdeu 3 dos últimos 5",
      "strength": 0.52,
-     "favors": "AWAY",
-     "team": "Vitoria",
-     "side": "HOME",
+     "favors": "HOME",
+     "team": "Qatar SC",
+     "side": "AWAY",
      "group": "geral",
      "kind": "losses"
     },
     {
-     "label": "Invicto em 4 dos últimos 5",
-     "strength": 0.48,
-     "favors": "AWAY",
-     "team": "RB Bragantino",
+     "label": "Só venceu 1 dos últimos 4 fora de casa",
+     "strength": 0.462,
+     "favors": "HOME",
+     "team": "Qatar SC",
      "side": "AWAY",
-     "group": "geral",
-     "kind": "unbeaten"
+     "group": "casa_fora",
+     "kind": "winless"
     },
     {
-     "label": "Não vence há 5+ jogos",
-     "strength": 0.333,
-     "favors": "AWAY",
-     "team": "Vitoria",
+     "label": "2ª melhor defesa da liga (0.9 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "HOME",
+     "team": "Al Duhail",
      "side": "HOME",
-     "group": "sequencia",
-     "kind": "winless_streak"
+     "group": "temporada",
+     "kind": "def_rank"
     },
     {
-     "label": "RB Bragantino está 7 posições à frente",
-     "strength": 0.5,
-     "favors": "AWAY",
+     "label": "3º melhor ataque da liga (2.2 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Al Duhail",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Al Duhail está 9 posições à frente",
+     "strength": 0.643,
+     "favors": "HOME",
      "team": null,
      "side": null,
      "group": "confronto",
      "kind": "table_gap"
     }
    ],
-   "confidence": 62,
+   "confidence": 82,
    "league": {
-    "key": "br_serie_a",
-    "name": "Brasileirão Série A",
-    "country": "Brasil"
+    "key": "qatar",
+    "name": "Qatar Stars League",
+    "country": "Catar"
    },
    "home_team": {
-    "id": 1228,
-    "name": "Vitoria",
-    "position": 16,
-    "played": 34,
-    "points": 38.0,
-    "record": "10V 8E 16D",
-    "goals_for": 35,
-    "goals_against": 51,
-    "last5": "LLDDL",
-    "recent": [
-     {
-      "result": "L",
-      "score": "0-3",
-      "home": true,
-      "opponent": "Fluminense",
-      "date": "2026-11-06"
-     },
-     {
-      "result": "L",
-      "score": "0-2",
-      "home": false,
-      "opponent": "Coritiba",
-      "date": "2026-10-31"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": true,
-      "opponent": "Athletico Paranaense",
-      "date": "2026-10-24"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": false,
-      "opponent": "Corinthians",
-      "date": "2026-10-19"
-     },
-     {
-      "result": "L",
-      "score": "1-2",
-      "home": false,
-      "opponent": "São Paulo",
-      "date": "2026-10-11"
-     }
-    ]
-   },
-   "away_team": {
-    "id": 1273,
-    "name": "RB Bragantino",
-    "position": 9,
-    "played": 34,
-    "points": 47.0,
-    "record": "13V 8E 13D",
-    "goals_for": 44,
-    "goals_against": 39,
-    "last5": "WWLDW",
+    "id": 8329,
+    "name": "Al Duhail",
+    "position": 2,
+    "played": 9,
+    "points": 21.0,
+    "record": "6V 3E 0D",
+    "goals_for": 20,
+    "goals_against": 8,
+    "last5": "WWWWW",
     "recent": [
      {
       "result": "W",
       "score": "2-1",
-      "home": true,
-      "opponent": "Santos",
-      "date": "2026-11-02"
+      "home": false,
+      "opponent": "Al Gharafa",
+      "date": "2026-11-07"
      },
      {
       "result": "W",
-      "score": "3-0",
+      "score": "3-1",
       "home": true,
-      "opponent": "Chapecoense",
-      "date": "2026-10-28"
+      "opponent": "Al Wakrah",
+      "date": "2026-10-31"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": true,
+      "opponent": "Lusail Sports Club",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": false,
+      "opponent": "Al Sadd",
+      "date": "2026-10-18"
+     },
+     {
+      "result": "W",
+      "score": "4-0",
+      "home": false,
+      "opponent": "Al Shamal",
+      "date": "2026-10-08"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 7086,
+    "name": "Qatar SC",
+    "position": 11,
+    "played": 9,
+    "points": 6.0,
+    "record": "1V 3E 5D",
+    "goals_for": 11,
+    "goals_against": 21,
+    "last5": "LLWDL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": false,
+      "opponent": "Lusail Sports Club",
+      "date": "2026-11-08"
      },
      {
       "result": "L",
       "score": "0-2",
       "home": false,
-      "opponent": "Palmeiras",
-      "date": "2026-10-24"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": false,
-      "opponent": "Remo",
-      "date": "2026-10-18"
+      "opponent": "Al Gharafa",
+      "date": "2026-10-30"
      },
      {
       "result": "W",
-      "score": "4-2",
+      "score": "3-2",
+      "home": false,
+      "opponent": "Al Shamal",
+      "date": "2026-10-23"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "Al Sailiya",
+      "date": "2026-10-17"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
       "home": true,
-      "opponent": "Cruzeiro",
-      "date": "2026-10-13"
+      "opponent": "Al Rayyan",
+      "date": "2026-10-09"
      }
     ]
    },
-   "kickoff_local": "2026-11-19T19:30:00-03:00",
+   "kickoff_local": "2026-11-20T10:00:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
@@ -298,105 +379,168 @@
    "clear": true
   },
   {
-   "id": 4866908,
-   "s365_competition_id": 549,
-   "competition_name": "UAE Pro League",
-   "start_time": "2026-11-19T12:45:00+00:00",
+   "id": 4748653,
+   "s365_competition_id": 129,
+   "competition_name": "Premier League",
+   "start_time": "2026-11-20T16:00:00+00:00",
    "status_group": 2,
    "round": "Round",
    "home": {
-    "id": 8346,
-    "name": "Al Wasl"
+    "id": 1955,
+    "name": "Shakhtar Donetsk"
    },
    "away": {
-    "id": 11135,
-    "name": "Hatta Club"
+    "id": 68741,
+    "name": "Livyi Bereh"
    },
-   "home_score": 2.0,
+   "home_score": 1.0,
    "away_score": 1.0,
    "model": {
-    "lambda_home": 2.46,
-    "lambda_away": 0.85,
-    "expected_goals": 3.31,
+    "lambda_home": 1.9,
+    "lambda_away": 0.51,
+    "expected_goals": 2.42,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.7261,
-     "DRAW": 0.1636,
-     "AWAY": 0.1102,
-     "1X": 0.8898,
-     "X2": 0.2739,
-     "12": 0.8364,
-     "OVER25": 0.643,
-     "UNDER25": 0.357,
-     "BTTS_YES": 0.5248,
-     "BTTS_NO": 0.4752
+     "HOME": 0.7085,
+     "DRAW": 0.2003,
+     "AWAY": 0.0912,
+     "1X": 0.9088,
+     "X2": 0.2915,
+     "12": 0.7997,
+     "OVER25": 0.4343,
+     "UNDER25": 0.5657,
+     "BTTS_YES": 0.3416,
+     "BTTS_NO": 0.6584
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
-    "label": "Vitória do Al Wasl",
-    "model_prob": 0.7261,
-    "trend_alignment": 0.787,
-    "confidence": 72,
+    "label": "Vitória do Shakhtar Donetsk",
+    "model_prob": 0.7085,
+    "trend_alignment": 1.0,
+    "confidence": 82,
     "eligible": true,
-    "odd": 1.13,
+    "odd": 1.26,
     "low_conviction": false
    },
    "alt_markets": [
     {
      "selection": "1X",
      "family": "double_chance",
-     "label": "Dupla chance: Al Wasl ou empate (1X)",
-     "model_prob": 0.8898,
-     "trend_alignment": 0.787,
-     "confidence": 72,
+     "label": "Dupla chance: Shakhtar Donetsk ou empate (1X)",
+     "model_prob": 0.9088,
+     "trend_alignment": 1.0,
+     "confidence": 82,
      "eligible": true,
-     "odd": 1.04
+     "odd": 1.05
     },
     {
-     "selection": "OVER25",
-     "family": "over_under",
-     "label": "Mais de 2.5 gols",
-     "model_prob": 0.643,
-     "trend_alignment": 0.0,
-     "confidence": 19,
-     "eligible": true,
-     "odd": 1.66
-    },
-    {
-     "selection": "BTTS_YES",
+     "selection": "BTTS_NO",
      "family": "btts",
-     "label": "Ambos os times marcam",
-     "model_prob": 0.5248,
-     "trend_alignment": 0.0,
-     "confidence": 3,
-     "eligible": false,
+     "label": "Ambos marcam: não",
+     "model_prob": 0.6584,
+     "trend_alignment": 0.591,
+     "confidence": 41,
+     "eligible": true,
      "odd": null
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.5657,
+     "trend_alignment": 0.591,
+     "confidence": 29,
+     "eligible": false,
+     "odd": 2.05
     },
     {
      "selection": "AWAY",
      "family": "1x2",
-     "label": "Vitória do Hatta Club",
-     "model_prob": 0.1102,
+     "label": "Vitória do Livyi Bereh",
+     "model_prob": 0.0912,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 12.0
+     "odd": 10.0
     }
    ],
    "trends": [
     {
-     "label": "Perdeu 4 dos últimos 5",
-     "strength": 0.61,
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
      "favors": "HOME",
-     "team": "Hatta Club",
+     "team": "Livyi Bereh",
      "side": "AWAY",
      "group": "geral",
      "kind": "losses"
     },
     {
-     "label": "Al Wasl é 5º · Hatta Club é 13º",
+     "label": "Melhor defesa da liga (0.4 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Shakhtar Donetsk",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 1 derrota(s) em 12 jogos no campeonato",
+     "strength": 0.42,
+     "favors": "HOME",
+     "team": "Shakhtar Donetsk",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Invicto em 5 dos últimos 6",
+     "strength": 0.492,
+     "favors": "HOME",
+     "team": "Shakhtar Donetsk",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Não sofreu gol em 4 dos últimos 6",
+     "strength": 0.417,
+     "favors": "UNDER",
+     "team": "Shakhtar Donetsk",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "clean_sheets"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5 em casa",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Shakhtar Donetsk",
+     "side": "HOME",
+     "group": "casa_fora",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Menos de 2.5 gols em 4 dos últimos 5 em casa",
+     "strength": 0.47,
+     "favors": "UNDER",
+     "team": "Shakhtar Donetsk",
+     "side": "HOME",
+     "group": "casa_fora",
+     "kind": "under"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Livyi Bereh",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Shakhtar Donetsk é 1º · Livyi Bereh é 12º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -405,8 +549,8 @@
      "kind": "positions"
     },
     {
-     "label": "Al Wasl está 8 posições à frente",
-     "strength": 0.571,
+     "label": "Shakhtar Donetsk está 11 posições à frente",
+     "strength": 0.786,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -416,17 +560,62 @@
    ],
    "aligned_trends": [
     {
-     "label": "Perdeu 4 dos últimos 5",
-     "strength": 0.61,
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
      "favors": "HOME",
-     "team": "Hatta Club",
+     "team": "Livyi Bereh",
      "side": "AWAY",
      "group": "geral",
      "kind": "losses"
     },
     {
-     "label": "Al Wasl está 8 posições à frente",
-     "strength": 0.571,
+     "label": "Melhor defesa da liga (0.4 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Shakhtar Donetsk",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 1 derrota(s) em 12 jogos no campeonato",
+     "strength": 0.42,
+     "favors": "HOME",
+     "team": "Shakhtar Donetsk",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Invicto em 5 dos últimos 6",
+     "strength": 0.492,
+     "favors": "HOME",
+     "team": "Shakhtar Donetsk",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5 em casa",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Shakhtar Donetsk",
+     "side": "HOME",
+     "group": "casa_fora",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Livyi Bereh",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Shakhtar Donetsk está 11 posições à frente",
+     "strength": 0.786,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -434,210 +623,236 @@
      "kind": "table_gap"
     }
    ],
-   "confidence": 72,
+   "confidence": 82,
    "league": {
-    "key": "uae",
-    "name": "UAE Pro League",
-    "country": "Emirados Árabes"
+    "key": "ukraine",
+    "name": "Premier League",
+    "country": "Ucrânia"
    },
    "home_team": {
-    "id": 8346,
-    "name": "Al Wasl",
-    "position": 5,
-    "played": 7,
-    "points": 13.0,
-    "record": "4V 1E 2D",
-    "goals_for": 18,
-    "goals_against": 8,
-    "last5": "LWDWL",
+    "id": 1955,
+    "name": "Shakhtar Donetsk",
+    "position": 1,
+    "played": 12,
+    "points": 29.0,
+    "record": "9V 2E 1D",
+    "goals_for": 22,
+    "goals_against": 5,
+    "last5": "DLWDW",
     "recent": [
      {
-      "result": "L",
-      "score": "1-2",
-      "home": false,
-      "opponent": "Jazira Abu Dhabi",
-      "date": "2026-11-08"
-     },
-     {
-      "result": "W",
-      "score": "2-0",
-      "home": false,
-      "opponent": "Baniyas",
-      "date": "2026-10-16"
-     },
-     {
       "result": "D",
-      "score": "2-2",
-      "home": false,
-      "opponent": "Al Ain",
-      "date": "2026-09-10"
-     },
-     {
-      "result": "W",
-      "score": "5-2",
+      "score": "0-0",
       "home": true,
-      "opponent": "Khor Fakkan",
-      "date": "2026-09-04"
+      "opponent": "Dynamo Kyiv",
+      "date": "2026-11-08"
      },
      {
       "result": "L",
       "score": "0-1",
       "home": true,
-      "opponent": "Shabab Al Ahly",
-      "date": "2026-08-28"
+      "opponent": "Sporting CP",
+      "date": "2026-11-03"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Obolon Kyiv",
+      "date": "2026-10-30"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Zorya Luhansk",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Kolos Kovalivka",
+      "date": "2026-10-17"
      }
     ]
    },
    "away_team": {
-    "id": 11135,
-    "name": "Hatta Club",
-    "position": 13,
-    "played": 7,
-    "points": 3.0,
-    "record": "1V 0E 6D",
-    "goals_for": 6,
-    "goals_against": 15,
-    "last5": "LLLWL",
+    "id": 68741,
+    "name": "Livyi Bereh",
+    "position": 12,
+    "played": 11,
+    "points": 9.0,
+    "record": "1V 6E 4D",
+    "goals_for": 7,
+    "goals_against": 12,
+    "last5": "LDDLL",
     "recent": [
-     {
-      "result": "L",
-      "score": "1-2",
-      "home": true,
-      "opponent": "Khor Fakkan",
-      "date": "2026-11-07"
-     },
-     {
-      "result": "L",
-      "score": "0-2",
-      "home": false,
-      "opponent": "Al Nasr Dubai",
-      "date": "2026-10-17"
-     },
-     {
-      "result": "L",
-      "score": "1-2",
-      "home": true,
-      "opponent": "Al Dhafra",
-      "date": "2026-09-11"
-     },
-     {
-      "result": "W",
-      "score": "1-0",
-      "home": false,
-      "opponent": "Baniyas",
-      "date": "2026-09-05"
-     },
      {
       "result": "L",
       "score": "0-3",
       "home": true,
-      "opponent": "Sharjah SC",
-      "date": "2026-08-30"
+      "opponent": "Bukovyna",
+      "date": "2026-11-14"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Obolon Kyiv",
+      "date": "2026-11-06"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "LNZ Cherkasy",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Kharkiv",
+      "date": "2026-10-19"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": true,
+      "opponent": "Zorya Luhansk",
+      "date": "2026-10-12"
      }
     ]
    },
-   "kickoff_local": "2026-11-19T09:45:00-03:00",
+   "kickoff_local": "2026-11-20T13:00:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "hit",
-   "clear": false,
-   "below_bar": true
+   "result": "miss",
+   "clear": true
   },
   {
-   "id": 4866906,
-   "s365_competition_id": 549,
-   "competition_name": "UAE Pro League",
-   "start_time": "2026-11-19T15:25:00+00:00",
+   "id": 4894921,
+   "s365_competition_id": 617,
+   "competition_name": "Uruguayan Championship - Clausura",
+   "start_time": "2026-11-20T19:30:00+00:00",
    "status_group": 2,
    "round": "Round",
    "home": {
-    "id": 8353,
-    "name": "Al Ain"
+    "id": 8358,
+    "name": "Liverpool Montevideo"
    },
    "away": {
-    "id": 8352,
-    "name": "Al Dhafra"
+    "id": 8614,
+    "name": "Montevideo Wanderers"
    },
-   "home_score": 2.0,
-   "away_score": 1.0,
+   "home_score": -1.0,
+   "away_score": -1.0,
    "model": {
-    "lambda_home": 1.9,
-    "lambda_away": 0.93,
-    "expected_goals": 2.83,
+    "lambda_home": 2.03,
+    "lambda_away": 0.64,
+    "expected_goals": 2.67,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.6018,
-     "DRAW": 0.2194,
-     "AWAY": 0.1788,
-     "1X": 0.8212,
-     "X2": 0.3982,
-     "12": 0.7806,
-     "OVER25": 0.5368,
-     "UNDER25": 0.4632,
-     "BTTS_YES": 0.5138,
-     "BTTS_NO": 0.4862
+     "HOME": 0.6989,
+     "DRAW": 0.1938,
+     "AWAY": 0.1073,
+     "1X": 0.8927,
+     "X2": 0.3011,
+     "12": 0.8062,
+     "OVER25": 0.4986,
+     "UNDER25": 0.5014,
+     "BTTS_YES": 0.4118,
+     "BTTS_NO": 0.5882
     }
    },
    "pick": {
-    "selection": "HOME",
-    "family": "1x2",
-    "label": "Vitória do Al Ain",
-    "model_prob": 0.6018,
+    "selection": "1X",
+    "family": "double_chance",
+    "label": "Dupla chance: Liverpool Montevideo ou empate (1X)",
+    "model_prob": 0.8927,
     "trend_alignment": 1.0,
-    "confidence": 70,
+    "confidence": 79,
     "eligible": true,
-    "odd": 1.13,
+    "odd": 1.36,
     "low_conviction": false
    },
    "alt_markets": [
     {
-     "selection": "1X",
-     "family": "double_chance",
-     "label": "Dupla chance: Al Ain ou empate (1X)",
-     "model_prob": 0.8212,
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Liverpool Montevideo",
+     "model_prob": 0.6989,
      "trend_alignment": 1.0,
      "confidence": 70,
      "eligible": true,
-     "odd": 1.02
+     "odd": 2.15
     },
     {
-     "selection": "OVER25",
-     "family": "over_under",
-     "label": "Mais de 2.5 gols",
-     "model_prob": 0.5368,
-     "trend_alignment": 0.267,
-     "confidence": 14,
-     "eligible": false,
-     "odd": 1.82
-    },
-    {
-     "selection": "BTTS_YES",
+     "selection": "BTTS_NO",
      "family": "btts",
-     "label": "Ambos os times marcam",
-     "model_prob": 0.5138,
-     "trend_alignment": 0.267,
-     "confidence": 11,
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5882,
+     "trend_alignment": 0.073,
+     "confidence": 14,
      "eligible": false,
      "odd": null
     },
     {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.5014,
+     "trend_alignment": 0.073,
+     "confidence": 3,
+     "eligible": false,
+     "odd": 1.95
+    },
+    {
      "selection": "AWAY",
      "family": "1x2",
-     "label": "Vitória do Al Dhafra",
-     "model_prob": 0.1788,
+     "label": "Vitória do Montevideo Wanderers",
+     "model_prob": 0.1073,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 15.0
+     "odd": 3.1
     }
    ],
    "trends": [
     {
+     "label": "4 vitórias seguidas",
+     "strength": 0.75,
+     "favors": "HOME",
+     "team": "Liverpool Montevideo",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "HOME",
+     "team": "Liverpool Montevideo",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Menos de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "UNDER",
+     "team": "Liverpool Montevideo",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "under"
+    },
+    {
      "label": "Perdeu 3 dos últimos 5",
      "strength": 0.52,
      "favors": "HOME",
-     "team": "Al Dhafra",
+     "team": "Montevideo Wanderers",
      "side": "AWAY",
      "group": "geral",
      "kind": "losses"
@@ -646,22 +861,40 @@
      "label": "Sofreu gol em todos os últimos 5",
      "strength": 0.4,
      "favors": "OVER",
-     "team": "Al Dhafra",
+     "team": "Montevideo Wanderers",
      "side": "AWAY",
      "group": "geral",
      "kind": "always_concede"
     },
     {
-     "label": "Invicto em 4 dos últimos 5",
-     "strength": 0.48,
+     "label": "Melhor defesa da liga (0.6 sofridos/jogo)",
+     "strength": 0.5,
      "favors": "HOME",
-     "team": "Al Ain",
+     "team": "Liverpool Montevideo",
      "side": "HOME",
-     "group": "geral",
-     "kind": "unbeaten"
+     "group": "temporada",
+     "kind": "def_rank"
     },
     {
-     "label": "Al Ain é 3º · Al Dhafra é 12º",
+     "label": "Só 1 derrota(s) em 14 jogos no campeonato",
+     "strength": 0.42,
+     "favors": "HOME",
+     "team": "Liverpool Montevideo",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "2º melhor ataque da liga (1.7 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Liverpool Montevideo",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Liverpool Montevideo é 1º · Montevideo Wanderers é 9º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -670,8 +903,299 @@
      "kind": "positions"
     },
     {
-     "label": "Al Ain está 9 posições à frente",
-     "strength": 0.643,
+     "label": "Liverpool Montevideo está 8 posições à frente",
+     "strength": 0.571,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "4 vitórias seguidas",
+     "strength": 0.75,
+     "favors": "HOME",
+     "team": "Liverpool Montevideo",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "HOME",
+     "team": "Liverpool Montevideo",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Montevideo Wanderers",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Melhor defesa da liga (0.6 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Liverpool Montevideo",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 1 derrota(s) em 14 jogos no campeonato",
+     "strength": 0.42,
+     "favors": "HOME",
+     "team": "Liverpool Montevideo",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "2º melhor ataque da liga (1.7 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Liverpool Montevideo",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Liverpool Montevideo está 8 posições à frente",
+     "strength": 0.571,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 79,
+   "league": {
+    "key": "uy_primera",
+    "name": "Primera División",
+    "country": "Uruguai"
+   },
+   "home_team": {
+    "id": 8358,
+    "name": "Liverpool Montevideo",
+    "position": 1,
+    "played": 14,
+    "points": 33.0,
+    "record": "10V 3E 1D",
+    "goals_for": 24,
+    "goals_against": 9,
+    "last5": "WWWWD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Danubio FC",
+      "date": "2026-11-15"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Juventud",
+      "date": "2026-11-01"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Nacional",
+      "date": "2026-10-25"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Peñarol",
+      "date": "2026-10-18"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Deportivo Maldonado",
+      "date": "2026-10-09"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 8614,
+    "name": "Montevideo Wanderers",
+    "position": 9,
+    "played": 14,
+    "points": 19.0,
+    "record": "5V 4E 5D",
+    "goals_for": 16,
+    "goals_against": 20,
+    "last5": "WDLLL",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Juventud",
+      "date": "2026-11-16"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Peñarol",
+      "date": "2026-10-31"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Progreso",
+      "date": "2026-10-25"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": false,
+      "opponent": "Racing Club Montevideo",
+      "date": "2026-10-17"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": true,
+      "opponent": "Boston River",
+      "date": "2026-10-10"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-20T16:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4736338,
+   "s365_competition_id": 153,
+   "competition_name": "Ekstraklasa",
+   "start_time": "2026-11-20T19:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 6016,
+    "name": "Pogon"
+   },
+   "away": {
+    "id": 2227,
+    "name": "Slask Wroclaw"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.06,
+    "lambda_away": 1.13,
+    "expected_goals": 3.19,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.5886,
+     "DRAW": 0.2093,
+     "AWAY": 0.2021,
+     "1X": 0.7979,
+     "X2": 0.4114,
+     "12": 0.7907,
+     "OVER25": 0.6182,
+     "UNDER25": 0.3818,
+     "BTTS_YES": 0.5905,
+     "BTTS_NO": 0.4095
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Pogon",
+    "model_prob": 0.5886,
+    "trend_alignment": 0.88,
+    "confidence": 63,
+    "eligible": true,
+    "odd": 1.66,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Pogon ou empate (1X)",
+     "model_prob": 0.7979,
+     "trend_alignment": 0.88,
+     "confidence": 63,
+     "eligible": true,
+     "odd": 1.2
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6182,
+     "trend_alignment": 0.0,
+     "confidence": 15,
+     "eligible": true,
+     "odd": 1.82
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5905,
+     "trend_alignment": 0.0,
+     "confidence": 12,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Slask Wroclaw",
+     "model_prob": 0.2021,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 4.48
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Slask Wroclaw",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Pogon é 5º · Slask Wroclaw é 17º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Pogon está 12 posições à frente",
+     "strength": 0.8,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -684,23 +1208,14 @@
      "label": "Perdeu 3 dos últimos 5",
      "strength": 0.52,
      "favors": "HOME",
-     "team": "Al Dhafra",
+     "team": "Slask Wroclaw",
      "side": "AWAY",
      "group": "geral",
      "kind": "losses"
     },
     {
-     "label": "Invicto em 4 dos últimos 5",
-     "strength": 0.48,
-     "favors": "HOME",
-     "team": "Al Ain",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "unbeaten"
-    },
-    {
-     "label": "Al Ain está 9 posições à frente",
-     "strength": 0.643,
+     "label": "Pogon está 12 posições à frente",
+     "strength": 0.8,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -708,115 +1223,114 @@
      "kind": "table_gap"
     }
    ],
-   "confidence": 70,
+   "confidence": 63,
    "league": {
-    "key": "uae",
-    "name": "UAE Pro League",
-    "country": "Emirados Árabes"
+    "key": "poland",
+    "name": "Ekstraklasa",
+    "country": "Polônia"
    },
    "home_team": {
-    "id": 8353,
-    "name": "Al Ain",
-    "position": 3,
-    "played": 7,
-    "points": 14.0,
-    "record": "4V 2E 1D",
-    "goals_for": 12,
-    "goals_against": 7,
-    "last5": "DLDWW",
+    "id": 6016,
+    "name": "Pogon",
+    "position": 5,
+    "played": 13,
+    "points": 24.0,
+    "record": "7V 3E 3D",
+    "goals_for": 20,
+    "goals_against": 15,
+    "last5": "LLWWW",
     "recent": [
      {
-      "result": "D",
-      "score": "0-0",
+      "result": "L",
+      "score": "0-3",
       "home": false,
-      "opponent": "Al-Wahda",
-      "date": "2026-11-08"
+      "opponent": "Widzew Lodz",
+      "date": "2026-11-07"
      },
      {
       "result": "L",
-      "score": "0-2",
+      "score": "1-3",
       "home": false,
-      "opponent": "Shabab Al Ahly",
-      "date": "2026-10-17"
+      "opponent": "Rakow Czestochowa",
+      "date": "2026-11-02"
      },
      {
-      "result": "D",
-      "score": "2-2",
+      "result": "W",
+      "score": "4-3",
       "home": true,
-      "opponent": "Al Wasl",
-      "date": "2026-09-10"
+      "opponent": "Radomiak Radom",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "GKS Katowice",
+      "date": "2026-10-17"
      },
      {
       "result": "W",
       "score": "2-0",
-      "home": false,
-      "opponent": "Kalba",
-      "date": "2026-09-04"
-     },
-     {
-      "result": "W",
-      "score": "2-1",
       "home": true,
-      "opponent": "Al Nasr Dubai",
-      "date": "2026-08-29"
+      "opponent": "Korona Kielce",
+      "date": "2026-10-11"
      }
     ]
    },
    "away_team": {
-    "id": 8352,
-    "name": "Al Dhafra",
-    "position": 12,
-    "played": 7,
-    "points": 6.0,
-    "record": "2V 0E 5D",
-    "goals_for": 9,
-    "goals_against": 13,
-    "last5": "LWWLL",
+    "id": 2227,
+    "name": "Slask Wroclaw",
+    "position": 17,
+    "played": 14,
+    "points": 10.0,
+    "record": "2V 4E 8D",
+    "goals_for": 17,
+    "goals_against": 25,
+    "last5": "DLWLL",
     "recent": [
      {
-      "result": "L",
-      "score": "1-3",
+      "result": "D",
+      "score": "0-0",
       "home": true,
-      "opponent": "Kalba",
+      "opponent": "Piast Gliwice",
       "date": "2026-11-07"
      },
      {
-      "result": "W",
-      "score": "5-1",
-      "home": true,
-      "opponent": "Dubai United",
-      "date": "2026-10-16"
+      "result": "L",
+      "score": "1-3",
+      "home": false,
+      "opponent": "Radomiak Radom",
+      "date": "2026-11-02"
      },
      {
       "result": "W",
-      "score": "2-1",
-      "home": false,
-      "opponent": "Hatta Club",
-      "date": "2026-09-11"
+      "score": "2-0",
+      "home": true,
+      "opponent": "Wieczysta Krakow",
+      "date": "2026-10-25"
      },
      {
       "result": "L",
-      "score": "0-1",
-      "home": true,
-      "opponent": "Al-Wahda",
-      "date": "2026-09-06"
+      "score": "2-3",
+      "home": false,
+      "opponent": "Motor Lublin",
+      "date": "2026-10-17"
      },
      {
       "result": "L",
-      "score": "0-2",
-      "home": false,
-      "opponent": "Khor Fakkan",
-      "date": "2026-08-29"
+      "score": "1-4",
+      "home": true,
+      "opponent": "Lech Poznan",
+      "date": "2026-10-10"
      }
     ]
    },
-   "kickoff_local": "2026-11-19T12:25:00-03:00",
+   "kickoff_local": "2026-11-20T16:30:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "hit",
-   "clear": false,
-   "below_bar": true
+   "result": "pending",
+   "clear": true
   }
  ]
 }

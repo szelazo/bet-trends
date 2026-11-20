@@ -1,6 +1,6 @@
 {
  "date": "2026-11-20",
- "generated_at": "2026-11-19T22:40:32.248617-03:00",
+ "generated_at": "2026-11-20T16:02:07.778063-03:00",
  "version": "0.1.0",
  "count": 4,
  "clear_count": 4,
@@ -21,8 +21,8 @@
     "id": 7086,
     "name": "Qatar SC"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 1.0,
+   "away_score": 2.0,
    "model": {
     "lambda_home": 2.9,
     "lambda_away": 0.92,
@@ -375,7 +375,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "miss",
    "clear": true
   },
   {
@@ -393,8 +393,8 @@
     "id": 68741,
     "name": "Livyi Bereh"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 1.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 1.9,
     "lambda_away": 0.51,
@@ -729,7 +729,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "miss",
    "clear": true
   },
   {
@@ -775,7 +775,7 @@
     "trend_alignment": 1.0,
     "confidence": 79,
     "eligible": true,
-    "odd": 1.31,
+    "odd": 1.36,
     "low_conviction": false
    },
    "alt_markets": [
@@ -787,7 +787,7 @@
      "trend_alignment": 1.0,
      "confidence": 70,
      "eligible": true,
-     "odd": 2.05
+     "odd": 2.15
     },
     {
      "selection": "BTTS_NO",
@@ -807,7 +807,7 @@
      "trend_alignment": 0.073,
      "confidence": 3,
      "eligible": false,
-     "odd": 1.85
+     "odd": 1.95
     },
     {
      "selection": "AWAY",
@@ -817,7 +817,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 3.4
+     "odd": 3.1
     }
    ],
    "trends": [
@@ -1109,27 +1109,27 @@
     "expected_goals": 3.19,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.5884,
-     "DRAW": 0.2095,
+     "HOME": 0.5886,
+     "DRAW": 0.2093,
      "AWAY": 0.2021,
      "1X": 0.7979,
-     "X2": 0.4116,
-     "12": 0.7905,
-     "OVER25": 0.6175,
-     "UNDER25": 0.3825,
-     "BTTS_YES": 0.5901,
-     "BTTS_NO": 0.4099
+     "X2": 0.4114,
+     "12": 0.7907,
+     "OVER25": 0.6182,
+     "UNDER25": 0.3818,
+     "BTTS_YES": 0.5905,
+     "BTTS_NO": 0.4095
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Pogon",
-    "model_prob": 0.5884,
+    "model_prob": 0.5886,
     "trend_alignment": 0.88,
     "confidence": 63,
     "eligible": true,
-    "odd": 1.72,
+    "odd": 1.66,
     "low_conviction": false
    },
    "alt_markets": [
@@ -1141,23 +1141,23 @@
      "trend_alignment": 0.88,
      "confidence": 63,
      "eligible": true,
-     "odd": 1.24
+     "odd": 1.2
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6175,
+     "model_prob": 0.6182,
      "trend_alignment": 0.0,
      "confidence": 15,
      "eligible": true,
-     "odd": 1.63
+     "odd": 1.82
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5901,
+     "model_prob": 0.5905,
      "trend_alignment": 0.0,
      "confidence": 12,
      "eligible": false,
@@ -1171,7 +1171,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 3.98
+     "odd": 4.48
     }
    ],
    "trends": [
@@ -1185,7 +1185,7 @@
      "kind": "losses"
     },
     {
-     "label": "Pogon é 4º · Slask Wroclaw é 17º",
+     "label": "Pogon é 5º · Slask Wroclaw é 17º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -1194,7 +1194,7 @@
      "kind": "positions"
     },
     {
-     "label": "Pogon está 13 posições à frente",
+     "label": "Pogon está 12 posições à frente",
      "strength": 0.8,
      "favors": "HOME",
      "team": null,
@@ -1214,7 +1214,7 @@
      "kind": "losses"
     },
     {
-     "label": "Pogon está 13 posições à frente",
+     "label": "Pogon está 12 posições à frente",
      "strength": 0.8,
      "favors": "HOME",
      "team": null,
@@ -1232,7 +1232,7 @@
    "home_team": {
     "id": 6016,
     "name": "Pogon",
-    "position": 4,
+    "position": 5,
     "played": 13,
     "points": 24.0,
     "record": "7V 3E 3D",
