@@ -1,6 +1,6 @@
 {
  "date": "2026-11-21",
- "generated_at": "2026-11-20T22:06:53.773074-03:00",
+ "generated_at": "2026-11-21T14:56:45.415230-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -21,8 +21,8 @@
     "id": 246,
     "name": "Lecce"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 3.0,
+   "away_score": 0.0,
    "model": {
     "lambda_home": 2.9,
     "lambda_away": 0.8,
@@ -348,7 +348,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -366,8 +366,8 @@
     "id": 997,
     "name": "Samsunspor"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 2.9,
     "lambda_away": 0.88,
@@ -720,7 +720,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -738,8 +738,8 @@
     "id": 1002,
     "name": "Sariyer"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 3.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 2.57,
     "lambda_away": 0.7,
@@ -1074,7 +1074,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -1092,8 +1092,8 @@
     "id": 762,
     "name": "St. Mirren"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 4.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 2.48,
     "lambda_away": 0.71,
@@ -1437,7 +1437,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -1458,32 +1458,32 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 0.91,
+    "lambda_home": 0.9,
     "lambda_away": 2.9,
-    "expected_goals": 3.81,
+    "expected_goals": 3.8,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.0888,
-     "DRAW": 0.1331,
-     "AWAY": 0.7781,
-     "1X": 0.2219,
-     "X2": 0.9112,
-     "12": 0.8669,
-     "OVER25": 0.7323,
-     "UNDER25": 0.2677,
-     "BTTS_YES": 0.5654,
-     "BTTS_NO": 0.4346
+     "HOME": 0.0876,
+     "DRAW": 0.1325,
+     "AWAY": 0.78,
+     "1X": 0.22,
+     "X2": 0.9124,
+     "12": 0.8675,
+     "OVER25": 0.7307,
+     "UNDER25": 0.2693,
+     "BTTS_YES": 0.5617,
+     "BTTS_NO": 0.4383
     }
    },
    "pick": {
     "selection": "AWAY",
     "family": "1x2",
     "label": "Vitória do Rapid Vienna",
-    "model_prob": 0.7781,
+    "model_prob": 0.78,
     "trend_alignment": 1.0,
     "confidence": 82,
     "eligible": true,
-    "odd": 1.43,
+    "odd": 1.38,
     "low_conviction": false
    },
    "alt_markets": [
@@ -1491,29 +1491,29 @@
      "selection": "X2",
      "family": "double_chance",
      "label": "Dupla chance: Rapid Vienna ou empate (X2)",
-     "model_prob": 0.9112,
+     "model_prob": 0.9124,
      "trend_alignment": 1.0,
      "confidence": 82,
      "eligible": true,
-     "odd": 1.11
+     "odd": 1.1
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.7323,
+     "model_prob": 0.7307,
      "trend_alignment": 0.0,
      "confidence": 30,
      "eligible": true,
-     "odd": 2.26
+     "odd": 2.21
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5654,
+     "model_prob": 0.5617,
      "trend_alignment": 0.0,
-     "confidence": 9,
+     "confidence": 8,
      "eligible": false,
      "odd": null
     },
@@ -1521,11 +1521,11 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.2677,
+     "model_prob": 0.2693,
      "trend_alignment": 0.056,
      "confidence": 2,
      "eligible": false,
-     "odd": 1.58
+     "odd": 1.62
     }
    ],
    "trends": [
@@ -1611,7 +1611,7 @@
      "kind": "winless_streak"
     },
     {
-     "label": "Grazer AK é 9º · Rapid Vienna é 1º",
+     "label": "Grazer AK é 10º · Rapid Vienna é 1º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -1620,8 +1620,8 @@
      "kind": "positions"
     },
     {
-     "label": "Rapid Vienna está 8 posições à frente",
-     "strength": 0.571,
+     "label": "Rapid Vienna está 9 posições à frente",
+     "strength": 0.643,
      "favors": "AWAY",
      "team": null,
      "side": null,
@@ -1694,8 +1694,8 @@
      "kind": "winless_streak"
     },
     {
-     "label": "Rapid Vienna está 8 posições à frente",
-     "strength": 0.571,
+     "label": "Rapid Vienna está 9 posições à frente",
+     "strength": 0.643,
      "favors": "AWAY",
      "team": null,
      "side": null,
@@ -1712,7 +1712,7 @@
    "home_team": {
     "id": 6084,
     "name": "Grazer AK",
-    "position": 9,
+    "position": 10,
     "played": 12,
     "points": 10.0,
     "record": "2V 4E 6D",
