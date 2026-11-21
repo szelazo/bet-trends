@@ -1,6 +1,6 @@
 {
  "date": "2026-11-20",
- "generated_at": "2026-11-20T16:02:07.778063-03:00",
+ "generated_at": "2026-11-20T22:06:52.501771-03:00",
  "version": "0.1.0",
  "count": 4,
  "clear_count": 4,
@@ -747,8 +747,8 @@
     "id": 8614,
     "name": "Montevideo Wanderers"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 0.0,
+   "away_score": 2.0,
    "model": {
     "lambda_home": 2.03,
     "lambda_away": 0.64,
@@ -1083,7 +1083,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "miss",
    "clear": true
   },
   {
@@ -1101,8 +1101,8 @@
     "id": 2227,
     "name": "Slask Wroclaw"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 1.0,
+   "away_score": 2.0,
    "model": {
     "lambda_home": 2.06,
     "lambda_away": 1.13,
@@ -1329,7 +1329,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "miss",
    "clear": true
   }
  ]
