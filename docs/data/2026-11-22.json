@@ -1,6 +1,6 @@
 {
  "date": "2026-11-22",
- "generated_at": "2026-11-21T14:56:46.634859-03:00",
+ "generated_at": "2026-11-21T21:07:06.241254-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -49,7 +49,7 @@
     "trend_alignment": 1.0,
     "confidence": 86,
     "eligible": true,
-    "odd": 1.1,
+    "odd": 1.09,
     "low_conviction": false
    },
    "alt_markets": [
@@ -769,27 +769,27 @@
    "away_score": -1.0,
    "model": {
     "lambda_home": 2.9,
-    "lambda_away": 0.83,
-    "expected_goals": 3.73,
+    "lambda_away": 0.85,
+    "expected_goals": 3.75,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.7936,
-     "DRAW": 0.1279,
-     "AWAY": 0.0785,
-     "1X": 0.9215,
-     "X2": 0.2064,
-     "12": 0.8721,
-     "OVER25": 0.7193,
-     "UNDER25": 0.2807,
-     "BTTS_YES": 0.5341,
-     "BTTS_NO": 0.4659
+     "HOME": 0.7905,
+     "DRAW": 0.129,
+     "AWAY": 0.0805,
+     "1X": 0.9195,
+     "X2": 0.2095,
+     "12": 0.871,
+     "OVER25": 0.7219,
+     "UNDER25": 0.2781,
+     "BTTS_YES": 0.5406,
+     "BTTS_NO": 0.4594
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Twente",
-    "model_prob": 0.7936,
+    "model_prob": 0.7905,
     "trend_alignment": 1.0,
     "confidence": 83,
     "eligible": true,
@@ -801,7 +801,7 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Twente ou empate (1X)",
-     "model_prob": 0.9215,
+     "model_prob": 0.9195,
      "trend_alignment": 1.0,
      "confidence": 83,
      "eligible": true,
@@ -811,19 +811,19 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.7193,
+     "model_prob": 0.7219,
      "trend_alignment": 0.74,
-     "confidence": 54,
+     "confidence": 55,
      "eligible": true,
-     "odd": 2.18
+     "odd": 2.24
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5341,
+     "model_prob": 0.5406,
      "trend_alignment": 0.74,
-     "confidence": 30,
+     "confidence": 31,
      "eligible": false,
      "odd": null
     },
@@ -831,7 +831,7 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Willem II",
-     "model_prob": 0.0785,
+     "model_prob": 0.0805,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
@@ -1114,27 +1114,27 @@
    "away_score": -1.0,
    "model": {
     "lambda_home": 2.9,
-    "lambda_away": 0.88,
-    "expected_goals": 3.78,
+    "lambda_away": 0.89,
+    "expected_goals": 3.79,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.7838,
-     "DRAW": 0.1312,
-     "AWAY": 0.085,
-     "1X": 0.915,
-     "X2": 0.2162,
-     "12": 0.8688,
-     "OVER25": 0.7275,
-     "UNDER25": 0.2725,
-     "BTTS_YES": 0.5541,
-     "BTTS_NO": 0.4459
+     "HOME": 0.7833,
+     "DRAW": 0.1314,
+     "AWAY": 0.0853,
+     "1X": 0.9147,
+     "X2": 0.2167,
+     "12": 0.8686,
+     "OVER25": 0.728,
+     "UNDER25": 0.272,
+     "BTTS_YES": 0.5552,
+     "BTTS_NO": 0.4448
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Olympique de Marseille",
-    "model_prob": 0.7838,
+    "model_prob": 0.7833,
     "trend_alignment": 1.0,
     "confidence": 82,
     "eligible": true,
@@ -1146,7 +1146,7 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Olympique de Marseille ou empate (1X)",
-     "model_prob": 0.915,
+     "model_prob": 0.9147,
      "trend_alignment": 1.0,
      "confidence": 82,
      "eligible": true,
@@ -1156,7 +1156,7 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.7275,
+     "model_prob": 0.728,
      "trend_alignment": 0.467,
      "confidence": 46,
      "eligible": true,
@@ -1166,9 +1166,9 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5541,
+     "model_prob": 0.5552,
      "trend_alignment": 0.467,
-     "confidence": 23,
+     "confidence": 24,
      "eligible": false,
      "odd": null
     },
@@ -1176,7 +1176,7 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Le Mans",
-     "model_prob": 0.085,
+     "model_prob": 0.0853,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
@@ -1230,15 +1230,6 @@
      "kind": "always_concede"
     },
     {
-     "label": "Melhor ataque da liga (2.2 marcados/jogo)",
-     "strength": 0.44,
-     "favors": "HOME",
-     "team": "Olympique de Marseille",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "atk_rank"
-    },
-    {
      "label": "Não vence há 5+ jogos",
      "strength": 0.333,
      "favors": "HOME",
@@ -1248,7 +1239,16 @@
      "kind": "winless_streak"
     },
     {
-     "label": "Olympique de Marseille é 4º · Le Mans é 16º",
+     "label": "2º melhor ataque da liga (2.2 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Olympique de Marseille",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Olympique de Marseille é 5º · Le Mans é 16º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -1257,8 +1257,8 @@
      "kind": "positions"
     },
     {
-     "label": "Olympique de Marseille está 12 posições à frente",
-     "strength": 0.8,
+     "label": "Olympique de Marseille está 11 posições à frente",
+     "strength": 0.786,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -1295,15 +1295,6 @@
      "kind": "losses"
     },
     {
-     "label": "Melhor ataque da liga (2.2 marcados/jogo)",
-     "strength": 0.44,
-     "favors": "HOME",
-     "team": "Olympique de Marseille",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "atk_rank"
-    },
-    {
      "label": "Não vence há 5+ jogos",
      "strength": 0.333,
      "favors": "HOME",
@@ -1313,8 +1304,17 @@
      "kind": "winless_streak"
     },
     {
-     "label": "Olympique de Marseille está 12 posições à frente",
-     "strength": 0.8,
+     "label": "2º melhor ataque da liga (2.2 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Olympique de Marseille",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Olympique de Marseille está 11 posições à frente",
+     "strength": 0.786,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -1331,7 +1331,7 @@
    "home_team": {
     "id": 469,
     "name": "Olympique de Marseille",
-    "position": 4,
+    "position": 5,
     "played": 10,
     "points": 18.0,
     "record": "6V 0E 4D",
@@ -1449,28 +1449,28 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 2.57,
+    "lambda_home": 2.58,
     "lambda_away": 0.8,
-    "expected_goals": 3.37,
+    "expected_goals": 3.38,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.754,
-     "DRAW": 0.1515,
-     "AWAY": 0.0945,
-     "1X": 0.9055,
-     "X2": 0.246,
-     "12": 0.8485,
-     "OVER25": 0.6534,
-     "UNDER25": 0.3466,
-     "BTTS_YES": 0.5088,
-     "BTTS_NO": 0.4912
+     "HOME": 0.7569,
+     "DRAW": 0.1501,
+     "AWAY": 0.093,
+     "1X": 0.907,
+     "X2": 0.2431,
+     "12": 0.8499,
+     "OVER25": 0.6552,
+     "UNDER25": 0.3448,
+     "BTTS_YES": 0.5076,
+     "BTTS_NO": 0.4924
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Paris FC",
-    "model_prob": 0.754,
+    "model_prob": 0.7569,
     "trend_alignment": 1.0,
     "confidence": 81,
     "eligible": true,
@@ -1482,17 +1482,17 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Paris FC ou empate (1X)",
-     "model_prob": 0.9055,
+     "model_prob": 0.907,
      "trend_alignment": 1.0,
      "confidence": 81,
      "eligible": true,
-     "odd": 1.09
+     "odd": 1.08
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6534,
+     "model_prob": 0.6552,
      "trend_alignment": 0.0,
      "confidence": 20,
      "eligible": true,
@@ -1502,7 +1502,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5088,
+     "model_prob": 0.5076,
      "trend_alignment": 0.0,
      "confidence": 1,
      "eligible": false,
@@ -1512,11 +1512,11 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Angers",
-     "model_prob": 0.0945,
+     "model_prob": 0.093,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 8.0
+     "odd": 8.5
     }
    ],
    "trends": [

@@ -1,6 +1,6 @@
 {
  "date": "2026-11-21",
- "generated_at": "2026-11-21T14:56:45.415230-03:00",
+ "generated_at": "2026-11-21T21:07:04.995312-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -1455,8 +1455,8 @@
     "id": 1738,
     "name": "Rapid Vienna"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 0.0,
+   "away_score": 3.0,
    "model": {
     "lambda_home": 0.9,
     "lambda_away": 2.9,
@@ -1809,7 +1809,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   }
  ]
