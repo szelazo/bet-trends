@@ -1,6 +1,6 @@
 {
  "date": "2026-11-22",
- "generated_at": "2026-11-21T21:07:06.241254-03:00",
+ "generated_at": "2026-11-22T15:23:52.174389-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -21,8 +21,8 @@
     "id": 6174,
     "name": "Eyupspor"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 1.0,
+   "away_score": 0.0,
    "model": {
     "lambda_home": 2.9,
     "lambda_away": 0.65,
@@ -375,7 +375,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -393,8 +393,8 @@
     "id": 948,
     "name": "Sivasspor"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 0.0,
    "model": {
     "lambda_home": 2.88,
     "lambda_away": 0.7,
@@ -747,7 +747,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -765,8 +765,8 @@
     "id": 706,
     "name": "Willem II"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 2.9,
     "lambda_away": 0.85,
@@ -1092,7 +1092,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -1124,10 +1124,10 @@
      "1X": 0.9147,
      "X2": 0.2167,
      "12": 0.8686,
-     "OVER25": 0.728,
-     "UNDER25": 0.272,
-     "BTTS_YES": 0.5552,
-     "BTTS_NO": 0.4448
+     "OVER25": 0.7279,
+     "UNDER25": 0.2721,
+     "BTTS_YES": 0.5551,
+     "BTTS_NO": 0.4449
     }
    },
    "pick": {
@@ -1138,7 +1138,7 @@
     "trend_alignment": 1.0,
     "confidence": 82,
     "eligible": true,
-    "odd": 1.44,
+    "odd": 1.42,
     "low_conviction": false
    },
    "alt_markets": [
@@ -1150,23 +1150,23 @@
      "trend_alignment": 1.0,
      "confidence": 82,
      "eligible": true,
-     "odd": 1.12
+     "odd": 1.11
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.728,
+     "model_prob": 0.7279,
      "trend_alignment": 0.467,
      "confidence": 46,
      "eligible": true,
-     "odd": 2.29
+     "odd": 2.36
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5552,
+     "model_prob": 0.5551,
      "trend_alignment": 0.467,
      "confidence": 24,
      "eligible": false,
@@ -1180,7 +1180,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 6.5
+     "odd": 7.0
     }
    ],
    "trends": [
@@ -1446,8 +1446,8 @@
     "id": 493,
     "name": "Angers"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 4.0,
+   "away_score": 0.0,
    "model": {
     "lambda_home": 2.58,
     "lambda_away": 0.8,
@@ -1728,7 +1728,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   }
  ]

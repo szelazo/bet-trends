@@ -1,6 +1,6 @@
 {
  "date": "2026-11-23",
- "generated_at": "2026-11-21T21:07:07.003188-03:00",
+ "generated_at": "2026-11-22T15:23:52.941079-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 3,
@@ -26,17 +26,17 @@
    "model": {
     "lambda_home": 2.15,
     "lambda_away": 0.71,
-    "expected_goals": 2.86,
+    "expected_goals": 2.87,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.705,
-     "DRAW": 0.1845,
-     "AWAY": 0.1105,
-     "1X": 0.8895,
-     "X2": 0.295,
-     "12": 0.8155,
-     "OVER25": 0.5455,
-     "UNDER25": 0.4545,
+     "HOME": 0.7056,
+     "DRAW": 0.1842,
+     "AWAY": 0.1102,
+     "1X": 0.8898,
+     "X2": 0.2944,
+     "12": 0.8158,
+     "OVER25": 0.546,
+     "UNDER25": 0.454,
      "BTTS_YES": 0.4506,
      "BTTS_NO": 0.5494
     }
@@ -45,7 +45,7 @@
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Hammarby",
-    "model_prob": 0.705,
+    "model_prob": 0.7056,
     "trend_alignment": 1.0,
     "confidence": 79,
     "eligible": true,
@@ -57,7 +57,7 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Hammarby ou empate (1X)",
-     "model_prob": 0.8895,
+     "model_prob": 0.8898,
      "trend_alignment": 1.0,
      "confidence": 79,
      "eligible": true,
@@ -77,7 +77,7 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.4545,
+     "model_prob": 0.454,
      "trend_alignment": 0.573,
      "confidence": 20,
      "eligible": false,
@@ -87,7 +87,7 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.5455,
+     "model_prob": 0.546,
      "trend_alignment": 0.0,
      "confidence": 6,
      "eligible": false,
@@ -168,7 +168,7 @@
      "kind": "winless_streak"
     },
     {
-     "label": "Hammarby é 1º · IFK Göteborg é 10º",
+     "label": "Hammarby é 2º · IFK Göteborg é 10º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -177,8 +177,8 @@
      "kind": "positions"
     },
     {
-     "label": "Hammarby está 9 posições à frente",
-     "strength": 0.643,
+     "label": "Hammarby está 8 posições à frente",
+     "strength": 0.571,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -242,8 +242,8 @@
      "kind": "winless_streak"
     },
     {
-     "label": "Hammarby está 9 posições à frente",
-     "strength": 0.643,
+     "label": "Hammarby está 8 posições à frente",
+     "strength": 0.571,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -260,7 +260,7 @@
    "home_team": {
     "id": 1895,
     "name": "Hammarby",
-    "position": 1,
+    "position": 2,
     "played": 28,
     "points": 58.0,
     "record": "18V 4E 6D",
