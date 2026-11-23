@@ -1,32 +1,32 @@
 {
- "generated_for": "2026-11-22",
+ "generated_for": "2026-11-23",
  "since": "2026-09-03",
  "prelaunch": {
   "hits": 12,
   "total": 12
  },
  "today": {
-  "hits": 4,
-  "misses": 1,
+  "hits": 3,
+  "misses": 0,
   "voids": 0,
-  "total": 5
+  "total": 3
  },
  "last3": {
-  "hits": 9,
-  "misses": 5,
+  "hits": 12,
+  "misses": 1,
   "voids": 0,
-  "total": 14
+  "total": 13
  },
  "week": {
-  "hits": 9,
+  "hits": 12,
   "misses": 6,
   "voids": 0,
-  "total": 15
+  "total": 18
  },
  "all_time": {
-  "hits": 178,
+  "hits": 181,
   "misses": 61,
   "voids": 1,
-  "total": 239
+  "total": 242
  }
 }

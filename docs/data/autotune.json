@@ -1,5 +1,5 @@
 {
- "last_run": "2026-11-09",
+ "last_run": "2026-11-23",
  "disabled_leagues": {
   "laliga2": {
    "since": "2026-10-26",
@@ -44,6 +44,12 @@
    "date": "2026-11-09",
    "changes": [
     "liga 'championship' desativada — acerto 6/11 (55%) abaixo de 55%"
+   ]
+  },
+  {
+   "date": "2026-11-23",
+   "changes": [
+    "nada a ajustar — dentro do esperado"
    ]
   }
  ]

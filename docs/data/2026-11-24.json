@@ -1,10 +1,10 @@
 {
  "date": "2026-11-24",
- "generated_at": "2026-11-22T21:36:28.363495-03:00",
+ "generated_at": "2026-11-23T19:30:43.263259-03:00",
  "version": "0.1.0",
  "count": 4,
  "clear_count": 4,
- "day_total": 25,
+ "day_total": 26,
  "games": [
   {
    "id": 4795380,
@@ -42,34 +42,34 @@
     }
    },
    "pick": {
-    "selection": "1X",
-    "family": "double_chance",
-    "label": "Dupla chance: Orlando Pirates ou empate (1X)",
-    "model_prob": 0.8841,
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Orlando Pirates",
+    "model_prob": 0.6382,
     "trend_alignment": 1.0,
     "confidence": 78,
     "eligible": true,
-    "odd": null,
+    "odd": 1.33,
     "low_conviction": false
    },
    "alt_markets": [
     {
-     "selection": "HOME",
-     "family": "1x2",
-     "label": "Vitória do Orlando Pirates",
-     "model_prob": 0.6382,
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Orlando Pirates ou empate (1X)",
+     "model_prob": 0.8841,
      "trend_alignment": 1.0,
-     "confidence": 64,
+     "confidence": 78,
      "eligible": true,
-     "odd": null
+     "odd": 1.09
     },
     {
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
      "model_prob": 0.6859,
-     "trend_alignment": 0.6,
-     "confidence": 45,
+     "trend_alignment": 0.627,
+     "confidence": 46,
      "eligible": true,
      "odd": null
     },
@@ -78,10 +78,10 @@
      "family": "over_under",
      "label": "Menos de 2.5 gols",
      "model_prob": 0.6553,
-     "trend_alignment": 0.6,
-     "confidence": 41,
+     "trend_alignment": 0.627,
+     "confidence": 42,
      "eligible": true,
-     "odd": null
+     "odd": 2.07
     },
     {
      "selection": "AWAY",
@@ -91,13 +91,22 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": null
+     "odd": 7.5
     }
    ],
    "trends": [
     {
-     "label": "Venceu 5 dos últimos 6",
-     "strength": 0.667,
+     "label": "5 vitórias seguidas",
+     "strength": 1.0,
+     "favors": "HOME",
+     "team": "Orlando Pirates",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 5 dos últimos 5",
+     "strength": 0.75,
      "favors": "HOME",
      "team": "Orlando Pirates",
      "side": "HOME",
@@ -105,8 +114,8 @@
      "kind": "wins"
     },
     {
-     "label": "Não sofreu gol em 4 dos últimos 6",
-     "strength": 0.417,
+     "label": "Não sofreu gol em 4 dos últimos 5",
+     "strength": 0.47,
      "favors": "UNDER",
      "team": "Orlando Pirates",
      "side": "HOME",
@@ -114,31 +123,22 @@
      "kind": "clean_sheets"
     },
     {
-     "label": "Não venceu nenhum dos últimos 6",
-     "strength": 0.55,
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
      "favors": "HOME",
      "team": "Golden Arrows",
      "side": "AWAY",
      "group": "geral",
-     "kind": "winless"
+     "kind": "losses"
     },
     {
-     "label": "Menos de 2.5 gols em 5 dos últimos 6",
-     "strength": 0.483,
+     "label": "Menos de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
      "favors": "UNDER",
      "team": "Golden Arrows",
      "side": "AWAY",
      "group": "geral",
      "kind": "under"
-    },
-    {
-     "label": "Invicto há 6+ jogos",
-     "strength": 0.5,
-     "favors": "HOME",
-     "team": "Orlando Pirates",
-     "side": "HOME",
-     "group": "sequencia",
-     "kind": "unbeaten_streak"
     },
     {
      "label": "Melhor defesa da liga (0.2 sofridos/jogo)",
@@ -159,15 +159,6 @@
      "kind": "atk_rank"
     },
     {
-     "label": "Não vence há 6+ jogos",
-     "strength": 0.5,
-     "favors": "HOME",
-     "team": "Golden Arrows",
-     "side": "AWAY",
-     "group": "sequencia",
-     "kind": "winless_streak"
-    },
-    {
      "label": "2ª melhor defesa da liga (0.6 sofridos/jogo)",
      "strength": 0.36,
      "favors": "AWAY",
@@ -175,6 +166,15 @@
      "side": "AWAY",
      "group": "temporada",
      "kind": "def_rank"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Golden Arrows",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
     },
     {
      "label": "Orlando Pirates é 2º · Golden Arrows é 10º",
@@ -197,8 +197,17 @@
    ],
    "aligned_trends": [
     {
-     "label": "Venceu 5 dos últimos 6",
-     "strength": 0.667,
+     "label": "5 vitórias seguidas",
+     "strength": 1.0,
+     "favors": "HOME",
+     "team": "Orlando Pirates",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 5 dos últimos 5",
+     "strength": 0.75,
      "favors": "HOME",
      "team": "Orlando Pirates",
      "side": "HOME",
@@ -206,22 +215,13 @@
      "kind": "wins"
     },
     {
-     "label": "Não venceu nenhum dos últimos 6",
-     "strength": 0.55,
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
      "favors": "HOME",
      "team": "Golden Arrows",
      "side": "AWAY",
      "group": "geral",
-     "kind": "winless"
-    },
-    {
-     "label": "Invicto há 6+ jogos",
-     "strength": 0.5,
-     "favors": "HOME",
-     "team": "Orlando Pirates",
-     "side": "HOME",
-     "group": "sequencia",
-     "kind": "unbeaten_streak"
+     "kind": "losses"
     },
     {
      "label": "Melhor defesa da liga (0.2 sofridos/jogo)",
@@ -242,8 +242,8 @@
      "kind": "atk_rank"
     },
     {
-     "label": "Não vence há 6+ jogos",
-     "strength": 0.5,
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
      "favors": "HOME",
      "team": "Golden Arrows",
      "side": "AWAY",
@@ -275,15 +275,8 @@
     "record": "8V 1E 0D",
     "goals_for": 21,
     "goals_against": 2,
-    "last5": "DWWWW",
+    "last5": "WWWWW",
     "recent": [
-     {
-      "result": "D",
-      "score": "-1--1",
-      "home": false,
-      "opponent": "Siwelele",
-      "date": "2026-11-04"
-     },
      {
       "result": "W",
       "score": "2-1",
@@ -311,6 +304,13 @@
       "home": true,
       "opponent": "Durban City",
       "date": "2026-09-17"
+     },
+     {
+      "result": "W",
+      "score": "4-0",
+      "home": false,
+      "opponent": "Kruger United",
+      "date": "2026-09-01"
      }
     ]
    },
@@ -323,15 +323,8 @@
     "record": "1V 5E 3D",
     "goals_for": 3,
     "goals_against": 5,
-    "last5": "DLLDD",
+    "last5": "LLDDL",
     "recent": [
-     {
-      "result": "D",
-      "score": "-1--1",
-      "home": true,
-      "opponent": "Marumo Gallants",
-      "date": "2026-11-04"
-     },
      {
       "result": "L",
       "score": "0-1",
@@ -359,12 +352,19 @@
       "home": false,
       "opponent": "Siwelele",
       "date": "2026-09-13"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Mamelodi Sundowns",
+      "date": "2026-09-06"
      }
     ]
    },
    "kickoff_local": "2026-11-24T14:30:00-03:00",
-   "has_odds": false,
-   "odds_bookmaker": null,
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
    "is_cup": false,
    "result": "pending",
    "clear": true
@@ -398,10 +398,10 @@
      "1X": 0.824,
      "X2": 0.3889,
      "12": 0.7871,
-     "OVER25": 0.5608,
-     "UNDER25": 0.4392,
-     "BTTS_YES": 0.5298,
-     "BTTS_NO": 0.4702
+     "OVER25": 0.5607,
+     "UNDER25": 0.4393,
+     "BTTS_YES": 0.5297,
+     "BTTS_NO": 0.4703
     }
    },
    "pick": {
@@ -430,7 +430,7 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.5608,
+     "model_prob": 0.5607,
      "trend_alignment": 0.533,
      "confidence": 27,
      "eligible": false,
@@ -440,7 +440,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5298,
+     "model_prob": 0.5297,
      "trend_alignment": 0.533,
      "confidence": 23,
      "eligible": false,
@@ -712,7 +712,7 @@
     "trend_alignment": 1.0,
     "confidence": 58,
     "eligible": true,
-    "odd": 1.35,
+    "odd": 1.33,
     "low_conviction": false
    },
    "alt_markets": [
@@ -734,7 +734,7 @@
      "trend_alignment": 1.0,
      "confidence": 44,
      "eligible": false,
-     "odd": 2.2
+     "odd": 2.15
     },
     {
      "selection": "BTTS_NO",
@@ -754,7 +754,7 @@
      "trend_alignment": 0.0,
      "confidence": 2,
      "eligible": false,
-     "odd": 1.65
+     "odd": 1.69
     }
    ],
    "trends": [
@@ -1024,7 +1024,7 @@
      "trend_alignment": 1.0,
      "confidence": 56,
      "eligible": true,
-     "odd": 1.05
+     "odd": 1.06
     },
     {
      "selection": "OVER25",
@@ -1054,7 +1054,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 11.0
+     "odd": 10.0
     }
    ],
    "trends": [

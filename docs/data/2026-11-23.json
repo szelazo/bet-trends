@@ -1,6 +1,6 @@
 {
  "date": "2026-11-23",
- "generated_at": "2026-11-22T21:36:27.367141-03:00",
+ "generated_at": "2026-11-23T19:30:42.265212-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 3,
@@ -21,8 +21,8 @@
     "id": 1888,
     "name": "IFK Göteborg"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 3.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 2.15,
     "lambda_away": 0.71,
@@ -357,7 +357,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -375,8 +375,8 @@
     "id": 8201,
     "name": "Zamalek SC"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 1.0,
+   "away_score": 2.0,
    "model": {
     "lambda_home": 0.64,
     "lambda_away": 1.28,
@@ -675,7 +675,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -693,8 +693,8 @@
     "id": 8312,
     "name": "Al Ittehad"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 1.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 0.9,
     "lambda_away": 1.2,
@@ -975,7 +975,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   }
  ]

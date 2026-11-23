@@ -1,85 +1,75 @@
 {
- "date": "2026-11-22",
- "generated_at": "2026-11-22T21:36:26.614493-03:00",
+ "date": "2026-11-23",
+ "generated_at": "2026-11-23T19:30:42.265212-03:00",
  "version": "0.1.0",
- "count": 5,
- "clear_count": 5,
- "day_total": 87,
+ "count": 3,
+ "clear_count": 3,
+ "day_total": 27,
  "games": [
   {
-   "id": 4764330,
-   "s365_competition_id": 78,
-   "competition_name": "Super Lig",
-   "start_time": "2026-11-22T16:00:00+00:00",
+   "id": 4635954,
+   "s365_competition_id": 122,
+   "competition_name": "Allsvenskan",
+   "start_time": "2026-11-23T18:00:00+00:00",
    "status_group": 2,
    "round": "Round",
    "home": {
-    "id": 950,
-    "name": "Trabzonspor"
+    "id": 1895,
+    "name": "Hammarby"
    },
    "away": {
-    "id": 6174,
-    "name": "Eyupspor"
+    "id": 1888,
+    "name": "IFK Göteborg"
    },
-   "home_score": 1.0,
-   "away_score": 0.0,
+   "home_score": 3.0,
+   "away_score": 1.0,
    "model": {
-    "lambda_home": 2.9,
-    "lambda_away": 0.65,
-    "expected_goals": 3.55,
+    "lambda_home": 2.15,
+    "lambda_away": 0.71,
+    "expected_goals": 2.87,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.8295,
-     "DRAW": 0.1146,
-     "AWAY": 0.056,
-     "1X": 0.944,
-     "X2": 0.1705,
-     "12": 0.8854,
-     "OVER25": 0.6869,
-     "UNDER25": 0.3131,
-     "BTTS_YES": 0.4504,
-     "BTTS_NO": 0.5496
+     "HOME": 0.7056,
+     "DRAW": 0.1842,
+     "AWAY": 0.1102,
+     "1X": 0.8898,
+     "X2": 0.2944,
+     "12": 0.8158,
+     "OVER25": 0.546,
+     "UNDER25": 0.454,
+     "BTTS_YES": 0.4506,
+     "BTTS_NO": 0.5494
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
-    "label": "Vitória do Trabzonspor",
-    "model_prob": 0.8295,
+    "label": "Vitória do Hammarby",
+    "model_prob": 0.7056,
     "trend_alignment": 1.0,
-    "confidence": 86,
+    "confidence": 79,
     "eligible": true,
-    "odd": 1.09,
+    "odd": 1.18,
     "low_conviction": false
    },
    "alt_markets": [
     {
      "selection": "1X",
      "family": "double_chance",
-     "label": "Dupla chance: Trabzonspor ou empate (1X)",
-     "model_prob": 0.944,
+     "label": "Dupla chance: Hammarby ou empate (1X)",
+     "model_prob": 0.8898,
      "trend_alignment": 1.0,
-     "confidence": 86,
+     "confidence": 79,
      "eligible": true,
-     "odd": 1.02
-    },
-    {
-     "selection": "OVER25",
-     "family": "over_under",
-     "label": "Mais de 2.5 gols",
-     "model_prob": 0.6869,
-     "trend_alignment": 0.0,
-     "confidence": 24,
-     "eligible": true,
-     "odd": 1.8
+     "odd": 1.06
     },
     {
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.5496,
-     "trend_alignment": 0.074,
-     "confidence": 9,
+     "model_prob": 0.5494,
+     "trend_alignment": 0.573,
+     "confidence": 26,
      "eligible": false,
      "odd": null
     },
@@ -87,391 +77,38 @@
      "selection": "UNDER25",
      "family": "over_under",
      "label": "Menos de 2.5 gols",
-     "model_prob": 0.3131,
-     "trend_alignment": 0.074,
-     "confidence": 3,
+     "model_prob": 0.454,
+     "trend_alignment": 0.573,
+     "confidence": 20,
      "eligible": false,
-     "odd": 1.91
-    }
-   ],
-   "trends": [
-    {
-     "label": "Perdeu 5 dos últimos 5",
-     "strength": 0.7,
-     "favors": "HOME",
-     "team": "Eyupspor",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Não marcou em 4 dos últimos 5",
-     "strength": 0.44,
-     "favors": "HOME",
-     "team": "Eyupspor",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "no_score"
-    },
-    {
-     "label": "Venceu 5 dos últimos 6",
-     "strength": 0.667,
-     "favors": "HOME",
-     "team": "Trabzonspor",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "Não sofreu gol em 4 dos últimos 6",
-     "strength": 0.417,
-     "favors": "UNDER",
-     "team": "Trabzonspor",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "clean_sheets"
-    },
-    {
-     "label": "Melhor defesa da liga (0.7 sofridos/jogo)",
-     "strength": 0.5,
-     "favors": "HOME",
-     "team": "Trabzonspor",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "def_rank"
-    },
-    {
-     "label": "Só 2 derrota(s) em 11 jogos no campeonato",
-     "strength": 0.34,
-     "favors": "HOME",
-     "team": "Trabzonspor",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "few_losses"
-    },
-    {
-     "label": "3º melhor ataque da liga (2.4 marcados/jogo)",
-     "strength": 0.32,
-     "favors": "HOME",
-     "team": "Trabzonspor",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "atk_rank"
-    },
-    {
-     "label": "Pior defesa da liga (2.7 sofridos/jogo)",
-     "strength": 0.34,
-     "favors": "OVER",
-     "team": "Eyupspor",
-     "side": "AWAY",
-     "group": "temporada",
-     "kind": "def_bottom"
-    },
-    {
-     "label": "Não vence há 5+ jogos",
-     "strength": 0.333,
-     "favors": "HOME",
-     "team": "Eyupspor",
-     "side": "AWAY",
-     "group": "sequencia",
-     "kind": "winless_streak"
-    },
-    {
-     "label": "Trabzonspor é 2º · Eyupspor é 18º",
-     "strength": 0.0,
-     "favors": null,
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "positions"
-    },
-    {
-     "label": "Trabzonspor está 16 posições à frente",
-     "strength": 0.8,
-     "favors": "HOME",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "aligned_trends": [
-    {
-     "label": "Perdeu 5 dos últimos 5",
-     "strength": 0.7,
-     "favors": "HOME",
-     "team": "Eyupspor",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Não marcou em 4 dos últimos 5",
-     "strength": 0.44,
-     "favors": "HOME",
-     "team": "Eyupspor",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "no_score"
-    },
-    {
-     "label": "Venceu 5 dos últimos 6",
-     "strength": 0.667,
-     "favors": "HOME",
-     "team": "Trabzonspor",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "Melhor defesa da liga (0.7 sofridos/jogo)",
-     "strength": 0.5,
-     "favors": "HOME",
-     "team": "Trabzonspor",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "def_rank"
-    },
-    {
-     "label": "Só 2 derrota(s) em 11 jogos no campeonato",
-     "strength": 0.34,
-     "favors": "HOME",
-     "team": "Trabzonspor",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "few_losses"
-    },
-    {
-     "label": "3º melhor ataque da liga (2.4 marcados/jogo)",
-     "strength": 0.32,
-     "favors": "HOME",
-     "team": "Trabzonspor",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "atk_rank"
-    },
-    {
-     "label": "Não vence há 5+ jogos",
-     "strength": 0.333,
-     "favors": "HOME",
-     "team": "Eyupspor",
-     "side": "AWAY",
-     "group": "sequencia",
-     "kind": "winless_streak"
-    },
-    {
-     "label": "Trabzonspor está 16 posições à frente",
-     "strength": 0.8,
-     "favors": "HOME",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "confidence": 86,
-   "league": {
-    "key": "turkey",
-    "name": "Süper Lig",
-    "country": "Turquia"
-   },
-   "home_team": {
-    "id": 950,
-    "name": "Trabzonspor",
-    "position": 2,
-    "played": 11,
-    "points": 25.0,
-    "record": "8V 1E 2D",
-    "goals_for": 26,
-    "goals_against": 8,
-    "last5": "WLWWW",
-    "recent": [
-     {
-      "result": "W",
-      "score": "2-0",
-      "home": false,
-      "opponent": "Alanyaspor",
-      "date": "2026-11-08"
-     },
-     {
-      "result": "L",
-      "score": "0-1",
-      "home": true,
-      "opponent": "Freiburg",
-      "date": "2026-11-05"
-     },
-     {
-      "result": "W",
-      "score": "2-0",
-      "home": true,
-      "opponent": "Gaziantep FK",
-      "date": "2026-11-01"
-     },
-     {
-      "result": "W",
-      "score": "4-3",
-      "home": false,
-      "opponent": "Rizespor",
-      "date": "2026-10-26"
-     },
-     {
-      "result": "W",
-      "score": "2-0",
-      "home": true,
-      "opponent": "Besiktas",
-      "date": "2026-10-19"
-     }
-    ]
-   },
-   "away_team": {
-    "id": 6174,
-    "name": "Eyupspor",
-    "position": 18,
-    "played": 11,
-    "points": 3.0,
-    "record": "1V 0E 10D",
-    "goals_for": 3,
-    "goals_against": 30,
-    "last5": "LLLLL",
-    "recent": [
-     {
-      "result": "L",
-      "score": "0-2",
-      "home": true,
-      "opponent": "Kocaelispor",
-      "date": "2026-11-07"
-     },
-     {
-      "result": "L",
-      "score": "1-5",
-      "home": false,
-      "opponent": "Amed SK",
-      "date": "2026-11-01"
-     },
-     {
-      "result": "L",
-      "score": "0-1",
-      "home": true,
-      "opponent": "Kasimpasa",
-      "date": "2026-10-24"
-     },
-     {
-      "result": "L",
-      "score": "0-2",
-      "home": false,
-      "opponent": "Erzurumspor FK",
-      "date": "2026-10-17"
-     },
-     {
-      "result": "L",
-      "score": "0-4",
-      "home": true,
-      "opponent": "Goztepe",
-      "date": "2026-10-12"
-     }
-    ]
-   },
-   "kickoff_local": "2026-11-22T13:00:00-03:00",
-   "has_odds": true,
-   "odds_bookmaker": "365Scores",
-   "is_cup": false,
-   "result": "hit",
-   "clear": true
-  },
-  {
-   "id": 4766897,
-   "s365_competition_id": 81,
-   "competition_name": "1. Lig",
-   "start_time": "2026-11-22T16:00:00+00:00",
-   "status_group": 2,
-   "round": "Round",
-   "home": {
-    "id": 954,
-    "name": "Bursaspor"
-   },
-   "away": {
-    "id": 948,
-    "name": "Sivasspor"
-   },
-   "home_score": 2.0,
-   "away_score": 0.0,
-   "model": {
-    "lambda_home": 2.88,
-    "lambda_away": 0.7,
-    "expected_goals": 3.58,
-    "sample_factor": 1.0,
-    "probs": {
-     "HOME": 0.8179,
-     "DRAW": 0.1196,
-     "AWAY": 0.0625,
-     "1X": 0.9375,
-     "X2": 0.1821,
-     "12": 0.8804,
-     "OVER25": 0.6922,
-     "UNDER25": 0.3078,
-     "BTTS_YES": 0.4732,
-     "BTTS_NO": 0.5268
-    }
-   },
-   "pick": {
-    "selection": "HOME",
-    "family": "1x2",
-    "label": "Vitória do Bursaspor",
-    "model_prob": 0.8179,
-    "trend_alignment": 1.0,
-    "confidence": 86,
-    "eligible": true,
-    "odd": 1.15,
-    "low_conviction": false
-   },
-   "alt_markets": [
-    {
-     "selection": "1X",
-     "family": "double_chance",
-     "label": "Dupla chance: Bursaspor ou empate (1X)",
-     "model_prob": 0.9375,
-     "trend_alignment": 1.0,
-     "confidence": 86,
-     "eligible": true,
-     "odd": 1.02
+     "odd": 1.68
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6922,
-     "trend_alignment": 0.053,
-     "confidence": 27,
-     "eligible": true,
-     "odd": 2.09
-    },
-    {
-     "selection": "BTTS_NO",
-     "family": "btts",
-     "label": "Ambos marcam: não",
-     "model_prob": 0.5268,
-     "trend_alignment": 0.002,
-     "confidence": 4,
+     "model_prob": 0.546,
+     "trend_alignment": 0.0,
+     "confidence": 6,
      "eligible": false,
-     "odd": null
-    },
-    {
-     "selection": "BTTS_YES",
-     "family": "btts",
-     "label": "Ambos os times marcam",
-     "model_prob": 0.4732,
-     "trend_alignment": 0.053,
-     "confidence": 2,
-     "eligible": false,
-     "odd": null
+     "odd": 2.12
     }
    ],
    "trends": [
     {
-     "label": "Venceu 4 dos últimos 5",
-     "strength": 0.65,
+     "label": "5 vitórias seguidas",
+     "strength": 1.0,
      "favors": "HOME",
-     "team": "Bursaspor",
+     "team": "Hammarby",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 5 dos últimos 5",
+     "strength": 0.75,
+     "favors": "HOME",
+     "team": "Hammarby",
      "side": "HOME",
      "group": "geral",
      "kind": "wins"
@@ -480,76 +117,58 @@
      "label": "Não sofreu gol em 3 dos últimos 5",
      "strength": 0.39,
      "favors": "UNDER",
-     "team": "Bursaspor",
+     "team": "Hammarby",
      "side": "HOME",
      "group": "geral",
      "kind": "clean_sheets"
     },
     {
-     "label": "Perdeu 3 dos últimos 5",
-     "strength": 0.52,
+     "label": "Não venceu nenhum dos últimos 5",
+     "strength": 0.55,
      "favors": "HOME",
-     "team": "Sivasspor",
+     "team": "IFK Göteborg",
      "side": "AWAY",
      "group": "geral",
-     "kind": "losses"
+     "kind": "winless"
     },
     {
-     "label": "Ambos marcaram em 4 dos últimos 5",
-     "strength": 0.43,
-     "favors": "BTTS_YES",
-     "team": "Sivasspor",
+     "label": "Menos de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "UNDER",
+     "team": "IFK Göteborg",
      "side": "AWAY",
      "group": "geral",
-     "kind": "btts"
+     "kind": "under"
     },
     {
-     "label": "2ª melhor defesa da liga (0.9 sofridos/jogo)",
-     "strength": 0.36,
+     "label": "Melhor defesa da liga (0.8 sofridos/jogo)",
+     "strength": 0.5,
      "favors": "HOME",
-     "team": "Bursaspor",
+     "team": "Hammarby",
      "side": "HOME",
      "group": "temporada",
      "kind": "def_rank"
     },
     {
-     "label": "Só 2 derrota(s) em 14 jogos no campeonato",
-     "strength": 0.34,
+     "label": "Melhor ataque da liga (2.1 marcados/jogo)",
+     "strength": 0.44,
      "favors": "HOME",
-     "team": "Bursaspor",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "few_losses"
-    },
-    {
-     "label": "2º melhor ataque da liga (2.1 marcados/jogo)",
-     "strength": 0.32,
-     "favors": "HOME",
-     "team": "Bursaspor",
+     "team": "Hammarby",
      "side": "HOME",
      "group": "temporada",
      "kind": "atk_rank"
     },
     {
-     "label": "Invicto há 5+ jogos",
-     "strength": 0.333,
-     "favors": "HOME",
-     "team": "Bursaspor",
-     "side": "HOME",
-     "group": "sequencia",
-     "kind": "unbeaten_streak"
-    },
-    {
      "label": "Não vence há 5+ jogos",
      "strength": 0.333,
      "favors": "HOME",
-     "team": "Sivasspor",
+     "team": "IFK Göteborg",
      "side": "AWAY",
      "group": "sequencia",
      "kind": "winless_streak"
     },
     {
-     "label": "Bursaspor é 2º · Sivasspor é 18º",
+     "label": "Hammarby é 2º · IFK Göteborg é 10º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -558,9 +177,345 @@
      "kind": "positions"
     },
     {
-     "label": "Bursaspor está 16 posições à frente",
-     "strength": 0.8,
+     "label": "Hammarby está 8 posições à frente",
+     "strength": 0.571,
      "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "5 vitórias seguidas",
+     "strength": 1.0,
+     "favors": "HOME",
+     "team": "Hammarby",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 5 dos últimos 5",
+     "strength": 0.75,
+     "favors": "HOME",
+     "team": "Hammarby",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Não venceu nenhum dos últimos 5",
+     "strength": 0.55,
+     "favors": "HOME",
+     "team": "IFK Göteborg",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "Melhor defesa da liga (0.8 sofridos/jogo)",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": "Hammarby",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Melhor ataque da liga (2.1 marcados/jogo)",
+     "strength": 0.44,
+     "favors": "HOME",
+     "team": "Hammarby",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "IFK Göteborg",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Hammarby está 8 posições à frente",
+     "strength": 0.571,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 79,
+   "league": {
+    "key": "sweden",
+    "name": "Allsvenskan",
+    "country": "Suécia"
+   },
+   "home_team": {
+    "id": 1895,
+    "name": "Hammarby",
+    "position": 2,
+    "played": 28,
+    "points": 58.0,
+    "record": "18V 4E 6D",
+    "goals_for": 60,
+    "goals_against": 23,
+    "last5": "WWWWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "4-1",
+      "home": true,
+      "opponent": "IF Elfsborg",
+      "date": "2026-11-06"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Malmö FF",
+      "date": "2026-11-01"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Sirius",
+      "date": "2026-10-29"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "Mjällby AIF",
+      "date": "2026-10-25"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Halmstad",
+      "date": "2026-10-18"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 1888,
+    "name": "IFK Göteborg",
+    "position": 10,
+    "played": 28,
+    "points": 39.0,
+    "record": "10V 9E 9D",
+    "goals_for": 36,
+    "goals_against": 46,
+    "last5": "DLDDD",
+    "recent": [
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Malmö FF",
+      "date": "2026-11-08"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "BK Häcken",
+      "date": "2026-11-01"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Djurgårdens IF",
+      "date": "2026-10-28"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Gais",
+      "date": "2026-10-25"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "AIK Solna",
+      "date": "2026-10-17"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-23T15:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "hit",
+   "clear": true
+  },
+  {
+   "id": 4804735,
+   "s365_competition_id": 552,
+   "competition_name": "Premier League",
+   "start_time": "2026-11-23T15:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 8308,
+    "name": "El Gounah"
+   },
+   "away": {
+    "id": 8201,
+    "name": "Zamalek SC"
+   },
+   "home_score": 1.0,
+   "away_score": 2.0,
+   "model": {
+    "lambda_home": 0.64,
+    "lambda_away": 1.28,
+    "expected_goals": 1.92,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.1869,
+     "DRAW": 0.2941,
+     "AWAY": 0.519,
+     "1X": 0.481,
+     "X2": 0.8131,
+     "12": 0.7059,
+     "OVER25": 0.3011,
+     "UNDER25": 0.6989,
+     "BTTS_YES": 0.3413,
+     "BTTS_NO": 0.6587
+    }
+   },
+   "pick": {
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: Zamalek SC ou empate (X2)",
+    "model_prob": 0.8131,
+    "trend_alignment": 1.0,
+    "confidence": 69,
+    "eligible": true,
+    "odd": 1.2,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Zamalek SC",
+     "model_prob": 0.519,
+     "trend_alignment": 1.0,
+     "confidence": 53,
+     "eligible": true,
+     "odd": 1.72
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.6989,
+     "trend_alignment": 0.073,
+     "confidence": 28,
+     "eligible": true,
+     "odd": 1.53
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.6587,
+     "trend_alignment": 0.073,
+     "confidence": 23,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do El Gounah",
+     "model_prob": 0.1869,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 4.48
+    }
+   ],
+   "trends": [
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "AWAY",
+     "team": "Zamalek SC",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Menos de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "UNDER",
+     "team": "Zamalek SC",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "under"
+    },
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "AWAY",
+     "team": "El Gounah",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Sofreu gol em todos os últimos 5",
+     "strength": 0.4,
+     "favors": "OVER",
+     "team": "El Gounah",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "always_concede"
+    },
+    {
+     "label": "2ª melhor defesa da liga (0.5 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "AWAY",
+     "team": "Zamalek SC",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "El Gounah",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "El Gounah é 20º · Zamalek SC é 3º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Zamalek SC está 17 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
      "team": null,
      "side": null,
      "group": "confronto",
@@ -571,524 +526,152 @@
     {
      "label": "Venceu 4 dos últimos 5",
      "strength": 0.65,
-     "favors": "HOME",
-     "team": "Bursaspor",
-     "side": "HOME",
+     "favors": "AWAY",
+     "team": "Zamalek SC",
+     "side": "AWAY",
      "group": "geral",
      "kind": "wins"
     },
     {
-     "label": "Perdeu 3 dos últimos 5",
-     "strength": 0.52,
-     "favors": "HOME",
-     "team": "Sivasspor",
-     "side": "AWAY",
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "AWAY",
+     "team": "El Gounah",
+     "side": "HOME",
      "group": "geral",
      "kind": "losses"
     },
     {
-     "label": "2ª melhor defesa da liga (0.9 sofridos/jogo)",
+     "label": "2ª melhor defesa da liga (0.5 sofridos/jogo)",
      "strength": 0.36,
-     "favors": "HOME",
-     "team": "Bursaspor",
-     "side": "HOME",
+     "favors": "AWAY",
+     "team": "Zamalek SC",
+     "side": "AWAY",
      "group": "temporada",
      "kind": "def_rank"
     },
     {
-     "label": "Só 2 derrota(s) em 14 jogos no campeonato",
-     "strength": 0.34,
-     "favors": "HOME",
-     "team": "Bursaspor",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "few_losses"
-    },
-    {
-     "label": "2º melhor ataque da liga (2.1 marcados/jogo)",
-     "strength": 0.32,
-     "favors": "HOME",
-     "team": "Bursaspor",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "atk_rank"
-    },
-    {
-     "label": "Invicto há 5+ jogos",
-     "strength": 0.333,
-     "favors": "HOME",
-     "team": "Bursaspor",
-     "side": "HOME",
-     "group": "sequencia",
-     "kind": "unbeaten_streak"
-    },
-    {
      "label": "Não vence há 5+ jogos",
      "strength": 0.333,
-     "favors": "HOME",
-     "team": "Sivasspor",
-     "side": "AWAY",
+     "favors": "AWAY",
+     "team": "El Gounah",
+     "side": "HOME",
      "group": "sequencia",
      "kind": "winless_streak"
     },
     {
-     "label": "Bursaspor está 16 posições à frente",
+     "label": "Zamalek SC está 17 posições à frente",
      "strength": 0.8,
-     "favors": "HOME",
+     "favors": "AWAY",
      "team": null,
      "side": null,
      "group": "confronto",
      "kind": "table_gap"
     }
    ],
-   "confidence": 86,
+   "confidence": 69,
    "league": {
-    "key": "turkey2",
-    "name": "1. Lig",
-    "country": "Turquia"
+    "key": "egypt",
+    "name": "Premier League",
+    "country": "Egito"
    },
    "home_team": {
-    "id": 954,
-    "name": "Bursaspor",
-    "position": 2,
-    "played": 14,
-    "points": 32.0,
-    "record": "10V 2E 2D",
-    "goals_for": 30,
-    "goals_against": 12,
-    "last5": "DWWWW",
-    "recent": [
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": false,
-      "opponent": "Antalyaspor",
-      "date": "2026-11-06"
-     },
-     {
-      "result": "W",
-      "score": "3-0",
-      "home": true,
-      "opponent": "Bandırmaspor",
-      "date": "2026-10-31"
-     },
-     {
-      "result": "W",
-      "score": "4-2",
-      "home": false,
-      "opponent": "Keciorengucu",
-      "date": "2026-10-25"
-     },
-     {
-      "result": "W",
-      "score": "2-0",
-      "home": true,
-      "opponent": "Pendikspor",
-      "date": "2026-10-19"
-     },
-     {
-      "result": "W",
-      "score": "3-0",
-      "home": false,
-      "opponent": "Muglaspor",
-      "date": "2026-10-15"
-     }
-    ]
-   },
-   "away_team": {
-    "id": 948,
-    "name": "Sivasspor",
-    "position": 18,
-    "played": 14,
-    "points": 13.0,
-    "record": "2V 7E 5D",
-    "goals_for": 17,
-    "goals_against": 23,
-    "last5": "LLLDD",
-    "recent": [
-     {
-      "result": "L",
-      "score": "1-3",
-      "home": false,
-      "opponent": "Van Spor FK",
-      "date": "2026-11-07"
-     },
-     {
-      "result": "L",
-      "score": "1-2",
-      "home": true,
-      "opponent": "Boluspor",
-      "date": "2026-11-01"
-     },
-     {
-      "result": "L",
-      "score": "0-4",
-      "home": false,
-      "opponent": "Ümraniyespor",
-      "date": "2026-10-24"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": true,
-      "opponent": "Sariyer",
-      "date": "2026-10-17"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": false,
-      "opponent": "Bandırmaspor",
-      "date": "2026-10-13"
-     }
-    ]
-   },
-   "kickoff_local": "2026-11-22T13:00:00-03:00",
-   "has_odds": true,
-   "odds_bookmaker": "365Scores",
-   "is_cup": false,
-   "result": "hit",
-   "clear": true
-  },
-  {
-   "id": 4734526,
-   "s365_competition_id": 57,
-   "competition_name": "Eredivisie",
-   "start_time": "2026-11-22T11:15:00+00:00",
-   "status_group": 2,
-   "round": "Round",
-   "home": {
-    "id": 696,
-    "name": "Twente"
-   },
-   "away": {
-    "id": 706,
-    "name": "Willem II"
-   },
-   "home_score": 2.0,
-   "away_score": 1.0,
-   "model": {
-    "lambda_home": 2.9,
-    "lambda_away": 0.85,
-    "expected_goals": 3.75,
-    "sample_factor": 1.0,
-    "probs": {
-     "HOME": 0.7905,
-     "DRAW": 0.129,
-     "AWAY": 0.0805,
-     "1X": 0.9195,
-     "X2": 0.2095,
-     "12": 0.871,
-     "OVER25": 0.7219,
-     "UNDER25": 0.2781,
-     "BTTS_YES": 0.5406,
-     "BTTS_NO": 0.4594
-    }
-   },
-   "pick": {
-    "selection": "HOME",
-    "family": "1x2",
-    "label": "Vitória do Twente",
-    "model_prob": 0.7905,
-    "trend_alignment": 1.0,
-    "confidence": 83,
-    "eligible": true,
-    "odd": 1.09,
-    "low_conviction": false
-   },
-   "alt_markets": [
-    {
-     "selection": "1X",
-     "family": "double_chance",
-     "label": "Dupla chance: Twente ou empate (1X)",
-     "model_prob": 0.9195,
-     "trend_alignment": 1.0,
-     "confidence": 83,
-     "eligible": true,
-     "odd": 1.01
-    },
-    {
-     "selection": "OVER25",
-     "family": "over_under",
-     "label": "Mais de 2.5 gols",
-     "model_prob": 0.7219,
-     "trend_alignment": 0.74,
-     "confidence": 55,
-     "eligible": true,
-     "odd": 2.24
-    },
-    {
-     "selection": "BTTS_YES",
-     "family": "btts",
-     "label": "Ambos os times marcam",
-     "model_prob": 0.5406,
-     "trend_alignment": 0.74,
-     "confidence": 31,
-     "eligible": false,
-     "odd": null
-    },
-    {
-     "selection": "AWAY",
-     "family": "1x2",
-     "label": "Vitória do Willem II",
-     "model_prob": 0.0805,
-     "trend_alignment": 0.0,
-     "confidence": 0,
-     "eligible": false,
-     "odd": 21.0
-    }
-   ],
-   "trends": [
-    {
-     "label": "Perdeu 4 dos últimos 5",
-     "strength": 0.61,
-     "favors": "HOME",
-     "team": "Willem II",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Mais de 2.5 gols em 4 dos últimos 5",
-     "strength": 0.47,
-     "favors": "OVER",
-     "team": "Willem II",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "over"
-    },
-    {
-     "label": "Melhor defesa da liga (1.0 sofridos/jogo)",
-     "strength": 0.5,
-     "favors": "HOME",
-     "team": "Twente",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "def_rank"
-    },
-    {
-     "label": "Só 2 derrota(s) em 12 jogos no campeonato",
-     "strength": 0.34,
-     "favors": "HOME",
-     "team": "Twente",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "few_losses"
-    },
-    {
-     "label": "Invicto em 5 dos últimos 6",
-     "strength": 0.492,
-     "favors": "HOME",
-     "team": "Twente",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "unbeaten"
-    },
-    {
-     "label": "Marcou em todos os últimos 6",
-     "strength": 0.3,
-     "favors": "OVER",
-     "team": "Twente",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "always_score"
-    },
-    {
-     "label": "Pior defesa da liga (3.3 sofridos/jogo)",
-     "strength": 0.34,
-     "favors": "OVER",
-     "team": "Willem II",
-     "side": "AWAY",
-     "group": "temporada",
-     "kind": "def_bottom"
-    },
-    {
-     "label": "Não vence há 5+ jogos",
-     "strength": 0.333,
-     "favors": "HOME",
-     "team": "Willem II",
-     "side": "AWAY",
-     "group": "sequencia",
-     "kind": "winless_streak"
-    },
-    {
-     "label": "Twente é 4º · Willem II é 18º",
-     "strength": 0.0,
-     "favors": null,
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "positions"
-    },
-    {
-     "label": "Twente está 14 posições à frente",
-     "strength": 0.8,
-     "favors": "HOME",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "aligned_trends": [
-    {
-     "label": "Perdeu 4 dos últimos 5",
-     "strength": 0.61,
-     "favors": "HOME",
-     "team": "Willem II",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Melhor defesa da liga (1.0 sofridos/jogo)",
-     "strength": 0.5,
-     "favors": "HOME",
-     "team": "Twente",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "def_rank"
-    },
-    {
-     "label": "Só 2 derrota(s) em 12 jogos no campeonato",
-     "strength": 0.34,
-     "favors": "HOME",
-     "team": "Twente",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "few_losses"
-    },
-    {
-     "label": "Invicto em 5 dos últimos 6",
-     "strength": 0.492,
-     "favors": "HOME",
-     "team": "Twente",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "unbeaten"
-    },
-    {
-     "label": "Não vence há 5+ jogos",
-     "strength": 0.333,
-     "favors": "HOME",
-     "team": "Willem II",
-     "side": "AWAY",
-     "group": "sequencia",
-     "kind": "winless_streak"
-    },
-    {
-     "label": "Twente está 14 posições à frente",
-     "strength": 0.8,
-     "favors": "HOME",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "confidence": 83,
-   "league": {
-    "key": "eredivisie",
-    "name": "Eredivisie",
-    "country": "Holanda"
-   },
-   "home_team": {
-    "id": 696,
-    "name": "Twente",
-    "position": 4,
-    "played": 12,
-    "points": 24.0,
-    "record": "7V 3E 2D",
-    "goals_for": 30,
-    "goals_against": 12,
-    "last5": "DWWWL",
-    "recent": [
-     {
-      "result": "D",
-      "score": "2-2",
-      "home": true,
-      "opponent": "Ajax",
-      "date": "2026-11-08"
-     },
-     {
-      "result": "W",
-      "score": "3-1",
-      "home": true,
-      "opponent": "Pafos FC",
-      "date": "2026-11-05"
-     },
-     {
-      "result": "W",
-      "score": "9-0",
-      "home": false,
-      "opponent": "Excelsior",
-      "date": "2026-11-01"
-     },
-     {
-      "result": "W",
-      "score": "2-0",
-      "home": false,
-      "opponent": "AZ Alkmaar",
-      "date": "2026-10-25"
-     },
-     {
-      "result": "L",
-      "score": "1-2",
-      "home": true,
-      "opponent": "Utrecht",
-      "date": "2026-10-18"
-     }
-    ]
-   },
-   "away_team": {
-    "id": 706,
-    "name": "Willem II",
-    "position": 18,
-    "played": 12,
+    "id": 8308,
+    "name": "El Gounah",
+    "position": 20,
+    "played": 8,
     "points": 3.0,
-    "record": "0V 3E 9D",
-    "goals_for": 11,
-    "goals_against": 40,
+    "record": "0V 3E 5D",
+    "goals_for": 5,
+    "goals_against": 11,
     "last5": "DLLLL",
     "recent": [
      {
       "result": "D",
       "score": "1-1",
+      "home": false,
+      "opponent": "Petrol Asyut",
+      "date": "2026-10-30"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
       "home": true,
-      "opponent": "PEC Zwolle",
-      "date": "2026-11-06"
+      "opponent": "Smouha",
+      "date": "2026-10-19"
      },
      {
       "result": "L",
-      "score": "0-7",
+      "score": "1-2",
       "home": false,
-      "opponent": "PSV Eindhoven",
-      "date": "2026-10-31"
+      "opponent": "Al Ittehad",
+      "date": "2026-10-13"
      },
      {
       "result": "L",
-      "score": "1-6",
+      "score": "1-2",
       "home": true,
-      "opponent": "Cambuur",
-      "date": "2026-10-24"
+      "opponent": "Petrojet",
+      "date": "2026-09-16"
      },
      {
       "result": "L",
-      "score": "2-3",
+      "score": "0-1",
       "home": false,
-      "opponent": "Sparta Rotterdam",
-      "date": "2026-10-17"
-     },
-     {
-      "result": "L",
-      "score": "1-3",
-      "home": false,
-      "opponent": "Utrecht",
-      "date": "2026-10-11"
+      "opponent": "Pyramids",
+      "date": "2026-09-09"
      }
     ]
    },
-   "kickoff_local": "2026-11-22T08:15:00-03:00",
+   "away_team": {
+    "id": 8201,
+    "name": "Zamalek SC",
+    "position": 3,
+    "played": 8,
+    "points": 19.0,
+    "record": "6V 1E 1D",
+    "goals_for": 11,
+    "goals_against": 4,
+    "last5": "WWLWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Al Mokawloon Al Arab",
+      "date": "2026-10-28"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Petrol Asyut",
+      "date": "2026-10-20"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": true,
+      "opponent": "Al Ahly SC",
+      "date": "2026-10-11"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Ghazl El-Mehalla",
+      "date": "2026-09-16"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Abo Qir Semad",
+      "date": "2026-09-08"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-23T12:00:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
@@ -1096,468 +679,141 @@
    "clear": true
   },
   {
-   "id": 4735205,
-   "s365_competition_id": 35,
-   "competition_name": "Ligue 1",
-   "start_time": "2026-11-22T19:45:00+00:00",
+   "id": 4804741,
+   "s365_competition_id": 552,
+   "competition_name": "Premier League",
+   "start_time": "2026-11-23T15:00:00+00:00",
    "status_group": 2,
    "round": "Round",
    "home": {
-    "id": 469,
-    "name": "Olympique de Marseille"
+    "id": 8311,
+    "name": "Wadi Degla"
    },
    "away": {
-    "id": 468,
-    "name": "Le Mans"
+    "id": 8312,
+    "name": "Al Ittehad"
    },
-   "home_score": 2.0,
-   "away_score": 3.0,
+   "home_score": 1.0,
+   "away_score": 1.0,
    "model": {
-    "lambda_home": 2.9,
-    "lambda_away": 0.89,
-    "expected_goals": 3.79,
+    "lambda_home": 0.9,
+    "lambda_away": 1.2,
+    "expected_goals": 2.09,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.7833,
-     "DRAW": 0.1314,
-     "AWAY": 0.0853,
-     "1X": 0.9147,
-     "X2": 0.2167,
-     "12": 0.8686,
-     "OVER25": 0.7279,
-     "UNDER25": 0.2721,
-     "BTTS_YES": 0.5551,
-     "BTTS_NO": 0.4449
+     "HOME": 0.2753,
+     "DRAW": 0.2957,
+     "AWAY": 0.429,
+     "1X": 0.571,
+     "X2": 0.7247,
+     "12": 0.7043,
+     "OVER25": 0.348,
+     "UNDER25": 0.652,
+     "BTTS_YES": 0.4127,
+     "BTTS_NO": 0.5873
     }
    },
    "pick": {
-    "selection": "HOME",
-    "family": "1x2",
-    "label": "Vitória do Olympique de Marseille",
-    "model_prob": 0.7833,
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: Al Ittehad ou empate (X2)",
+    "model_prob": 0.7247,
     "trend_alignment": 1.0,
-    "confidence": 82,
+    "confidence": 57,
     "eligible": true,
-    "odd": 1.42,
+    "odd": 1.55,
     "low_conviction": false
    },
    "alt_markets": [
-    {
-     "selection": "1X",
-     "family": "double_chance",
-     "label": "Dupla chance: Olympique de Marseille ou empate (1X)",
-     "model_prob": 0.9147,
-     "trend_alignment": 1.0,
-     "confidence": 82,
-     "eligible": true,
-     "odd": 1.11
-    },
-    {
-     "selection": "OVER25",
-     "family": "over_under",
-     "label": "Mais de 2.5 gols",
-     "model_prob": 0.7279,
-     "trend_alignment": 0.467,
-     "confidence": 46,
-     "eligible": true,
-     "odd": 2.36
-    },
-    {
-     "selection": "BTTS_YES",
-     "family": "btts",
-     "label": "Ambos os times marcam",
-     "model_prob": 0.5551,
-     "trend_alignment": 0.467,
-     "confidence": 24,
-     "eligible": false,
-     "odd": null
-    },
     {
      "selection": "AWAY",
      "family": "1x2",
-     "label": "Vitória do Le Mans",
-     "model_prob": 0.0853,
-     "trend_alignment": 0.0,
-     "confidence": 0,
-     "eligible": false,
-     "odd": 7.0
-    }
-   ],
-   "trends": [
-    {
-     "label": "6 vitórias seguidas",
-     "strength": 1.0,
-     "favors": "HOME",
-     "team": "Olympique de Marseille",
-     "side": "HOME",
-     "group": "sequencia",
-     "kind": "win_streak"
-    },
-    {
-     "label": "Venceu 6 dos últimos 6",
-     "strength": 0.75,
-     "favors": "HOME",
-     "team": "Olympique de Marseille",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "Marcou em todos os últimos 6",
-     "strength": 0.3,
-     "favors": "OVER",
-     "team": "Olympique de Marseille",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "always_score"
-    },
-    {
-     "label": "Perdeu 3 dos últimos 5",
-     "strength": 0.52,
-     "favors": "HOME",
-     "team": "Le Mans",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Sofreu gol em todos os últimos 5",
-     "strength": 0.4,
-     "favors": "OVER",
-     "team": "Le Mans",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "always_concede"
-    },
-    {
-     "label": "Não vence há 5+ jogos",
-     "strength": 0.333,
-     "favors": "HOME",
-     "team": "Le Mans",
-     "side": "AWAY",
-     "group": "sequencia",
-     "kind": "winless_streak"
-    },
-    {
-     "label": "2º melhor ataque da liga (2.2 marcados/jogo)",
-     "strength": 0.32,
-     "favors": "HOME",
-     "team": "Olympique de Marseille",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "atk_rank"
-    },
-    {
-     "label": "Olympique de Marseille é 5º · Le Mans é 16º",
-     "strength": 0.0,
-     "favors": null,
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "positions"
-    },
-    {
-     "label": "Olympique de Marseille está 11 posições à frente",
-     "strength": 0.786,
-     "favors": "HOME",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "aligned_trends": [
-    {
-     "label": "6 vitórias seguidas",
-     "strength": 1.0,
-     "favors": "HOME",
-     "team": "Olympique de Marseille",
-     "side": "HOME",
-     "group": "sequencia",
-     "kind": "win_streak"
-    },
-    {
-     "label": "Venceu 6 dos últimos 6",
-     "strength": 0.75,
-     "favors": "HOME",
-     "team": "Olympique de Marseille",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "Perdeu 3 dos últimos 5",
-     "strength": 0.52,
-     "favors": "HOME",
-     "team": "Le Mans",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Não vence há 5+ jogos",
-     "strength": 0.333,
-     "favors": "HOME",
-     "team": "Le Mans",
-     "side": "AWAY",
-     "group": "sequencia",
-     "kind": "winless_streak"
-    },
-    {
-     "label": "2º melhor ataque da liga (2.2 marcados/jogo)",
-     "strength": 0.32,
-     "favors": "HOME",
-     "team": "Olympique de Marseille",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "atk_rank"
-    },
-    {
-     "label": "Olympique de Marseille está 11 posições à frente",
-     "strength": 0.786,
-     "favors": "HOME",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "confidence": 82,
-   "league": {
-    "key": "ligue1",
-    "name": "Ligue 1",
-    "country": "França"
-   },
-   "home_team": {
-    "id": 469,
-    "name": "Olympique de Marseille",
-    "position": 5,
-    "played": 10,
-    "points": 18.0,
-    "record": "6V 0E 4D",
-    "goals_for": 22,
-    "goals_against": 14,
-    "last5": "WWWWW",
-    "recent": [
-     {
-      "result": "W",
-      "score": "2-1",
-      "home": false,
-      "opponent": "Lens",
-      "date": "2026-11-08"
-     },
-     {
-      "result": "W",
-      "score": "1-0",
-      "home": false,
-      "opponent": "Bayer Leverkusen",
-      "date": "2026-11-05"
-     },
-     {
-      "result": "W",
-      "score": "2-0",
-      "home": true,
-      "opponent": "Toulouse",
-      "date": "2026-11-01"
-     },
-     {
-      "result": "W",
-      "score": "4-3",
-      "home": true,
-      "opponent": "Le Havre",
-      "date": "2026-10-25"
-     },
-     {
-      "result": "W",
-      "score": "5-2",
-      "home": false,
-      "opponent": "Angers",
-      "date": "2026-10-18"
-     }
-    ]
-   },
-   "away_team": {
-    "id": 468,
-    "name": "Le Mans",
-    "position": 16,
-    "played": 10,
-    "points": 8.0,
-    "record": "1V 5E 4D",
-    "goals_for": 12,
-    "goals_against": 19,
-    "last5": "DLDLL",
-    "recent": [
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": true,
-      "opponent": "Monaco",
-      "date": "2026-11-08"
-     },
-     {
-      "result": "L",
-      "score": "0-2",
-      "home": false,
-      "opponent": "Troyes",
-      "date": "2026-10-31"
-     },
-     {
-      "result": "D",
-      "score": "1-1",
-      "home": false,
-      "opponent": "Auxerre",
-      "date": "2026-10-25"
-     },
-     {
-      "result": "L",
-      "score": "0-3",
-      "home": true,
-      "opponent": "Toulouse",
-      "date": "2026-10-16"
-     },
-     {
-      "result": "L",
-      "score": "1-3",
-      "home": false,
-      "opponent": "PSG",
-      "date": "2026-10-10"
-     }
-    ]
-   },
-   "kickoff_local": "2026-11-22T16:45:00-03:00",
-   "has_odds": true,
-   "odds_bookmaker": "365Scores",
-   "is_cup": false,
-   "result": "miss",
-   "clear": true
-  },
-  {
-   "id": 4735202,
-   "s365_competition_id": 35,
-   "competition_name": "Ligue 1",
-   "start_time": "2026-11-22T14:00:00+00:00",
-   "status_group": 2,
-   "round": "Round",
-   "home": {
-    "id": 6075,
-    "name": "Paris FC"
-   },
-   "away": {
-    "id": 493,
-    "name": "Angers"
-   },
-   "home_score": 4.0,
-   "away_score": 0.0,
-   "model": {
-    "lambda_home": 2.58,
-    "lambda_away": 0.8,
-    "expected_goals": 3.38,
-    "sample_factor": 1.0,
-    "probs": {
-     "HOME": 0.7569,
-     "DRAW": 0.1501,
-     "AWAY": 0.093,
-     "1X": 0.907,
-     "X2": 0.2431,
-     "12": 0.8499,
-     "OVER25": 0.6552,
-     "UNDER25": 0.3448,
-     "BTTS_YES": 0.5076,
-     "BTTS_NO": 0.4924
-    }
-   },
-   "pick": {
-    "selection": "HOME",
-    "family": "1x2",
-    "label": "Vitória do Paris FC",
-    "model_prob": 0.7569,
-    "trend_alignment": 1.0,
-    "confidence": 81,
-    "eligible": true,
-    "odd": 1.32,
-    "low_conviction": false
-   },
-   "alt_markets": [
-    {
-     "selection": "1X",
-     "family": "double_chance",
-     "label": "Dupla chance: Paris FC ou empate (1X)",
-     "model_prob": 0.907,
+     "label": "Vitória do Al Ittehad",
+     "model_prob": 0.429,
      "trend_alignment": 1.0,
-     "confidence": 81,
-     "eligible": true,
-     "odd": 1.08
+     "confidence": 44,
+     "eligible": false,
+     "odd": 3.11
     },
     {
-     "selection": "OVER25",
+     "selection": "UNDER25",
      "family": "over_under",
-     "label": "Mais de 2.5 gols",
-     "model_prob": 0.6552,
-     "trend_alignment": 0.0,
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.652,
+     "trend_alignment": 0.002,
      "confidence": 20,
      "eligible": true,
      "odd": 2.36
     },
     {
-     "selection": "BTTS_YES",
+     "selection": "BTTS_NO",
      "family": "btts",
-     "label": "Ambos os times marcam",
-     "model_prob": 0.5076,
-     "trend_alignment": 0.0,
-     "confidence": 1,
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5873,
+     "trend_alignment": 0.002,
+     "confidence": 11,
      "eligible": false,
      "odd": null
     },
     {
-     "selection": "AWAY",
-     "family": "1x2",
-     "label": "Vitória do Angers",
-     "model_prob": 0.093,
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Wadi Degla ou empate (1X)",
+     "model_prob": 0.571,
      "trend_alignment": 0.0,
-     "confidence": 0,
+     "confidence": 3,
      "eligible": false,
-     "odd": 8.5
+     "odd": 1.35
     }
    ],
    "trends": [
     {
-     "label": "Perdeu 4 dos últimos 5",
-     "strength": 0.61,
-     "favors": "HOME",
-     "team": "Angers",
-     "side": "AWAY",
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Wadi Degla",
+     "side": "HOME",
      "group": "geral",
      "kind": "losses"
     },
     {
-     "label": "Não marcou em 3 dos últimos 5",
-     "strength": 0.38,
-     "favors": "HOME",
-     "team": "Angers",
-     "side": "AWAY",
+     "label": "Ambos marcaram em 4 dos últimos 5",
+     "strength": 0.43,
+     "favors": "BTTS_YES",
+     "team": "Wadi Degla",
+     "side": "HOME",
      "group": "geral",
-     "kind": "no_score"
+     "kind": "btts"
     },
     {
-     "label": "Só 2 derrota(s) em 10 jogos no campeonato",
-     "strength": 0.34,
-     "favors": "HOME",
-     "team": "Paris FC",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "few_losses"
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "AWAY",
+     "team": "Al Ittehad",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Não sofreu gol em 3 dos últimos 5",
+     "strength": 0.39,
+     "favors": "UNDER",
+     "team": "Al Ittehad",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "clean_sheets"
     },
     {
      "label": "Não vence há 5+ jogos",
      "strength": 0.333,
-     "favors": "HOME",
-     "team": "Angers",
-     "side": "AWAY",
+     "favors": "AWAY",
+     "team": "Wadi Degla",
+     "side": "HOME",
      "group": "sequencia",
      "kind": "winless_streak"
     },
     {
-     "label": "Paris FC é 3º · Angers é 17º",
+     "label": "Wadi Degla é 15º · Al Ittehad é 5º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -1566,9 +822,9 @@
      "kind": "positions"
     },
     {
-     "label": "Paris FC está 14 posições à frente",
-     "strength": 0.8,
-     "favors": "HOME",
+     "label": "Al Ittehad está 10 posições à frente",
+     "strength": 0.714,
+     "favors": "AWAY",
      "team": null,
      "side": null,
      "group": "confronto",
@@ -1577,154 +833,145 @@
    ],
    "aligned_trends": [
     {
-     "label": "Perdeu 4 dos últimos 5",
-     "strength": 0.61,
-     "favors": "HOME",
-     "team": "Angers",
-     "side": "AWAY",
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Wadi Degla",
+     "side": "HOME",
      "group": "geral",
      "kind": "losses"
     },
     {
-     "label": "Não marcou em 3 dos últimos 5",
-     "strength": 0.38,
-     "favors": "HOME",
-     "team": "Angers",
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "AWAY",
+     "team": "Al Ittehad",
      "side": "AWAY",
      "group": "geral",
-     "kind": "no_score"
-    },
-    {
-     "label": "Só 2 derrota(s) em 10 jogos no campeonato",
-     "strength": 0.34,
-     "favors": "HOME",
-     "team": "Paris FC",
-     "side": "HOME",
-     "group": "temporada",
-     "kind": "few_losses"
+     "kind": "unbeaten"
     },
     {
      "label": "Não vence há 5+ jogos",
      "strength": 0.333,
-     "favors": "HOME",
-     "team": "Angers",
-     "side": "AWAY",
+     "favors": "AWAY",
+     "team": "Wadi Degla",
+     "side": "HOME",
      "group": "sequencia",
      "kind": "winless_streak"
     },
     {
-     "label": "Paris FC está 14 posições à frente",
-     "strength": 0.8,
-     "favors": "HOME",
+     "label": "Al Ittehad está 10 posições à frente",
+     "strength": 0.714,
+     "favors": "AWAY",
      "team": null,
      "side": null,
      "group": "confronto",
      "kind": "table_gap"
     }
    ],
-   "confidence": 81,
+   "confidence": 57,
    "league": {
-    "key": "ligue1",
-    "name": "Ligue 1",
-    "country": "França"
+    "key": "egypt",
+    "name": "Premier League",
+    "country": "Egito"
    },
    "home_team": {
-    "id": 6075,
-    "name": "Paris FC",
-    "position": 3,
-    "played": 10,
-    "points": 20.0,
-    "record": "6V 2E 2D",
-    "goals_for": 17,
+    "id": 8311,
+    "name": "Wadi Degla",
+    "position": 15,
+    "played": 8,
+    "points": 7.0,
+    "record": "1V 4E 3D",
+    "goals_for": 8,
     "goals_against": 10,
-    "last5": "WWLWL",
+    "last5": "LDDLL",
     "recent": [
      {
-      "result": "W",
-      "score": "1-0",
+      "result": "L",
+      "score": "1-2",
       "home": false,
-      "opponent": "Auxerre",
-      "date": "2026-11-07"
+      "opponent": "Pyramids",
+      "date": "2026-10-29"
      },
      {
-      "result": "W",
-      "score": "3-1",
+      "result": "D",
+      "score": "1-1",
       "home": true,
-      "opponent": "Monaco",
-      "date": "2026-11-01"
+      "opponent": "National Bank Of Egypt",
+      "date": "2026-10-20"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "Petrojet",
+      "date": "2026-10-13"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": true,
+      "opponent": "Al Mokawloon Al Arab",
+      "date": "2026-09-15"
      },
      {
       "result": "L",
       "score": "1-2",
       "home": false,
-      "opponent": "Lens",
-      "date": "2026-10-24"
-     },
-     {
-      "result": "W",
-      "score": "4-3",
-      "home": true,
-      "opponent": "Rennes",
-      "date": "2026-10-18"
-     },
-     {
-      "result": "L",
-      "score": "0-1",
-      "home": false,
-      "opponent": "Lorient",
-      "date": "2026-10-10"
+      "opponent": "Modern Sport FC",
+      "date": "2026-09-09"
      }
     ]
    },
    "away_team": {
-    "id": 493,
-    "name": "Angers",
-    "position": 17,
-    "played": 10,
-    "points": 8.0,
-    "record": "2V 2E 6D",
+    "id": 8312,
+    "name": "Al Ittehad",
+    "position": 5,
+    "played": 8,
+    "points": 14.0,
+    "record": "4V 2E 2D",
     "goals_for": 9,
-    "goals_against": 19,
-    "last5": "LLDLL",
+    "goals_against": 6,
+    "last5": "DLWWW",
     "recent": [
-     {
-      "result": "L",
-      "score": "0-2",
-      "home": true,
-      "opponent": "OGC Nice",
-      "date": "2026-11-08"
-     },
-     {
-      "result": "L",
-      "score": "0-2",
-      "home": false,
-      "opponent": "Lyon",
-      "date": "2026-11-01"
-     },
      {
       "result": "D",
       "score": "0-0",
       "home": true,
-      "opponent": "Lorient",
-      "date": "2026-10-25"
+      "opponent": "El Geish",
+      "date": "2026-10-30"
      },
      {
       "result": "L",
-      "score": "2-5",
-      "home": true,
-      "opponent": "Olympique de Marseille",
-      "date": "2026-10-18"
-     },
-     {
-      "result": "L",
-      "score": "1-5",
+      "score": "1-2",
       "home": false,
-      "opponent": "Brest",
-      "date": "2026-10-10"
+      "opponent": "Ghazl El-Mehalla",
+      "date": "2026-10-21"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "El Gounah",
+      "date": "2026-10-13"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "Al Masry",
+      "date": "2026-09-15"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Petrol Asyut",
+      "date": "2026-09-07"
      }
     ]
    },
-   "kickoff_local": "2026-11-22T11:00:00-03:00",
+   "kickoff_local": "2026-11-23T12:00:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
