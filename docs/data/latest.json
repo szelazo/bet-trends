@@ -1,6 +1,6 @@
 {
  "date": "2026-11-22",
- "generated_at": "2026-11-22T15:23:52.174389-03:00",
+ "generated_at": "2026-11-22T21:36:26.614493-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -1110,8 +1110,8 @@
     "id": 468,
     "name": "Le Mans"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 3.0,
    "model": {
     "lambda_home": 2.9,
     "lambda_away": 0.89,
@@ -1428,7 +1428,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "miss",
    "clear": true
   },
   {
