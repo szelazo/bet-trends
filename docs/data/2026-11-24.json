@@ -1,6 +1,6 @@
 {
  "date": "2026-11-24",
- "generated_at": "2026-11-24T01:38:03.331307-03:00",
+ "generated_at": "2026-11-24T18:04:29.610816-03:00",
  "version": "0.1.0",
  "count": 4,
  "clear_count": 4,
@@ -21,8 +21,8 @@
     "id": 7194,
     "name": "Golden Arrows"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 0.0,
    "model": {
     "lambda_home": 1.57,
     "lambda_away": 0.5,
@@ -366,7 +366,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -384,8 +384,8 @@
     "id": 12252,
     "name": "El Qanah FC"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 1.97,
     "lambda_away": 0.95,
@@ -666,7 +666,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -684,8 +684,8 @@
     "id": 316,
     "name": "Hellas Verona"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 0.83,
     "lambda_away": 1.16,
@@ -966,7 +966,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "miss",
    "clear": true
   },
   {
