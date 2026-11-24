@@ -1,0 +1,1435 @@
+{
+ "date": "2026-11-26",
+ "generated_at": "2026-11-24T01:38:05.341399-03:00",
+ "version": "0.1.0",
+ "count": 5,
+ "clear_count": 5,
+ "day_total": 42,
+ "games": [
+  {
+   "id": 4828685,
+   "s365_competition_id": 573,
+   "competition_name": "UEFA Europa League",
+   "start_time": "2026-11-26T17:45:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 947,
+    "name": "Besiktas"
+   },
+   "away": {
+    "id": 579,
+    "name": "Hapoel Beer Sheva"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.88,
+    "lambda_away": 1.09,
+    "expected_goals": 3.97,
+    "sample_factor": 0.8,
+    "probs": {
+     "HOME": 0.7403,
+     "DRAW": 0.1448,
+     "AWAY": 0.1149,
+     "1X": 0.8851,
+     "X2": 0.2597,
+     "12": 0.8552,
+     "OVER25": 0.7568,
+     "UNDER25": 0.2432,
+     "BTTS_YES": 0.6264,
+     "BTTS_NO": 0.3736
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Besiktas",
+    "model_prob": 0.7403,
+    "trend_alignment": 1.0,
+    "confidence": 63,
+    "eligible": true,
+    "odd": 1.22,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Besiktas ou empate (1X)",
+     "model_prob": 0.8851,
+     "trend_alignment": 1.0,
+     "confidence": 63,
+     "eligible": true,
+     "odd": 1.06
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.7568,
+     "trend_alignment": 0.367,
+     "confidence": 37,
+     "eligible": true,
+     "odd": 1.89
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.6264,
+     "trend_alignment": 0.367,
+     "confidence": 23,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Hapoel Beer Sheva",
+     "model_prob": 0.1149,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 10.0
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 3 dos últimos 4",
+     "strength": 0.588,
+     "favors": "HOME",
+     "team": "Hapoel Beer Sheva",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Não marcou em 3 dos últimos 4",
+     "strength": 0.425,
+     "favors": "HOME",
+     "team": "Hapoel Beer Sheva",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "no_score"
+    },
+    {
+     "label": "Mais de 2.5 gols em 6 dos últimos 6",
+     "strength": 0.55,
+     "favors": "OVER",
+     "team": "Besiktas",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Invicto em 5 dos últimos 6",
+     "strength": 0.492,
+     "favors": "HOME",
+     "team": "Besiktas",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Besiktas é 8º · Hapoel Beer Sheva é 33º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Besiktas está 25 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 3 dos últimos 4",
+     "strength": 0.588,
+     "favors": "HOME",
+     "team": "Hapoel Beer Sheva",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Não marcou em 3 dos últimos 4",
+     "strength": 0.425,
+     "favors": "HOME",
+     "team": "Hapoel Beer Sheva",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "no_score"
+    },
+    {
+     "label": "Invicto em 5 dos últimos 6",
+     "strength": 0.492,
+     "favors": "HOME",
+     "team": "Besiktas",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Besiktas está 25 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 63,
+   "league": {
+    "key": "uel",
+    "name": "UEFA Europa League",
+    "country": "Europa"
+   },
+   "home_team": {
+    "id": 947,
+    "name": "Besiktas",
+    "position": 8,
+    "played": 4,
+    "points": 7.0,
+    "record": "2V 1E 1D",
+    "goals_for": 11,
+    "goals_against": 8,
+    "last5": "WWLDW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "4-2",
+      "home": false,
+      "opponent": "Konyaspor",
+      "date": "2026-11-22"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "Genclerbirligi",
+      "date": "2026-11-08"
+     },
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": false,
+      "opponent": "Celtic",
+      "date": "2026-11-05"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "Crystal Palace",
+      "date": "2026-10-22"
+     },
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": false,
+      "opponent": "Hoffenheim",
+      "date": "2026-10-15"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 579,
+    "name": "Hapoel Beer Sheva",
+    "position": 33,
+    "played": 4,
+    "points": 1.0,
+    "record": "0V 1E 3D",
+    "goals_for": 1,
+    "goals_against": 8,
+    "last5": "LLLD",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": true,
+      "opponent": "OFI Crete",
+      "date": "2026-11-05"
+     },
+     {
+      "result": "L",
+      "score": "0-4",
+      "home": false,
+      "opponent": "Union St. Gilloise",
+      "date": "2026-10-22"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "AZ Alkmaar",
+      "date": "2026-10-15"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Dinamo Zagreb",
+      "date": "2026-09-16"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-26T14:45:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4828690,
+   "s365_competition_id": 573,
+   "competition_name": "UEFA Europa League",
+   "start_time": "2026-11-26T17:45:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 158,
+    "name": "Celta Vigo"
+   },
+   "away": {
+    "id": 50,
+    "name": "Bournemouth"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.01,
+    "lambda_away": 1.89,
+    "expected_goals": 2.91,
+    "sample_factor": 0.8,
+    "probs": {
+     "HOME": 0.1988,
+     "DRAW": 0.222,
+     "AWAY": 0.5791,
+     "1X": 0.4209,
+     "X2": 0.8012,
+     "12": 0.778,
+     "OVER25": 0.5554,
+     "UNDER25": 0.4446,
+     "BTTS_YES": 0.5411,
+     "BTTS_NO": 0.4589
+    }
+   },
+   "pick": {
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: Bournemouth ou empate (X2)",
+    "model_prob": 0.8012,
+    "trend_alignment": 1.0,
+    "confidence": 54,
+    "eligible": true,
+    "odd": 1.28,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Bournemouth",
+     "model_prob": 0.5791,
+     "trend_alignment": 1.0,
+     "confidence": 47,
+     "eligible": true,
+     "odd": 1.95
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5554,
+     "trend_alignment": 0.322,
+     "confidence": 15,
+     "eligible": false,
+     "odd": 1.9
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5411,
+     "trend_alignment": 0.322,
+     "confidence": 13,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Celta Vigo",
+     "model_prob": 0.1988,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 3.8
+    }
+   ],
+   "trends": [
+    {
+     "label": "6 vitórias seguidas",
+     "strength": 1.0,
+     "favors": "AWAY",
+     "team": "Bournemouth",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 6 dos últimos 6",
+     "strength": 0.75,
+     "favors": "AWAY",
+     "team": "Bournemouth",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Mais de 2.5 gols em 5 dos últimos 6",
+     "strength": 0.483,
+     "favors": "OVER",
+     "team": "Bournemouth",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Perdeu 4 dos últimos 6",
+     "strength": 0.55,
+     "favors": "AWAY",
+     "team": "Celta Vigo",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Celta Vigo é 27º · Bournemouth é 2º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Bournemouth está 25 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "6 vitórias seguidas",
+     "strength": 1.0,
+     "favors": "AWAY",
+     "team": "Bournemouth",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Venceu 6 dos últimos 6",
+     "strength": 0.75,
+     "favors": "AWAY",
+     "team": "Bournemouth",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 4 dos últimos 6",
+     "strength": 0.55,
+     "favors": "AWAY",
+     "team": "Celta Vigo",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Bournemouth está 25 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 54,
+   "league": {
+    "key": "uel",
+    "name": "UEFA Europa League",
+    "country": "Europa"
+   },
+   "home_team": {
+    "id": 158,
+    "name": "Celta Vigo",
+    "position": 27,
+    "played": 4,
+    "points": 3.0,
+    "record": "1V 0E 3D",
+    "goals_for": 4,
+    "goals_against": 6,
+    "last5": "LDLWL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Real Madrid",
+      "date": "2026-11-21"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Levante",
+      "date": "2026-11-08"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Union St. Gilloise",
+      "date": "2026-11-05"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Celtic",
+      "date": "2026-10-22"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Juventus",
+      "date": "2026-10-15"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 50,
+    "name": "Bournemouth",
+    "position": 2,
+    "played": 4,
+    "points": 12.0,
+    "record": "4V 0E 0D",
+    "goals_for": 11,
+    "goals_against": 2,
+    "last5": "WWWWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Nottingham Forest",
+      "date": "2026-11-21"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Ipswich",
+      "date": "2026-11-08"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": false,
+      "opponent": "Sparta Praha",
+      "date": "2026-11-05"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "AC Milan",
+      "date": "2026-10-22"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "Sturm Graz",
+      "date": "2026-10-15"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-26T14:45:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4828881,
+   "s365_competition_id": 7685,
+   "competition_name": "UEFA Conference League",
+   "start_time": "2026-11-26T17:45:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 759,
+    "name": "Hearts"
+   },
+   "away": {
+    "id": 471,
+    "name": "Monaco"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 0.96,
+    "lambda_away": 2.16,
+    "expected_goals": 3.12,
+    "sample_factor": 0.6,
+    "probs": {
+     "HOME": 0.1559,
+     "DRAW": 0.1956,
+     "AWAY": 0.6485,
+     "1X": 0.3515,
+     "X2": 0.8441,
+     "12": 0.8044,
+     "OVER25": 0.6021,
+     "UNDER25": 0.3979,
+     "BTTS_YES": 0.5445,
+     "BTTS_NO": 0.4555
+    }
+   },
+   "pick": {
+    "selection": "AWAY",
+    "family": "1x2",
+    "label": "Vitória do Monaco",
+    "model_prob": 0.6485,
+    "trend_alignment": 1.0,
+    "confidence": 44,
+    "eligible": true,
+    "odd": 1.64,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "X2",
+     "family": "double_chance",
+     "label": "Dupla chance: Monaco ou empate (X2)",
+     "model_prob": 0.8441,
+     "trend_alignment": 1.0,
+     "confidence": 44,
+     "eligible": true,
+     "odd": 1.19
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6021,
+     "trend_alignment": 0.557,
+     "confidence": 20,
+     "eligible": true,
+     "odd": 2.23
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5445,
+     "trend_alignment": 0.557,
+     "confidence": 15,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Hearts",
+     "model_prob": 0.1559,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 4.71
+    }
+   ],
+   "trends": [
+    {
+     "label": "Invicto há 7+ jogos",
+     "strength": 0.667,
+     "favors": "AWAY",
+     "team": "Monaco",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Venceu 5 dos últimos 7",
+     "strength": 0.607,
+     "favors": "AWAY",
+     "team": "Monaco",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Ambos marcaram em 5 dos últimos 7",
+     "strength": 0.4,
+     "favors": "BTTS_YES",
+     "team": "Monaco",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "btts"
+    },
+    {
+     "label": "Só venceu 1 dos últimos 7",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "Hearts",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "Mais de 2.5 gols em 5 dos últimos 7",
+     "strength": 0.436,
+     "favors": "OVER",
+     "team": "Hearts",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Hearts é 32º · Monaco é 4º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Monaco está 28 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Invicto há 7+ jogos",
+     "strength": 0.667,
+     "favors": "AWAY",
+     "team": "Monaco",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Venceu 5 dos últimos 7",
+     "strength": 0.607,
+     "favors": "AWAY",
+     "team": "Monaco",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Só venceu 1 dos últimos 7",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "Hearts",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "Monaco está 28 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 44,
+   "league": {
+    "key": "uecl",
+    "name": "UEFA Conference League",
+    "country": "Europa"
+   },
+   "home_team": {
+    "id": 759,
+    "name": "Hearts",
+    "position": 32,
+    "played": 3,
+    "points": 1.0,
+    "record": "0V 1E 2D",
+    "goals_for": 2,
+    "goals_against": 6,
+    "last5": "WLLLD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "8-0",
+      "home": false,
+      "opponent": "Dundee",
+      "date": "2026-11-21"
+     },
+     {
+      "result": "L",
+      "score": "2-5",
+      "home": true,
+      "opponent": "Falkirk",
+      "date": "2026-11-08"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": false,
+      "opponent": "FC Thun",
+      "date": "2026-11-05"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Trabzonspor",
+      "date": "2026-10-22"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "FC Nordsjælland",
+      "date": "2026-10-15"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 471,
+    "name": "Monaco",
+    "position": 4,
+    "played": 3,
+    "points": 9.0,
+    "record": "3V 0E 0D",
+    "goals_for": 7,
+    "goals_against": 1,
+    "last5": "DDWWW",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Auxerre",
+      "date": "2026-11-21"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Le Mans",
+      "date": "2026-11-08"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "FC Nordsjælland",
+      "date": "2026-11-05"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "Freiburg",
+      "date": "2026-10-22"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "CSKA Sofia",
+      "date": "2026-10-15"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-26T14:45:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4828874,
+   "s365_competition_id": 7685,
+   "competition_name": "UEFA Conference League",
+   "start_time": "2026-11-26T20:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 6913,
+    "name": "Inter Escaldes"
+   },
+   "away": {
+    "id": 1824,
+    "name": "FC Copenhagen"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 0.96,
+    "lambda_away": 1.96,
+    "expected_goals": 2.91,
+    "sample_factor": 0.6,
+    "probs": {
+     "HOME": 0.1787,
+     "DRAW": 0.2147,
+     "AWAY": 0.6066,
+     "1X": 0.3934,
+     "X2": 0.8213,
+     "12": 0.7853,
+     "OVER25": 0.5572,
+     "UNDER25": 0.4428,
+     "BTTS_YES": 0.5291,
+     "BTTS_NO": 0.4709
+    }
+   },
+   "pick": {
+    "selection": "AWAY",
+    "family": "1x2",
+    "label": "Vitória do FC Copenhagen",
+    "model_prob": 0.6066,
+    "trend_alignment": 1.0,
+    "confidence": 42,
+    "eligible": true,
+    "odd": 1.25,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "X2",
+     "family": "double_chance",
+     "label": "Dupla chance: FC Copenhagen ou empate (X2)",
+     "model_prob": 0.8213,
+     "trend_alignment": 1.0,
+     "confidence": 42,
+     "eligible": true,
+     "odd": 1.05
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5572,
+     "trend_alignment": 0.291,
+     "confidence": 11,
+     "eligible": false,
+     "odd": 2.26
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5291,
+     "trend_alignment": 0.291,
+     "confidence": 8,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Inter Escaldes",
+     "model_prob": 0.1787,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 11.0
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Inter Escaldes",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto em 6 dos últimos 7",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "FC Copenhagen",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Mais de 2.5 gols em 5 dos últimos 7",
+     "strength": 0.436,
+     "favors": "OVER",
+     "team": "FC Copenhagen",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Inter Escaldes",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Inter Escaldes é 35º · FC Copenhagen é 7º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "FC Copenhagen está 28 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "AWAY",
+     "team": "Inter Escaldes",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto em 6 dos últimos 7",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "FC Copenhagen",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Inter Escaldes",
+     "side": "HOME",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "FC Copenhagen está 28 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 42,
+   "league": {
+    "key": "uecl",
+    "name": "UEFA Conference League",
+    "country": "Europa"
+   },
+   "home_team": {
+    "id": 6913,
+    "name": "Inter Escaldes",
+    "position": 35,
+    "played": 3,
+    "points": 0,
+    "record": "0V 0E 3D",
+    "goals_for": 2,
+    "goals_against": 7,
+    "last5": "LLLDD",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "FK Crvena zvezda",
+      "date": "2026-11-05"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": true,
+      "opponent": "CS Universitatea Craiova",
+      "date": "2026-10-22"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Mjällby AIF",
+      "date": "2026-10-15"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Drita",
+      "date": "2026-08-27"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "Drita",
+      "date": "2026-08-20"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 1824,
+    "name": "FC Copenhagen",
+    "position": 7,
+    "played": 3,
+    "points": 7.0,
+    "record": "2V 1E 0D",
+    "goals_for": 7,
+    "goals_against": 3,
+    "last5": "LWWDW",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-5",
+      "home": false,
+      "opponent": "FC Nordsjælland",
+      "date": "2026-11-22"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Brøndby IF",
+      "date": "2026-11-08"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "FC Iberia 1999",
+      "date": "2026-11-05"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "FK Crvena zvezda",
+      "date": "2026-10-22"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "SC Braga",
+      "date": "2026-10-15"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-26T17:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4828887,
+   "s365_competition_id": 7685,
+   "competition_name": "UEFA Conference League",
+   "start_time": "2026-11-26T15:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 10564,
+    "name": "Kairat Almaty"
+   },
+   "away": {
+    "id": 1906,
+    "name": "Mjällby AIF"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 0.94,
+    "lambda_away": 1.81,
+    "expected_goals": 2.75,
+    "sample_factor": 0.6,
+    "probs": {
+     "HOME": 0.192,
+     "DRAW": 0.2287,
+     "AWAY": 0.5793,
+     "1X": 0.4207,
+     "X2": 0.808,
+     "12": 0.7713,
+     "OVER25": 0.5174,
+     "UNDER25": 0.4826,
+     "BTTS_YES": 0.5083,
+     "BTTS_NO": 0.4917
+    }
+   },
+   "pick": {
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: Mjällby AIF ou empate (X2)",
+    "model_prob": 0.808,
+    "trend_alignment": 1.0,
+    "confidence": 41,
+    "eligible": true,
+    "odd": 1.67,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Mjällby AIF",
+     "model_prob": 0.5793,
+     "trend_alignment": 1.0,
+     "confidence": 35,
+     "eligible": true,
+     "odd": 3.02
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.4826,
+     "trend_alignment": 0.367,
+     "confidence": 8,
+     "eligible": false,
+     "odd": 1.91
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.4917,
+     "trend_alignment": 0.367,
+     "confidence": 8,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5174,
+     "trend_alignment": 0.0,
+     "confidence": 1,
+     "eligible": false,
+     "odd": 1.91
+    }
+   ],
+   "trends": [
+    {
+     "label": "Invicto em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "AWAY",
+     "team": "Mjällby AIF",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Menos de 2.5 gols em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "UNDER",
+     "team": "Mjällby AIF",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "under"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Mjällby AIF",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Kairat Almaty é 27º · Mjällby AIF é 9º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Mjällby AIF está 18 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Invicto em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "AWAY",
+     "team": "Mjällby AIF",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Mjällby AIF",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Mjällby AIF está 18 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 41,
+   "league": {
+    "key": "uecl",
+    "name": "UEFA Conference League",
+    "country": "Europa"
+   },
+   "home_team": {
+    "id": 10564,
+    "name": "Kairat Almaty",
+    "position": 27,
+    "played": 3,
+    "points": 2.0,
+    "record": "0V 2E 1D",
+    "goals_for": 3,
+    "goals_against": 7,
+    "last5": "DLD",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Atalanta",
+      "date": "2026-11-05"
+     },
+     {
+      "result": "L",
+      "score": "1-5",
+      "home": true,
+      "opponent": "Panathinaikos",
+      "date": "2026-10-22"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Riga",
+      "date": "2026-10-15"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 1906,
+    "name": "Mjällby AIF",
+    "position": 9,
+    "played": 3,
+    "points": 7.0,
+    "record": "2V 1E 0D",
+    "goals_for": 5,
+    "goals_against": 1,
+    "last5": "DDWDW",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Malmö FF",
+      "date": "2026-11-21"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "IF Brommapojkarna",
+      "date": "2026-11-08"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Borac Banjaluka",
+      "date": "2026-11-05"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "FC Iberia 1999",
+      "date": "2026-10-22"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Inter Escaldes",
+      "date": "2026-10-15"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-26T12:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  }
+ ]
+}

@@ -1,6 +1,6 @@
 {
  "date": "2026-11-25",
- "generated_at": "2026-11-23T19:30:44.013271-03:00",
+ "generated_at": "2026-11-24T01:38:04.070813-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 3,
@@ -624,7 +624,7 @@
     "trend_alignment": 1.0,
     "confidence": 57,
     "eligible": true,
-    "odd": 1.58,
+    "odd": 1.62,
     "low_conviction": false
    },
    "alt_markets": [
@@ -636,7 +636,7 @@
      "trend_alignment": 1.0,
      "confidence": 57,
      "eligible": true,
-     "odd": 1.16
+     "odd": 1.17
     },
     {
      "selection": "OVER25",
@@ -666,7 +666,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 5.52
+     "odd": 5.27
     }
    ],
    "trends": [
