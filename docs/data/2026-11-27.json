@@ -1,6 +1,6 @@
 {
  "date": "2026-11-27",
- "generated_at": "2026-11-25T00:23:33.836931-03:00",
+ "generated_at": "2026-11-25T17:25:54.323212-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 2,
@@ -91,7 +91,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 4.11
+     "odd": 4.21
     }
    ],
    "trends": [

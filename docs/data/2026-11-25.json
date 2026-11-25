@@ -1,6 +1,6 @@
 {
  "date": "2026-11-25",
- "generated_at": "2026-11-25T00:23:31.837254-03:00",
+ "generated_at": "2026-11-25T17:25:52.320733-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 3,
@@ -21,8 +21,8 @@
     "id": 50877,
     "name": "Modern Sport FC"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 0.0,
+   "away_score": 0.0,
    "model": {
     "lambda_home": 1.0,
     "lambda_away": 1.6,
@@ -285,7 +285,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -612,8 +612,8 @@
     "id": 132,
     "name": "FC Barcelona"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 1.0,
+   "away_score": 4.0,
    "model": {
     "lambda_home": 1.39,
     "lambda_away": 2.83,
@@ -887,7 +887,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   }
  ]
