@@ -1,0 +1,947 @@
+{
+ "date": "2026-11-27",
+ "generated_at": "2026-11-25T00:23:33.836931-03:00",
+ "version": "0.1.0",
+ "count": 3,
+ "clear_count": 2,
+ "day_total": 38,
+ "games": [
+  {
+   "id": 4755327,
+   "s365_competition_id": 25,
+   "competition_name": "Bundesliga",
+   "start_time": "2026-11-27T19:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 332,
+    "name": "Werder Bremen"
+   },
+   "away": {
+    "id": 349,
+    "name": "Borussia Mönchengladbach"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.6,
+    "lambda_away": 0.94,
+    "expected_goals": 3.54,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.7282,
+     "DRAW": 0.1576,
+     "AWAY": 0.1141,
+     "1X": 0.8859,
+     "X2": 0.2718,
+     "12": 0.8424,
+     "OVER25": 0.6858,
+     "UNDER25": 0.3142,
+     "BTTS_YES": 0.5648,
+     "BTTS_NO": 0.4352
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Werder Bremen",
+    "model_prob": 0.7282,
+    "trend_alignment": 1.0,
+    "confidence": 79,
+    "eligible": true,
+    "odd": 1.7,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Werder Bremen ou empate (1X)",
+     "model_prob": 0.8859,
+     "trend_alignment": 1.0,
+     "confidence": 79,
+     "eligible": true,
+     "odd": 1.24
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6858,
+     "trend_alignment": 0.227,
+     "confidence": 32,
+     "eligible": true,
+     "odd": 2.2
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5648,
+     "trend_alignment": 0.227,
+     "confidence": 16,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Borussia Mönchengladbach",
+     "model_prob": 0.1141,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 4.11
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Borussia Mönchengladbach",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Werder Bremen",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Só 2 derrota(s) em 10 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "HOME",
+     "team": "Werder Bremen",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Pior defesa da liga (2.6 sofridos/jogo)",
+     "strength": 0.34,
+     "favors": "OVER",
+     "team": "Borussia Mönchengladbach",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_bottom"
+    },
+    {
+     "label": "Werder Bremen é 6º · Borussia Mönchengladbach é 18º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Werder Bremen está 12 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Borussia Mönchengladbach",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Werder Bremen",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Só 2 derrota(s) em 10 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "HOME",
+     "team": "Werder Bremen",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Werder Bremen está 12 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 79,
+   "league": {
+    "key": "bundesliga",
+    "name": "Bundesliga",
+    "country": "Alemanha"
+   },
+   "home_team": {
+    "id": 332,
+    "name": "Werder Bremen",
+    "position": 6,
+    "played": 10,
+    "points": 18.0,
+    "record": "5V 3E 2D",
+    "goals_for": 21,
+    "goals_against": 15,
+    "last5": "WLWWD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "4-0",
+      "home": true,
+      "opponent": "Hamburger SV",
+      "date": "2026-11-22"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Stuttgart",
+      "date": "2026-11-07"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Hoffenheim",
+      "date": "2026-10-31"
+     },
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": false,
+      "opponent": "Mainz 05",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "SC Paderborn 07",
+      "date": "2026-10-17"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 349,
+    "name": "Borussia Mönchengladbach",
+    "position": 18,
+    "played": 10,
+    "points": 4.0,
+    "record": "1V 1E 8D",
+    "goals_for": 12,
+    "goals_against": 26,
+    "last5": "LLDWL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Borussia Dortmund",
+      "date": "2026-11-21"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": false,
+      "opponent": "Hamburger SV",
+      "date": "2026-11-06"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "SC Paderborn 07",
+      "date": "2026-10-31"
+     },
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": false,
+      "opponent": "Stuttgart",
+      "date": "2026-10-23"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Hoffenheim",
+      "date": "2026-10-18"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-27T16:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4732611,
+   "s365_competition_id": 17,
+   "competition_name": "Serie A",
+   "start_time": "2026-11-27T19:45:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 308,
+    "name": "Venezia"
+   },
+   "away": {
+    "id": 245,
+    "name": "Bologna"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.0,
+    "lambda_away": 1.76,
+    "expected_goals": 2.76,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.2144,
+     "DRAW": 0.2345,
+     "AWAY": 0.5511,
+     "1X": 0.4489,
+     "X2": 0.7856,
+     "12": 0.7655,
+     "OVER25": 0.5218,
+     "UNDER25": 0.4782,
+     "BTTS_YES": 0.5246,
+     "BTTS_NO": 0.4754
+    }
+   },
+   "pick": {
+    "selection": "X2",
+    "family": "double_chance",
+    "label": "Dupla chance: Bologna ou empate (X2)",
+    "model_prob": 0.7856,
+    "trend_alignment": 1.0,
+    "confidence": 65,
+    "eligible": true,
+    "odd": 1.33,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Bologna",
+     "model_prob": 0.5511,
+     "trend_alignment": 1.0,
+     "confidence": 56,
+     "eligible": true,
+     "odd": 2.15
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.5218,
+     "trend_alignment": 0.287,
+     "confidence": 13,
+     "eligible": false,
+     "odd": 2.01
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5246,
+     "trend_alignment": 0.287,
+     "confidence": 13,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Venezia",
+     "model_prob": 0.2144,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 3.4
+    }
+   ],
+   "trends": [
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "AWAY",
+     "team": "Bologna",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Ambos marcaram em 4 dos últimos 5",
+     "strength": 0.43,
+     "favors": "BTTS_YES",
+     "team": "Bologna",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "btts"
+    },
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "AWAY",
+     "team": "Venezia",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Não marcou em 4 dos últimos 5",
+     "strength": 0.44,
+     "favors": "AWAY",
+     "team": "Venezia",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "no_score"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Bologna",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Venezia é 20º · Bologna é 9º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Bologna está 11 posições à frente",
+     "strength": 0.786,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "AWAY",
+     "team": "Bologna",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "AWAY",
+     "team": "Venezia",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Não marcou em 4 dos últimos 5",
+     "strength": 0.44,
+     "favors": "AWAY",
+     "team": "Venezia",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "no_score"
+    },
+    {
+     "label": "Invicto há 5+ jogos",
+     "strength": 0.333,
+     "favors": "AWAY",
+     "team": "Bologna",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "unbeaten_streak"
+    },
+    {
+     "label": "Bologna está 11 posições à frente",
+     "strength": 0.786,
+     "favors": "AWAY",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 65,
+   "league": {
+    "key": "serie_a_ita",
+    "name": "Serie A",
+    "country": "Itália"
+   },
+   "home_team": {
+    "id": 308,
+    "name": "Venezia",
+    "position": 20,
+    "played": 12,
+    "points": 6.0,
+    "record": "2V 0E 10D",
+    "goals_for": 8,
+    "goals_against": 25,
+    "last5": "LWLLL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-4",
+      "home": false,
+      "opponent": "Juventus",
+      "date": "2026-11-22"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Udinese",
+      "date": "2026-11-06"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Como",
+      "date": "2026-11-01"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": true,
+      "opponent": "Inter Milan",
+      "date": "2026-10-28"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Genoa",
+      "date": "2026-10-25"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 245,
+    "name": "Bologna",
+    "position": 9,
+    "played": 12,
+    "points": 18.0,
+    "record": "5V 3E 4D",
+    "goals_for": 17,
+    "goals_against": 15,
+    "last5": "DWWWW",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Udinese",
+      "date": "2026-11-22"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": false,
+      "opponent": "Parma",
+      "date": "2026-11-07"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Monza",
+      "date": "2026-10-31"
+     },
+     {
+      "result": "W",
+      "score": "4-2",
+      "home": false,
+      "opponent": "AC Milan",
+      "date": "2026-10-28"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "Cagliari",
+      "date": "2026-10-24"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-27T16:45:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4891967,
+   "s365_competition_id": 649,
+   "competition_name": "Saudi League",
+   "start_time": "2026-11-27T14:20:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 8947,
+    "name": "Qadisiya"
+   },
+   "away": {
+    "id": 20733,
+    "name": "Al Feiha"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.82,
+    "lambda_away": 0.98,
+    "expected_goals": 3.8,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.7536,
+     "DRAW": 0.143,
+     "AWAY": 0.1034,
+     "1X": 0.8966,
+     "X2": 0.2464,
+     "12": 0.857,
+     "OVER25": 0.7302,
+     "UNDER25": 0.2698,
+     "BTTS_YES": 0.5871,
+     "BTTS_NO": 0.4129
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Qadisiya",
+    "model_prob": 0.7536,
+    "trend_alignment": 1.0,
+    "confidence": 80,
+    "eligible": true,
+    "odd": 1.16,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Qadisiya ou empate (1X)",
+     "model_prob": 0.8966,
+     "trend_alignment": 1.0,
+     "confidence": 80,
+     "eligible": true,
+     "odd": 1.04
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.7302,
+     "trend_alignment": 0.6,
+     "confidence": 51,
+     "eligible": true,
+     "odd": 1.73
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5871,
+     "trend_alignment": 0.6,
+     "confidence": 32,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Al Feiha",
+     "model_prob": 0.1034,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 12.0
+    }
+   ],
+   "trends": [
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "HOME",
+     "team": "Qadisiya",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "Qadisiya",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Só venceu 1 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Al Feiha",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "Ambos marcaram em 4 dos últimos 5",
+     "strength": 0.43,
+     "favors": "BTTS_YES",
+     "team": "Al Feiha",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "btts"
+    },
+    {
+     "label": "3ª melhor defesa da liga (1.0 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "HOME",
+     "team": "Qadisiya",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 2 derrota(s) em 12 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "HOME",
+     "team": "Qadisiya",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "2º melhor ataque da liga (2.7 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Qadisiya",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Qadisiya é 2º · Al Feiha é 13º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Qadisiya está 11 posições à frente",
+     "strength": 0.786,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "HOME",
+     "team": "Qadisiya",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Só venceu 1 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Al Feiha",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "winless"
+    },
+    {
+     "label": "3ª melhor defesa da liga (1.0 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "HOME",
+     "team": "Qadisiya",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Só 2 derrota(s) em 12 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "HOME",
+     "team": "Qadisiya",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "2º melhor ataque da liga (2.7 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Qadisiya",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Qadisiya está 11 posições à frente",
+     "strength": 0.786,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 80,
+   "league": {
+    "key": "saudi",
+    "name": "Saudi Pro League",
+    "country": "Arábia Saudita"
+   },
+   "home_team": {
+    "id": 8947,
+    "name": "Qadisiya",
+    "position": 2,
+    "played": 12,
+    "points": 28.0,
+    "record": "9V 1E 2D",
+    "goals_for": 32,
+    "goals_against": 12,
+    "last5": "WLWWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "6-0",
+      "home": false,
+      "opponent": "Al Riyadh SC",
+      "date": "2026-10-29"
+     },
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": true,
+      "opponent": "Al Hilal Riyadh",
+      "date": "2026-10-23"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Al Taawoun",
+      "date": "2026-10-20"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
+      "home": true,
+      "opponent": "Abha Club",
+      "date": "2026-10-16"
+     },
+     {
+      "result": "W",
+      "score": "5-0",
+      "home": false,
+      "opponent": "Al-Kholood",
+      "date": "2026-10-09"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 20733,
+    "name": "Al Feiha",
+    "position": 13,
+    "played": 12,
+    "points": 11.0,
+    "record": "2V 5E 5D",
+    "goals_for": 16,
+    "goals_against": 20,
+    "last5": "WDLLD",
+    "recent": [
+     {
+      "result": "W",
+      "score": "4-1",
+      "home": true,
+      "opponent": "Al Faysaly",
+      "date": "2026-10-31"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "Al Hazm",
+      "date": "2026-10-22"
+     },
+     {
+      "result": "L",
+      "score": "2-3",
+      "home": true,
+      "opponent": "Al Ahli Jeddah",
+      "date": "2026-10-19"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": false,
+      "opponent": "Al Khaleej Club",
+      "date": "2026-10-15"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Al Riyadh SC",
+      "date": "2026-10-11"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-27T11:20:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": false,
+   "below_bar": true
+  }
+ ]
+}

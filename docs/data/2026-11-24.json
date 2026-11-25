@@ -984,8 +984,8 @@
     "id": 146,
     "name": "Real Betis"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 0.0,
+   "away_score": 2.0,
    "model": {
     "lambda_home": 1.37,
     "lambda_away": 2.66,
@@ -1268,7 +1268,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   }
  ]

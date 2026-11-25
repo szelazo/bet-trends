@@ -1,9 +1,9 @@
 {
  "date": "2026-11-25",
- "generated_at": "2026-11-24T18:04:30.611461-03:00",
+ "generated_at": "2026-11-25T00:23:31.837254-03:00",
  "version": "0.1.0",
- "count": 4,
- "clear_count": 4,
+ "count": 3,
+ "clear_count": 3,
  "day_total": 24,
  "games": [
   {
@@ -289,299 +289,6 @@
    "clear": true
   },
   {
-   "id": 4828421,
-   "s365_competition_id": 572,
-   "competition_name": "UEFA Champions League",
-   "start_time": "2026-11-25T17:45:00+00:00",
-   "status_group": 2,
-   "round": "Round",
-   "home": {
-    "id": 50201,
-    "name": "Sabah"
-   },
-   "away": {
-    "id": 132,
-    "name": "FC Barcelona"
-   },
-   "home_score": -1.0,
-   "away_score": -1.0,
-   "model": {
-    "lambda_home": 1.39,
-    "lambda_away": 2.87,
-    "expected_goals": 4.26,
-    "sample_factor": 0.8,
-    "probs": {
-     "HOME": 0.1623,
-     "DRAW": 0.1596,
-     "AWAY": 0.6781,
-     "1X": 0.3219,
-     "X2": 0.8377,
-     "12": 0.8404,
-     "OVER25": 0.7971,
-     "UNDER25": 0.2029,
-     "BTTS_YES": 0.7089,
-     "BTTS_NO": 0.2911
-    }
-   },
-   "pick": {
-    "selection": "AWAY",
-    "family": "1x2",
-    "label": "Vitória do FC Barcelona",
-    "model_prob": 0.6781,
-    "trend_alignment": 1.0,
-    "confidence": 58,
-    "eligible": true,
-    "odd": 1.1,
-    "low_conviction": false
-   },
-   "alt_markets": [
-    {
-     "selection": "X2",
-     "family": "double_chance",
-     "label": "Dupla chance: FC Barcelona ou empate (X2)",
-     "model_prob": 0.8377,
-     "trend_alignment": 1.0,
-     "confidence": 58,
-     "eligible": true,
-     "odd": 1.01
-    },
-    {
-     "selection": "OVER25",
-     "family": "over_under",
-     "label": "Mais de 2.5 gols",
-     "model_prob": 0.7971,
-     "trend_alignment": 0.667,
-     "confidence": 50,
-     "eligible": true,
-     "odd": 1.73
-    },
-    {
-     "selection": "BTTS_YES",
-     "family": "btts",
-     "label": "Ambos os times marcam",
-     "model_prob": 0.7089,
-     "trend_alignment": 0.667,
-     "confidence": 40,
-     "eligible": true,
-     "odd": null
-    },
-    {
-     "selection": "HOME",
-     "family": "1x2",
-     "label": "Vitória do Sabah",
-     "model_prob": 0.1623,
-     "trend_alignment": 0.0,
-     "confidence": 0,
-     "eligible": false,
-     "odd": 21.0
-    }
-   ],
-   "trends": [
-    {
-     "label": "Venceu 5 dos últimos 6",
-     "strength": 0.667,
-     "favors": "AWAY",
-     "team": "FC Barcelona",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "Mais de 2.5 gols em 6 dos últimos 6",
-     "strength": 0.55,
-     "favors": "OVER",
-     "team": "FC Barcelona",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "over"
-    },
-    {
-     "label": "Perdeu 3 dos últimos 4",
-     "strength": 0.588,
-     "favors": "AWAY",
-     "team": "Sabah",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "Mais de 2.5 gols em 3 dos últimos 4",
-     "strength": 0.45,
-     "favors": "OVER",
-     "team": "Sabah",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "over"
-    },
-    {
-     "label": "3 vitórias seguidas",
-     "strength": 0.5,
-     "favors": "AWAY",
-     "team": "FC Barcelona",
-     "side": "AWAY",
-     "group": "sequencia",
-     "kind": "win_streak"
-    },
-    {
-     "label": "Sabah é 31º · FC Barcelona é 7º",
-     "strength": 0.0,
-     "favors": null,
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "positions"
-    },
-    {
-     "label": "FC Barcelona está 24 posições à frente",
-     "strength": 0.8,
-     "favors": "AWAY",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "aligned_trends": [
-    {
-     "label": "Venceu 5 dos últimos 6",
-     "strength": 0.667,
-     "favors": "AWAY",
-     "team": "FC Barcelona",
-     "side": "AWAY",
-     "group": "geral",
-     "kind": "wins"
-    },
-    {
-     "label": "Perdeu 3 dos últimos 4",
-     "strength": 0.588,
-     "favors": "AWAY",
-     "team": "Sabah",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "losses"
-    },
-    {
-     "label": "3 vitórias seguidas",
-     "strength": 0.5,
-     "favors": "AWAY",
-     "team": "FC Barcelona",
-     "side": "AWAY",
-     "group": "sequencia",
-     "kind": "win_streak"
-    },
-    {
-     "label": "FC Barcelona está 24 posições à frente",
-     "strength": 0.8,
-     "favors": "AWAY",
-     "team": null,
-     "side": null,
-     "group": "confronto",
-     "kind": "table_gap"
-    }
-   ],
-   "confidence": 58,
-   "league": {
-    "key": "ucl",
-    "name": "UEFA Champions League",
-    "country": "Europa"
-   },
-   "home_team": {
-    "id": 50201,
-    "name": "Sabah",
-    "position": 31,
-    "played": 4,
-    "points": 3.0,
-    "record": "1V 0E 3D",
-    "goals_for": 4,
-    "goals_against": 10,
-    "last5": "LLWL",
-    "recent": [
-     {
-      "result": "L",
-      "score": "1-4",
-      "home": false,
-      "opponent": "Viking",
-      "date": "2026-11-04"
-     },
-     {
-      "result": "L",
-      "score": "1-2",
-      "home": true,
-      "opponent": "Borussia Dortmund",
-      "date": "2026-10-20"
-     },
-     {
-      "result": "W",
-      "score": "2-0",
-      "home": true,
-      "opponent": "Slavia Praha",
-      "date": "2026-10-13"
-     },
-     {
-      "result": "L",
-      "score": "0-4",
-      "home": false,
-      "opponent": "Manchester United",
-      "date": "2026-09-10"
-     }
-    ]
-   },
-   "away_team": {
-    "id": 132,
-    "name": "FC Barcelona",
-    "position": 7,
-    "played": 4,
-    "points": 9.0,
-    "record": "3V 0E 1D",
-    "goals_for": 14,
-    "goals_against": 6,
-    "last5": "WWWLW",
-    "recent": [
-     {
-      "result": "W",
-      "score": "3-2",
-      "home": true,
-      "opponent": "Villarreal",
-      "date": "2026-11-22"
-     },
-     {
-      "result": "W",
-      "score": "2-1",
-      "home": false,
-      "opponent": "Atletico Madrid",
-      "date": "2026-11-08"
-     },
-     {
-      "result": "W",
-      "score": "3-0",
-      "home": true,
-      "opponent": "Aston Villa",
-      "date": "2026-11-03"
-     },
-     {
-      "result": "L",
-      "score": "2-4",
-      "home": false,
-      "opponent": "PSG",
-      "date": "2026-10-20"
-     },
-     {
-      "result": "W",
-      "score": "4-1",
-      "home": false,
-      "opponent": "Galatasaray",
-      "date": "2026-10-13"
-     }
-    ]
-   },
-   "kickoff_local": "2026-11-25T14:45:00-03:00",
-   "has_odds": true,
-   "odds_bookmaker": "365Scores",
-   "is_cup": false,
-   "result": "pending",
-   "clear": true
-  },
-  {
    "id": 4828416,
    "s365_competition_id": 572,
    "competition_name": "UEFA Champions League",
@@ -600,27 +307,27 @@
    "away_score": -1.0,
    "model": {
     "lambda_home": 1.22,
-    "lambda_away": 2.62,
-    "expected_goals": 3.84,
+    "lambda_away": 2.59,
+    "expected_goals": 3.81,
     "sample_factor": 0.8,
     "probs": {
-     "HOME": 0.1566,
-     "DRAW": 0.1689,
-     "AWAY": 0.6744,
-     "1X": 0.3256,
-     "X2": 0.8434,
-     "12": 0.8311,
-     "OVER25": 0.7371,
-     "UNDER25": 0.2629,
-     "BTTS_YES": 0.6526,
-     "BTTS_NO": 0.3474
+     "HOME": 0.1602,
+     "DRAW": 0.1713,
+     "AWAY": 0.6685,
+     "1X": 0.3315,
+     "X2": 0.8398,
+     "12": 0.8287,
+     "OVER25": 0.7326,
+     "UNDER25": 0.2674,
+     "BTTS_YES": 0.6518,
+     "BTTS_NO": 0.3482
     }
    },
    "pick": {
     "selection": "AWAY",
     "family": "1x2",
     "label": "Vitória do Bayern Munich",
-    "model_prob": 0.6744,
+    "model_prob": 0.6685,
     "trend_alignment": 1.0,
     "confidence": 58,
     "eligible": true,
@@ -632,7 +339,7 @@
      "selection": "X2",
      "family": "double_chance",
      "label": "Dupla chance: Bayern Munich ou empate (X2)",
-     "model_prob": 0.8434,
+     "model_prob": 0.8398,
      "trend_alignment": 1.0,
      "confidence": 58,
      "eligible": true,
@@ -642,7 +349,7 @@
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.7371,
+     "model_prob": 0.7326,
      "trend_alignment": 0.2,
      "confidence": 30,
      "eligible": true,
@@ -652,7 +359,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.6526,
+     "model_prob": 0.6518,
      "trend_alignment": 0.2,
      "confidence": 21,
      "eligible": true,
@@ -662,7 +369,7 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Lille",
-     "model_prob": 0.1566,
+     "model_prob": 0.1602,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
@@ -891,123 +598,141 @@
    "clear": true
   },
   {
-   "id": 4828413,
+   "id": 4828421,
    "s365_competition_id": 572,
    "competition_name": "UEFA Champions League",
-   "start_time": "2026-11-25T20:00:00+00:00",
+   "start_time": "2026-11-25T17:45:00+00:00",
    "status_group": 2,
    "round": "Round",
    "home": {
-    "id": 890,
-    "name": "Sporting CP"
+    "id": 50201,
+    "name": "Sabah"
    },
    "away": {
-    "id": 105,
-    "name": "Manchester United"
+    "id": 132,
+    "name": "FC Barcelona"
    },
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 2.31,
-    "lambda_away": 1.26,
-    "expected_goals": 3.56,
+    "lambda_home": 1.39,
+    "lambda_away": 2.83,
+    "expected_goals": 4.23,
     "sample_factor": 0.8,
     "probs": {
-     "HOME": 0.6094,
-     "DRAW": 0.1931,
-     "AWAY": 0.1975,
-     "1X": 0.8025,
-     "X2": 0.3906,
-     "12": 0.8069,
-     "OVER25": 0.6905,
-     "UNDER25": 0.3095,
-     "BTTS_YES": 0.6438,
-     "BTTS_NO": 0.3562
+     "HOME": 0.1658,
+     "DRAW": 0.1619,
+     "AWAY": 0.6723,
+     "1X": 0.3277,
+     "X2": 0.8342,
+     "12": 0.8381,
+     "OVER25": 0.7925,
+     "UNDER25": 0.2075,
+     "BTTS_YES": 0.7074,
+     "BTTS_NO": 0.2926
     }
    },
    "pick": {
-    "selection": "1X",
-    "family": "double_chance",
-    "label": "Dupla chance: Sporting CP ou empate (1X)",
-    "model_prob": 0.8025,
-    "trend_alignment": 0.862,
-    "confidence": 50,
+    "selection": "AWAY",
+    "family": "1x2",
+    "label": "Vitória do FC Barcelona",
+    "model_prob": 0.6723,
+    "trend_alignment": 1.0,
+    "confidence": 57,
     "eligible": true,
-    "odd": 1.51,
+    "odd": 1.08,
     "low_conviction": false
    },
    "alt_markets": [
     {
-     "selection": "HOME",
-     "family": "1x2",
-     "label": "Vitória do Sporting CP",
-     "model_prob": 0.6094,
-     "trend_alignment": 0.862,
-     "confidence": 45,
+     "selection": "X2",
+     "family": "double_chance",
+     "label": "Dupla chance: FC Barcelona ou empate (X2)",
+     "model_prob": 0.8342,
+     "trend_alignment": 1.0,
+     "confidence": 57,
      "eligible": true,
-     "odd": 2.55
+     "odd": 1.01
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6905,
-     "trend_alignment": 0.088,
-     "confidence": 22,
+     "model_prob": 0.7925,
+     "trend_alignment": 0.667,
+     "confidence": 49,
      "eligible": true,
-     "odd": 2.31
+     "odd": 1.73
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.6438,
-     "trend_alignment": 0.088,
-     "confidence": 17,
+     "model_prob": 0.7074,
+     "trend_alignment": 0.667,
+     "confidence": 40,
      "eligible": true,
      "odd": null
     },
     {
-     "selection": "AWAY",
+     "selection": "HOME",
      "family": "1x2",
-     "label": "Vitória do Manchester United",
-     "model_prob": 0.1975,
+     "label": "Vitória do Sabah",
+     "model_prob": 0.1658,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 2.6
+     "odd": 23.0
     }
    ],
    "trends": [
     {
-     "label": "Venceu 4 dos últimos 5",
-     "strength": 0.65,
-     "favors": "HOME",
-     "team": "Sporting CP",
-     "side": "HOME",
+     "label": "Venceu 5 dos últimos 6",
+     "strength": 0.667,
+     "favors": "AWAY",
+     "team": "FC Barcelona",
+     "side": "AWAY",
      "group": "geral",
      "kind": "wins"
     },
     {
-     "label": "Não sofreu gol em 3 dos últimos 5",
-     "strength": 0.39,
-     "favors": "UNDER",
-     "team": "Sporting CP",
-     "side": "HOME",
-     "group": "geral",
-     "kind": "clean_sheets"
-    },
-    {
-     "label": "Mais de 2.5 gols em 5 dos últimos 6",
-     "strength": 0.483,
+     "label": "Mais de 2.5 gols em 6 dos últimos 6",
+     "strength": 0.55,
      "favors": "OVER",
-     "team": "Manchester United",
+     "team": "FC Barcelona",
      "side": "AWAY",
      "group": "geral",
      "kind": "over"
     },
     {
-     "label": "Sporting CP é 11º · Manchester United é 20º",
+     "label": "Perdeu 3 dos últimos 4",
+     "strength": 0.588,
+     "favors": "AWAY",
+     "team": "Sabah",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Mais de 2.5 gols em 3 dos últimos 4",
+     "strength": 0.45,
+     "favors": "OVER",
+     "team": "Sabah",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "FC Barcelona",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "Sabah é 30º · FC Barcelona é 8º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -1016,9 +741,9 @@
      "kind": "positions"
     },
     {
-     "label": "Sporting CP está 9 posições à frente",
-     "strength": 0.643,
-     "favors": "HOME",
+     "label": "FC Barcelona está 22 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
      "team": null,
      "side": null,
      "group": "confronto",
@@ -1027,127 +752,138 @@
    ],
    "aligned_trends": [
     {
-     "label": "Venceu 4 dos últimos 5",
-     "strength": 0.65,
-     "favors": "HOME",
-     "team": "Sporting CP",
-     "side": "HOME",
+     "label": "Venceu 5 dos últimos 6",
+     "strength": 0.667,
+     "favors": "AWAY",
+     "team": "FC Barcelona",
+     "side": "AWAY",
      "group": "geral",
      "kind": "wins"
     },
     {
-     "label": "Sporting CP está 9 posições à frente",
-     "strength": 0.643,
-     "favors": "HOME",
+     "label": "Perdeu 3 dos últimos 4",
+     "strength": 0.588,
+     "favors": "AWAY",
+     "team": "Sabah",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "3 vitórias seguidas",
+     "strength": 0.5,
+     "favors": "AWAY",
+     "team": "FC Barcelona",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "win_streak"
+    },
+    {
+     "label": "FC Barcelona está 22 posições à frente",
+     "strength": 0.8,
+     "favors": "AWAY",
      "team": null,
      "side": null,
      "group": "confronto",
      "kind": "table_gap"
     }
    ],
-   "confidence": 50,
+   "confidence": 57,
    "league": {
     "key": "ucl",
     "name": "UEFA Champions League",
     "country": "Europa"
    },
    "home_team": {
-    "id": 890,
-    "name": "Sporting CP",
-    "position": 11,
+    "id": 50201,
+    "name": "Sabah",
+    "position": 30,
     "played": 4,
-    "points": 9.0,
-    "record": "3V 0E 1D",
-    "goals_for": 8,
-    "goals_against": 4,
-    "last5": "WWLWW",
+    "points": 3.0,
+    "record": "1V 0E 3D",
+    "goals_for": 4,
+    "goals_against": 10,
+    "last5": "LLWL",
     "recent": [
-     {
-      "result": "W",
-      "score": "1-0",
-      "home": true,
-      "opponent": "Moreirense",
-      "date": "2026-11-07"
-     },
-     {
-      "result": "W",
-      "score": "1-0",
-      "home": false,
-      "opponent": "Shakhtar Donetsk",
-      "date": "2026-11-03"
-     },
-     {
-      "result": "L",
-      "score": "2-3",
-      "home": true,
-      "opponent": "LASK Linz",
-      "date": "2026-10-21"
-     },
-     {
-      "result": "W",
-      "score": "2-0",
-      "home": false,
-      "opponent": "Lens",
-      "date": "2026-10-13"
-     },
-     {
-      "result": "W",
-      "score": "3-1",
-      "home": true,
-      "opponent": "Galatasaray",
-      "date": "2026-09-09"
-     }
-    ]
-   },
-   "away_team": {
-    "id": 105,
-    "name": "Manchester United",
-    "position": 20,
-    "played": 4,
-    "points": 6.0,
-    "record": "2V 0E 2D",
-    "goals_for": 8,
-    "goals_against": 8,
-    "last5": "LDWLL",
-    "recent": [
-     {
-      "result": "L",
-      "score": "0-4",
-      "home": false,
-      "opponent": "Liverpool",
-      "date": "2026-11-22"
-     },
-     {
-      "result": "D",
-      "score": "4-4",
-      "home": true,
-      "opponent": "Aston Villa",
-      "date": "2026-11-08"
-     },
-     {
-      "result": "W",
-      "score": "3-2",
-      "home": true,
-      "opponent": "AS Roma",
-      "date": "2026-11-03"
-     },
      {
       "result": "L",
       "score": "1-4",
       "home": false,
-      "opponent": "Como",
-      "date": "2026-10-21"
+      "opponent": "Viking",
+      "date": "2026-11-04"
      },
      {
       "result": "L",
-      "score": "0-2",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Borussia Dortmund",
+      "date": "2026-10-20"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "Slavia Praha",
+      "date": "2026-10-13"
+     },
+     {
+      "result": "L",
+      "score": "0-4",
+      "home": false,
+      "opponent": "Manchester United",
+      "date": "2026-09-10"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 132,
+    "name": "FC Barcelona",
+    "position": 8,
+    "played": 4,
+    "points": 9.0,
+    "record": "3V 0E 1D",
+    "goals_for": 14,
+    "goals_against": 6,
+    "last5": "WWWLW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": true,
+      "opponent": "Villarreal",
+      "date": "2026-11-22"
+     },
+     {
+      "result": "W",
+      "score": "2-1",
       "home": false,
       "opponent": "Atletico Madrid",
+      "date": "2026-11-08"
+     },
+     {
+      "result": "W",
+      "score": "3-0",
+      "home": true,
+      "opponent": "Aston Villa",
+      "date": "2026-11-03"
+     },
+     {
+      "result": "L",
+      "score": "2-4",
+      "home": false,
+      "opponent": "PSG",
+      "date": "2026-10-20"
+     },
+     {
+      "result": "W",
+      "score": "4-1",
+      "home": false,
+      "opponent": "Galatasaray",
       "date": "2026-10-13"
      }
     ]
    },
-   "kickoff_local": "2026-11-25T17:00:00-03:00",
+   "kickoff_local": "2026-11-25T14:45:00-03:00",
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
