@@ -1,6 +1,6 @@
 {
  "date": "2026-11-27",
- "generated_at": "2026-11-25T23:40:17.433001-03:00",
+ "generated_at": "2026-11-26T17:04:09.740715-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 2,
@@ -61,7 +61,7 @@
      "trend_alignment": 1.0,
      "confidence": 79,
      "eligible": true,
-     "odd": 1.24
+     "odd": 1.23
     },
     {
      "selection": "OVER25",
@@ -71,7 +71,7 @@
      "trend_alignment": 0.227,
      "confidence": 32,
      "eligible": true,
-     "odd": 2.2
+     "odd": 2.3
     },
     {
      "selection": "BTTS_YES",
@@ -91,7 +91,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 4.21
+     "odd": 4.34
     }
    ],
    "trends": [
@@ -352,7 +352,7 @@
      "trend_alignment": 1.0,
      "confidence": 56,
      "eligible": true,
-     "odd": 2.15
+     "odd": 2.2
     },
     {
      "selection": "OVER25",
@@ -362,7 +362,7 @@
      "trend_alignment": 0.287,
      "confidence": 13,
      "eligible": false,
-     "odd": 2.01
+     "odd": 2.11
     },
     {
      "selection": "BTTS_YES",
@@ -624,32 +624,32 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 2.82,
+    "lambda_home": 2.81,
     "lambda_away": 0.98,
-    "expected_goals": 3.8,
+    "expected_goals": 3.79,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.7536,
-     "DRAW": 0.143,
-     "AWAY": 0.1034,
-     "1X": 0.8966,
-     "X2": 0.2464,
-     "12": 0.857,
-     "OVER25": 0.7302,
-     "UNDER25": 0.2698,
-     "BTTS_YES": 0.5871,
-     "BTTS_NO": 0.4129
+     "HOME": 0.7519,
+     "DRAW": 0.1437,
+     "AWAY": 0.1044,
+     "1X": 0.8956,
+     "X2": 0.2481,
+     "12": 0.8563,
+     "OVER25": 0.7293,
+     "UNDER25": 0.2707,
+     "BTTS_YES": 0.5878,
+     "BTTS_NO": 0.4122
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Qadisiya",
-    "model_prob": 0.7536,
+    "model_prob": 0.7519,
     "trend_alignment": 1.0,
     "confidence": 80,
     "eligible": true,
-    "odd": 1.16,
+    "odd": 1.19,
     "low_conviction": false
    },
    "alt_markets": [
@@ -657,17 +657,17 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Qadisiya ou empate (1X)",
-     "model_prob": 0.8966,
+     "model_prob": 0.8956,
      "trend_alignment": 1.0,
      "confidence": 80,
      "eligible": true,
-     "odd": 1.04
+     "odd": 1.06
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.7302,
+     "model_prob": 0.7293,
      "trend_alignment": 0.6,
      "confidence": 51,
      "eligible": true,
@@ -677,7 +677,7 @@
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5871,
+     "model_prob": 0.5878,
      "trend_alignment": 0.6,
      "confidence": 32,
      "eligible": false,
@@ -687,11 +687,11 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Al Feiha",
-     "model_prob": 0.1034,
+     "model_prob": 0.1044,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 12.0
+     "odd": 10.0
     }
    ],
    "trends": [

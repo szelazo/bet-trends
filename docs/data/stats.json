@@ -1,5 +1,5 @@
 {
- "generated_for": "2026-11-25",
+ "generated_for": "2026-11-26",
  "since": "2026-09-03",
  "prelaunch": {
   "hits": 12,
@@ -12,21 +12,21 @@
   "total": 3
  },
  "last3": {
-  "hits": 8,
-  "misses": 2,
+  "hits": 7,
+  "misses": 3,
   "voids": 0,
   "total": 10
  },
  "week": {
-  "hits": 17,
+  "hits": 19,
   "misses": 8,
   "voids": 0,
-  "total": 25
+  "total": 27
  },
  "all_time": {
-  "hits": 186,
-  "misses": 63,
+  "hits": 188,
+  "misses": 64,
   "voids": 1,
-  "total": 249
+  "total": 252
  }
 }

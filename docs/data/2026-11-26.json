@@ -1,6 +1,6 @@
 {
  "date": "2026-11-26",
- "generated_at": "2026-11-25T23:40:16.686758-03:00",
+ "generated_at": "2026-11-26T17:04:08.995334-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -305,8 +305,8 @@
     "id": 50,
     "name": "Bournemouth"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 1.0,
+   "away_score": 2.0,
    "model": {
     "lambda_home": 1.01,
     "lambda_away": 1.89,
@@ -578,7 +578,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -596,8 +596,8 @@
     "id": 471,
     "name": "Monaco"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 3.0,
    "model": {
     "lambda_home": 0.96,
     "lambda_away": 2.16,
@@ -878,7 +878,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {
@@ -1187,8 +1187,8 @@
     "id": 1906,
     "name": "Mjällby AIF"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 1.0,
+   "away_score": 0.0,
    "model": {
     "lambda_home": 0.94,
     "lambda_away": 1.81,
@@ -1428,7 +1428,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "miss",
    "clear": true
   }
  ]

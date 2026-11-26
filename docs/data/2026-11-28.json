@@ -1,0 +1,1555 @@
+{
+ "date": "2026-11-28",
+ "generated_at": "2026-11-26T17:04:11.006833-03:00",
+ "version": "0.1.0",
+ "count": 5,
+ "clear_count": 5,
+ "day_total": 102,
+ "games": [
+  {
+   "id": 4757205,
+   "s365_competition_id": 73,
+   "competition_name": "Liga Portugal",
+   "start_time": "2026-11-28T15:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 927,
+    "name": "Arouca"
+   },
+   "away": {
+    "id": 904,
+    "name": "Rio Ave"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.82,
+    "lambda_away": 0.6,
+    "expected_goals": 2.42,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.6679,
+     "DRAW": 0.2163,
+     "AWAY": 0.1158,
+     "1X": 0.8842,
+     "X2": 0.3321,
+     "12": 0.7837,
+     "OVER25": 0.4343,
+     "UNDER25": 0.5657,
+     "BTTS_YES": 0.3772,
+     "BTTS_NO": 0.6228
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Arouca",
+    "model_prob": 0.6679,
+    "trend_alignment": 1.0,
+    "confidence": 78,
+    "eligible": true,
+    "odd": 1.6,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Arouca ou empate (1X)",
+     "model_prob": 0.8842,
+     "trend_alignment": 1.0,
+     "confidence": 78,
+     "eligible": true,
+     "odd": 1.18
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.6228,
+     "trend_alignment": 0.0,
+     "confidence": 16,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.5657,
+     "trend_alignment": 0.0,
+     "confidence": 9,
+     "eligible": false,
+     "odd": 1.84
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.4343,
+     "trend_alignment": 0.211,
+     "confidence": 7,
+     "eligible": false,
+     "odd": 1.94
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "HOME",
+     "team": "Rio Ave",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Sofreu gol em todos os últimos 5",
+     "strength": 0.4,
+     "favors": "OVER",
+     "team": "Rio Ave",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "always_concede"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Arouca",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Menos de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "UNDER",
+     "team": "Arouca",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "under"
+    },
+    {
+     "label": "3ª melhor defesa da liga (0.7 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "HOME",
+     "team": "Arouca",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Pior defesa da liga (2.2 sofridos/jogo)",
+     "strength": 0.34,
+     "favors": "OVER",
+     "team": "Rio Ave",
+     "side": "AWAY",
+     "group": "temporada",
+     "kind": "def_bottom"
+    },
+    {
+     "label": "Arouca é 5º · Rio Ave é 17º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Arouca está 12 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "HOME",
+     "team": "Rio Ave",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Arouca",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "3ª melhor defesa da liga (0.7 sofridos/jogo)",
+     "strength": 0.36,
+     "favors": "HOME",
+     "team": "Arouca",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "def_rank"
+    },
+    {
+     "label": "Arouca está 12 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 78,
+   "league": {
+    "key": "liga_pt",
+    "name": "Liga Portugal",
+    "country": "Portugal"
+   },
+   "home_team": {
+    "id": 927,
+    "name": "Arouca",
+    "position": 5,
+    "played": 11,
+    "points": 20.0,
+    "record": "6V 2E 3D",
+    "goals_for": 13,
+    "goals_against": 8,
+    "last5": "LWWWD",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Famalicão",
+      "date": "2026-11-06"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Nacional Madeira",
+      "date": "2026-11-01"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Alverca",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "Estrela da Amadora",
+      "date": "2026-10-11"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "Sporting CP",
+      "date": "2026-09-19"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 904,
+    "name": "Rio Ave",
+    "position": 17,
+    "played": 11,
+    "points": 7.0,
+    "record": "2V 1E 8D",
+    "goals_for": 9,
+    "goals_against": 24,
+    "last5": "LLLWL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "SC Braga",
+      "date": "2026-11-08"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Viseu",
+      "date": "2026-11-01"
+     },
+     {
+      "result": "L",
+      "score": "0-4",
+      "home": true,
+      "opponent": "Famalicão",
+      "date": "2026-10-25"
+     },
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": true,
+      "opponent": "Nacional Madeira",
+      "date": "2026-10-11"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Alverca",
+      "date": "2026-09-19"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-28T12:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4740680,
+   "s365_competition_id": 98,
+   "competition_name": "Jupiler Pro League",
+   "start_time": "2026-11-28T19:45:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 1178,
+    "name": "Charleroi"
+   },
+   "away": {
+    "id": 1200,
+    "name": "SK Beveren"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.9,
+    "lambda_away": 1.13,
+    "expected_goals": 4.03,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.7347,
+     "DRAW": 0.1458,
+     "AWAY": 0.1196,
+     "1X": 0.8804,
+     "X2": 0.2653,
+     "12": 0.8542,
+     "OVER25": 0.7659,
+     "UNDER25": 0.2341,
+     "BTTS_YES": 0.6403,
+     "BTTS_NO": 0.3597
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Charleroi",
+    "model_prob": 0.7347,
+    "trend_alignment": 1.0,
+    "confidence": 78,
+    "eligible": true,
+    "odd": 1.55,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Charleroi ou empate (1X)",
+     "model_prob": 0.8804,
+     "trend_alignment": 1.0,
+     "confidence": 78,
+     "eligible": true,
+     "odd": 1.16
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.7659,
+     "trend_alignment": 0.627,
+     "confidence": 56,
+     "eligible": true,
+     "odd": 1.62
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.6403,
+     "trend_alignment": 0.627,
+     "confidence": 40,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do SK Beveren",
+     "model_prob": 0.1196,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 5.55
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "SK Beveren",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "SK Beveren",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Charleroi",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "Charleroi",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Só 2 derrota(s) em 12 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "HOME",
+     "team": "Charleroi",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "3º melhor ataque da liga (2.3 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Charleroi",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Charleroi é 3º · SK Beveren é 10º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Charleroi está 7 posições à frente",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "SK Beveren",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Charleroi",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Só 2 derrota(s) em 12 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "HOME",
+     "team": "Charleroi",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "3º melhor ataque da liga (2.3 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Charleroi",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Charleroi está 7 posições à frente",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 78,
+   "league": {
+    "key": "belgium",
+    "name": "Jupiler Pro League",
+    "country": "Bélgica"
+   },
+   "home_team": {
+    "id": 1178,
+    "name": "Charleroi",
+    "position": 3,
+    "played": 12,
+    "points": 28.0,
+    "record": "9V 1E 2D",
+    "goals_for": 28,
+    "goals_against": 15,
+    "last5": "DWWLW",
+    "recent": [
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "STVV",
+      "date": "2026-11-21"
+     },
+     {
+      "result": "W",
+      "score": "5-1",
+      "home": false,
+      "opponent": "KVC Westerlo",
+      "date": "2026-11-07"
+     },
+     {
+      "result": "W",
+      "score": "5-2",
+      "home": true,
+      "opponent": "La Louvière Centre",
+      "date": "2026-11-01"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": false,
+      "opponent": "Royal Antwerp FC",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": false,
+      "opponent": "Standard de Liège",
+      "date": "2026-10-11"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 1200,
+    "name": "SK Beveren",
+    "position": 10,
+    "played": 12,
+    "points": 13.0,
+    "record": "4V 1E 7D",
+    "goals_for": 14,
+    "goals_against": 23,
+    "last5": "WLLDL",
+    "recent": [
+     {
+      "result": "W",
+      "score": "1-0",
+      "home": true,
+      "opponent": "KAA Gent",
+      "date": "2026-11-22"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": false,
+      "opponent": "Standard de Liège",
+      "date": "2026-11-06"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Union St. Gilloise",
+      "date": "2026-10-31"
+     },
+     {
+      "result": "D",
+      "score": "4-4",
+      "home": false,
+      "opponent": "KVC Westerlo",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": true,
+      "opponent": "Lommel United",
+      "date": "2026-10-09"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-28T16:45:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4891973,
+   "s365_competition_id": 649,
+   "competition_name": "Saudi League",
+   "start_time": "2026-11-28T17:30:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 8946,
+    "name": "Al Ahli Jeddah"
+   },
+   "away": {
+    "id": 8941,
+    "name": "Al Taawoun"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.7,
+    "lambda_away": 1.06,
+    "expected_goals": 3.77,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.7188,
+     "DRAW": 0.1563,
+     "AWAY": 0.1249,
+     "1X": 0.8751,
+     "X2": 0.2812,
+     "12": 0.8437,
+     "OVER25": 0.7249,
+     "UNDER25": 0.2751,
+     "BTTS_YES": 0.611,
+     "BTTS_NO": 0.389
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Al Ahli Jeddah",
+    "model_prob": 0.7188,
+    "trend_alignment": 1.0,
+    "confidence": 77,
+    "eligible": true,
+    "odd": 1.41,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Al Ahli Jeddah ou empate (1X)",
+     "model_prob": 0.8751,
+     "trend_alignment": 1.0,
+     "confidence": 77,
+     "eligible": true,
+     "odd": 1.15
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.7249,
+     "trend_alignment": 0.633,
+     "confidence": 51,
+     "eligible": true,
+     "odd": 2.27
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.611,
+     "trend_alignment": 0.633,
+     "confidence": 37,
+     "eligible": true,
+     "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Al Taawoun",
+     "model_prob": 0.1249,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 5.45
+    }
+   ],
+   "trends": [
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "HOME",
+     "team": "Al Ahli Jeddah",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Mais de 2.5 gols em 5 dos últimos 5",
+     "strength": 0.55,
+     "favors": "OVER",
+     "team": "Al Ahli Jeddah",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Al Taawoun",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Sofreu gol em todos os últimos 5",
+     "strength": 0.4,
+     "favors": "OVER",
+     "team": "Al Taawoun",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "always_concede"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Al Taawoun",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "3º melhor ataque da liga (2.6 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Al Ahli Jeddah",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Al Ahli Jeddah é 4º · Al Taawoun é 17º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Al Ahli Jeddah está 13 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Venceu 4 dos últimos 5",
+     "strength": 0.65,
+     "favors": "HOME",
+     "team": "Al Ahli Jeddah",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "wins"
+    },
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Al Taawoun",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Al Taawoun",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "3º melhor ataque da liga (2.6 marcados/jogo)",
+     "strength": 0.32,
+     "favors": "HOME",
+     "team": "Al Ahli Jeddah",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "atk_rank"
+    },
+    {
+     "label": "Al Ahli Jeddah está 13 posições à frente",
+     "strength": 0.8,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 77,
+   "league": {
+    "key": "saudi",
+    "name": "Saudi Pro League",
+    "country": "Arábia Saudita"
+   },
+   "home_team": {
+    "id": 8946,
+    "name": "Al Ahli Jeddah",
+    "position": 4,
+    "played": 12,
+    "points": 24.0,
+    "record": "8V 0E 4D",
+    "goals_for": 31,
+    "goals_against": 20,
+    "last5": "WLWWW",
+    "recent": [
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": true,
+      "opponent": "Al Nassr FC Riyadh",
+      "date": "2026-11-20"
+     },
+     {
+      "result": "L",
+      "score": "1-6",
+      "home": false,
+      "opponent": "Al Shabab Riyadh",
+      "date": "2026-10-30"
+     },
+     {
+      "result": "W",
+      "score": "4-1",
+      "home": true,
+      "opponent": "Al Khaleej Club",
+      "date": "2026-10-23"
+     },
+     {
+      "result": "W",
+      "score": "3-2",
+      "home": false,
+      "opponent": "Al Feiha",
+      "date": "2026-10-19"
+     },
+     {
+      "result": "W",
+      "score": "4-0",
+      "home": false,
+      "opponent": "Al Fateh",
+      "date": "2026-10-09"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 8941,
+    "name": "Al Taawoun",
+    "position": 17,
+    "played": 12,
+    "points": 5.0,
+    "record": "0V 5E 7D",
+    "goals_for": 6,
+    "goals_against": 20,
+    "last5": "DLLDL",
+    "recent": [
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": true,
+      "opponent": "Al Ettifaq",
+      "date": "2026-10-31"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Al Riyadh SC",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Qadisiya",
+      "date": "2026-10-20"
+     },
+     {
+      "result": "D",
+      "score": "1-1",
+      "home": false,
+      "opponent": "Diriyah",
+      "date": "2026-10-17"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": false,
+      "opponent": "Al Shabab Riyadh",
+      "date": "2026-10-11"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-28T14:30:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4740678,
+   "s365_competition_id": 98,
+   "competition_name": "Jupiler Pro League",
+   "start_time": "2026-11-28T19:45:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 1190,
+    "name": "Lommel United"
+   },
+   "away": {
+    "id": 1175,
+    "name": "Zulte Waregem"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 2.48,
+    "lambda_away": 1.0,
+    "expected_goals": 3.47,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.6966,
+     "DRAW": 0.1703,
+     "AWAY": 0.1331,
+     "1X": 0.8669,
+     "X2": 0.3034,
+     "12": 0.8297,
+     "OVER25": 0.6737,
+     "UNDER25": 0.3263,
+     "BTTS_YES": 0.5779,
+     "BTTS_NO": 0.4221
+    }
+   },
+   "pick": {
+    "selection": "1X",
+    "family": "double_chance",
+    "label": "Dupla chance: Lommel United ou empate (1X)",
+    "model_prob": 0.8669,
+    "trend_alignment": 1.0,
+    "confidence": 76,
+    "eligible": true,
+    "odd": 1.56,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "HOME",
+     "family": "1x2",
+     "label": "Vitória do Lommel United",
+     "model_prob": 0.6966,
+     "trend_alignment": 1.0,
+     "confidence": 70,
+     "eligible": true,
+     "odd": 2.6
+    },
+    {
+     "selection": "OVER25",
+     "family": "over_under",
+     "label": "Mais de 2.5 gols",
+     "model_prob": 0.6737,
+     "trend_alignment": 0.627,
+     "confidence": 45,
+     "eligible": true,
+     "odd": 1.58
+    },
+    {
+     "selection": "BTTS_YES",
+     "family": "btts",
+     "label": "Ambos os times marcam",
+     "model_prob": 0.5779,
+     "trend_alignment": 0.627,
+     "confidence": 32,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Zulte Waregem",
+     "model_prob": 0.1331,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 2.4
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "HOME",
+     "team": "Zulte Waregem",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "Zulte Waregem",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Lommel United",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Mais de 2.5 gols em 4 dos últimos 5",
+     "strength": 0.47,
+     "favors": "OVER",
+     "team": "Lommel United",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "over"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Zulte Waregem",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Lommel United é 8º · Zulte Waregem é 15º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Lommel United está 7 posições à frente",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 4 dos últimos 5",
+     "strength": 0.61,
+     "favors": "HOME",
+     "team": "Zulte Waregem",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Lommel United",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Não vence há 5+ jogos",
+     "strength": 0.333,
+     "favors": "HOME",
+     "team": "Zulte Waregem",
+     "side": "AWAY",
+     "group": "sequencia",
+     "kind": "winless_streak"
+    },
+    {
+     "label": "Lommel United está 7 posições à frente",
+     "strength": 0.5,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 76,
+   "league": {
+    "key": "belgium",
+    "name": "Jupiler Pro League",
+    "country": "Bélgica"
+   },
+   "home_team": {
+    "id": 1190,
+    "name": "Lommel United",
+    "position": 8,
+    "played": 12,
+    "points": 16.0,
+    "record": "4V 4E 4D",
+    "goals_for": 16,
+    "goals_against": 15,
+    "last5": "LDWDW",
+    "recent": [
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": true,
+      "opponent": "Standard de Liège",
+      "date": "2026-11-22"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "Royal Antwerp FC",
+      "date": "2026-11-07"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": true,
+      "opponent": "KAA Gent",
+      "date": "2026-11-01"
+     },
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": false,
+      "opponent": "Oud-Heverlee Leuven",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": false,
+      "opponent": "SK Beveren",
+      "date": "2026-10-09"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 1175,
+    "name": "Zulte Waregem",
+    "position": 15,
+    "played": 12,
+    "points": 12.0,
+    "record": "3V 3E 6D",
+    "goals_for": 15,
+    "goals_against": 22,
+    "last5": "DLLLL",
+    "recent": [
+     {
+      "result": "D",
+      "score": "2-2",
+      "home": true,
+      "opponent": "Royal Antwerp FC",
+      "date": "2026-11-21"
+     },
+     {
+      "result": "L",
+      "score": "1-4",
+      "home": false,
+      "opponent": "STVV",
+      "date": "2026-11-08"
+     },
+     {
+      "result": "L",
+      "score": "2-4",
+      "home": true,
+      "opponent": "Club Brugge",
+      "date": "2026-10-30"
+     },
+     {
+      "result": "L",
+      "score": "0-3",
+      "home": false,
+      "opponent": "La Louvière Centre",
+      "date": "2026-10-24"
+     },
+     {
+      "result": "L",
+      "score": "0-2",
+      "home": true,
+      "opponent": "KAA Gent",
+      "date": "2026-10-10"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-28T16:45:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  },
+  {
+   "id": 4748650,
+   "s365_competition_id": 129,
+   "competition_name": "Premier League",
+   "start_time": "2026-11-28T11:00:00+00:00",
+   "status_group": 2,
+   "round": "Round",
+   "home": {
+    "id": 1956,
+    "name": "Dynamo Kyiv"
+   },
+   "away": {
+    "id": 1961,
+    "name": "Chornomorets Odesa"
+   },
+   "home_score": -1.0,
+   "away_score": -1.0,
+   "model": {
+    "lambda_home": 1.71,
+    "lambda_away": 0.71,
+    "expected_goals": 2.42,
+    "sample_factor": 1.0,
+    "probs": {
+     "HOME": 0.6141,
+     "DRAW": 0.2344,
+     "AWAY": 0.1514,
+     "1X": 0.8486,
+     "X2": 0.3859,
+     "12": 0.7656,
+     "OVER25": 0.4353,
+     "UNDER25": 0.5647,
+     "BTTS_YES": 0.4162,
+     "BTTS_NO": 0.5838
+    }
+   },
+   "pick": {
+    "selection": "HOME",
+    "family": "1x2",
+    "label": "Vitória do Dynamo Kyiv",
+    "model_prob": 0.6141,
+    "trend_alignment": 1.0,
+    "confidence": 73,
+    "eligible": true,
+    "odd": 1.19,
+    "low_conviction": false
+   },
+   "alt_markets": [
+    {
+     "selection": "1X",
+     "family": "double_chance",
+     "label": "Dupla chance: Dynamo Kyiv ou empate (1X)",
+     "model_prob": 0.8486,
+     "trend_alignment": 1.0,
+     "confidence": 73,
+     "eligible": true,
+     "odd": 1.04
+    },
+    {
+     "selection": "BTTS_NO",
+     "family": "btts",
+     "label": "Ambos marcam: não",
+     "model_prob": 0.5838,
+     "trend_alignment": 0.0,
+     "confidence": 11,
+     "eligible": false,
+     "odd": null
+    },
+    {
+     "selection": "UNDER25",
+     "family": "over_under",
+     "label": "Menos de 2.5 gols",
+     "model_prob": 0.5647,
+     "trend_alignment": 0.0,
+     "confidence": 8,
+     "eligible": false,
+     "odd": 1.57
+    },
+    {
+     "selection": "AWAY",
+     "family": "1x2",
+     "label": "Vitória do Chornomorets Odesa",
+     "model_prob": 0.1514,
+     "trend_alignment": 0.0,
+     "confidence": 0,
+     "eligible": false,
+     "odd": 12.0
+    }
+   ],
+   "trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Chornomorets Odesa",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Não marcou em 3 dos últimos 5",
+     "strength": 0.38,
+     "favors": "HOME",
+     "team": "Chornomorets Odesa",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "no_score"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Dynamo Kyiv",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Só 2 derrota(s) em 12 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "HOME",
+     "team": "Dynamo Kyiv",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Dynamo Kyiv é 3º · Chornomorets Odesa é 13º",
+     "strength": 0.0,
+     "favors": null,
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "positions"
+    },
+    {
+     "label": "Dynamo Kyiv está 10 posições à frente",
+     "strength": 0.714,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "aligned_trends": [
+    {
+     "label": "Perdeu 3 dos últimos 5",
+     "strength": 0.52,
+     "favors": "HOME",
+     "team": "Chornomorets Odesa",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "losses"
+    },
+    {
+     "label": "Não marcou em 3 dos últimos 5",
+     "strength": 0.38,
+     "favors": "HOME",
+     "team": "Chornomorets Odesa",
+     "side": "AWAY",
+     "group": "geral",
+     "kind": "no_score"
+    },
+    {
+     "label": "Invicto em 4 dos últimos 5",
+     "strength": 0.48,
+     "favors": "HOME",
+     "team": "Dynamo Kyiv",
+     "side": "HOME",
+     "group": "geral",
+     "kind": "unbeaten"
+    },
+    {
+     "label": "Só 2 derrota(s) em 12 jogos no campeonato",
+     "strength": 0.34,
+     "favors": "HOME",
+     "team": "Dynamo Kyiv",
+     "side": "HOME",
+     "group": "temporada",
+     "kind": "few_losses"
+    },
+    {
+     "label": "Dynamo Kyiv está 10 posições à frente",
+     "strength": 0.714,
+     "favors": "HOME",
+     "team": null,
+     "side": null,
+     "group": "confronto",
+     "kind": "table_gap"
+    }
+   ],
+   "confidence": 73,
+   "league": {
+    "key": "ukraine",
+    "name": "Premier League",
+    "country": "Ucrânia"
+   },
+   "home_team": {
+    "id": 1956,
+    "name": "Dynamo Kyiv",
+    "position": 3,
+    "played": 12,
+    "points": 26.0,
+    "record": "8V 2E 2D",
+    "goals_for": 20,
+    "goals_against": 11,
+    "last5": "WDWWL",
+    "recent": [
+     {
+      "result": "W",
+      "score": "4-2",
+      "home": true,
+      "opponent": "Obolon Kyiv",
+      "date": "2026-11-22"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": false,
+      "opponent": "Shakhtar Donetsk",
+      "date": "2026-11-08"
+     },
+     {
+      "result": "W",
+      "score": "2-0",
+      "home": false,
+      "opponent": "Kryvbas",
+      "date": "2026-11-02"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": true,
+      "opponent": "Kudrivka",
+      "date": "2026-10-23"
+     },
+     {
+      "result": "L",
+      "score": "1-3",
+      "home": false,
+      "opponent": "Polissya",
+      "date": "2026-10-18"
+     }
+    ]
+   },
+   "away_team": {
+    "id": 1961,
+    "name": "Chornomorets Odesa",
+    "position": 13,
+    "played": 12,
+    "points": 9.0,
+    "record": "2V 3E 7D",
+    "goals_for": 8,
+    "goals_against": 14,
+    "last5": "LLWDL",
+    "recent": [
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": true,
+      "opponent": "Epicentr",
+      "date": "2026-11-23"
+     },
+     {
+      "result": "L",
+      "score": "0-1",
+      "home": false,
+      "opponent": "Kudrivka",
+      "date": "2026-11-07"
+     },
+     {
+      "result": "W",
+      "score": "3-1",
+      "home": false,
+      "opponent": "Veres Rivne",
+      "date": "2026-10-31"
+     },
+     {
+      "result": "D",
+      "score": "0-0",
+      "home": true,
+      "opponent": "Karpaty Lviv",
+      "date": "2026-10-25"
+     },
+     {
+      "result": "L",
+      "score": "1-2",
+      "home": false,
+      "opponent": "Zorya Luhansk",
+      "date": "2026-10-17"
+     }
+    ]
+   },
+   "kickoff_local": "2026-11-28T08:00:00-03:00",
+   "has_odds": true,
+   "odds_bookmaker": "365Scores",
+   "is_cup": false,
+   "result": "pending",
+   "clear": true
+  }
+ ]
+}
