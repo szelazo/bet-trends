@@ -1,6 +1,6 @@
 {
  "date": "2026-11-25",
- "generated_at": "2026-11-25T17:25:52.320733-03:00",
+ "generated_at": "2026-11-25T23:40:15.423925-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 3,
@@ -303,8 +303,8 @@
     "id": 331,
     "name": "Bayern Munich"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 1.0,
    "model": {
     "lambda_home": 1.22,
     "lambda_away": 2.59,
@@ -594,7 +594,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "miss",
    "clear": true
   },
   {

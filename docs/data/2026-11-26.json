@@ -1,6 +1,6 @@
 {
  "date": "2026-11-26",
- "generated_at": "2026-11-25T17:25:53.581247-03:00",
+ "generated_at": "2026-11-25T23:40:16.686758-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -49,7 +49,7 @@
     "trend_alignment": 1.0,
     "confidence": 63,
     "eligible": true,
-    "odd": 1.22,
+    "odd": 1.27,
     "low_conviction": false
    },
    "alt_markets": [
@@ -61,7 +61,7 @@
      "trend_alignment": 1.0,
      "confidence": 63,
      "eligible": true,
-     "odd": 1.06
+     "odd": 1.08
     },
     {
      "selection": "OVER25",
@@ -71,7 +71,7 @@
      "trend_alignment": 0.367,
      "confidence": 37,
      "eligible": true,
-     "odd": 1.89
+     "odd": 1.98
     },
     {
      "selection": "BTTS_YES",
@@ -91,7 +91,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 10.0
+     "odd": 8.5
     }
    ],
    "trends": [
@@ -333,7 +333,7 @@
     "trend_alignment": 1.0,
     "confidence": 54,
     "eligible": true,
-    "odd": 1.33,
+    "odd": 1.32,
     "low_conviction": false
    },
    "alt_markets": [
@@ -345,7 +345,7 @@
      "trend_alignment": 1.0,
      "confidence": 47,
      "eligible": true,
-     "odd": 2.1
+     "odd": 2.05
     },
     {
      "selection": "OVER25",
@@ -375,7 +375,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 3.4
+     "odd": 3.5
     }
    ],
    "trends": [
@@ -636,7 +636,7 @@
      "trend_alignment": 1.0,
      "confidence": 44,
      "eligible": true,
-     "odd": 1.15
+     "odd": 1.16
     },
     {
      "selection": "OVER25",
@@ -666,7 +666,7 @@
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 5.7
+     "odd": 5.46
     }
    ],
    "trends": [
@@ -1215,7 +1215,7 @@
     "trend_alignment": 1.0,
     "confidence": 41,
     "eligible": true,
-    "odd": 1.71,
+    "odd": 1.74,
     "low_conviction": false
    },
    "alt_markets": [
@@ -1227,7 +1227,7 @@
      "trend_alignment": 1.0,
      "confidence": 35,
      "eligible": true,
-     "odd": 3.22
+     "odd": 3.32
     },
     {
      "selection": "UNDER25",
