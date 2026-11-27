@@ -1,6 +1,6 @@
 {
  "date": "2026-11-27",
- "generated_at": "2026-11-26T23:40:52.123543-03:00",
+ "generated_at": "2026-11-27T16:52:33.952521-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 2,
@@ -621,8 +621,8 @@
     "id": 20733,
     "name": "Al Feiha"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 2.0,
+   "away_score": 0.0,
    "model": {
     "lambda_home": 2.81,
     "lambda_away": 0.98,
@@ -939,7 +939,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": false,
    "below_bar": true
   }
