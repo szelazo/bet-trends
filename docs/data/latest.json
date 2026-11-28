@@ -1,6 +1,6 @@
 {
  "date": "2026-11-27",
- "generated_at": "2026-11-27T16:52:33.952521-03:00",
+ "generated_at": "2026-11-27T23:30:29.419407-03:00",
  "version": "0.1.0",
  "count": 3,
  "clear_count": 2,
@@ -21,8 +21,8 @@
     "id": 349,
     "name": "Borussia Mönchengladbach"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 3.0,
+   "away_score": 3.0,
    "model": {
     "lambda_home": 2.6,
     "lambda_away": 0.94,
@@ -294,7 +294,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "miss",
    "clear": true
   },
   {
@@ -312,8 +312,8 @@
     "id": 245,
     "name": "Bologna"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 0.0,
+   "away_score": 0.0,
    "model": {
     "lambda_home": 1.0,
     "lambda_away": 1.76,
@@ -603,7 +603,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "hit",
    "clear": true
   },
   {

@@ -1,6 +1,6 @@
 {
  "date": "2026-11-29",
- "generated_at": "2026-11-27T16:52:36.474677-03:00",
+ "generated_at": "2026-11-27T23:30:31.903111-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
@@ -710,23 +710,23 @@
     "expected_goals": 2.26,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.648,
-     "DRAW": 0.2314,
-     "AWAY": 0.1206,
-     "1X": 0.8794,
-     "X2": 0.352,
-     "12": 0.7686,
+     "HOME": 0.6476,
+     "DRAW": 0.2315,
+     "AWAY": 0.1209,
+     "1X": 0.8791,
+     "X2": 0.3524,
+     "12": 0.7685,
      "OVER25": 0.3942,
      "UNDER25": 0.6058,
-     "BTTS_YES": 0.3546,
-     "BTTS_NO": 0.6454
+     "BTTS_YES": 0.3549,
+     "BTTS_NO": 0.6451
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Gil Vicente FC",
-    "model_prob": 0.648,
+    "model_prob": 0.6476,
     "trend_alignment": 1.0,
     "confidence": 78,
     "eligible": true,
@@ -738,7 +738,7 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Gil Vicente FC ou empate (1X)",
-     "model_prob": 0.8794,
+     "model_prob": 0.8791,
      "trend_alignment": 1.0,
      "confidence": 78,
      "eligible": true,
@@ -748,7 +748,7 @@
      "selection": "BTTS_NO",
      "family": "btts",
      "label": "Ambos marcam: não",
-     "model_prob": 0.6454,
+     "model_prob": 0.6451,
      "trend_alignment": 0.0,
      "confidence": 19,
      "eligible": true,
@@ -1397,7 +1397,7 @@
      "trend_alignment": 0.487,
      "confidence": 33,
      "eligible": true,
-     "odd": 1.58
+     "odd": 1.6
     },
     {
      "selection": "BTTS_YES",
