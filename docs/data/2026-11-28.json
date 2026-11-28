@@ -1,10 +1,10 @@
 {
  "date": "2026-11-28",
- "generated_at": "2026-11-27T23:30:30.654082-03:00",
+ "generated_at": "2026-11-28T15:46:44.734670-03:00",
  "version": "0.1.0",
  "count": 5,
  "clear_count": 5,
- "day_total": 102,
+ "day_total": 101,
  "games": [
   {
    "id": 4757205,
@@ -21,8 +21,8 @@
     "id": 904,
     "name": "Rio Ave"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 0.0,
+   "away_score": 0.0,
    "model": {
     "lambda_home": 1.82,
     "lambda_away": 0.6,
@@ -312,7 +312,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "miss",
    "clear": true
   },
   {
@@ -338,27 +338,27 @@
     "expected_goals": 4.03,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.7349,
-     "DRAW": 0.1457,
-     "AWAY": 0.1194,
-     "1X": 0.8806,
-     "X2": 0.2651,
-     "12": 0.8543,
-     "OVER25": 0.7658,
-     "UNDER25": 0.2342,
-     "BTTS_YES": 0.6401,
-     "BTTS_NO": 0.3599
+     "HOME": 0.7346,
+     "DRAW": 0.1458,
+     "AWAY": 0.1196,
+     "1X": 0.8804,
+     "X2": 0.2654,
+     "12": 0.8542,
+     "OVER25": 0.766,
+     "UNDER25": 0.234,
+     "BTTS_YES": 0.6405,
+     "BTTS_NO": 0.3595
     }
    },
    "pick": {
     "selection": "HOME",
     "family": "1x2",
     "label": "Vitória do Charleroi",
-    "model_prob": 0.7349,
+    "model_prob": 0.7346,
     "trend_alignment": 1.0,
     "confidence": 78,
     "eligible": true,
-    "odd": 1.56,
+    "odd": 1.71,
     "low_conviction": false
    },
    "alt_markets": [
@@ -366,27 +366,27 @@
      "selection": "1X",
      "family": "double_chance",
      "label": "Dupla chance: Charleroi ou empate (1X)",
-     "model_prob": 0.8806,
+     "model_prob": 0.8804,
      "trend_alignment": 1.0,
      "confidence": 78,
      "eligible": true,
-     "odd": 1.16
+     "odd": 1.21
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.7658,
+     "model_prob": 0.766,
      "trend_alignment": 0.627,
-     "confidence": 56,
+     "confidence": 57,
      "eligible": true,
-     "odd": 1.62
+     "odd": 1.7
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.6401,
+     "model_prob": 0.6405,
      "trend_alignment": 0.627,
      "confidence": 40,
      "eligible": true,
@@ -396,11 +396,11 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do SK Beveren",
-     "model_prob": 0.1194,
+     "model_prob": 0.1196,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 5.55
+     "odd": 4.54
     }
    ],
    "trends": [
@@ -459,7 +459,7 @@
      "kind": "atk_rank"
     },
     {
-     "label": "Charleroi é 3º · SK Beveren é 10º",
+     "label": "Charleroi é 3º · SK Beveren é 11º",
      "strength": 0.0,
      "favors": null,
      "team": null,
@@ -468,8 +468,8 @@
      "kind": "positions"
     },
     {
-     "label": "Charleroi está 7 posições à frente",
-     "strength": 0.5,
+     "label": "Charleroi está 8 posições à frente",
+     "strength": 0.571,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -515,8 +515,8 @@
      "kind": "atk_rank"
     },
     {
-     "label": "Charleroi está 7 posições à frente",
-     "strength": 0.5,
+     "label": "Charleroi está 8 posições à frente",
+     "strength": 0.571,
      "favors": "HOME",
      "team": null,
      "side": null,
@@ -581,7 +581,7 @@
    "away_team": {
     "id": 1200,
     "name": "SK Beveren",
-    "position": 10,
+    "position": 11,
     "played": 12,
     "points": 13.0,
     "record": "4V 1E 7D",
@@ -969,32 +969,32 @@
    "home_score": -1.0,
    "away_score": -1.0,
    "model": {
-    "lambda_home": 2.47,
+    "lambda_home": 2.48,
     "lambda_away": 1.0,
     "expected_goals": 3.47,
     "sample_factor": 1.0,
     "probs": {
-     "HOME": 0.6964,
-     "DRAW": 0.1704,
-     "AWAY": 0.1332,
-     "1X": 0.8668,
-     "X2": 0.3036,
-     "12": 0.8296,
-     "OVER25": 0.6731,
-     "UNDER25": 0.3269,
-     "BTTS_YES": 0.5775,
-     "BTTS_NO": 0.4225
+     "HOME": 0.6968,
+     "DRAW": 0.1702,
+     "AWAY": 0.133,
+     "1X": 0.867,
+     "X2": 0.3032,
+     "12": 0.8298,
+     "OVER25": 0.674,
+     "UNDER25": 0.326,
+     "BTTS_YES": 0.5781,
+     "BTTS_NO": 0.4219
     }
    },
    "pick": {
     "selection": "1X",
     "family": "double_chance",
     "label": "Dupla chance: Lommel United ou empate (1X)",
-    "model_prob": 0.8668,
+    "model_prob": 0.867,
     "trend_alignment": 1.0,
     "confidence": 76,
     "eligible": true,
-    "odd": 1.59,
+    "odd": 1.71,
     "low_conviction": false
    },
    "alt_markets": [
@@ -1002,27 +1002,27 @@
      "selection": "HOME",
      "family": "1x2",
      "label": "Vitória do Lommel United",
-     "model_prob": 0.6964,
+     "model_prob": 0.6968,
      "trend_alignment": 1.0,
      "confidence": 70,
      "eligible": true,
-     "odd": 2.7
+     "odd": 3.11
     },
     {
      "selection": "OVER25",
      "family": "over_under",
      "label": "Mais de 2.5 gols",
-     "model_prob": 0.6731,
+     "model_prob": 0.674,
      "trend_alignment": 0.627,
-     "confidence": 44,
+     "confidence": 45,
      "eligible": true,
-     "odd": 1.58
+     "odd": 1.74
     },
     {
      "selection": "BTTS_YES",
      "family": "btts",
      "label": "Ambos os times marcam",
-     "model_prob": 0.5775,
+     "model_prob": 0.5781,
      "trend_alignment": 0.627,
      "confidence": 32,
      "eligible": false,
@@ -1032,11 +1032,11 @@
      "selection": "AWAY",
      "family": "1x2",
      "label": "Vitória do Zulte Waregem",
-     "model_prob": 0.1332,
+     "model_prob": 0.133,
      "trend_alignment": 0.0,
      "confidence": 0,
      "eligible": false,
-     "odd": 2.35
+     "odd": 2.1
     }
    ],
    "trends": [
@@ -1266,8 +1266,8 @@
     "id": 1961,
     "name": "Chornomorets Odesa"
    },
-   "home_score": -1.0,
-   "away_score": -1.0,
+   "home_score": 0.0,
+   "away_score": 2.0,
    "model": {
     "lambda_home": 1.71,
     "lambda_away": 0.71,
@@ -1548,7 +1548,7 @@
    "has_odds": true,
    "odds_bookmaker": "365Scores",
    "is_cup": false,
-   "result": "pending",
+   "result": "miss",
    "clear": true
   }
  ]
